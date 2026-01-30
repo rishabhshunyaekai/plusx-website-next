@@ -11,7 +11,7 @@ export const metadata = {
   title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
   description : "Fast EV charging in Dubai. PlusX Electric offers emergency, doorstep, and home charger installation for EV cars at home, office, or villa.",
   alternates  : {
-    canonical: "https://plusxelectric.com/",
+    canonical : "https://plusxelectric.com/",
   },
 };
 

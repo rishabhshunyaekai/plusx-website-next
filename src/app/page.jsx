@@ -1,7 +1,13 @@
-function Home() {
+import Footer from "@/sharedComponents/Footer/Footer";
+import DownloadApp from "@/sharedComponents/DownloadApp/DownloadApp";
+
+function HomePage() {
   return (
-    <h1 className="text-red-500">Welcome to the PlusX Website ggr</h1>
+    <>
+      <DownloadApp />
+      <Footer />
+    </>
   );
 }
 
-export default Home;
+export default HomePage;
