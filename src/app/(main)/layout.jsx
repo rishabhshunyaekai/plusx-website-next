@@ -1,6 +1,6 @@
 import "@/app/globals.css";
-import Header from "@/sharedComponents/Header/Header";
-import Footer from "@/sharedComponents/Footer/Footer";
+import Header from "@/sharedComponents/header/header";
+import Footer from "@/sharedComponents/footer/footer";
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({
