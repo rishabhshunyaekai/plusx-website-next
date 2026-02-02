@@ -2,7 +2,7 @@
 .drawer-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: var(--color-shadow-dark);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -20,11 +20,11 @@
   left: 0;
   height: 100vh;
   width: 250px;
-  background: #ffffff;
+  background: var(--color-secondary);
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
   will-change: transform;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 10px var(--color-shadow);
 }
 
 .drawer.open {

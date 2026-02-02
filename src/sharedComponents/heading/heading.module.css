@@ -1,0 +1,42 @@
+.mainHeading, .secondHeading {
+  font-size: 32px;
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 500 !important;
+  padding-bottom: 35px !important;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .mainHeading, .secondHeading {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainHeading, .secondHeading {
+    font-size: 25px !important;
+  }
+}
+
+/* .heading h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.heading h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #00B26B;
+  bottom: 0;
+  left: calc(50% - 20px);
+} */

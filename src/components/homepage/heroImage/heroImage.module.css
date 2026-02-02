@@ -47,7 +47,7 @@
   background-color: var(--color-secondary);
   font-size: 28px;
   font-weight: 600 !important;
-  padding: 12px 20px !important;
+  padding: 8px 20px !important;
   color: var(--color-primary);
   border-radius: 12px;
   display: inline-block;
@@ -57,7 +57,7 @@
 .secondaryText {
   background-color: var(--color-primary);
   font-size: 38px;
-  padding: 12px 20px !important;
+  padding: 8px 20px !important;
   color: var(--color-secondary);
   border-radius: 12px;
   display: inline-block;
@@ -65,7 +65,7 @@
 }
 
 .downloadButton {
-  background-color: var(--color-secondary);
+  background-color: var(--color-background);
   color: var(--color-primary);
   padding: 8px 15px;
   border-radius: 10px;
@@ -96,12 +96,12 @@
 @media (max-width: 580px) {
   .primaryText {
     font-size: 25px;
-    padding: 8px 15px !important;
+    padding: 6px 15px !important;
   }
 
   .secondaryText {
     font-size: 25px;
-    padding: 8px 15px !important;
+    padding: 6px 15px !important;
   }
 
   .downloadButton {
@@ -113,16 +113,16 @@
 @media (max-width: 370px) {
   .primaryText {
     font-size: 22px;
-    padding: 8px 15px !important;
+    padding: 6px 15px !important;
   }
 
   .secondaryText {
     font-size: 22px;
-    padding: 8px 15px !important;
+    padding: 6px 15px !important;
   }
 
   .downloadButton {
-    padding: 8px 15px;
+    padding: 6px 15px;
     font-size: 15px;
   }
 }

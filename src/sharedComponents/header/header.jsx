@@ -202,15 +202,12 @@ function Header() {
       </div>
       
       <Drawer open={isDrawerOpen} onClose={toggleDrawer}>
-        <div id={style.logo}>
-          <Link href="/"><CompanyLogo /></Link>
-        </div>
         <ul className={style.navMenuMobile}>
-          <MobileDropdown title="PlusX" links={plusXOptions} /><hr />
-          <MobileDropdown title="Charging Solutions" links={chargingSolutionsOptions} /><hr />
-          <li><Link href="/mobility-solution">Mobility Solution</Link></li><hr />
-          <li><Link href="/ev-car-insurance">EV Insurance</Link></li><hr />
-          <li><Link href="/commercial-ev-charging-solutions">PlusX for Business</Link></li><hr />
+          <MobileDropdown title="PlusX" links={plusXOptions} /><hr className={style.mobileHr} />
+          <MobileDropdown title="Charging Solutions" links={chargingSolutionsOptions} /><hr className={style.mobileHr} />
+          <li><Link href="/mobility-solution">Mobility Solution</Link></li><hr className={style.mobileHr} />
+          <li><Link href="/ev-car-insurance">EV Insurance</Link></li><hr className={style.mobileHr} />
+          <li><Link href="/commercial-ev-charging-solutions">PlusX for Business</Link></li><hr className={style.mobileHr} />
           <li><button onClick={appRedirectionHandler} >Download App</button></li>
           {/* <li><Link href="/login">Guest Login</Link></li> */}
         </ul>
@@ -235,7 +232,7 @@ function MobileDropdown({ title, links }) {
         <ul className={style.subMenu}>
           {links.map((item, index) => (
             <>
-              <li key={index}><Link href={item.path}>{item.label}</Link></li>{index !== links.length - 1}
+              <li key={index}><Link href={item.path}>{item.label}</Link></li>{index !== links.length - 1 && <hr className={style.mobileHr} />}
             </>
           ))}
         </ul>

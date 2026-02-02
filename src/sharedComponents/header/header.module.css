@@ -176,7 +176,7 @@
   display: none;
   color: var(--color-secondary) !important;
   background-color: var(--color-primary);
-  padding: 2px 10px 5px 10px;
+  padding: 5px 7px;
   border-radius: 5px;
 }
 
@@ -193,7 +193,7 @@
   font-size: 13px;
   /* text-transform: uppercase; */
   overflow: hidden;
-  padding: 10px 22px 0px 15px;
+  padding: 10px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -219,11 +219,10 @@
   border: none;
 }
 
-/* hr {
+.mobileHr {
   margin: 0;
-  margin-top: 10px;
-  color: #a19191;
-} */
+  color: #9e969677;
+}
 
 @media (max-width: 1380px) {
   .resizableContainer {
@@ -270,7 +269,7 @@
     z-index: 999;
     color: var(--color-secondary) !important;
     background-color: var(--color-primary);
-    padding: 2px 10px 5px 10px;
+    padding: 5px 7px;
     border-radius: 5px;
   }
 
@@ -473,7 +472,7 @@
 
   color: var(--color-text);
   overflow: hidden;
-  padding: 10px 22px 5px 15px;
+  padding: 10px;
   text-decoration: none;
   width: 100%;
   outline: none;
