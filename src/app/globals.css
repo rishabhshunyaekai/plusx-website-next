@@ -6,6 +6,7 @@
   --color-primary     : #00b26b;
   --color-secondary   : #ffffff;
   --color-text        : #000000;
+  --color-shadow      : rgba(0, 0, 0, 0.1);
 }
 
 * {

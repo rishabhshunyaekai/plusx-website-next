@@ -1,0 +1,70 @@
+.downloadWrapper {
+  background-color: var(--color-secondary);
+  padding: 30px 0 30px;
+}
+
+.downloadAppSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.appContainer {
+  display: flex;
+}
+
+.keyText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.keyText .highlight {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.highlightedText {
+  font-size: 28px;
+}
+
+.appImage {
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+@media (max-width: 991px) {
+  .downloadAppSection {
+    column-gap: 20px;
+  }
+  .highlightedText {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .breakLine {
+    display: none;
+  }
+  .highlightedText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .downloadAppSection {
+    column-gap: 0px;
+  }
+  .keyText {
+    column-gap: 0px;
+  }
+  .highlightedText {
+    font-size: 18px;
+  }
+  .breakLine {
+    display: none;
+  }
+}
