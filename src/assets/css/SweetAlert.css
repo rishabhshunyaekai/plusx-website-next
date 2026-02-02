@@ -1,0 +1,27 @@
+/* SweetALert Popup CSS */
+.swal2-confirm {
+  background-color: #00b26b !important;
+  border: none;
+  color: #fff;
+}
+.sweetalert-text {
+  font-size: 1.125em;
+  padding: 0px 40px !important;
+  line-height: 25px;
+  margin-bottom: 0px !important;
+}
+div:where(.swal2-container) div:where(.swal2-popup) {
+  background-color: #f6f5f5 !important;
+  color: #000 !important;
+  border: 2px solid #00b26b !important;
+  border-radius: 14px !important;
+}
+div:where(.swal2-icon).swal2-success [class^="swal2-success-circular-line"] {
+  background-color: #f6f5f5 !important;
+}
+div:where(.swal2-icon).swal2-success .swal2-success-ring {
+  border: 0.25em solid #00b26b !important;
+}
+div:where(.swal2-icon).swal2-success [class^="swal2-success-line"] {
+  background-color: #00b26b !important;
+}

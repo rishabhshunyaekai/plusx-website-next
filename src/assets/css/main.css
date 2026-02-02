@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/public/fonts/Poppins-Regular.woff2") format("woff2"),
+       url("/public/fonts/Poppins-Regular.ttf") format("truetype");
+  weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* container */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+
+/* Header */
+@media (min-width: 1500px) {
+  header .container {
+    max-width: 1200px;
+  }
+}
+
+ul {
+  padding-left: 0px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  margin: 0 0 20px 0 !important;
+  padding: 0 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Footer social media icons */
+.css-20bmp1-MuiSvgIcon-root {
+  font-size: 18px !important;
+}
+
+/* Our Values Section CSS */
+.our-values {
+  padding: 0px 0px 60px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.our-values .container {
+  overflow: hidden;
+}

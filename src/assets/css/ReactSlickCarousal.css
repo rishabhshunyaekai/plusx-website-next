@@ -1,0 +1,42 @@
+/* React Slick Carousal / Slider CSS */
+.slick-slider button[type="button"] {
+  display: none !important;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 1rem !important;
+  margin-bottom: 20px !important;
+}
+
+/* .slick-dots {
+  bottom: -28px !important;
+} */
+
+.slick-dots li {
+  margin: 10px 3px !important;
+}
+
+.slick-dots li button:before {
+  opacity: 1 !important;
+  color: #ddd !important;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00b26b !important;
+}
+
+.slick-slide[aria-hidden="true"] a {
+  pointer-events: none !important;
+}
+
+@media (max-width: 767px) {
+  .slick-dots {
+    display: none !important;
+  }
+
+  .slick-slide[aria-hidden="true"] a {
+    pointer-events: none !important;
+  }
+}

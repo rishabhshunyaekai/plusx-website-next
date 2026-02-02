@@ -1,0 +1,90 @@
+.react-international-phone-input-container {
+  display: flex !important;
+  gap: 15px !important;
+  height: auto !important;
+}
+
+.react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  padding: 27px 15px !important;
+  border-radius: 10px !important;
+  background-color: #f6f5f5 !important;
+  border: 2px solid #00b26b !important;
+}
+
+.react-international-phone-input-container .react-international-phone-input {
+  padding: 27px 20px !important;
+  border-radius: 10px !important;
+  background-color: #f6f5f5 !important;
+  color: #000 !important;
+  width: 100% !important;
+  border: 2px solid #00b26b !important;
+  font-size: 1rem !important;
+}
+
+.react-international-phone-country-selector-dropdown {
+  margin-top: 10px !important;
+  background: #f6f5f5 !important;
+  color: #000 !important;
+  border: 1px solid #00b26b !important;
+  height: 190px !important;
+}
+
+.react-international-phone-country-selector-dropdown__list-item:hover {
+  background-color: #00b26b !important;
+  cursor: pointer !important;
+  color: #fff !important;
+}
+
+.react-international-phone-flag-emoji {
+  width: 35px !important;
+  height: 35px !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 767px) {
+  .react-international-phone-input-container .react-international-phone-input {
+    width: 100%;
+  }
+}
+
+/* Get In Touch Form Country code input field css */
+/* .react-international-phone-input-container {
+  display: flex !important;
+  height: auto !important;
+}
+.react-international-phone-input-container:focus-within {
+  color: #ffffff !important;
+  background-color: #212121 !important;
+  border-color: #91fcc9 !important;
+  outline: 0 !important;
+  box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%) !important;
+}
+.react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  background-color: #212121 !important;
+  border: 1px solid #212121 !important;
+  border-radius: 0.267rem !important;
+}
+
+.react-international-phone-input-container .react-international-phone-input {
+  font-size: 1rem !important;
+  color: #ffffff !important;
+  background-color: #212121 !important;
+  border: 1px solid #212121 !important;
+  border-radius: 0.267rem !important;
+  width: 100% !important;
+}
+
+.react-international-phone-country-selector-dropdown {
+  margin-top: 4px !important;
+  left: -19px !important;
+  background: #212121 !important;
+  color: #fff !important;
+}
+
+.react-international-phone-country-selector-dropdown__list-item:hover {
+  background-color: #212121 !important;
+  cursor: pointer !important;
+  color: #fff !important;
+} */
