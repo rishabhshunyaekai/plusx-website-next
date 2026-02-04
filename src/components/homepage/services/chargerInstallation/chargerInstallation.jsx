@@ -13,7 +13,7 @@ function ChargerInstallation() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV Charger <br className={style.breakLine} /> Installation</h2>
-              <h3 className={style.cardSubTitle}>At Homes, Offices & <br className={style.breakLine} /> Hotels</h3>
+              <h3 className={style.cardSubTitle}>At Homes, Offices & <br /> Hotels</h3>
               <div className={style.buttonContainer}>
                 <Link href="/ev-chargers" className={style.cardButton}>Know More</Link>
               </div>
@@ -27,7 +27,7 @@ function ChargerInstallation() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV <br className={style.breakLine} /> Insurance</h2>
-              <h3 className={style.cardSubTitle}>Buy or Renew <br className={style.breakLine} /> EV Insurance in Minutes</h3>
+              <h3 className={style.cardSubTitle}>Buy or Renew <br /> EV Insurance in Minutes</h3>
               <div className={style.buttonContainer}>
                 <Link href="/ev-car-insurance" className={style.cardButton}>Know More</Link>
               </div>

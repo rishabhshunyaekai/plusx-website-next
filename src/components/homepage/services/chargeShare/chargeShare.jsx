@@ -13,7 +13,7 @@ function ChargerShare() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>Public EV <br className={style.breakLine} /> Charging Stations</h2>
-              <h3 className={style.cardSubTitle}>Discover EV Charging <br className={style.breakLine} /> Nearby</h3>
+              <h3 className={style.cardSubTitle}>Discover EV Charging <br /> Nearby</h3>
               <div className={style.buttonContainer}>
                 <Link href="/public-ev-charging-stations" className={style.cardButton}>Know More</Link>
               </div>
@@ -27,7 +27,7 @@ function ChargerShare() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV Charge <br className={style.breakLine} /> Share</h2>
-              <h3 className={style.cardSubTitle}>List your charger or find accessible Private <br className={style.breakLine} /> chargers near you</h3>
+              <h3 className={style.cardSubTitle}>List your charger or find accessible Private <br className={style.ContentbreakLine} /> chargers near you</h3>
               <div className={style.buttonContainer}>
                 <Link href="/share-private-ev-charger" className={style.cardButton}>Know More</Link>
               </div>

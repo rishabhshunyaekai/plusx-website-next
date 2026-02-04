@@ -1,0 +1,17 @@
+.offer {
+  padding: 0px 0 60px;
+  background-color: var(--color-background);
+}
+
+.offerImageContainer:hover {
+  transform: translate(0, -10px);
+  transition: 0.3s;
+}
+
+.offerImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+}

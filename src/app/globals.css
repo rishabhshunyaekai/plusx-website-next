@@ -76,7 +76,7 @@ body {
   font-size: 18px;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .container {
       max-width: 960px;
   }
@@ -92,7 +92,7 @@ body {
   .container {
       max-width: 540px;
   }
-}
+} */
 
 /*
 @theme inline {

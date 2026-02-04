@@ -5,7 +5,7 @@
 
 .cardContainer {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   column-gap: 30px;
   flex-wrap: wrap;
 }
@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  flex: 1;
 }
 
 .counter {
@@ -83,10 +84,6 @@
     gap: 10px;
   }
 
-  .card {
-    padding: 10px 15px;
-  }
-
   .content img {
     width: 2rem;
   }
@@ -123,7 +120,7 @@
   }
 
   .card {
-    padding: 12px 20px;
+    padding: 20px;
     flex: 0 0 auto;
     min-width: 210px;
     scroll-snap-align: start;

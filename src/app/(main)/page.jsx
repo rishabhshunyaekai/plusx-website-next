@@ -6,6 +6,10 @@ import RSA            from "@/components/homepage/services/roadsideAssistance/ro
 import PickupDropoff  from "@/components/homepage/services/pickupDropoff/pickupDropoff";
 import Charger        from "@/components/homepage/services/chargerInstallation/chargerInstallation";
 import ChargerShare   from "@/components/homepage/services/chargeShare/chargeShare";
+import CTASection     from "@/components/homepage/ctaSection/ctaSection";
+import Partners       from "@/components/homepage/partnership/partnership";
+import Offers         from "@/components/homepage/offers/offers";
+import Sustainability from "@/components/homepage/sustainability/sustainability";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 
 function HomePage() {
@@ -19,6 +23,10 @@ function HomePage() {
       <PickupDropoff />
       <Charger />
       <ChargerShare />
+      <CTASection />
+      <Partners />
+      <Offers />
+      <Sustainability />
       <DownloadApp />
     </>
   );

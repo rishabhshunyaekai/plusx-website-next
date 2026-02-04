@@ -141,4 +141,13 @@
   .buttonContainer {
     column-gap: 15px;
   }
+  .ContentbreakLine {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .breakLine {
+    display: none;
+  }
 }
