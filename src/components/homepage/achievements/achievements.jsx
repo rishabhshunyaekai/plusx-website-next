@@ -14,7 +14,7 @@ function Achievements() {
         <div className={`${style.cardContainer}`}>
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={EvCarDriver} alt="Image" priority width={65} height={65} />
+              <Image src={EvCarDriver} alt="Image" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>575+</span>
                 <p className={`${style.title}`}>EVs Rescued  <br className={`${style.breakLine}`} />with RSA Service</p>
@@ -24,7 +24,7 @@ function Achievements() {
           
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Booking} alt="Image" priority width={65} height={65} />
+              <Image src={Booking} alt="Image" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>5000+</span>
                 <p className={`${style.title}`}>EVs Charged by  <br className={`${style.breakLine}`} />Power Pod</p>
@@ -34,7 +34,7 @@ function Achievements() {
 
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Station} alt="Image" priority width={65} height={65} />
+              <Image src={Station} alt="Image" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>375+</span>
                 <p className={`${style.title}`}>EV Chargers Installed Across UAE</p> 

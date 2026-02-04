@@ -46,22 +46,22 @@
 .primaryText {
   background-color: var(--color-secondary);
   font-size: 28px;
-  font-weight: 600 !important;
-  padding: 8px 20px !important;
+  font-weight: 600;
+  padding: 8px 20px;
   color: var(--color-primary);
   border-radius: 12px;
   display: inline-block;
-  margin: 0 !important;
+  margin: 0;
 }
 
 .secondaryText {
   background-color: var(--color-primary);
   font-size: 38px;
-  padding: 8px 20px !important;
+  padding: 8px 20px;
   color: var(--color-secondary);
   border-radius: 12px;
   display: inline-block;
-  margin: 0 !important;
+  margin: 0;
 }
 
 .downloadButton {
@@ -96,12 +96,12 @@
 @media (max-width: 580px) {
   .primaryText {
     font-size: 25px;
-    padding: 6px 15px !important;
+    padding: 6px 15px;
   }
 
   .secondaryText {
     font-size: 25px;
-    padding: 6px 15px !important;
+    padding: 6px 15px;
   }
 
   .downloadButton {
@@ -113,12 +113,12 @@
 @media (max-width: 370px) {
   .primaryText {
     font-size: 22px;
-    padding: 6px 15px !important;
+    padding: 6px 15px;
   }
 
   .secondaryText {
     font-size: 22px;
-    padding: 6px 15px !important;
+    padding: 6px 15px;
   }
 
   .downloadButton {
@@ -129,9 +129,9 @@
 
 /* .bannerContent h4 {
   font-size: 35px;
-  line-height: 50px !important;
+  line-height: 50px;
   color: var(--color-primary);
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 .bannerContent h4 .flip {
@@ -199,7 +199,7 @@
 } 
 
 .bannerContent h1 {
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 } 
 
 @media (max-width: 1280px) {
@@ -216,12 +216,12 @@
 
   .bannerContent h1 {
     margin-bottom: 10px;
-    font-size: 30px !important;
+    font-size: 30px;
   }
 
   .bannerContent h4 {
-    font-size: 25px !important;
-    line-height: 36px !important;
+    font-size: 25px;
+    line-height: 36px;
   }
 } */
 

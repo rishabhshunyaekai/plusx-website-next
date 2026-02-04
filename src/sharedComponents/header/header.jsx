@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect }        from "react";
+import React, { useState, useEffect } from "react";
 import Link                           from "next/link";
 import Image                          from "next/image";
 import style                          from "./header.module.css";
@@ -208,7 +208,7 @@ function Header() {
           <li><Link href="/mobility-solution">Mobility Solution</Link></li><hr className={style.mobileHr} />
           <li><Link href="/ev-car-insurance">EV Insurance</Link></li><hr className={style.mobileHr} />
           <li><Link href="/commercial-ev-charging-solutions">PlusX for Business</Link></li><hr className={style.mobileHr} />
-          <li><button onClick={appRedirectionHandler} >Download App</button></li>
+          <li><button onClick={appRedirectionHandler} className={style.downloadAppButton}>Download App</button></li>
           {/* <li><Link href="/login">Guest Login</Link></li> */}
         </ul>
       </Drawer>
@@ -231,9 +231,9 @@ function MobileDropdown({ title, links }) {
       {open && (
         <ul className={style.subMenu}>
           {links.map((item, index) => (
-            <>
-              <li key={index}><Link href={item.path}>{item.label}</Link></li>{index !== links.length - 1 && <hr className={style.mobileHr} />}
-            </>
+            <React.Fragment key={index}>
+              <li><Link href={item.path}>{item.label}</Link></li>{index !== links.length - 1 && <hr className={style.mobileHr} />}
+            </React.Fragment>
           ))}
         </ul>
       )}

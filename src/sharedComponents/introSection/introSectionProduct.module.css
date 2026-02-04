@@ -33,17 +33,17 @@
 }
 
 .buttonConatiner a:active {
-  background-color: var(--color-primary) !important;
-  color: var(--color-secondary) !important;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .heading h2 {
   font-size: 28px;
   color: var(--color-primary);
   text-align: center;
-  font-weight: 500 !important;
-  padding-bottom: 35px !important;
-  margin-bottom: 0 !important;
+  font-weight: 500;
+  padding-bottom: 35px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1200px) {
@@ -59,7 +59,7 @@
   }
 
   .heading h2 {
-    font-size: 25px !important;
+    font-size: 25px;
   }
 }
 
@@ -69,6 +69,6 @@
   }
 
   .heading h2 {
-    font-size: 23px !important;
+    font-size: 23px;
   }
 }

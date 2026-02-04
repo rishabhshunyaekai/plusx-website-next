@@ -11,7 +11,7 @@
 }
 
 .resizableContainer {
-  max-width: 1120px !important;
+  max-width: 1120px;
 }
 
 .header.headerScrolled {
@@ -58,7 +58,7 @@
   align-items: center;
   column-gap: 1.5rem;
   list-style-type: none;
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
 
 .navMenu a {
@@ -71,7 +71,7 @@
 }
 
 /* ul {
-  margin-bottom: 0px !important
+  margin-bottom: 0px
 } */
 
 .navMenu li:hover > a {
@@ -205,15 +205,15 @@
 .navMenuMobile li:hover > a {
   color: var(--color-primary);
 }
-.navMenuMobile button {
+.downloadAppButton {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 10px;
   background: var(--color-primary);
   color: var(--color-secondary);
   font-size: 13px;
   outline: none;
   padding: 7px 8px;
-  border-radius: 10px;
+  border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -226,7 +226,7 @@
 
 @media (max-width: 1380px) {
   .resizableContainer {
-    max-width: 1120px !important;
+    max-width: 1120px;
   }
 }
 
@@ -236,7 +236,7 @@
     justify-content: space-around;
   }
   .resizableContainer {
-    max-width: 1045px !important;
+    max-width: 1045px;
   }
   .headerWrap {
     padding: 20px 10px;
@@ -254,7 +254,7 @@
 
 @media (max-width: 991px) {
   .resizableContainer {
-    max-width: 720px !important;
+    max-width: 720px;
   }
 
   .displayHamburger {
@@ -267,7 +267,7 @@
     display: block;
     cursor: pointer;
     z-index: 999;
-    color: var(--color-secondary) !important;
+    color: var(--color-secondary);
     background-color: var(--color-primary);
     padding: 5px 7px;
     border-radius: 5px;

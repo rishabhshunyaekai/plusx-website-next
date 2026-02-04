@@ -1,21 +1,21 @@
-.mainHeading, .secondHeading {
+.mainHeading, .secondaryHeading {
   font-size: 32px;
   color: var(--color-primary);
   text-align: center;
-  font-weight: 500 !important;
-  padding-bottom: 35px !important;
-  margin-bottom: 0 !important;
+  font-weight: 500;
+  padding-bottom: 35px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 992px) {
-  .mainHeading, .secondHeading {
-    font-size: 28px !important;
+  .mainHeading, .secondaryHeading {
+    font-size: 28px;
   }
 }
 
 @media (max-width: 576px) {
-  .mainHeading, .secondHeading {
-    font-size: 25px !important;
+  .mainHeading, .secondaryHeading {
+    font-size: 25px;
   }
 }
 
@@ -36,7 +36,7 @@
   display: block;
   width: 40px;
   height: 3px;
-  background: #00B26B;
+  background: var(--color-primary);
   bottom: 0;
   left: calc(50% - 20px);
 } */

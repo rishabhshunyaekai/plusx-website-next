@@ -37,7 +37,7 @@
 
 .brandTitle {
   text-align: center;
-  color: #00b26b;
+  color: var(--color-primary);
   margin-bottom: 1.5rem;
   font-size: 32px;
   font-weight: 500;
