@@ -1,12 +1,8 @@
-.intro {
+.introSection {
   padding: 0px 0px 60px;
 }
 
-.intro .container {
-  overflow: hidden;
-}
-
-.intro p {
+.introDescription {
   font-size: 16px;
   color: var(--color-text);
   line-height: 1.8;
@@ -21,31 +17,18 @@
   margin-top: 10px;
 }
 
-.buttonConatiner a {
+.links {
   background-color: var(--color-primary);
   color: var(--color-secondary);
-  padding: 10px 20px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
 }
 
-.buttonConatiner a:hover {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-}
-
-.buttonConatiner a:active {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
-}
-
-/* second heading */
-.heading h2 {
-  font-size: 28px;
-  color: var(--color-primary);
-  text-align: center;
-  font-weight: 500;
-  position: relative;
-  padding-bottom: 35px;
-  margin-bottom: 0;
+.links:hover {
+  box-shadow: 0 4px 10px var(--color-shadow-dark);
 }
 
 @media (max-width: 1200px) {
@@ -55,22 +38,14 @@
 }
 
 @media (max-width: 992px) {
-  .intro p {
+  .introDescription {
     font-size: 16px;
     line-height: 1.6;
-  }
-
-  .heading h2 {
-    font-size: 25px;
   }
 }
 
 @media (max-width: 576px) {
-  .intro p {
+  .introDescription {
     font-size: 15px;
-  }
-
-  .heading h2 {
-    font-size: 23px;
   }
 }

@@ -1,0 +1,15 @@
+.portableBanner {
+  background: url(../../../assets/images/portable-charger-page/plusx-banner.webp) top no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+  .portableBanner {
+    background: url(../../../assets/images/portable-charger-page/plusx-banner-mobile.webp) top no-repeat;
+    background-size: cover;
+  }
+}

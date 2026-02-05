@@ -12,7 +12,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer id="footer" className={`${style.footer} ${style.footerTop}`}>
+    <footer id="footer" className={`${style.footer}`}>
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 sm:gap-2 md:gap-4">
             <div className={`${style.footerInfo}`}>
