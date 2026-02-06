@@ -1,3 +1,12 @@
+export const metadata = {
+  title         : "EV Insurance UAE | Compare & Book in PlusX App (Policybazaar)",
+  description   : "Get EV Insurance UAE on the PlusX App, powered by Policybazaar. Compare plans, review coverage, and book your EV insurance quickly across the UAE.",
+  keywords      : ["EV Insurance", "EV Insurance UAE", "PlusX"],
+  alternates    : {
+      canonical : "/ev-car-insurance",
+    },
+};
+
 function EVCarInsurancePage() {
   return (
     <div>

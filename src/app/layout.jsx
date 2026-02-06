@@ -1,5 +1,6 @@
 import "@/app/globals.css";
-import { Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google';
+import image from "@/assets/images/homepage/desktop-banner.webp";
 
 const poppins = Poppins({
   subsets : ['latin'],
@@ -8,10 +9,45 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
-  description : "Fast EV charging in Dubai. PlusX Electric offers emergency, doorstep, and home charger installation for EV cars at home, office, or villa.",
-  alternates  : {
-    canonical : "https://plusxelectric.com/",
+  title         : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
+  description   : "Find the best recipes in the world on this website.",
+  keywords      : ["plusx", "plusxelectric", "portable pod", "ev charging dubai"],
+  metadataBase  : new URL(process.env.BASE_URL || "https://plusxelectric.com"),
+  alternates    : {
+    canonical   : "/",
+  },
+  openGraph : {
+    title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
+    description : "Find the best recipes in the world on this website.",
+    siteName    : "PlusX Electric",
+    locale      : "en_US",
+    type        : "website",
+    images      : [
+    {
+      url       : "/images/homepage/desktop-banner.webp",
+      width     : 1200,
+      height    : 630,
+      alt       : "PlusX Electric EV Charging",
+    },
+  ],
+  },
+  twitter       : {
+    card        : "summary_large_image",
+    title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
+    description : "Find the best recipes in the world on this website.",
+    creator     : "https://plusxelectric.com",
+    images      : [image],
+  },
+  robots        : {
+    index       : true,
+    follow      : true,
+    googleBot   : {
+      index     : true,
+      follow    : true,
+      "max-snippet"       : -1,
+      "max-image-preview" : "large",
+      "max-video-preview" : -1,
+    },
   },
 };
 

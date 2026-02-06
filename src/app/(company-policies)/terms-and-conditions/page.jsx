@@ -1,3 +1,11 @@
+export const metadata = {
+  title         : "Terms & Conditions | PlusX Electric",
+  description   : "",
+  alternates    : {
+    canonical   : "/terms-and-conditions",
+  },
+};
+
 function TermsAndConditionsPage() {
   return (
     <div>

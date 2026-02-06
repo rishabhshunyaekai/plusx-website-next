@@ -1,3 +1,12 @@
+export const metadata = {
+  title         : "Sustainable Energy Company in Dubai | PlusX Electric",
+  description   : "Dubai’s leading sustainable energy company. PlusX Electric offers EV incentives, AI charging insights, and carbon credit solutions.",
+  keywords      : ["Sustainable", "Energy"],
+  alternates    : {
+      canonical : "/sustainability",
+    },
+};
+
 function SustainabilityPage() {
   return (
     <div>

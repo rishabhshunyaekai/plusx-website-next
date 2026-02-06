@@ -1,3 +1,11 @@
+export const metadata = {
+  title         : "Privacy Policy | PlusX Electric",
+  description   : "",
+  alternates    : {
+    canonical   : "/privacy-policy",
+  },
+};
+
 function PrivacyPolicyPage() {
   return (
     <div>
