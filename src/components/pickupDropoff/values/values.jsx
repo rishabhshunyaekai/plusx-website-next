@@ -1,8 +1,8 @@
-import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import Chargingstation  from "@/assets/images/pickup-dropoff-page/charging-station.svg";
+import ChargingTime     from "@/assets/images/pickup-dropoff-page/charging-time.svg";
 import Infrastructure   from "@/assets/images/pickup-dropoff-page/infrastructure.svg";
 import SavingTime       from "@/assets/images/pickup-dropoff-page/saving-time.svg";
-import ChargingTime     from "@/assets/images/pickup-dropoff-page/charging-time.svg";
+import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
 
 const valuesCardData = [
   {

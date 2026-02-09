@@ -1,8 +1,8 @@
 import Image      from "next/image";
-import style      from "./appSection.module.css";
-import Animated   from "@/sharedComponents/animatedComponent/animated";
 import appStore   from "@/assets/images/homepage/app-store.svg";
 import playStore  from "@/assets/images/homepage/play-store.svg";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
+import style      from "./appSection.module.css";
 
 function AppSection({title, description, image }) {
   return (

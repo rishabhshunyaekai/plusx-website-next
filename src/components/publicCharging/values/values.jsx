@@ -1,8 +1,8 @@
-import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
+import Direction        from "@/assets/images/public-charging-page/direction.svg";
 import FindNear         from "@/assets/images/public-charging-page/find-near.svg";
 import Savetime         from "@/assets/images/public-charging-page/save-time.svg";
 import Station          from "@/assets/images/public-charging-page/station.svg";
-import Direction        from "@/assets/images/public-charging-page/direction.svg";
+import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
 
 const valuesCardData = [
   {

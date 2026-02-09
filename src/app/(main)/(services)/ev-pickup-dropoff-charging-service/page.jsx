@@ -1,11 +1,11 @@
-import HeroImage    from "@/components/pickupDropoff/heroImage/heroImage";
-import Intro        from "@/components/pickupDropoff/pickupDropoffIntro/pickupDropoffIntro";
-import Values       from "@/components/pickupDropoff/values/values";
-import Pricing      from "@/components/pickupDropoff/pricing/pricing";
-import Feature      from "@/components/pickupDropoff/feature/feature";
 import Offers       from "@/components/homepage/offers/offers";
-import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+import Feature      from "@/components/pickupDropoff/feature/feature";
+import HeroImage    from "@/components/pickupDropoff/heroImage/heroImage";
 import Faqs         from "@/components/pickupDropoff/pickupDropoffFAQ/pickupDropoffFAQ";
+import Intro        from "@/components/pickupDropoff/pickupDropoffIntro/pickupDropoffIntro";
+import Pricing      from "@/components/pickupDropoff/pricing/pricing";
+import Values       from "@/components/pickupDropoff/values/values";
+import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 
 export const metadata = {
   title         : "EV Pickup & Drop Charging Service in Dubai | PlusX Electric",

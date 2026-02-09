@@ -1,5 +1,5 @@
-import SecondaryHeading from '@/sharedComponents/heading/secondaryHeading';
 import FAQs             from '@/sharedComponents/faqs/faqs';
+import SecondaryHeading from '@/sharedComponents/heading/secondaryHeading';
 
 function PickupDropoffFaqs() {
 

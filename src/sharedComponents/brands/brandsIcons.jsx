@@ -1,5 +1,3 @@
-import BrandCard from "./brandCard";
-import styles     from "./brandCard.module.css";
 import Audi       from "@/assets/images/landing-pages/brands-logo/audi.webp";
 import BMW        from "@/assets/images/landing-pages/brands-logo/bmw.webp";
 import BYD        from "@/assets/images/landing-pages/brands-logo/byd.webp";
@@ -10,6 +8,8 @@ import Poletar    from "@/assets/images/landing-pages/brands-logo/poletar.webp";
 import Porche     from "@/assets/images/landing-pages/brands-logo/porche.webp";
 import RR         from "@/assets/images/landing-pages/brands-logo/rolls-ryoce.webp";
 import Tesla      from "@/assets/images/landing-pages/brands-logo/tesla.webp";
+import BrandCard  from "./brandCard";
+import styles     from "./brandCard.module.css";
 // import MG         from "@/assets/images/landing-pages/brands-logo/mg.webp";
 
 const brands = [

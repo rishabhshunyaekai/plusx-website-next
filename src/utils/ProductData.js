@@ -1,13 +1,13 @@
 //Chargers Images
-import PortableEVChargerAC from "@/assets/images/EvChargerInstallation/Products/Chargers/PortableEVChargerAC.webp";
-import WallChargerAC from "@/assets/images/EvChargerInstallation/Products/Chargers/WallChargerAC.webp";
-import MovableChargerDC from "@/assets/images/EvChargerInstallation/Products/Chargers/MovableChargerDC.webp";
-import WallboxChargerDC from "@/assets/images/EvChargerInstallation/Products/Chargers/WallboxChargerDC.webp";
-import HighPowerDCCharger from "@/assets/images/EvChargerInstallation/Products/Chargers/HighPowerDCCharger.webp";
+import PortableEVChargerAC    from "@/assets/images/EvChargerInstallation/Products/Chargers/PortableEVChargerAC.webp";
+import WallChargerAC          from "@/assets/images/EvChargerInstallation/Products/Chargers/WallChargerAC.webp";
+import MovableChargerDC       from "@/assets/images/EvChargerInstallation/Products/Chargers/MovableChargerDC.webp";
+import WallboxChargerDC       from "@/assets/images/EvChargerInstallation/Products/Chargers/WallboxChargerDC.webp";
+import HighPowerDCCharger     from "@/assets/images/EvChargerInstallation/Products/Chargers/HighPowerDCCharger.webp";
 
 //Accessories Images
-import FixedBase from "@/assets/images/EvChargerInstallation/Products/Accessories/FixedBase.webp";
-import Bag from "@/assets/images/EvChargerInstallation/Products/Accessories/Bag.webp";
+import FixedBase              from "@/assets/images/EvChargerInstallation/Products/Accessories/FixedBase.webp";
+import Bag                    from "@/assets/images/EvChargerInstallation/Products/Accessories/Bag.webp";
 
 // import CCS2CCS1 from "../assets/EvChargerInstallation/Products/Accessories/CCS2-CCS1.webp";
 // import CCS2TOGBT from "../assets/EvChargerInstallation/Products/Accessories/CCS2-TO-GBT.webp";

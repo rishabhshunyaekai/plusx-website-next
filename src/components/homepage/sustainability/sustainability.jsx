@@ -1,7 +1,7 @@
 import Link             from "next/link";
-import style            from "./sustainability.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
+import style            from "./sustainability.module.css";
 
 const heading = "Sustainability";
 

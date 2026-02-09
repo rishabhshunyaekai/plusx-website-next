@@ -1,10 +1,9 @@
-import React from "react";
-import Link from "next/link";
-import SecondHeading from "../secondHeading/secondHeading";
-import Animated from "@/sharedComponents/animatedComponent/animated";
-
-import style from "./IntroSectionProduct.module.css";
-import MainHeading from "@/sharedComponents/heading/headingProduct1";
+import React              from "react";
+import Link               from "next/link";
+import SecondHeading      from "../secondHeading/secondHeading";
+import Animated           from "@/sharedComponents/animatedComponent/animated";
+import MainHeading        from "@/sharedComponents/heading/headingProduct1";
+import style              from "./IntroSectionProduct.module.css";
 
 function IntroSection({ title, secondTitle, content, secondDesc, showButton=false, buttonText, link }) {
   return (

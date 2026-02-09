@@ -1,7 +1,6 @@
 "use client";
 import useAdvertisingWpMess   from "@/hooks/useAdvertisingWpMess";
 import Animated               from "@/sharedComponents/animatedComponent/animated";
-
 import style                  from "./ChargerInstallationHeroImage.module.css";
 
 function ChargerInstallationHeroImage() {

@@ -1,8 +1,8 @@
 import Link     from "next/link";
 import Image    from "next/image";
-import style    from "./pickupDropoff.module.css";
-import Animated from "@/sharedComponents/animatedComponent/animated";
 import Pickup   from "@/assets/images/homepage/pickup-dropoff.png";
+import Animated from "@/sharedComponents/animatedComponent/animated";
+import style    from "./pickupDropoff.module.css";
 
 function PickupDropoff() {
   return (

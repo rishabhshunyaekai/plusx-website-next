@@ -1,10 +1,5 @@
-// import style from "./features.module.css";
-import FeaturesItem from "./featuresItem";
-import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-
-import styles from "./features.module.css";
 import HeadingProduct from "@/sharedComponents/heading/headingProduct";
-// import Download from "../../../assets/Chargers/download.svg";
+import styles         from "./features.module.css";
 
 function Features({ title, items, buttonText, buttonLink }) {
   return (

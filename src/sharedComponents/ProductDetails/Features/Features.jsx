@@ -1,6 +1,5 @@
 import FeatureItem from "@/sharedComponents/features/features";
 
-
 function Features({product}) {
   return (
     <>

@@ -1,8 +1,8 @@
 import Link       from "next/link";
 import Image      from "next/image";
-import style      from "./portablePod.module.css";
-import Animated   from "@/sharedComponents/animatedComponent/animated";
 import PowerPod   from "@/assets/images/homepage/power-pod.png";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
+import style      from "./portablePod.module.css";
 
 function PortablePod() {
   return (

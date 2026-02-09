@@ -1,6 +1,5 @@
 import Product          from "@/sharedComponents/product/product";
 import { chargers }     from "@/utils/ProductData";
-
 import style            from "./Chargers.module.css";
 
 function Chargers() {

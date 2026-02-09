@@ -1,6 +1,6 @@
+import image          from "@/assets/images/homepage/desktop-banner.webp";
+import { Poppins }    from 'next/font/google';
 import "@/app/globals.css";
-import { Poppins } from 'next/font/google';
-import image from "@/assets/images/homepage/desktop-banner.webp";
 
 const poppins = Poppins({
   subsets : ['latin'],

@@ -1,10 +1,10 @@
-import Image from "next/image";
-import style from "./achievements.module.css";
-import Animated from "@/sharedComponents/animatedComponent/animated";
-import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import Station from "@/assets/images/homepage/station.svg";
-import EvCarDriver from "@/assets/images/homepage/ev-car-driver.svg";
-import Booking from "@/assets/images/homepage/booking.svg";
+import Image                from "next/image";
+import Animated             from "@/sharedComponents/animatedComponent/animated";
+import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
+import Booking              from "@/assets/images/homepage/booking.svg";
+import EvCarDriver          from "@/assets/images/homepage/ev-car-driver.svg";
+import Station              from "@/assets/images/homepage/station.svg";
+import style                from "./achievements.module.css";
 
 function Achievements() {
   return (

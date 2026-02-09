@@ -1,7 +1,7 @@
 import { Fragment }       from "react";
-import style              from "./partnershipCard.module.css";
 import SecondaryHeading   from "../heading/secondaryHeading";
 import PartnershipIcons   from "./partnershipIcons";
+import style              from "./partnershipCard.module.css";
 
 function Partnership({title, description}) {
   return (

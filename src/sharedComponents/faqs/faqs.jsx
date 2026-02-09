@@ -1,8 +1,10 @@
 "use client";
-
 import { useState } from 'react';
 import style        from './faqs.module.css';
-import { RxChevronDown, RxChevronUp } from 'react-icons/rx';
+import {
+  RxChevronDown,
+  RxChevronUp
+}                   from 'react-icons/rx';
 
 function FaqsItem({ faqs = [] }) {
   const [openIndex, setOpenIndex] = useState(0);

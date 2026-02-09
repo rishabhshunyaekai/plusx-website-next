@@ -1,6 +1,6 @@
 // import Link from "next/link";
-import style from "./heroImage.module.css";
-import Animated from "@/sharedComponents/animatedComponent/animated";
+import Animated     from "@/sharedComponents/animatedComponent/animated";
+import style        from "./heroImage.module.css";
 
 function PublicChargingHeroImage() {
   return (

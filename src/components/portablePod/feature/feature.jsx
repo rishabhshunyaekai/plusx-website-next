@@ -1,7 +1,7 @@
-import Features     from "@/sharedComponents/features/features";
 import Pod          from "@/assets/images/portable-charger-page/new-pod.webp";
-import Location     from "@/assets/images/portable-charger-page/preferred-time-location.webp";
 import PodDelivered from "@/assets/images/portable-charger-page/pod-delivered.webp";
+import Location     from "@/assets/images/portable-charger-page/preferred-time-location.webp";
+import Features     from "@/sharedComponents/features/features";
 
 const heading = "How to Book Mobile Charging Services in Dubai?";
 const featuresData = [

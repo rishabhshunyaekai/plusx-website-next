@@ -1,6 +1,6 @@
-import style              from "./pricing.module.css";
-import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
 import PricingItem        from "./pricingItem";
+import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
+import style              from "./pricing.module.css";
 
 function Pricing({ title, pricingData }) {
   return (

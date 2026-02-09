@@ -1,6 +1,6 @@
-import Offer1 from "@/assets/images/homepage/offer-1.webp";
-import Offer2 from "@/assets/images/homepage/offer-2.webp";
-import ElectricOffer from "@/sharedComponents/electricOffer/electricOffer";
+import Offer1           from "@/assets/images/homepage/offer-1.webp";
+import Offer2           from "@/assets/images/homepage/offer-2.webp";
+import ElectricOffer    from "@/sharedComponents/electricOffer/electricOffer";
 
 const offers = [
   {

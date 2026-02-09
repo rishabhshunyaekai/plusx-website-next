@@ -1,8 +1,8 @@
 
 import Link             from "next/link";
 import Image            from "next/image";
-import SecondHeading    from "../secondHeading/secondHeading";
 import Animated         from "../animatedComponent/animated";
+import SecondHeading    from "../secondHeading/secondHeading";
 import style            from "./electricOffer.module.css";
 
 const ElectricOffer = ({ heading, offers }) => {

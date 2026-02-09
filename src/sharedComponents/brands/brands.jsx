@@ -1,7 +1,7 @@
 import { Fragment }     from "react";
-import style            from "./brandCard.module.css";
-import SecondaryHeading from "../heading/secondaryHeading";
 import BrandsIcons      from "./brandsIcons";
+import SecondaryHeading from "../heading/secondaryHeading";
+import style            from "./brandCard.module.css";
 
 function Brands({title, description}) {
   return (
