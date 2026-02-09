@@ -1,7 +1,6 @@
 .main {
   margin-top: 140px;
   padding: 0px 0 60px;
-  border: 2px solid red;
 }
 
 .productSection {
@@ -10,7 +9,6 @@
 
 .container {
   border-radius: 20px;
-  border: 2px solid rgb(0, 255, 42);
 }
 
 .productImage {
