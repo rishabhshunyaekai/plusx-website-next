@@ -4,8 +4,8 @@ import FAQs             from '@/sharedComponents/faqs/faqs';
 function PortablePodFaqs() {
 
   const portablePod = {
-    "@context": "https://schema.org",
-    "@type": "PortablePowerPodQuestions",
+    "@context"  : "https://schema.org",
+    "@type"     : "doorstepFAQs",
     "mainEntity": [
         {
             "@type" : "Question",
@@ -52,6 +52,7 @@ function PortablePodFaqs() {
 
   return (
     <section className={`container`}>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(portablePod) }} />
         <SecondaryHeading title={"FAQ's"}/>
         <FAQs faqs={portablePod.mainEntity}/>
     </section>

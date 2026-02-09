@@ -61,8 +61,8 @@ function Header() {
   }
 
   useEffect(() => {
-    const preloadQRImage = new window.Image();
-    preloadQRImage.src = QR;
+    // const preloadQRImage = new window.Image();
+    // // preloadQRImage.src = QR;
 
     window.addEventListener("scroll", handleScroll);
     return () => {

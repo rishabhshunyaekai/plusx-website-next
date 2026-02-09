@@ -26,6 +26,10 @@ body {
   padding: 0px 0px 60px;
 }
 
+.figure {
+  margin-top: 150px;
+}
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
