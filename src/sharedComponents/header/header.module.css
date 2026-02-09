@@ -253,9 +253,9 @@
 } */
 
 @media (max-width: 991px) {
-  .resizableContainer {
+  /* .resizableContainer {
     max-width: 720px;
-  }
+  } */
 
   .displayHamburger {
     display: block;
