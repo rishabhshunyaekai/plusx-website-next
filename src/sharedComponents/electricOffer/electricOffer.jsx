@@ -1,7 +1,7 @@
 
 import Link             from "next/link";
 import Image            from "next/image";
-import SecondHeading    from "../SecondHeading/SecondHeading";
+import SecondHeading    from "../secondHeading/secondHeading";
 import Animated         from "../animatedComponent/animated";
 import style            from "./electricOffer.module.css";
 

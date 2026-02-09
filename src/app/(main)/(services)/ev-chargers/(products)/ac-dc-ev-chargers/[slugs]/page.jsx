@@ -6,10 +6,10 @@ import {
 }                           from "next/navigation";
 import PlusxElectricOffer   from "@/components/homepage/plusxElectricOffer/plusxElectricOffer";
 import MediaDownload        from "@/sharedComponents/mediaDownload/mediaDownload";
-import Features             from "@/sharedComponents/ProductDetails/Features/Features";
-import Intro                from "@/sharedComponents/ProductDetails/Intro/Intro";
-import MultipleImage        from "@/sharedComponents/ProductDetails/MultipleImage/MultipleImage";
-import SimiliarProduct      from "@/sharedComponents/ProductDetails/SimiliarProduct/SimiliarProduct";
+import Features             from "@/sharedComponents/productDetails/features/features";
+import Intro                from "@/sharedComponents/productDetails/intro/intro";
+import MultipleImage        from "@/sharedComponents/productDetails/multipleImage/multipleImage";
+import SimiliarProduct      from "@/sharedComponents/productDetails/similiarProduct/similiarProduct";
 import { chargers }         from "@/utils/ProductData";
 
 export default function ProductDetailPage() {

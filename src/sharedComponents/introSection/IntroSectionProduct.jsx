@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import SecondHeading from "../SecondHeading/SecondHeading";
+import SecondHeading from "../secondHeading/secondHeading";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 import style from "./IntroSectionProduct.module.css";
-import MainHeading from "@/sharedComponents/heading/HeadingProduct1";
+import MainHeading from "@/sharedComponents/heading/headingProduct1";
 
 function IntroSection({ title, secondTitle, content, secondDesc, showButton=false, buttonText, link }) {
   return (

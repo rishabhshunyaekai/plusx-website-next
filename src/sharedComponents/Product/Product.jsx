@@ -1,9 +1,8 @@
-import CustomDropdown   from "../CustomDropdown/CustomDropdown";
-import ProductCard      from "./ProductCard";
-import SecondHeading    from "../SecondHeading/SecondHeading";
+import CustomDropdown   from "../customDropdown/customDropdown";
+import ProductCard      from "./productCard";
+import SecondHeading    from "../secondHeading/secondHeading";
 import Filter           from "@/assets/images/Chargers/filterIcons.webp";
-
-import styles           from "./Product.module.css";
+import styles           from "./product.module.css";
 
 function Product({ products, url, title, showFilter }) {
   return (
