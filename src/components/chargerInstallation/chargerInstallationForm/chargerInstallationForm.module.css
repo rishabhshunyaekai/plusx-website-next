@@ -1,0 +1,481 @@
+.getInTouchForm {
+  margin-top: 20px;
+}
+
+.formArea {
+  padding: 0 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formArea .formInner {
+  width: 100%;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 15px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  -webkit-transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.formControl:focus {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
+  outline: 0;
+  box-shadow: 0 3px 8px 0 var(--color-shadow);
+}
+
+.inputSelect {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.addressInput {
+  display: block;
+  width: 80%;
+  height: auto;
+  padding: 15px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  -webkit-transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.addressInput:focus {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
+  outline: 0;
+  box-shadow: 0 3px 8px 0 var(--color-shadow);
+}
+
+.couponInput {
+  display: block;
+  width: 80%;
+  height: auto;
+  padding: 15px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  -webkit-transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.couponInput:focus {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  outline: 0;
+  box-shadow: 0 3px 8px 0 var(--color-shadow);
+}
+
+.map {
+  border: 2px solid var(--color-primary);
+  width: 18%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--color-primary);
+  font-size: 1rem;
+  background-color: var(--color-background);
+}
+
+.applyButton {
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  width: 18%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+/* .checkBox > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 3px;
+  transition: all 0.3s;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+input:checked + .checkBox > span {
+  border: 15px solid #00B26B;
+  animation: bounce 250ms;
+  padding: 0;
+}
+
+.checkboxInput input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+} */
+/* 
+.checkboxInput input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkboxInput label {
+  display: flex;
+  align-items: center;
+  color: var(--color-secondary);
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+}
+
+.checkBox > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 0.3s;
+  border: 2px solid #00B26B;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.checkboxInput input:checked + label > span {
+  animation: bounce 0.25s;
+  background-color: #00B26B;
+  box-shadow: 0 0 0 2px #00B26B;
+  border-radius: 6px;
+} */
+
+.radioButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1rem;
+  color: var(--color-text);
+  height: 100%;
+}
+
+.checkboxInput input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+}
+
+.checkboxInput label {
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+}
+
+.checkBox > span {
+  min-width: 20px;
+  min-height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.3s;
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.checkboxInput input:checked + label > span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
+
+.vehicleType {
+  display: flex;
+  align-items: center;
+  color: var(--color-secondary);
+  position: relative;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+/* .checkboxInput label {
+  display: flex;
+  align-items: center;
+  color: var(--color-secondary);
+  position: relative;
+  font-size: 1rem;
+}
+
+input:checked + .checkBox > span::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  transform: rotate(45deg);
+  transform-origin: 0% 100%;
+  animation: checked-box 125ms 250ms forwards;
+}
+
+.checkboxInput {
+  position: relative;
+  top: -8px;
+} */
+
+.formGroup {
+  /* margin-bottom: 2rem; */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #867e7e !important;
+}
+
+.formSubmit {
+  background: var(--color-primary) !important;
+  color: var(--color-secondary) !important;
+  padding: 10px 30px !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.phoneInput {
+  width: 100%;
+  height: auto;
+  padding: 8px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-secondary);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.267rem;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
+
+.messages {
+  margin-top: 25px;
+  color: var(--color-secondary);
+}
+
+.summaryBox {
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  padding: 10px 19px;
+  color: #867e7e;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.totalButton {
+  background-color: var(--color-primary);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+.details {
+  margin-top: 16px;
+  font-size: 15px;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.divider {
+  border-top: 1px solid var(--color-primary);
+  margin: 8px 0;
+}
+
+.total {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.marginBottom {
+  margin: 0px 0px 32px 0;
+}
+
+.breaKline {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes checked-box {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: #212121;
+    transform: translate(0, 0) rotate(45deg);
+  }
+
+  33% {
+    width: 4px;
+    height: 0;
+    border-color: #212121;
+    transform: translate(0, 0) rotate(45deg);
+  }
+
+  100% {
+    width: 4px;
+    height: 8px;
+    border-color: #212121;
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  33% {
+    transform: scale(0.7);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@media (max-width: 991px) {
+  .controls {
+    gap: 24px;
+  }
+  .checkBox > span {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .checkboxInput label {
+    font-size: 16px;
+    min-width: 35vw;
+  }
+  .radioButtonContainer {
+    gap: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .formArea {
+    padding: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .breaKline {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .radioButtonContainer {
+    gap: 6px;
+  }
+  .checkBox > span {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 380px) {
+  .radioButtonContainer {
+    gap: 20px;
+    font-size: 0.9rem;
+  }
+  .checkboxInput label {
+    font-size: 0.9rem !important;
+  }
+}
