@@ -1,0 +1,240 @@
+.main {
+  margin-top: 140px;
+}
+
+.featuredService {
+  background: #f6f5f5;
+  padding: 0px 0 60px;
+}
+
+.featuredService .container {
+  background: url("@/assets/images/Chargers/banner.webp") center no-repeat !important;  
+  background-size: cover !important;
+  margin: auto;
+  padding: 100px 0;
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.featuredService .container:before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 110%;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  opacity: 1;
+}
+.featuredService .container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 
+.featuredService .container .row{
+  z-index: 999;
+  opacity: 1;
+  border: 2px solid red;
+} */
+
+.featuredService .spanText {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600 !important;
+  margin-bottom: 0 !important;
+  padding-left: 10px;
+}
+
+.featuredService h4 {
+  display: inline-block;
+  padding: 6px 10px !important;
+  background-color: #00b26b;
+  color: #fff;
+  font-weight: 400;
+  font-size: 35px;
+  border-radius: 12px;
+  margin: 0 !important;
+}
+
+/* .featuredService h4 span {
+  color: #00b26b;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 0;
+} */
+.featuredText {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+}
+
+.buttonContainer p{
+  font-size: 18px;
+}
+
+.border {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.chargerButton {
+  background-color: #00b26b;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid #00b26b;
+  font-size: 15px;
+}
+
+.chargerButton:hover {
+  background-color: #fff;
+  color: #00b26b;
+  cursor: pointer;
+}
+
+.serviceButton {
+  background-color: #fff;
+  color: #00b26b;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid #00b26b;
+  font-size: 15px;
+}
+
+.serviceButton:hover {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.highlightedText {
+  color: #00b26b;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .featuredService .container {
+    max-width: 1140px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .featuredService h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featuredText .spanText {
+    font-size: 28px;
+  }
+  .featuredText {
+    gap: 20px;
+  }
+  .buttonContainer p{
+  font-size: 16px;
+}
+}
+
+@media (max-width: 767px) {
+  .featuredService {
+    padding: 0 15px 60px;
+  }
+
+  .featuredService .container {
+    height: 60vh;
+  }
+
+  .featuredService .container:before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 255) 20%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    height: 80%;
+  }
+
+  .featuredService .container {
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  .featuredText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    z-index: 2;
+  }
+
+  .featuredText h4 {
+    font-size: 22px;
+    border-radius: 8px;
+  }
+
+  .featuredText .spanText {
+    font-size: 20px;
+  }
+
+  .chargerButton, .serviceButton {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .featuredService .container {
+    height: 70vh;
+  }
+
+  .featuredService .container:before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 255) 20%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .buttonContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .featuredText .spanText {
+    padding-left: 0px;
+  }
+  .highlightedText {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .border {
+    font-size: 14px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .featuredText h4 {
+    font-size: 28px;
+  }
+  .featuredText {
+    padding: 0 2%;
+  }
+  .featuredService {
+    padding: 0px 15px 60px;
+  }
+} */

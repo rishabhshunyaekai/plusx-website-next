@@ -1,0 +1,22 @@
+.heading h2 {
+  font-size: 32px;
+  color: #00B26B;
+  /* text-transform: uppercase; */
+  text-align: center;
+  font-weight: 500 !important;
+  position: relative;
+  padding-bottom: 35px !important;
+  margin-bottom: 0 !important;
+}
+
+ @media (max-width: 992px) {
+  .heading h2 {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading h2 {
+    font-size: 25px !important;
+  }
+} 
