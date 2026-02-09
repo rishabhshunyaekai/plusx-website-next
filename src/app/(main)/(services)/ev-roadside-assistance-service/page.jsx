@@ -1,3 +1,14 @@
+import HeroImage    from "@/components/roadsideAssistance/heroImage/heroImage";
+import Intro        from "@/components/roadsideAssistance/rsaIntro/rsaIntro";
+import Scenarios    from "@/components/roadsideAssistance/scenarios/scenarios";
+import BookingSteps from "@/components/roadsideAssistance/bookingSteps/bookingSteps";
+import WhyChoose    from "@/components/roadsideAssistance/whyChoose/whyChoose";
+import CTA          from "@/components/roadsideAssistance/cta/cta";
+import Brands       from "@/components/roadsideAssistance/brands/brands";
+import Offers       from "@/components/homepage/offers/offers";
+import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
+
 export const metadata = {
   title         : "Emergency EV Charging Service in Dubai | PlusX Electric",
   description   : "On-demand EV roadside charging in Dubai. PlusX Electric delivers quick top-ups or jump-starts anywhere, anytime to get you back on the road.",
@@ -39,10 +50,19 @@ const structuredData = {
 
 function EVRoadsideAssistanceServicePage() {
   return (
-    <div>
+    <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-      <h1 className="text-red-400">EV Roadside Assistance Service Page</h1>
-    </div>
+      <HeroImage />
+      <Intro />
+      <Scenarios />
+      <BookingSteps />
+      <WhyChoose />
+      <CTA />
+      <Brands />
+      <Offers />
+      <DownloadApp />
+      <FAQ />
+    </>
   )
 }
 

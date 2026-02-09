@@ -7,6 +7,7 @@
   --color-secondary   : #ffffff;
   --color-tertiary    : #36419D;
   --color-text        : #000000;
+  --color-link        : #0d6efd;;
   --color-shadow      : rgba(0, 0, 0, 0.1);
   --color-shadow-dark : rgba(0, 0, 0, 0.4);
 }
