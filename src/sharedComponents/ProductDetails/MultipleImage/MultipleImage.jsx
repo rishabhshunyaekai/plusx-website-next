@@ -9,7 +9,6 @@ import Icon3                    from "@/assets/images/Chargers/icon-3.svg";
 import { getInTouchForm }       from "@/service/getInTouchForm";
 import Animated                 from "@/sharedComponents/animatedComponent/animated";
 import Modal                    from "@/sharedComponents/Modal/Modal";
-
 import styles                   from "./MultipleImage.module.css";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";

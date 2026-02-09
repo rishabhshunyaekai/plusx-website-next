@@ -1,6 +1,7 @@
 .main {
   margin-top: 140px;
   padding: 0px 0 60px;
+  border: 2px solid red;
 }
 
 .productSection {
@@ -9,6 +10,7 @@
 
 .container {
   border-radius: 20px;
+  border: 2px solid rgb(0, 255, 42);
 }
 
 .productImage {
@@ -190,8 +192,7 @@
   background-color: #f6f5f5;
   border: 2px solid #00b26b;
   border-radius: 10px;
-  -webkit-transition: border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); */
 }
