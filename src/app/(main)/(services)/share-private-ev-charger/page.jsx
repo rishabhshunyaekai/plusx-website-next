@@ -1,3 +1,11 @@
+import HeroImage      from "@/components/chargeShare/heroImage/heroImage";
+import Intro          from "@/components/chargeShare/chargeShareIntro/chargeShareIntro";
+import Feature        from "@/components/chargeShare/feature/feature";
+import ListOfCharger  from "@/components/chargeShare/bookingSteps/listOfCharger";
+import AccessSteps    from "@/components/chargeShare/bookingSteps/accessSteps";
+import Offers         from "@/components/homepage/offers/offers";
+import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
+
 export const metadata = {
   title         : "Private EV Charger Sharing | EV Charger Marketplace | PlusX Electric",
   description   : "PlusX Electric’s EV charger marketplace makes private EV charger sharing simple—share your home EV charger and earn, or rent a private EV charger nearby for reliable charging access.",
@@ -9,9 +17,15 @@ export const metadata = {
 
 function EVChargeSharePage() {
   return (
-    <div>
-      <h1 className="text-red-400">EV Charge Share Page</h1>
-    </div>
+    <>
+      <HeroImage />
+      <Intro />
+      <Feature />
+      <ListOfCharger />
+      <AccessSteps />
+      <Offers />
+      <DownloadApp />
+    </>
   )
 }
 

@@ -40,8 +40,7 @@
 
 @media (max-width: 992px) {
   .plusxBanner {
-    background: url(../../../assets//images//ev-roadside-assistance-page/mobile-banner.webp)
-      center no-repeat;
+    background: url(../../../assets//images//ev-roadside-assistance-page/mobile-banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {
@@ -53,7 +52,6 @@
   .slug {
     padding: 10px 14px;
     font-size: 25px;
-    /* letter-spacing: 0px; */
   }
 
   .slug2 {
