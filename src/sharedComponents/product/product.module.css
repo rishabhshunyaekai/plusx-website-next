@@ -1,0 +1,136 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.filterButton button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 6px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--color-primary);
+}
+
+.filterButton button:hover {
+  background-color: #f9f9f9;
+  color: var(--color-primary);
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--color-primary);
+}
+
+.filterButton img {
+  filter: brightness(0) invert(1);
+}
+
+.filterButton button:hover img {
+  filter: none;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.radioButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 1rem;
+  color: var(--color-text);
+  height: 100%;
+}
+
+.checkboxInput input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+}
+
+.checkboxInput label {
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  gap: 10px;
+}
+
+.checkBox > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.3s;
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.checkboxInput input:checked + label > span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .filterButton button {
+    padding: 4px 10px;
+    border-radius: 10px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 450px) {
+  .radioButtonContainer {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 386px) {
+  .radioButtonContainer {
+    font-size: 14px;
+  }
+  .checkboxInput label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .radioButtonContainer {
+    font-size: 12px;
+  }
+  .checkboxInput label {
+    font-size: 12px;
+  }
+}

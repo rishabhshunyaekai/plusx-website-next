@@ -1,3 +1,8 @@
+import HeroImage        from "@/components/accessoriesList/heroImage/heroImage";
+import AccessoriesList  from "@/components/accessoriesList/accessories/accessories";
+import Offers           from "@/components/homepage/offers/offers";
+import DownloadApp      from "@/sharedComponents/downloadApp/downloadApp";
+
 export const metadata = {
   title         : "EV Charger Accessories | Wall Mount Brackets, Adapters & Carry Bags",
   description   : "Explore EV charger accessories, including durable wall mount brackets, universal adapters, and protective carry bags for portable EV chargers.",
@@ -9,9 +14,12 @@ export const metadata = {
 
 function EVAccessoriesPage() {
   return (
-    <div>
-      <h1 className="text-red-400">EV Accessories Page</h1>
-    </div>
+    <>
+      <HeroImage />
+      <AccessoriesList/>
+      <Offers />
+      <DownloadApp />
+    </>
   )
 }
 

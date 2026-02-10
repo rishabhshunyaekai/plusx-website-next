@@ -1,3 +1,8 @@
+import HeroImage    from "@/components/chargerList/heroImage/heroImage";
+import ChargersList from "@/components/chargerList/chargers/chargers";
+import Offers       from "@/components/homepage/offers/offers";
+import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+
 export const metadata = {
   title         : "AC & DC EV Chargers for Homes, Villas, Apartments & Workspaces",
   description   : "Explore AC & DC EV chargers from PlusX Electric for homes, villas, apartments, workspaces, businesses and commercial charging setups.",
@@ -66,10 +71,12 @@ export const metadata = {
 
 function EvACDCChargersPage() {
   return (
-    <div>
-      {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /> */}
-      <h1 className="text-red-400">AC DC EV Chargers Page</h1>
-    </div>
+    <>
+      <HeroImage />
+      <ChargersList/>
+      <Offers />
+      <DownloadApp />
+    </>
   )
 }
 
