@@ -1,0 +1,58 @@
+.main {
+  background-color: var(--color-primary);
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.ctaContainer {
+  padding: 4.5% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ctaHeading,.ctaContent {
+  color: var(--color-secondary);
+}
+
+.ctaHeading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.ctaContent {
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .ctaHeading {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ctaContainer {
+    padding: 4.5% 6%;
+  }
+  .ctaHeading {
+    font-size: 28px;
+  }
+  .ctaContent {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaContainer {
+    padding: 6% 4%;
+  }
+  .ctaContent {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaHeading {
+    font-size: 25px;
+  }
+}

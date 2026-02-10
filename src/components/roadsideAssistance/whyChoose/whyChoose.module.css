@@ -1,0 +1,99 @@
+.wrapper {
+  padding: 20px 0;
+}
+
+.isTablet {
+  display: none;
+}
+
+/* IMAGE */
+.imageWrapper {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.rightContent {
+  padding-top: 40px;
+}
+
+.whyWeChoose {
+  font-size: 32px;
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.keyPoint {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.keyPoint li {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.keyPoint li::before {
+  content: "•";
+  font-size: 40px;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+.linkColor {
+  color: var(--color-link);
+}
+
+@media (max-width: 1200px) {
+  .whyWeChoose {
+    font-size: 28px;
+  }
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+  .isTablet {
+    display: block;
+  }
+  .isDesktop,
+  .headingBreakLine {
+    display: none;
+  }
+  .whyWeChoose {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .rightContent {
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+
+  .keyPoint li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rightContent {
+    padding-top: 0px;
+    padding-left: 25px;
+  }
+  .keyPoint li {
+    font-size: 15px;
+  }
+}

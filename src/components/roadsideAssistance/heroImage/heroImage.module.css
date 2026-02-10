@@ -1,0 +1,102 @@
+.plusxBanner {
+  background: url(../../../assets//images//ev-roadside-assistance-page/desktop-banner.webp) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 150px 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slug {
+  background-color: var(--color-primary);
+  padding: 10px 14px;
+  color: var(--color-secondary);
+  font-size: 30px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.slug2 {
+  background-color: var(--color-tertiary);
+  padding: 10px 14px;
+  color: var(--color-secondary);
+  font-size: 27px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .plusxBanner {
+    background: url(../../../assets//images//ev-roadside-assistance-page/mobile-banner.webp)
+      center no-repeat;
+    background-size: cover;
+  }
+  .container {
+    padding: 180px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .slug {
+    padding: 10px 14px;
+    font-size: 25px;
+    /* letter-spacing: 0px; */
+  }
+
+  .slug2 {
+    padding: 10px 14px;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 200px 0;
+  }
+
+  .slug {
+    padding: 10px 8px;
+    font-size: 22px;
+  }
+
+  .slug2 {
+    padding: 10px 8px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .heading {
+    padding: 0px 10px;
+  }
+  .slug {
+    font-size: 19px;
+  }
+
+  .slug2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 399px) {
+  .slug {
+    font-size: 15px;
+  }
+
+  .slug2 {
+    font-size: 14px;
+  }
+}
