@@ -2,6 +2,8 @@ import HeadingProduct from "@/sharedComponents/heading/headingProduct";
 import styles         from "./features.module.css";
 
 function Features({ title, items, buttonText, buttonLink }) {
+  console.log(items, '-items');
+  
   return (
     <section className={styles.features}>
       <div className={`container ${styles.container}`}>

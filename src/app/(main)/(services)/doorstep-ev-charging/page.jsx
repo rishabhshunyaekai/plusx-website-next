@@ -1,4 +1,5 @@
 import Offers             from "@/components/homepage/offers/offers";
+import PlusxElectricOffer from "@/components/homepage/plusxElectricOffer/plusxElectricOffer";
 import Brands             from "@/components/portablePod/brands/brands";
 import Feature            from "@/components/portablePod/feature/feature";
 import PortableHeroImage  from "@/components/portablePod/portableHeroImage/portableHeroImage";
@@ -24,9 +25,10 @@ function PortableChargerPage() {
       <PortableIntro />
       <Values />
       <Pricing />
-      <Feature />
+      {/* <BookingProcess /> */}
       <Brands />
-      <Offers />
+      <PlusxElectricOffer />
+      {/* <PortablePowerPodFaq /> */}
       <DownloadApp />
       <Faqs/>
     </>

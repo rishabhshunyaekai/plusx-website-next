@@ -33,6 +33,7 @@ const featuresData = [
 ];
 
 function Feature() {
+  console.log(featuresData, 'item featuresdata');
   return <Features heading={heading} featuresData={featuresData} />;
 }
 
