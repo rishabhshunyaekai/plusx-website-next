@@ -1,5 +1,5 @@
-import style from "./heroImage.module.css";
-import CTAButton from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import CTAButton      from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import style          from "./heroImage.module.css";
 
 function HeroImage() {
   return (

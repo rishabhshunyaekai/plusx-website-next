@@ -1,6 +1,6 @@
-import PricingComponent from "@/sharedComponents/pricingItem/pricing";
 import OnDemand         from "@/assets/images/portable-charger-page/on-demand.svg";
 import Monthly          from "@/assets/images/portable-charger-page/montly.svg";
+import PricingComponent from "@/sharedComponents/pricingItem/pricing";
 
 const title = "Pricing";
 const pricingData = [

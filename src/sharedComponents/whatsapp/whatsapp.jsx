@@ -1,10 +1,9 @@
 "use client";
-
+import { useEffect, useState }  from "react";
 import Image                    from "next/image";
 import { usePathname }          from "next/navigation";
-import { useEffect, useState }  from "react";
-import style                    from "./whatsapp.module.css";
 import WhatsappIcon             from "@/assets/images/homepage/whatsapp-black.svg";
+import style                    from "./whatsapp.module.css";
 
 function Whatsapp() {
   const pathname                          = usePathname();

@@ -1,6 +1,6 @@
 import Image    from "next/image";
-import style    from "./brandCard.module.css";
 import Animated from "../animatedComponent/animated";
+import style    from "./brandCard.module.css";
 
 function BrandCard({ iconSrc, text }) {
   return (

@@ -1,9 +1,9 @@
 import Link       from "next/link";
 import Image      from "next/image";
-import style      from "./chargerInstallation.module.css";
-import Animated   from "@/sharedComponents/animatedComponent/animated";
 import Charger    from "@/assets/images/homepage/charger-installation.png";
 import Insurance  from "@/assets/images/homepage/ev-insurance.png";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
+import style      from "./chargerInstallation.module.css";
 
 function ChargerInstallation() {
   return (

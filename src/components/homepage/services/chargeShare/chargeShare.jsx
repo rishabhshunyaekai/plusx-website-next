@@ -1,9 +1,9 @@
 import Link       from "next/link";
 import Image      from "next/image";
-import style      from "./chargeShare.module.css";
-import Animated   from "@/sharedComponents/animatedComponent/animated";
 import Charging   from "@/assets/images/homepage/public-charging.png";
 import Share      from "@/assets/images/homepage/ev-charge-share.png";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
+import style      from "./chargeShare.module.css";
 
 function ChargerShare() {
   return (

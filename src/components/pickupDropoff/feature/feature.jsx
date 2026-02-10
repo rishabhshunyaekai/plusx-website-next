@@ -1,7 +1,7 @@
-import Features         from "@/sharedComponents/features/features";
 import BookYourService  from "@/assets/images/pickup-dropoff-page/book-your-service.webp";
-import TimeAndLocation  from "@/assets/images/pickup-dropoff-page/time-location.webp";
 import ServiceProcess   from "@/assets/images/pickup-dropoff-page/service-process.webp";
+import TimeAndLocation  from "@/assets/images/pickup-dropoff-page/time-location.webp";
+import Features         from "@/sharedComponents/features/features";
 
 const heading       = "Booking Process";
 const featuresData  = [

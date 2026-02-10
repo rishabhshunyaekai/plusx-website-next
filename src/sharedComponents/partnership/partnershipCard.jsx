@@ -1,6 +1,6 @@
-import Image from "next/image";
-import style from "./partnershipCard.module.css";
-import Animated from "../animatedComponent/animated";
+import Image      from "next/image";
+import Animated   from "../animatedComponent/animated";
+import style      from "./partnershipCard.module.css";
 
 function PartnershipCard({ iconSrc, text }) {
   return (

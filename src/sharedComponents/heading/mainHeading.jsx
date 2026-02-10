@@ -1,5 +1,5 @@
-import styles   from "./heading.module.css";
 import Animated from "../animatedComponent/animated";
+import styles   from "./heading.module.css";
 
 function MainHeading({ title }) {
   return (

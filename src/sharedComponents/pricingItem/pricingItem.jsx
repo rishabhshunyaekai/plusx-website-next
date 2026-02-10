@@ -1,6 +1,6 @@
 import Image    from "next/image";
-import style    from "./pricing.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
+import style    from "./pricing.module.css";
 
 function PricingItem({ iconSrc, title, price }) {
   return (

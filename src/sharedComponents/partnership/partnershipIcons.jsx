@@ -1,14 +1,13 @@
-import PartnershipCard  from "./partnershipCard";
-import styles           from "./partnershipCard.module.css";
-import Dubai            from "@/assets/images/homepage/partners/Dubai-Holding.webp";
-import Policybazaar     from "@/assets/images/homepage/partners/Policybazaar.webp";
 import AlGandhi         from "@/assets/images/homepage/partners/al-gandhi.webp";
-import Xoom             from "@/assets/images/homepage/partners/Xoom-volt.webp";
+import AlTayer          from "@/assets/images/homepage/partners/al-tayer.webp";
+import Dubai            from "@/assets/images/homepage/partners/Dubai-Holding.webp";
 import Europ            from "@/assets/images/homepage/partners/europ-assistance.webp";
 import Foton            from "@/assets/images/homepage/partners/foton.webp";
-import AlTayer          from "@/assets/images/homepage/partners/al-tayer.webp";
+import Policybazaar     from "@/assets/images/homepage/partners/Policybazaar.webp";
 import Vinfast          from "@/assets/images/homepage/partners/Vinfast.webp";
-// import AlKhayyat        from "@/assets/images/homepage/partners/al-khayyat-motors.webp";
+import Xoom             from "@/assets/images/homepage/partners/Xoom-volt.webp";
+import PartnershipCard  from "./partnershipCard";
+import styles           from "./partnershipCard.module.css";
 
 const partners = [
   { icon: Dubai },

@@ -3,30 +3,27 @@
 import React, { useState, useEffect } from "react";
 import Link                           from "next/link";
 import Image                          from "next/image";
-import style                          from "./header.module.css";
-
-import { IoMdMenu }                   from "react-icons/io";
-import { IoMdClose }                  from "react-icons/io";
+import {
+  IoMdMenu,
+  IoMdClose
+}                                     from "react-icons/io";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
-
-import CompanyLogo                    from "@/sharedComponents/companyLogo/companyLogo.jsx";
-import Drawer                         from "./drawer";
-import { appRedirectionHandler }      from "@/utils/helper.js";
-
 import QR                             from "@/assets/images/homepage/qr-code.svg";
 import AppStore                       from "@/assets/images/homepage/app-store.svg";
 import PlayStore                      from "@/assets/images/homepage/play-store.svg";
-
 import Icon1                          from "@/assets/images/homepage/navbar-icons/portable-charger.svg";
 import Icon2                          from "@/assets/images/homepage/navbar-icons/pickup-dropoff.svg";
 import Icon3                          from "@/assets/images/homepage/navbar-icons/installation.svg";
 import Icon4                          from "@/assets/images/homepage/navbar-icons/ev-charger-installation.svg";
 import Icon5                          from "@/assets/images/homepage/navbar-icons/ev-roadside-assistance.svg";
 import Icon6                          from "@/assets/images/homepage/navbar-icons/ev-charge-share.svg";
-
 import about                          from "@/assets/images/homepage/navbar-icons/about.svg";
 import contact                        from "@/assets/images/homepage/navbar-icons/contact.svg";
 import sustainability                 from "@/assets/images/homepage/navbar-icons/sustainability.svg";
+import Drawer                         from "./drawer";
+import CompanyLogo                    from "@/sharedComponents/companyLogo/companyLogo.jsx";
+import { appRedirectionHandler }      from "@/utils/helper.js";
+import style                          from "./header.module.css";
 
 
 function Header() {

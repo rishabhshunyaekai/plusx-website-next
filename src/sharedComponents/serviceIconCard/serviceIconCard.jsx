@@ -1,6 +1,6 @@
 import Image     from "next/image";
-import style     from "./serviceIconCard.module.css";
 import Animated  from "@/sharedComponents/animatedComponent/animated";
+import style     from "./serviceIconCard.module.css";
 
 function ServiceIconCard({ iconSrc, text }) {
   return (

@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
-import style from "./downloadApp.module.css";
-import AppStore from "@/assets/images/homepage/app-store.svg";
-import PlayStore from "@/assets/images/homepage/play-store.svg";
+import Link         from "next/link";
+import Image        from "next/image";
+import AppStore     from "@/assets/images/homepage/app-store.svg";
+import PlayStore    from "@/assets/images/homepage/play-store.svg";
+import style        from "./downloadApp.module.css";
 
 function DownloadApp() {
   return (

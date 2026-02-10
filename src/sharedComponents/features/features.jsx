@@ -14,6 +14,20 @@ function Features({ heading, featuresData }) {
               listDesc={offering.listDesc} endingDesc={offering.endingDesc} imageSrc={offering.imageSrc} reverse={offering.reverse} />
           ))}
         </article>
+        {/* <ul className={styles.list}>
+          {featuresData.map((item, idx) => (
+            <li key={idx} className={styles.listItem}>
+              <span className={styles.bullet}>●</span> {item}
+            </li>
+          ))}
+        </ul> */}
+
+        {/* {buttonText && buttonLink && (
+          <button onClick={buttonLink} className={styles.button}>
+            {buttonText}
+            <img className={styles.downloadIcon} src={Download} alt="icon" />
+          </button>
+        )} */}
       </div>
     </section>
   );

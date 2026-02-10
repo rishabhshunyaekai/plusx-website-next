@@ -1,8 +1,8 @@
 import Link       from "next/link";
 import Image      from "next/image";
-import style      from "./roadsideAssistance.module.css";
-import Animated   from "@/sharedComponents/animatedComponent/animated";
 import RSA        from "@/assets/images/homepage/ev-road-assistance.png";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
+import style      from "./roadsideAssistance.module.css";
 
 function EVRoadSideAssistance() {
   return (

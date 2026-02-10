@@ -2,7 +2,7 @@ import Image    from "next/image";
 import style    from "./features.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
-function FeatureItem({ title, description, offeringSecondDesc, imageSrc, reverse, listHeading, listDesc, endingDesc }) {
+function FeaturesItem({ title, description, offeringSecondDesc, imageSrc, reverse, listHeading, listDesc, endingDesc }) {
  
   return (
     <div className={`grid grid-cols-1 lg:grid-cols-2 items-center gap-6 ${reverse ? "lg:[&>*:first-child]:order-2" : ""}`}>
@@ -29,4 +29,4 @@ function FeatureItem({ title, description, offeringSecondDesc, imageSrc, reverse
   );
 };
 
-export default FeatureItem;
+export default FeaturesItem;

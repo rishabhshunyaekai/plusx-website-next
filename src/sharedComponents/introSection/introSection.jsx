@@ -1,9 +1,9 @@
 import { Fragment }     from "react";
 import Link             from "next/link";
-import style            from "./introSection.module.css";
-import Animated         from "@/sharedComponents/animatedComponent/animated";
 import MainHeading      from "../heading/mainHeading";
 import SecondaryHeading from "../heading/secondaryHeading";
+import Animated         from "@/sharedComponents/animatedComponent/animated";
+import style            from "./introSection.module.css";
 
 function IntroSection({ title, content, additionalContent, secondTitle, secondaryContent, extraContent, showButton = false, buttonText, link }) {
 

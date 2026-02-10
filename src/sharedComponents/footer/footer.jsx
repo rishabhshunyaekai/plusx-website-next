@@ -1,14 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
-import style from "./footer.module.css";
-
-import AppStoreLogo from "@/assets/images/homepage/app-store.svg";
-import PlayStoreLogo from "@/assets/images/homepage/play-store.svg";
-import Logo from "@/assets/images/homepage/logo-icon.svg";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import Link           from "next/link";
+import Image          from "next/image";
+import AppStoreLogo   from "@/assets/images/homepage/app-store.svg";
+import Logo           from "@/assets/images/homepage/logo-icon.svg";
+import PlayStoreLogo  from "@/assets/images/homepage/play-store.svg";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+}                     from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import style          from "./footer.module.css";
 
 function Footer() {
   return (
