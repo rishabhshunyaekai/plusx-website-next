@@ -1,28 +1,19 @@
-import HeadingProduct from "@/sharedComponents/heading/headingProduct";
-import styles         from "./features.module.css";
+import style from "./features.module.css";
+import FeaturesItem from "./featuresItem";
+import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 
-function Features({ title, items, buttonText, buttonLink }) {
-  console.log(items, '-items');
-  
+function Features({ heading, featuresData }) {
   return (
-    <section className={styles.features}>
-      <div className={`container ${styles.container}`}>
-        <HeadingProduct title={title} />
+    <section className={style.features}>
+      <div className={`container`}>
+        <SecondaryHeading title={heading} />
 
-        <ul className={styles.list}>
-          {items.map((item, idx) => (
-            <li key={idx} className={styles.listItem}>
-              <span className={styles.bullet}>●</span> {item}
-            </li>
+        <article className="flex flex-col gap-12">
+          {featuresData.map((offering, index) => (
+            <FeaturesItem key={index} title={offering.title} description={offering.description} offeringSecondDesc={offering?.secondDescription} listHeading={offering.listHeading} 
+              listDesc={offering.listDesc} endingDesc={offering.endingDesc} imageSrc={offering.imageSrc} reverse={offering.reverse} />
           ))}
-        </ul>
-
-        {/* {buttonText && buttonLink && (
-          <button onClick={buttonLink} className={styles.button}>
-            {buttonText}
-            <img className={styles.downloadIcon} src={Download} alt="icon" />
-          </button>
-        )} */}
+        </article>
       </div>
     </section>
   );
