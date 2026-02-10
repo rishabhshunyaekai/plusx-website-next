@@ -23,7 +23,7 @@ function PickupAndDropOffPage() {
       <Intro />
       <Values />
       <Pricing />
-      <Feature />
+      {/* <Feature /> */}
       <Offers />
       <DownloadApp />
       <Faqs />

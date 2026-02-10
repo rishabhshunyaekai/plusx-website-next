@@ -25,7 +25,7 @@ function PortableChargerPage() {
       <PortableIntro />
       <Values />
       <Pricing />
-      {/* <BookingProcess /> */}
+      <Feature />
       <Brands />
       <PlusxElectricOffer />
       {/* <PortablePowerPodFaq /> */}
