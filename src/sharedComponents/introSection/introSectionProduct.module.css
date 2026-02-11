@@ -1,0 +1,53 @@
+.introProduct {
+  padding: 0px 0px 60px;
+}
+
+.introDescription {
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.8;
+  margin-bottom: 0px;
+}
+
+.buttonConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.links {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 20px;
+}
+
+.links:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.links:active {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+@media (max-width: 1200px) {
+  .breakLine {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .introDescription {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 576px) {
+  .introDescription {
+    font-size: 15px;
+  }
+}

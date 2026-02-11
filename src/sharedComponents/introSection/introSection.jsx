@@ -9,11 +9,11 @@ function IntroSection({ title, content, additionalContent, secondTitle, secondar
 
   return (
     <section className={style.introSection}>
-      <div className="container flex flex-col gap-4">
+      <div className={`container flex flex-col ${secondaryContent && "gap-4"}`}>
         <div>
           {title && <MainHeading title={title} />}
 
-          <div className="flex flex-col gap-4 pb-8">
+          <div className={`flex flex-col ${additionalContent && "gap-4"} pb-8`}>
 
             <Animated animation="fade" easing="ease-in" duration={1000}>
               <p className={style.introDescription}>

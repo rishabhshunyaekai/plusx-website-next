@@ -9,7 +9,7 @@ function Features({ heading, featuresData }) {
         <SecondaryHeading title={heading} />
 
         <article className="flex flex-col gap-12">
-          {featuresData.map((offering, index) => (
+          {featuresData?.map((offering, index) => (
             <FeaturesItem key={index} title={offering.title} description={offering.description} offeringSecondDesc={offering?.secondDescription} listHeading={offering.listHeading} 
               listDesc={offering.listDesc} endingDesc={offering.endingDesc} imageSrc={offering.imageSrc} reverse={offering.reverse} />
           ))}

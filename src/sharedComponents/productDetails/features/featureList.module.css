@@ -1,0 +1,48 @@
+.features {
+  padding: 0px 0px 60px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.bullet {
+  margin-right: 0.5rem;
+  color: var(--color-text);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-top: 0.75rem;
+  background-color: #f9f9f9;
+}
+
+.button:hover {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.downloadIcon {
+  width: 18px;
+}
+
+.button:hover .downloadIcon {
+  filter: brightness(0) invert(1);
+}
