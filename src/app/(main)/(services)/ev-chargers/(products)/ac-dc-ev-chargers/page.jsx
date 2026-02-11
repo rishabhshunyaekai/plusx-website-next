@@ -1,5 +1,5 @@
+import ChargersList         from "@/components/ac-dc-ev-chargers/chargerList/Chargers/Chargers";
 import ChargerHeroImage from "@/components/ac-dc-ev-chargers/chargerList/ChargerInstallationHeroImage/ChargerInstallationHeroImage";
-import Chargers         from "@/components/ac-dc-ev-chargers/chargerList/Chargers/Chargers";
 import Offers           from "@/components/homepage/offers/offers";
 
 export const metadata = {
@@ -71,11 +71,10 @@ export const metadata = {
 function EvACDCChargersPage() {
   return (
     <>
-      <ChargerHeroImage />
-      <Chargers/>
+      <HeroImage />
+      <ChargersList/>
       <Offers />
-      {/* <MediaDownload />
-      <WhatsappIcon /> */}
+      <DownloadApp />
     </>
   )
 }

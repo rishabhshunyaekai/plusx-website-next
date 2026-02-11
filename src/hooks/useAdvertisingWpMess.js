@@ -14,15 +14,17 @@ function useAdvertisingWpMess(type) {
   
   const getWhatsappMessage = () => {
     const path = pathname;
-    if (type === "charger" && path === "/ev-chargers/ac-dc-ev-chargers") {
-      const message = `Hi PlusX Electric 👋\n\nI’m looking for an EV Charger. Please assist me with options and pricing. \nMy location & vehicle is: `;
-      return `${message}`
+    if (path === "/ev-chargers/ac-dc-ev-chargers") {
+      if (type === "charger") {
+        const message = `Hi PlusX Electric 👋\n\nI’m looking for an EV Charger. Please assist me with options and pricing. \nMy location & vehicle is: `;
+        return `${message}`
+      }
+      if (type === "installation") {
+        const message = `Hi PlusX Electric 👋\n\nI’m looking for a charger installation service. \nMy location is: `;
+        return `${message}`
+      }
     }
-    else if (type === "installation" && path === "/ev-chargers/ac-dc-ev-chargers") {
-      const message = `Hi PlusX Electric 👋\n\nI’m looking for a charger installation service. \nMy location is: `;
-      return `${message}`
-    }
-    else return routeMessages[path];
+    return routeMessages[pathname] || "";
   };
 
   const whatsappMessage = encodeURIComponent(getWhatsappMessage());
@@ -31,3 +33,16 @@ function useAdvertisingWpMess(type) {
 }
 
 export default useAdvertisingWpMess;
+
+  // const getWhatsappMessage = () => {
+  //   const path = location.pathname;
+  //   if (type === "charger" && path === "/ev-chargers/ac-dc-ev-chargers") {
+  //     const message = `Hi PlusX Electric 👋\n\nI’m looking for an EV Charger. Please assist me with options and pricing. \nMy location & vehicle is: `;
+  //     return `${message}`
+  //   }
+  //   else if (type === "installation" && path === "/ev-chargers/ac-dc-ev-chargers") {
+  //     const message = `Hi PlusX Electric 👋\n\nI’m looking for a charger installation service. \nMy location is: `;
+  //     return `${message}`
+  //   }
+  //   else return routeMessages[path];
+  // };

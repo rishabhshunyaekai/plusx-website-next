@@ -1,11 +1,25 @@
 .bookingSteps {
   background-color: var(--color-secondary);
-  padding: 60px 0;
+  padding: 60px 0 20px;
+  margin-bottom: 60px;
+}
+
+.listingSection {
+  background-color: var(--color-primary);
+  padding: 60px 0 20px;
+  margin-bottom: 60px;
 }
 
 .bookingStepsHeading {
   font-size: 36px;
-  color: var(--color-primary);
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.listingStepHeading {
+  font-size: 36px;
+  color: var(--color-secondary);
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -13,6 +27,13 @@
 .bookingStepsSubHeading {
   font-size: 20px;
   color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.listingSubHeading {
+  font-size: 20px;
+  color: var(--color-secondary);
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -45,6 +66,7 @@
   width: 100px;
   height: 100px;
   flex-shrink: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .stepsArrowImage {
@@ -60,9 +82,13 @@
   text-align: center;
 }
 
+.listingSteps {
+  color: var(--color-secondary);
+}
+
 /* TABLET */
 @media (max-width: 992px) {
-  .bookingStepsHeading {
+  .bookingStepsHeading, .listingStepHeading {
     font-size: 30px;
   }
 
@@ -72,6 +98,10 @@
 
   .mainSteps {
     flex-direction: column;
+  }
+
+  .breakLine {
+    display: none;
   }
 
   .stepsCard {
@@ -97,15 +127,14 @@
     text-align: start;
   }
 
-  .footerBreakline,
-  .stepsArrowImage {
+  .footerBreakline, .stepsArrowImage {
     display: none;
   }
 }
 
 /* MOBILE */
 @media (max-width: 580px) {
-  .bookingStepsHeading {
+  .bookingStepsHeading, .listingStepHeading {
     font-size: 25px;
   }
 
@@ -113,7 +142,7 @@
     display: none;
   }
 
-  .bookingStepsSubHeading {
+  .bookingStepsSubHeading, .listingSubHeading {
     font-size: 17px;
   }
 
