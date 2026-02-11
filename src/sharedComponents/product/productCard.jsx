@@ -1,12 +1,16 @@
-import Link                 from "next/link";
-import Image                from "next/image";
-import styles               from "./productCard.module.css";
-import { FaArrowRightLong } from "react-icons/fa6";
+import Link                       from "next/link";
+import Image                      from "next/image";
+import { FaArrowRightLong }       from "react-icons/fa6";
+import styles                     from "./productCard.module.css";
 
 function ProductCard({ product, url }) {
   return (
     <div className={styles.card}>
-      <Image src={product.image} alt={product.name} className={styles.image} width={310} height={210} />
+      <Image
+        src={product.image}
+        alt={product.name}
+        className={styles.image}
+      />
 
       <h4 className={styles.title}>{product.name}</h4>
 
@@ -16,8 +20,10 @@ function ProductCard({ product, url }) {
           <span className={styles.newPrice}>{product.price}</span>
         </div>
 
-        {/* <Link to={`${url}/${product.name}`} className={styles.button}> */}
-        <Link href={`${url}/${product.slug}`} className={styles.button}>
+        <Link
+          href={`${url}/${product.slug}`}
+          className={styles.button}
+        >
           View Details <FaArrowRightLong />
         </Link>
 

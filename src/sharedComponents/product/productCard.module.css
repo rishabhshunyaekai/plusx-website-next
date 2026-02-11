@@ -1,5 +1,5 @@
 .card {
-  border: 2px solid var(--color-primary);
+  border: 2px solid #00b26b;
   border-radius: 25px;
   padding: 20px 25px;
   /* transition: all 0.3s ease; */
@@ -10,9 +10,9 @@
 }
 
 .card:hover {
-  background-color: var(--color-secondary);
-  box-shadow: 0 4px 12px var(--color-shadow-dark);
-  border: 2px solid var(--color-secondary);
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 2px solid #fff;
   /* transform: scale(1.008); */
 }
 
@@ -24,9 +24,9 @@
 
 .title {
   font-size: 22px;
-  font-weight: 600;
-  color: var(--color-primary);
-  margin: 0;
+  font-weight: 600 !important;
+  color: #00b26b;
+  margin: 0 !important;
 }
 
 .priceWrapper {
@@ -44,22 +44,20 @@
 }
 
 .newPrice {
-  color: var(--color-primary);
+  color: #00b26b;
   font-weight: 700;
   font-size: 16px;
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  /* display: inline-block; */
   padding: 5px 10px;
   font-size: 14px;
-  background: var(--color-primary);
-  color: var(--color-secondary);
+  background: #00b26b;
+  color: #fff;
   border-radius: 8px;
   text-decoration: none;
-  background-color: var(--color-primary);
+  background-color: #00b26b;
 }
 
 .button:hover {

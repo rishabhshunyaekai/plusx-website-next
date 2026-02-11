@@ -8,20 +8,20 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: #00b26b;
+  color: #fff;
   padding: 6px 20px;
   border-radius: 10px;
   outline: none;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #00b26b;
 }
 
 .filterButton button:hover {
   background-color: #f9f9f9;
-  color: var(--color-primary);
+  color: #00b26b;
   border-radius: 10px;
   outline: none;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #00b26b;
 }
 
 .filterButton img {
@@ -43,7 +43,7 @@
   align-items: center;
   gap: 30px;
   font-size: 1rem;
-  color: var(--color-text);
+  color: #000;
   height: 100%;
 }
 
@@ -58,7 +58,7 @@
 .checkboxInput label {
   display: flex;
   align-items: center;
-  color: var(--color-text);
+  color: #000;
   font-size: 1rem;
   cursor: pointer;
   user-select: none;
@@ -71,7 +71,7 @@
   display: inline-block;
   border-radius: 50%;
   transition: all 0.3s;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #00b26b;
   background-color: transparent;
   box-sizing: border-box;
   position: relative;
@@ -85,7 +85,7 @@
   transform: translate(-50%, -50%);
   width: 12px;
   height: 12px;
-  background-color: var(--color-primary);
+  background-color: #00b26b;
   border-radius: 50%;
 }
 
@@ -93,6 +93,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .dropdowns {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 992px) {
