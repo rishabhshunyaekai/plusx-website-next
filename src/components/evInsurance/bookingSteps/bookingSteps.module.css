@@ -1,0 +1,152 @@
+.bookingSteps {
+  background-color: var(--color-secondary);
+  padding: 60px 0;
+  margin-bottom: 60px;
+}
+
+.bookingStepsHeading {
+  font-size: 36px;
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.bookingStepsSubHeading {
+  font-size: 20px;
+  color: var(--color-text);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.bookingStepsFooter {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.mainSteps {
+  display: flex;
+  padding: 20px 0px;
+  gap: 10px;
+}
+
+.stepsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  max-width: 220px;
+}
+
+.stepsImage {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.stepsArrowImage {
+  padding-top: 30px;
+}
+
+.stepsCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stepsCard p {
+  text-align: center;
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+  .bookingStepsHeading {
+    font-size: 30px;
+  }
+
+  .scenariosList li {
+    font-size: 16px;
+  }
+
+  .mainSteps {
+    flex-direction: column;
+  }
+
+  .stepsCard {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+  }
+
+  .stepsImage {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+
+  .stepsCard img {
+    width: 60px;
+  }
+
+  .stepsCard p {
+    text-align: start;
+  }
+
+  .footerBreakline,
+  .stepsArrowImage {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 580px) {
+  .bookingStepsHeading {
+    font-size: 25px;
+  }
+
+  .headingBreakline {
+    display: none;
+  }
+
+  .bookingStepsSubHeading {
+    font-size: 17px;
+  }
+
+  .mainSteps {
+    gap: 10px;
+  }
+
+  .stepsCard {
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .stepsImage {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+
+  .stepsCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .stepsCard p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .bookingStepsFooter {
+    font-size: 15px;
+  }
+}

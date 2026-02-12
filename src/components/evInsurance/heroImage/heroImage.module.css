@@ -1,0 +1,115 @@
+.insuranceBanner {
+  background: url(../../../assets/images/ev-insurance-page/desktop-banner.webp) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 16rem 0;
+}
+
+.insuranceContent {
+  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.insurancePrimaryText {
+  color: #64FFC5;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.insuranceSecondaryText {
+  font-size: 28px;
+  padding-bottom: 70px;
+  color: var(--color-secondary);
+  background-color: #0065FF;
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.image {
+  width: 350px;
+  height: auto;
+}
+
+.insuranceButton {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 15px;
+  box-shadow: 0 4px 20px var(--color-shadow-dark);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+
+.insuranceButton:hover {
+  background-color: #f9f9f9;
+  color: var(--color-primary);
+  box-shadow: 0 -4px 20px var(--color-shadow-dark);
+}
+
+@media (max-width: 767px) {
+  .insuranceBanner {
+    background: url(../../../assets/images/ev-insurance-page/mobile-banner.webp) center no-repeat;
+    background-size: cover;
+  }
+  .container {
+    padding: 180px 0;
+  }
+  .insurancePrimaryText {
+    font-size: 45px;
+  }
+
+  .image {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 200px 0;
+  }
+
+  .insurancePrimaryText {
+    font-size: 40px;
+  }
+
+  .insuranceSecondaryText {
+    font-size: 20px;
+    padding: 8px 10px;
+  }
+  .image {
+    width: 250px;
+    height: auto;
+  }
+  .insuranceButton {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 410px) {
+  .insurancePrimaryText {
+    font-size: 30px;
+  }
+
+  .insuranceSecondaryText {
+    font-size: 16px;
+  }
+
+  .image {
+    width: 200px;
+    height: auto;
+  }
+}
