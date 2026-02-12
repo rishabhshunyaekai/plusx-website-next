@@ -278,9 +278,9 @@
   border-radius: 50%;
 }
 
-.formGroup {
+/* .formGroup {
   margin-bottom: 2rem;
-}
+} */
 
 input::placeholder,
 textarea::placeholder {

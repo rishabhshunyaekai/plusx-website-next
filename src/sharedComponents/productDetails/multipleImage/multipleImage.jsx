@@ -8,11 +8,11 @@ import Icon1        from "@/assets/images/ev-charger-installation-page/product-p
 import Icon2        from "@/assets/images/ev-charger-installation-page/product-page/icon-2.svg";
 import Icon3        from "@/assets/images/ev-charger-installation-page/product-page/icon-3.svg";
 
-// import Modal from "../../../sharedComponent/Modal/Modal";
+import Modal from "@/sharedComponents/modal/modal";
 // import { useNavigate } from "react-router-dom";
 
 import { getInTouchForm } from "@/service/getInTouchForm";
-// import { PhoneInput }     from "react-international-phone";
+import { PhoneInput }     from "react-international-phone";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
 import "@/assets/css/SweetAlert.css";
@@ -163,55 +163,45 @@ return (
         </div>
       </div>
 
-      {/* <Modal isOpen={isModalOpen} heading= "Get a Quote" onClose={handleCloseModal} onSubmit={handleSubmit} loading={loading} id={formData.product_name}>
+      <Modal isOpen={isModalOpen} heading= "Get a Quote" onClose={handleCloseModal} onSubmit={handleSubmit} loading={loading} id={formData.product_name}>
           <div className={styles.modalContainer}>
             <div className={styles.formInner}>
                     <form id="charging-form" method="post" onSubmit={handleSubmit}>
-                        <div className={styles.controls}>
-                          <div className={`row`}>
-                                <div className={`col-lg-12`}>
-                                    <div className={styles.formGroup}>
-                                        <div className={styles.wrapper}>
-                                            <input disabled type="text" className={styles.formControl} placeholder="Product Name*" name="product_name" value={formData.product_name} style={{ cursor: "not-allowed" }} />
-                                        </div>
-                                    </div>
-                                </div>
+                        <div className={`flex flex-col gap-6`}>
+                          <div className={`grid grid-cols-1 gap-6`}>
+                              <div className={styles.formGroup}>
+                                  <div className={styles.wrapper}>
+                                      <input disabled type="text" className={styles.formControl} placeholder="Product Name*" name="product_name" value={formData.product_name} style={{ cursor: "not-allowed" }} />
+                                  </div>
+                              </div>
                             </div>
-                            <div className={`row`}>
-                                <div className={`col-lg-6`}>
-                                    <div className={styles.formGroup}>
-                                        <input type="text" className={styles.formControl} placeholder="Name*" name="name" autoComplete="off" value={formData.name} onChange={handleInputChange} />
-                                        {error.name && ( <span className={styles.errorMessage}>{error.name}</span> )}
-                                    </div>
-                                </div>
-                                <div className={`col-lg-6`}>
-                                    <div className={styles.formGroup}>
-                                        <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
-                                        {isDisplayPhoneError && error.phone && ( <span className={styles.errorMessage}> {error.phone} </span> )}
-                                    </div>
-                                </div>
+                            <div className={`grid grid-cols-1 md:grid-cols-2 gap-6`}>
+                              <div className={styles.formGroup}>
+                                  <input type="text" className={styles.formControl} placeholder="Name*" name="name" autoComplete="off" value={formData.name} onChange={handleInputChange} />
+                                  {error.name && ( <span className={styles.errorMessage}>{error.name}</span> )}
+                              </div>
+                              <div className={styles.formGroup}>
+                                  <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
+                                  {isDisplayPhoneError && error.phone && ( <span className={styles.errorMessage}> {error.phone} </span> )}
+                              </div>
                             </div>
-                            <div className={`row`}>
-                                <div className={`col-lg-6`}>
-                                    <div className={styles.formGroup}>
-                                        <div className={styles.wrapper}>
-                                            <input type="email" className={styles.formControl} placeholder="Email*" name="email" autoComplete="off" value={formData.email} onChange={handleInputChange} />
-                                        </div>
-                                        {error.email && ( <span className={styles.errorMessage}> {error.email} </span>)}
-                                    </div>
-                                </div>
-                                <div className={`col-lg-6`}>
-                                    <div className={styles.formGroup}>
-                                        <div className={styles.wrapper}>
-                                            <input type="text" className={styles.addressInput} placeholder="Address*" name="address" autoComplete="off" value={formData.address} onChange={handleInputChange} />
-                                        </div>
-                                        {error.address && ( <span className={styles.errorMessage}> {error.address} </span> )}
-                                    </div>
-                                </div>
+                            <div className={`grid grid-cols-1 md:grid-cols-2 gap-6`}>
+                              <div className={styles.formGroup}>
+                                  <div className={styles.wrapper}>
+                                      <input type="email" className={styles.formControl} placeholder="Email*" name="email" autoComplete="off" value={formData.email} onChange={handleInputChange} />
+                                  </div>
+                                  {error.email && ( <span className={styles.errorMessage}> {error.email} </span>)}
+                              </div>
+                              <div className={styles.formGroup}>
+                                  <div className={styles.wrapper}>
+                                      <input type="text" className={styles.addressInput} placeholder="Address*" name="address" autoComplete="off" value={formData.address} onChange={handleInputChange} />
+                                  </div>
+                                  {error.address && ( <span className={styles.errorMessage}> {error.address} </span> )}
+                              </div>
                             </div>
                             {type === "chargers" && (
-                              <div className={`row`}>
-                                  <div className={`col-lg-6`}>
+                              <div className={`grid grid-cols-1 md:grid-cols-2 gap-6`}>
+                                  <div className={``}>
                                       Looking For
                                       <div className={`${styles.radioButtonContainer}`}>
                                           <div className={`${styles.formGroup} ${styles.checkboxInput}`}>
@@ -230,7 +220,7 @@ return (
                                           </div>
                                       </div>
                                   </div>
-                                  <div className={`col-lg-6`}>
+                                  <div className={``}>
                                       To Be Used for
                                       <div className={`${styles.radioButtonContainer}`}>
                                           <div className={`${styles.formGroup} ${styles.checkboxInput}`}>
@@ -254,7 +244,7 @@ return (
                     </form>
                 </div>
           </div>
-      </Modal> */}
+      </Modal>
 
     </article>
   );

@@ -27,7 +27,7 @@ function Values() {
   return (
     <section className={`wrapper`}>
       <div className={`container`}>
-        <div className={`grid grid-cols-1 gap-x-4 gap-y-6 lg:grid-cols-2`}>
+        <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2`}>
           {valuesCardData.map((value, index) => (
             <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} />
           ))}
