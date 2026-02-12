@@ -228,12 +228,12 @@ function ChargerInstallationForm() {
                             <input type="hidden" id="country_code" name="country_code" />
                             <div className="text-center">
                                 <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`btn ${style.formSubmit}`}>
-                                    {isSubmitButtonDisable ? <><span className="spinner-border spinner-border-sm me-2"></span> Submit... </> : "Submit"}
+                                    {isSubmitButtonDisable ? <><span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white-500 border-t-transparent"></span> Submit... </> : "Submit"}
                                 </button>
                             </div>
                         </div>
                         <div className={`${style.messages}`}>
-                            {errorMessage && ( <div className={`alert alert-danger`} id="response_msg">  {errorMessage} </div> )}
+                            {errorMessage && ( <div className={`rounded-md border border-red-300 bg-red-100 text-md text-red-700 !p-3`} id="response_msg">  {errorMessage} </div> )}
                         </div>
                     </form>
                 </div>

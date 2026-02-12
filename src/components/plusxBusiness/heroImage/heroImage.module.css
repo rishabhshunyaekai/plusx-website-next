@@ -1,0 +1,200 @@
+.figureWrapper {
+  background: var(--color-background);
+  padding: 0px 0 60px;
+}
+
+.container {
+  background: url(../../../assets/images/plusx-for-business-page/desktop-banner.webp) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid var(--color-primary);
+}
+
+/* .container:before {
+  position: absolute;
+  content: "";
+  background: var(--color-secondary);
+  border-radius: 30px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+} */
+
+.textWrapper {
+  padding: 0 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 2;
+}
+
+.highlightedText {
+  padding: 6px 10px;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-size: 32px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.secondaryhighlightedText {
+  padding: 6px 10px;
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
+  font-size: 32px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.outlinerText {
+  display: inline-block;
+  font-size: 16px;
+  color: var(--color-text);
+  font-weight: 600;
+  border-top: 2px solid var(--color-text);
+  border-bottom: 2px solid var(--color-text);
+  margin-top: 10px;
+  padding: 10px 0;
+  width: fit-content;
+}
+
+.normalText {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.secondaryText {
+  font-size: 30px;
+  font-weight: 400;
+  color: #212529;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonContainer p {
+  font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+  .figureWrapper {
+    padding: 0 15px 60px;
+  }
+
+  .highlightedText {
+    font-size: 26px;
+  }
+
+  .secondaryhighlightedText {
+    font-size: 26px;
+  }
+
+  .outlinerText {
+    font-size: 14px;
+  }
+
+  /* .secondaryText {
+    font-size: 14px;
+  } */
+}
+
+@media (max-width: 992px) {
+  .normalText {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    height: 50vh;
+    height: 100%;
+  }
+
+  /* .container:before {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  } */
+
+  .textWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  .highlightedText {
+    font-size: 22px;
+    border-radius: 8px;
+  }
+
+  .secondaryhighlightedText {
+    font-size: 22px;
+    border-radius: 8px;
+  }
+
+  .normalText {
+    font-size: 20px;
+  }
+
+  .secondaryText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    background: url(../../../assets/images/plusx-for-business-page/mobile-banner.webp) right no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  /* .container:before {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  } */
+
+  .outlinerText {
+    padding-left: 0px;
+    font-size: 14px;
+  }
+
+  .secondaryText {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .outlinerText {
+    font-size: 12px;
+  }
+
+  /* .secondaryText {
+    font-size: 14px;
+  } */
+}
+
+@media (max-width: 420px) {
+  .highlightedText {
+    font-size: 20px;
+    border-radius: 8px;
+  }
+
+  .secondaryhighlightedText {
+    font-size: 20px;
+    border-radius: 8px;
+  }
+}

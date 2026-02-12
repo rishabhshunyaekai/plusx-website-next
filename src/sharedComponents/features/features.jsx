@@ -1,5 +1,5 @@
-import style from "./features.module.css";
-import FeaturesItem from "./featuresItem";
+import style            from "./features.module.css";
+import FeaturesItem     from "./featuresItem";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 
 function Features({ heading, featuresData }) {
