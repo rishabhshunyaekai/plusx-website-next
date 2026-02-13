@@ -5,7 +5,7 @@ import Animated     from "@/sharedComponents/animatedComponent/animated";
 import Charger      from "@/assets/images/ev-charger-installation-page/charger.webp";
 import Accessories  from "@/assets/images/ev-charger-installation-page/accessories.webp";
 
-function PublicChargingStation() {
+function ProductsCard() {
   return (
     <section className={`${style.wrapper}`}>
       <div className={`container ${style.container}`}>
@@ -16,8 +16,8 @@ function PublicChargingStation() {
                <div className={`${style.buttonContainer}`}>
                 <Link href="/ev-chargers/ac-dc-ev-chargers" className={style.cardButton}>View Details</Link>
               </div>
-              <div className={style.featuredImage}>
-                <Image src={Charger} alt="Charger" width={405} height={370} />
+              <div className={style.cardImageWrapper}>
+                <Image className={style.cardImage} src={Charger} alt="Charger" width={405} height={370} />
               </div>
             </Animated>
             
@@ -27,8 +27,8 @@ function PublicChargingStation() {
                <div className={`${style.buttonContainer}`}>
                 <Link href="/ev-chargers/ev-accessories" className={style.cardButton}>View Details</Link>
               </div>
-              <div className={style.featuredImage}>
-                <Image src={Accessories} alt="Accessories" width={405} height={370} />
+              <div className={style.cardImageWrapper}>
+                <Image className={style.cardImage} src={Accessories} alt="Accessories" width={405} height={370} />
               </div>
             </Animated>
         </div>
@@ -37,4 +37,4 @@ function PublicChargingStation() {
   );
 }
 
-export default PublicChargingStation;
+export default ProductsCard;

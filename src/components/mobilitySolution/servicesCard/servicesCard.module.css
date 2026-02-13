@@ -1,0 +1,152 @@
+.wrapper {
+  background: var(--color-background);
+  padding: 0px 0px 60px;
+}
+
+.cardContainer {
+  background-color: var(--color-secondary);
+  border-radius: 40px;
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  height: 100%;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 35px;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.cardSubTitle {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.buttonContainer {
+  display: flex;
+  column-gap: 30px;
+}
+
+.cardButton {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.cardImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.breakLine {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .breakLine {
+    display: block;
+  }
+
+  .container {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .breakLine {
+    display: none;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .cardTitle {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cardSubTitle {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+
+  .cardButton {
+    font-size: 14px;
+  }
+
+  .cardImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardImage {
+    width: 350px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardContainer {
+    align-items: start;
+  }
+
+  .cardTitle {
+    font-size: 27px;
+    text-align: left;
+  }
+
+  .cardSubTitle {
+    font-size: 23px;
+    line-height: 1.54;
+    text-align: left;
+  }
+
+  .buttonContainer {
+    justify-content: start;
+  }
+
+  .cardButton {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 580px) {
+  .buttonContainer {
+    column-gap: 15px;
+  }
+}
+
+@media (max-width: 430px) {
+  .breakLine {
+    display: none;
+  }
+}

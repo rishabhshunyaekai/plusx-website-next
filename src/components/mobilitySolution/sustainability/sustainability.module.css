@@ -1,0 +1,32 @@
+.banner {
+  background: url(../../../assets/images/mobility-solutions-page/sustainiblity-with-backdrop.webp) center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.bannerContent {
+  padding: 10% 10%;
+}
+
+.bannerContent p {
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .bannerContent {
+    padding: 10% 6%;
+  }
+  .bannerContent p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerContent {
+    padding: 8% 4%;
+  }
+  .bannerContent p {
+    font-size: 16px;
+  }
+}

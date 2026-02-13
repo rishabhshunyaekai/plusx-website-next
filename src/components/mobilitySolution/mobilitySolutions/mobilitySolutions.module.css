@@ -1,0 +1,155 @@
+.solutionsWrapper {
+  background: var(--color-background);
+  padding: 0 0 60px;
+}
+
+.container {
+  position: relative;
+  border-radius: 30px;
+  height: 22rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px var(--color-shadow);
+  padding: 100px 0;
+}
+
+.bgImage1 {
+  background: url(../../../assets/images/mobility-solutions-page/solution-1.webp) no-repeat center;
+  background-size: cover;
+}
+
+.bgImage2 {
+  background: url(../../../assets/images/mobility-solutions-page/solution-2.webp) no-repeat center;
+  background-size: cover;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.container::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient( to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+}
+
+.bgImage2::before {
+  background: linear-gradient( to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 2;
+  position: relative;
+}
+
+.spanText {
+  color: var(--color-text);
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.animatedCard h4 {
+  display: inline-block;
+  color: var(--color-primary);
+  font-weight: 400;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.animatedCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.alignLeft {
+  padding-left: 10%;
+  padding-right: 0;
+}
+
+.alignRight {
+  padding-right: 10%;
+  padding-left: 0;
+  align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .alignRight {
+    padding-left: 10%;
+    align-items: start;
+  }
+
+  .spanText {
+    font-size: 24px;
+  }
+
+  .animatedCard {
+    gap: 16px;
+    padding: 0 8%;
+  }
+
+  .animatedCard h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    height: 70vh;
+    padding: 0;
+  }
+
+  .container::before {
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100% );
+    height: 100%;
+  }
+
+  .animatedCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 100%;
+  }
+
+  .animatedCard h4 {
+    font-size: 24px;
+  }
+
+  .spanText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .solutionsWrapper {
+    padding: 0 15px 60px;
+  }
+}
+
+@media (max-width: 420px) {
+  .animatedCard h4 {
+    font-size: 20px;
+  }
+
+  .spanText {
+    font-size: 18px;
+  }
+}
