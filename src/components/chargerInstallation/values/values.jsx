@@ -1,25 +1,25 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import EVCharge         from "@/assets/images/ev-charger-installation-page/ev-charge.svg";
-import FastCharging     from "@/assets/images/ev-charger-installation-page/fast-charging.svg";
-import CostEffective    from "@/assets/images/ev-charger-installation-page/cost-effective.svg";
-import HassleFree       from "@/assets/images/ev-charger-installation-page/hassle-free-experience.svg";
+import Additional       from "@/assets/images/ev-charger-installation-page/additional-team.svg";
+import ThirdParty       from "@/assets/images/ev-charger-installation-page/third-party.svg";
+import Noclear          from "@/assets/images/ev-charger-installation-page/no-clear.svg";
 
 const valuesCardData = [
   {
     icon: EVCharge,
-    text: "Charge your EV overnight or anytime without visiting public stations.",
+    text: "One firm for the charger supply",
   },
   {
-    icon: FastCharging,
-    text: "Faster Charging Speeds – home chargers are more powerful than standard sockets.",
+    icon: Additional,
+    text: "Additional team for installation",
   },
   {
-    icon: CostEffective,
-    text: "Cost-Effective – save on charging costs over time compared to public station rates.",
+    icon: ThirdParty,
+    text: "Third-party services for approvals & compliance.",
   },
   {
-    icon: HassleFree,
-    text: "Hassle-Free Experience – no waiting in queues or relying on availability.",
+    icon: Noclear,
+    text: "No clear record of documents and accountability.",
   },
 ];
 

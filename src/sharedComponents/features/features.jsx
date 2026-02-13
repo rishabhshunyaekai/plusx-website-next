@@ -6,7 +6,7 @@ function Features({ heading, featuresData }) {
   return (
     <section className={style.features}>
       <div className={`container`}>
-        <SecondaryHeading title={heading} />
+        {heading && <SecondaryHeading title={heading} />}
 
         <article className="flex flex-col gap-12">
           {featuresData?.map((offering, index) => (

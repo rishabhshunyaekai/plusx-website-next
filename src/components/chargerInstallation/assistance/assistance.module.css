@@ -1,0 +1,227 @@
+.scenarios {
+  background-color: var(--color-primary);
+  padding: 60px 0;
+  margin-bottom: 60px;
+}
+
+.scenariosHeading {
+  font-size: 36px;
+  color: var(--color-secondary);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.scenariosIntro {
+  font-size: 18px;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.scenariosList {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scenariosList li {
+  position: relative;
+  font-size: 18px;
+  color: var(--color-secondary);
+  line-height: 1.5;
+  /* display: flex;
+  align-items: center;
+  column-gap: 10px; */
+}
+
+.scenariosList li::before {
+  content: "•";
+  font-size: 25px;
+  color: var(--color-secondary);
+  line-height: 1;
+  padding-right: 10px;
+}
+
+.link {
+  color: var(--color-secondary);
+}
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.listPoints {
+  color: var(--color-secondary);
+  font-size: 19px;
+  line-height: 1.6;
+  margin: 0px;
+}
+
+.list img {
+  width: 80px;
+  height: 80px;
+}
+
+.listmage{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.scenariosFooter {
+  margin-top: 20px;
+  font-size: 16px;
+  color: var(--color-secondary);
+  line-height: 1.6;
+  max-width: 90%;
+}
+
+.imageWrapper {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.chargerButton {
+  margin-top: 30px;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid var(--color-primary);
+  font-size: 15px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.chargerButton:hover {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+
+@media (max-width: 1200px) {
+  .scenariosHeading {
+    font-size: 30px;
+  }
+  .scenariosIntro {
+    font-size: 16px;
+  }
+  .scenariosList {
+    gap: 8px;
+  }
+  .scenariosList li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .scenariosHeading {
+    font-size: 25px;
+    text-align: center;
+  }
+  .scenariosIntro {
+    font-size: 15px;
+    text-align: center;
+  }
+  .scenariosList {
+    gap: 8px;
+    padding-left: 10px;
+  }
+  .scenariosList li {
+    font-size: 15px;
+  }
+
+  .breakLine {
+    display: none;
+  }
+
+  .imageWrapper {
+    margin-bottom: 20px;
+  }
+
+  .listContent {
+    flex-direction: row;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .listPoints {
+    font-size: 15px;
+  }
+  .list img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .scenariosContent {
+    background-color: var(--color-primary);
+  }
+
+  .scenariosFooter {
+    max-width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+
+  .chargerButton {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .imageWrapper img {
+    object-fit: cover;
+  }
+  .listContent {
+    flex-direction: column;
+  }
+  .list {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .listPoints {
+    font-size: 12px;
+  }
+  .list img {
+    width: 50px;
+    height: 50px;
+  }
+}

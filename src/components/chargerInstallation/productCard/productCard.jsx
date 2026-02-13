@@ -4,11 +4,13 @@ import style        from "./productCard.module.css";
 import Animated     from "@/sharedComponents/animatedComponent/animated";
 import Charger      from "@/assets/images/ev-charger-installation-page/charger.webp";
 import Accessories  from "@/assets/images/ev-charger-installation-page/accessories.webp";
+import SecondaryHeading  from "@/sharedComponents/heading/secondaryHeading";
 
 function ProductsCard() {
   return (
     <section className={`${style.wrapper}`}>
       <div className={`container ${style.container}`}>
+        <SecondaryHeading title="Explore Our EV Chargers & Accessories" />
         <div className={`grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-6`}>
           <Animated className={`${style.cardContainer}`} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>Buy EV <br className={`${style.breakLine}`}/>Chargers</h2>

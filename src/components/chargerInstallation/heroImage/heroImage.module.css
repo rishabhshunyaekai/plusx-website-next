@@ -1,201 +1,135 @@
-.figureWrapper {
-  background: var(--color-background);
-  padding: 0px 0 60px;
+.chargeShareBanner {
+  background: url(../../../assets/images/ev-charger-installation-page/banner.webp) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 60px;
 }
 
 .container {
-  background: url(../../../assets/images/ev-charger-installation-page/banner.webp) center no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 22rem;
-  position: relative;
-  border-radius: 30px;
-  border: 2px solid var(--color-primary);
+  padding: 16rem 0;
 }
 
-.container:before {
-  position: absolute;
-  content: "";
-  background: var(--color-secondary);
-  border-radius: 30px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  opacity: 1;
-  z-index: 1;
-}
-
-.textWrapper {
-  padding: 0 3%;
+.shareBannerContent {
+  color: var(--color-secondary);
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  z-index: 2;
+  align-items: flex-start;
+  gap: 20px;
+  margin-left: 20px;
 }
 
-.highlightedText {
-  padding: 6px 10px;
-  background-color: var(--color-primary);
+.sharePrimaryText {
+  color: var(--color-text);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.shareSecondaryText {
+  font-size: 43px;
+  padding-bottom: 70px;
   color: var(--color-secondary);
-  font-size: 32px;
-  border-radius: 10px;
-  width: fit-content;
-}
-
-.secondaryhighlightedText {
-  padding: 6px 10px;
   background-color: var(--color-tertiary);
-  color: var(--color-secondary);
-  font-size: 32px;
-  border-radius: 10px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: inline-block;
   width: fit-content;
 }
 
 .outlinerText {
   display: inline-block;
   font-size: 16px;
-  color: var(--color-text);
+  color: var(--color-primary);
   font-weight: 600;
-  border-top: 2px solid var(--color-text);
-  border-bottom: 2px solid var(--color-text);
-  margin-top: 10px;
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
   padding: 10px 0;
   width: fit-content;
 }
 
-.normalText {
+.secondaryText {
   color: var(--color-text);
-  font-size: 30px;
   font-weight: 600;
 }
 
-.secondaryText {
-  color: var(--color-primary);
-  font-weight: 600;
-  padding-left: 10px;
+.chargerButton {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 15px;
+  box-shadow: 0 4px 20px var(--color-shadow-dark);
+  border-radius: 10px;
+  border: none;
+  outline: none;
   margin-top: 10px;
 }
 
-.highlight {
+.chargerButton:hover {
+  background-color: #f9f9f9;
   color: var(--color-primary);
-}
-
-.buttonContainer {
-  display: flex;
-  gap: 30px;
-}
-
-.buttonContainer p {
-  font-size: 18px;
-}
-
-@media (max-width: 1200px) {
-  .figureWrapper {
-    padding: 0 15px 60px;
-  }
-
-  .highlightedText {
-    font-size: 26px;
-  }
-
-  .secondaryhighlightedText {
-    font-size: 26px;
-  }
-
-  .outlinerText {
-    font-size: 14px;
-  }
-
-  .secondaryText {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 992px) {
-  .normalText {
-    font-size: 28px;
-  }
+  box-shadow: 0 -4px 20px var(--color-shadow-dark);
 }
 
 @media (max-width: 767px) {
+  .chargeShareBanner {
+    background: url(../../../assets/images/ev-charger-installation-page/mobile-banner.webp) center no-repeat;
+    background-size: cover;
+  }
   .container {
-    height: 50vh;
-    height: 100%;
+    padding: 180px 0;
+  }
+  .sharePrimaryText {
+    font-size: 35px;
   }
 
-  .container:before {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  .shareSecondaryText {
+    font-size: 38px;
   }
-
-  .textWrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 5%;
-    padding-top: 60px;
-    width: 100%;
+  /* .outlinerText {
+    font-size: 14px;
+  } */
+  .outlinerText {
+    padding-left: 0px;
+    font-size: 14px;
   }
-
-  .highlightedText {
-    font-size: 22px;
-    border-radius: 8px;
-  }
-
-  .secondaryhighlightedText {
-    font-size: 22px;
-    border-radius: 8px;
-  }
-
-  .normalText {
-    font-size: 20px;
+  .secondaryText {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 580px) {
   .container {
-    background: url(../../../assets/images/ev-charger-installation-page/banner.webp) center no-repeat;
-    background-size: cover;
-    height: 70vh;
+    padding: 200px 0;
   }
 
-  .container:before {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  .sharePrimaryText {
+    font-size: 30px;
   }
 
+  .shareSecondaryText {
+    font-size: 30px;
+    padding: 8px 10px;
+  }
+  .chargerButton {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
   .outlinerText {
-    padding-left: 0px;
-    font-size: 14px;
-  }
-
-  .secondaryText {
-    padding-left: 0px;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .outlinerText {
-    font-size: 12px;
-  }
-
-  .secondaryText {
-    font-size: 14px;
+  .breakLine {
+    display: none;
   }
 }
 
-@media (max-width: 420px) {
-  .highlightedText {
-    font-size: 20px;
-    border-radius: 8px;
+@media (max-width: 410px) {
+  .sharePrimaryText {
+    font-size: 25px;
   }
 
-  .secondaryhighlightedText {
-    font-size: 20px;
-    border-radius: 8px;
-  }
-
-  .normalText {
-    font-size: 20px;
+  .shareSecondaryText {
+    font-size: 25px;
   }
 }
