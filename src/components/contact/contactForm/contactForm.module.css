@@ -1,0 +1,168 @@
+.formArea {
+  padding: 0 40px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formArea .formInner {
+  width: 100%;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 15px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formControl:focus {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  border-color: var(--color-primary);
+  outline: 0;
+  box-shadow: 0 3px 8px 0 var(--color-shadow-dark);
+}
+
+.checkBox > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 15px;
+  border-radius: 3px;
+  transition: all 0.3s;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+input:checked + .checkBox > span {
+  border: 15px solid var(--color-primary);
+  animation: bounce 250ms;
+  padding: 0;
+}
+
+.checkboxInput input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.checkboxInput label {
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  position: relative;
+  font-size: 20px;
+}
+
+input:checked + .checkBox > span::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  transform: rotate(45deg);
+  transform-origin: 0% 100%;
+  animation: checked-box 125ms 250ms forwards;
+}
+
+.checkboxInput {
+  position: relative;
+  top: -8px;
+}
+
+.formGroup {
+  margin-bottom: 2rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #867e7e;
+}
+
+.formSubmit {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.phoneInput {
+  width: 100%;
+  height: auto;
+  padding: 8px 19px;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-secondary);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-primary);
+  border-radius: 0.267rem;
+}
+
+.errorMessage{
+  color: red;
+  font-size: 12px;
+}
+
+.messages{
+  margin-top: 25px;
+  color: var(--color-secondary);
+}
+
+@keyframes checked-box {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: #212121;
+    transform: translate(0, 0) rotate(45deg);
+  }
+
+  33% {
+    width: 4px;
+    height: 0;
+    border-color: #212121;
+    transform: translate(0, 0) rotate(45deg);
+  }
+
+  100% {
+    width: 4px;
+    height: 8px;
+    border-color: #212121;
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+
+  33% {
+    transform: scale(0.7);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 767px) {
+  .formArea {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .checkboxInput label {
+    font-size: 16px;
+  }
+}
