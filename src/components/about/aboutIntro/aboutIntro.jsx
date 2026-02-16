@@ -7,7 +7,7 @@ const introData = [
   },
 ];
 
-function PickupDropoffIntro() {
+function AboutIntro() {
   return (
     <>
       {introData.map((section, index) => (
@@ -17,4 +17,4 @@ function PickupDropoffIntro() {
   );
 }
 
-export default PickupDropoffIntro;
+export default AboutIntro;

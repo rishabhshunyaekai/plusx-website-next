@@ -1,3 +1,8 @@
+import HeroImage    from "@/components/sustainability/heroImage/heroImage";
+import Feature      from "@/components/sustainability/feature/feature";
+import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+import PlusxForm    from "@/components/plusxBusiness/plusxForm/plusxForm";
+
 export const metadata = {
   title         : "Sustainable Energy Company in Dubai | PlusX Electric",
   description   : "Dubai’s leading sustainable energy company. PlusX Electric offers EV incentives, AI charging insights, and carbon credit solutions.",
@@ -9,9 +14,12 @@ export const metadata = {
 
 function SustainabilityPage() {
   return (
-    <div>
-      <h1 className="text-red-400">Sustainability Page</h1>
-    </div>
+    <>
+      <HeroImage />
+      <Feature />
+      <PlusxForm />
+      <DownloadApp />
+    </>
   )
 }
 
