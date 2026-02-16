@@ -1,0 +1,100 @@
+.ctaSection {
+  padding: 60px 0;
+  background: var(--color-primary);
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ctaHeading {
+  color: var(--color-secondary);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.ctaContent {
+  color: var(--color-secondary);
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.imageContainer {
+  position: absolute;
+  top: -50%;
+  right: 100px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  max-width: 350px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1220px) {
+  .imageContainer {
+    right: 10%;
+  }
+}
+
+@media (max-width: 992px) {
+  .ctaSection {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .ctaHeading {
+    font-size: 28px;
+  }
+  .ctaContent {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .image {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaSection {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .imageContainer {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ctaHeading {
+    font-size: 25px;
+  }
+  .ctaContent {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imageContainer img {
+    max-width: 80%;
+  }
+}

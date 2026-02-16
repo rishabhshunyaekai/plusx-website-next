@@ -1,0 +1,134 @@
+.figureWrapper {
+  background: var(--color-background);
+  padding: 0px 0 60px;
+}
+
+.container {
+  background: url(../../../assets/images/about-us-page/desktop-banner.webp) top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 22rem;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid var(--color-primary);
+}
+
+.container:before {
+  position: absolute;
+  content: "";
+  background: var(--color-secondary);
+  border-radius: 30px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+}
+
+.textWrapper {
+  padding: 0 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 2;
+}
+
+.highlightedText {
+  color: var(--color-primary);
+  font-size: 36px;
+}
+
+.normalText {
+  color: var(--color-text);
+  font-size: 28px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonContainer p {
+  font-size: 18px;
+}
+
+.outlinerText {
+  color: var(--color-text);
+  border-top: 2px solid var(--color-text);
+  border-bottom: 2px solid var(--color-text);
+  width: fit-content;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+@media (max-width: 1200px) {
+  .figureWrapper {
+    padding: 0 15px 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .normalText {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    height: 50vh;
+    height: 100%;
+  }
+
+  .container:before {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .textWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 5%;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  .highlightedText {
+    font-size: 28px;
+    border-radius: 8px;
+  }
+
+  .normalText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    background: url(../../../assets/images/about-us-page//mobile-banner.webp) center no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .container:before {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 255) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .textWrapper {
+    gap: 10px;
+  }
+
+  .outlinerText {
+    padding: 6px 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .normalText {
+    font-size: 20px;
+  }
+}
