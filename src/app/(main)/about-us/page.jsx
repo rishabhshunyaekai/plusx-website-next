@@ -1,8 +1,8 @@
 import HeroImage    from "@/components/about/heroImage/heroImage";
-import Intro        from "@/components/about/aboutIntro/aboutIntro";
-import Feature      from "@/components/about/feature/feature";
-import CTA          from "@/components/about/ctaSection/ctaSection";
-import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+// import Intro        from "@/components/about/aboutIntro/aboutIntro";
+// import Feature      from "@/components/about/feature/feature";
+// import CTA          from "@/components/about/ctaSection/ctaSection";
+// import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 
 export const metadata = {
   title         : "Best EV Charging Company in Dubai",
@@ -17,10 +17,10 @@ function AboutUsPage() {
   return (
     <>
       <HeroImage />
-      <Intro />
+      {/* <Intro />
       <Feature />
       <CTA />
-      <DownloadApp />
+      <DownloadApp /> */}
     </>
   )
 }

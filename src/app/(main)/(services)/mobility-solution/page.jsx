@@ -1,12 +1,12 @@
 import HeroImage      from "@/components/mobilitySolution/heroImage/heroImage";
-import Intro          from "@/components/mobilitySolution/mobilityIntro/mobilityIntro";
-import Services       from "@/components/mobilitySolution/servicesCard/servicesCard";
-import CTASection     from "@/components/mobilitySolution/ctaSection/ctaSection";
-import Solutions      from "@/components/mobilitySolution/mobilitySolutions/mobilitySolutions";
-import Values         from "@/components/mobilitySolution/values/values";
-import Sustainability from "@/components/mobilitySolution/sustainability/sustainability";
-import Offers         from "@/components/homepage/offers/offers";
-import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
+// import Intro          from "@/components/mobilitySolution/mobilityIntro/mobilityIntro";
+// import Services       from "@/components/mobilitySolution/servicesCard/servicesCard";
+// import CTASection     from "@/components/mobilitySolution/ctaSection/ctaSection";
+// import Solutions      from "@/components/mobilitySolution/mobilitySolutions/mobilitySolutions";
+// import Values         from "@/components/mobilitySolution/values/values";
+// import Sustainability from "@/components/mobilitySolution/sustainability/sustainability";
+// import Offers         from "@/components/homepage/offers/offers";
+// import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 
 export const metadata = {
   title         : "Electric Cycle Rent & Lease in India | PlusX Mobility",
@@ -21,14 +21,14 @@ function MobilitySolutionPage() {
   return (
     <>
       <HeroImage />
-      <Intro />
+      {/* <Intro />
       <Services />
       <CTASection />
       <Solutions />
       <Values />
       <Sustainability />
       <Offers />
-      <DownloadApp />
+      <DownloadApp /> */}
     </>
   )
 }
