@@ -1,3 +1,5 @@
+import TermsAndConditions from "@/components/termsAndConditions/termsAndConditions";
+
 export const metadata = {
   title         : "Terms & Conditions | PlusX Electric",
   description   : "",
@@ -8,9 +10,9 @@ export const metadata = {
 
 function TermsAndConditionsPage() {
   return (
-    <div>
-      <h1 className="text-red-400">Terms and Conditions Page</h1>
-    </div>
+    <>
+      <TermsAndConditions />
+    </>
   )
 }
 

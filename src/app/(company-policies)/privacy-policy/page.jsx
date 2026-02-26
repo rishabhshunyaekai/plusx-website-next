@@ -1,3 +1,5 @@
+import PrivacyPolicies from "@/components/privacyPolicies/privacyPolicies";
+
 export const metadata = {
   title         : "Privacy Policy | PlusX Electric",
   description   : "",
@@ -8,9 +10,9 @@ export const metadata = {
 
 function PrivacyPolicyPage() {
   return (
-    <div>
-      <h1 className="text-red-400">Privacy Policy Page</h1>
-    </div>
+    <>
+      <PrivacyPolicies />
+    </>
   )
 }
 
