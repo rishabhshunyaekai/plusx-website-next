@@ -38,7 +38,7 @@
 .header img {
   padding: 0;
   margin: 0;
-  width: 110px;
+  /* width: 110px; */
 }
 
 .header .nav {

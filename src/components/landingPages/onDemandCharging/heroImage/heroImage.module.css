@@ -1,0 +1,116 @@
+.onDemandBanner {
+  background: url(../../../../assets/images/landing-pages/on-demand/desktop-banner.webp) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 16rem 0;
+}
+
+.onDemandContent {
+  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 55px;
+  margin-left: 20px;
+}
+
+.onDemandContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.primaryText {
+  color: #00ff99;
+  font-size: 85px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.secondaryText {
+  font-size: 42px;
+  color: var(--color-secondary);
+}
+
+.priceText {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.chargerButton {
+  background: var(--color-primary);
+  padding: 15px 18px;
+  border-radius: 10px;
+  font-size: 27px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+}
+
+.chargerButton:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0 -4px 20px var(--color-shadow-dark);
+}
+
+@media (max-width: 992px) {
+  .chargerButton {
+    padding: 12px 14px;
+    font-size: 24px;
+  }
+  .primaryText {
+    font-size: 65px;
+  }
+  .secondaryText {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .onDemandBanner {
+    background: url(../../../../assets/images/landing-pages/on-demand/mobile-banner.webp) center no-repeat;
+    background-size: cover;
+  }
+  .container {
+    padding: 180px 0;
+  }
+  .primaryText {
+    font-size: 65px;
+  }
+  .secondaryText {
+    font-size: 30px;
+  }
+  .priceText {
+    font-size: 25px;
+  }
+  .chargerButton {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 200px 0;
+  }
+  .primaryText {
+    font-size: 45px;
+  }
+  .priceText {
+    font-size: 20px;
+  }
+  .chargerButton {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 410px) {
+  .secondaryText {
+    font-size: 25px;
+  }
+}
