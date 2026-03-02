@@ -1,0 +1,105 @@
+.featuredService {
+  background: var(--color-background);
+  padding: 0px 0 60px;
+}
+
+.featuredService h2 {
+  /* text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-size: 32px; */
+  font-style: italic;
+}
+
+.connectButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.connectButtonContainer a {
+  background: var(--color-primary);
+  padding: 15px 18px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connectButtonContainer button {
+  background: var(--color-primary);
+  padding: 15px 18px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connectButtonContainer img {
+  width: 30px;
+  height: 30px;
+}
+
+.innerClass {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 992px) {
+  /* .title {
+    font-size: 28px;
+  } */
+
+  .connectButtonContainer a {
+    font-size: 20px;
+  }
+
+  .connectButtonContainer button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .connectButtonContainer a {
+    font-size: 15px;
+  }
+  .connectButtonContainer button {
+    font-size: 15px;
+  }
+
+  .connectButtonContainer img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* @media (max-width: 578px) {
+  .title {
+    font-size: 25px;
+  }
+} */
+
+@media (max-width: 480px) {
+  .connectButtonContainer {
+    gap: 10px;
+  }
+  .connectButtonContainer a {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+  .connectButtonContainer button {
+    padding: 12px 15px;
+    font-size: 12px;
+  }
+
+  .connectButtonContainer img {
+    width: 16px;
+    height: 16px;
+  }
+}
