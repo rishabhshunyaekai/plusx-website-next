@@ -1,6 +1,7 @@
 import "@/app/globals.css";
-import { Poppins } from 'next/font/google';
-import image from "@/assets/images/homepage/desktop-banner.webp";
+import { Poppins }          from 'next/font/google';
+import { GoogleTagManager } from '@next/third-parties/google';
+import image                from "@/assets/images/homepage/desktop-banner.webp";
 
 const poppins = Poppins({
   subsets : ['latin'],
@@ -8,6 +9,7 @@ const poppins = Poppins({
   variable: '--font-poppins',
 })
 
+const GTM_ID          = process.env.NEXT_PUBLIC_GTM_ID;
 export const metadata = {
   title         : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
   description   : "Find the best recipes in the world on this website.",
@@ -54,6 +56,7 @@ export const metadata = {
 function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+      <GoogleTagManager gtmId={GTM_ID} />
       <body>{children}</body>
     </html>
   );
