@@ -4,7 +4,7 @@ import styles           from "./bookingCard.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import AppIcon          from "@/assets/images/landing-pages/on-demand/app.svg";
-import CalendarIcon     from "@/assets/images/landing-pages/on-demand/calender.svg";
+import VehicleLocation  from "@/assets/images/landing-pages/rsa/vehicle-location.svg";
 import TeamIcon         from "@/assets/images/landing-pages/on-demand/driver.svg";
 import PlayStore        from "@/assets/images/homepage/play-store.svg"
 import AppStore         from "@/assets/images/homepage/app-store.svg"
@@ -16,13 +16,13 @@ const steps = [
     showStores  : true,
   },
   {
-    icon        : CalendarIcon,
-    text        : "Select Available Date & Time Slot",
+    icon        : VehicleLocation,
+    text        : "Select Your Location & Vehicle Type",
     showStores  : false,
   },
   {
     icon        : TeamIcon,
-    text        : "Our team will reach you at your scheduled date and time to charge your EV",
+    text        : "Our Service team will reach you at your selected location",
     showStores  : false,
   },
 ];
@@ -32,7 +32,7 @@ function BookingCard() {
     <section className={styles.featuredService}>
       <div className={`container ${styles.container}`}>
         <Animated animation="fade" easing="ease-in" duration={1000}>
-          <SecondaryHeading title="How to Book Portable Power Pod ?" />
+          <SecondaryHeading title="How to Book Emergency EV Roadside Assistance Service ?" />
         </Animated>
         
         <Animated className={styles.stepsGrid} animation="fade" easing="ease-in" duration={1000}>

@@ -32,12 +32,13 @@
 
 .secondaryText {
   font-size: 42px;
+  font-weight: 600;
   color: var(--color-secondary);
 }
 
 .priceText {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 20px;
 }

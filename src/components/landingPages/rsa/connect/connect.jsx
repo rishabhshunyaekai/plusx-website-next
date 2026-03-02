@@ -15,10 +15,10 @@ function Connect() {
     <section className={styles.featuredService}>
       <div className={`container`}>
         <Animated animation="fade" easing="ease-in" duration={1000}>
-          {/* <h2 className={styles.title}>Get your EV charged wherever you are</h2> */}
-          <SecondaryHeading title={"Get your EV charged wherever you are"}/>
+          {/* <h2 className={styles.title}>Is Your EV Battery Drained?</h2> */}
+          <SecondaryHeading title={"Is Your EV Battery Drained?"}/>
           <div className={styles.connectButtonContainer}>
-            <CTAButton text="BOOK POWER POD NOW" handler="appRedirect" />
+            <CTAButton text="BOOK EV ROADSIDE SERVICE NOW" handler="appRedirect" />
             <a target="_blank" className={styles.innerClass} href={whatsappUrl} rel="noreferrer" id="whatsappIcon">
               <Image src={Whatsapp} alt="Whatsapp" width={30} height={30} />CONNECT WITH US
             </a>

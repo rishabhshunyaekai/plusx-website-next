@@ -1,0 +1,139 @@
+.rsaBanner {
+  background: url(../../../../assets/images/landing-pages/rsa/desktop-banner.webp) right center no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+.rsaContainer {
+  margin-top: 16rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.mainHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.secondaryHeading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+  color: var(--color-secondary);
+}
+
+.greenBox {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.WhiteBox {
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.subText {
+  display: inline-block;
+  font-size: 1.25rem;
+  color: var(--color-text);
+  font-weight: 400;
+  border-top: 2px solid var(--color-text);
+  border-bottom: 2px solid var(--color-text);
+  padding: 10px 0;
+}
+
+.highlight {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.footNote {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .rsaContainer {
+    margin-top: 11rem;
+  }
+  .mainHeading {
+    font-size: 2rem;
+  }
+
+  .secondaryHeading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 1.8rem;
+  }
+  .secondaryHeading {
+    font-size: 2.5rem;
+  }
+  .subText {
+    font-size: 1rem;
+  }
+  .footNote {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .rsaBanner {
+    background: url(../../../../assets/images/landing-pages/rsa/desktop-banner.webp) center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .rsaContainer {
+    margin-top: 10rem;
+  }
+  .mainHeading {
+    font-size: 1.3rem;
+  }
+  .secondaryHeading {
+    font-size: 2rem;
+  }
+  .subText {
+    font-size: 0.84rem;
+  }
+  .footNote {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .mainHeading {
+    font-size: 1.1rem;
+  }
+  .subText {
+    font-size: 0.75rem;
+  }
+  .footNote {
+    font-size: 0.75rem;
+  }
+}
