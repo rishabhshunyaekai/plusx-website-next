@@ -2,8 +2,10 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 
 const introData = [
   {
-    title   : "PlusX Power Pods- Doorstep EV charging in Dubai",
-    content : `PlusX Power Pods are revolutionizing electric vehicle charging in Dubai.  They are convenient to use, compact, and allow you to charge your\n EV anywhere you travel.  Each pod contains a battery and a Level 2 charger, allowing them to charge electric vehicles and even fleets \nof EV bicycles quickly and conveniently. You no longer need to schedule your day around public charging points or stand in line. \nThese pods allow you to access mobile charging services in Dubai at the moment you need them.  Doorstep EV charging in \nDubai certainly makes the life of a busy EV owner slightly more convenient because they can even get their cars \ncharged at their doorstep. PlusX Power Pods provide on-demand EV charging in Dubai, which means you can \ncharge your vehicle at any time and location.  It's versatile, convenient, and makes owning an \nelectric car simple, whether it's for yourself or a complete fleet.`,
+    title             : "Mobile EV Charging Dubai -\nDoorstep EV Charging by PlusX Electric",
+    content           : `Mobile EV charging in Dubai is meant to make EV ownership simpler. With PlusX Electric, you can get your EV charged at your \nhome, office, or parking location without having to search for public charging stations. The service is designed to be \nconvenient in everyday life. You no longer have to structure your day around charger availability. \nYou book an instant or scheduled service on the app.`,
+    secondTitle       : `What Is Mobile EV Charging in Dubai?`,
+    secondaryContent  : "Doorstep EV charging implies that a charging station will be brought to your EV, as opposed to driving to a public charging \nstation. You request a charge through the PlusX Electric app, and the team arrives with a Portable Pod to charge \nyour EV at your location. You need not spend time finding a charger.",
   },
 ];
 
@@ -11,7 +13,7 @@ function PortableIntro() {
   return (
     <>
       {introData.map((section, index) => (
-        <IntroSection key={index} title={section.title} content={section.content} />
+        <IntroSection key={index} title={section.title} content={section.content} secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} />
       ))}
     </>
   );

@@ -1,4 +1,4 @@
-import style from "./heroImage.module.css";
+import style    from "./heroImage.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function HeroImage() {

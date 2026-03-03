@@ -1,14 +1,117 @@
-.portableBanner {
-  background: url(../../../assets/images/portable-charger-page/plusx-banner.webp) top no-repeat;
+.plusxBanner {
+  background: url(../../../assets/images/portable-charger-page/desktop-banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
+  background-size: cover;
   position: relative;
   margin-bottom: 60px;
 }
 
+.container {
+  padding: 190px 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.slug {
+  color: var(--color-secondary);
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.slug2 {
+  color: var(--color-secondary);
+  font-size: 27px;
+  letter-spacing: 3px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
 @media (max-width: 992px) {
-  .portableBanner {
-    background: url(../../../assets/images/portable-charger-page/plusx-banner-mobile.webp) top no-repeat;
+  .plusxBanner {
+    background: url(../../../assets/images/portable-charger-page/mobile-banner.webp) center no-repeat;
     background-size: cover;
+  }
+  .container {
+    padding: 180px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .slug {
+    font-size: 25px;
+  }
+
+  .slug2 {
+    font-size: 22px;
+  }
+  .button {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 200px 0;
+  }
+
+  .slug {
+    font-size: 22px;
+  }
+
+  .slug2 {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .heading {
+    padding: 0px 10px;
+  }
+  .slug {
+    font-size: 19px;
+  }
+
+  .slug2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 399px) {
+  .slug {
+    font-size: 15px;
+  }
+
+  .slug2 {
+    font-size: 14px;
   }
 }

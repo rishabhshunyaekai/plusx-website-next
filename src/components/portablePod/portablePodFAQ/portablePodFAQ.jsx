@@ -9,42 +9,42 @@ function PortablePodFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. Can someone come and charge my EV at home or office in Dubai?",
+            "name"  : "1. Is there a call-out/service fee for EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, PlusX has portable pod charging that brings electricity to your car no matter where you are, whether you're at home, at work, or somewhere else convenient."
+                "text"  : "Yes. PlusX Electric charges a call-out fee of AED 65 to deliver a Portable Power Pod to your doorstep or exact location in Dubai. Any additional service details are shown in the app before you confirm your booking."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. How do I book a doorstep EV charging session?",
+            "name"  : "2. How much does EV charging cost in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Making a reservation is easy! You can call PlusX at +971 54 279 6424 or +971 4 871 4175, or you can set up your session online. Our team will come to your location at the time you set."
+                "text"  : "Pricing depends on the service selected and your location. The call-out fee is AED 65, and the full cost breakdown is displayed in the PlusX Electric app during booking."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "3. How long does a portable pod charging session take?",
+            "name"  : "3. Do you offer 24/7 mobile EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "The portable pod can give your EV an 80% charge in about 4-5 hours."
+                "text"  : "Yes, PlusX Electric offers 24/7 mobile EV charging in Dubai, subject to real-time availability shown in the app. If you need urgent assistance, you can also choose the emergency option in the app."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4. Is portable pod charging safe for all EV models?",
+            "name"  : "4. How long does it take to charge my EV with a mobile charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Of course. PlusX portable pods are compatible with all major EV models and help keep your battery safe. The Pod charges EVs through different connectors."
+                "text"  : "Charging time depends on your EV model and current battery level. Typically, AC charging takes around 4–5 hours to charge up to ~80%, this depends on the vehicle and site conditions."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5. What is the cost of doorstep EV charging in Dubai?",
+            "name"  : "5. I don’t have a charger at home — what are my options in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : `Convenience Charge: Applicable as per booking Transparent pricing: AC ₹0.70/kWh, DC ₹1.20/kWh + convenience charge. Simple, reliable, and hassle-free EV charging.`
+                "text"  : `With PlusX Electric, you can book mobile EV charging through the app and get a Portable Power Pod delivered to your location.`
             }
         }
     ]
