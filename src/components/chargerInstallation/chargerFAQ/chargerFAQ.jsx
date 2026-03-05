@@ -9,51 +9,43 @@ function chargerFAQ() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. What happens if my EV battery dies completely?",
+            "name"  : "1. What does EV charger installation in UAE include?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "If your EV battery is fully drained, our team provides on-site charging up to 10 kWh or approximately 50 km of range, whichever comes first, so you can safely continue your journey."
+                "text"  : "EV charger installation in UAE includes site assessment, DEWA approvals, certified installation, testing, and installation certification."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. Do you tow electric vehicles?",
+            "name"  : "2. Do you offer home EV charger installation?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "We avoid towing wherever possible. In most cases, on-site charging is enough to get your EV moving again. Towing is used only if charging or on-site recovery is not feasible."
+                "text"  : "Yes. We provide safe and compliant home EV charger installation for villas, apartments, and private parking spaces."
             }
         },{
             "@type" : "Question",
-            "name"  : "3. How fast can PlusX Electric reach me in Dubai?",
+            "name"  : "3. Do you manage DEWA approvals for EV charger installation?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Our average response time is within 60 minutes, depending on your location, traffic conditions, and other unforeseen factors."
+                "text"  : "Yes. We handle all required DEWA permits and approvals for hassle-free installation."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4. Is jump-start service included in EV roadside assistance?",
+            "name"  : "4. How long does EV charger installation take?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. If your 12V battery is dead, we provide jump-start service as part of the EV roadside assistance offering."
+                "text"  : "Most installations depend on site readiness and electrical setup."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5. Is EV roadside assistance available 24/7 in Dubai?",
+            "name"  : "5. Is warranty included with EV charger installation?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. Our EV roadside assistance service is available 24 hours a day, 7 days a week, anywhere in Dubai."
+                "text"  : "Yes. Every installation includes a 3-year warranty and one free preventive maintenance visit in the first year."
             }
         },
-        {
-            "@type" : "Question",
-            "name"  : "6. How can I book EV roadside assistance?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "You can book the service instantly by downloading the PlusX App, adding your location details on the RSA booking screen, and confirming your request."
-            }
-        }
     ]
   }
 

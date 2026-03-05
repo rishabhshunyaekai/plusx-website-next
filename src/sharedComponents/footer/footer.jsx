@@ -42,7 +42,7 @@ function Footer() {
                 <li><Link href="/ev-car-insurance">EV Insurance</Link></li>
                 <li><Link href="/public-ev-charging-stations">EV Public Charging Stations</Link></li>
                 <li><Link href="/share-private-ev-charger">EV Charge Share</Link></li>
-                <li><Link href="/mobility-solution">Mobility Solution</Link></li>
+                {/* <li><Link href="/mobility-solution">Mobility Solution</Link></li> */}
               </ul>
             </div>
             <div className={`${style.footerLinks}`}>
