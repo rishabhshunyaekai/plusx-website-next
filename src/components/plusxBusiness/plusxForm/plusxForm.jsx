@@ -199,7 +199,7 @@ function PlusxForm() {
                             <input type="hidden" id="country_code" name="country_code" />
                             <div className="text-center">
                                 <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`${style.formSubmit}`}>
-                                    {isSubmitButtonDisable ? <><span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white-500 border-t-transparent"></span> Submit... </> : "Submit"}
+                                    {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}
                                 </button>
                             </div>
                         </div>

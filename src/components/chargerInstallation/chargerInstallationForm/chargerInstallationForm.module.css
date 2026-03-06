@@ -59,7 +59,7 @@
 
 .addressInput {
   display: block;
-  width: 80%;
+  width: 100%;    /* 80% while using map*/
   height: auto;
   padding: 15px 19px;
   font-size: 1rem;

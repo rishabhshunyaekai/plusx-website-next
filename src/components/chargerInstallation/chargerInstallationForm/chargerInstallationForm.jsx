@@ -3,21 +3,19 @@
 import { useState }     from "react";
 import { PhoneInput }   from "react-international-phone";
 import style            from "./chargerInstallationForm.module.css";
-// import { useNavigate } from "react-router-dom";
+import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
+
+// import { useNavigate } from "react-router-dom";
 // import "../../../../assets/css/SweetAlert.css";
 // import Swal from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
-
-import SecondaryHeading         from "@/sharedComponents/heading/secondaryHeading";
-import { IoLocationOutline }    from "react-icons/io5";
-// import Modal from "../../../sharedComponent/Modal/Modal";
+// import Modal                    from "@/sharedComponents/modal/modal";
+// import { IoLocationOutline }    from "react-icons/io5";
 // import { getInTouchForm } from "../../../../service/getInTouchForm";
-// import {APIProvider, Map, Marker} from '@vis.gl/react-google-maps';
 
-const googleMapApiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
-const heading         = "Talk to Our Experts – Free Consultation Available";
+const heading   = "Talk to Our Experts – Free Consultation Available";
 
 function ChargerInstallationForm() {
   const navigate = 0;
@@ -31,12 +29,10 @@ function ChargerInstallationForm() {
     to_be_used  : "personal",
     description : "",
   });
-  const [isModalOpen, setIsModalOpen]                     = useState(false);
   const [error, setError]                                 = useState({});
   const [isDisplayPhoneError, setIsDisplayPhoneError]     = useState(false);
   const [isSubmitButtonDisable, setIsSubmitButtonDisable] = useState(false);
   const [errorMessage, setErrorMessage]                   = useState("");
-  const [defaultCenter, setDefaultCenter]                 = useState({ lat: 25.2048, lng: 55.2708 });
   
   function handleInputChange(event) {
     const { name, value, type, checked } = event.target;
@@ -85,18 +81,6 @@ function ChargerInstallationForm() {
     setIsSubmitButtonDisable(false);
   }
 
-  function handleModal() {
-    setIsModalOpen(true);
-  }
-
-  function handleCloseModal() {
-    setIsModalOpen(false);
-  }
-
-  function handleAddress() {
-    setIsModalOpen(false);
-  }
-
   function resetForm() {
     setFormData({
       name        : "",
@@ -135,15 +119,6 @@ function ChargerInstallationForm() {
     return Object.keys(errors).length ? errors : null;
   }
 
-  async function handleMapClick(lat, lng) {
-    setDefaultCenter({ lat : lat, lng : lng });
-    const geocodeRes = await fetch( `https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${googleMapApiKey}`
-    );
-    const data = await geocodeRes.json();
-    if (data.results && data.results[0]) {
-      setFormData((prev) => ({ ...prev, address: data.results[0].formatted_address }));
-    }
-  };
   return (
     <section className={style.getInTouchForm}>
         <div className={`container`}>
@@ -171,13 +146,7 @@ function ChargerInstallationForm() {
                                     {error.email && ( <span className={style.errorMessage}> {error.email} </span>)}
                                 </div>
                                 <div className={style.formGroup}>
-                                    <div className={style.wrapper}>
-                                        <input type="text" className={style.addressInput} placeholder="Address*" name="address" autoComplete="off" value={formData.address} onChange={handleInputChange} />
-                                        <button className={style.map} onClick={handleModal} type="button">
-                                            <IoLocationOutline />
-                                            Map
-                                        </button>
-                                    </div>
+                                    <input type="text" className={style.addressInput} placeholder="Address*" name="address" autoComplete="off" value={formData.address} onChange={handleInputChange} />
                                     {error.address && ( <span className={style.errorMessage}> {error.address} </span> )}
                                 </div>
                             </div>
@@ -228,7 +197,7 @@ function ChargerInstallationForm() {
                             <input type="hidden" id="country_code" name="country_code" />
                             <div className="text-center">
                                 <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`btn ${style.formSubmit}`}>
-                                    {isSubmitButtonDisable ? <><span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white-500 border-t-transparent"></span> Submit... </> : "Submit"}
+                                    {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}
                                 </button>
                             </div>
                         </div>
@@ -239,26 +208,6 @@ function ChargerInstallationForm() {
                 </div>
             </div>
         </div>
-        {/* <Modal isOpen={isModalOpen} heading= "Address" buttonName="Add" onClose={handleCloseModal} onSubmit={handleAddress}>
-
-            <div className={style.modalContainer}>
-                <APIProvider apiKey={googleMapApiKey}>
-                    <Map style={{width: '100%', height: '300px'}} defaultCenter={defaultCenter} defaultZoom={11} gestureHandling={'greedy'} disableDefaultUI={true} /> // onClick={handleMapClick}
-                        
-                    
-                    <Marker
-                        position={defaultCenter}
-                        draggable={true}
-                        // onDragEnd={(e) => handleMapClick({ detail: { latLng: e.latLng } }) }
-                        onDragEnd={(e) => {
-                            const lat = e.latLng.lat();
-                            const lng = e.latLng.lng();
-                            handleMapClick(lat, lng )
-                        }}
-                    />
-                </APIProvider>
-            </div>
-        </Modal> */}
     </section>
   );
 }

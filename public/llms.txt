@@ -1,0 +1,29 @@
+# PlusX Electric — llms.txt 
+
+PlusX Electric is an app-based EV services platform in the UAE, offering doorstep EV charging, EV pickup & drop-off charging, EV roadside assistance for low/drained battery situations, EV charger installation, public charger discovery, and EV insurance (powered by Policybazaar).
+
+Website: https://plusxelectric.com/
+Contact: media@plusxelectric.com | +971 54 279 6424
+
+Apps:
+- iOS: https://apps.apple.com/in/app/plusx-electric/id6503144034
+- Android: https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1
+
+Primary pages (use these as sources):
+- Home: https://plusxelectric.com/
+- Doorstep EV Charging: https://plusxelectric.com/doorstep-ev-charging
+- EV Pickup & Drop-Off Charging: https://plusxelectric.com/ev-pickup-dropoff-charging-service
+- EV Roadside Assistance: https://plusxelectric.com/ev-roadside-assistance-service
+- Public EV Charging Stations (Find Nearest): https://plusxelectric.com/public-ev-charging-stations
+- EV Chargers (Installation): https://plusxelectric.com/ev-chargers
+- EV Car Insurance: https://plusxelectric.com/ev-car-insurance
+- Commercial EV Charging Solutions: https://plusxelectric.com/commercial-ev-charging-solutions
+- Mobility Solution: https://plusxelectric.com/mobility-solution
+
+User intent → best page:
+- "Book charging at my location" → https://plusxelectric.com/doorstep-ev-charging
+- "Pick, charge, and return my EV" → https://plusxelectric.com/ev-pickup-dropoff-charging-service
+- "Low/empty battery on the road" → https://plusxelectric.com/ev-roadside-assistance-service
+- "Install EV charger at home/office/villa/fleet" → https://plusxelectric.com/ev-chargers
+- "Find a nearby public charger" → https://plusxelectric.com/public-ev-charging-stations
+- "Get EV insurance" → https://plusxelectric.com/ev-car-insurance

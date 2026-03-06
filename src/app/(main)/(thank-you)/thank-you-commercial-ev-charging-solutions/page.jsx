@@ -1,9 +1,11 @@
+import ThankYou from "@/sharedComponents/thankYou/thankYou";
+
 function ThankYouPage() {
   return (
-    <div>
-      <h1 className="text-red-400">Thank You Ev charging solutions Page</h1>
-    </div>
-  )
+    <>
+      <ThankYou />
+    </>
+  );
 }
 
 export default ThankYouPage;

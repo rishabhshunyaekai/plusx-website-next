@@ -13,7 +13,7 @@ function Modal({ isOpen, heading, onClose, onSubmit, children, buttonName, loadi
                 <div className={style.buttonGroup}>
                     <button className={style.closeModalButton} onClick={onClose}>Close</button>
                     <button className={style.assignButton} id={id} onClick={onSubmit}>
-                        { loading ? <><span className="spinner-border spinner-border-sm me-2"></span>Submit...</> : (buttonName || 'Submit')}
+                        { loading ? (<div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div>) : (buttonName || "Submit") }
                     </button>
                 </div>
             </div>

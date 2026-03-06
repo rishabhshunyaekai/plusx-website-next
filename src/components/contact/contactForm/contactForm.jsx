@@ -149,7 +149,7 @@ function GetInTouch() {
                 <input type="hidden" id="country_code" name="country_code" />
                 <div className={`text-center`}>
                   <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`btn ${style.formSubmit}`}>
-                    {isSubmitButtonDisable ? <><span className="spinner-border spinner-border-sm me-2"></span> Submit... </> : "Submit"}
+                    {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}
                   </button>
                 </div>
               </div>

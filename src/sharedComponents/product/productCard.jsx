@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function ProductCard({ product, url }) {
   return (
-    <div className={styles.card}>
+    <Link href={`${url}/${product.slug}`} className={styles.card}>
       <Image src={product.image} alt={product.name} className={styles.image} width={310} height={210} />
 
       <h4 className={styles.title}>{product.name}</h4>
@@ -17,12 +17,12 @@ function ProductCard({ product, url }) {
         </div>
 
         {/* <Link to={`${url}/${product.name}`} className={styles.button}> */}
-        <Link href={`${url}/${product.slug}`} className={styles.button}>
+        <button type="button" className={styles.button}>
           View Details <FaArrowRightLong />
-        </Link>
+        </button>
 
       </div>
-    </div>
+    </Link>
   )
 }
 
