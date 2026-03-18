@@ -1,5 +1,5 @@
 import style          from "./whyPrivateCharger.module.css";
-import Card           from "./card";
+import Card           from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import Animated       from "@/sharedComponents/animatedComponent/animated";
 import Capacity       from "@/assets/images/ev-charge-share-page/capacity.svg";
 import Building       from "@/assets/images/ev-charge-share-page/building.svg";

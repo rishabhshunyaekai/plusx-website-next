@@ -1,7 +1,10 @@
 import HeroImage      from "@/components/evInsurance/heroImage/heroImage";
 import Intro          from "@/components/evInsurance/insuranceIntro/insuranceIntro";
+import Values         from "@/components/evInsurance/values/values";
+import Designed       from "@/components/evInsurance/designed/designed";
 import Feature        from "@/components/evInsurance/feature/feature";
 import BookingSteps   from "@/components/evInsurance/bookingSteps/bookingSteps";
+import Places         from "@/components/evInsurance/availablePlaces/availablePlaces";
 import Offers         from "@/components/homepage/offers/offers";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ            from "@/components/evInsurance/insuranceFAQ/insuranceFAQ";
@@ -20,8 +23,11 @@ function EVCarInsurancePage() {
     <>
       <HeroImage />
       <Intro />
+      <Values />
+      <Designed />
       <Feature />
       <BookingSteps />
+      <Places />
       <Offers />
       <DownloadApp />
       <FAQ />

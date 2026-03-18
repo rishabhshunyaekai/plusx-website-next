@@ -14,9 +14,9 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              Book EV Insurance in UAE With <br className={style.headingBreakline}/>PlusX Electric App
+              Simple Digital Process{/* <br className={style.headingBreakline}/> */}
             </h2>
-            <h3 className={style.bookingStepsSubHeading}><strong>Book EV Insurance in the UAE with the PlusX Electric App <br className={style.headingBreakline}/>Powered by Policybazaar</strong></h3>
+            <h3 className={style.bookingStepsSubHeading}>EV car insurance in the UAE does not necessarily have<br className={style.headingBreakline}/> to be time-consuming with PlusX Electric:</h3>
           </Animated>
         </div>
 
@@ -62,13 +62,13 @@ function BookingSteps() {
           </div>
         </Animated>
 
-        {/* <div className="text-center">
+        <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <p className={style.bookingStepsFooter}>
-              As per our service records, we typically reach customers <strong>within 60 minutes</strong>,<br className={style.footerBreakline}/> depending on location and unforeseen conditions.
+              The process takes just a few minutes. {/* <br className={style.footerBreakline}/> */}
             </p>
           </Animated>
-        </div> */}
+        </div>
       </div>
     </section>
   );
