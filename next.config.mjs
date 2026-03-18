@@ -12,6 +12,7 @@ const nextConfig = {
       { source: '/media',                 destination: '/',   permanent: true },
       { source: '/media-blog',            destination: '/',   permanent: true },
       { source: '/plusx-app',             destination: '/',   permanent: true },
+      { source: '/mobility-solution',     destination: '/',   permanent: true },
 
       // Service Redirects
       { source: '/portable-power-pods',   destination: '/doorstep-ev-charging',                 permanent: true },
