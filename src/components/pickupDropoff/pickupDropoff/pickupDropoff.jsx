@@ -15,12 +15,12 @@ function PickupDropoff() {
         <div className={`container ${style.container}`}>
           
           <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
-            <div className={`lg:col-span-1`}>
+            <div className={`lg:col-span-1 order-2 lg:order-1`}>
               <div className={style.cardImageWrapper}>
                 <Image className={style.cardImage} src={Pickup} alt="Pickup" width={405} height={370} />
               </div>
             </div>
-            <div className={`lg:col-span-2`}>
+            <div className={`lg:col-span-2 order-1 lg:order-2`}>
               <Animated className={style.contentWrapper} animation="fade" easing="ease-in" duration={1000}>
                 <h2 className={style.cardTitle}>On-Demand <br className={style.breakLine}/>Pickup & Drop-Off</h2>
                 <h3 className={style.cardSubTitle}><strong>Service Fee: AED 39</strong></h3>
