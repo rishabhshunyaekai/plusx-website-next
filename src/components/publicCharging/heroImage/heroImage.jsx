@@ -1,22 +1,19 @@
-// import Link from "next/link";
-import style from "./heroImage.module.css";
-import Animated from "@/sharedComponents/animatedComponent/animated";
+import style      from "./heroImage.module.css";
+import CTAButton  from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import Animated   from "@/sharedComponents/animatedComponent/animated";
 
 function PublicChargingHeroImage() {
   return (
-    <figure className={`figure ${style.figureWrapper}`}>
+    <section className={style.figureWrapper}>
       <div className={`container ${style.container}`}>
-        <div className={`grid grid-col-1 h-100 md:h-87 items-center`}>
-          <Animated className={style.textWrapper} animation="fade" easing="ease-in" duration={1000}>
-              <span className={style.normalText}>Find The Nearest</span>
-              <h4 className={`${style.highlightedText}`}>Public EV Charging Station</h4>
-            {/* <div className={`${style.buttonContainer}`}>
-              <Link href="#">Know more</Link>
-            </div> */}
-          </Animated>
-        </div>
+        <Animated className={style.figureContent}>
+          <h2 className={style.primaryText}><strong>Find The Nearest</strong></h2>
+          <h2 className={style.secondaryText}>Public EV Charging</h2>
+          <h2 className={style.primaryText}>Stations in Dubai</h2>
+          <CTAButton className={style.button} text="Find Now" handler="scrollToBottomWithRedirection" />
+        </Animated>
       </div>
-  </figure>
+    </section>
   );
 }
 
