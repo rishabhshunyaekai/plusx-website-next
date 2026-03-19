@@ -1,15 +1,32 @@
-function Animated({ children, animation, easing, duration, ...props }) {
+"use client";
 
-  const aosProps = {
-    "data-aos": animation,
-    "data-aos-easing": easing || "ease-out",
-    "data-aos-duration": duration || 1000,
-  };
+import { useEffect, useRef, useState } from "react";
+import "./animated.css";
+
+function Animated({ children, className = "", animation = "fade", duration = 1000, easing = "ease-out", ...props }) {
+  const ref                   = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const element  = ref.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.unobserve(element);
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    if (element) observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <div {...aosProps} {...props}>
+    <article ref={ref} className={`animate ${animation} ${visible ? "show" : ""} ${className}`} style={{transitionDuration: `${duration}ms`, transitionTimingFunction: easing, transitionDelay: "100ms" }} {...props}>
       {children}
-    </div>
+    </article>
   );
 }
 

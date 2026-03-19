@@ -94,6 +94,7 @@ textarea::placeholder {
   padding: 10px 30px;
   border-radius: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .phoneInput {

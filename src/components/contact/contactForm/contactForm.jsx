@@ -1,32 +1,31 @@
 "use client";
 
-import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-import { PhoneInput } from "react-international-phone";
+import { useState }         from "react";
+import { useRouter }        from "next/navigation";
+import { PhoneInput }       from "react-international-phone";
+import { getInTouchForm }   from "@/service/getInTouchForm";
+import style                from "./contactForm.module.css";
+import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
 // import "@/assets/css/SweetAlert.css";
-// import Swal from "sweetalert2";
+// import Swal             from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
-
-import style                from "./contactForm.module.css";
-import { getInTouchForm }   from "@/service/getInTouchForm";
-import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
 
 const heading = "Get in Touch";
 
 function GetInTouch() {
-  // const navigate = useNavigate();
+  const router                  = useRouter();
   const [formData, setFormData] = useState({
     name    : "",
     email   : "",
     phone   : "",
     message : "",
   });
-  const [error, setError] = useState({});
-  const [isDisplayPhoneError, setIsDisplayPhoneError] = useState(false);
+  const [error, setError]                                 = useState({});
+  const [isDisplayPhoneError, setIsDisplayPhoneError]     = useState(false);
   const [isSubmitButtonDisable, setIsSubmitButtonDisable] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage]                   = useState("");
 
   function handleInputChange(event) {
     if (!event || !event.target) return;
@@ -67,7 +66,7 @@ function GetInTouch() {
       resetForm();
       setError({});
       setIsDisplayPhoneError(false);
-      setTimeout(()=> navigate("/thank-you-contact-us") ,500);
+      setTimeout(()=> router.push('/thank-you-contact-us') ,500);
     } else {
       setErrorMessage(result.message);
       setTimeout(() => setErrorMessage(""), 5000);
@@ -78,10 +77,10 @@ function GetInTouch() {
 
   function resetForm() {
     setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
+      name    : "",
+      email   : "",
+      phone   : "",
+      message : "",
     });
   }
 
@@ -134,7 +133,7 @@ function GetInTouch() {
                         {error.email && ( <span className={style.errorMessage}>{error.email}</span> )}
                     </div>
                     <div className={style.formGroup}>
-                        <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
+                        <PhoneInput defaultCountry="ae" value={formData.phone} onChange={handlePhone} />
                         {isDisplayPhoneError && error.phone && ( <span className={style.errorMessage}>{error.phone}</span> )}
                     </div>
                 </div>
@@ -146,7 +145,6 @@ function GetInTouch() {
                     </div>
                 </div>
                 
-                <input type="hidden" id="country_code" name="country_code" />
                 <div className={`text-center`}>
                   <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`btn ${style.formSubmit}`}>
                     {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}
@@ -155,7 +153,7 @@ function GetInTouch() {
               </div>
               <div className={`${style.messages}`}>
                 {errorMessage && (
-                  <div className={`alert alert-danger`} id="response_msg">
+                  <div className={`rounded-md border border-red-300 bg-red-100 text-md text-red-700 !p-3`} id="response_msg">
                     {errorMessage}
                   </div>
                 )}

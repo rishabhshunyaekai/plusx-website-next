@@ -1,24 +1,22 @@
 "use clients";
 
-import Image        from "next/image";
-import { useEffect, useState } from "react";
-import styles       from "./multipleImage.module.css";
-import Animated     from "@/sharedComponents/animatedComponent/animated";
-import Icon1        from "@/assets/images/ev-charger-installation-page/product-page/icon-1.svg";
-import Icon2        from "@/assets/images/ev-charger-installation-page/product-page/icon-2.svg";
-import Icon3        from "@/assets/images/ev-charger-installation-page/product-page/icon-3.svg";
-
-import Modal from "@/sharedComponents/modal/modal";
-// import { useNavigate } from "react-router-dom";
-
-import { getInTouchForm } from "@/service/getInTouchForm";
-import { PhoneInput }     from "react-international-phone";
+import Image                from "next/image";
+import { useRouter }        from "next/navigation";
+import { useState }         from "react";
+import { getInTouchForm }   from "@/service/getInTouchForm";
+import { PhoneInput }       from "react-international-phone";
+import styles               from "./multipleImage.module.css";
+import Modal                from "@/sharedComponents/modal/modal";
+import Animated             from "@/sharedComponents/animatedComponent/animated";
+import Icon1                from "@/assets/images/ev-charger-installation-page/product-page/icon-1.svg";
+import Icon2                from "@/assets/images/ev-charger-installation-page/product-page/icon-2.svg";
+import Icon3                from "@/assets/images/ev-charger-installation-page/product-page/icon-3.svg";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
 import "@/assets/css/SweetAlert.css";
 
 function MultipleImage({product, type }) {
-  // const navigate = useNavigate();
+  const router                  = useRouter();
   const [formData, setFormData] = useState({
     name        : "",
     phone       : "",
@@ -80,7 +78,7 @@ function MultipleImage({product, type }) {
       resetForm();
       setError({});
       setIsDisplayPhoneError(false);
-      setTimeout(()=> navigate("/thank-you-ev-chargers") ,500);
+      setTimeout(()=> router.push('/thank-you-ev-chargers') ,500);
     } else {
       // setErrorMessage(result.message);
       // setTimeout(() => setErrorMessage(""), 5000);
@@ -181,7 +179,7 @@ return (
                                   {error.name && ( <span className={styles.errorMessage}>{error.name}</span> )}
                               </div>
                               <div className={styles.formGroup}>
-                                  <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
+                                  <PhoneInput defaultCountry="ae" value={formData.phone} onChange={handlePhone} />
                                   {isDisplayPhoneError && error.phone && ( <span className={styles.errorMessage}> {error.phone} </span> )}
                               </div>
                             </div>
@@ -239,7 +237,6 @@ return (
                                   </div>
                               </div>
                             )}
-                            <input type="hidden" id="country_code" name="country_code" />
                         </div>
                     </form>
                 </div>

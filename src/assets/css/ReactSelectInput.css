@@ -10,7 +10,7 @@
 .css-t3ipsp-control {
   padding: 8px !important;
   height: 0px !important;
-  background-color: #f6f5f5 !important;
+  background-color: var(--color-background) !important;
   border-color: none !important;
   border-radius: 10px !important;
 
@@ -21,8 +21,8 @@
 
 .css-13cymwt-control {
   min-height: 0px !important;
-  background-color: #f6f5f5 !important;
-  border: 2px solid #00b26b !important;
+  background-color: var(--color-background) !important;
+  border: 2px solid var(--color-primary) !important;
   padding: 8px !important;
   border-radius: 10px !important;
   box-sizing: border-box !important;
@@ -38,9 +38,9 @@
 }
 
 .css-1nmdiq5-menu {
-  background-color: #f6f5f5 !important;
-  border: 2px solid #00b26b !important;
-  color: #000 !important;
+  background-color: var(--color-background) !important;
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-text) !important;
   border-radius: 10px !important;
   box-shadow: unset !important;
   margin-bottom: 8px !important;
@@ -50,7 +50,7 @@
   overflow: hidden !important;
 }
 .css-10wo9uf-option:active {
-  background-color: #f6f5f5 !important;
+  background-color: var(--color-background) !important;
 }
 .css-1jqq78o-placeholder {
   color: #867e7e !important;
@@ -58,13 +58,13 @@
 #react-select-3-input,
 #react-select-5-input,
 #react-select-7-input {
-  color: #000 !important;
+  color: var(--color-text) !important;
 }
 .css-d7l1ni-option {
-  background-color: #f6f5f5 !important;
+  background-color: var(--color-background) !important;
 }
 .css-19bb58m {
-  color: #000 !important;
+  color: var(--color-text) !important;
   visibility: visible !important;
   -webkit-flex: 1 1 auto !important;
   -ms-flex: 1 1 auto !important;
@@ -83,11 +83,11 @@
 .css-t3ipsp-control {
   min-height: 54px !important;
   padding: 8px !important;
-  color: #000 !important;
+  color: var(--color-text) !important;
   border-color: none !important;
   box-shadow: unset !important;
-  background-color: #f6f5f5 !important;
-  border: 2px solid #00b26b !important;
+  background-color: var(--color-background) !important;
+  border: 2px solid var(--color-primary) !important;
 
   //commented below property
   outline: none !important;
@@ -95,15 +95,15 @@
   border-width: 0px !important;
 }
 .css-t3ipsp-control:hover {
-  background-color: #f6f5f5 !important;
-  border: 2px solid #00b26b !important;
+  background-color: var(--color-background) !important;
+  border: 2px solid var(--color-primary) !important;
 }
 .css-1dimb5e-singleValue {
-  color: #000 !important;
+  color: var(--color-text) !important;
 }
 .css-tr4s17-option {
-  background-color: #00b26b !important;
-  color: #fff !important;
+  background-color: var(--color-primary) !important;
+  color: var(--color-secondary) !important;
   border-radius: 10px !important;
 } */
 
@@ -127,7 +127,7 @@
   padding: 27px 20px !important;
   border-radius: 10px !important;
   background-color: #212121;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
   width: 100% !important;
   border: 1px solid #212121 !important;
   font-size: 1rem !important;
@@ -136,12 +136,12 @@
 .react-international-phone-country-selector-dropdown {
   margin-top: 10px !important;
   background: #212121 !important;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
   border: 1px solid #212121 !important;
 }
 
 .react-international-phone-country-selector-dropdown__list-item:hover {
   background-color: #212121 !important;
   cursor: pointer !important;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
 } */

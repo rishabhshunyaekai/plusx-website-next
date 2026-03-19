@@ -8,32 +8,32 @@
   .react-international-phone-country-selector-button {
   padding: 27px 15px !important;
   border-radius: 10px !important;
-  background-color: #f6f5f5 !important;
-  border: 2px solid #00b26b !important;
+  background-color: var(--color-background) !important;
+  border: 2px solid var(--color-primary) !important;
 }
 
 .react-international-phone-input-container .react-international-phone-input {
   padding: 27px 20px !important;
   border-radius: 10px !important;
-  background-color: #f6f5f5 !important;
-  color: #000 !important;
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
   width: 100% !important;
-  border: 2px solid #00b26b !important;
+  border: 2px solid var(--color-primary) !important;
   font-size: 1rem !important;
 }
 
 .react-international-phone-country-selector-dropdown {
   margin-top: 10px !important;
-  background: #f6f5f5 !important;
-  color: #000 !important;
-  border: 1px solid #00b26b !important;
+  background: var(--color-background) !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-primary) !important;
   height: 190px !important;
 }
 
 .react-international-phone-country-selector-dropdown__list-item:hover {
-  background-color: #00b26b !important;
+  background-color: var(--color-primary) !important;
   cursor: pointer !important;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
 }
 
 .react-international-phone-flag-emoji {
@@ -54,7 +54,7 @@
   height: auto !important;
 }
 .react-international-phone-input-container:focus-within {
-  color: #ffffff !important;
+  color: var(--color-secondary) !important;
   background-color: #212121 !important;
   border-color: #91fcc9 !important;
   outline: 0 !important;
@@ -69,7 +69,7 @@
 
 .react-international-phone-input-container .react-international-phone-input {
   font-size: 1rem !important;
-  color: #ffffff !important;
+  color: var(--color-secondary) !important;
   background-color: #212121 !important;
   border: 1px solid #212121 !important;
   border-radius: 0.267rem !important;
@@ -80,11 +80,11 @@
   margin-top: 4px !important;
   left: -19px !important;
   background: #212121 !important;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
 }
 
 .react-international-phone-country-selector-dropdown__list-item:hover {
   background-color: #212121 !important;
   cursor: pointer !important;
-  color: #fff !important;
+  color: var(--color-secondary) !important;
 } */

@@ -1,25 +1,24 @@
 "use client";
 
-import { useState }     from "react";
-import { PhoneInput }   from "react-international-phone";
-import style            from "./chargerInstallationForm.module.css";
-import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
+import { useState }         from "react";
+import { useRouter }        from "next/navigation";
+import { PhoneInput }       from "react-international-phone";
+import { getInTouchForm }   from "@/service/getInTouchForm";
+import style                from "./chargerInstallationForm.module.css";
+import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
 
-// import { useNavigate } from "react-router-dom";
-// import "../../../../assets/css/SweetAlert.css";
-// import Swal from "sweetalert2";
+// import "@/assets/css/SweetAlert.css";
 // import withReactContent from "sweetalert2-react-content";
+// import Swal                     from "sweetalert2";
 // import Modal                    from "@/sharedComponents/modal/modal";
 // import { IoLocationOutline }    from "react-icons/io5";
-// import { getInTouchForm } from "../../../../service/getInTouchForm";
 
-const heading   = "Talk to Our Experts – Free Consultation Available";
+const heading = "Talk to Our Experts – Free Consultation Available";
 
 function ChargerInstallationForm() {
-  const navigate = 0;
-//   const navigate = useNavigate();
+  const router                  = useRouter();
   const [formData, setFormData] = useState({
     name        : "",
     phone       : "",
@@ -73,7 +72,7 @@ function ChargerInstallationForm() {
       resetForm();
       setError({});
       setIsDisplayPhoneError(false);
-      setTimeout(()=> navigate("/thank-you-ev-chargers") ,500);
+      setTimeout(()=> router.push('/thank-you-ev-chargers') ,500);
     } else {
       setErrorMessage(result.message);
       setTimeout(() => setErrorMessage(""), 5000);
@@ -133,7 +132,7 @@ function ChargerInstallationForm() {
                                     {error.name && ( <span className={style.errorMessage}>{error.name}</span> )}
                                 </div>
                                 <div className={style.formGroup}>
-                                    <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
+                                    <PhoneInput defaultCountry="ae" value={formData.phone} onChange={handlePhone} />
                                     {isDisplayPhoneError && error.phone && ( <span className={style.errorMessage}> {error.phone} </span> )}
                                 </div>
                             </div>
@@ -194,7 +193,7 @@ function ChargerInstallationForm() {
                                     {error.description && ( <span className={style.errorMessage}> {error.description} </span>)}
                                 </div>
                             </div>
-                            <input type="hidden" id="country_code" name="country_code" />
+
                             <div className="text-center">
                                 <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`btn ${style.formSubmit}`}>
                                     {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}

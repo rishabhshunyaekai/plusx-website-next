@@ -24,7 +24,7 @@
 }
 
 .slick-dots li.slick-active button:before {
-  color: #00b26b !important;
+  color: var(--color-primary) !important;
 }
 
 .slick-slide[aria-hidden="true"] a {

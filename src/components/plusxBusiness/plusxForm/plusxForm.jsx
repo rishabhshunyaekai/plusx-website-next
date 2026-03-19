@@ -1,37 +1,37 @@
 "use client";
 
-import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-import { PhoneInput } from "react-international-phone";
+import { useState }         from "react";
+import { useRouter }        from "next/navigation";
+import { PhoneInput }       from "react-international-phone";
+import { getInTouchForm }   from "@/service/getInTouchForm";
+import style                from "./plusxForm.module.css";
+import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
 import "react-international-phone/style.css";
 import "@/assets/css/ReactInputPhone.css";
 // import "@/assets/css/SweetAlert.css";
-// import Swal from "sweetalert2";
+// import Swal             from "sweetalert2";
 // import withReactContent from "sweetalert2-react-content";
 
-import style                from "./plusxForm.module.css";
-import { getInTouchForm }   from "@/service/getInTouchForm";
-import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
-
-const heading         = "Get in Touch";
+const heading = "Get in Touch";
 
 function PlusxForm() {
-//   const navigate = useNavigate();
+  const router                  = useRouter();
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    address_type: "Commercial",
-    address: "",
-    vehicle_model: "",
-    regional_specification: "",
-    charges: "",
-    description: "",
+    name                    : "",
+    email                   : "",
+    phone                   : "",
+    address_type            : "Commercial",
+    address                 : "",
+    vehicle_model           : "",
+    regional_specification  : "",
+    charges                 : "",
+    description             : "",
   });
-  const [error, setError] = useState({});
-  const [isDisplayPhoneError, setIsDisplayPhoneError] = useState(false);
+
+  const [error, setError]                                 = useState({});
+  const [isDisplayPhoneError, setIsDisplayPhoneError]     = useState(false);
   const [isSubmitButtonDisable, setIsSubmitButtonDisable] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage]                   = useState("");
 
   function handleInputChange(event) {
     const { name, value, type, checked } = event.target;
@@ -76,7 +76,7 @@ function PlusxForm() {
       resetForm();
       setError({});
       setIsDisplayPhoneError(false);
-    //   setTimeout(()=> navigate("/thank-you-commercial-ev-charging-solutions") ,500);
+      setTimeout(()=> router.push('/thank-you-commercial-ev-charging-solutions') ,500);
     } else {
       setErrorMessage(result.message);
       setTimeout(() => setErrorMessage(""), 5000);
@@ -87,15 +87,15 @@ function PlusxForm() {
 
   function resetForm() {
     setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      address_type: "Commercial",
-      address: "",
-      vehicle_model: "",
-      regional_specification: "",
-      charges: "",
-      description: "",
+      name                    : "",
+      email                   : "",
+      phone                   : "",
+      address_type            : "Commercial",
+      address                 : "",
+      vehicle_model           : "",
+      regional_specification  : "",
+      charges                 : "",
+      description             : "",
     });
   }
 
@@ -152,7 +152,7 @@ function PlusxForm() {
                             </div>
                             <div className={`grid grid-cols-1 lg:grid-cols-2 gap-6`}>
                                 <div className={style.formGroup}>
-                                    <PhoneInput defaultCountry="ae" value={formData.phone} maxLength={10} onChange={handlePhone} />
+                                    <PhoneInput defaultCountry="ae" value={formData.phone} onChange={handlePhone} />
                                     {isDisplayPhoneError && error.phone && ( <span className={style.errorMessage}>{error.phone}</span> )}
                                 </div>
                                 <div className="grid grid-cols-2 items-center">
@@ -196,7 +196,7 @@ function PlusxForm() {
                                     {error.description && ( <span className={style.errorMessage}>{error.description}</span> )}
                                 </div>
                             </div>
-                            <input type="hidden" id="country_code" name="country_code" />
+
                             <div className="text-center">
                                 <button type="submit" id="submitButton" disabled={isSubmitButtonDisable} className={`${style.formSubmit}`}>
                                     {isSubmitButtonDisable ? <div className="flex items-center gap-2"><span className="inline-block w-4 h-4 mr-2 border-2 border-white border-t-transparent rounded-full animate-spin"></span>Submitting...</div> : "Submit"}

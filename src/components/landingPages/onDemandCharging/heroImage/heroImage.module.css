@@ -51,6 +51,7 @@
   color: var(--color-secondary);
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .chargerButton:hover {

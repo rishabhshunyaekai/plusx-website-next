@@ -61,6 +61,7 @@
   border: none;
   outline: none;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .chargerButton:hover {

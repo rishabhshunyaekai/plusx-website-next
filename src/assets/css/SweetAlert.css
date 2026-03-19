@@ -1,8 +1,8 @@
 /* SweetALert Popup CSS */
 .swal2-confirm {
-  background-color: #00b26b !important;
+  background-color: var(--color-primary) !important;
   border: none;
-  color: #fff;
+  color: var(--color-secondary);
 }
 .sweetalert-text {
   font-size: 1.125em;
@@ -11,17 +11,17 @@
   margin-bottom: 0px !important;
 }
 div:where(.swal2-container) div:where(.swal2-popup) {
-  background-color: #f6f5f5 !important;
-  color: #000 !important;
-  border: 2px solid #00b26b !important;
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+  border: 2px solid var(--color-primary) !important;
   border-radius: 14px !important;
 }
 div:where(.swal2-icon).swal2-success [class^="swal2-success-circular-line"] {
-  background-color: #f6f5f5 !important;
+  background-color: var(--color-background) !important;
 }
 div:where(.swal2-icon).swal2-success .swal2-success-ring {
-  border: 0.25em solid #00b26b !important;
+  border: 0.25em solid var(--color-primary) !important;
 }
 div:where(.swal2-icon).swal2-success [class^="swal2-success-line"] {
-  background-color: #00b26b !important;
+  background-color: var(--color-primary) !important;
 }
