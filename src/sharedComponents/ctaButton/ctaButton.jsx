@@ -6,7 +6,7 @@ import {
   portablePageRedirectionHandler,
   roadsidePageRedirectionHandler,
   scrollToBottomWithRedirectionHandler,
-  ScrollToBottom,
+  scrollToSpecificSectionViaID,
 } from "@/utils/helper";
 
 function CTAButton({ className, text, handler }) {
@@ -18,7 +18,9 @@ function CTAButton({ className, text, handler }) {
     if (handler === "portablePage")                   portablePageRedirectionHandler();
     if (handler === "roadsidePage")                   roadsidePageRedirectionHandler();
     if (handler === "scrollToBottomWithRedirection")  scrollToBottomWithRedirectionHandler();
-    if (handler === "scrollToBottom")                 ScrollToBottom();
+    if (handler === "scrollToFooter")                 scrollToSpecificSectionViaID("footer");
+    if (handler === "scrollToCarService")             scrollToSpecificSectionViaID("carServices");
+    if (handler === "scrollToCarServiceForm")         scrollToSpecificSectionViaID("getAQuoteForm");
   };
 
   return (

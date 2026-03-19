@@ -6,7 +6,7 @@ import "@/assets/css/ReactSelectInput.css";
 function CustomDropdown({ options = [], value, onChange, placeholder = "Select Option",onMenuOpen, isLoading }) {
     
   return (
-    <Select options={options} value={value} onChange={onChange} placeholder={placeholder} isClearable={false} styles={customStyles} onMenuOpen={onMenuOpen} isLoading={isLoading}
+    <Select instanceId="custom-dropdown" options={options} value={value} onChange={onChange} placeholder={placeholder} isClearable={false} styles={customStyles} onMenuOpen={onMenuOpen} isLoading={isLoading}
       formatOptionLabel={(e, { context }) => {
         const isSelected = value?.value === e.value;
 

@@ -1,0 +1,232 @@
+.main {
+  background-color: var(--color-primary);
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.ctaContainer {
+  padding: 4.5% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ctaHeading,
+.ctaContent {
+  color: var(--color-secondary);
+}
+
+.ctaHeading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.ctaSubheading {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.ctaContent {
+  font-size: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.chargerButton {
+  margin-top: 20px;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid var(--color-primary);
+  font-size: 16px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.chargerButton:hover {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.pricingWrapper {
+  padding-bottom: 60px;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricingCard {
+  background: var(--color-secondary);
+  width: 320px;
+  border-radius: 14px;
+  padding: 28px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.pricingCard:hover {
+  transform: translateY(-6px);
+}
+
+.pricingCard h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* margin-bottom:15px; */
+}
+
+.currency {
+  font-size: 14px;
+  color: #777;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.tax {
+  font-size: 11px;
+  color: #777;
+}
+
+.oldAmount {
+  font-size: 11px;
+  color: var(--color-primary);
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.pricingCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 25px;
+}
+
+.pricingCard ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #555;
+  display: flex;
+  gap: 8px;
+}
+
+.pricingCard ul li::before {
+  content: "✓";
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.bookBtn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quoteBtn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #eee;
+  font-weight: 600;
+}
+
+.popular {
+  border: 2px solid var(--color-primary);
+}
+
+.popularBadge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: #ff7a00;
+  color: var(--color-secondary);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .ctaHeading {
+    font-size: 32px;
+  }
+  .ctaSubheading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ctaContainer {
+    padding: 4.5% 6%;
+  }
+  .ctaHeading {
+    font-size: 28px;
+  }
+  .ctaSubheading {
+    font-size: 25px;
+  }
+  .ctaContent {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ctaContainer {
+    padding: 6% 4%;
+  }
+  .ctaContent {
+    font-size: 16px;
+  }
+  .ctaHeading {
+    font-size: 25px;
+  }
+  .chargerButton {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  .pricingCard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .chargerButton {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+}

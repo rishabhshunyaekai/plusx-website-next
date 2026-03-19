@@ -1,7 +1,7 @@
-export function ScrollToBottom(footerId) {
-  const footerElement = document.getElementById(footerId);
-  if (footerElement) {
-    footerElement.scrollIntoView({ behavior: "smooth" });
+export function scrollToSpecificSectionViaID(sectionID) {
+  const sectionElement = document.getElementById(sectionID);
+  if (sectionElement) {
+    sectionElement.scrollIntoView({ behavior: "smooth" });
   }
   return <></>;
 }
@@ -99,6 +99,6 @@ export function scrollToBottomWithRedirectionHandler() {
   } else if (isAndroid) {
     window.location.replace("https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en_IN");
   } else {
-    ScrollToBottom("footer");
+    scrollToSpecificSectionViaID("footer");
   }
 }
