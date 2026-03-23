@@ -1,0 +1,38 @@
+import { notFound }     from "next/navigation";
+import { testimonials } from "@/data/testimonials";
+import BlogDetail       from "@/sharedComponents/blog/blog";
+ 
+export async function generateStaticParams() {
+  return testimonials.map((item) => ({ slugs: item.slug }));
+}
+ 
+export async function generateMetadata({ params }) {
+  const resolvedParams  = await params;
+  const { blogSlug }    = resolvedParams;
+  const blog            = testimonials.find((item) => item.slug === blogSlug);
+ 
+  if (!blog) {
+    return { title: "Blog Not Found | PlusX Electric" };
+  }
+ 
+  return {
+    title       : `${blog.metaTitle} | PlusX Electric`,
+    description : blog.metaDescription,
+    keywords    : ["EV Charger", "residential and commercial charger"],
+    alternates  : {
+      canonical : `/${blog.slug}`,
+    },
+  };
+}
+ 
+async function BlogPage({ params }) {
+  const resolvedParams  = await params;
+  const { blogSlug }    = resolvedParams;
+  const blog            = testimonials.find((item) => item.slug === blogSlug);
+ 
+  if (!blog) return notFound();
+ 
+  return <BlogDetail blogContent={blog} />;
+}
+ 
+export default BlogPage;

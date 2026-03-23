@@ -1,6 +1,6 @@
 import ProductDetails from "@/sharedComponents/productDetails/productDetails";
 import { notFound }   from "next/navigation";
-import { chargers }   from "@/utils/listOfProducts";
+import { chargers }   from "@/data/listOfProducts";
 
 export async function generateStaticParams() {
   return chargers.map((item) => ({ slugs: item.slug }));
@@ -18,11 +18,11 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${product.metaTitle} – Home & Commercial EV Charger | PlusX Electric`,
-    description: product.metaTitle,
-    keywords: ["EV Charger", "residential and commercial charger"],
-    alternates: {
-      canonical: `/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
+    title       : `${product.metaTitle} – Home & Commercial EV Charger | PlusX Electric`,
+    description : product.metaDescription,
+    keywords    : ["EV Charger", "residential and commercial charger"],
+    alternates  : {
+      canonical : `/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
     },
   };
 }

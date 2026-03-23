@@ -9,6 +9,7 @@ import ChargerShare   from "@/components/homepage/services/chargeShare/chargeSha
 import CTASection     from "@/components/homepage/ctaSection/ctaSection";
 import Partners       from "@/components/homepage/partnership/partnership";
 import Offers         from "@/components/homepage/offers/offers";
+import Testimonial    from "@/components/homepage/testimonial/testimonial";
 import Sustainability from "@/components/homepage/sustainability/sustainability";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 
@@ -26,6 +27,7 @@ function HomePage() {
       <CTASection />
       <Partners />
       <Offers />
+      <Testimonial />
       <Sustainability />
       <DownloadApp />
     </>

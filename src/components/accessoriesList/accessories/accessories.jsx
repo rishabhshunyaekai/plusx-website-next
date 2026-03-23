@@ -1,5 +1,5 @@
 import Product          from "@/sharedComponents/product/product";
-import { accessories }  from "@/utils/listOfProducts";
+import { accessories }  from "@/data/listOfProducts";
 
 function Chargers() {
   return (
