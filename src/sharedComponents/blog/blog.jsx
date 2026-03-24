@@ -25,7 +25,7 @@ function BlogPage({ blogContent }) {
             switch (block?.type) {
               case "heading":
                 const Tag = block?.level && block.level >= 1 && block.level <= 6 ? `h${block.level}`: "h2";
-                return <Tag key={index} className={`${style.heading}`}>{block?.text}</Tag>;
+                return <Tag key={index} className={`${style.heading}`} dangerouslySetInnerHTML={{ __html: block?.text }} />;
  
               case "paragraph":
                 return <p key={index} className={`${style.content} ${style.marginBottom_20}`} dangerouslySetInnerHTML={{ __html: block?.text }} />;
@@ -40,7 +40,19 @@ function BlogPage({ blogContent }) {
                     {block?.headerText && <p className={`${style.content} ${style.marginBottom_10}`} dangerouslySetInnerHTML={{ __html: block?.headerText }} />}
 
                     <ul className={`${style.listWrapper} ${!block?.footerText ? style.marginBottom_20 : ""}`}>
-                      {block?.items?.map((item, i) => <li key={i} className={style.lists}>{item}</li> )}
+                      {/* {block?.items?.map((item, i) => <li key={i} className={style.lists} dangerouslySetInnerHTML={{ __html: item }} /> )} */}
+                      {block?.items?.map((item, i) => (
+                        <li key={i} className={style.lists}>
+                          <span dangerouslySetInnerHTML={{ __html: item }} />
+
+                          {i === block?.items?.length - 1 && block?.nestedList && (
+                            <ul className={style.nestedWrapper}>
+                              {block?.nestedList?.map((innerItem, idx) => <li key={idx} className={style.nestedList}><span dangerouslySetInnerHTML={{ __html: innerItem }} /></li>)}
+                            </ul>
+                          )}
+                          
+                        </li>
+                      ))}
                     </ul>
 
                     {block?.footerText && <p className={`${style.content}`} dangerouslySetInnerHTML={{ __html: block?.footerText }} /> }

@@ -267,7 +267,7 @@ export const whyDiesel = [
       "Towing raises risk and downtime.",
       "EV-specific support enables faster, safer results.",
     ],
-    text: "The new generation of electric vehicles demands the development of new methods for their."
+    footerText: "The new generation of electric vehicles demands the development of new methods for their."
   },
   {
     type: "heading",

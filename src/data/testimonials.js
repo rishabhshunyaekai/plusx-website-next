@@ -25,8 +25,28 @@ import Diesel                         from "@/assets/images/homepage/blogs/diese
 import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
  
 //Content
-import { towingContent }  from "@/data/blogsList/towing";
-import { whyDiesel }      from "@/data/blogsList/whyDiesel";
+import { towingContent }      from "@/data/blogsList/towing";
+import { whyDiesel }          from "@/data/blogsList/whyDiesel";
+import { benefitEVOwner }     from "@/data/blogsList/benefitEVOwner";
+import { diesel }             from "@/data/blogsList/diesel";
+import { commonChargings }    from "@/data/blogsList/commanChargings";
+import { drainEvBatteries }   from "@/data/blogsList/drainEvBattery";
+import { deliveryCompanies }  from "@/data/blogsList/deliveryCompanies";
+import { dominating }         from "@/data/blogsList/dominating";
+import { batteryDie }         from "@/data/blogsList/batteryDie";
+import { owner }              from "@/data/blogsList/evOwner";
+import { everyDubai }         from "@/data/blogsList/everyDubai";
+import { rangeAnxiety }       from "@/data/blogsList/rangeAnxiety";
+import { evrevolution }       from "@/data/blogsList/revolution";
+import { fiveScenerio }       from "@/data/blogsList/fiveScenerio";
+import { holiday }            from "@/data/blogsList/holiday";
+import { nissanTesla }        from "@/data/blogsList/nissanTesla";
+import { growingNeeds }       from "@/data/blogsList/growingNeeds";
+import { leasingRenting }     from "@/data/blogsList/leasingRenting";
+import { evBenefits }         from "@/data/blogsList/evBenefits";
+import { roadTrips }          from "@/data/blogsList/roadTrip";
+import { evRise }             from "@/data/blogsList/evRise";
+import { future }             from "@/data/blogsList/future";
  
 export const testimonials = [
   {
@@ -46,7 +66,7 @@ export const testimonials = [
     alt             : "Eco-Friendly Solution Dubai Needs",
     metaTitle       : "Diesel EV Chargers Vs Clean EV charging Solutions in Dubai",
     metaDescription : "Avoid diesel EV chargers that harm Dubai’s sustainability goals and see how clean EV Charging Solutions and Mobile EV Charging enable true green mobility.",
-    content         : whyDiesel,
+    content         : diesel,
   },
   {
     slug            : "why-ev-owners-trust-plusx-electric-when-their-ev-battery-drains-on-dubai-roads",
@@ -64,7 +84,7 @@ export const testimonials = [
     alt             : "Keeping Your EV Healthy During the Holidays",
     metaTitle       : "How to Take Care of Your EV During Holidays",
     metaDescription : "Learn how to protect your EV battery during holidays, avoid common mistakes, and get instant emergency EV charging support with PlusX Electric in Dubai.",
-    content         : whyDiesel,
+    content         : holiday,
   },
   {
     slug            : "why-every-ev-owner-in-dubai-counts-on-plusx-electric",
@@ -73,7 +93,7 @@ export const testimonials = [
     alt             : "EV Owner in Dubai Counts on PlusX Electric",
     metaTitle       : "From Nissan to Tesla: Why Every EV Owner in Dubai Counts on PlusX Electric",
     metaDescription : "Experience seamless EV ownership in Dubai with PlusX Electric’s smart EV charging solutions and on-demand mobile EV charging services.",
-    content         : whyDiesel,
+    content         : nissanTesla,
   },
   {
     slug            : "the-benefits-for-ev-owner-having-plusx-electric-app",
@@ -82,7 +102,7 @@ export const testimonials = [
     alt             : "EV owner benefits with PlusX electric",
     metaTitle       : "The Benefits for EV owner having PlusX Electric app",
     metaDescription : "Simplify EV ownership with PlusX Electric’s advanced EV Charging Solutions and on-demand Mobile EV Charging designed for unmatched convenience.",
-    content         : whyDiesel,
+    content         : benefitEVOwner,
   },
   {
     slug            : "how-plusx-electric-ev-charging-keeps-delivery-companies-running-in-dubai",
@@ -91,7 +111,7 @@ export const testimonials = [
     alt             : "EV Charging Keeps Delivery Companies Running",
     metaTitle       : "How PlusX Electric's EV Charging Keeps Delivery Companies Running 24/7 in Dubai",
     metaDescription : "Stay powered 24/7 with PlusX Electric’s mobile charging in Dubai. Doorstep and fleet EV charging solutions that keep delivery companies running nonstop.",
-    content         : whyDiesel,
+    content         : deliveryCompanies,
   },
   {
     slug            : "top-five-electric-vehicles-dominating-the-roads-in-dubai",
@@ -100,7 +120,7 @@ export const testimonials = [
     alt             : "top-5-ev-dominating",
     metaTitle       : "Top Electric Vehicles in Dubai | Best EVs & Charging Solutions",
     metaDescription : "Discover the top electric vehicles in Dubai, from Tesla to Porsche. Learn about prices, ranges, and how PlusX Electric makes EV charging easy.",
-    content         : whyDiesel,
+    content         : dominating,
   },
   {
     slug            : "common-charging-challenges-ev-owners-face-in-dubai",
@@ -109,7 +129,7 @@ export const testimonials = [
     alt             : "common-ev-charging-challenges",
     metaTitle       : "Top EV Charging Challenges in Dubai and How to Solve Them",
     metaDescription : "From finding public charging stations in Dubai to using on-demand EV charging services, we cover solutions for every EV charging challenge Dubai owners face.",
-    content         : whyDiesel,
+    content         : commonChargings,
   },
   {
     slug            : "road-trip-in-the-uae-with-an-ev-here-why-you-need-backup-support",
@@ -118,7 +138,7 @@ export const testimonials = [
     alt             : "road-trip",
     metaTitle       : "EV Charging Challenges in Dubai: Why Backup Support Makes UAE Road Trips Safer",
     metaDescription : "Planning a road trip in the UAE with your EV? Discover the common EV charging challenges in Dubai, from limited stations to range anxiety, and learn how mobile backup support ensures stress-free, reliable travel.",
-    content         : whyDiesel,
+    content         : roadTrips,
   },
   {
     slug            : "why-a-personal-ev-charger-is-a-smart-choice-in-the-uae",
@@ -136,7 +156,7 @@ export const testimonials = [
     alt             : "EV Owner",
     metaTitle       : "Why EV roadside assistance is vital for every EV owner",
     metaDescription : "EV roadside assistance ensures safety, portable charging, and 24/7 expert help, making electric vehicle ownership stress-free and reliable in Dubai.",
-    content         : whyDiesel,
+    content         : owner,
   },
   {
     slug            : "stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day",
@@ -145,7 +165,7 @@ export const testimonials = [
     alt             : "Drained EV Battery",
     metaTitle       : "On-demand EV charging in Dubai for drained batteries",
     metaDescription : "Stuck with a low EV battery? On-demand charging in Dubai delivers power anytime, anywhere, ensuring stress-free and convenient electric driving.",
-    content         : whyDiesel,
+    content         : drainEvBatteries,
   },
   {
     slug            : "how-plusx-electric-is-revolutionizing-emergency-ev-charging-in-dubai",
@@ -154,7 +174,7 @@ export const testimonials = [
     alt             : "Emergency EV charging in Dubai",
     metaTitle       : "PlusX Electric revolutionises EV charging in Dubai",
     metaDescription : "Discover how PlusX Electric is transforming EV charging in Dubai with on-demand, 24/7 portable solutions that end range anxiety for drivers.",
-    content         : whyDiesel,
+    content         : evrevolution,
   },
   {
     slug            : "top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging",
@@ -172,7 +192,7 @@ export const testimonials = [
     alt             : "Rise of EVs in Dubai",
     metaTitle       : "The Rise of EVs in Dubai: Explore Smart Charging Solutions ",
     metaDescription : "Discover how on-demand solutions like PlusX’s Emergency EV Charging Pod tackle range anxiety and support sustainable urban mobility.",
-    content         : whyDiesel,
+    content         : growingNeeds,
   },
   {
     slug            : "five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver",
@@ -181,7 +201,7 @@ export const testimonials = [
     alt             : "EV Roadside Assistance",
     metaTitle       : "5 Scenarios Where EV Roadside Assistance in Dubai Helps",
     metaDescription : "Discover 5 real-life scenarios in Dubai where PlusX’s specialised EV roadside assistance provides fast, safe, and convenient charging solutions.",
-    content         : whyDiesel,
+    content         : fiveScenerio,
   },
   {
     slug            : "ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it",
@@ -190,7 +210,7 @@ export const testimonials = [
     alt             : "EV Range Anxiety is real",
     metaTitle       : "EV Range Anxiety in Dubai Solved by PlusX’s Emergency EV Charging Pod",
     metaDescription : "Worried about running out of EV batteries in Dubai? PlusX’s Emergency EV Charging Pod delivers fast, portable charging to your location",
-    content         : whyDiesel,
+    content         : rangeAnxiety,
   },
   {
     slug            : "what-to-do-when-your-ev-battery-dies-in-dubai",
@@ -199,7 +219,7 @@ export const testimonials = [
     alt             : "EV Battery Dies in Dubai",
     metaTitle       : "Fast EV Emergency Service in Dubai | Roadside Charging by PlusX",
     metaDescription : "Out of charge? Get quick EV emergency service in Dubai with PlusX Electric. We deliver on-demand roadside charging to your location—no towing, no stress.",
-    content         : whyDiesel,
+    content         : batteryDie,
   },
   {
     slug            : "why-every-dubai-ev-driver-should-know-about-plusx-electrics-roadside-rescue",
@@ -208,7 +228,7 @@ export const testimonials = [
     alt             : "Every EV Driver in Dubai",
     metaTitle       : "Dubai EV Emergency Service | 24/7 Roadside Charging by PlusX",
     metaDescription : "Stuck with a dead EV battery? Get Dubai’s fastest EV emergency service from PlusX Electric. Portable charging and expert roadside help anytime.",
-    content         : whyDiesel,
+    content         : everyDubai,
   },
   {
     slug            : "the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview",
@@ -217,7 +237,7 @@ export const testimonials = [
     alt             : "MediaElectric",
     metaTitle       : "The Rise of Electric Vehicles in the UAE - A Comprehensive Overview",
     metaDescription : "",
-    content         : whyDiesel,
+    content         : evRise,
   },
   {
     slug            : "exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide",
@@ -226,7 +246,7 @@ export const testimonials = [
     alt             : "MediaEnvironmental",
     metaTitle       : "Exploring the Benefits of Electric Vehicles in the UAE - A Comprehensive Guide",
     metaDescription : "",
-    content         : whyDiesel,
+    content         : evBenefits,
   },
   {
     slug            : "electric-vehicle-leasing-and-renting-options-in-the-uae",
@@ -235,7 +255,7 @@ export const testimonials = [
     alt             : "MediaElectricVehicle",
     metaTitle       : "Electric Vehicle Leasing and Renting Options in the UAE",
     metaDescription : "",
-    content         : whyDiesel,
+    content         : leasingRenting,
   },
   {
     slug            : "the-future-of-electric-mobility-innovations-and-trends-in-the-uae",
@@ -244,6 +264,6 @@ export const testimonials = [
     alt             : "MediaTechnologicalInnovations",
     metaTitle       : "The Future of Electric Mobility Innovations and Trends in the UAE",
     metaDescription : "",
-    content         : whyDiesel,
+    content         : future,
   },
 ];
