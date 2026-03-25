@@ -72,6 +72,11 @@
     font-size: 35px;
   }
 }
+@media (max-width: 1440px) {
+  .container {
+    padding: 12rem 0;
+  }
+}
 
 @media (max-width: 767px) {
   .onDemandBanner {

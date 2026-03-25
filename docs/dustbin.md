@@ -376,3 +376,29 @@ async function handleMapClick(lat, lng) {
 
  export default Animated; -->
  <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 
+ Whatsapp.jsx 
+
+const path = pathname.pathname;
+
+//Code for defining each product name on whatapp chat
+if (path.startsWith("/ev-chargers/ac-dc-ev-chargers")) {
+  const slug        = path.split("/").pop();
+  const productName = formatProductName(slug);
+  return `Hello! I am interested in ${productName}. Please share more details.`;
+}
+
+if (path.startsWith("/ev-chargers/ev-accessories")) {
+  const slug        = path.split("/").pop();
+  const productName = formatProductName(slug);
+  return `Hello! I am interested in ${productName}. Please share more details.`;
+}
+
+return routeMessages[path] || defaultMessage;
+
+function formatProductName(slug) {
+  if (!slug) return "";
+  return slug.split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+}; -->
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->

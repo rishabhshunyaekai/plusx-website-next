@@ -192,24 +192,15 @@
   }
 
   .listContent {
-    flex-direction: row;
+    flex-direction: column;
   }
 
-  .list {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
   .listPoints {
     font-size: 15px;
   }
   .list img {
     width: 70px;
     height: 70px;
-  }
-
-  .scenariosContent {
-    background-color: var(--color-primary);
   }
 
   .scenariosFooter {

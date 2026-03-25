@@ -24,7 +24,7 @@ function Animated({ children, className = "", animation = "fade", duration = 100
   }, []);
 
   return (
-    <article ref={ref} className={`animate ${animation} ${visible ? "show" : ""} ${className}`} style={{transitionDuration: `${duration}ms`, transitionTimingFunction: easing, transitionDelay: "100ms" }} {...props}>
+    <article ref={ref} className={`animate ${animation} ${visible ? "show" : ""} ${className}`} style={{transitionDuration: `${duration}ms`, transitionTimingFunction: easing, transitionDelay: "000ms" }} {...props}>
       {children}
     </article>
   );

@@ -58,6 +58,12 @@
   box-shadow: 0 -4px 20px var(--color-shadow-dark);
 }
 
+@media (max-width: 1440px) {
+  .container {
+    padding: 12rem 0;
+  }
+}
+
 @media (max-width: 767px) {
   .insuranceBanner {
     background: url(../../../assets/images/ev-insurance-page/mobile-banner.webp) center no-repeat;
