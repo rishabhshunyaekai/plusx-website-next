@@ -45,6 +45,12 @@
   display: inline-block;
 }
 
+.cardButton:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+}
+
 .cardImageWrapper {
   display: flex;
   justify-content: center;

@@ -52,6 +52,12 @@
   width: fit-content;
 }
 
+.sustainabilityButton:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0px 2px 10px var(--color-shadow-dark);
+}
+
 .breakLine {
   display: none;
 }

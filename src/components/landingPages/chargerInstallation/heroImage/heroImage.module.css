@@ -72,6 +72,12 @@
   margin-top: 30px;
 }
 
+.bookSlotButton:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 1px 4px 10px var(--color-shadow-dark);
+}
+
 @media (max-width: 1440px) {
     .chargerContainer {
       margin-top: 12rem;

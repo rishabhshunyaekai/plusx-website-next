@@ -43,6 +43,12 @@
   cursor: pointer;
 }
 
+.greenBox:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 1px 4px 10px var(--color-shadow-dark);
+}
+
 .WhiteBox {
   display: inline-block;
   background-color: var(--color-secondary);

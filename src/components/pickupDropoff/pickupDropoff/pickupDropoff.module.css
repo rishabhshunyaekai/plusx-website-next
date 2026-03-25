@@ -55,6 +55,12 @@
   display: inline-block;
 }
 
+.cardButton:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0px 2px 10px var(--color-shadow-dark);
+}
+
 .cardImageWrapper {
   padding-top: 10px;
   width: 100%;

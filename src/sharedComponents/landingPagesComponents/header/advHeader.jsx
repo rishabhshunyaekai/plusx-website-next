@@ -19,8 +19,8 @@ function AdvHeader() {
             <CompanyLogo />
           </div>
           <div className={style.headerButtonContainer}>
-            <a href="tel:+971542796424" rel="noreferrer"><Image src={Call} alt="Call" width={50} height={50} priority /></a>
-            <a target="_blank" href={whatsappUrl} rel="noreferrer" id="whatsappIcon"><Image src={Whatsapp} alt="Whatsapp" width={50} height={50} priority /></a>
+            <a href="tel:+971542796424" rel="noreferrer"><Image src={Call} alt="Call" width={55} height={55} priority /></a>
+            <a target="_blank" href={whatsappUrl} rel="noreferrer" id="whatsappIcon"><Image src={Whatsapp} alt="Whatsapp" width={55} height={55} priority /></a>
             <CTAButton className={style.downloadAppLink} text="DOWNLOAD APP" handler="appRedirect" />
           </div>
         </div>

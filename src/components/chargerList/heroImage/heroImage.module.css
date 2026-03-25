@@ -36,9 +36,9 @@
 }
 
 .highlightedText {
-  padding: 6px 10px;
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  /* padding: 6px 10px;
+  background-color: var(--color-primary); */
+  color: var(--color-primary);
   font-size: 32px;
   border-radius: 10px;
   width: fit-content;

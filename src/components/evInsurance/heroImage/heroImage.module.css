@@ -50,6 +50,10 @@
   border: none;
   outline: none;
   margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .insuranceButton:hover {
@@ -101,7 +105,7 @@
   }
   .insuranceButton {
     padding: 8px 10px;
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 

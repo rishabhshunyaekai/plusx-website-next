@@ -29,6 +29,12 @@
   cursor: pointer;
 }
 
+.connectButtonContainer a:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 4px 10px var(--color-shadow-dark);
+}
+
 .connectButtonContainer button {
   background: var(--color-primary);
   padding: 15px 18px;
@@ -38,6 +44,12 @@
   border: none;
   font-weight: 600;
   cursor: pointer;
+}
+
+.connectButtonContainer button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 4px 10px var(--color-shadow-dark);
 }
 
 .connectButtonContainer img {

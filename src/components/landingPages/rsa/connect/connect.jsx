@@ -2,11 +2,12 @@
 
 import Image                from "next/image";
 import styles               from "./connect.module.css";
-import Whatsapp             from "@/assets/images/landing-pages/on-demand/whatsapp.svg";
 import Animated             from "@/sharedComponents/animatedComponent/animated";
 import CTAButton            from "@/sharedComponents/ctaButton/ctaButton";
 import SecondaryHeading     from "@/sharedComponents/heading/secondaryHeading";
 import useAdvertisingWpMess from "@/hooks/useAdvertisingWpMess";
+import { BsWhatsapp }       from "react-icons/bs";
+// import Whatsapp             from "@/assets/images/landing-pages/on-demand/whatsapp.svg";
 
 function Connect() {
   const { whatsappUrl } = useAdvertisingWpMess();
@@ -20,7 +21,8 @@ function Connect() {
           <div className={styles.connectButtonContainer}>
             <CTAButton text="BOOK EV ROADSIDE SERVICE NOW" handler="appRedirect" />
             <a target="_blank" className={styles.innerClass} href={whatsappUrl} rel="noreferrer" id="whatsappIcon">
-              <Image src={Whatsapp} alt="Whatsapp" width={30} height={30} />CONNECT WITH US
+              {/* <Image src={Whatsapp} alt="Whatsapp" width={30} height={30} />CONNECT WITH US */}
+              <BsWhatsapp /> CONNECT WITH US
             </a>
           </div>
         </Animated>

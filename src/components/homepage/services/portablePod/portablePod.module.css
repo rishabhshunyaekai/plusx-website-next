@@ -40,11 +40,16 @@
 .cardButton {
   background: var(--color-primary);
   color: var(--color-secondary);
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 15px;
   border-radius: 10px;
-  font-weight: 600;
   display: inline-block;
+}
+
+.cardButton:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0px 2px 10px var(--color-shadow-dark);
 }
 
 .cardImageWrapper {
