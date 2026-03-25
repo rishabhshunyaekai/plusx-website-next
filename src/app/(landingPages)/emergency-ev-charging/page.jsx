@@ -11,7 +11,8 @@ import FAQ            from "@/components/landingPages/rsa/faq/faq";
 export const metadata = {
   title         : "EV Roadside Assistance Dubai | Mobile EV Charging",
   description   : "Stranded with a low EV battery? PlusX Electric provides fast, safe, and DEWA-approved mobile EV charging across Dubai.",
-  keywords      : ["EV Roadside Assistance Dubai"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "ev roadside assistance in dubai", "emergency ev charging in dubai", "emergency ev roadside assistance", 
+                   "book ev roadside assistance service in dubai", "emergency ev roadside assistance near me"],
   alternates    : {
     canonical   : "/emergency-ev-charging",
   },

@@ -13,7 +13,8 @@ const GTM_ID          = process.env.NEXT_PUBLIC_GTM_ID;
 export const metadata = {
   title         : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
   description   : "Find the best recipes in the world on this website.",
-  keywords      : ["plusx", "plusxelectric", "portable pod", "ev charging dubai"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "portable ev charger", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me", 
+                   "ev roadside assistance service", "emergency roadside charging", "buy or renew ev insurance in minutes", "find public ev charging station", "ev charger share service"],
   metadataBase  : new URL(process.env.BASE_URL || "https://plusxelectric.com"),
   alternates    : {
     canonical   : "/",

@@ -7,7 +7,7 @@ import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 export const metadata = {
   title         : "Best EV Charging Company in Dubai",
   description   : "PlusX Electric is an innovative electric vehicle charging company based in Dubai, UAE. Dedicated to solving the challenges of EV adoption.",
-  keywords      : ["electric vehicle charging", "EV adoption"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric"],
   alternates    : {
       canonical : "/about-us",
     },

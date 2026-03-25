@@ -12,7 +12,7 @@ import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
 export const metadata = {
   title         : "Emergency EV Charging Service in Dubai | PlusX Electric",
   description   : "On-demand EV roadside charging in Dubai. PlusX Electric delivers quick top-ups or jump-starts anywhere, anytime to get you back on the road.",
-  keywords      : ["EV Roadside Assistance", "On-demand EV roadside"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Roadside Assistance service", "On-demand EV roadside assistance service", "emergency ev charging service in dubai", "emergency ev roadside assistance"],
   alternates    : {
       canonical : "/ev-roadside-assistance-service",
     },

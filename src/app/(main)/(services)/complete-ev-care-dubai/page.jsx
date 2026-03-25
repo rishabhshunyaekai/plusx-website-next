@@ -11,7 +11,7 @@ import Form           from "@/components/evCareDubai/form/form";
 export const metadata = {
   title         : "Complete EV Care in Dubai | Charging, Service & Roadside Assistance",
   description   : "Get complete EV care in Dubai with charging, maintenance, and roadside assistance. Book reliable electric car service with fast support and doorstep convenience.",
-  keywords      : [""],
+  keywords      : ["plusx", "plusxelectric", "plusx electric"],
   alternates    : {
       canonical : "/complete-ev-care-dubai",
     },
