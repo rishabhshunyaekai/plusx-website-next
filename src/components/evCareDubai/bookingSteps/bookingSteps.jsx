@@ -26,8 +26,10 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={step1} alt="step1" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>You Book</b></p>
-            <p className={style.steps}>Select your package in 2 minutes via our form or the SMC app</p>
+            <div className={style.textWrapper}>
+              <p className={style.steps}><b>You Book</b></p>
+              <p className={style.steps}>Select your package in 2 minutes via our form or the SMC app</p>
+            </div>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -38,8 +40,10 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={Charger} alt="Charger" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>We Collect</b></p>
-            <p className={style.steps}>Driver arrives at your door, inspects the car, sends a collection report</p>
+            <div className={style.textWrapper}>
+              <p className={style.steps}><b>We Collect</b></p>
+              <p className={style.steps}>Driver arrives at your door, inspects the car, sends a collection report</p>
+            </div>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -50,8 +54,10 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={Map} alt="Map" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>We Service</b></p>
-            <p className={style.steps}>360° health check done — digital quote sent, work only starts with your OK</p>
+            <div className={style.textWrapper}>
+              <p className={style.steps}><b>We Service</b></p>
+              <p className={style.steps}>360° health check done — digital quote sent, work only starts with your OK</p>
+            </div>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -62,8 +68,10 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={Techni} alt="Techni" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>We Deliver</b></p>
-            <p className={style.steps}>Freshly washed & serviced car returned to your door. Pay online</p>
+            <div className={style.textWrapper}>
+              <p className={style.steps}><b>We Deliver</b></p>
+              <p className={style.steps}>Freshly washed & serviced car returned to your door. Pay online</p>
+            </div>
           </div>
         </Animated>
 

@@ -110,7 +110,7 @@
   margin-top: 30px;
   background-color: var(--color-secondary);
   color: var(--color-primary);
-  padding: 8px 10px;
+  padding: 15px 20px;
   border-radius: 10px;
   border: 2px solid var(--color-primary);
   font-size: 15px;
@@ -198,7 +198,7 @@
 
   .chargerButton {
     font-size: 14px;
-    padding: 6px 8px;
+    padding: 12px 15px;
   }
 }
 
