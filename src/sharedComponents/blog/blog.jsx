@@ -1,7 +1,6 @@
 "use client"
 import Image        from "next/image";
 import style        from "./blog.module.css";
-import MainHeading  from "@/sharedComponents/heading/mainHeading";
 import Faq          from "@/sharedComponents/faqs/faqs";
 import {  appRedirectionHandler, chargerInstallationPageRedirectionHandler, evChargersPageRedirectionHandler, portablePageRedirectionHandler,
           roadsidePageRedirectionHandler, scrollToBottomWithRedirectionHandler, scrollToSpecificSectionViaID } from "@/utils/helper";
@@ -12,13 +11,13 @@ function BlogPage({ blogContent }) {
       chargerInstallationPage : chargerInstallationPageRedirectionHandler,
       evChargersPage          : evChargersPageRedirectionHandler,
       portablePage            : portablePageRedirectionHandler,
-      roadsidePage            : roadsidePageRedirectionHandler
+      roadsidePage            : roadsidePageRedirectionHandler,
     };
  
   return (
     <main className={style.main}>
       <div className="container">
-        <MainHeading title={blogContent.title}/>
+        <h1 className={style.blogHeading}>{blogContent?.title}</h1>
  
           {blogContent?.content.map((block, index) => {
 
@@ -71,7 +70,7 @@ function BlogPage({ blogContent }) {
                 );
 
               case "faq":
-                return <article key={index}>
+                return <article key={index} className={style.blogFaq}>
                     {block?.schema && (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(block?.schema) }} /> )}
                     <Faq faqs={block?.schema?.mainEntity} />
                   </article>;

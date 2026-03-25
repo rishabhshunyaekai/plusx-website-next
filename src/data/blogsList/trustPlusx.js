@@ -1,0 +1,396 @@
+import RSADesktop from "@/assets/images/homepage/blogs/banners/RSADesktop.webp";
+import RSAMobile  from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
+ 
+export const trustPlusx = [
+  {
+    type: "paragraph",
+    text: `Running low on charge in Dubai can go from “I’ll make it” to “I’m stuck” faster than most EV drivers expect. One missed exit, a charger that’s occupied, late-night low availability, or heavy AC use in peak heat, suddenly you’re facing the most common real-world EV emergency- a drained battery on Dubai roads.`,
+  },
+  {
+    type: "paragraph",
+    text: `At that moment, EV owners don’t just need help. They need the right kind of help- quick, EV-trained, and safe for the vehicle’s systems. That’s why more and more drivers choose PlusX Electric when their EV battery drains on Dubai roads. If you’re searching for <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='blank'>EV breakdown help Dubai</a>, you need EV-specific support, not guesswork.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: "Proven Rescue Track Record Not Promises"
+  },
+  {
+    headerText: `Trust comes from results. PlusX Electric’s <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='blank'>EV roadside assistance Dubai</a> operations are built around the most common EV emergency in Dubai like low or zero charge. <br/> Till date:`,
+    type: "ul",
+    items: [
+      "575+ EVs rescued from breakdowns caused by low or zero charge",
+      "87% service success rate in EV rescue operations",
+    ],
+    footerText: `That means most drivers get back on the road without unnecessary delays or complicated recovery.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: "Dedicated EV Rescue Team Not Generic Roadside Support"
+  },
+  {
+    headerText: `EV breakdown help Dubai is not the same as petrol-car roadside support. <br/>PlusX Electric operates with a dedicated EV Rescue team that understands:`,
+    type: "ul",
+    items: [
+      "EV safety protocols",
+      "High-voltage system precautions",
+      "EV behaviour in low charge scenarios",
+      "Safe, controlled charging assistance on-site",
+    ],
+    footerText: `When you’re stranded, the difference is huge: you’re not dealing with trial-and-error you’re dealing with specialists.`,
+  },
+  {
+    type: "ctaButton",
+    action: "roadsidePage",
+    alt: "EV Roadside Assistance in Dubai",
+    desktop: RSADesktop,
+    mobile: RSAMobile
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `On-Site Charging That’s Designed for “Just Enough to Reach Safety”`
+  },
+  {
+    headerText: `Most EV owners don’t need a full charge on the roadside they need enough to:`,
+    type: "ul",
+    items: [
+      "Exit a highway safely",
+      "Reach the nearest charging station",
+      "Get home or to a safe destination",
+    ],
+    footerText: `PlusX Electric’s emergency roadside charging is structured for exactly that: Up to 10 kWh OR ~50 km range whichever comes first.<br/>This approach is practical, fast, and designed to get you moving without turning the roadside into a long waiting situation.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `Faster, Safer Alternative to Towing in Battery-Drain Cases`
+  },
+  {
+    headerText: `When EV battery drains Dubai, many drivers assume towing is the only option. In reality, towing can mean:`,
+    type: "ul",
+    items: [
+      "Longer wait times (especially when flatbed availability is limited)",
+      "Higher cost",
+      "Unnecessary handling when the vehicle simply needs enough charge to reach a station",
+    ],
+    footerText: `That’s why EV owners trust PlusX Electric because in many drained battery situations, on-site charging is the simplest solution.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `We Don’t Assume It’s Always the Main Battery`
+  },
+  {
+    headerText: `Here’s a detail many EV owners learn only when something goes wrong: <br/> Most EVs also have a 12V battery, which powers low-voltage systems such as:`,
+    type: "ul",
+    items: [
+      "Dashboard and displays",
+      "Headlights and external lighting",
+      "Hocks and vehicle control modules",
+    ],
+    footerText: `So sometimes, what looks like a “dead EV” isn’t the traction battery at all it’s the 12V battery causing the car not to wake up properly.<br/> That’s where PlusX Electric stands out: we focus on correct diagnosis, not just showing up and plugging in.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `Jump Start Support for Dead Battery Scenarios`
+  },
+  {
+    headerText: `If your vehicle won’t power on or behaves unusually, PlusX Electric can provide jump start service when required, so you’re not stuck calling multiple providers.<br/>And if the issue is deeper than a simple jump start:`,
+    type: "ul",
+    items: [
+      "12V battery replacement can be provided if required",
+      "Additional charges apply for battery replacement",
+    ],
+    footerText: `This clarity is part of the trust, drivers know what’s included and what is an additional service.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `App Based Booking, Faster Dispatch, Better Coordination`
+  },
+  {
+    headerText: `In roadside situations, time is everything. Booking through the PlusX Electric app helps ensure:`,
+    type: "ul",
+    items: [
+      "accurate location sharing",
+      "faster dispatch coordination",
+      "clearer service selection for EV rescue support",
+    ],
+    footerText: `It also reduces confusion during high-stress moments especially on fast-moving Dubai roads.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `When Your EV Battery Drains in Dubai, Choose EV Specific Help`
+  },
+  {
+    headerText: `A drained battery on Dubai roads is frustrating, but it doesn’t need to become a long ordeal. The safest choice is a provider that understands EV systems and has proven rescue performance.<br/>PlusX Electric is trusted by EV owners across Dubai because we deliver:`,
+    type: "ul",
+    items: [
+      "575+ low/zero-charge rescues",
+      "87% success rate in EV rescue operations",
+      "dedicated EV rescue team",
+      "up to 10 kWh or ~50 km emergency range support",
+      "jump start service when required",
+      "12V battery replacement when needed with additional cost",
+    ],
+    footerText: `If your EV drains unexpectedly, avoid risky decisions and generic support. <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='blank'>Get help designed for EVs.</a>`,
+  },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Essential EV Battery Preparation Before Holidays"
+  // },
+  // {
+  //   type: "paragraph",
+  //   text: `The most crucial part of preparing your electric car for a long vacation is proper EV battery maintenance.`,
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "What To Avoid"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     "Keeping the EV fully charged for several consecutive days.",
+  //     "Parking the car with an extremely low battery.",
+  //     "Disregarding the manufacturer's battery maintenance recommendations.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "The Best Ways to Maintain Battery Health"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     "Instead of charging the car immediately before you leave, charge your vehicle a day before.",
+  //     "Just before locking the car, double-check the battery level.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "How To Plan Charging Over the Holidays"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     `Long-term <a href="https://plusxelectric.com/public-ev-charging-stations" target='blank'>EV charging</a> should prioritise stability over frequent charging.`,
+  //     "Focus on stable, planned charging rather than frequent top-ups during long holiday breaks.",
+  //     "For short trips, unplugging the EV after reaching the recommended charge level is sufficient.",
+  //     "During longer vacations, check battery levels periodically instead of leaving the vehicle continuously plugged in.",
+  //     "Recharge only when there is a clear drop in battery level; avoid daily or overnight charging cycles.",
+  //     "Follow manufacturer guidelines for long-term parking to prevent unnecessary battery wear.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Best Practices for Parking and Storage"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     `The battery and physical components of an EV are protected when it is stored correctly over the holidays.`,
+  //     "Choose a secure, stable parking location away from heavy movement and ensure charging cables are stored without strain.",
+  //     "Clean the vehicle inside and out, and securely close all doors, windows, and charging ports before storage.",
+  //     "Remove unnecessary accessories and valuables to reduce clutter and risk during long parking periods.",
+  //     "Check and maintain proper tyre pressure to prevent air loss, flat spots, and uneven wear.",
+  //     "Perform basic pre-holiday checks by inspecting charging cables, ensuring ports are clean and dry, and disabling non-essential systems to conserve energy.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Avoid These Common EV Holiday Mistakes"
+  // },
+  // {
+  //   type: "paragraph",
+  //   text: "Most electric vehicle owners make mistakes prior to long breaks that eventually cost them."
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "The Best Ways to Maintain Battery Health"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     `Leaving the battery fully charged for weeks.`,
+  //     "Letting the battery drain to very low levels.",
+  //     "Wholly bypassing any check for the charge level.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Storage and Handling Errors"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     `It is bad practice not to check the tyre pressure before parking the EV.`,
+  //     "Putting no fasteners on charging cables so they will not get lost.",
+  //     "Resuming aggressive driving immediately after a long period of inactivity.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Planning Errors"
+  // },
+  // {
+  //   type: "ul",
+  //   items: [
+  //     `Towing should be considered a last resort if the EV fails to start entirely.`,
+  //     "Unaware of even the different possible emergency support options available for EVs.",
+  //     "Skipped basic pre- and post-holiday checks.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 3,
+  //   text: `<a href="https://plusxelectric.com/why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner" target='_blank'>Why EV Roadside Assistance is a Must-Have for Every EV Owner</a>`
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Care for Your EV after the Holiday"
+  // },
+  // {
+  //   headerText: `These steps will help ensure your EV transitions smoothly back to regular use after your holiday.`,
+  //   type: "ul",
+  //   items: [
+  //     `Check the battery’s state of charge and visually inspect tyre pressure before your first drive.`,
+  //     "Begin with a short, gentle drive to allow vehicle systems to stabilise.",
+  //     "Resume normal charging gradually rather than charging immediately after long inactivity.",
+  //     "Monitor battery behaviour over the first few trips to ensure performance is returning to normal.",
+  //     "Watch for warning signs such as slower charging, dashboard alerts, or reduced driving range.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Returned Home – What To Do If Your EV Is Not Working"
+  // },
+  // {
+  //   headerText: `At PlusX Electric, we often receive post-holiday emergency calls from EV owners who unknowingly left their batteries fully charged or completely drained. Even with proper planning, EV owners may sometimes return home and face this huge problem. In these moments, towing is often the immediate option but it rarely addresses the root issue. Here at PlusX Electric, we believe that towing is not an option, we provide you complete assistance at one go.<br/>Towing typically:`,
+  //   type: "ul",
+  //   items: [
+  //     `Only moves the vehicle from one place to another.`,
+  //     "Leaves it at the nearest charging station or service center.",
+  //     "Involves longer wait times.",
+  //     "Comes at a much higher cost.",
+  //   ],
+  // },
+  // {
+  //   type: "ctaButton",
+  //   action: "roadsidePage",
+  //   alt: "EV Roadside Assistance in Dubai",
+  //   desktop: RSADesktop,
+  //   mobile: RSAMobile
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "A Smarter Solution: PlusX Electric Emergency EV Charging"
+  // },
+  // {
+  //   headerText: `Instead of arranging a tow, EV owners can rely on PlusX Electric’s Emergency EV Charging Service. Our technicians arrive at your location, assess the issue on the spot, and deliver immediate charging assistance getting you back on the road safely and with minimal delay.`,
+  //   type: "ul",
+  //   items: [
+  //     `Faster response compared to towing.`,
+  //     "A more cost-effective option.",
+  //     "No unnecessary vehicle movement.",
+  //     "Specifically designed for electric vehicles.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "Holiday Special Offer From PlusX Electric"
+  // },
+  // {
+  //   type: "paragraph",
+  //   text: `Make your holiday relaxed and tension-free, avail the PlusX Electric offers on emergency EV charging services. Whether you are going for a long vacation or coming back home from the holiday, book <a href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target='blank'>PlusX electric</a> EV charging services now!`
+  // },
+  // {
+  //   type: "heading",
+  //   level: 2,
+  //   text: "How PlusX Electric Makes EV Care Easier"
+  // },
+  // {
+  //   headerText: `Real charging and support solutions make owning an EV easier, especially on long breaks. The Centralised charging management.`,
+  //   type: "ul",
+  //   items: [
+  //     `It's designed to support both daily driving and extended inactivity.`,
+  //     "Minimises uncertainty around holidays and prolonged breaks.",
+  //     "Reliability backup in case of failure.",
+  //   ],
+  // },
+  // {
+  //   type: "heading",
+  //   level: 3,
+  //   text: "Conclusion"
+  // },
+  // {
+  //   type: "paragraph",
+  //   text: `Properly caring for your EV during holidays comes down to careful planning and smart habits. Maintaining the right battery charge, parking appropriately, and performing simple checks before and after your break can significantly improve battery life and overall reliability. If you return from your holiday to find the battery completely discharged or the EV won’t start, towing is not always practical and can be expensive. Instead, you can rely on Plus X Electric’s immediate emergency service, which is generally more cost-effective than towing and focuses on quick diagnosis and fast resolution.`
+  // },
+  // {
+  //   type: "paragraph",
+  //   text: `With the right planning and dependable support, EV ownership stays seamless, even during long holidays. <a href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target='_blank'>PlusX Electric</a> ensures you never get stranded, providing a reliable solution whenever you need it.`
+  // },
+  {
+    type: "heading",
+    level: 2,
+    text: "FAQ's"
+  },
+  {
+    type: "faq",
+    schema :{
+      "@context"  : "https://schema.org",
+      "@type"     : "FAQPage",
+      mainEntity: [
+        {
+          "@type" : "Question",
+          "name"  : "1. What should I do if my EV battery drains on Dubai roads?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Turn on hazard lights, move to a safe spot if possible, and request EV-specific support. If you’re stranded due to low or zero charge, book EV roadside assistance Dubai via PlusX Electric for safe on-site charging support."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "2. How much emergency charge does PlusX Electric provide on the roadside?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "PlusX Electric provides emergency support of up to 10 kWh or ~50 km range (whichever comes first) to help you reach the nearest charging station safely."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "3. Is towing always necessary when an EV battery is drained?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Not always. In many drained-battery situations, on-site charging is a faster and safer alternative to towing—especially when the vehicle only needs enough range to reach a charger."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "4. What if my EV won’t power on even though I think it has charge?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Your EV may have a 12V battery issue. The 12V battery powers low-voltage systems like the dashboard, lights, locks, and control modules. In such cases, PlusX Electric can provide jump start support, and if required, 12V battery replacement additional charges apply."
+          }
+        }
+      ]
+    }
+  }
+];

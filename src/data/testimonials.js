@@ -24,9 +24,8 @@ import TrustPlusX                     from "@/assets/images/homepage/blogs/trust
 import Diesel                         from "@/assets/images/homepage/blogs/diesel.webp";
 import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
  
-//Content
+//Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
-import { whyDiesel }          from "@/data/blogsList/whyDiesel";
 import { benefitEVOwner }     from "@/data/blogsList/benefitEVOwner";
 import { diesel }             from "@/data/blogsList/diesel";
 import { commonChargings }    from "@/data/blogsList/commanChargings";
@@ -40,12 +39,15 @@ import { rangeAnxiety }       from "@/data/blogsList/rangeAnxiety";
 import { evrevolution }       from "@/data/blogsList/revolution";
 import { fiveScenerio }       from "@/data/blogsList/fiveScenerio";
 import { holiday }            from "@/data/blogsList/holiday";
+import { trustPlusx }         from "@/data/blogsList/trustPlusx";
 import { nissanTesla }        from "@/data/blogsList/nissanTesla";
+import { smartChoice }        from "@/data/blogsList/smartChoice";
 import { growingNeeds }       from "@/data/blogsList/growingNeeds";
 import { leasingRenting }     from "@/data/blogsList/leasingRenting";
 import { evBenefits }         from "@/data/blogsList/evBenefits";
 import { roadTrips }          from "@/data/blogsList/roadTrip";
 import { evRise }             from "@/data/blogsList/evRise";
+import { locations }          from "@/data/blogsList/locations";
 import { future }             from "@/data/blogsList/future";
  
 export const testimonials = [
@@ -75,7 +77,7 @@ export const testimonials = [
     alt             : "why ev owners trust PlusX Electric",
     metaTitle       : "EV Breakdown Dubai: Why Drivers Trust PlusX Electric",
     metaDescription : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 575+ EVs with an 87% success rate on-site charging, jump start & 12V support.",
-    content         : whyDiesel,
+    content         : trustPlusx,
   },
   {
     slug            : "how-to-take-care-of-your-ev-during-the-holidays",
@@ -147,7 +149,7 @@ export const testimonials = [
     alt             : "home",
     metaTitle       : "Home EV Charger Installation Dubai | PlusX Charging Solutions",
     metaDescription : "Discover why home EV charger installation in Dubai is smarter than relying on public charging. Choose PlusX for safe, licensed charger installation.",
-    content         : whyDiesel,
+    content         : smartChoice,
   },
   {
     slug            : "why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner",
@@ -183,7 +185,7 @@ export const testimonials = [
     alt             : "Top 10 Locations in Dubai",
     metaTitle       : "Top 10 Dubai Locations Needing EV Emergency Charging",
     metaDescription : "Discover the top 10 spots in Dubai where EV drivers face urgent charging needs, from Marina to DXB, and how on-demand solutions provide relief.",
-    content         : whyDiesel,
+    content         : locations,
   },
   {
     slug            : "the-rise-of-evs-in-dubai-and-the-growing-need-for-smart-charging-solutions",

@@ -2,11 +2,18 @@
   margin-top: 150px;
 }
 
+.blogHeading {
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: calc(1.3rem + .4vw);
+}
+
 .heading {
   color: var(--color-primary);
   margin-bottom: 10px;
-  font-size: calc(1rem + 0.4vw);
-  font-weight: 500;
+  font-size: calc(1.15rem + 0.4vw - 1px);
   line-height: 1.2;
 }
 
@@ -18,6 +25,8 @@
 }
 
 .heading a {
+  display: inline-block;
+  margin-bottom: 10px;
   color: var(--color-link);
   cursor: pointer;
 }
@@ -78,154 +87,6 @@
   margin-bottom: 20px;
 }
 
-/*
-.subHeading {
-  color: var(--color-primary);
-  margin-bottom: 10px;
-  font-weight: 500;
-  margin-top: 30px;
-  font-size: calc(1.3rem + 0.6vw - 4px);
+.blogFaq P {
+  font-size: 15px ;
 }
-
-.newTextContents {
-  line-height: 1.5;
-  margin-top: 0;
-  margin: 0 0 10px 0;
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  color: #212529;
-  text-align: left;
-  color: var(--color-text);
-}
-
-.belowDescTextContents {
-  line-height: 1.5;
-  margin: 30 0 10px 0;
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  color: #212529;
-  text-align: left;
-  color: var(--color-text);
-}
-
-.stepsHeading {
-  margin-bottom: 10px;
-  font-weight: 500;
-  margin-top: 30px;
-  font-size: calc(1.3rem + 0.6vw - 6px);
-  text-align: left;
-  color: var(--color-primary);
-}
-
-.stepsDesc {
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  margin: 20px 0px;
-}
-
-.secondStepBottomDesc {
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  padding-left: 10px;
-  margin-top: 10px;
-}
-
-.secondStepList {
-  margin-left: 17px;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  margin-top: 5px;
-}
-
-.fourthStepList {
-  margin-left: 25px;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-}
-
-.stepListli {
-  margin-bottom: 5px;
-}
-
-.avoidStepLi {
-  margin-bottom: 5px;
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.desc {
-  line-height: 1.5;
-  text-align: left;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-}
-
-.secondSecDesc {
-  line-height: 1.5;
-  text-align: left;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-
-.thirdStepUlHeading {
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  padding-left: 10px;
-}
-
-.thirdStepsDesc {
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  padding-left: 25px;
-}
-
-.note {
-  margin-bottom: 20px;
-  margin-top: 30px;
-  text-align: left;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-}
-
-.noteSpan {
-  font-weight: 500;
-}
-
-.serviceHeading {
-  text-align: left;
-  color: var(--color-text);
-  box-sizing: border-box;
-  font-size: 0.9rem;
-  margin-top: 20px;
-} */
-
-/* @media (max-width: 767px) {
-  .textContents {
-    margin-top: 24px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .stepsHeading {
-    font-size: 22px;
-  }
-
-  .subHeading {
-    font-size: 24px;
-  }
-}
-
-.anchorTag {
-  text-decoration: underline;
-} */
