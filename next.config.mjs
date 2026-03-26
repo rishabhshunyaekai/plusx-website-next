@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // All old url redirection's
-  async redirects() {
+  output: 'standalone',   // for standalone build
+  async redirects() {     // All old url redirection's
     return [
       // Redirect to Home
       { source: '/become-partner',        destination: '/',   permanent: true },
