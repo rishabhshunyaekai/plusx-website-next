@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = new URL(process.env.BASE_URL || "https://plusxelectric.com");
+  const baseUrl = new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://plusxelectric.com");
   return [
     {
       url             : baseUrl,
