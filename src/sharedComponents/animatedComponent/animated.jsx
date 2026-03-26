@@ -1,30 +1,41 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import "./animated.css";
 
-function Animated({ children, className = "", animation = "fade", duration = 1000, easing = "ease-out", ...props }) {
-  const ref                   = useRef(null);
-  const [visible, setVisible] = useState(false);
+let observer;
+
+const getObserver = () => {
+  if (!observer) {
+    observer = new IntersectionObserver( (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2, rootMargin: "50px" }
+    );
+  }
+  return observer;
+};
+
+function Animated({ children, className = "", animation = "fade", duration = 600, easing = "ease-out", ...props }) {
+  const ref = useRef(null);
 
   useEffect(() => {
-    const element  = ref.current;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.unobserve(element);
-        }
-      },
-      { threshold: 0.2 }
-    );
+    const element = ref.current;
+    if (!element) return;
 
-    if (element) observer.observe(element);
-    return () => observer.disconnect();
+    const obs = getObserver();
+    obs.observe(element);
+
+    return () => obs.unobserve(element);
   }, []);
 
   return (
-    <article ref={ref} className={`animate ${animation} ${visible ? "show" : ""} ${className}`} style={{transitionDuration: `${duration}ms`, transitionTimingFunction: easing, transitionDelay: "000ms" }} {...props}>
+    <article ref={ref} className={`animate ${animation} ${className}`} style={{ "--duration": `${duration}ms`, "--easing": easing }} {...props}>
       {children}
     </article>
   );

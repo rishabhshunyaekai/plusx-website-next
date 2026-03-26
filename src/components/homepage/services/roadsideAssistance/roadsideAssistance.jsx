@@ -15,7 +15,7 @@ function EVRoadSideAssistance() {
             </div>
           </div>
           <div className={`lg:col-span-2 order-1 lg:order-2`}>
-            <Animated className={style.contentWrapper} animation="fade" easing="ease-in" duration={1000}>
+            <Animated className={style.contentWrapper} animation="slide-left" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV Roadside Assistance</h2>
               <h3 className={style.cardSubTitle}>Emergency Roadside Charging <br className={`${style.breakLine}`}/>Now Available Across Dubai.</h3>
               <div className={`${style.buttonContainer}`}>

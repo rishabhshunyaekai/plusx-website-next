@@ -10,7 +10,7 @@ function PickupDropoff() {
       <div className={`container ${style.container}`}>
         <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
           <div className={`lg:col-span-2`}>
-            <Animated className={style.contentWrapper} animation="fade" easing="ease-in" duration={1000}>
+            <Animated className={style.contentWrapper} animation="slide-right" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>Pick Up & Drop Off</h2>
               <h3 className={style.cardSubTitle}>We&apos;ll pick up your car, charge it <br className={`${style.breakLine}`}/>& drop it back within 2 hrs!</h3>
               <div className={`${style.buttonContainer}`}>

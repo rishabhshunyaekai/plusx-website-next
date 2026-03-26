@@ -375,6 +375,90 @@ async function handleMapClick(lat, lng) {
   }
 
  export default Animated; -->
+
+ <!-- "use client";
+
+import { useEffect, useRef, useState } from "react";
+import "./animated.css";
+
+function Animated({ children, className = "", animation = "fade", duration = 1000, easing = "ease-out", ...props }) {
+  const ref                   = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const element  = ref.current;
+    if (!element) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          // observer.unobserve(element);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2, rootMargin: "50px", }
+    );
+
+    if (element) observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <article ref={ref} className={`animate ${animation} ${visible ? "show" : ""} ${className}`} style={{transitionDuration: `${duration}ms`, transitionTimingFunction: easing, transitionDelay: "000ms" }} {...props}>
+      {children}
+    </article>
+  );
+}
+
+export default Animated;
+
+.animate {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.fade {
+  transform: none;
+}
+
+.slide-up {
+  transform: translate3d(0, 40px, 0);
+}
+
+.slide-left {
+  transform: translate3d(40px, 0, 0);
+}
+
+.slide-right {
+  transform: translate3d(-40px, 0, 0);
+}
+
+.zoom-in {
+  transform: scale(0.9);
+}
+
+.animate.show.fade {
+  transform: none;
+}
+
+.animate.show.zoom-in {
+  transform: scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate {
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+} -->
  <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!-- 
  Whatsapp.jsx 
