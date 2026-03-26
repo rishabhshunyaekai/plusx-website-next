@@ -68,6 +68,11 @@
   line-height: 1.5;
 }
 
+.listItem img {
+  width: 45px;
+  height: 45px;
+}
+
 .imageWrapper img {
   width: 100%;
   height: auto;
