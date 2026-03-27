@@ -8,7 +8,8 @@ import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
 
 import CompanyLogo                    from "@/sharedComponents/companyLogo/companyLogo.jsx";
 import Drawer                         from "./drawer";
-import { appRedirectionHandler }      from "@/utils/helper.js";
+import { handleDeviceRedirect, REDIRECT_PATHS, 
+    APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 import QR                             from "@/assets/images/homepage/qr-code.svg";
 import AppStore                       from "@/assets/images/homepage/app-store.svg";
@@ -164,10 +165,10 @@ function Header() {
                     <div className={style.hoverLinks}>
                       <div className={style.hoverText}>Scan to download Plusx Electric app in your phone. Or get it here:</div>
                       <div className={style.hoverImageSection}>
-                        <a href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target="_blank" rel="noopener noreferrer">
+                        <a href={APPLE_STORE_URL} target="_blank" rel="noopener noreferrer">
                           <Image src={AppStore} alt="App Store" width={110} height={30} />
                         </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target="_blank" rel="noopener noreferrer">
+                        <a href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
                           <Image src={PlayStore} alt="Play Store" width={110} height={30} />
                         </a>
                       </div>
@@ -192,7 +193,7 @@ function Header() {
             <MobileDropdown title="Charging Solutions" links={chargingSolutionsOptions} /><hr className={style.mobileHr} />
             <li><Link href="/ev-car-insurance">EV Insurance</Link> <hr className={style.mobileHr} /></li>
             <li><Link href="/commercial-ev-charging-solutions">PlusX for Business</Link> <hr className={style.mobileHr} /></li>
-            <li><button onClick={appRedirectionHandler} className={style.downloadAppButton}>Download App</button></li>
+            <li><button onClick={()=> handleDeviceRedirect(REDIRECT_PATHS.app)} className={style.downloadAppButton}>Download App</button></li>
           </ul>
         </Drawer>
       )}

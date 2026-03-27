@@ -3,6 +3,7 @@ import style      from "./appSection.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
 import appStore   from "@/assets/images/homepage/app-store.svg";
 import playStore  from "@/assets/images/homepage/play-store.svg";
+import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function AppSection({title, description, image }) {
   return (
@@ -17,10 +18,10 @@ function AppSection({title, description, image }) {
                 <p className={style.infoDescription}>{description || ""}</p>
 
                 <article className={style.infoLinks}>
-                  <a href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target="__blank">
+                  <a href={APPLE_STORE_URL} target="__blank">
                     <Image src={appStore} alt="appStore" width={135} height={40}/>
                   </a>
-                  <a href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target="__blank">
+                  <a href={PLAY_STORE_URL} target="__blank">
                     <Image src={playStore} alt="playStore" width={135} height={40}/>
                   </a>
                 </article>

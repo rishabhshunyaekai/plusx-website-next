@@ -1,14 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
-import style from "./footer.module.css";
+import Link   from "next/link";
+import Image  from "next/image";
+import style  from "./footer.module.css";
 
-import AppStoreLogo from "@/assets/images/homepage/app-store.svg";
-import PlayStoreLogo from "@/assets/images/homepage/play-store.svg";
-import Logo from "@/assets/images/homepage/logo-icon.svg";
-import { FaFacebookF } from "react-icons/fa";
+import AppStoreLogo     from "@/assets/images/homepage/app-store.svg";
+import PlayStoreLogo    from "@/assets/images/homepage/play-store.svg";
+import Logo             from "@/assets/images/homepage/logo-icon.svg";
+import { FaFacebookF }  from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram }  from "react-icons/fa";
+import { FaXTwitter }   from "react-icons/fa6";
+import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function Footer() {
   return (
@@ -20,10 +21,10 @@ function Footer() {
                 <Image src={Logo} alt="Logo" width={140} height={60} />
               </Link>
               <div className={style.appLinks}>
-                <Link href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
+                <Link href={APPLE_STORE_URL} target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
                   <Image src={AppStoreLogo} alt="App Store" width={119} height={35} />
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
+                <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer" style={{ marginRight: "15px" }}>
                   <Image src={PlayStoreLogo} alt="Play Store" width={119} height={35} />
                 </Link>
               </div>

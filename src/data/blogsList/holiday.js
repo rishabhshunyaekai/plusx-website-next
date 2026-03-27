@@ -1,5 +1,6 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/RSADesktop.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
+import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
  
 export const holiday = [
   {
@@ -209,7 +210,7 @@ export const holiday = [
   },
   {
     type: "paragraph",
-    text: `Make your holiday relaxed and tension-free, avail the PlusX Electric offers on emergency EV charging services. Whether you are going for a long vacation or coming back home from the holiday, book <a href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target='blank'>PlusX electric</a> EV charging services now!`
+    text: `Make your holiday relaxed and tension-free, avail the PlusX Electric offers on emergency EV charging services. Whether you are going for a long vacation or coming back home from the holiday, book <a href=${PLAY_STORE_URL} target='blank'>PlusX electric</a> EV charging services now!`
   },
   {
     type: "heading",
@@ -236,7 +237,7 @@ export const holiday = [
   },
   {
     type: "paragraph",
-    text: `With the right planning and dependable support, EV ownership stays seamless, even during long holidays. <a href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target='_blank'>PlusX Electric</a> ensures you never get stranded, providing a reliable solution whenever you need it.`
+    text: `With the right planning and dependable support, EV ownership stays seamless, even during long holidays. <a href=${APPLE_STORE_URL} target='_blank'>PlusX Electric</a> ensures you never get stranded, providing a reliable solution whenever you need it.`
   },
   // {
   //   type: "heading",

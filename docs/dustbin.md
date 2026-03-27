@@ -486,3 +486,125 @@ function formatProductName(slug) {
 }; -->
 
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- CTA Button 
+
+"use client";
+import {
+  appRedirectionHandler,
+  chargerInstallationPageRedirectionHandler,
+  evChargersPageRedirectionHandler,
+  portablePageRedirectionHandler,
+  roadsidePageRedirectionHandler,
+  scrollToBottomWithRedirectionHandler,
+  scrollToSpecificSectionViaID,
+} from "@/utils/helper";
+
+function CTAButton({ className, text, handler }) {
+
+  const handleClick = () => {
+    if (handler === "appRedirect")                    appRedirectionHandler();
+    if (handler === "chargerInstallationPage")        chargerInstallationPageRedirectionHandler();
+    if (handler === "evChargersPage")                 evChargersPageRedirectionHandler();
+    if (handler === "portablePage")                   portablePageRedirectionHandler();
+    if (handler === "roadsidePage")                   roadsidePageRedirectionHandler();
+    if (handler === "scrollToBottomWithRedirection")  scrollToBottomWithRedirectionHandler();
+    if (handler === "scrollToFooter")                 scrollToSpecificSectionViaID("footer");
+    if (handler === "scrollToCarService")             scrollToSpecificSectionViaID("carServices");
+    if (handler === "scrollToCarServiceForm")         scrollToSpecificSectionViaID("getAQuoteForm");
+  };
+
+  return (
+    <button className={className} onClick={handleClick}>
+      {text || "Submit"}
+    </button>
+  );
+}
+
+export default CTAButton; -->
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Helper.js
+ export function appRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    window.location.replace("https://plusxelectric.com/");
+  }
+  
+}
+
+export function portablePageRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    window.location.replace("https://plusxelectric.com/doorstep-ev-charging");
+  }
+}
+
+export function chargerInstallationPageRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    window.location.replace("https://plusxelectric.com/ev-chargers");
+  }
+}
+
+export function roadsidePageRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    window.location.replace("https://plusxelectric.com/ev-roadside-assistance-service");
+  }
+}
+
+export function evChargersPageRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    window.location.replace("https://plusxelectric.com/ev-chargers/ac-dc-ev-chargers");
+  }
+} -->
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->

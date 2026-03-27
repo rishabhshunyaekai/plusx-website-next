@@ -8,6 +8,7 @@ import VehicleLocation  from "@/assets/images/landing-pages/rsa/vehicle-location
 import TeamIcon         from "@/assets/images/landing-pages/on-demand/driver.svg";
 import PlayStore        from "@/assets/images/homepage/play-store.svg"
 import AppStore         from "@/assets/images/homepage/app-store.svg"
+import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 const steps = [
   {
@@ -43,10 +44,10 @@ function BookingCard() {
                   <p className={styles.text}>{step.text}</p>
                   {step.showStores && (
                     <div className={`${styles.imageContainer}`}>
-                      <Link href="https://apps.apple.com/in/app/plusx-electric/id6503144034" target="_blank" rel="noopener noreferrer">
+                      <Link href={APPLE_STORE_URL} target="_blank" rel="noopener noreferrer">
                         <Image src={AppStore} alt="App Store" width={100} height={28} />
                       </Link>
-                      <Link href="https://play.google.com/store/apps/details?id=com.shunyaekai.plusexelectric&hl=en&pli=1" target="_blank" rel="noopener noreferrer">
+                      <Link href={PLAY_STORE_URL} target="_blank" rel="noopener noreferrer">
                         <Image src={PlayStore} alt="Play Store" width={100} height={28} />
                       </Link>
                     </div>

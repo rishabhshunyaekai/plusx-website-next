@@ -1,26 +1,21 @@
 "use client";
-import {
-  appRedirectionHandler,
-  chargerInstallationPageRedirectionHandler,
-  evChargersPageRedirectionHandler,
-  portablePageRedirectionHandler,
-  roadsidePageRedirectionHandler,
-  scrollToBottomWithRedirectionHandler,
-  scrollToSpecificSectionViaID,
-} from "@/utils/helper";
+
+import { handleDeviceRedirect, REDIRECT_PATHS, scrollToBottomWithRedirectionHandler, scrollToSpecificSectionViaID } from "@/utils/helper";
 
 function CTAButton({ className, text, handler }) {
-
   const handleClick = () => {
-    if (handler === "appRedirect")                    appRedirectionHandler();
-    if (handler === "chargerInstallationPage")        chargerInstallationPageRedirectionHandler();
-    if (handler === "evChargersPage")                 evChargersPageRedirectionHandler();
-    if (handler === "portablePage")                   portablePageRedirectionHandler();
-    if (handler === "roadsidePage")                   roadsidePageRedirectionHandler();
-    if (handler === "scrollToBottomWithRedirection")  scrollToBottomWithRedirectionHandler();
-    if (handler === "scrollToFooter")                 scrollToSpecificSectionViaID("footer");
-    if (handler === "scrollToCarService")             scrollToSpecificSectionViaID("carServices");
-    if (handler === "scrollToCarServiceForm")         scrollToSpecificSectionViaID("getAQuoteForm");
+    switch (handler) {
+      case "appRedirect"                    : handleDeviceRedirect(REDIRECT_PATHS.app);                 break;
+      case "chargerInstallationPage"        : handleDeviceRedirect(REDIRECT_PATHS.chargerInstallation); break;
+      case "evChargersPage"                 : handleDeviceRedirect(REDIRECT_PATHS.evChargers);          break;
+      case "portablePage"                   : handleDeviceRedirect(REDIRECT_PATHS.portable);            break;
+      case "roadsidePage"                   : handleDeviceRedirect(REDIRECT_PATHS.roadside);            break;
+      case "scrollToBottomWithRedirection"  : scrollToBottomWithRedirectionHandler();                   break;
+      case "scrollToFooter"                 : scrollToSpecificSectionViaID("footer");                   break;
+      case "scrollToCarService"             : scrollToSpecificSectionViaID("carServices");              break;
+      case "scrollToCarServiceForm"         : scrollToSpecificSectionViaID("getAQuoteForm");            break;
+      default:                                                                                          break;
+    }
   };
 
   return (

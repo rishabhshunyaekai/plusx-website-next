@@ -2,17 +2,22 @@
 import Image        from "next/image";
 import style        from "./blog.module.css";
 import Faq          from "@/sharedComponents/faqs/faqs";
-import {  appRedirectionHandler, chargerInstallationPageRedirectionHandler, evChargersPageRedirectionHandler, portablePageRedirectionHandler,
-          roadsidePageRedirectionHandler, scrollToBottomWithRedirectionHandler, scrollToSpecificSectionViaID } from "@/utils/helper";
+import { handleDeviceRedirect, REDIRECT_PATHS } from "@/utils/helper";
  
 function BlogPage({ blogContent }) {
+
     const ACTION_MAP = {
-      appRedirect             : appRedirectionHandler,
-      chargerInstallationPage : chargerInstallationPageRedirectionHandler,
-      evChargersPage          : evChargersPageRedirectionHandler,
-      portablePage            : portablePageRedirectionHandler,
-      roadsidePage            : roadsidePageRedirectionHandler,
+      appRedirect             : REDIRECT_PATHS.app,
+      chargerInstallationPage : REDIRECT_PATHS.chargerInstallation,
+      evChargersPage          : REDIRECT_PATHS.evChargers,
+      portablePage            : REDIRECT_PATHS.portable,
+      roadsidePage            : REDIRECT_PATHS.roadside,
     };
+    
+    function redirection(action) {
+      const url = ACTION_MAP[action];
+      if (url) handleDeviceRedirect(url);
+    }
  
   return (
     <main className={style.main}>
@@ -60,7 +65,7 @@ function BlogPage({ blogContent }) {
  
               case "ctaButton":
                 return (
-                  <button key={index} onClick={ACTION_MAP[block?.action] || null} className={style.ctaButton}>
+                  <button key={index} className={style.ctaButton} onClick={() => redirection(block?.action)} >
                     <picture>
                       <source media="(max-width: 767px)" srcSet={block?.mobile?.src || block?.mobile} />
                       <source media="(min-width: 768px)" srcSet={block?.desktop?.src || block?.desktop} />
