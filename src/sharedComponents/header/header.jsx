@@ -39,7 +39,7 @@ function Header() {
 
   const chargingSolutionsOptions = [
     { label: "Portable Charger",        path: "/doorstep-ev-charging" },
-    { label: "Pick & Drop Off",         path: "/ev-pickup-dropoff-charging-service" },
+    { label: "Pickup & Dropoff",        path: "/ev-pickup-dropoff-charging-service" },
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
     { label: "EV Charger Installation", path: "/ev-chargers" },
     { label: "EV Roadside Assistance",  path: "/ev-roadside-assistance-service" },

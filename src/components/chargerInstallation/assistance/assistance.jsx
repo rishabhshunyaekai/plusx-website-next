@@ -5,7 +5,7 @@ import Modal    from "@/assets/images/ev-charger-installation-page/ev-modals.svg
 import Xpansion from "@/assets/images/ev-charger-installation-page/expansion.svg";
 import KM       from "@/assets/images/ev-charger-installation-page/daily-km.svg";
 import Animated from "@/sharedComponents/animatedComponent/animated";
-import CTAButton from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function Scenarios() {
   return (
@@ -38,7 +38,7 @@ function Scenarios() {
               </ul>
 
               <div className={style.buttonContainer}>
-                <CTAButton className={style.chargerButton} text="Book Free Consultation" handler="chargerInstallationPage" />
+                <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book Free Consultation"/>
               </div>
 
               {/* <ul className={style.scenariosList}>

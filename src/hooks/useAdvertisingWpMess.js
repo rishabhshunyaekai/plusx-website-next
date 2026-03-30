@@ -9,7 +9,8 @@ function useAdvertisingWpMess(type) {
     "/emergency-ev-charging"                : `Hi PlusX Electric Team 🚨\nI am looking for an emergency EV charging service.`,
     "/ev-charger-installation"              : `Hi PlusX Electric Team ⚡\nI’m interested in installing a Fixed EV Charger.`,
     "/ev-car-insurance"                     : `Hi PlusX Electric 👋\n\nI’m looking for EV Insurance. \nVehicle Make & Model: \nEmirates: `,
-    "/complete-ev-care-dubai"               : `Hi, I’m looking for your services. Please let me know more about: \n\n1- EV Charging Service \n2-  Car Service & Maintenance `,
+    "/ev-chargers"                          : `Hi PlusX Electric Team ⚡\nI’m interested in installing a Fixed EV Charger.`,
+    // "/complete-ev-care-dubai"               : `Hi, I’m looking for your services. Please let me know more about: \n\n1- EV Charging Service \n2-  Car Service & Maintenance `,
     // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\nI’m looking for an EV charger. Please assist me with options and pricing. \nMy location & vehicle is: `,
     // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\n I’m looking for a charger installation service. \nMy location is: `,
   };

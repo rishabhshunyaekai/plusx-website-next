@@ -1,9 +1,9 @@
-import Link     from "next/link";
-import Image    from "next/image";
-import style    from "./pickupDropoff.module.css";
-import Animated from "@/sharedComponents/animatedComponent/animated";
+import Image            from "next/image";
+import style            from "./pickupDropoff.module.css";
+import Animated         from "@/sharedComponents/animatedComponent/animated";
+import CTAButton        from "@/sharedComponents/ctaButton/ctaButton.jsx";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import Pickup   from "@/assets/images/homepage/pickup-dropoff.png";
+import Pickup           from "@/assets/images/homepage/pickup-dropoff.png";
 
 function PickupDropoff() {
   return (
@@ -25,7 +25,7 @@ function PickupDropoff() {
                 <h2 className={style.cardTitle}>On-Demand <br className={style.breakLine}/>Pickup & Drop-Off</h2>
                 <h3 className={style.cardSubTitle}><strong>Service Fee: AED 39</strong></h3>
                 <div className={`${style.buttonContainer}`}>
-                  <Link href="/ev-pickup-dropoff-charging-service" className={style.cardButton}>Book Now</Link>
+                  <CTAButton className={style.cardButton} text="Book Now" handler="scrollToBottomWithRedirection" />
                 </div>
               </Animated>
             </div>

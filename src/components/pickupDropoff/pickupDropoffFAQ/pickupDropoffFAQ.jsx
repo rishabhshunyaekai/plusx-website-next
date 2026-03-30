@@ -9,42 +9,50 @@ function PickupDropoffFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. Is EV Pickup and Drop-off Service available across Dubai?",
+            "name"  : "1. Do I need to be present during pickup?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, the valet charging service is available across Dubai, including residential communities, shopping centres, and popular tourist spots."
+                "text"  : "No. PlusX Electric can collect your vehicle from your selected location and return it after charging is completed."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. Which EVs can the pick-up and drop-off service charge?",
+            "name"  : "2. Is my EV safe during the service?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "The PlusX service supports a wide range of electric vehicles. The charging units are compatible with different charging standards."
+                "text"  : "Yes. PlusX Electric uses trained staff and standard procedures to safely handle your EV during pickup, charging, and drop-off."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "3. Is the pick-up and drop-off charging service available 24/7?",
+            "name"  : "3. Can I book pickup from my office or home?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, the service operates 24/7. Whether early morning or late at night, you can have your EV collected, charged, and returned at a convenient time."
+                "text"  : "Yes. PlusX Electric allows you to schedule pickup from your home, office, or preferred parking location in Dubai."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4. Is this service suitable for tourists in Dubai?",
+            "name"  : "4. What happens after my EV is fully charged?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Absolutely. Tourists renting EVs can benefit from the pick-up and drop-off option without the hassle of finding or using public charging stations."
+                "text"  : "Once charging is complete, PlusX Electric returns your EV to the same pickup location within the estimated service time."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5. What are the costs of the pick-up and drop-off service?",
+            "name"  : "5. Can I book this service anytime?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : `The service is currently priced at 39 AED within Dubai.`
+                "text"  : `You can schedule the service through the PlusX Electric app based on available time slots in your area.`
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "6. How much does EV pickup and drop-off charging cost?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : `PlusX Electric charges a service fee of AED 39 for EV pickup and drop-off charging. Public charging costs are calculated separately based on usage.`
             }
         }
     ]

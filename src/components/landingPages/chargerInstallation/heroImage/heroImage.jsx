@@ -1,10 +1,7 @@
-"use client";
-
 import style                from "./heroImage.module.css";
-import useAdvertisingWpMess from "@/hooks/useAdvertisingWpMess";
+import RedirectToWhatsapp   from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function ChargerHeroImage() {
-  const { whatsappUrl } = useAdvertisingWpMess();
 
   return (
     <figure className={style.chargerBanner}>
@@ -15,7 +12,7 @@ function ChargerHeroImage() {
         </h1>
         <p className={style.subText}>All Types of <span className={style.highlight}>AC & DC</span> Chargers & Adapters Available</p>
         <p className={style.footNote}>*Compatible With all EV Brands</p>
-        <a target="_blank" href={whatsappUrl} rel="noreferrer" className={style.bookSlotButton}>Book Free Consultation</a>
+        <RedirectToWhatsapp className={style.bookSlotButton} isShowIcon={false} text="Book Free Consultation"/>
       </div>
     </figure>
   );

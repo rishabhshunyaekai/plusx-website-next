@@ -1,15 +1,12 @@
-"use client";
-
 import Image                from "next/image";
 import style                from "./advHeader.module.css";
 import CompanyLogo          from "@/sharedComponents/companyLogo/companyLogo";
 import Call                 from "@/assets/images/landing-pages/on-demand/call.svg";
 import Whatsapp             from "@/assets/images/landing-pages/on-demand/whatsapp-background.svg";
 import CTAButton            from "@/sharedComponents/ctaButton/ctaButton";
-import useAdvertisingWpMess from "@/hooks/useAdvertisingWpMess";
+import RedirectToWhatsapp   from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function AdvHeader() {
-  const { whatsappUrl } = useAdvertisingWpMess();
 
   return (
     <header className={`${style.header}`}>
@@ -20,7 +17,7 @@ function AdvHeader() {
           </div>
           <div className={style.headerButtonContainer}>
             <a href="tel:+971542796424" rel="noreferrer"><Image src={Call} alt="Call" width={55} height={55} priority /></a>
-            <a target="_blank" href={whatsappUrl} rel="noreferrer" id="whatsappIcon"><Image src={Whatsapp} alt="Whatsapp" width={55} height={55} priority /></a>
+            <RedirectToWhatsapp className={style.chargerButton} imageSrc={Whatsapp} />
             <CTAButton className={style.downloadAppLink} text="DOWNLOAD APP" handler="appRedirect" />
           </div>
         </div>

@@ -1,6 +1,6 @@
 import style      from "./cta.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import CTAButton  from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function CTA() {
   return (
@@ -12,7 +12,7 @@ function CTA() {
             Looking to have an EV charging station installed at home or commercial premises? At PlusX Electric, we are ready to offer assistance from the point of choosing to install the EV charger.
           </p>
           <div className={style.buttonContainer}>
-            <CTAButton className={style.chargerButton} text="Book Free Consultation" handler="chargerInstallationPage" />
+            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book Free Consultation"/>
           </div>
         </Animated>
       </div>

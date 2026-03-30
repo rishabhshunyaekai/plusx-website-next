@@ -1,6 +1,5 @@
-// import Link from "next/link";
-import style      from "./heroImage.module.css";
-import CTAButton  from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import style              from "./heroImage.module.css";
+import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function ChargerInstallationHeroImage() {
   return (
@@ -10,7 +9,7 @@ function ChargerInstallationHeroImage() {
           <h2 className={style.sharePrimaryText}>Get EV Charger, Accessories<br className={style.breakLine}/> & Installation Services</h2>
            <p className={style.outlinerText}>All Types of <span className={style.highlight}>AC & DC</span> Chargers & Adapters Available</p>
            <p className={style.secondaryText}>*Compatible With all EV Brands</p>
-          <CTAButton className={style.chargerButton} text="Book Free Consultation" handler="chargerInstallationPage" />
+           <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book Free Consultation" />
         </div>
       </div>
     </section>

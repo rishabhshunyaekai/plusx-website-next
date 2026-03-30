@@ -1,14 +1,9 @@
-"use client";
-
 import style                from "./cta.module.css";
-import Image                from "next/image";
 import Animated             from "@/sharedComponents/animatedComponent/animated";
 import CTAButton            from "@/sharedComponents/ctaButton/ctaButton.jsx";
-import Whatsapp             from "@/assets/images/landing-pages/on-demand/whatsapp.svg";
-import useAdvertisingWpMess from "@/hooks/useAdvertisingWpMess";
+import RedirectToWhatsapp   from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function CTA() {
-  const { whatsappUrl } = useAdvertisingWpMess();
   return (
     <div className={style.main} id="pricing">
       <div className={`container text-center`}>
@@ -18,13 +13,8 @@ function CTA() {
             UAE&apos;s first and largest vehicle servicing network — now available exclusively for PlusX Electric customers. Free pickup & delivery, 360° digital health check, and prices up to 50% cheaper than agencies.
           </p>
           <div className={style.buttonContainer}>
-            {/* <CTAButton className={style.chargerButton} text="Book Free Consultation" handler="chargerInstallationPage" /> */}
             <CTAButton className={style.chargerButton} text="Book a Service Now" handler="scrollToCarServiceForm" />
-            {/* <CTAButton className={style.chargerButton} text="Chat on WhatsApp" /> */}
-            <a target="_blank" className={style.chargerButton} href={whatsappUrl} rel="noreferrer" id="whatsappIcon">
-              {/* <Image src={Whatsapp} alt="Whatsapp" width={30} height={30} />CONNECT WITH US */}
-              CONNECT WITH US
-            </a>
+            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="CONNECT WITH US"/>
           </div>
         </Animated>
 

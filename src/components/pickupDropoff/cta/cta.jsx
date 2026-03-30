@@ -15,7 +15,7 @@ function CTA() {
             The service is a convenient time-saving alternative when you have a EV in Dubai and do not want to spend time at the public charging stations.
           </p>
           <div className={style.buttonContainer}>
-            <CTAButton className={style.chargerButton} text="Book Now" handler="chargerInstallationPage" />
+            <CTAButton className={style.chargerButton} text="Book Now" handler="scrollToBottomWithRedirection" />
           </div>
         </Animated>
       </div>
