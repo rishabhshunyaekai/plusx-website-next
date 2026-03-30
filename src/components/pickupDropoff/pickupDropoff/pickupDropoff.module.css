@@ -4,11 +4,11 @@
 }
 
 .container {
-  background-color: var(--color-secondary);
   border-radius: 40px;
   position: relative;
   overflow: hidden;
-  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+  /* background-color: var(--color-secondary);
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733); */
 }
 
 .description {
@@ -43,6 +43,7 @@
 .buttonContainer {
   display: flex;
   column-gap: 30px;
+  justify-content: center;
 }
 
 .cardButton {

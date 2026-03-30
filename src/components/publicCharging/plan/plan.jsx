@@ -19,7 +19,8 @@ const isOdd = benefits.length % 2 !== 0;
       <div className="container">
         <Animated className={`${style.scenariosContent} order-2 lg:order-1`} animation="fade" easing="ease-in" duration={1000}>
           <h2 className={style.scenariosHeading}>How PlusX Electric Helps <br className={style.breakLine}/> EV Drivers Plan Routes</h2>
-          <p className={style.scenariosIntro}>It is important to plan for a good charging facility when planning longer trips. The PlusX Electric <br className={style.breakLine} />application can help you plan routes and locate charging stations along the way.</p>
+          <p className={style.scenariosIntro}>Planning charging stops is important for longer drives. Instead of relying on tools like Google Maps, which may<br className={style.breakLine} /> not show accurate EV data, use the PlusX Electric app. It shows public charging stations in real time <br className={style.breakLine} />and is updated every 15 days for better accuracy.</p>
+          <p className={style.scenariosIntro}>Download the PlusX Electric app to quickly find chargers, check details, and plan your route with confidence.</p>
           <p className={style.scenariosIntro}><strong>You can:</strong></p>
 
           <div className={`grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 ${ isOdd ? "lg:grid-cols-3" : "lg:grid-cols-2" }`}>
@@ -33,7 +34,7 @@ const isOdd = benefits.length % 2 !== 0;
             })}
           </div>
 
-          <p className={style.scenariosIntro2}>This will ensure that the everyday driving and intercity commuting <br className={style.breakLine} />of the EV owners in Dubai is more predictable.</p>
+          <p className={style.scenariosIntro2}>This helps EV drivers in Dubai plan daily travel and longer journeys with more confidence.</p>
         </Animated>
       </div>
     </section>

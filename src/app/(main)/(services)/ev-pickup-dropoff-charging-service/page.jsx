@@ -13,8 +13,8 @@ import Faqs         from "@/components/pickupDropoff/pickupDropoffFAQ/pickupDrop
 // import Feature      from "@/components/pickupDropoff/feature/feature";
 
 export const metadata = {
-  title         : "EV Pickup & Drop Charging Service in Dubai | PlusX Electric",
-  description   : "We pick up your EV, charge it, and return it fully powered. Hassle-free pickup & drop-off charging service for busy EV owners in Dubai.",
+  title         : "EV Pickup & Dropoff Charging Service in Dubai | PlusX Electric",
+  description   : "EV pickup and drop off charging Dubai by PlusX Electric. We collect your vehicle, charge it, and return it in about 3 hours. Download the PlusX Electric app.",
   keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Pickup", "EV Drop Charging", "ev pickup & dropoff service", "ev pickup & dropoff service in dubai"],
   alternates    : {
       canonical : "/ev-pickup-dropoff-charging-service",

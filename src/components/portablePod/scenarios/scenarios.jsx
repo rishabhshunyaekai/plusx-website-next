@@ -18,8 +18,8 @@ function Scenarios() {
                 <li>Public charging points can be occupied during peak hours.</li>
                 <li>Some chargers may be farther away.</li>
                 <li>Most buildings have limited access to parking.</li>
-                <li>Home charger installation is not possible for everyone because of approvals, building limitations, or cost</li>
-                <li>Vehicle not starting after battery depletion</li>
+                <li><strong>Home charger installation</strong> is not possible for everyone because of approvals, building limitations, or cost</li>
+                {/* <li>Vehicle not starting after battery depletion</li> */}
               </ul>
 
               <p className={style.scenariosFooter}>These small issues can add friction to everyday EV usage.</p>

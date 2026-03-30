@@ -11,8 +11,8 @@ import Faqs         from "@/components/publicCharging/publicChargingFAQ/publicCh
 // import CTASection   from "@/components/publicCharging/ctaSection/ctaSection";
 
 export const metadata = {
-  title         : "Find Nearest EV Chargers in Dubai | PlusX Electric App",
-  description   : "Locate EV chargers instantly in Dubai with PlusX Electric. Plan trips, avoid range anxiety, and find charging stations near you anytime.",
+  title         : "Public EV Charging Stations in Dubai | Find Nearby Chargers",
+  description   : "Find public EV charging stations in Dubai easily with PlusX Electric. Locate nearby chargers, check availability, view pricing. Download the app now.",
   keywords      : ["plusx", "plusxelectric", "plusx electric", "Nearest EV Chargers", "find public ev charger", "public ev charger near me"],
   alternates    : {
       canonical : "/public-ev-charging-stations",

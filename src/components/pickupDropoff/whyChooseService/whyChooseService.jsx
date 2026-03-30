@@ -12,7 +12,7 @@ function WhyChooseService() {
             <Animated className={`${style.scenariosContent} order-2 lg:order-1`} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.scenariosHeading}>Why EV Owners Choose This Service</h2>
               <p className={style.scenariosIntro}>The problems of waiting time, peak-hour congestion, and access limitations may be associated with public charging in Dubai. Not every residential or commercial building offers easy access to charging.</p>
-              <p className={style.scenariosIntro}>The PlusX Electric eliminates these obstacles with an organized, stable pickup-and-return Tesla valet charging model.</p>
+              <p className={style.scenariosIntro}>PlusX Electric removes these challenges with a reliable pickup-and-return EV charging service.</p>
               <p className={style.scenariosIntro}><strong>This service is especially suitable for:</strong></p>
 
               <ul className={style.scenariosList}>

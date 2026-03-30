@@ -10,11 +10,11 @@ function PickupDropoff() {
     <section className="container">
       <SecondaryHeading title={`Service Areas in Dubai`} />
       <p className={style.description}>PlusX Electric offers EV pick up/drop off charging all over Dubai.</p>
-
+      
       <figure className={`${style.wrapper}`}>
         <div className={`container ${style.container}`}>
-          
-          <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
+
+          {/* <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
             <div className={`lg:col-span-1 order-2 lg:order-1`}>
               <div className={style.cardImageWrapper}>
                 <Image className={style.cardImage} src={Pickup} alt="Pickup" width={405} height={370} />
@@ -29,7 +29,7 @@ function PickupDropoff() {
                 </div>
               </Animated>
             </div>
-          </div>
+          </div> */}
         </div>
       </figure>
     </section>

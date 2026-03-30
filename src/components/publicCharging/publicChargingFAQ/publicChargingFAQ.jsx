@@ -9,58 +9,50 @@ function PublicChargingFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. Where can I charge my Tesla in Dubai?",
+            "name"  : "1. What if the charger I go to is occupied?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "You can charge your Tesla at DEWA Green chargers, malls, petrol stations, and public EV hubs across Dubai."
+                "text"  : "PlusX Electric helps you check charger availability before arrival, so you can select another nearby EV charging station if needed."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. Which is the best app to find EV charging stations in Dubai?",
+            "name"  : "2. How do I avoid driving around for chargers?",
             "acceptedAnswer": {
             "@type" : "Answer",
-            "text"  : "PlusX is one of the best EV charging apps in Dubai, helping you quickly find nearby stations with real-time availability and easy navigation."
+            "text"  : "PlusX Electric shows nearby public EV chargers in real time, helping you find available stations quickly without unnecessary detours."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "3. Are EV charging stations open 24/7 in Dubai?",
+            "name"  : "3. What if I am running low on battery?",
             "acceptedAnswer": {
             "@type" : "Answer",
-            "text"  : "Yes, most public charging stations in Dubai operate 24/7, making it convenient to charge your EV anytime, day or night."
+            "text"  : "PlusX Electric helps you quickly locate the nearest public EV charging station so you can reach a charger before your battery runs too low."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4. Do all EVs work with DEWA Green chargers?",
+            "name"  : "4. How do I find chargers during long drives?",
             "acceptedAnswer": {
             "@type" : "Answer",
-            "text"  : "Most EVs are compatible with DEWA Green chargers, but it’s best to check your vehicle’s connector type before using a public charger."
+            "text"  : "PlusX Electric helps you identify charging stations along your route so you can plan stops and continue your journey without stress."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5. Are there free EV charging stations in Dubai?",
+            "name"  : "5. Is there an app to find public EV charging stations in real time?",
             "acceptedAnswer": {
             "@type" : "Answer",
-            "text"  : `Some stations in Dubai offer free charging, especially DEWA chargers for registered EV Green Charger users, though availability may vary.`
+            "text"  : `Yes. The PlusX Electric app shows nearby public EV charging stations in real time, helping you locate available chargers quickly while travelling.`
             }
         },
         {
             "@type" : "Question",
-            "name"  : "6. Which charging stations in Dubai have fast chargers?",
+            "name"  : "6. Can I find charging stations between Dubai and Abu Dhabi?",
             "acceptedAnswer": {
             "@type" : "Answer",
-            "text"  : `Fast chargers are available at key locations such as DEWA hubs, shopping malls, and select petrol stations across Dubai.`
-            }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "7. How long does it take to charge an EV at a public station in Dubai?",
-            "acceptedAnswer": {
-            "@type" : "Answer",
-            "text"  : `Charging time depends on charger type; fast chargers take 30–45 minutes, while standard AC chargers may take a few hours.`
+            "text"  : `Yes. PlusX Electric helps you locate public EV charging stations along routes such as Dubai to Abu Dhabi or Sharjah to Dubai, making long drives easier to plan.`
             }
         }
     ]
