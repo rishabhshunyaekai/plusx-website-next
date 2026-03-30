@@ -16,23 +16,23 @@ const valuesCardData = [
   },
   {
     icon: ThirdParty,
-    text: (<><strong>DEWA-Approved CPO:</strong> Licensed EV Charge Point Operator in Dubai.</>),
+    text: (<><strong>End-to-End Digital Experience: </strong> Book, track, and manage your entire car service digitally — zero manual follow-up needed.</>),
   },
   {
     icon: Noclear,
     text: (<><strong>12-Month Warranty:</strong> All parts & labour fully guaranteed.</>),
   },
-  {
-    icon: Noclear,
-    text: (<><strong>24/7 Support:</strong> Emergency EV & roadside assistance always on.</>),
-  },
+  // {
+  //   icon: Noclear,
+  //   text: (<><strong>24/7 Support:</strong> Emergency EV & roadside assistance always on.</>),
+  // },
 ];
 
 function Values() {
   return (
     <section className={`wrapper`}>
       <div className={`container`}>
-        <SecondaryHeading title="What Makes Us Stand Out" />
+        <SecondaryHeading title="How Service My Car stand out" />
 
         <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2`}>
           {valuesCardData.map((value, index) => (

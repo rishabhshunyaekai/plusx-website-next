@@ -24,7 +24,7 @@ function Testimonial() {
   return (
     <section className={styles.section}>
       <div className="container">
-        <SecondaryHeading title={"PlusX Electric Media"} />
+        <SecondaryHeading title={"Explore Our EV Charging Blogs"} />
 
         <div className={styles.embla}>
           <div className={styles.embla__viewport} ref={emblaRef}>

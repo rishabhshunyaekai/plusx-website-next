@@ -1,5 +1,3 @@
-"use client";
-
 import style  from "./heroImage.module.css";
 
 function MobilityHeroImage() {

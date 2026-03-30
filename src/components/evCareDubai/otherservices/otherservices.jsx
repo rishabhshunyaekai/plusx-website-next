@@ -48,7 +48,7 @@ function OtherServies() {
   return (
     <section className="wrapper">
       <div className={'container'}>
-        <SecondaryHeading title="EV Charging & On-Demand Services" />
+        <SecondaryHeading title="Explore EV Charging Service by PlusX Electric" />
 
         <p className="!pb-8 text-center">DEWA-approved solutions for every EV need — emergency rescue, doorstep<br className="hidden md:block"/> charging, and professional installations across Dubai.</p>
 
