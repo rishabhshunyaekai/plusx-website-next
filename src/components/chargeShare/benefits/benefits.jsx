@@ -21,11 +21,11 @@ const chargerBenefits = [
     desc  : "You decide when your charger is on. Choose time slots that are convenient to you.",
     icon  : Control,
   },
-  {
-    title : "Secure and Managed Platform",
-    desc  : "The PlusX Electric app handles bookings, payments, and usage details.",
-    icon  : Secure,
-  },
+  // {
+  //   title : "Secure and Managed Platform",
+  //   desc  : "The PlusX Electric app handles bookings, payments, and usage details.",
+  //   icon  : Secure,
+  // },
   {
     title : "Better Infrastructure Utilisation",
     desc  : "Maximise the value of your charger without additional investment.",
@@ -45,8 +45,8 @@ const evBenefits = [
     icon  : Anxiety,
   },
   {
-    title : "Flexible Booking",
-    desc  : "View available chargers and Contact EV charger owner directly through the app.",
+    title : "Flexible Access",
+    desc  : "View available chargers on the PlusX Electric app and connect directly with the charger owner to access charging.",
     icon  : Booking,
   },
 ];

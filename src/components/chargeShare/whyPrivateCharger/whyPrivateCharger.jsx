@@ -40,8 +40,8 @@ function PrivateCharger() {
               ))}
           </div>
 
-          <p className={style.scenariosIntro2}>Consequently, the number of EV users who depend on external charging facilities is high.</p>
-          <p className={style.scenariosIntro}>EV charger sharing by private entities can help reduce strain on overcrowded public infrastructure and<br className={style.breakLine}/> increase the number of local charging points in residential neighborhoods by creating<br className={style.breakLine}/> a private EV charger marketplace.</p>
+          <p className={style.scenariosIntro2}>Many EV owners rely on public chargers as a result.</p>
+          <p className={style.scenariosIntro}>Private charger sharing helps increase local charging access by using existing chargers within the community. <br className={style.breakLine}/>It also reduces dependency on crowded public stations.</p>
         </Animated>
       </div>
     </section>

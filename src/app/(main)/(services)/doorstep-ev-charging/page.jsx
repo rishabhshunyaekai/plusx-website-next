@@ -16,7 +16,7 @@ import Faqs               from "@/components/portablePod/portablePodFAQ/portable
 export const metadata = {
   title         : "Mobile EV Charging Dubai | By PlusX Electric",
   description   : "Book mobile EV charging in Dubai with PlusX Electric and get your car charged at home, office, or parking. Download the PlusX app today for easy booking.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "doorstep EV charging Dubai", "portable EV charging", "home EV charging", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me"],
   alternates    : {
     canonical   : "/doorstep-ev-charging",
   },

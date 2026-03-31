@@ -5,7 +5,7 @@ function chargerFAQ() {
 
   const charger = {
     "@context"  : "https://schema.org",
-    "@type"     : "chargerFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",

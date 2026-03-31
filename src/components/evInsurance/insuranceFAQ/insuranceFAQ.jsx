@@ -5,46 +5,54 @@ function InsuranceFaqs() {
 
   const insurance = {
     "@context"  : "https://schema.org",
-    "@type"     : "InsuranceFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. Is EV insurance in UAE more expensive than petrol car insurance?",
+            "name"  : "1. Is EV insurance more expensive in the UAE?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "EV insurance pricing depends on the vehicle value, repair costs, driving history, and coverage type. You can compare options in the PlusX App to find the best fit for your budget."
+                "text"  : "EV insurance cost depends on the vehicle model and coverage. PlusX Electric helps you compare plans in the UAE to find a suitable option."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. What’s the difference between comprehensive and third-party EV insurance in UAE?",
+            "name"  : "2. What does EV insurance cover in the UAE?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Third-party covers damage to others, while comprehensive typically adds cover for your EV as well (subject to policy terms). Comparing both helps you choose the right protection level."
+                "text"  : "Through PlusX Electric, you can explore EV insurance plans that may include accident damage, theft, third-party liability, and other protections."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "3.	Can I get EV insurance in UAE for GCC and Non-GCC vehicles?",
+            "name"  : "3. Does EV insurance cover battery damage?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, EV insurance may be available for both GCC and Non-GCC vehicles, though eligibility, pricing, and coverage options can vary by insurer."
+                "text"  : "Some EV insurance plans may include battery-related coverage. PlusX Electric helps you review policy details before requesting a quote."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4.	What documents are required to buy EV insurance in UAE?",
+            "name"  : "4. What is comprehensive EV insurance?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Usually you’ll need basic owner and vehicle details (commonly Emirates ID and vehicle registration/mulkiya). Requirements can vary by insurer and vehicle type."
+                "text"  : "Comprehensive EV insurance covers damage to your vehicle and third-party liability. PlusX Electric helps you compare comprehensive plans easily."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5.	How do I get EV insurance quotes in UAE using the PlusX App?",
+            "name"  : "5. What is third-party EV insurance in the UAE?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Open the PlusX App, go to EV Insurance, submit your details, compare plan options (powered by Policybazaar), and buy your policy in a few taps."
+                "text"  : "Third-party insurance covers damage caused to others. PlusX Electric lets you compare third-party EV insurance options in the UAE."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "6. Why is EV car insurance sometimes more expensive than regular car insurance?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "EV insurance costs can vary depending on the plan you choose, the coverage included, and the insurance provider. PlusX Electric helps you compare options to find a suitable plan."
             }
         }
     ]

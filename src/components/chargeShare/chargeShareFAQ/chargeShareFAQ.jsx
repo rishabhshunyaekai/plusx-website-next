@@ -5,45 +5,45 @@ function chargeShareFAQ() {
 
   const chareShare = {
     "@context"  : "https://schema.org",
-    "@type"     : "chargeShareFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. What does EV charger installation in UAE include?",
+            "name"  : "1. Who can share a private EV charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "EV charger installation in UAE includes site assessment, DEWA approvals, certified installation, testing, and installation certification."
+                "text"  : "Any EV charger owner can list their charger through PlusX Electric and share it with nearby EV drivers during available time slots."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "2. Do you offer home EV charger installation?",
+            "name"  : "2. Is it safe to share my EV charger with others?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. We provide safe and compliant home EV charger installation for villas, apartments, and private parking spaces."
+                "text"  : "Yes. PlusX Electric manages bookings and usage through the app, ensuring controlled access to your charger."
             }
         },{
             "@type" : "Question",
-            "name"  : "3. Do you manage DEWA approvals for EV charger installation?",
+            "name"  : "3. How do I earn by sharing my EV charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. We handle all required DEWA permits and approvals for hassle-free installation."
+                "text"  : "PlusX Electric allows charger owners to list availability and earn income when EV drivers book charging sessions."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "4. How long does EV charger installation take?",
+            "name"  : "4. Can I choose when my charger is available?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Most installations depend on site readiness and electrical setup."
+                "text"  : "Yes. PlusX Electric lets you set time slots so your EV charger is only shared when you want it to be."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "5. Is warranty included with EV charger installation?",
+            "name"  : "5. Who can use shared EV chargers in my community?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. Every installation includes a 3-year warranty and one free preventive maintenance visit in the first year."
+                "text"  : "EV drivers using the PlusX Electric app can discover and book available private chargers listed in their nearby area."
             }
         },
     ]

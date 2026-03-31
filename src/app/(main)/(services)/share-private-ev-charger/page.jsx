@@ -14,8 +14,8 @@ import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ            from "@/components/chargeShare/chargeShareFAQ/chargeShareFAQ";
 
 export const metadata = {
-  title         : "Private EV Charger Sharing | EV Charger Marketplace | PlusX Electric",
-  description   : "PlusX Electric’s EV charger marketplace makes private EV charger sharing simple—share your home EV charger and earn, or rent a private EV charger nearby for reliable charging access.",
+  title         : "Share Private EV Charger in Dubai | Earn with PlusX Electric",
+  description   : "Share private EV charger in Dubai and earn with PlusX Electric. List your charger, set availability, and connect with EV drivers. Download the PlusX Electric app.",
   keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger Share", "EV Charger Marketplace", "private ev charger near me", "list your ev charger", "list your ev charger and earn"],
   alternates    : {
       canonical : "/share-private-ev-charger",

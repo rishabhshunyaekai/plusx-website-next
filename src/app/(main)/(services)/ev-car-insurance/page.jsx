@@ -10,9 +10,10 @@ import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ            from "@/components/evInsurance/insuranceFAQ/insuranceFAQ";
 
 export const metadata = {
-  title         : "EV Insurance UAE | Compare & Book in PlusX App (Policybazaar)",
-  description   : "Get EV Insurance UAE on the PlusX App, powered by Policybazaar. Compare plans, review coverage, and book your EV insurance quickly across the UAE.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Insurance", "EV Insurance in dubai", "EV Insurance in uae", "electric car ev insurance"],
+  title         : "EV Car Insurance UAE | Compare Plans with PlusX Electric",
+  description   : "Compare EV car insurance UAE options with PlusX Electric. Review coverage, request quotes, and choose a plan easily. Download the PlusX Electric app today.",
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Insurance", "EV Insurance in dubai", "EV Insurance in uae", "electric car ev insurance", "electric car insurance UAE",
+                  "third party EV insurance UAE", "EV insurance UAE comprehensive", "EV insurance quote UAE", "buy EV insurance online UAE", "compare EV insurance UAE"],
   alternates    : {
       canonical : "/ev-car-insurance",
     },

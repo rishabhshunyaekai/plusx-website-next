@@ -14,9 +14,9 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              Simple Digital Process{/* <br className={style.headingBreakline}/> */}
+              Smooth EV Insurance <br className={style.headingBreakline}/>Digital Process
             </h2>
-            <h3 className={style.bookingStepsSubHeading}>EV car insurance in the UAE does not necessarily have<br className={style.headingBreakline}/> to be time-consuming with PlusX Electric:</h3>
+            <h3 className={style.bookingStepsSubHeading}>EV car insurance in the UAE does not necessarily have<br className={style.headingBreakline}/> to be time-consuming.</h3>
           </Animated>
         </div>
 

@@ -5,7 +5,7 @@ function RSAFaqs() {
 
   const rsa = {
     "@context"  : "https://schema.org",
-    "@type"     : "rsaFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",

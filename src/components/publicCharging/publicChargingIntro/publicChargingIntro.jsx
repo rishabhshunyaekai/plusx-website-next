@@ -3,8 +3,8 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 const introData = [
   {
     title               : `Nearest Public EV Charging\n Station in Dubai`,
-    content             : "Finding a reliable EV charging station while travelling in Dubai can sometimes be challenging. EV drivers often face range anxiety, especially when they are unsure where the nearest charger is or whether it is available.",
-    additionalContent   : `PlusX Electric helps solve this problem with a smart, real-time EV charging station locator in the PlusX Electric app. The app provides real-time access to public EV charging stations in Dubai, helping you quickly identify nearby chargers based on your current location.`,
+    content             : (<>Finding a reliable <strong>EV charging station</strong> while travelling in Dubai can sometimes be challenging. EV drivers often face range anxiety, especially when they are unsure where the nearest charger is or whether it is available.</>),
+    additionalContent   : (<>PlusX Electric helps solve this problem with a smart, <strong>real-time EV charging station</strong> locator in the PlusX Electric app. The app provides real-time access to <strong>public EV charging stations in Dubai</strong>, helping you quickly identify nearby chargers based on your current location.</>),
     additionalContent2  : `Whether you are commuting to work, running errands, or planning a longer journey, the app allows you to locate charging stations instantly. With live updates and accurate data, you spend less time searching for a charger and more time driving with confidence.`,
 
     secondTitle         : `Find Public EV Charging\n Stations in Real Time`,

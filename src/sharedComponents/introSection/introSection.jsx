@@ -17,9 +17,10 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
 
             <Animated animation="fade" easing="ease-in" duration={1000}>
               <p className={style.introDescription}>
-                {content.split("\n").map((line, index) => (
-                  <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
-                ))}
+                {typeof content === "string" ? content.split("\n").map((line, index) => (
+                      <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
+                    ))
+                  : content}
               </p>
             </Animated>
 
@@ -65,9 +66,10 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
             {secondaryContent && (
               <Animated animation="fade" easing="ease-in" duration={1000}>
                 <p className={style.introDescription}>
-                  {secondaryContent.split("\n").map((line, index) => (
-                    <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
-                  ))}
+                  {typeof secondaryContent === "string" ? secondaryContent.split("\n").map((line, index) => (
+                        <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
+                      ))
+                    : secondaryContent}
                 </p>
               </Animated>
             )}
@@ -75,9 +77,10 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
             {extraContent && (
               <Animated animation="fade" easing="ease-in" duration={1000}>
                 <p className={style.introDescription}>
-                  {extraContent.split("\n").map((line, index) => (
-                    <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
-                  ))}
+                  {typeof extraContent === "string" ? extraContent.split("\n").map((line, index) => (
+                        <Fragment key={index}>{line}<br className={style.breakLine} /></Fragment>
+                      ))
+                    : extraContent}
                 </p>
               </Animated>
             )}

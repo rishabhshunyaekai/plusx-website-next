@@ -5,7 +5,7 @@ function PickupDropoffFaqs() {
 
   const pickupDropoff = {
     "@context"  : "https://schema.org",
-    "@type"     : "pickupDropoffFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",

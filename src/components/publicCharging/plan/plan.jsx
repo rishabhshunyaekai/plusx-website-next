@@ -19,7 +19,7 @@ const isOdd = benefits.length % 2 !== 0;
       <div className="container">
         <Animated className={`${style.scenariosContent} order-2 lg:order-1`} animation="fade" easing="ease-in" duration={1000}>
           <h2 className={style.scenariosHeading}>How PlusX Electric Helps <br className={style.breakLine}/> EV Drivers Plan Routes</h2>
-          <p className={style.scenariosIntro}>Planning charging stops is important for longer drives. Instead of relying on tools like Google Maps, which may<br className={style.breakLine} /> not show accurate EV data, use the PlusX Electric app. It shows public charging stations in real time <br className={style.breakLine} />and is updated every 15 days for better accuracy.</p>
+          <p className={style.scenariosIntro}>Planning charging stops is important for longer drives. Instead of relying on tools like Google Maps, which may<br className={style.breakLine} /> not show accurate EV data, use the PlusX Electric app. It shows <strong>public charging stations in real time</strong> <br className={style.breakLine} />and is updated every 15 days for better accuracy.</p>
           <p className={style.scenariosIntro}>Download the PlusX Electric app to quickly find chargers, check details, and plan your route with confidence.</p>
           <p className={style.scenariosIntro}><strong>You can:</strong></p>
 

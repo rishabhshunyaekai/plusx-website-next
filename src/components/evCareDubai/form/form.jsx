@@ -97,13 +97,13 @@ function EVCareForm() {
     submitForm();
   }
   async function submitForm() {
-    const result = await getInTouchForm("/ev-care-dubai", formData);
+    const result = await getInTouchForm("/get-smc-details", formData);
     if (result.success) {
     //   showSwal(result.message);
       resetForm();
       setError({});
       setIsDisplayPhoneError(false);
-      setTimeout(()=> router.push("/thank-you-ev-chargers") ,500);
+      setTimeout(()=> router.push("/thank-you-smc") ,500);
     } else {
       setErrorMessage(result.message);
       setTimeout(() => setErrorMessage(""), 5000);

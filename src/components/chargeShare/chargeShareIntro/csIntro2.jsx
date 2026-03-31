@@ -3,7 +3,7 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 const introData = [
   {
     // title  : "Share Your Private EV Charger in Dubai & Earn",
-    content : `Enabling the sharing of private EV chargers in a secure way, PlusX Electric will \nform a viable and future-proof charging ecosystem.`,
+    content : `By enabling EV owners to share chargers securely, PlusX Electric is helping \ncreate a collaborative and future-ready charging ecosystem.`,
   },
 ];
 

@@ -13,7 +13,8 @@ import Faqs         from "@/components/publicCharging/publicChargingFAQ/publicCh
 export const metadata = {
   title         : "Public EV Charging Stations in Dubai | Find Nearby Chargers",
   description   : "Find public EV charging stations in Dubai easily with PlusX Electric. Locate nearby chargers, check availability, view pricing. Download the app now.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "Nearest EV Chargers", "find public ev charger", "public ev charger near me"],
+  keywords      : ["plusx", "plusxelectric", "plusx electric", "nearest EV charging station Dubai", "public EV chargers in Dubai", "Nearest EV Chargers", "find public ev charger", 
+                    "public ev charger near me", "EV charging stations map Dubai", "find EV chargers in Dubai", "EV charging app Dubai", "EV charger locations Dubai", "real-time EV charger availability"],
   alternates    : {
       canonical : "/public-ev-charging-stations",
     },

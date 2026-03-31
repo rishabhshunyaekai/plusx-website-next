@@ -4,7 +4,7 @@ const FAQ = () => {
 
     const faqSection = {
         "@context": "https://schema.org",
-        "@type": "emergencyRSAQuestions",
+        "@type": "FAQPage",
         "mainEntity": [
             {
             "@type" : "Question",

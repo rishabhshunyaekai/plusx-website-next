@@ -5,7 +5,7 @@ function PublicChargingFaqs() {
 
   const publicCharging = {
     "@context"  : "https://schema.org",
-    "@type"     : "publicChargingFAQs",
+    "@type"     : "FAQPage",
     "mainEntity": [
         {
             "@type" : "Question",

@@ -18,8 +18,8 @@ const featuresData  = [
     reverse     : true,
   },
   {
-    title       : "Additional PlusX Benefits",
-    description : "Get EV insurance through the PlusX Electric app and access additional services, including EV roadside assistance, EV charger installation, and more.",
+    title       : "All EV Services in One App",
+    description : "Along with EV insurance, the PlusX Electric app offers multiple EV services such as mobile charging, roadside assistance, and charger installation, so you don’t have to switch between different apps.",
     imageSrc    : Process,
   },
   // {

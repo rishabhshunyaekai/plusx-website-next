@@ -24,7 +24,7 @@ function FaqsItem({ faqs = [] }) {
               </div>
 
               <div className={`${style.answer} ${isOpen ? style.open : ''}`}>
-                <p className={style.faqAnswer}>{item?.acceptedAnswer?.text}</p>
+                <p className={style.faqAnswer} dangerouslySetInnerHTML={{ __html: item?.acceptedAnswer?.text }} />
               </div>
             </div>
           );

@@ -24,14 +24,15 @@ function SmartModel() {
               A Smarter Community <br className={style.headingBreakLine} />Charging Model
             </h2>
 
-            <p className={style.content}>PlusX Electric Charge Sharing allows the utilisation of the current charging infrastructure rather than postponing a massive upgrade.</p>
+            <p className={style.content}>PlusX Electric is building a community where EV owners can support each other by sharing private chargers within their neighbourhoods.</p>
+            <p className={style.content}>Instead of waiting for large infrastructure upgrades, existing chargers can be shared to improve access to charging in residential communities.</p>
 
-            <h3 className={style.subTitle}>It supports:</h3>
+            <h3 className={style.subTitle}>This approach supports:</h3>
 
             <ul className={style.keyPoint}>
-              <li>Scalable EV growth in residential communities</li>
-              <li>Reduced dependency on public charging stations</li>
-              <li>More efficient energy usage </li>
+              <li>Stronger EV communities where owners help each other</li>
+              <li>Reduced reliance on crowded public charging stations</li>
+              <li>Better use of existing charging infrastructure </li>
               <li>Faster EV adoption across Dubai</li>
             </ul>
           </Animated>
