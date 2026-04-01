@@ -4,7 +4,7 @@ const introData = [
   {
     title   : "EV Roadside Assistance Service in Dubai",
     content : `Getting stranded with an electric vehicle can be stressful especially in Dubai’s heat, traffic, or late hours. Traditional roadside\n assistance services are built for petrol vehicles and often rely on towing, which is not always ideal or safe for EVs.`,
-    additionalContent : (<><a href="https://plusxelectric.com/" target="_blank" rel="noopener noreferrer" style={{color: "#0d6efd"}}>PlusX Electric </a> provides dedicated EV Roadside Assistance in Dubai, designed specifically for electric vehicles. Our mobile charging units reach you quickly, deliver on-site charging, and help you get moving again without unnecessary towing. </>),
+    additionalContent : `<a href="https://plusxelectric.com/" target="_blank" rel="noopener noreferrer">PlusX Electric </a> provides dedicated EV Roadside Assistance in Dubai, designed specifically for electric vehicles. Our mobile charging units reach you quickly, deliver on-site charging, and help you get moving again without unnecessary towing.`,
   
     secondTitle      : "What Is EV Roadside Assistance?",
     secondaryContent : `EV roadside assistance is a specialized service created exclusively for electric vehicles. Unlike conventional roadside support,\n which focuses on towing, EV roadside assistance prioritizes on-site charging.`,

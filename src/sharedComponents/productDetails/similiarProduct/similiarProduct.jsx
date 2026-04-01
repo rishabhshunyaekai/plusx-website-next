@@ -4,7 +4,7 @@ const pageTitle = "Similiar Product";
 
 function SimiliarProduct({ product, url }) {
   return (
-    <article className={`wrapper container`}>
+    <article className={`wrapper`}>
       <section className="container">
         <Product products={product} url={url} title={pageTitle}/>
       </section>

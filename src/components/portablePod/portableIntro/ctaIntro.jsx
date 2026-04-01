@@ -6,7 +6,7 @@ const introData = [
     content           : `PlusX Electric not only assists EV owners during a single charging session. The service is designed to integrate into\n everyday EV ownership by means of easy-to-use app based on booking and quality service delivery.`,
     additionalContent : `You can arrange charging times that fit your schedule and track your requests without any problems. In the long run,\n this will reduce your reliance on charging stations and make it easier to manage your EV's charging requirements`,
     // secondTitle       : `What Is Mobile EV Charging in Dubai?`,
-    secondaryContent  : (<>PlusX Electric will become a long-term <strong>on-demand EV charging Dubai</strong> partner with increased EV usage.</>),
+    secondaryContent  : `PlusX Electric will become a long-term <strong>on-demand EV charging Dubai</strong> partner with increased EV usage.`,
   },
 ];
 

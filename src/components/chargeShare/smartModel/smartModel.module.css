@@ -10,6 +10,8 @@
 .imageWrapper {
   border-radius: 20px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .imageWrapper img {
@@ -17,11 +19,12 @@
   height: auto;
   display: block;
   border-radius: 20px;
+  object-fit: cover;
 }
 
-.rightContent {
+/* .rightContent {
   padding-top: 40px;
-}
+} */
 
 .whyWeChoose {
   font-size: 32px;
@@ -88,8 +91,8 @@
   }
 
   .rightContent {
-    padding-top: 0px;
-    padding-left: 30px;
+    padding-top: 20px;
+    /* padding-left: 30px; */
   }
 
   .keyPoint li {
@@ -100,7 +103,7 @@
 @media (max-width: 480px) {
   .rightContent {
     padding-top: 0px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
   }
   .content {
     font-size: 15px;

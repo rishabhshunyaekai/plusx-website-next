@@ -7,6 +7,12 @@
   color: var(--color-text);
   line-height: 1.8;
   text-align: center;
+  white-space: pre-line;  /* for next line via css (\n) */
+}
+
+.introDescription a{
+  color: var(--color-link);
+  cursor: pointer;
 }
 
 .buttonConatiner {
@@ -34,6 +40,9 @@
 @media (max-width: 1200px) {
   .breakLine {
     display: none;
+  }
+  .introDescription {
+    white-space: normal;  /* for remove next line via css */
   }
 }
 
