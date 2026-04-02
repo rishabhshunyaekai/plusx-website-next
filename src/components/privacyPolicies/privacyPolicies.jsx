@@ -11,7 +11,7 @@ function PrivacyPolicy() {
         Provider&quot;) as a Free service. This service is intended for use by
         &quot;AS IS&quot;.
       </p>
-      <h4 className={style.subHeadingPP}>Information Collection and Use</h4>
+      <h2 className={style.subHeadingPP}>Information Collection and Use</h2>
       <p className={style.content}>
         The Application collects information when you download and use it. This
         information may include information such as

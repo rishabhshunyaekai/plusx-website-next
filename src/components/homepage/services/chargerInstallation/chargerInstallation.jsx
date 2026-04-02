@@ -13,7 +13,7 @@ function ChargerInstallation() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV Charger <br className={style.breakLine} /> Installation</h2>
-              <h3 className={style.cardSubTitle}>At Homes, Offices & <br /> Hotels</h3>
+              <p className={style.cardSubTitle}>We install chargers at villas, homes <br className={`${style.paraBreak}`}/> offices, hotels, and malls.</p>
               <div className={style.buttonContainer}>
                 <Link href="/ev-chargers" className={style.cardButton}>Know More</Link>
               </div>
@@ -27,7 +27,7 @@ function ChargerInstallation() {
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>EV <br className={style.breakLine} /> Insurance</h2>
-              <h3 className={style.cardSubTitle}>Buy or Renew <br /> EV Insurance in Minutes</h3>
+              <p className={style.cardSubTitle}>Compare and buy EV insurance in seconds <br className={`${style.paraBreak}`}/> with the PlusX Electric app.</p>
               <div className={style.buttonContainer}>
                 <Link href="/ev-car-insurance" className={style.cardButton}>Know More</Link>
               </div>

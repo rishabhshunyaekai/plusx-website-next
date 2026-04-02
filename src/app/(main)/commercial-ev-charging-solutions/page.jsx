@@ -8,9 +8,12 @@ import PlusxForm  from "@/components/plusxBusiness/plusxForm/plusxForm";
 export const metadata = {
   title         : "EV Charging Solutions for Hotels, Malls & Fleets in Dubai",
   description   : "Commercial EV charging solutions in Dubai for offices, malls, hotels, and fleets. PlusX Electric delivers tailored, scalable charging systems.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "Commercial EV charging solutions", "charging systems", "ev charger for fleet operator", "ev charger for hotels and malls", "ev charger for residence"],
+  // keywords      : ["plusx", "plusxelectric", "plusx electric", "Commercial EV charging solutions", "charging systems", "ev charger for fleet operator", "ev charger for hotels and malls", "ev charger for residence"],
   alternates    : {
       canonical : "/commercial-ev-charging-solutions",
+      languages: {
+        "en-AE": "/commercial-ev-charging-solutions",
+      },
     },
 };
 

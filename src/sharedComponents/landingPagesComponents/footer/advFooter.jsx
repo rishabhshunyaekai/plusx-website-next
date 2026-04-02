@@ -33,7 +33,7 @@ function Footer() {
               <ul>
                 <li><Link href="/doorstep-ev-charging">Portable EV Charger</Link></li>
                 <li><Link href="/ev-pickup-dropoff-charging-service">EV Pickup & Dropoff</Link></li>
-                <li><Link href="/ev-roadside-assistance-service">EV Roadside Assistance</Link></li>
+                <li><Link href="/ev-breakdown-assistance">EV Breakdown Assistance</Link></li>
                 <li><Link href="/ev-chargers">EV Charger Installation</Link></li>
               </ul>
             </div>

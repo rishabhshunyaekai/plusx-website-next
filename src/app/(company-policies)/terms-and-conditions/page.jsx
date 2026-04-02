@@ -5,6 +5,9 @@ export const metadata = {
   description   : "",
   alternates    : {
     canonical   : "/terms-and-conditions",
+    languages: {
+        "en-AE": "/terms-and-conditions",
+      },
   },
 };
 

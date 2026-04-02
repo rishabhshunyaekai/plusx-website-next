@@ -6,9 +6,12 @@ import PlusxForm    from "@/components/plusxBusiness/plusxForm/plusxForm";
 export const metadata = {
   title         : "Sustainable Energy Company in Dubai | PlusX Electric",
   description   : "Dubai’s leading sustainable energy company. PlusX Electric offers EV incentives, AI charging insights, and carbon credit solutions.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "Sustainable", "Energy"],
+  // keywords      : ["plusx", "plusxelectric", "plusx electric", "Sustainable", "Energy"],
   alternates    : {
       canonical : "/sustainability",
+      languages: {
+        "en-AE": "/sustainability",
+      },
     },
 };
 

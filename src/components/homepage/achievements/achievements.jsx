@@ -10,11 +10,11 @@ function Achievements() {
   return (
     <section className={`${style.wrapper}`}>
       <div className={`container ${style.container}`}>
-        <SecondaryHeading title="Trusted by EV Owners" />
+        <SecondaryHeading title="Powering Dubai's EV Community Every Day" />
         <div className={`${style.cardContainer}`}>
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={EvCarDriver} alt="Image" width={65} height={65} />
+              <Image src={EvCarDriver} alt="EVs rescued with roadside assistance" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>575+</span>
                 <p className={`${style.title}`}>EVs Rescued  <br className={`${style.breakLine}`} />with RSA Service</p>
@@ -24,7 +24,7 @@ function Achievements() {
           
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Booking} alt="Image" width={65} height={65} />
+              <Image src={Booking} alt="EVs charged by PlusX power pod" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>5000+</span>
                 <p className={`${style.title}`}>EVs Charged by  <br className={`${style.breakLine}`} />Power Pod</p>
@@ -34,7 +34,7 @@ function Achievements() {
 
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Station} alt="Image" width={65} height={65} />
+              <Image src={Station} alt="EV chargers installed across UAE" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>375+</span>
                 <p className={`${style.title}`}>EV Chargers Installed Across UAE</p> 

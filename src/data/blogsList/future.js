@@ -11,7 +11,7 @@ export const future = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Technological Innovations"
   },
   {

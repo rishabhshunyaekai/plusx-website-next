@@ -29,7 +29,7 @@ function AppSection({title, description, image }) {
             </div>
             <div className="w-full md:w-1/2 order-1 md:order-2">
               <Animated className={`${style.appImageWrapper}`} animation="fade" easing="ease-in" duration={1000}>
-                <Image className={style.appImage} src={image} alt="mobileApp" width={410} height={544} /> 
+                <Image className={style.appImage} src={image} alt="PlusX Electric App" width={410} height={544} /> 
               </Animated>
             </div>
           </div>

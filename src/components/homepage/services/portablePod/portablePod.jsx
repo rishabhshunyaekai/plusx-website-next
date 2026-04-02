@@ -12,7 +12,7 @@ function PortablePod() {
           <div className={`lg:col-span-2`}>
             <Animated className={style.contentWrapper} animation="slide-right" easing="ease-out" duration={1000}>
               <h2 className={style.cardTitle}>Portable Charging Pod</h2>
-              <h3 className={style.cardSubTitle}>Delivered At Your Doorstep. <br className={`${style.breakLine}`}/>Anytime, Anyplace.</h3>
+              <p className={style.cardSubTitle}>We deliver a portable EV charger to <br className={`${style.breakLine}`}/>your location — home, office, or parking.</p>
               <div className={`${style.buttonContainer}`}>
                 <Link href="/doorstep-ev-charging" className={style.cardButton}>Know More</Link>
               </div>

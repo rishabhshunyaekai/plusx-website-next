@@ -19,7 +19,7 @@ const services = [
     description : "Emergency Charging Service Delivered Within 45 Mins",
     imgSrc      : Roadside,
     buttonText  : "Know More",
-    link        : "/ev-roadside-assistance-service"
+    link        : "/ev-breakdown-assistance"
   },
   {
     title       : "EV Insurance",

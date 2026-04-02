@@ -15,9 +15,10 @@ const nextConfig = {
       { source: '/mobility-solution',     destination: '/',   permanent: true },
 
       // Service Redirects
-      { source: '/portable-power-pods',   destination: '/doorstep-ev-charging',                 permanent: true },
-      { source: '/pickup-and-dropoff',    destination: '/ev-pickup-dropoff-charging-service',   permanent: true },
-      { source: '/plusx-for-business',    destination: '/commercial-ev-charging-solutions',     permanent: true },
+      { source: '/portable-power-pods',               destination: '/doorstep-ev-charging',                 permanent: true },
+      { source: '/pickup-and-dropoff',                destination: '/ev-pickup-dropoff-charging-service',   permanent: true },
+      { source: '/plusx-for-business',                destination: '/commercial-ev-charging-solutions',     permanent: true },
+      { source: '/ev-roadside-assistance-service',    destination: '/ev-breakdown-assistance',              permanent: true },
 
       // Privacy
       { source: '/privacypolicy',         destination: '/privacy-policy', permanent: true },

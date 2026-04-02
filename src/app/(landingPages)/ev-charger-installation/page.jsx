@@ -10,7 +10,7 @@ import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 export const metadata = {
   title         : "EV Chargers Dubai | Home & Commercial EV Charging",
   description   : "Explore PlusX Electric’s range of DEWA-approved EV chargers for homes, offices, and commercial spaces in Dubai. Fast, safe, and reliable.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Chargers in dubai", "buy ev charger near me", "ev charger installation", "ev charger for home and offices", "buy portable ev charger"],
+  // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Chargers in dubai", "buy ev charger near me", "ev charger installation", "ev charger for home and offices", "buy portable ev charger"],
   alternates    : {
     canonical   : "/ev-charger-installation",
   },

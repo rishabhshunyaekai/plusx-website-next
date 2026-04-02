@@ -8,7 +8,7 @@ function HeroImage() {
         <div className={style.bannerImage}>
           <div className={style.bannerContent}>
             <h1 className={style.primaryText}>Book EV Charging in</h1>
-            <h1 className={style.secondaryText}>Dubai Anytime, Anywhere</h1>
+            <h2 className={style.secondaryText}>Dubai Anytime, Anywhere</h2>
             <CTAButton className={style.downloadButton} text="Download Now" handler="appRedirect" />
           </div>
         </div>

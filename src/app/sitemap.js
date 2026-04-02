@@ -92,11 +92,17 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}ev-roadside-assistance-service`,
+      url             : `${baseUrl}ev-breakdown-assistance`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    // {
+    //   url             : `${baseUrl}ev-roadside-assistance-service`,
+    //   lastModified    : new Date(),
+    //   changeFrequency : "weekly",
+    //   priority        : 0.9,
+    // },
     {
       url             : `${baseUrl}share-private-ev-charger`,
       lastModified    : new Date(),

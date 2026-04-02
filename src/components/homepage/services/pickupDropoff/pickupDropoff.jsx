@@ -11,8 +11,8 @@ function PickupDropoff() {
         <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
           <div className={`lg:col-span-2`}>
             <Animated className={style.contentWrapper} animation="slide-right" easing="ease-in" duration={1000}>
-              <h2 className={style.cardTitle}>Pick Up & Drop Off</h2>
-              <h3 className={style.cardSubTitle}>We&apos;ll pick up your car, charge it <br className={`${style.breakLine}`}/>& drop it back within 2 hrs!</h3>
+              <h2 className={style.cardTitle}>EV Pick Up & Drop Off</h2>
+              <p className={style.cardSubTitle}>We pick up your EV, charge it, and drop <br className={`${style.breakLine}`}/>it back within 2 hours.</p>
               <div className={`${style.buttonContainer}`}>
                 <Link href="/ev-pickup-dropoff-charging-service" className={style.cardButton}>Know More</Link>
               </div>

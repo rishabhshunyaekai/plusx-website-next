@@ -20,9 +20,12 @@ export async function generateMetadata({ params }) {
   return {
     title       : `${product.metaTitle} – EV Charger Accessory | PlusX Electric`,
     description : product.metaDescription,
-    keywords    : ["EV Charger", "residential and commercial charger"],
+    // keywords    : ["EV Charger", "residential and commercial charger"],
     alternates  : {
       canonical : `/ev-chargers/ev-accessories/${product.slug}`,
+      languages: {
+        "en-AE": `/ev-chargers/ev-accessories/${product.slug}`,
+      },
     },
   };
 }

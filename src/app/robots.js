@@ -5,13 +5,13 @@ export default function robots() {
       {
         userAgent : "*",
         allow     : "/",
-        disallow  : ["/api/", "/on-demand-ev-charging/", "/emergency-ev-charging/", "/ev-charger-installation/"],
+        disallow  : ["/on-demand-ev-charging/", "/emergency-ev-charging/", "/ev-charger-installation/"],
       },
-      {
-        userAgent : "Googlebot",
-        allow     : "/",
-        // disallow: ["/terms-and-conditions/"],
-      },
+      // {
+      //   userAgent : "Googlebot",
+      //   allow     : "/",
+      //   disallow: ["/terms-and-conditions/"],
+      // },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
   };

@@ -11,20 +11,20 @@ import Vinfast          from "@/assets/images/homepage/partners/Vinfast.webp";
 // import AlKhayyat        from "@/assets/images/homepage/partners/al-khayyat-motors.webp";
 
 const partners = [
-  { icon: Dubai },
-  { icon: Policybazaar },
-  { icon: AlGandhi },
-  { icon: Xoom },
-  { icon: Europ },
-  { icon: Foton },
-  { icon: AlTayer },
-  { icon: Vinfast },
+  { icon: Dubai,        alt:"Dubai Holding", },
+  { icon: Policybazaar, alt:"Policybazaar", },
+  { icon: AlGandhi,     alt:"Al Ghandi Auto", },
+  { icon: Xoom,         alt:"Xoom Volt", },
+  { icon: Europ,        alt:"Europ Assistance", },
+  { icon: Foton,        alt:"Foton", },
+  { icon: AlTayer,      alt:"Al Tayer Motors", },
+  { icon: Vinfast,      alt:"VinFast", },
 ];
 
 function PartnershipIcons() {
   return (
     <div className={styles.gridContainer}>
-      { partners.map((value, index) => <PartnershipCard key={index} iconSrc={value.icon} text={value.text} index={index} total={partners.length} /> )}
+      { partners.map((value, index) => <PartnershipCard key={index} iconSrc={value.icon} text={value.alt} index={index} total={partners.length} /> )}
     </div>
   )
 }

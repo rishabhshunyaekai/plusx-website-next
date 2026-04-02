@@ -4,7 +4,7 @@ import RSAMobile  from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
 export const towingContent = [
   {
     type: "paragraph",
-    text: `Electric vehicles are designed with the primary objective of efficient and smart usage. In the case of an EV running out of battery/Technical issues in Dubai, instead of EV help, the common practice has been to call for a tow truck. Not always an economical and sound option and sometimes even may lead to physical damages to the EV.<br />This blog helps in understanding the reasons why <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='_blank' rel="noopener noreferrer">EV roadside services</a> in Dubai are an improved substitute for conventional tow trucks, the feature of charging stations available in the respective location, as well as the reasons why electric cars should choose PlusX Electric.`,
+    text: `Electric vehicles are designed with the primary objective of efficient and smart usage. In the case of an EV running out of battery/Technical issues in Dubai, instead of EV help, the common practice has been to call for a tow truck. Not always an economical and sound option and sometimes even may lead to physical damages to the EV.<br />This blog helps in understanding the reasons why <a href="https://plusxelectric.com/ev-breakdown-assistance" target='_blank' rel="noopener noreferrer">EV roadside services</a> in Dubai are an improved substitute for conventional tow trucks, the feature of charging stations available in the respective location, as well as the reasons why electric cars should choose PlusX Electric.`,
   },
   {
     type: "heading",

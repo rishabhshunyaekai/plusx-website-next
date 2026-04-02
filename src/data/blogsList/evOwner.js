@@ -57,7 +57,7 @@ export const owner = [
     items: [
       `<strong>The Roadside Towing Complications: </strong>Not all roadside assistance companies are equipped to handle electric vehicles.`,
     ],
-    footerText: `EVs run on advanced battery systems and high-voltage components. They need trained technicians who are familiar with the technology and can safely handle breakdowns. Traditional <a href='https://plusxelectric.com/ev-roadside-assistance-service' target='_blank'>roadside assistance</a>  lacks this knowledge, thus making an EV-specific rescue the better option.`,
+    footerText: `EVs run on advanced battery systems and high-voltage components. They need trained technicians who are familiar with the technology and can safely handle breakdowns. Traditional <a href='https://plusxelectric.com/ev-breakdown-assistance' target='_blank'>roadside assistance</a>  lacks this knowledge, thus making an EV-specific rescue the better option.`,
   },
   {
     type: "ctaButton",

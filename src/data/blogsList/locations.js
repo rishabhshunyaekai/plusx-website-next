@@ -19,7 +19,7 @@ export const locations = [
   },
   {
     type: "paragraph",
-    text: `A hub for offices and events, this district sees constant traffic. Many drivers report that the few chargers in the area are either under maintenance or full during peak times. One EV driver on Reddit wrote, “I had 6% left and every charger near Media City was either ICEd or offline.” That’s exactly the type of situation where an <a href='https://plusxelectric.com/ev-roadside-assistance-service' target='blank' className={styles.anchorTag}>emergency charging service</a> becomes crucial.`
+    text: `A hub for offices and events, this district sees constant traffic. Many drivers report that the few chargers in the area are either under maintenance or full during peak times. One EV driver on Reddit wrote, “I had 6% left and every charger near Media City was either ICEd or offline.” That’s exactly the type of situation where an <a href='https://plusxelectric.com/ev-breakdown-assistance' target='blank' className={styles.anchorTag}>emergency charging service</a> becomes crucial.`
   },
   {
     type: "heading",

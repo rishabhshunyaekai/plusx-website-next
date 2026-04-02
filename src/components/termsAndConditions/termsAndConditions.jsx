@@ -20,9 +20,9 @@ function TermsAndCondition() {
         before using our Services. If you do not agree with these Terms,
         please refrain from using our Services.
       </p>
-      <h4 className={style.subHeadingTAC}>
+      <h2 className={style.subHeadingTAC}>
         Acceptance of Terms
-      </h4>
+      </h2>
       <p className={style.content}>
         We have included the Terms and Conditions before all service bookings.
         By booking a service, you agree to these Terms and Conditions and are

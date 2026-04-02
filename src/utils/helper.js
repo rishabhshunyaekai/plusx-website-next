@@ -5,7 +5,7 @@ export const REDIRECT_PATHS = {
   app                 : "/",
   portable            : "/doorstep-ev-charging",
   chargerInstallation : "/ev-chargers",
-  roadside            : "/ev-roadside-assistance-service",
+  roadside            : "/ev-breakdown-assistance",
   evChargers          : "/ev-chargers/ac-dc-ev-chargers",
 };
 

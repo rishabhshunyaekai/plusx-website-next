@@ -5,6 +5,9 @@ export const metadata = {
   description   : "",
   alternates    : {
     canonical   : "/privacy-policy",
+    languages: {
+        "en-AE": "/privacy-policy",
+      },
   },
 };
 

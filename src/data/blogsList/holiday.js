@@ -9,7 +9,7 @@ export const holiday = [
   },
   {
     type: "paragraph",
-    text: `Compared to cars that run on gasoline, electric vehicles require a different approach. Maintaining EV performance is on storage planning, charging practices, and battery maintenance. PlusX Electric is here with some amazing holiday offers for <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='blank'>emergency EV charging</a>, book your instant help anytime.`,
+    text: `Compared to cars that run on gasoline, electric vehicles require a different approach. Maintaining EV performance is on storage planning, charging practices, and battery maintenance. PlusX Electric is here with some amazing holiday offers for <a href="https://plusxelectric.com/ev-breakdown-assistance" target='blank'>emergency EV charging</a>, book your instant help anytime.`,
   },
   {
     type: "paragraph",

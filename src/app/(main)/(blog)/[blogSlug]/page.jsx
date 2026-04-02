@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
   return {
     title       : `${blog.metaTitle} | PlusX Electric`,
     description : blog.metaDescription,
-    keywords    : ["EV Charger", "residential and commercial charger"],
+    // keywords    : ["EV Charger", "residential and commercial charger"],
     alternates  : {
       canonical : `/${blog.slug}`,
     },

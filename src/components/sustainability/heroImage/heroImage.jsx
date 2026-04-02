@@ -8,7 +8,7 @@ function SustainabilityHeroImage() {
         <div className={`grid grid-col-1 h-100 md:h-87 items-center justify-end`}>
           <Animated className={style.textWrapper} animation="fade" easing="ease-in" duration={1000}>
               <span className={style.normalText}>Leading the Charge in</span>
-              <h4 className={`${style.highlightedText}`}>Sustainable Energy Solutions</h4>
+              <h1 className={`${style.highlightedText}`}>Sustainable Energy Solutions</h1>
             {/* <div className={`${style.buttonContainer}`}>
               <Link href="#">Know more</Link>
             </div> */}

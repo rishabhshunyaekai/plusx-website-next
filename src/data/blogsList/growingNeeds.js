@@ -115,7 +115,7 @@ export const growingNeeds = [
   },
   {
     type: "paragraph",
-    text: `By using the PlusX app, it can easily request <a href='https://plusxelectric.com/ev-roadside-assistance-service' target='blank'>emergency charging services.</a> Users can book a charging service, share their location, and even track the experts arrival time. This further removes uncertainty and brings down the need to tow the EV or opt for other complicated arrangements.`
+    text: `By using the PlusX app, it can easily request <a href='https://plusxelectric.com/ev-breakdown-assistance' target='blank'>emergency charging services.</a> Users can book a charging service, share their location, and even track the experts arrival time. This further removes uncertainty and brings down the need to tow the EV or opt for other complicated arrangements.`
   },
   {
     type: "heading",

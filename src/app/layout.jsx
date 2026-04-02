@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 const GTM_ID          = process.env.NEXT_PUBLIC_GTM_ID;
 export const metadata = {
-  title         : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
+  title         : "PlusX Electric — EV Charging Services Dubai | All-in-One EV App",
   // description   : "Fast EV charging in Dubai. PlusX Electric offers emergency, doorstep, and home charger installation for EV cars at home, office, or villa.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "portable ev charger", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me", 
   //                  "ev roadside assistance service", "emergency roadside charging", "buy or renew ev insurance in minutes", "find public ev charging station", "ev charger share service"],

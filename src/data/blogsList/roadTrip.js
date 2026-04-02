@@ -102,7 +102,7 @@ export const roadTrips = [
   },
   {
     type: "paragraph",
-    text: `Mobile EV charging and <a href="https://plusxelectric.com/ev-roadside-assistance-service" target='blank'>EV roadside assistance services</a> step in when regular chargers fail. Think of it as a safety net that keeps your trip on track, even if your battery runs out of power.`
+    text: `Mobile EV charging and <a href="https://plusxelectric.com/ev-breakdown-assistance" target='blank'>EV roadside assistance services</a> step in when regular chargers fail. Think of it as a safety net that keeps your trip on track, even if your battery runs out of power.`
   },
   {
     type: "heading",

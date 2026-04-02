@@ -16,10 +16,10 @@ function EVRoadSideAssistance() {
           </div>
           <div className={`lg:col-span-2 order-1 lg:order-2`}>
             <Animated className={style.contentWrapper} animation="slide-left" easing="ease-in" duration={1000}>
-              <h2 className={style.cardTitle}>EV Roadside Assistance</h2>
-              <h3 className={style.cardSubTitle}>Emergency Roadside Charging <br className={`${style.breakLine}`}/>Now Available Across Dubai.</h3>
+              <h2 className={style.cardTitle}>EV Breakdown Assistance</h2>
+              <p className={style.cardSubTitle}>Stuck on the road with a dead EV battery? <br className={`${style.breakLine}`}/>We come to you and charge it on the spot.</p>
               <div className={`${style.buttonContainer}`}>
-                <Link href="/ev-roadside-assistance-service" className={style.cardButton}>Know More</Link>
+                <Link href="/ev-breakdown-assistance" className={style.cardButton}>Know More</Link>
               </div>
             </Animated>
           </div>

@@ -11,7 +11,7 @@ import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 export const metadata = {
   title         : "Electric Cycle Rent & Lease in India | PlusX Mobility",
   description   : "Rent or lease electric cycles in India with PlusX Mobility. Ideal for short trips, daily commutes, colleges, and community transport.",
-  keywords      : ["plusx", "plusxelectric", "plusx electric", "Electric Cycle Rent", "Rent or lease electric cycles", "PlusX Mobility"],
+  // keywords      : ["plusx", "plusxelectric", "plusx electric", "Electric Cycle Rent", "Rent or lease electric cycles", "PlusX Mobility"],
   alternates    : {
       canonical : "/mobility-solution",
     },

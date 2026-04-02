@@ -130,7 +130,7 @@ export const evrevolution = [
   },
   {
     type: "paragraph",
-    text: `This is truly beyond <a href='https://plusxelectric.com/ev-roadside-assistance-service' target='_blank'>emergency charging;</a> it is about a stress-free EV ownership experience, when drivers have pure freedom, flexibility, and confidence on the road.`
+    text: `This is truly beyond <a href='https://plusxelectric.com/ev-breakdown-assistance' target='_blank'>emergency charging;</a> it is about a stress-free EV ownership experience, when drivers have pure freedom, flexibility, and confidence on the road.`
   },
   {
     type: "paragraph",

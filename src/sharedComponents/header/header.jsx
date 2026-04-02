@@ -42,7 +42,7 @@ function Header() {
     { label: "Pickup & Dropoff",        path: "/ev-pickup-dropoff-charging-service" },
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
     { label: "EV Charger Installation", path: "/ev-chargers" },
-    { label: "EV Roadside Assistance",  path: "/ev-roadside-assistance-service" },
+    { label: "EV Breakdown Assistance", path: "/ev-breakdown-assistance" },
     { label: "EV Charge Share",         path: "/share-private-ev-charger" },
   ]
 
@@ -133,11 +133,11 @@ function Header() {
                             </div>
                             <p>EV Charger <br className={style.navBR} /> Installation</p>
                           </Link>
-                          <Link href="/ev-roadside-assistance-service" className={style.productIcons}>
+                          <Link href="/ev-breakdown-assistance" className={style.productIcons}>
                             <div className={style.icon}>
                               <Image src={Icon5} alt="installation" width={50} height={50} />
                             </div>
-                            <p>EV Roadside <br className={style.navBR} /> Assistance</p>
+                            <p>EV Breakdown <br className={style.navBR} /> Assistance</p>
                           </Link>
                           <Link href="/share-private-ev-charger" className={style.productIcons}>
                             <div className={style.icon}>
