@@ -13,14 +13,15 @@ import Faqs               from "@/components/portablePod/portablePodFAQ/portable
 // import Pricing            from "@/components/portablePod/pricing/pricing";
 // import Feature            from "@/components/portablePod/feature/feature";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Mobile EV Charging Dubai | By PlusX Electric",
   description   : "Book mobile EV charging in Dubai with PlusX Electric and get your car charged at home, office, or parking. Download the PlusX app today for easy booking.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "doorstep EV charging Dubai", "portable EV charging", "home EV charging", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me"],
   alternates    : {
-    canonical   : "/doorstep-ev-charging",
+    canonical   : `${BASE_URL}/doorstep-ev-charging`,
     languages: {
-      "en-AE": "/doorstep-ev-charging",
+      "en-AE": `${BASE_URL}/doorstep-ev-charging`,
     },
   },
 };

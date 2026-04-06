@@ -20,7 +20,7 @@ function PickupDropoff() {
           </div>
           <div className={`lg:col-span-1`}>
             <div className={style.cardImageWrapper}>
-              <Image className={style.cardImage} src={Pickup} alt="Pickup" width={405} height={370} />
+              <Image className={style.cardImage} src={Pickup} alt="EV pickup and dropoff service" width={405} height={370} />
             </div>
           </div>
         </div>

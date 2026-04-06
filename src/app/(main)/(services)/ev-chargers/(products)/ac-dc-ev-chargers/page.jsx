@@ -3,15 +3,16 @@ import ChargersList from "@/components/chargerList/chargers/chargers";
 import Offers       from "@/components/homepage/offers/offers";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "AC & DC EV Chargers for Homes, Villas, Apartments & Workspaces",
   description   : "Explore AC & DC EV chargers from PlusX Electric for homes, villas, apartments, workspaces, businesses and commercial charging setups.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "AC & DC EV Chargers", "portable ac ev charger", "portable ac 7kw ev charger", "wall charger 22kw", "movable dc charger 20kw",
   //                  "wallbox dc charger" ],
   alternates    : {
-      canonical : "/ev-chargers/ac-dc-ev-chargers",
+      canonical : `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`,
       languages: {
-        "en-AE": "/ev-chargers/ac-dc-ev-chargers",
+        "en-AE": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`,
       },
     },
 };

@@ -121,7 +121,7 @@ export const drainEvBatteries = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What if I forget to charge my EV overnight?",
+          "name"  : "What if I forget to charge my EV overnight?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX delivers charging pods to your doorstep so you can start your day without delays."
@@ -129,7 +129,7 @@ export const drainEvBatteries = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. What if my EV runs out of charge on the highway?",
+          "name"  : "What if my EV runs out of charge on the highway?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "No need to stress. PlusX brings a portable charger to your exact location in Dubai."
@@ -137,7 +137,7 @@ export const drainEvBatteries = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	Do charging stations work when I need them?",
+          "name"  : "Do charging stations work when I need them?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Stations can be busy or far. With PlusX, you get an on-demand charger anytime in Dubai."

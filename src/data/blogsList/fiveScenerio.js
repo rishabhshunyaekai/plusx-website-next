@@ -133,7 +133,7 @@ export const fiveScenerio = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. How do I find the nearest charging station?",
+          "name"  : "How do I find the nearest charging station?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "In the PlusX app, you can find the nearest charging stations easily."
@@ -141,7 +141,7 @@ export const fiveScenerio = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How long does EV roadside help typically take in Dubai?",
+          "name"  : "How long does EV roadside help typically take in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX EV roadside assistance reaches most Dubai locations within 60 minutes, keeping you moving fast."
@@ -149,7 +149,7 @@ export const fiveScenerio = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Is there an emergency EV charging service in Dubai?",
+          "name"  : "Is there an emergency EV charging service in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, PlusX provides emergency EV charging service in Dubai within 60 minutes."

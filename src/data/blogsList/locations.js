@@ -165,7 +165,7 @@ export const locations = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. How can I avoid long queues at popular charging spots?",
+          "name"  : "How can I avoid long queues at popular charging spots?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Public fast chargers at malls and tourist hubs often get overcrowded, on-demand services like PlusX solve this by delivering a charge directly to you."
@@ -173,7 +173,7 @@ export const locations = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. What if I arrive at a charger and it’s broken or blocked?",
+          "name"  : "What if I arrive at a charger and it’s broken or blocked?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Generally, it's a pain point. PlusX provides reliable backup, portable charging delivered when you need it most."
@@ -181,7 +181,7 @@ export const locations = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. With so many chargers, is emergency charging still essential?",
+          "name"  : "With so many chargers, is emergency charging still essential?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Indeed. Even with the wide network of chargers, infrastructure can never solve all shortages; on-demand charging acts as a critical safety net."

@@ -149,7 +149,7 @@ export const evrevolution = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What if I reach a supercharger and it’s out of service?",
+          "name"  : "What if I reach a supercharger and it’s out of service?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Non-working stations can exist in a major shopping centre during the evening rush hour. On-demand charging ensures that you never wait for a spot to open."
@@ -157,7 +157,7 @@ export const evrevolution = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Can on-demand charging be cost-effective compared to towing?",
+          "name"  : "Can on-demand charging be cost-effective compared to towing?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Of course. Fixed charging points in general can cost AED 0.70–1.20/kWh (plus VAT), but towing and service delays may potentially be more expensive."
@@ -165,7 +165,7 @@ export const evrevolution = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Are EV charging stations open 24/7?",
+          "name"  : "Are EV charging stations open 24/7?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Public chargers, the ones at gas stations, are open 24 hours. While mall, office, or residential lot chargers, conversely, may not offer such a provision."

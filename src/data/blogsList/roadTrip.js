@@ -184,7 +184,7 @@ export const roadTrips = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What happens if my EV runs out of charge on the highway?",
+          "name"  : "What happens if my EV runs out of charge on the highway?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "If your EV runs out of charge, call roadside assistance. Some services offer mobile charging or towing to the nearest charging station."
@@ -192,7 +192,7 @@ export const roadTrips = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Do all EVs work with UAE public fast chargers?",
+          "name"  : "Do all EVs work with UAE public fast chargers?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Most EVs are compatible, but some older or imported models may face connector or software issues with certain UAE fast chargers."
@@ -200,7 +200,7 @@ export const roadTrips = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. How to reduce range anxiety during UAE road trips?",
+          "name"  : "How to reduce range anxiety during UAE road trips?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Plan routes using apps, know charger locations, avoid extreme speeds, and charge fully before trips to ease range anxiety on UAE roads."
@@ -208,7 +208,7 @@ export const roadTrips = [
         },
         {
           "@type" : "Question",
-          "name"  : "4. Are there enough EV charging stations for long-distance travel in the UAE?",
+          "name"  : "Are there enough EV charging stations for long-distance travel in the UAE?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "The UAE is rapidly expanding its EV network, with many stations along highways to support long-distance travel, but planning is still advised."
@@ -216,7 +216,7 @@ export const roadTrips = [
         },
         {
           "@type" : "Question",
-          "name"  : "5. How does extreme heat in the UAE affect EV battery performance?",
+          "name"  : "How does extreme heat in the UAE affect EV battery performance?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "High temperatures can reduce battery efficiency and lifespan, so EVs use cooling systems to maintain optimal battery performance in UAE heat."

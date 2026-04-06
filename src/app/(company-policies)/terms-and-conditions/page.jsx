@@ -1,12 +1,13 @@
 import TermsAndConditions from "@/components/termsAndConditions/termsAndConditions";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Terms & Conditions | PlusX Electric",
   description   : "",
   alternates    : {
-    canonical   : "/terms-and-conditions",
+    canonical   : `${BASE_URL}/terms-and-conditions`,
     languages: {
-        "en-AE": "/terms-and-conditions",
+        "en-AE": `${BASE_URL}/terms-and-conditions`,
       },
   },
 };

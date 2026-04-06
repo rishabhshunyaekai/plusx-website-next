@@ -289,7 +289,7 @@ export const towingContent = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. Is it Safe to Tow an Electric Vehicle in Dubai?",
+          "name"  : "Is it Safe to Tow an Electric Vehicle in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Towing is safe only when accomplished by a qualified flatbed approved for EVs and isolation procedures. Towing can damage the drive system and battery components."
@@ -297,7 +297,7 @@ export const towingContent = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. What is better, towing or EV charging in Dubai?",
+          "name"  : "What is better, towing or EV charging in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "It is preferable to charge when the fault is associated with the battery being low. Mobile charging ensures that the range is restored on site rather than having to move the vehicle."
@@ -305,7 +305,7 @@ export const towingContent = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	Can all electric vehicles be charged on-site?",
+          "name"  : "Can all electric vehicles be charged on-site?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Many modern EVs can receive portable on-site charging to provide emergency range. The amount of charge delivered depends on the vehicle’s battery size, current state of charge, and overall system condition."
@@ -313,7 +313,7 @@ export const towingContent = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	Are EV towing risks real?",
+          "name"  : "Are EV towing risks real?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes. Incorrect towing can lead to drivetrain distress, software issues, and high-voltage safety risks."
@@ -321,7 +321,7 @@ export const towingContent = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	When to use towing over Roadside Assistance?",
+          "name"  : "When to use towing over Roadside Assistance?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Unless accidents, batteries, or serious electrical malfunctions. In such instances, specific assistance for EVs is necessary."

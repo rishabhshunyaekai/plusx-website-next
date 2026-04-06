@@ -183,7 +183,7 @@ export const growingNeeds = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What is the cost of PlusX charging pod?",
+          "name"  : "What is the cost of PlusX charging pod?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "If you want the charging power pod to be delivered at your doorstep the cost is AED 45 + charges per KW."
@@ -191,7 +191,7 @@ export const growingNeeds = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Can PlusX reach EVs in tight parking spots?",
+          "name"  : "Can PlusX reach EVs in tight parking spots?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes. The pod is compact in size and portable, and the PlusX team is well-trained to operate even in restricted urban areas."
@@ -199,7 +199,7 @@ export const growingNeeds = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. What is the process after a charging pod is delivered to my location?",
+          "name"  : "What is the process after a charging pod is delivered to my location?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX experts deliver the charging pod to your location, connect it and begin charging. Once the charging is complete, our team will come back to your location to collect the pod."

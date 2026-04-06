@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',   // for standalone build
+  trailingSlash: false,
   async redirects() {     // All old url redirection's
     return [
       // Redirect to Home

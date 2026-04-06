@@ -19,7 +19,7 @@ function ChargerInstallation() {
               </div>
 
               <div className={style.cardImageWrapper}>
-                <Image className={style.cardImage} src={Charger} alt="PowerPod" width={405} height={370} />
+                <Image className={style.cardImage} src={Charger} alt="EV charger installation" width={405} height={370} />
               </div>
             </Animated>
           </div>
@@ -33,7 +33,7 @@ function ChargerInstallation() {
               </div>
 
               <div className={style.cardImageWrapper}>
-                <Image className={style.cardImage} src={Insurance} alt="PowerPod" width={405} height={370} />
+                <Image className={style.cardImage} src={Insurance} alt="EV insurance on PlusX app" width={405} height={370} />
               </div>
             </Animated>
           </div>

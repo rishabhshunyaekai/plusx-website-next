@@ -9,7 +9,7 @@ function PickupDropoffFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "1. Do I need to be present during pickup?",
+            "name"  : "Do I need to be present during pickup?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : "No. PlusX Electric can collect your vehicle from your selected location and return it after charging is completed."
@@ -17,7 +17,7 @@ function PickupDropoffFaqs() {
         },
         {
             "@type" : "Question",
-            "name"  : "2. Is my EV safe during the service?",
+            "name"  : "Is my EV safe during the service?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : "Yes. PlusX Electric uses trained staff and standard procedures to safely handle your EV during pickup, charging, and drop-off."
@@ -25,7 +25,7 @@ function PickupDropoffFaqs() {
         },
         {
             "@type" : "Question",
-            "name"  : "3. Can I book pickup from my office or home?",
+            "name"  : "Can I book pickup from my office or home?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : "Yes. PlusX Electric allows you to schedule pickup from your home, office, or preferred parking location in Dubai."
@@ -33,7 +33,7 @@ function PickupDropoffFaqs() {
         },
         {
             "@type" : "Question",
-            "name"  : "4. What happens after my EV is fully charged?",
+            "name"  : "What happens after my EV is fully charged?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : "Once charging is complete, PlusX Electric returns your EV to the same pickup location within the estimated service time."
@@ -41,7 +41,7 @@ function PickupDropoffFaqs() {
         },
         {
             "@type" : "Question",
-            "name"  : "5. Can I book this service anytime?",
+            "name"  : "Can I book this service anytime?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : `You can schedule the service through the PlusX Electric app based on available time slots in your area.`
@@ -49,7 +49,7 @@ function PickupDropoffFaqs() {
         },
         {
             "@type" : "Question",
-            "name"  : "6. How much does EV pickup and drop-off charging cost?",
+            "name"  : "How much does EV pickup and drop-off charging cost?",
             "acceptedAnswer": {
                 "@type" : "Answer",
                 "text"  : `PlusX Electric charges a service fee of AED 39 for EV pickup and drop-off charging. Public charging costs are calculated separately based on usage.`

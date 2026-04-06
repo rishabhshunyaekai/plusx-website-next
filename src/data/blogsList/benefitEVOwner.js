@@ -93,7 +93,7 @@ export const benefitEVOwner = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What is the PlusX Electric app?",
+          "name"  : "What is the PlusX Electric app?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "The PlusX Electric app is a mobile platform where one can access EV charging stations and mobile charging services, ensuring seamless charging for the owners of EVs."
@@ -101,7 +101,7 @@ export const benefitEVOwner = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How does Mobile EV Charging work?",
+          "name"  : "How does Mobile EV Charging work?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Users will be able to schedule on-demand charging at their location, and a PlusX Electric service team will arrive to efficiently charge the EV safely."
@@ -109,7 +109,7 @@ export const benefitEVOwner = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	Can I monitor my EV charging in real time?",
+          "name"  : "Can I monitor my EV charging in real time?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, the app gives real-time indications on charging progress, battery levels, and estimated time of completion."
@@ -117,7 +117,7 @@ export const benefitEVOwner = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	Are the payments via the app secure?",
+          "name"  : "Are the payments via the app secure?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Of course, the app supports several secure options for payment, such as by credit/debit cards and digital wallets."
@@ -125,7 +125,7 @@ export const benefitEVOwner = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	Does PlusX Electric support energy-efficient charging?",
+          "name"  : "Does PlusX Electric support energy-efficient charging?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, it provides energy consumption insights that enable users to optimize their charging schedule for sustainability."

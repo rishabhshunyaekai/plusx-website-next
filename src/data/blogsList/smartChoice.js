@@ -162,7 +162,7 @@ export const smartChoice = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What is the cost of home EV charger installation?",
+          "name"  : "What is the cost of home EV charger installation?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "The cost depends on various factors, including the location, type of space, etc. For the best quotes, you can call +971 54 2796424."
@@ -170,7 +170,7 @@ export const smartChoice = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How long to install a home EV charger in Dubai?",
+          "name"  : "How long to install a home EV charger in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Installation typically takes 1–3 days, depending on site readiness, approvals, and the electrician's schedule."
@@ -178,7 +178,7 @@ export const smartChoice = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Do I need DEWA approval to install an EV charger?",
+          "name"  : "Do I need DEWA approval to install an EV charger?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, DEWA approval is required to ensure the installation meets local safety and grid standards."
@@ -186,7 +186,7 @@ export const smartChoice = [
         },
         {
           "@type" : "Question",
-          "name"  : "4. Can any electrician install my home EV charger?",
+          "name"  : "Can any electrician install my home EV charger?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "No, you must use a DEWA-certified electrician for safe and approved installation."
@@ -194,7 +194,7 @@ export const smartChoice = [
         },
         {
           "@type" : "Question",
-          "name"  : "5. Are there incentives for installing a home EV charger?",
+          "name"  : "Are there incentives for installing a home EV charger?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Currently, DEWA offers free public charging, but no direct home charger installation incentives exist."

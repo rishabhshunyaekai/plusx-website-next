@@ -8,12 +8,16 @@ import Connect        from "@/components/landingPages/onDemandCharging/connect/c
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ            from "@/components/landingPages/onDemandCharging/faq/faq";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "On-Demand EV Charging Service in Dubai | Plus X Electric",
   description   : "Get on-demand EV charging anywhere in Dubai. Fast, mobile service delivered to your location. Book now with Plus X Electric!",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "On-Demand EV Charging Service in dubai", "doorstep ev charging", "portable power pod", "portable ev charger in dubai"],
   alternates    : {
-    canonical   : "/on-demand-ev-charging",
+    canonical   : `${BASE_URL}/on-demand-ev-charging`,
+    languages: {
+        "en-AE": `${BASE_URL}/on-demand-ev-charging`,
+      },
   },
 };
 

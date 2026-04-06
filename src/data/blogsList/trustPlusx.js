@@ -152,7 +152,7 @@ export const trustPlusx = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What should I do if my EV battery drains on Dubai roads?",
+          "name"  : "What should I do if my EV battery drains on Dubai roads?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Turn on hazard lights, move to a safe spot if possible, and request EV-specific support. If you’re stranded due to low or zero charge, book EV roadside assistance Dubai via PlusX Electric for safe on-site charging support."
@@ -160,7 +160,7 @@ export const trustPlusx = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How much emergency charge does PlusX Electric provide on the roadside?",
+          "name"  : "How much emergency charge does PlusX Electric provide on the roadside?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX Electric provides emergency support of up to 10 kWh or ~50 km range (whichever comes first) to help you reach the nearest charging station safely."
@@ -168,7 +168,7 @@ export const trustPlusx = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Is towing always necessary when an EV battery is drained?",
+          "name"  : "Is towing always necessary when an EV battery is drained?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Not always. In many drained-battery situations, on-site charging is a faster and safer alternative to towing—especially when the vehicle only needs enough range to reach a charger."
@@ -176,7 +176,7 @@ export const trustPlusx = [
         },
         {
           "@type" : "Question",
-          "name"  : "4. What if my EV won’t power on even though I think it has charge?",
+          "name"  : "What if my EV won’t power on even though I think it has charge?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Your EV may have a 12V battery issue. The 12V battery powers low-voltage systems like the dashboard, lights, locks, and control modules. In such cases, PlusX Electric can provide jump start support, and if required, 12V battery replacement additional charges apply."

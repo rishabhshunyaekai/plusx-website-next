@@ -138,7 +138,7 @@ export const batteryDie = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What happens when an EV battery runs out?",
+          "name"  : "What happens when an EV battery runs out?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "When your EV is out of battery, the vehicle will slow down and eventually stop. You’ll need roadside charging to get moving again."
@@ -146,7 +146,7 @@ export const batteryDie = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How do I reset my EV battery?",
+          "name"  : "How do I reset my EV battery?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "You can't manually reset a fully drained EV battery. It needs to be charged first. Once powered, the system will reboot and resume normal function."
@@ -154,7 +154,7 @@ export const batteryDie = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	What vehicles can be charged with Doorstep EV Charging Dubai?",
+          "name"  : "What vehicles can be charged with Doorstep EV Charging Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "From electric sedans to SUVs and even two-wheelers, Doorstep EV Charging supports most EV models hassle-free."

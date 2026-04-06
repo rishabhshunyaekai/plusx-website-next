@@ -158,7 +158,7 @@ export const commonChargings = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. Where are the most crowded EV charging stations in Dubai?",
+          "name"  : "Where are the most crowded EV charging stations in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Popular spots include Dubai Mall, Mall of the Emirates & major metro areas."
@@ -166,7 +166,7 @@ export const commonChargings = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Why are some public EV chargers in Dubai out of service?",
+          "name"  : "Why are some public EV chargers in Dubai out of service?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Breakdowns, maintenance, or network issues can temporarily disable public chargers."
@@ -174,7 +174,7 @@ export const commonChargings = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	Which EV models face compatibility issues with Dubai chargers?",
+          "name"  : "Which EV models face compatibility issues with Dubai chargers?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Certain imported EVs may need adapters; check local charger compatibility before use."
@@ -182,7 +182,7 @@ export const commonChargings = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	What are the fastest charging stations in Dubai?",
+          "name"  : "What are the fastest charging stations in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Tesla Superchargers & ENOC Quick Chargers offer the fastest EV charging in Dubai."
@@ -190,7 +190,7 @@ export const commonChargings = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	How can apps help find available and functional chargers in Dubai?",
+          "name"  : "How can apps help find available and functional chargers in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Apps show live availability, status, and locations of EV chargers across Dubai."

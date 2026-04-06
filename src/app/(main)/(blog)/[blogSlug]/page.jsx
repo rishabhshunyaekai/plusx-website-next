@@ -2,6 +2,7 @@ import { notFound }     from "next/navigation";
 import { testimonials } from "@/data/testimonials";
 import BlogDetail       from "@/sharedComponents/blog/blog";
  
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export async function generateStaticParams() {
   return testimonials.map((item) => ({ slugs: item.slug }));
 }
@@ -20,7 +21,10 @@ export async function generateMetadata({ params }) {
     description : blog.metaDescription,
     // keywords    : ["EV Charger", "residential and commercial charger"],
     alternates  : {
-      canonical : `/${blog.slug}`,
+      canonical : `${BASE_URL}/${blog.slug}`,
+      languages: {
+        "en-AE": `${BASE_URL}/${blog.slug}`,
+      },
     },
   };
 }

@@ -137,7 +137,7 @@ export const diesel = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. Why are the diesel-powered EV chargers not green?",
+          "name"  : "Why are the diesel-powered EV chargers not green?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "They emit high levels of pollutants such as CO₂ and particulate matter. This goes against the clean mobility objective and creates adverse air quality."
@@ -145,7 +145,7 @@ export const diesel = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Are diesel EV chargers more cost-effective compared with grid-powered EV Charging Solutions?",
+          "name"  : "Are diesel EV chargers more cost-effective compared with grid-powered EV Charging Solutions?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "No, diesel generators are inefficient during fluctuating loads. High fuel consumption significantly adds to the operating cost."
@@ -153,7 +153,7 @@ export const diesel = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	Which is the best alternative to diesel-based EV chargers?",
+          "name"  : "Which is the best alternative to diesel-based EV chargers?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Battery-based mobile EV charging units and clean energy-powered EV charging solutions fare much better because their emissions are minimal, and they function in a far more efficient manner."
@@ -161,7 +161,7 @@ export const diesel = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	Does the Mobile EV Charging support Dubai's sustainability plans?",
+          "name"  : "Does the Mobile EV Charging support Dubai's sustainability plans?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, it is. Mobile EV Charging Flexibly supports without using any polluting fuels. Thus, it allows charging during emergencies or at remote locations without compromising on environmental standards."
@@ -169,7 +169,7 @@ export const diesel = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	How do EV Charging Solutions contribute to the UAE Net Zero 2050 vision?",
+          "name"  : "How do EV Charging Solutions contribute to the UAE Net Zero 2050 vision?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Clean-powered charging stations reduce emissions, support the integration of renewables, and help in the expansion of the EV ecosystem in an environmentally responsible way."

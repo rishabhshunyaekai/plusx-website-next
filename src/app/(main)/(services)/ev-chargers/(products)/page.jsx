@@ -15,14 +15,15 @@ import Form         from "@/components/chargerInstallation/chargerInstallationFo
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 import Faq          from "@/components/chargerInstallation/chargerFAQ/chargerFAQ";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Residential & Commercial EV Charger Installation Dubai",
   description   : "PlusX Electric installs EV chargers in Dubai for residential and commercial spaces—home, office, villa, and mall. Fast, safe, and reliable.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
-      canonical : "/ev-chargers",
+      canonical : `${BASE_URL}/ev-chargers`,
       languages: {
-        "en-AE": "/ev-chargers",
+        "en-AE": `${BASE_URL}/ev-chargers`,
       },
     },
 };

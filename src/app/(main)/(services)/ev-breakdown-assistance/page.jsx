@@ -9,14 +9,15 @@ import Offers       from "@/components/homepage/offers/offers";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Breakdown Assistance in Dubai | PlusX Electric",
   description   : "Get fast EV breakdown assistance in Dubai with PlusX Electric. On-site charging, 12V jump-start support, and quick help to get your EV moving again.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Roadside Assistance service", "On-demand EV roadside assistance service", "emergency ev charging service in dubai", "emergency ev roadside assistance"],
   alternates    : {
-      canonical : "/ev-breakdown-assistance",
+      canonical : `${BASE_URL}/ev-breakdown-assistance`,
       languages: {
-        "en-AE": "/ev-breakdown-assistance",
+        "en-AE": `${BASE_URL}/ev-breakdown-assistance`,
       },
     },
 };

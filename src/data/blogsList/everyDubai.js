@@ -119,7 +119,7 @@ export const everyDubai = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : `1.	How should you charge an EV battery?"`,
+          "name"  : `How should you charge an EV battery?"`,
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Use a personal home charger or any good charging station. To avoid inconveniences and maintain long-term battery health, always keep a charge of 20% or above."
@@ -127,7 +127,7 @@ export const everyDubai = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Why are EV chargers important?",
+          "name"  : "Why are EV chargers important?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "EV chargers are the lifeline of electric vehicles. Unlike petrol stations, they vary in speed (AC vs. DC) and availability, making planning essential."
@@ -135,7 +135,7 @@ export const everyDubai = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	How can charging help when an EV runs out of charge?",
+          "name"  : "How can charging help when an EV runs out of charge?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "When your EV is out of battery, the vehicle will slow down and eventually stop. You'll need charging support like PlusX to get powered up and moving again."

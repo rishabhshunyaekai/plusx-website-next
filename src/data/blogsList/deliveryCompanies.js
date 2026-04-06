@@ -190,7 +190,7 @@ export const deliveryCompanies = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. How does PlusX Electric's mobile charging service help delivery companies in Dubai?",
+          "name"  : "How does PlusX Electric's mobile charging service help delivery companies in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "​PlusX Electric brings the charger to the vehicle, so the delivery driver does not have to stop at public charging stations."
@@ -198,7 +198,7 @@ export const deliveryCompanies = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Does mobile charging support a fleet of several delivery vehicles?",
+          "name"  : "Does mobile charging support a fleet of several delivery vehicles?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "​Yes, PlusX Electric does provide on-demand mobile charging, doorstep charging, and a scheduled fleet of several vehicles."
@@ -206,7 +206,7 @@ export const deliveryCompanies = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	What happens if the delivery EV runs out of battery en route?",
+          "name"  : "What happens if the delivery EV runs out of battery en route?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "​Even in an emergency, PlusX Electric mobile EV charging trucks will reach the vehicle quickly."
@@ -214,7 +214,7 @@ export const deliveryCompanies = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	Is doorstep charging possible for commercial parking yards and warehouses?",
+          "name"  : "Is doorstep charging possible for commercial parking yards and warehouses?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Of course, PlusX Electric offers doorstep charging for warehouses, hubs, fleet yards, and commercial parking zones."
@@ -222,7 +222,7 @@ export const deliveryCompanies = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	Does PlusX Electric install permanent EV chargers for delivery fleets?",
+          "name"  : "Does PlusX Electric install permanent EV chargers for delivery fleets?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "​Besides mobile charging, PlusX Electric also provides professional installations of AC and DC chargers at fleet depots, offices, and commercial buildings.​"

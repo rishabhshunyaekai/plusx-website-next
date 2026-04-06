@@ -10,15 +10,16 @@ import Faqs         from "@/components/publicCharging/publicChargingFAQ/publicCh
 // import Values       from "@/components/publicCharging/values/values";
 // import CTASection   from "@/components/publicCharging/ctaSection/ctaSection";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Public EV Charging Stations in Dubai | Find Nearby Chargers",
   description   : "Find public EV charging stations in Dubai easily with PlusX Electric. Locate nearby chargers, check availability, view pricing. Download the app now.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "nearest EV charging station Dubai", "public EV chargers in Dubai", "Nearest EV Chargers", "find public ev charger", 
   //                   "public ev charger near me", "EV charging stations map Dubai", "find EV chargers in Dubai", "EV charging app Dubai", "EV charger locations Dubai", "real-time EV charger availability"],
   alternates    : {
-      canonical : "/public-ev-charging-stations",
+      canonical : `${BASE_URL}/public-ev-charging-stations`,
       languages: {
-        "en-AE": "/public-ev-charging-stations",
+        "en-AE": `${BASE_URL}/public-ev-charging-stations`,
       },
     },
 };

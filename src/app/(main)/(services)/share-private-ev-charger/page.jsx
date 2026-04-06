@@ -13,14 +13,15 @@ import Offers         from "@/components/homepage/offers/offers";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ            from "@/components/chargeShare/chargeShareFAQ/chargeShareFAQ";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Share Private EV Charger in Dubai | Earn with PlusX Electric",
   description   : "Share private EV charger in Dubai and earn with PlusX Electric. List your charger, set availability, and connect with EV drivers. Download the PlusX Electric app.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger Share", "EV Charger Marketplace", "private ev charger near me", "list your ev charger", "list your ev charger and earn"],
   alternates    : {
-      canonical : "/share-private-ev-charger",
+      canonical : `${BASE_URL}/share-private-ev-charger`,
       languages: {
-        "en-AE": "/share-private-ev-charger",
+        "en-AE": `${BASE_URL}/share-private-ev-charger`,
       },
     },
 };

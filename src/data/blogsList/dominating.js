@@ -179,7 +179,7 @@ export const dominating = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. Are Tesla Model 3 and Model S compatible with Dubai charger?",
+          "name"  : "Are Tesla Model 3 and Model S compatible with Dubai charger?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, both Tesla models work with DEWA and private public chargers, including Superchargers for fast charging."
@@ -187,7 +187,7 @@ export const dominating = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Is the BMW iX suitable for city driving in Dubai traffic?",
+          "name"  : "Is the BMW iX suitable for city driving in Dubai traffic?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "BMW iX handles stop-and-go traffic efficiently, offering energy-efficient performance and comfort for urban commutes."
@@ -195,7 +195,7 @@ export const dominating = [
         },
         {
           "@type" : "Question",
-          "name"  : "3.	What makes Porsche Taycan a good choice for Dubai drivers?",
+          "name"  : "What makes Porsche Taycan a good choice for Dubai drivers?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Porsche Taycan combines high-speed performance with long-range batteries, suited for both city roads and highways."
@@ -203,7 +203,7 @@ export const dominating = [
         },
         {
           "@type" : "Question",
-          "name"  : "4.	Which charging stations support fast charge for Nissan Leaf?",
+          "name"  : "Which charging stations support fast charge for Nissan Leaf?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "DEWA and private chargers provide Level 2 and DC fast charging compatible with the Nissan Leaf for quick top-ups."
@@ -211,7 +211,7 @@ export const dominating = [
         },
         {
           "@type" : "Question",
-          "name"  : "5.	Can Tesla Model X handle long desert trips in the UAE?",
+          "name"  : "Can Tesla Model X handle long desert trips in the UAE?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, Model X’s large battery and robust cooling system make it suitable for long-distance desert drives."

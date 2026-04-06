@@ -2,6 +2,7 @@ import ProductDetails from "@/sharedComponents/productDetails/productDetails";
 import { notFound }   from "next/navigation";
 import { chargers }   from "@/data/listOfProducts";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export async function generateStaticParams() {
   return chargers.map((item) => ({ slugs: item.slug }));
 }
@@ -22,9 +23,9 @@ export async function generateMetadata({ params }) {
     description : product.metaDescription,
     // keywords    : ["EV Charger", "residential and commercial charger"],
     alternates  : {
-      canonical : `/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
+      canonical : `${BASE_URL}/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
       languages: {
-        "en-AE": `/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
+        "en-AE": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers/${product.slug}`,
       },
     },
   };

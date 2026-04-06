@@ -165,7 +165,7 @@ export const rangeAnxiety = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What driving range does PlusX’s Emergency EV Charging Pod offer?",
+          "name"  : "What driving range does PlusX’s Emergency EV Charging Pod offer?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "The pod provides up to 11 kWh of power, which is sufficient to travel to a fast charging station or the end of your journey."
@@ -173,7 +173,7 @@ export const rangeAnxiety = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How quickly can PlusX’s Charging Pod reach me?",
+          "name"  : "How quickly can PlusX’s Charging Pod reach me?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "We do arrive at your location in 60 minutes, subject to differ based on your location and traffic, with enhanced priority hours and adverse weather."
@@ -181,7 +181,7 @@ export const rangeAnxiety = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Is the Charging Pod safe for all EV makes and models?",
+          "name"  : "Is the Charging Pod safe for all EV makes and models?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes. PlusX utilises certified EV-capable equipment, and our experienced team follows utmost safety procedures to safeguard your vehicle and warranty."

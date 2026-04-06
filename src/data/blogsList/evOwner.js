@@ -145,7 +145,7 @@ export const owner = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. Why is roadside help for EVs different from regular cars?",
+          "name"  : "Why is roadside help for EVs different from regular cars?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "EVs need special help as they can’t refuel instantly. They often require portable charging, flatbed tow, and trained technicians."
@@ -153,7 +153,7 @@ export const owner = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. Can roadside help provide on-the-spot charging for an EV?",
+          "name"  : "Can roadside help provide on-the-spot charging for an EV?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, some companies like PlusX Electric in Dubai offer portable charging to your EV with enough power to reach the nearest charging station."
@@ -161,7 +161,7 @@ export const owner = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Is roadside assistance for EVs available throughout Dubai?",
+          "name"  : "Is roadside assistance for EVs available throughout Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX Electric covers major parts of Dubai, including highways and remote areas, so wherever you might find yourself stranded, you will get timely relief."
@@ -169,7 +169,7 @@ export const owner = [
         },
         {
           "@type" : "Question",
-          "name"  : "4. How does roadside help improve the EV ownership experience?",
+          "name"  : "How does roadside help improve the EV ownership experience?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "It removes range anxiety, saves time, prevents costly towing bills, and ensures your safety, making EV ownership stress-free and convenient."

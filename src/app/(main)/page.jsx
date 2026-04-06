@@ -20,68 +20,44 @@ export const metadata = {
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "portable ev charger", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me", 
   //                  "ev roadside assistance service", "emergency roadside charging", "buy or renew ev insurance in minutes", "find public ev charging station", "ev charger share service"],
   alternates    : {
-    canonical   : "/",
+    canonical   : "https://plusxelectric.com/",
     languages: {
-      "en-AE": "/",
+      "en-AE": "https://plusxelectric.com/",
     },
   },
-  // openGraph : {
-  //   title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
-  //   description : "",
-  //   siteName    : "PlusX Electric",
-  //   locale      : "en_US",
-  //   type        : "website",
-  //   images      : [
-  //   {
-  //     url       : "/images/homepage/desktop-banner.webp",
-  //     width     : 1200,
-  //     height    : 630,
-  //     alt       : "PlusX Electric EV Charging",
-  //   },
-  // ],
-  // },
-  // twitter       : {
-  //   card        : "summary_large_image",
-  //   title       : "Emergency & Doorstep EV Charging Dubai | PlusX Electric",
-  //   description : "",
-  //   creator     : "https://plusxelectric.com",
-  //   images      : [image],
-  // },
-  // robots        : {
-  //   index       : true,
-  //   follow      : true,
-  //   googleBot   : {
-  //     index     : true,
-  //     follow    : true,
-  //     "max-snippet"       : -1,
-  //     "max-image-preview" : "large",
-  //     "max-video-preview" : -1,
-  //   },
-  // },
 };
 
 const structuredData = {
-  "@context"  : "https://schema.org",
-  "@type"     : "Organization",
-  "name"      : "PlusX Electric",
-  "legalName" : "Plus Energy Electric Vehicles Charging Stations LLC",
-  "url"       : "https://plusxelectric.com",
-  "logo"      : "https://plusxelectric.com/_next/static/media/logo-icon.0rebs46jo1m04.svg",
-  "description": "PlusX Electric is Dubai's all-in-one EV services company offering doorstep charging, roadside assistance, pickup & drop-off charging, EV charger installation, EV insurance, and public charger locator.",
+  "@context"    : "https://schema.org",
+  "@type"       : "Organization",
+  "name"        : "PlusX Electric",
+  "legalName"   : "Plus Energy Electric Vehicles Charging Stations LLC",
+  "url"         : "https://plusxelectric.com/",
+  "logo"        : "https://plusxelectric.com/_next/static/media/logo-icon.0rebs46jo1m04.svg",
+  "description" : "PlusX Electric is an electric vehicle charging services company in Dubai. One app for all EV needs — charging, breakdown assistance, charger installation, and insurance.",
   "foundingLocation": "Dubai, UAE",
-  "areaServed": {
-    "@type" : "Country",
-    "name"  : "United Arab Emirates"
+  "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress"   : "D55-PBU, Dubai Production City",
+    "addressLocality" : "Dubai",
+    "addressCountry"  : "AE"
   },
   "contactPoint": {
     "@type"       : "ContactPoint",
     "telephone"   : "+971542796424",
+    "email"       : "media@plusxelectric.com",
     "contactType" : "customer service",
-    "availableLanguage" : ["English", "Arabic"]
+    "availableLanguage": ["English", "Arabic"],
+    "areaServed"  : "AE"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Arab Emirates"
   },
   "sameAs": [
     "https://twitter.com/plusxelectric",
-    "https://www.instagram.com/plusx.electric/",
+    "https://www.facebook.com/people/PlusX-Electric/61558739985983/",
+    "https://www.instagram.com/plusx_electric/",
     "https://www.linkedin.com/company/plusxelectric/"
   ]
 }

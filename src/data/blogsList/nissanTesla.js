@@ -165,7 +165,7 @@ export const nissanTesla = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "1. What are the EV charging solutions offered by PlusX Electric in Dubai?",
+          "name"  : "What are the EV charging solutions offered by PlusX Electric in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX Electric offers AC/DC chargers for homes, offices, and fleets, plus mobile EV charging across Dubai."
@@ -173,7 +173,7 @@ export const nissanTesla = [
         },
         {
           "@type" : "Question",
-          "name"  : "2. How does PlusX Electric's mobile EV charging service work?",
+          "name"  : "How does PlusX Electric's mobile EV charging service work?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX Electric’s mobile EV charging delivers chargers to your vehicle; schedule anytime via the app in Dubai."
@@ -181,7 +181,7 @@ export const nissanTesla = [
         },
         {
           "@type" : "Question",
-          "name"  : "3. Can PlusX Electric support large corporate fleets?",
+          "name"  : "Can PlusX Electric support large corporate fleets?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, PlusX Electric supports large fleets with scalable chargers, energy management, and maintenance services."
@@ -189,7 +189,7 @@ export const nissanTesla = [
         },
         {
           "@type" : "Question",
-          "name"  : "4. Are PlusX Electric chargers safe and compliant with Dubai regulations?",
+          "name"  : "Are PlusX Electric chargers safe and compliant with Dubai regulations?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "Yes, all PlusX Electric chargers meet Dubai’s safety and performance standards for reliable and secure EV charging."
@@ -197,7 +197,7 @@ export const nissanTesla = [
         },
         {
           "@type" : "Question",
-          "name"  : "5. How do the PlusX Electric services help reduce carbon emissions?",
+          "name"  : "How do the PlusX Electric services help reduce carbon emissions?",
           "acceptedAnswer": {
               "@type" : "Answer",
               "text"  : "PlusX Electric reduces carbon emissions through efficient charging, smart energy monitoring, and less public charging."
