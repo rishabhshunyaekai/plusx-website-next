@@ -2,7 +2,7 @@
   padding: 60px 0;
   background: var(--color-primary);
   margin-top: 60px;
-  margin-bottom: 140px;
+  margin-bottom: 160px;
 }
 
 .infoContainer {
@@ -19,7 +19,7 @@
 
 .ctaContent {
   color: var(--color-secondary);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.9;
 }
 

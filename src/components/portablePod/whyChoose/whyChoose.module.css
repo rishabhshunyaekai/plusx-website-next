@@ -1,6 +1,6 @@
-.wrapper {
+/* .wrapper {
   padding: 20px 0;
-}
+} */
 
 .isTablet {
   display: none;
@@ -10,17 +10,19 @@
 .imageWrapper {
   border-radius: 20px;
   overflow: hidden;
+  height: 100%;
+  position: relative;
 }
 
 .imageWrapper img {
   width: 100%;
   height: auto;
-  display: block;
+  object-fit: contain;
   border-radius: 20px;
 }
 
 .rightContent {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .whyWeChoose {
@@ -46,7 +48,6 @@
 
 .keyPoint li {
   position: relative;
-  font-size: 18px;
   line-height: 1.5;
   display: flex;
   /* align-items: center; */

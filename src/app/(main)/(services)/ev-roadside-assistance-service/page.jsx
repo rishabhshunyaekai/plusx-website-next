@@ -1,13 +1,13 @@
-// import HeroImage    from "@/components/roadsideAssistance/heroImage/heroImage";
-// import Intro        from "@/components/roadsideAssistance/rsaIntro/rsaIntro";
-// import Scenarios    from "@/components/roadsideAssistance/scenarios/scenarios";
-// import BookingSteps from "@/components/roadsideAssistance/bookingSteps/bookingSteps";
-// import WhyChoose    from "@/components/roadsideAssistance/whyChoose/whyChoose";
-// import CTA          from "@/components/roadsideAssistance/cta/cta";
-// import Brands       from "@/components/roadsideAssistance/brands/brands";
-// import Offers       from "@/components/homepage/offers/offers";
-// import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
-// import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
+import HeroImage    from "@/components/roadsideAssistance/heroImage/heroImage";
+import Intro        from "@/components/roadsideAssistance/rsaIntro/rsaIntro";
+import Scenarios    from "@/components/roadsideAssistance/scenarios/scenarios";
+import BookingSteps from "@/components/roadsideAssistance/bookingSteps/bookingSteps";
+import WhyChoose    from "@/components/roadsideAssistance/whyChoose/whyChoose";
+import CTA          from "@/components/roadsideAssistance/cta/cta";
+import Brands       from "@/components/roadsideAssistance/brands/brands";
+import Offers       from "@/components/homepage/offers/offers";
+import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
 
 // export const metadata = {
 //   title         : "Emergency EV Charging Service in Dubai | PlusX Electric",
@@ -48,22 +48,22 @@
 //     }
 //   }
 
-// function EVRoadsideAssistanceServicePage() {
-//   return (
-//     <>
-//       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-//       <HeroImage />
-//       <Intro />
-//       <Scenarios />
-//       <BookingSteps />
-//       <WhyChoose />
-//       <CTA />
-//       <Brands />
-//       <Offers />
-//       <DownloadApp />
-//       <FAQ />
-//     </>
-//   )
-// }
+function EVRoadsideAssistanceServicePage() {
+  return (
+    <>
+      {/* <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} /> */}
+      <HeroImage />
+      <Intro />
+      <Scenarios />
+      <BookingSteps />
+      <WhyChoose />
+      <CTA />
+      <Brands />
+      <Offers />
+      <DownloadApp />
+      <FAQ />
+    </>
+  )
+}
 
-// export default EVRoadsideAssistanceServicePage;
+export default EVRoadsideAssistanceServicePage;

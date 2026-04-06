@@ -1,9 +1,9 @@
-import Image            from "next/image";
+// import Image            from "next/image";
 import style            from "./pickupDropoff.module.css";
-import Animated         from "@/sharedComponents/animatedComponent/animated";
-import CTAButton        from "@/sharedComponents/ctaButton/ctaButton.jsx";
+// import Animated         from "@/sharedComponents/animatedComponent/animated";
+// import CTAButton        from "@/sharedComponents/ctaButton/ctaButton.jsx";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import Pickup           from "@/assets/images/homepage/pickup-dropoff.png";
+// import Pickup           from "@/assets/images/homepage/pickup-dropoff.png";
 
 function PickupDropoff() {
   return (

@@ -13,14 +13,12 @@
 }
 
 .scenariosIntro {
-  font-size: 18px;
   color: var(--color-text);
   margin-bottom: 20px;
   text-align: center;
 }
 
 .scenariosIntro2 {
-  font-size: 18px;
   color: var(--color-text);
   margin-top: 20px;
   margin-bottom: 20px;
@@ -37,7 +35,6 @@
 
 .scenariosList li {
   position: relative;
-  font-size: 18px;
   color: var(--color-secondary);
   line-height: 1.5;
   /* display: flex;

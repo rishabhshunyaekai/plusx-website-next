@@ -27,7 +27,7 @@
 
 .scenariosList li {
   position: relative;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--color-secondary);
   line-height: 1.5;
   /* display: flex;
@@ -58,12 +58,14 @@
 .imageWrapper {
   border-radius: 20px;
   overflow: hidden;
+  height: 100%;
+  position: relative;
 }
 
 .imageWrapper img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 20px;
 }
 

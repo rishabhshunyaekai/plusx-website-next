@@ -27,7 +27,7 @@ function Scenarios() {
 
             <Animated className="order-1 lg:order-2" animation="fade" easing="ease-in" duration={1000}>
               <div className={style.imageWrapper}>
-                <Image src={image} alt="EV Roadside Assistance Dubai" width={555} height={555} />
+                <Image src={image} alt="EV Roadside Assistance Dubai" fill />
               </div>
             </Animated>
 
