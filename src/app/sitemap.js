@@ -116,6 +116,12 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
+      url             : `${baseUrl}blog`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
       url             : `${baseUrl}exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
