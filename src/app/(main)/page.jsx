@@ -25,6 +25,36 @@ export const metadata = {
       "en-AE": "https://plusxelectric.com/",
     },
   },
+  openGraph     : {
+    title       : "PlusX Electric — EV Charging Services Dubai | All-in-One EV App",
+    description : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance. Trusted by 5,000+ EV owners across the UAE.",
+    url         : "https://plusxelectric.com/",
+    type        : "website",
+    siteName    : "PlusX Electric",
+    locale      : "en_AE",
+    images      : [
+      {
+        url      : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        secureUrl: "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        type     : "image/jpeg",
+        width    : 1200,
+        height   : 630,
+        alt      : "PlusX Electric EV charging services Dubai",
+      },
+    ],
+  },
+  twitter       : {
+    card        : "summary_large_image",
+    site        : "@plusxelectric",
+    title       : "PlusX Electric — EV Charging Services Dubai | All-in-One EV App",
+    description : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance.",
+    images      : [
+      {
+        url : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        alt : "PlusX Electric EV charging services Dubai",
+      },
+    ],
+  },
 };
 
 const structuredData = {
@@ -33,7 +63,7 @@ const structuredData = {
   "name"        : "PlusX Electric",
   "legalName"   : "Plus Energy Electric Vehicles Charging Stations LLC",
   "url"         : "https://plusxelectric.com/",
-  "logo"        : "https://plusxelectric.com/_next/static/media/logo-icon.0rebs46jo1m04.svg",
+  "logo"        : "https://plusxelectric.com/logo-icon.svg",
   "description" : "PlusX Electric is an electric vehicle charging services company in Dubai. One app for all EV needs — charging, breakdown assistance, charger installation, and insurance.",
   "foundingLocation": "Dubai, UAE",
   "address" : {
@@ -65,6 +95,7 @@ const structuredData = {
 function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <HeroImage />
       <Intro />
       <Achievements />
@@ -80,7 +111,6 @@ function HomePage() {
       <Sustainability />
       <DownloadApp />
       <Faqs />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
     </>
   );
 }

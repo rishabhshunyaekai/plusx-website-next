@@ -4,6 +4,11 @@
   gap: 20px;
 }
 
+.blogCard {
+  width: 100%;
+  cursor: pointer;
+}
+
 .card {
   border-radius: 12px;
   overflow: hidden;

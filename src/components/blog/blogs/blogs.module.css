@@ -7,6 +7,7 @@
 
 .blogCard {
   width: 100%;
+  cursor: pointer;
 }
 
 .card {
@@ -62,7 +63,18 @@
 
 .active {
   background: var(--color-primary);
-  color: var(--color-text);
+  color: var(--color-secondary);
+}
+
+.prevNextBtn {
+  font-weight  : 500;
+  padding      : 8px 16px;
+}
+
+.disabled {
+  opacity        : 0.4;
+  cursor         : not-allowed;
+  pointer-events : none;
 }
 
 @media (max-width: 1024px) {

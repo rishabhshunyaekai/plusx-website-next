@@ -16,10 +16,12 @@ function Testimonial() {
 
         <div className={styles.grid}>
           {latestBlogs.map((item) => (
-            <div key={item.slug} className={styles.card}>
-              <Image src={item.image} alt={item.alt} width={350} height={262} className={styles.image} />
-              <Link href={`/${item.slug}`} className={styles.title}>{item.title}</Link>
-            </div>
+            <Link href={`/${item.slug}`} key={item.slug} className={styles.blogCard}>
+              <div className={styles.card}>
+                <Image src={item.image} alt={item.alt} width={350} height={262} className={styles.image} />
+                <p className={styles.title}>{item.title}</p>
+              </div>
+            </Link>
           ))}
         </div>
 
