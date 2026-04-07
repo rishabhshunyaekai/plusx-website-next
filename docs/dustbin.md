@@ -697,3 +697,222 @@ export const metadata = {
 }; -->
 
 <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- 
+Embla carousal for blogs  (library : - embla-carousel, embla-carousel-auto-scroll, embla-carousel-react)
+Testimonial.jsx
+
+"use client";
+
+import Link               from "next/link";
+import Image              from "next/image";
+import styles             from "./testimonial.module.css";
+import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
+import { testimonials }   from "@/data/testimonials";
+import useEmblaCarousel   from "embla-carousel-react";
+import AutoScroll         from "embla-carousel-auto-scroll";
+import { useAutoScroll }  from "@/hooks/useAutoScroll";
+import { PrevButton, NextButton, usePrevNextButtons } from "./emblaButton";
+
+function Testimonial() {
+  const options = { loop: true };
+
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+    AutoScroll({ playOnInit: true }),
+  ]);
+
+  const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } = usePrevNextButtons(emblaApi);
+  const { onAutoScrollButtonClick } = useAutoScroll(emblaApi);
+  // const { autoScrollIsPlaying, toggleAutoScroll, onAutoScrollButtonClick } = useAutoScroll(emblaApi);
+
+  return (
+    <section className={styles.section}>
+      <div className="container">
+        <SecondaryHeading title={"Explore Our EV Charging Blogs"} />
+
+        <div className={styles.embla}>
+          <div className={styles.embla__viewport} ref={emblaRef}>
+            <div className={styles.embla__container}>
+              {testimonials.map((item) => (
+                <div key={item.slug} className={styles.embla__slide}>
+                  <div className={styles.card}>
+                    <Image src={item.image} alt={item.alt} width={350} height={262} className={styles.image} />
+                    <Link href={`/${item.slug}`} className={styles.title}>{item.title}</Link>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className={styles.controls}>
+            <PrevButton className={styles.playBtn} disabled={prevBtnDisabled} onClick={() => onAutoScrollButtonClick(onPrevButtonClick)}/>
+            <NextButton className={styles.playBtn} disabled={nextBtnDisabled} onClick={() => onAutoScrollButtonClick(onNextButtonClick)} />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Testimonial;
+
+// {/* Inside controls class div
+// <button onClick={toggleAutoScroll} className={styles.playBtn}>
+//   {autoScrollIsPlaying ? "Stop" : "Start"} 
+// </button> */}
+
+
+Testimonial.module.css
+.embla {
+  position: relative;
+  padding: 0px 0px 50px;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  padding: 0px 0px 10px;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 350px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px var(--color-shadow);
+  background: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.title {
+  display: block;
+  padding: 10px 15px 25px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-primary);
+  flex: 1;
+}
+
+.controls {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.playBtn {
+  padding: 6px 5px;
+  cursor: pointer;
+}
+
+testimonial/emblaButton.jsx
+import React, { useCallback, useEffect, useState } from "react";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+
+export const usePrevNextButtons = (emblaApi) => {
+  const [prevBtnDisabled, setPrevBtnDisabled] = useState(true);
+  const [nextBtnDisabled, setNextBtnDisabled] = useState(true);
+
+  const onPrevButtonClick = useCallback(() => {
+    if (!emblaApi) return;
+    emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const onNextButtonClick = useCallback(() => {
+    if (!emblaApi) return;
+    emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  const onSelect = useCallback((emblaApi) => {
+    setPrevBtnDisabled(!emblaApi.canScrollPrev());
+    setNextBtnDisabled(!emblaApi.canScrollNext());
+  }, []);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    onSelect(emblaApi);
+    emblaApi.on("select", onSelect).on("reInit", onSelect);
+  }, [emblaApi, onSelect]);
+
+  return {
+    prevBtnDisabled,
+    nextBtnDisabled,
+    onPrevButtonClick,
+    onNextButtonClick,
+  };
+};
+
+export const PrevButton = ({ disabled, ...props }) => (
+  <button disabled={disabled} {...props}>
+    <IoIosArrowBack style={{ color: "#fff" }} size={24} />
+  </button>
+);
+
+export const NextButton = ({ disabled, ...props }) => (
+  <button disabled={disabled} {...props}>
+    <IoIosArrowForward style={{ color: "#fff" }} size={24} />
+  </button>
+);
+
+useAutoScroll.js
+import { useCallback, useEffect, useState } from "react";
+
+export const useAutoScroll = (emblaApi) => {
+  const [autoScrollIsPlaying, setAutoScrollIsPlaying] = useState(false);
+
+  const onAutoScrollButtonClick = useCallback(
+    (callback) => {
+      const autoScroll = emblaApi?.plugins()?.autoScroll;
+      if (!autoScroll) return;
+
+      autoScroll.stop();
+      callback();
+    },
+    [emblaApi]
+  );
+
+  const toggleAutoScroll = useCallback(() => {
+    const autoScroll = emblaApi?.plugins()?.autoScroll;
+    if (!autoScroll) return;
+
+    autoScroll.isPlaying() ? autoScroll.stop() : autoScroll.play();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    const autoScroll = emblaApi?.plugins()?.autoScroll;
+    if (!autoScroll) return;
+
+    setAutoScrollIsPlaying(autoScroll.isPlaying());
+
+    emblaApi
+      .on("autoscroll:play", () => setAutoScrollIsPlaying(true))
+      .on("autoscroll:stop", () => setAutoScrollIsPlaying(false))
+      .on("reinit", () =>
+        setAutoScrollIsPlaying(autoScroll.isPlaying())
+      );
+  }, [emblaApi]);
+
+  return {
+    autoScrollIsPlaying, toggleAutoScroll, onAutoScrollButtonClick,
+  };
+}; -->
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->

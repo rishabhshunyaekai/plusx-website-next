@@ -1,21 +1,7 @@
-.embla {
-  position: relative;
-  padding: 0px 0px 50px;
-}
-
-.embla__viewport {
-  overflow: hidden;
-  padding: 0px 0px 10px;
-}
-
-.embla__container {
-  display: flex;
-}
-
-.embla__slide {
-  flex: 0 0 350px;
-  display: flex;
-  margin-right: 20px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .card {
@@ -37,23 +23,47 @@
 
 .title {
   display: block;
-  padding: 10px 15px 25px;
+  padding: 10px 15px 20px;
   font-weight: 500;
   text-decoration: none;
   color: var(--color-primary);
   flex: 1;
 }
 
-.controls {
-  position: absolute;
-  top: 30%;
+.viewAllWrapper {
+  margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
-  width: 100%;
 }
 
-.playBtn {
-  padding: 6px 5px;
-  cursor: pointer;
+.viewAllBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 10px 20px;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.viewAllBtn:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 580px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
