@@ -25,7 +25,7 @@ function PickupDropoff() {
                 <h2 className={style.cardTitle}>On-Demand <br className={style.breakLine}/>Pickup & Drop-Off</h2>
                 <h3 className={style.cardSubTitle}><strong>Service Fee: AED 39</strong></h3>
                 <div className={`${style.buttonContainer}`}>
-                  <CTAButton className={style.cardButton} text="Book Now" handler="scrollToBottomWithRedirection" />
+                  <CTAButton className={style.cardButton} text="Book Now" handler="scrollToAppSection" />
                 </div>
               </Animated>
             </div>

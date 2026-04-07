@@ -1,6 +1,6 @@
 "use client";
 
-import { handleDeviceRedirect, REDIRECT_PATHS, scrollToBottomWithRedirectionHandler, scrollToSpecificSectionViaID } from "@/utils/helper";
+import { handleDeviceRedirect, REDIRECT_PATHS, scrollToBottomWithRedirectionHandler, scrollToAppSectionWithRedirectionHandler, scrollToSpecificSectionViaID } from "@/utils/helper";
 
 function CTAButton({ className, text, handler }) {
   const handleClick = () => {
@@ -11,6 +11,7 @@ function CTAButton({ className, text, handler }) {
       case "portablePage"                   : handleDeviceRedirect(REDIRECT_PATHS.portable);            break;
       case "roadsidePage"                   : handleDeviceRedirect(REDIRECT_PATHS.roadside);            break;
       case "scrollToBottomWithRedirection"  : scrollToBottomWithRedirectionHandler();                   break;
+      case "scrollToAppSection"             : scrollToAppSectionWithRedirectionHandler();               break;
       case "scrollToFooter"                 : scrollToSpecificSectionViaID("footer");                   break;
       case "scrollToCarService"             : scrollToSpecificSectionViaID("carServices");              break;
       case "scrollToCarServiceForm"         : scrollToSpecificSectionViaID("getAQuoteForm");            break;

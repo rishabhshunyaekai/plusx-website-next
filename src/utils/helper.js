@@ -43,10 +43,26 @@ export function scrollToBottomWithRedirectionHandler() {
   }
 }
 
-export function scrollToSpecificSectionViaID(sectionID) {
+export function scrollToAppSectionWithRedirectionHandler() {
+
+  const userAgent = navigator.userAgent || "";
+  const isIOS     = /iPad|iPhone|iPod/.test(userAgent);
+  const isAndroid = /Android/.test(userAgent);
+
+  if (document.visibilityState === "hidden") return;
+  if (isIOS) {
+    window.location.replace(APPLE_STORE_URL);
+  } else if (isAndroid) {
+    window.location.replace(PLAY_STORE_URL);
+  } else {
+    scrollToSpecificSectionViaID("download-app", true);
+  }
+}
+
+export function scrollToSpecificSectionViaID(sectionID, shouldCenter = false) {
   const sectionElement = document.getElementById(sectionID);
   if (sectionElement) {
-    sectionElement.scrollIntoView({ behavior: "smooth" });
+    sectionElement.scrollIntoView({ behavior: "smooth", block: shouldCenter ? "center" : "start", });
   }
   return <></>;
 }

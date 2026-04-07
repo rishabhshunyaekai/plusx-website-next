@@ -9,7 +9,7 @@ function ChargeShareHeroImage() {
           <h2 className={style.sharePrimaryText}>Share Your</h2>
           <h2 className={style.shareSecondaryText}>Private Charger With</h2>
           <h2 className={style.sharePrimaryText}>EV Owners & Get Paid</h2>
-          <CTAButton className={style.chargerButton} text="List Your Charger Now" handler="scrollToBottomWithRedirection" />
+          <CTAButton className={style.chargerButton} text="List Your Charger Now" handler="scrollToAppSection" />
         </div>
       </div>
     </section>

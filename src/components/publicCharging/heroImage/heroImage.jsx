@@ -10,7 +10,7 @@ function PublicChargingHeroImage() {
           <h2 className={style.primaryText}><strong>Find The Nearest</strong></h2>
           <h2 className={style.secondaryText}>Public EV Charging</h2>
           <h2 className={style.primaryText}>Stations in Dubai</h2>
-          <CTAButton className={style.button} text="Find Now" handler="scrollToBottomWithRedirection" />
+          <CTAButton className={style.button} text="Find Now" handler="scrollToAppSection" />
         </Animated>
       </div>
     </section>

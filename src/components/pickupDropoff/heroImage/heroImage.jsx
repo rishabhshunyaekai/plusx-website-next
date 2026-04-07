@@ -10,7 +10,7 @@ function PickupDropoffHeroImage() {
           <h2 className={style.primaryText}><strong>We Pick up,</strong></h2>
           <h2 className={style.secondaryText}>Charge it, & Drop it</h2>
           <h2 className={style.primaryText}>Back Fully Charged</h2>
-          <CTAButton className={style.button} text="Book Now" handler="scrollToBottomWithRedirection" />
+          <CTAButton className={style.button} text="Book Now" handler="scrollToAppSection" />
         </Animated>
       </div>
     </section>
