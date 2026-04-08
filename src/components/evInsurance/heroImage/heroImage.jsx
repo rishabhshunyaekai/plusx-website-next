@@ -8,8 +8,10 @@ function InsuranceHeroImage() {
     <section className={style.insuranceBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.insuranceContent}>
-          <h2 className={style.insurancePrimaryText}>Insure Instantly, <br /> Drive Worry-Free</h2>
-          <h2 className={style.insuranceSecondaryText}>Seamless EV Insurance Powered by</h2>
+          <h2>
+            <span className={style.insurancePrimaryText}>Insure Instantly, <br /> Drive Worry-Free</span><br/>
+            <span className={style.insuranceSecondaryText}>Seamless EV Insurance Powered by</span>
+          </h2>
           <Image className={style.image} src={policybazaar} alt="policybazaar" width={350} height={50}/>
           <RedirectToWhatsapp className={style.insuranceButton} isShowIcon={true} text="Chat with us"/>
         </div>

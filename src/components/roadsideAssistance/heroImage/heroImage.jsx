@@ -6,8 +6,10 @@ function HeroImage() {
     <section className={style.plusxBanner}>
       <div className={`${style.container} container`}>
         <Animated className={`${style.heading}`} animation="fade" easing="ease-in" duration={1000}>
-          <h5 className={style.slug}>EV Breakdown ? On-Site Charging</h5>
-          <h6 className={style.slug2}>Book Instantly via The PlusX Electric App</h6>
+          <h2>
+            <span className={style.slug}>EV Breakdown ? On-Site Charging</span><br/>
+            <span className={style.slug2}>Book Instantly via The PlusX Electric App</span>
+          </h2>
         </Animated>
       </div>
     </section>

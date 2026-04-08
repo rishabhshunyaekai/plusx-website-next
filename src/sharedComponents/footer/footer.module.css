@@ -111,6 +111,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footerDetails {
+    margin-bottom: 15px;
+  }
+}
+
 @media (max-width: 576px) {
   .footerTitle {
     font-size: 17px;

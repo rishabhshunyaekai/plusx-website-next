@@ -26,16 +26,17 @@
   font-size: 30px;
   letter-spacing: 1px;
   border-radius: 8px;
-  margin: 0;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .slug2 {
+  display: inline-block;
   background-color: var(--color-tertiary);
   padding: 10px 14px;
   color: var(--color-secondary);
   font-size: 27px;
   border-radius: 8px;
-  margin: 0;
 }
 
 @media (max-width: 992px) {

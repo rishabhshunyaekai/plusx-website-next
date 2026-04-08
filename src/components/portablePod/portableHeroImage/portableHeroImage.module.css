@@ -25,7 +25,8 @@
   font-weight: 600;
   letter-spacing: 5px;
   border-radius: 8px;
-  margin: 0;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .slug2 {
@@ -33,7 +34,9 @@
   font-size: 27px;
   letter-spacing: 3px;
   border-radius: 8px;
-  margin: 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 .button {

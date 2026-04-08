@@ -9,7 +9,7 @@ function Scenarios() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           
-            <Animated className={`${style.scenariosContent} order-2 lg:order-1`} animation="fade" easing="ease-in" duration={1000}>
+            <Animated className={`${style.scenariosContent} order-2 lg:order-1 lg:mt-5!`} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.scenariosHeading}>Challenges EV Owners Face <br className={style.breakLine}/>with Charging in Dubai</h2>
 
               <p className={style.scenariosIntro}>EV owners in Dubai often deal with practical charging challenges.</p>
@@ -27,7 +27,7 @@ function Scenarios() {
 
             <Animated className="order-1 lg:order-2" animation="fade" easing="ease-in" duration={1000}>
               <div className={style.imageWrapper}>
-                <Image src={image} alt="EV Roadside Assistance Dubai" fill />
+                <Image src={image} alt="EV Roadside Assistance Dubai" width={402} height={230} />
               </div>
             </Animated>
 

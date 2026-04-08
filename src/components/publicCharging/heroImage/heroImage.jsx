@@ -7,9 +7,11 @@ function PublicChargingHeroImage() {
     <section className={style.figureWrapper}>
       <div className={`container ${style.container}`}>
         <Animated className={style.figureContent}>
-          <h2 className={style.primaryText}><strong>Find The Nearest</strong></h2>
-          <h2 className={style.secondaryText}>Public EV Charging</h2>
-          <h2 className={style.primaryText}>Stations in Dubai</h2>
+          <h2>
+            <span className={style.primaryText}><strong>Find the Nearest</strong></span><br/>
+            <span className={style.secondaryText}>Public EV Charging</span><br/>
+            <span className={style.primaryText}>Stations in Dubai</span><br/>
+          </h2>
           <CTAButton className={style.button} text="Find Now" handler="scrollToAppSection" />
         </Animated>
       </div>
