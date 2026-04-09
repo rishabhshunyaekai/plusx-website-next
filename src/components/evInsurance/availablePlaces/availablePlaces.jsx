@@ -10,7 +10,7 @@ function AvailablePlaces() {
       </div>
 
       <div className={style.placesContainer}>
-        DUBAI | ABU DHABI | SHARJAH | AJMAN | RAS AL KHAIMAH | FUJAIRAH | UMM AL QUWAIN
+        Dubai | Abu Dhabi | Sharjah | Ajman | Ras Al Khaimah | Fujairah | Umm Al Quwain
       </div>
 
       <div className="container">
