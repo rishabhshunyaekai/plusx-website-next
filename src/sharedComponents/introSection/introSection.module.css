@@ -20,21 +20,23 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .links {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   padding: 10px 14px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-weight: 600;
   font-size: 15px;
   cursor: pointer;
 }
 
 .links:hover {
-  box-shadow: 0 4px 10px var(--color-shadow-dark);
+  box-shadow: 0 4px 10px var(--color-shadow);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 @media (max-width: 1200px) {

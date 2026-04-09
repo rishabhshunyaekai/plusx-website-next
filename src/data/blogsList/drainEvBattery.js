@@ -21,7 +21,7 @@ export const drainEvBatteries = [
   },
   {
     type: "paragraph",
-    text: "Turning on the air conditioner during hot summers in Dubai, rerouting your navigation, or getting stuck in long and slow-moving traffic can drain your charge faster than anticipated. That flashing low-battery indicator may leave you fearfully stranded, particularly when you have not seen a recharging station in a long time. That is where the <a href='https://plusxelectric.com/doorstep-ev-charging' target='blank'>on-demand charging</a> comes in as a breaker. Instead of worrying about the nearest charging point, you will have peace of mind knowing that you are in good hands in case of any emergency. It is not simply power but a psychological relief."
+    text: "Turning on the air conditioner during hot summers in Dubai, rerouting your navigation, or getting stuck in long and slow-moving traffic can drain your charge faster than anticipated. That flashing low-battery indicator may leave you fearfully stranded, particularly when you have not seen a recharging station in a long time. That is where the <a href='https://plusxelectric.com/mobile-ev-charging-dubai' target='blank'>on-demand charging</a> comes in as a breaker. Instead of worrying about the nearest charging point, you will have peace of mind knowing that you are in good hands in case of any emergency. It is not simply power but a psychological relief."
   },
   {
     type: "heading",

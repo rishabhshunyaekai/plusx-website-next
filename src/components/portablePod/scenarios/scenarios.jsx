@@ -1,3 +1,4 @@
+import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./scenarios.module.css";
 import image    from "@/assets/images/portable-charger-page/challenges.webp";
@@ -15,11 +16,10 @@ function Scenarios() {
               <p className={style.scenariosIntro}>EV owners in Dubai often deal with practical charging challenges.</p>
 
               <ul className={style.scenariosList}>
-                <li>Public charging points can be occupied during peak hours.</li>
+                <li><Link href="/public-ev-charging-stations">Public charging</Link> points can be occupied during peak hours.</li>
                 <li>Some chargers may be farther away.</li>
                 <li>Most buildings have limited access to parking.</li>
-                <li>Home charger installation is not possible for everyone because of approvals, building limitations, or cost</li>
-                {/* <li>Vehicle not starting after battery depletion</li> */}
+                <li><Link href="/ev-chargers">EV charger installation</Link>  in Dubai isn&apos;t possible for everyone due to building approvals, space limitations, or cost.</li>
               </ul>
 
               <p className={style.scenariosFooter}>These small issues can add friction to everyday EV usage.</p>

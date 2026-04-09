@@ -1,4 +1,5 @@
 import HeroImage        from "@/components/accessoriesList/heroImage/heroImage";
+import Breadcrumbs      from "@/sharedComponents/breadCumb/breadCrumb";
 import AccessoriesList  from "@/components/accessoriesList/accessories/accessories";
 import Offers           from "@/components/homepage/offers/offers";
 import DownloadApp      from "@/sharedComponents/downloadApp/downloadApp";
@@ -16,10 +17,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "EV Accessories",
+      "item": "https://plusxelectric.com/ev-chargers/ev-accessories"
+    }
+  ]
+}
+
 function EVAccessoriesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <AccessoriesList/>
       <Offers />
       <DownloadApp />

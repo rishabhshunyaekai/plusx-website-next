@@ -3,7 +3,7 @@ import Brand from "@/sharedComponents/brands/brands";
 function Brands() {
   const brandsData = {
     title       : "Mobile EV Charging Dubai for All EV Brands",
-    description : `PlusX Electric is the provider of EV charging at office Dubai for the majority of the EV brands. It also \ncovers the popular models of Tesla, BYD EV, and other major EV manufacturers, so you do \nnot need to worry about compatibility during the service booking.`,
+    description : `PlusX Electric charges all major EV brands in Dubai, including Tesla, BYD, BMW, Mercedes, Audi, Porsche, Rolls-Royce,\n Cadillac, Polestar, and Lucid. Our Portable Power Pod is compatible with every electric vehicle on the\n road, so you can book a mobile charge without worrying about connector types.`,
   }
 
   return (

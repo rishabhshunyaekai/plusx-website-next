@@ -1,4 +1,5 @@
 import HeroImage    from "@/components/sustainability/heroImage/heroImage";
+import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Feature      from "@/components/sustainability/feature/feature";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 import PlusxForm    from "@/components/plusxBusiness/plusxForm/plusxForm";
@@ -16,10 +17,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sustainability",
+      "item": "https://plusxelectric.com/sustainability"
+    }
+  ]
+}
+
 function SustainabilityPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Feature />
       <PlusxForm />
       <DownloadApp />

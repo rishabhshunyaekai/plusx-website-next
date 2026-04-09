@@ -555,7 +555,7 @@ export function portablePageRedirectionHandler() {
   } else if (isAndroid) {
     window.location.replace(PLAY_STORE_URL);
   } else {
-    window.location.replace("https://plusxelectric.com/doorstep-ev-charging");
+    window.location.replace("https://plusxelectric.com/mobile-ev-charging-dubai");
   }
 }
 

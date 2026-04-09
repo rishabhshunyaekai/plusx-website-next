@@ -13,22 +13,22 @@ import Tesla      from "@/assets/images/landing-pages/brands-logo/tesla.webp";
 // import MG         from "@/assets/images/landing-pages/brands-logo/mg.webp";
 
 const brands = [
-  { icon: Tesla },
-  { icon: Cadilac },
-  { icon: BMW },
-  { icon: BYD },
-  { icon: RR },
-  { icon: Audi },
-  { icon: Porche },
-  { icon: Poletar },
-  { icon: Mercedes },
-  { icon: LUCID },
+  { icon: Tesla,    alt : "Tesla mobile EV charging Dubai" },
+  { icon: Cadilac,  alt : "Cadillac EV charging service Dubai" },
+  { icon: BMW,      alt : "BMW portable EV charger Dubai" },
+  { icon: BYD,      alt : "BYD EV charging Dubai" },
+  { icon: RR,       alt : "Rolls-Royce EV charging Dubai" },
+  { icon: Audi,     alt : "Audi EV charging service Dubai" },
+  { icon: Porche,   alt : "Porsche mobile EV charging Dubai" },
+  { icon: Poletar,  alt : "Polestar EV charger Dubai" },
+  { icon: Mercedes, alt : "Mercedes EV charging Dubai" },
+  { icon: LUCID,    alt : "Lucid EV charging service Dubai" },
 ];
 
 function BrandsIcons() {
   return (
     <div className={styles.gridContainer}>
-      { brands.map((value, index) => <BrandCard key={index} iconSrc={value.icon} text={value.text} index={index} total={brands.length} /> )}
+      { brands.map((value, index) => <BrandCard key={index} iconSrc={value.icon} alt={value.alt} index={index} total={brands.length} /> )}
     </div>
   )
 }

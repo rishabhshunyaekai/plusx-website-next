@@ -14,7 +14,7 @@ function PortablePod() {
               <h2 className={style.cardTitle}>Portable Charging Pod</h2>
               <p className={style.cardSubTitle}>We deliver a portable EV charger to <br className={`${style.breakLine}`}/>your location — home, office, or parking.</p>
               <div className={`${style.buttonContainer}`}>
-                <Link href="/doorstep-ev-charging" className={style.cardButton}>Know More</Link>
+                <Link href="/mobile-ev-charging-dubai" className={style.cardButton}>Know More</Link>
               </div>
             </Animated>
           </div>

@@ -3,6 +3,7 @@
   background-size: cover;
   position: relative;
   height: 42rem;
+  margin-bottom: 40px;
 }
 
 .contactBanner:before {

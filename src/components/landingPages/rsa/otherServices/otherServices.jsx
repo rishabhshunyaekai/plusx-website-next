@@ -12,7 +12,7 @@ const services = [
     description : "Delivered to Your Doorstep. Anytime, Anyplace.",
     imgSrc      : PortablePod,
     buttonText  : "Know More",
-    link        : "/doorstep-ev-charging"
+    link        : "/mobile-ev-charging-dubai"
   },
   {
     title       : "Charger Installation",

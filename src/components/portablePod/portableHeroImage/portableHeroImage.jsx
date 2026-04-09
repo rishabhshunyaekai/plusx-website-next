@@ -7,11 +7,12 @@ function PortableHeroImage() {
     <section className={style.plusxBanner}>
       <div className={`${style.container} container`}>
         <Animated className={`${style.heading}`} animation="fade" easing="ease-in" duration={1000}>
-          <h2>
-            <span className={style.slug}>DOORSTEP EV CHARGING</span><br/>
-            <span className={style.slug2}>ANYTIME, ANYWHERE IN DUBAI</span><br/>
-          </h2>
-          <CTAButton className={style.button} text="BOOK NOW" handler="appRedirect" />
+          <h1>
+            <span className={style.slug}>Mobile EV Charging in Dubai</span><br/>
+            <span className={style.slug2}>Charge at Your Location</span>
+          </h1>
+          <p className={style.priceLine}>At just AED 65 + VAT</p>
+          <CTAButton className={style.ctaButton} text="BOOK NOW" handler="portablePage" />
         </Animated>
       </div>
     </section>

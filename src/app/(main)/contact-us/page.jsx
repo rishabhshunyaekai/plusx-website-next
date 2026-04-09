@@ -1,4 +1,5 @@
 import HeroImage    from "@/components/contact/heroImage/heroImage";
+import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Details      from "@/components/contact/contactDetails/contactDetails";
 import Form         from "@/components/contact/contactForm/contactForm";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
@@ -16,10 +17,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Contact US",
+      "item": "https://plusxelectric.com/contact-us"
+    }
+  ]
+}
+
 function ContactUsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Details />
       <Form />
       <DownloadApp />

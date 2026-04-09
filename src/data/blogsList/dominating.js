@@ -33,7 +33,7 @@ export const dominating = [
       `<strong>Cost: </strong>The <strong>Tesla Model 3 price</strong> in Dubai starts with approximately. AES 184,000, making it considerably budget-friendly in the high-quality EV segment.`,
       `<strong>Popularity: </strong>People love the advanced autopilot, reliable performance, and Tesla’s strong universal brand appeal.`,
     ],
-    footerText: `Real-world Usage: Model 3s are quite common in busy neighbourhoods like Dubai Marina or Downtown Dubai. Dubai’s Tesla owners often leverage <a href="https://plusxelectric.com/doorstep-ev-charging" target='_blank' rel="noopener noreferrer">on-demand charging</a> through services like PlusX for additional convenience.`,
+    footerText: `Real-world Usage: Model 3s are quite common in busy neighbourhoods like Dubai Marina or Downtown Dubai. Dubai’s Tesla owners often leverage <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target='_blank' rel="noopener noreferrer">on-demand charging</a> through services like PlusX for additional convenience.`,
   },
   {
     type: "heading",

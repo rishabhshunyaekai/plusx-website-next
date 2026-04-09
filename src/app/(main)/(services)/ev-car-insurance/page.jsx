@@ -1,4 +1,5 @@
 import HeroImage      from "@/components/evInsurance/heroImage/heroImage";
+import Breadcrumbs    from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro          from "@/components/evInsurance/insuranceIntro/insuranceIntro";
 import Values         from "@/components/evInsurance/values/values";
 import Designed       from "@/components/evInsurance/designed/designed";
@@ -23,10 +24,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "EV Car Insurance",
+      "item": "https://plusxelectric.com/ev-car-insurance"
+    }
+  ]
+}
+
 function EVCarInsurancePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Intro />
       <Values />
       <Designed />

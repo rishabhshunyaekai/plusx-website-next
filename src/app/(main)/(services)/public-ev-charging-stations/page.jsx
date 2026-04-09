@@ -1,4 +1,5 @@
 import HeroImage    from "@/components/publicCharging/heroImage/heroImage";
+import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/publicCharging/publicChargingIntro/publicChargingIntro";
 import ChargingInfo from "@/components/publicCharging/chargingInfo/chargingInfo";
 import Integrated   from "@/components/publicCharging/integrated/integrated";
@@ -24,10 +25,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Public EV Charging Stations",
+      "item": "https://plusxelectric.com/public-ev-charging-stations"
+    }
+  ]
+}
+
 function PublicChargingSolutionPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Intro />
       <ChargingInfo />
       <Integrated />

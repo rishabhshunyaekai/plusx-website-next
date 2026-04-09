@@ -3,8 +3,10 @@ import style            from "./introSection.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import MainHeading      from "../heading/mainHeading";
 import SecondaryHeading from "../heading/secondaryHeading";
+import CTAButton        from "../ctaButton/ctaButton";
 
-function IntroSection({ title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1, showButton = false, buttonText, link }) {
+function IntroSection({ title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1, primaryButton = false, 
+                        primaryButtonText, primaryButtonlink, secondaryButton = false, secondaryButtonText, secondaryButtonlink }) {
 
   return (
     <section className={style.introSection}>
@@ -36,6 +38,12 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
               </Animated>
             )}
 
+            {primaryButton && (
+              <div className={`${style.buttonConatiner}`}>
+                <CTAButton className={style.links} text={primaryButtonText} handler={primaryButtonlink} />
+              </div>
+            )}
+
           </div>
         </div>
 
@@ -65,9 +73,9 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
           </div>
         </div>
 
-        {showButton && (
+        {secondaryButton && (
           <div className={`${style.buttonConatiner}`}>
-            <Link href={`${link}`} className={style.links}>{buttonText}</Link>
+            <Link href={`${secondaryButtonlink}`} className={style.links}>{secondaryButtonText}</Link>
           </div>
         )}
       </div>

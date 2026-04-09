@@ -11,7 +11,7 @@ const offers = [
   {
     image : Offer2,
     alt   : "doorstep ev charging service",
-    link  : "/doorstep-ev-charging",
+    link  : "/mobile-ev-charging-dubai",
   },
 ];
 

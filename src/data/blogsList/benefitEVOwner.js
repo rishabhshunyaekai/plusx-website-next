@@ -74,7 +74,7 @@ export const benefitEVOwner = [
   },
   {
     type: "paragraph",
-    text: `The PlusX Electric app is more than a convenience; it is a complete charging companion that gives EV drivers the confidence, flexibility, and control they need. It will provide you with real-time insights, <a href="https://plusxelectric.com/doorstep-ev-charging" target='blank' rel="noopener noreferrer">on-demand Mobile EV Charging</a>, smart scheduling, and robust energy tools. The app stands at the heart of advanced EV Charging Solutions in Dubai.`
+    text: `The PlusX Electric app is more than a convenience; it is a complete charging companion that gives EV drivers the confidence, flexibility, and control they need. It will provide you with real-time insights, <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target='blank' rel="noopener noreferrer">on-demand Mobile EV Charging</a>, smart scheduling, and robust energy tools. The app stands at the heart of advanced EV Charging Solutions in Dubai.`
   },
   {
     type: "paragraph",

@@ -3,7 +3,7 @@ export const PLAY_STORE_URL  = "https://play.google.com/store/apps/details?id=co
 
 export const REDIRECT_PATHS = {
   app                 : "/",
-  portable            : "/doorstep-ev-charging",
+  portable            : "/mobile-ev-charging-dubai",
   chargerInstallation : "/ev-chargers",
   roadside            : "/ev-breakdown-assistance",
   evChargers          : "/ev-chargers/ac-dc-ev-chargers",

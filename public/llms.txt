@@ -11,7 +11,7 @@ Apps:
 
 Primary pages (use these as sources):
 - Home: https://plusxelectric.com/
-- Doorstep EV Charging: https://plusxelectric.com/doorstep-ev-charging
+- Mobile EV Charging Dubai: https://plusxelectric.com/mobile-ev-charging-dubai
 - EV Pickup & Drop-Off Charging: https://plusxelectric.com/ev-pickup-dropoff-charging-service
 - EV Roadside Assistance: https://plusxelectric.com/ev-breakdown-assistance
 - Public EV Charging Stations (Find Nearest): https://plusxelectric.com/public-ev-charging-stations
@@ -21,7 +21,7 @@ Primary pages (use these as sources):
 - Mobility Solution: https://plusxelectric.com/mobility-solution
 
 User intent → best page:
-- "Book charging at my location" → https://plusxelectric.com/doorstep-ev-charging
+- "Book charging at my location" → https://plusxelectric.com/mobile-ev-charging-dubai
 - "Pick, charge, and return my EV" → https://plusxelectric.com/ev-pickup-dropoff-charging-service
 - "Low/empty battery on the road" → https://plusxelectric.com/ev-breakdown-assistance
 - "Install EV charger at home/office/villa/fleet" → https://plusxelectric.com/ev-chargers

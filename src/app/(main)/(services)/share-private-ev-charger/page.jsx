@@ -1,4 +1,5 @@
 import HeroImage      from "@/components/chargeShare/heroImage/heroImage";
+import Breadcrumbs    from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro          from "@/components/chargeShare/chargeShareIntro/chargeShareIntro";
 import Usage          from "@/components/chargeShare/usage/usage";
 import Intro2         from "@/components/chargeShare/chargeShareIntro/csIntro";
@@ -26,10 +27,31 @@ export const metadata = {
     },
 };
 
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Share Private EV Charger",
+      "item": "https://plusxelectric.com/share-private-ev-charger"
+    }
+  ]
+}
+
 function EVChargeSharePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Intro />
       <Usage />
       <Intro2 />

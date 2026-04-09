@@ -1,3 +1,4 @@
+import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./whyChoose.module.css";
 import Truck    from "@/assets/images/ev-roadside-assistance-page/why-choose-plusx.webp";
@@ -26,7 +27,7 @@ function WhyChoose() {
 
             <ul className={style.keyPoint}>
               <li>Dedicated EV roadside assistance team</li>
-              <li><a href="https://plusxelectric.com/doorstep-ev-charging"  target="__blank" className={style.linkColor}>Mobile on-site EV charging</a> units</li>
+              <li><Link href="/mobile-ev-charging-dubai" target="__blank" className={style.linkColor}>Mobile on-site EV charging</Link> units</li>
               <li>No unnecessary towing</li>
               <li>Jump-start service included</li>
               <li>Compatible with most EV models</li>

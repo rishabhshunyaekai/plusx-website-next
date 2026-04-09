@@ -104,7 +104,7 @@ export const diesel = [
   },
   {
     type: "paragraph",
-    text: `<a href='https://plusxelectric.com/doorstep-ev-charging' target='_blank' rel="noopener noreferrer">Mobile EV Charging</a> units powered by battery storage or renewable energy provide flexible and sustainable support. They eliminate the need for diesel and deliver clean energy in emergencies, remote areas, or during peak demand. These solutions align far better with Dubai’s sustainability targets than diesel-based systems.`
+    text: `<a href='https://plusxelectric.com/mobile-ev-charging-dubai' target='_blank' rel="noopener noreferrer">Mobile EV Charging</a> units powered by battery storage or renewable energy provide flexible and sustainable support. They eliminate the need for diesel and deliver clean energy in emergencies, remote areas, or during peak demand. These solutions align far better with Dubai’s sustainability targets than diesel-based systems.`
   },
   {
     type: "heading",
@@ -122,7 +122,7 @@ export const diesel = [
   },
   {
     type: "paragraph",
-    text: `Dubai’s future of mobility depends on clean energy and intelligent infrastructure. Diesel-powered EV chargers contradict this vision by increasing emissions, reducing efficiency, and working against the UAE’s Net Zero 2050 targets. Sustainable mobility requires renewable-driven <a href='https://plusxelectric.com/doorstep-ev-charging' target='blank'>EV Charging Solutions</a> and Mobile EV Charging systems. By embracing Plusx Electric, Dubai can ensure that its EV ecosystem is truly green, efficient, and ready for the future.`
+    text: `Dubai’s future of mobility depends on clean energy and intelligent infrastructure. Diesel-powered EV chargers contradict this vision by increasing emissions, reducing efficiency, and working against the UAE’s Net Zero 2050 targets. Sustainable mobility requires renewable-driven <a href='https://plusxelectric.com/mobile-ev-charging-dubai' target='blank'>EV Charging Solutions</a> and Mobile EV Charging systems. By embracing Plusx Electric, Dubai can ensure that its EV ecosystem is truly green, efficient, and ready for the future.`
   },
   {
     type: "heading",

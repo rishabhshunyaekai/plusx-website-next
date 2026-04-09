@@ -57,45 +57,10 @@ export const metadata = {
   },
 };
 
-const structuredData = {
-  "@context"    : "https://schema.org",
-  "@type"       : "Organization",
-  "name"        : "PlusX Electric",
-  "legalName"   : "Plus Energy Electric Vehicles Charging Stations LLC",
-  "url"         : "https://plusxelectric.com/",
-  "logo"        : "https://plusxelectric.com/logo-icon.svg",
-  "description" : "PlusX Electric is an electric vehicle charging services company in Dubai. One app for all EV needs — charging, breakdown assistance, charger installation, and insurance.",
-  "foundingLocation": "Dubai, UAE",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress"   : "D55-PBU, Dubai Production City",
-    "addressLocality" : "Dubai",
-    "addressCountry"  : "AE"
-  },
-  "contactPoint": {
-    "@type"       : "ContactPoint",
-    "telephone"   : "+971542796424",
-    "email"       : "media@plusxelectric.com",
-    "contactType" : "customer service",
-    "availableLanguage": ["English", "Arabic"],
-    "areaServed"  : "AE"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Arab Emirates"
-  },
-  "sameAs": [
-    "https://twitter.com/plusxelectric",
-    "https://www.facebook.com/people/PlusX-Electric/61558739985983/",
-    "https://www.instagram.com/plusx_electric/",
-    "https://www.linkedin.com/company/plusxelectric/"
-  ]
-}
 
 function HomePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <HeroImage />
       <Intro />
       <Achievements />

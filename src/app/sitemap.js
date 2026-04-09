@@ -56,7 +56,7 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}doorstep-ev-charging`,
+      url             : `${baseUrl}mobile-ev-charging-dubai`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,

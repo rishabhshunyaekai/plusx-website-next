@@ -2,10 +2,12 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 
 const introData = [
   {
-    title             : "Mobile EV Charging Dubai -\nDoorstep EV Charging by PlusX Electric",
-    content           : `Mobile EV charging in Dubai is meant to make EV ownership simpler. With PlusX Electric, you can get your EV charged at your \nhome, office, or parking location without having to search for public charging stations. The service is designed to be \nconvenient in everyday life. You no longer have to structure your day around charger availability. \nYou book an instant or scheduled service on the app.`,
+    // title             : "Mobile EV Charging Dubai -\nDoorstep EV Charging by PlusX Electric",
+    content           : `Mobile EV charging in Dubai brings the charger to you, no queues, no detours, no wasted time. PlusX Electric delivers \na portable EV charger straight to your home, office, or parking spot, so your electric vehicle charges while you \nwork, sleep, or shop. Book an on-demand charge when you need it instantly, or schedule a \nsession at a time that fits your routine all through the PlusX Electric app.`,
+    primaryButtonText : `Download the App & Book`,
+    primaryButtonlink : "portablePage",
     secondTitle       : `What Is Mobile EV Charging in Dubai?`,
-    secondaryContent  : `Doorstep EV charging implies that a charging station will be brought to your EV, as opposed to driving to a public charging \nstation. You request a charge through the PlusX Electric app, and the team arrives with a Portable Pod to charge \nyour EV at your location. You need not spend time finding a charger.`,
+    secondaryContent  : `Mobile EV charging is a service that brings a fully equipped charging station directly to your electric vehicle , wherever \nit's parked. Instead of driving to a public station and waiting in line, you request a charge through the PlusX Electric \napp, and our team arrives at your location with a Portable Power Pod to charge your EV on the spot.`,
   },
 ];
 
@@ -13,7 +15,8 @@ function PortableIntro() {
   return (
     <>
       {introData.map((section, index) => (
-        <IntroSection key={index} title={section.title} content={section.content} secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} />
+        <IntroSection key={index} title={section.title} content={section.content} secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} primaryButton={true} 
+          primaryButtonText={section.primaryButtonText} primaryButtonlink={section.primaryButtonlink}/>
       ))}
     </>
   );

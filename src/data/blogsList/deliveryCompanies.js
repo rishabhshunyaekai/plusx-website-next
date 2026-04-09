@@ -24,7 +24,7 @@ export const deliveryCompanies = [
       `Long queues at busy chargers.`,
       `Inconsistent access to safe charging infrastructure.`,
     ],
-    footerText: `These challenges slow operations and reduce daily fleet output. With PlusX Electric's advanced mobile and <a href="https://plusxelectric.com/doorstep-ev-charging" target='_blank' rel="noopener noreferrer">doorstep charging solutions</a>, delivery businesses avoid delays and inefficiency.`,
+    footerText: `These challenges slow operations and reduce daily fleet output. With PlusX Electric's advanced mobile and <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target='_blank' rel="noopener noreferrer">doorstep charging solutions</a>, delivery businesses avoid delays and inefficiency.`,
   },
   {
     type: "heading",

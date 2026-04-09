@@ -1,4 +1,5 @@
 import HeroImage    from "@/components/roadsideAssistance/heroImage/heroImage";
+import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/roadsideAssistance/rsaIntro/rsaIntro";
 import Scenarios    from "@/components/roadsideAssistance/scenarios/scenarios";
 import BookingSteps from "@/components/roadsideAssistance/bookingSteps/bookingSteps";
@@ -50,13 +51,34 @@ const structuredData = {
       "price": "145",
       "availability": "https://schema.org/InStock"
     }
-  }
+}
+
+const breadCrumbList = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://plusxelectric.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "EV Breakdown Assistance",
+      "item": "https://plusxelectric.com/ev-breakdown-assistance"
+    }
+  ]
+}
 
 function EVBreakdownAssistancePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
+      <Breadcrumbs />
       <Intro />
       <Scenarios />
       <BookingSteps />

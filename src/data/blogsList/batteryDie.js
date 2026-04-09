@@ -8,7 +8,7 @@ export const batteryDie = [
   },
   {
     type: "paragraph",
-    text: `If this is something that sounds relatable, a step-by-step guide will show you how to handle this situation when your EV battery dies. From staying safe in your surroundings to using on-demand <a href="https://plusxelectric.com/doorstep-ev-charging" target="_blank" rel="noopener noreferrer"> doorstep EV charging</a> Dubai services like PlusX Electric, this guide covers everything to get moving again, without getting stuck on tow truck hassles.`,
+    text: `If this is something that sounds relatable, a step-by-step guide will show you how to handle this situation when your EV battery dies. From staying safe in your surroundings to using on-demand <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target="_blank" rel="noopener noreferrer"> doorstep EV charging</a> Dubai services like PlusX Electric, this guide covers everything to get moving again, without getting stuck on tow truck hassles.`,
   },
   {
     type: "heading",

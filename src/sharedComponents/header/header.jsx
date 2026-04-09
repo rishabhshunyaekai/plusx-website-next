@@ -38,7 +38,7 @@ function Header() {
   ]
 
   const chargingSolutionsOptions = [
-    { label: "Portable Charger",        path: "/doorstep-ev-charging" },
+    { label: "Portable Charger",        path: "/mobile-ev-charging-dubai" },
     { label: "Pickup & Dropoff",        path: "/ev-pickup-dropoff-charging-service" },
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
     { label: "EV Charger Installation", path: "/ev-chargers" },
@@ -109,7 +109,7 @@ function Header() {
                     <div className={style.invisibleContainer}>
                       <div className={style.navBar}>
                         <div className={style.navContainer}>
-                          <Link href="/doorstep-ev-charging" className={style.productIcons}>
+                          <Link href="/mobile-ev-charging-dubai" className={style.productIcons}>
                             <div className={style.icon}>
                               <Image src={Icon1} alt="public-charger" width={50} height={50} />
                             </div>

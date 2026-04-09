@@ -9,42 +9,66 @@ function PortablePodFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "Is there a call-out/service fee for EV charging in Dubai?",
+            "name"  : "What is mobile EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. PlusX Electric charges a <strong>call-out fee of AED 65</strong> to deliver a <strong>Portable Power Pod</strong> to your doorstep or exact location in Dubai. Any additional service details are shown in the app before you confirm your booking."
+                "text"  : "Mobile EV charging is an on-demand service where a Portable Power Pod is brought directly to your EV at your home, office, or parking location — no need to visit a public station."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "How much does EV charging cost in Dubai?",
+            "name"  : "How do I book mobile EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Pricing depends on the service selected and your location. The <strong>call-out fee is AED 65,</strong> and the full cost breakdown is displayed in the <strong>PlusX Electric app</strong> during booking."
+                "text"  : "Download the PlusX Electric app, select Portable Charger, choose your time slot, and our team will arrive at your location."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "Do you offer 24/7 mobile EV charging in Dubai?",
+            "name"  : "Is there a call-out fee for mobile EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, PlusX Electric offers <strong>24/7 mobile EV charging</strong> in Dubai, subject to real-time availability shown in the app. If you need urgent assistance, you can also choose the emergency option in the app."
+                "text"  : "Yes. PlusX Electric charges AED 65 + VAT for delivering the Portable Power Pod to your location."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "How long does it take to charge my EV with a mobile charger?",
+            "name"  : "How long does it take to charge an EV with a mobile charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Charging time depends on your EV model and current battery level. Typically, <strong>AC charging takes around 4–5 hours</strong> to charge <strong>up to ~80%,</strong> this depends on the vehicle and site conditions."
+                "text"  : "AC charging typically takes 4–5 hours to reach around 80%, depending on your EV model and battery level."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "I don’t have a charger at home — what are my options in Dubai?",
+            "name"  : "Which EV brands are supported?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "With PlusX Electric, you can book <strong>mobile EV charging</strong> through the app and get a Portable Power Pod delivered to your location."
+                "text"  : "All major brands, including Tesla, BYD, BMW, Mercedes, Audi, Porsche, Rolls-Royce, Cadillac, Polestar, and Lucid."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "Can I schedule a charging session in advance?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "Yes. You can book an instant on-demand charge or schedule a session at a time that suits you — both through the app."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "Which areas in Dubai does PlusX Electric cover?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "We cover all major areas across Dubai, including Downtown Dubai, Business Bay, Dubai Marina, and JLT."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "I don't have a charger at home — what are my options?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "Book mobile EV charging through the PlusX Electric app and get a Portable Power Pod delivered to your location — no installation needed."
             }
         }
     ]

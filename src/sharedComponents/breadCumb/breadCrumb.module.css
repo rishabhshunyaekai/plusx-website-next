@@ -1,0 +1,15 @@
+.breadCrumbWrapper {
+  padding-bottom: 30px;
+}
+
+.activeLink {
+  color: var(--color-primary);
+}
+
+.link {
+  cursor: pointer;
+}
+.link:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+}
