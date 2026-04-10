@@ -39,8 +39,43 @@ async function ChargersDetailsPage({ params }) {
   if (!product) return notFound();
 
   const similarProducts = chargers.filter((item) => item.slug !== slugs);
+  const breadCrumbList = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": `${BASE_URL}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "EV Chargers",
+        "item": `${BASE_URL}/ev-chargers`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AC DC EV Chargers",
+        "item": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name":  product.name || product.metaTitle,
+        "item": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers/${product.slug}`
+      }
+    ]
+  };
 
-  return <ProductDetails product={product} similarProducts={similarProducts} type="chargers" />;
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
+      <ProductDetails product={product} similarProducts={similarProducts} type="chargers" />;
+    </>
+  );
 }
 
 export default ChargersDetailsPage;

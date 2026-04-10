@@ -25,13 +25,19 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://plusxelectric.com/"
+      "item": `${BASE_URL}/`
     },
     {
       "@type": "ListItem",
       "position": 2,
+      "name": "EV Chargers",
+      "item": `${BASE_URL}/ev-chargers`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
       "name": "EV Accessories",
-      "item": "https://plusxelectric.com/ev-chargers/ev-accessories"
+      "item": `${BASE_URL}/ev-chargers/ev-accessories`
     }
   ]
 }
