@@ -7,7 +7,7 @@ function HeroImage() {
       <section className={style.intro}>
         <div className={style.bannerImage}>
           <div className={style.bannerContent}>
-            <h1><span className={style.primaryText}>Book EV Charging in</span><br /><span className={style.secondaryText}>Dubai Anytime, Anywhere</span></h1>
+            <h1><span className={style.primaryText}>Book EV Charging Service in</span><br /><span className={style.secondaryText}>Dubai Anytime, Anywhere</span></h1>
             <CTAButton className={style.downloadButton} text="Download Now" handler="appRedirect" />
           </div>
         </div>
