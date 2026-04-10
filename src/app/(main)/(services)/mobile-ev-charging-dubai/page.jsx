@@ -25,6 +25,36 @@ export const metadata = {
       "en-AE": `${BASE_URL}/mobile-ev-charging-dubai`,
     },
   },
+  openGraph     : {
+    title       : "Mobile EV Charging Dubai | Charge at Your Location | PlusX",
+    description : "Book mobile EV charging in Dubai from AED 65 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
+    url         : `${BASE_URL}/mobile-ev-charging-dubai`,
+    type        : "website",
+    siteName    : "PlusX Electric",
+    locale      : "en_AE",
+    images      : [
+      {
+        url      : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        secureUrl: "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        type     : "image/jpeg",
+        width    : 1200,
+        height   : 630,
+        alt      : "PlusX Electric mobile EV charging service in Dubai",
+      },
+    ],
+  },
+  twitter       : {
+    card        : "summary_large_image",
+    site        : "@plusxelectric",
+    title       : "Mobile EV Charging Dubai | Charge at Your Location | PlusX",
+    description : "Book mobile EV charging in Dubai from AED 65 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
+    images      : [
+      {
+        url : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
+        alt : "PlusX Electric mobile EV charging service in Dubai",
+      },
+    ],
+  },
 };
 
 const ServiceSchema = {
@@ -40,7 +70,7 @@ const ServiceSchema = {
     "@id"       : "https://plusxelectric.com/#localbusiness",
     "name"      : "PlusX Electric",
     "telephone" : "+971542796424",
-    "url"       : "https://plusxelectric.com/"
+    "url"       : `${BASE_URL}/`,
   },
   "areaServed": {
     "@type"             : "City",
@@ -101,13 +131,13 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://plusxelectric.com/"
+      "item": `${BASE_URL}/`,
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Mobile EV Charging Dubai",
-      "item": "https://plusxelectric.com/mobile-ev-charging-dubai"
+      "item": `${BASE_URL}/mobile-ev-charging-dubai`,
     }
   ]
 }

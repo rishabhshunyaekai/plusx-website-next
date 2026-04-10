@@ -15,7 +15,7 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              How PlusX Electric EV Roadside <br className={style.headingBreakline}/>Assistance Works
+              How PlusX Electric EV Rescue <br className={style.headingBreakline}/> Works
             </h2>
             <h3 className={style.bookingStepsSubHeading}><strong>Here are the steps to book the service:</strong></h3>
           </Animated>

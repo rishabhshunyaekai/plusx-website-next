@@ -16,7 +16,7 @@ function ProductDetails({product, similarProducts, type}) {
   return (
     <>
       <MultipleImage product={product} type={type} />
-      <Breadcrumbs />
+      <Breadcrumbs isHideForMobile={true}/>
       <Intro product={product.introData} />
       <Features product={product.features} />
       <SimiliarProduct product={similarProducts} url={redirectPath} />
