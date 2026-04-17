@@ -16,11 +16,13 @@ function EVCareHeroImage() {
           </div>
 
           <div className={style.headingSection}>
-            <h2 className={style.sharePrimaryText}>Complete Car Care</h2>
-            <h2 className={style.sharePrimaryText2}>for <span className={style.shareSecondaryText}>EV & Every Vehicle</span> in Dubai</h2>
+            <h1>
+              <span className={style.sharePrimaryText}>OFFERING COMPLETE CAR CARE</span><br/><br />
+              <span className={style.sharePrimaryText2}>FOR <span className={style.shareSecondaryText}>EVERY EV & ICE CAR</span> IN DUBAI </span>
+            </h1>
           </div>
 
-          <p className={style.secondaryText}>PlusX Electric and Service My Car have joined forces. Get <br className={style.breakLine}/> professional car servicing, wrapping, EV charging, and <br className={style.breakLine}/> accessories — all from one trusted partnership in Dubai.</p>
+          <p className={style.secondaryText}>Get professional car servicing, wrapping, EV <br className={style.breakLine}/> charging, and accessories - all from one<br className={style.breakLine}/> trusted partnership in Dubai.</p>
 
           <div className={style.buttonContainer}>
             <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="Book a Service Now" isRSA={true}/>

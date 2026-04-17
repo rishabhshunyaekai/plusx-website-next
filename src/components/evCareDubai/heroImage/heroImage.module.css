@@ -77,6 +77,7 @@
 .secondaryText {
   color: var(--color-secondary);
   line-height: 1.6;
+  font-size: 20px !important;
   /* font-weight: 600; */
 }
 
@@ -172,24 +173,24 @@
     font-size: 25px;
   }
   .secondaryText {
-    font-size: 14px;
+    font-size: 18px !important;
   }
 }
 
 @media (max-width: 767px) {
 .chargeShareBanner {
-    /* background: url(../../../assets/images/ev-charger-installation-page/mobile-banner.webp) center no-repeat; */
+    background: url(../../../assets/images/ev-care-dubai/mobile-banner.webp) top no-repeat;
     background-size: cover;
   }
   .container {
     padding: 180px 0;
   }
   .sharePrimaryText {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .shareSecondaryText {
-    font-size: 38px;
+    font-size: 25px;
   }
   /* .outlinerText {
     font-size: 14px;
@@ -199,7 +200,7 @@
     font-size: 14px;
   }
   .secondaryText {
-    font-size: 14px;
+    font-size: 16px !important; 
   }
 }
 
@@ -209,11 +210,11 @@
   }
 
   .sharePrimaryText {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .shareSecondaryText {
-    font-size: 30px;
+    font-size: 22px;
     padding: 8px 10px;
   }
   .chargerButton, .serviceButton {
@@ -236,15 +237,23 @@
     flex-direction: column;
     width: fit-content;
   }
+  .sharePrimaryText {
+    font-size: 20px;
+  }
+
+  .shareSecondaryText {
+    font-size: 20px;
+    padding: 8px 10px;
+  }
 }
 
 @media (max-width: 410px) {
   .sharePrimaryText {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .shareSecondaryText {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .buttonContainer {
