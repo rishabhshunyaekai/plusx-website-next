@@ -25,11 +25,29 @@
 }
 
 .secondaryHeading {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.8rem;
   color: var(--color-secondary);
+}
+
+.outlinerText {
+  display: inline-block;
+  font-size: 22px;
+  color: var(--color-secondary);
+  font-weight: 600;
+  border-top: 2px solid var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary);
+  padding: 10px 0;
+  width: fit-content;
+}
+
+.buttonContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .greenBox {
@@ -55,7 +73,11 @@
   color: var(--color-tertiary);
   padding: 10px 20px;
   border-radius: 10px;
-  margin-top: 8px;
+}
+
+.WhiteBox:hover {
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
 }
 
 .subText {
@@ -111,12 +133,22 @@
   .footNote {
     font-size: 0.95rem;
   }
+  .outlinerText {
+    padding-left: 0px;
+    font-size: 18px;
+  }
+  .breakLine {
+    display: none;
+  }
 }
 
 @media (max-width: 670px) {
   .rsaBanner {
     background: url(../../../../assets/images/landing-pages/rsa/desktop-banner.webp) center no-repeat;
     background-size: cover;
+  }
+  .outlinerText {
+    font-size: 16px;
   }
 }
 
@@ -136,9 +168,18 @@
   .footNote {
     font-size: 0.75rem;
   }
+  .greenBox,.WhiteBox {
+    font-size: 14.4px;
+  }
 }
 
 @media (max-width: 370px) {
+  .buttonContainer {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: fit-content;
+  }
   .mainHeading {
     font-size: 1.1rem;
   }

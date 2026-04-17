@@ -13,8 +13,8 @@ function CTA() {
             UAE&apos;s first and largest vehicle servicing network — now available exclusively for PlusX Electric customers. Free pickup & delivery, 360° digital health check, and prices up to 50% cheaper than agencies.
           </p>
           <div className={style.buttonContainer}>
-            <CTAButton className={style.chargerButton} text="Book a Service Now" handler="scrollToCarServiceForm" />
-            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="CONNECT WITH US"/>
+            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book a Service Now" isRSA={true}/>
+            <a href="tel:+971543061473" className={style.chargerButton}>Call Now</a>
           </div>
         </Animated>
 
@@ -44,7 +44,7 @@ function CTA() {
               <li>RTA Passing Checks</li>
             </ul>
 
-            <button className={style.bookBtn}>Book Now</button>
+            <CTAButton className={style.bookBtn} text="Book Now" handler="scrollToCarServiceForm" />
           </div>
 
           <div className={`${style.pricingCard} ${style.popular}`}>
@@ -71,7 +71,7 @@ function CTA() {
               <li>Certified Technicians</li>
             </ul>
 
-            <button className={style.primaryBtn}>Book Now</button>
+            <CTAButton className={style.primaryBtn} text="Book Now" handler="scrollToCarServiceForm" />
           </div>
 
           <div className={style.pricingCard}>
@@ -96,7 +96,7 @@ function CTA() {
               <li>White-Glove Delivery</li>
             </ul>
 
-            <button className={style.quoteBtn}>Get Quote</button>
+            <CTAButton className={style.quoteBtn} text="Get Quote" handler="scrollToCarServiceForm" />
           </div>
 
         </Animated>

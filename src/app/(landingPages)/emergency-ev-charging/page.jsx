@@ -11,8 +11,8 @@ import FAQ            from "@/components/landingPages/rsa/faq/faq";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
-  title         : "EV Roadside Assistance Dubai | Mobile EV Charging",
-  description   : "Stranded with a low EV battery? PlusX Electric provides fast, safe, and DEWA-approved mobile EV charging across Dubai.",
+  title         : "Emergency EV Charging Dubai | 24/7 Roadside Assistance",
+  description   : "EV battery dead in Dubai? We bring mobile charging to your location in under 60 minutes*. Jump-start included. No towing. 24/7 service. Call PlusX now.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "ev roadside assistance in dubai", "emergency ev charging in dubai", "emergency ev roadside assistance", 
   //                  "book ev roadside assistance service in dubai", "emergency ev roadside assistance near me"],
   alternates    : {
@@ -29,8 +29,8 @@ function EmergencyEVChargingPage() {
       <HeroImage />
       <Intro />
       <Values />
-      <Brands />
       <BookingCard />
+      <Brands />
       <OtherServices />
       <Connect />
       <DownloadApp />

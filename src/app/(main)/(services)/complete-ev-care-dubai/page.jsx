@@ -6,7 +6,6 @@ import Services       from "@/components/evCareDubai/services/services";
 import OtherServices  from "@/components/evCareDubai/otherservices/otherservices";
 import ProtectCar     from "@/components/evCareDubai/protectCar/protectCar";
 import Form           from "@/components/evCareDubai/form/form";
-// import Needs          from "@/components/evCareDubai/needs/needs";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
@@ -25,14 +24,13 @@ function EVCareDubaiPage() {
   return (
     <>
       <HeroImage />
-      <Services />
-      <BookingSteps />
       <Values />
+      <BookingSteps />
+      <Services />
       <ProtectCar />
       <CTA />
       <OtherServices />
       <Form />
-      {/* <Needs /> */}
     </>
   )
 }

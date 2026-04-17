@@ -62,6 +62,27 @@ function BlogPage({ blogContent }) {
                     {block?.footerText && <p className={`${style.content}`} dangerouslySetInnerHTML={{ __html: block?.footerText }} /> }
                   </div>
                   );
+
+              case "table":
+                return (
+                  <div key={index} className={style.tableWrapper}>
+                    {block?.headerText && (
+                      <p className={`${style.content} ${style.marginBottom_10}`} dangerouslySetInnerHTML={{ __html: block?.headerText }} />
+                    )}
+
+                    <table className={style.table}>
+                      <thead>
+                        <tr>{block?.columns?.map((col, i) => <th key={i} className={style.th}>{col}</th> )}</tr>
+                      </thead>
+
+                      <tbody>
+                        {block?.rows?.map((row, i) => (
+                          <tr key={i}>{row?.map((cell, j) => <td key={j} className={style.td} dangerouslySetInnerHTML={{ __html: cell }} /> )}</tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                );
  
               case "ctaButton":
                 return (
@@ -79,6 +100,11 @@ function BlogPage({ blogContent }) {
                     {block?.schema && (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(block?.schema) }} /> )}
                     <Faq faqs={block?.schema?.mainEntity} />
                   </article>;
+
+              case "schema":
+                return block?.schemas?.map((schema, i) => (
+                  <script key={`${index}-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+                ));
  
               default:
                 return null;

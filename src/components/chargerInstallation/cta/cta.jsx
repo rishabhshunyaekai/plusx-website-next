@@ -7,9 +7,9 @@ function CTA() {
     <div className={style.main}>
       <div className={`container text-center`}>
         <Animated className={`${style.ctaContainer}`} animation="fade" easing="ease-in" duration={1000}>
-          <h2 className={style.ctaHeading}>Book EV Charger Installation in the UAE</h2>
+          <h2 className={style.ctaHeading}>Book EV Charger Installation in Dubai & UAE</h2>
           <p className={style.ctaContent}>
-            Looking to have an EV charging station installed at home or commercial premises? At PlusX Electric, we are ready to offer assistance from the point of choosing to install the EV charger.
+            Looking to install an EV charger at home or on commercial premises? PlusX Electric handles everything  from choosing the right charger to final installation.
           </p>
           <div className={style.buttonContainer}>
             <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book Free Consultation"/>

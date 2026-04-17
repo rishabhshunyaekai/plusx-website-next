@@ -71,7 +71,7 @@ const structuredData = {
     "url"         : `${BASE_URL}/`,
     "logo"        : "https://plusxelectric.com/logo-icon.svg",
     "image"       : "https://plusxelectric.com/images/plusx-electric-ev-rescue.jpg",
-    "telephone"   : "+971542796424",
+    "telephone"   : "+971543061473",
     "email"       : "media@plusxelectric.com",
     "address": {
       "@type"           : "PostalAddress",
@@ -154,7 +154,7 @@ const structuredData = {
     "serviceUrl": `${BASE_URL}/ev-breakdown-assistance`,
     "servicePhone": {
       "@type": "ContactPoint",
-      "telephone": "+971542796424",
+      "telephone": "+971543061473",
       "contactType": "emergency",
       "availableLanguage": ["English", "Arabic"],
       "areaServed": "AE"

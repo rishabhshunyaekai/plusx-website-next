@@ -23,6 +23,7 @@ import Holiday                        from "@/assets/images/homepage/blogs/holid
 import TrustPlusX                     from "@/assets/images/homepage/blogs/trust-plusx.webp";
 import Diesel                         from "@/assets/images/homepage/blogs/diesel.webp";
 import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
+import Emergency                      from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -49,8 +50,18 @@ import { roadTrips }          from "@/data/blogsList/roadTrip";
 import { evRise }             from "@/data/blogsList/evRise";
 import { locations }          from "@/data/blogsList/locations";
 import { future }             from "@/data/blogsList/future";
+import { emergencyEV }        from "@/data/blogsList/emergency-ev-charging";
  
 export const testimonials = [
+  {
+    slug            : "emergency-ev-charging-in-dubai",
+    title           : "Emergency EV Charging in Dubai: Fast Help When You’re Running Low",
+    image           : Emergency,
+    alt             : "PlusX Electric van charging a Tesla roadside in Dubai",
+    metaTitle       : "Emergency EV Charging in Dubai | Fast Help When Battery Runs Low",
+    metaDescription : "Running low on EV battery in Dubai? Discover how emergency EV charging offers fast, on-demand help to get you back on the road with services like PlusX Electric.",
+    content         : emergencyEV,
+  },
   {
     slug            : "why-dubai-ev-owners-are-choosing-roadside-assistance-over-towing",
     title           : "Why Dubai EV Owners Are Choosing Roadside Assistance Over Towing",
@@ -59,7 +70,6 @@ export const testimonials = [
     metaTitle       : "​Why Every EV Owner Should Choose EV Roadside Assistance",
     metaDescription : "Compare EV roadside assistance vs towing in Dubai. Discover why mobile charging is safer, faster, and more affordable with PlusX Electric support.",
     content         : towingContent,
-      
   },
   {
     slug            : "why-diesel-ev-chargers-are-not-the-eco-friendly-solution-dubai-needs",

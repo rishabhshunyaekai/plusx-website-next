@@ -14,7 +14,7 @@ function Scenarios() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           
             <Animated className={`${style.scenariosContent} order-2 lg:order-1`} animation="fade" easing="ease-in" duration={1000}>
-              <h2 className={style.scenariosHeading}>Get Professional Assistance in Selecting an Appropriate EV Charger</h2>
+              <h2 className={style.scenariosHeading}>Choose the Right EV Charger for Your Home or Business</h2>
 
               <p className={style.scenariosIntro}>We don’t just install chargers like many other companies. We first educate our customers and then provide solutions
                 based on their specific needs, from selecting the right charger to the final installation.</p>

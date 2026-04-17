@@ -14,7 +14,7 @@ function CTAButton({ className, text, handler }) {
       case "scrollToAppSection"             : scrollToAppSectionWithRedirectionHandler();               break;
       case "scrollToFooter"                 : scrollToSpecificSectionViaID("footer");                   break;
       case "scrollToCarService"             : scrollToSpecificSectionViaID("carServices");              break;
-      case "scrollToCarServiceForm"         : scrollToSpecificSectionViaID("getAQuoteForm");            break;
+      case "scrollToCarServiceForm"         : scrollToSpecificSectionViaID("getAQuoteForm", true);      break;
       default:                                                                                          break;
     }
   };

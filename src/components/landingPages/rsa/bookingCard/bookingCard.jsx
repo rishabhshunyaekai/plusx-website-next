@@ -13,17 +13,17 @@ import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 const steps = [
   {
     icon        : AppIcon,
-    text        : "Download & Install The PlusX Electric App",
+    text        : "Call or WhatsApp — share your location",
     showStores  : true,
   },
   {
-    icon        : VehicleLocation,
-    text        : "Select Your Location & Vehicle Type",
+    icon        : TeamIcon,
+    text        : "EV rescue team dispatched within minutes",
     showStores  : false,
   },
   {
-    icon        : TeamIcon,
-    text        : "Our Service team will reach you at your selected location",
+    icon        : VehicleLocation,
+    text        : "Charged on the spot — you're back on the road",
     showStores  : false,
   },
 ];
@@ -33,7 +33,7 @@ function BookingCard() {
     <section className={styles.featuredService}>
       <div className={`container ${styles.container}`}>
         <Animated animation="fade" easing="ease-in" duration={1000}>
-          <SecondaryHeading title="How to Book Emergency EV Roadside Assistance Service ?" />
+          <SecondaryHeading title="What Happens When You Call Us" />
         </Animated>
         
         <Animated className={styles.stepsGrid} animation="fade" easing="ease-in" duration={1000}>
@@ -42,7 +42,7 @@ function BookingCard() {
                 <Image src={step.icon} alt="icon" className={styles.icon} width={80} height={80} />
                 <div className="">
                   <p className={styles.text}>{step.text}</p>
-                  {step.showStores && (
+                  {/* {step.showStores && (
                     <div className={`${styles.imageContainer}`}>
                       <Link href={APPLE_STORE_URL} target="_blank" rel="noopener noreferrer">
                         <Image src={AppStore} alt="App Store" width={100} height={28} />
@@ -51,7 +51,7 @@ function BookingCard() {
                         <Image src={PlayStore} alt="Play Store" width={100} height={28} />
                       </Link>
                     </div>
-                  )}
+                  )} */}
                 </div>
             </div>
           ))}

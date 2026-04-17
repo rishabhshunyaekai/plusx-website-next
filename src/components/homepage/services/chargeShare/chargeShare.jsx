@@ -3,7 +3,7 @@ import Image      from "next/image";
 import style      from "./chargeShare.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
 import Charging   from "@/assets/images/homepage/public-charging.png";
-import Share      from "@/assets/images/homepage/ev-charge-share.png";
+import Share      from "@/assets/images/homepage/ev-car-service.png";
 
 function ChargerShare() {
   return (
@@ -26,14 +26,14 @@ function ChargerShare() {
 
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
-              <h2 className={style.cardTitle}>EV Charge <br className={style.breakLine} /> Share</h2>
-              <p className={style.cardSubTitle}>List your private charger or find <br className={`${style.paraBreak}`}/>available chargers near you.</p>
+              <h2 className={style.cardTitle}>EV Car <br className={style.breakLine} /> Detailing Service</h2>
+              <p className={style.cardSubTitle}>Give your EV the glow it deserves. <br className={`${style.paraBreak}`}/>We clean, polish, and protect — tailored for electric vehicles.</p>
               <div className={style.buttonContainer}>
-                <Link href="/share-private-ev-charger" className={style.cardButton}>Know More</Link>
+                <Link href="/complete-ev-care-dubai" className={style.cardButton}>Know More</Link>
               </div>
 
               <div className={style.cardImageWrapper}>
-                <Image className={style.cardImage} src={Share} alt="EV Charge Share" width={405} height={370} />
+                <Image className={style.cardImage} src={Share} alt="EV Car Detailing Service" width={405} height={370} />
               </div>
             </Animated>
           </div>

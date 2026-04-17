@@ -67,6 +67,24 @@
   text-align: center;
 }
 
+.chargerButton {
+  margin-top: 30px;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: 15px 14px;
+  border-radius: 10px;
+  border: 2px solid var(--color-primary);
+  font-size: 15px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+.chargerButton:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
 /* TABLET */
 @media (max-width: 992px) {
   .bookingStepsHeading {
@@ -107,6 +125,11 @@
   .footerBreakline,
   .stepsArrowImage {
     display: none;
+  }
+
+  .chargerButton {
+    font-size: 14px;
+    padding: 6px 8px;
   }
 }
 

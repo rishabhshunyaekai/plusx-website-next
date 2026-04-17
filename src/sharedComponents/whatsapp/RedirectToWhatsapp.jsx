@@ -4,8 +4,8 @@ import Image                from "next/image";
 import useAdvertisingWpMess from "@/hooks/useAdvertisingWpMess";
 import { BsWhatsapp }       from "react-icons/bs";
 
-function RedirectToWhatsapp({className, text, isShowIcon, page, imageSrc,}) {
-  const { whatsappUrl } = useAdvertisingWpMess(page);
+function RedirectToWhatsapp({className, text, isShowIcon, page, imageSrc, isRSA = false}) {
+  const { whatsappUrl } = useAdvertisingWpMess(page, isRSA);
 
   return (
     <a href={whatsappUrl} target="__blank" className={className} rel="noreferrer" id="whatsappIcon">

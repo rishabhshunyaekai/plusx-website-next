@@ -5,7 +5,8 @@ import PortablePod    from "@/components/homepage/services/portablePod/portableP
 import RSA            from "@/components/homepage/services/roadsideAssistance/roadsideAssistance";
 import PickupDropoff  from "@/components/homepage/services/pickupDropoff/pickupDropoff";
 import Charger        from "@/components/homepage/services/chargerInstallation/chargerInstallation";
-import ChargerShare   from "@/components/homepage/services/chargeShare/chargeShare";
+import ChargerShare   from "@/components/homepage/services/evChargeShare/evChargeShare";
+import CarService     from "@/components/homepage/services/chargeShare/chargeShare";
 import CTASection     from "@/components/homepage/ctaSection/ctaSection";
 import Partners       from "@/components/homepage/partnership/partnership";
 import Offers         from "@/components/homepage/offers/offers";
@@ -69,6 +70,7 @@ function HomePage() {
       <PickupDropoff />
       <Charger />
       <ChargerShare />
+      <CarService />
       <CTASection />
       <Partners />
       <Offers />

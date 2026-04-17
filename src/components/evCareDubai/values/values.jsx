@@ -22,10 +22,6 @@ const valuesCardData = [
     icon: Noclear,
     text: (<><strong>12-Month Warranty:</strong> All parts & labour fully guaranteed.</>),
   },
-  // {
-  //   icon: Noclear,
-  //   text: (<><strong>24/7 Support:</strong> Emergency EV & roadside assistance always on.</>),
-  // },
 ];
 
 function Values() {

@@ -1,3 +1,4 @@
+import Link       from "next/link";
 import Features   from "@/sharedComponents/features/features";
 import Property   from "@/assets/images/ev-charger-installation-page/property.webp";
 import Service    from "@/assets/images/ev-charger-installation-page/services.webp";
@@ -6,13 +7,13 @@ import Service    from "@/assets/images/ev-charger-installation-page/services.we
 const featuresData  = [
   {
     title       : "EV Charger Installation for Every Property Type",
-    description : "We not only install EV chargers at residential properties such as villas, apartments, and flats, as well as commercial locations like hotels, warehouses, office spaces, shopping malls, townhouses, and fleet or corporate sites across different property types. ",
+    description : "We install EV chargers at residential properties like villas, apartments, and flats, as well as commercial locations including hotels, warehouses, offices, shopping malls, and fleet depots.",
     imageSrc    : Property,
     reverse     : true,
   },
   {
     title       : "EV Charger Installation Services Across UAE",
-    description : "Our team offers charger supply and installation support in Dubai. But we are not limited to Dubai. Our EV charger installation service is available across the UAE, whether it is Ras Al Khaimah, Abu Dhabi, or Sharjah. We not only provide installation, but you can also buy EV chargers and accessories through our website or app.",
+    description : (<>While we&apos;re based in Dubai, our EV charger installation service covers the entire UAE, including Abu Dhabi, Sharjah, and Ras Al Khaimah. You can also buy EV chargers and accessories through our website or app. <br />Need charging before your installation is complete? Try our <Link href={"/mobile-ev-charging-dubai"}>mobile EV charging service</Link> or <Link href={"/ev-pickup-dropoff-charging-service"}>pickup and dropoff charging</Link>.</>),
     imageSrc    : Service,
   },
 ];

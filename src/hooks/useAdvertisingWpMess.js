@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 
-function useAdvertisingWpMess(type) {
+function useAdvertisingWpMess(type, isRSA=false) {
   const pathname      = usePathname();
   const routeMessages = {
     "/on-demand-ev-charging"                : `Hi PlusX Electric Team👋\nI’m looking for On-Demand EV Charging at my location.`,
@@ -11,7 +11,7 @@ function useAdvertisingWpMess(type) {
     "/ev-breakdown-assistance"              : `Hi PlusX Electric, \nI need emergency EV help in Dubai. Please assist.`,
     "/ev-car-insurance"                     : `Hi PlusX Electric 👋\n\nI’m looking for EV Insurance. \nVehicle Make & Model: \nEmirates: `,
     "/ev-chargers"                          : `Hi PlusX Electric Team ⚡\nI’m interested in installing a Fixed EV Charger.`,
-    // "/complete-ev-care-dubai"               : `Hi, I’m looking for your services. Please let me know more about: \n\n1- EV Charging Service \n2-  Car Service & Maintenance `,
+    "/complete-ev-care-dubai"               : `Hi PlusX Electric 👋 \n I'd like to book your EV Car Detailing service. \n\n🚗 Vehicle: \n📍 Location: \n📅 Preferred Date: \n\nPlease share available packages and pricing. Thank you!`,
     // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\nI’m looking for an EV charger. Please assist me with options and pricing. \nMy location & vehicle is: `,
     // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\n I’m looking for a charger installation service. \nMy location is: `,
   };
@@ -31,7 +31,9 @@ function useAdvertisingWpMess(type) {
   };
 
   const whatsappMessage = encodeURIComponent(getWhatsappMessage());
-  const whatsappUrl     = `https://api.whatsapp.com/send?phone=+971542796424&text=${whatsappMessage}`;
+  const whatsappUrl = isRSA
+    ? `https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`
+    : `https://api.whatsapp.com/send?phone=+971542796424&text=${whatsappMessage}`;
   return { whatsappUrl }
 }
 

@@ -16,7 +16,7 @@ function BookingSteps() {
             <h2 className={style.bookingStepsHeading}>
               How to Book EV Charger <br className={style.headingBreakline}/>Installation Through the PlusX App
             </h2>
-            <h3 className={style.bookingStepsSubHeading}><strong>Here are the simple steps to book your EV charger installation</strong></h3>
+            {/* <h3 className={style.bookingStepsSubHeading}><strong>Here are the simple steps to book your EV charger installation</strong></h3> */}
           </Animated>
         </div>
 

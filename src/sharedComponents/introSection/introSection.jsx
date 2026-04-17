@@ -4,9 +4,10 @@ import Animated         from "@/sharedComponents/animatedComponent/animated";
 import MainHeading      from "../heading/mainHeading";
 import SecondaryHeading from "../heading/secondaryHeading";
 import CTAButton        from "../ctaButton/ctaButton";
+import RedirectToWhatsapp from "../whatsapp/RedirectToWhatsapp";
 
 function IntroSection({ title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1, primaryButton = false, 
-                        primaryButtonText, primaryButtonlink, secondaryButton = false, secondaryButtonText, secondaryButtonlink }) {
+                        primaryButtonText, primaryButtonlink, secondaryButton = false, secondaryButtonText, secondaryButtonlink, whatsapp = false, whatsappText, isRSA=false }) {
 
   return (
     <section className={style.introSection}>
@@ -76,6 +77,12 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
         {secondaryButton && (
           <div className={`${style.buttonConatiner}`}>
             <Link href={`${secondaryButtonlink}`} className={style.links}>{secondaryButtonText}</Link>
+          </div>
+        )}
+
+        {whatsapp && (
+          <div className={`${style.buttonConatiner}`}>
+            <RedirectToWhatsapp className={style.links} text={whatsappText} isRSA={isRSA}/>
           </div>
         )}
       </div>

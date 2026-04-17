@@ -68,7 +68,7 @@ function BookingSteps() {
             <p className={style.bookingStepsFooter}>
               As per our service records, we typically reach customers <strong>within 60 minutes</strong>,<br className={style.footerBreakline}/> depending on location and unforeseen conditions.
             </p>
-            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Get Emergency EV Help" />
+            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Get Emergency EV Help" isRSA={true} />
           </Animated>
         </div>
       </div>

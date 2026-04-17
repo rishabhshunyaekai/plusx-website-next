@@ -1,3 +1,4 @@
+import Link             from "next/link";
 import BenefitsCard     from "@/sharedComponents/benefitsCard/benefitsCard";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import ChargeEV         from "@/assets/images/landing-pages/charger-Installation/charge-ev.svg";
@@ -6,7 +7,14 @@ import Maintaince       from "@/assets/images/landing-pages/charger-Installation
 
 const benefits = [
   { icon: ChargeEV,   text: "3 Years Warranty" },
-  { icon: CarRepair,  text: "1 Free Roadside Assistance Service for the First Year" },
+  { icon: CarRepair,  text: (
+      <> 1 Free{" "}
+        <Link href="/ev-breakdown-assistance">
+          Roadside Assistance
+        </Link>{" "}
+        Service for the First Year
+      </>
+    )},
   { icon: Maintaince, text: "1 Free Preventive Maintenance in  The First Year" },
 ];
 const isOdd = benefits.length % 2 !== 0;
@@ -15,9 +23,9 @@ function Benefits() {
   return (
     <section className={`wrapper`}>
       <div className={`container`}>
-        <SecondaryHeading title={`Get Additional Benefits with\n PlusX Electric EV Charger Installation`} />
+        <SecondaryHeading title={`What's Included With Every EV Charger Installation`} />
 
-        <p className="!pb-8 text-center">PlusX Electric offers more than just installation. You get an end-to-end<br className="hidden md:block"/> reliable, and transparent service experience</p>
+        <p className="!pb-8 text-center">PlusX Electric offers more than just installation. Every package includes a<br className="hidden md:block"/> reliable, end-to-end, and transparent service experience.</p>
 
         <div className={`grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2 ${ isOdd ? "lg:grid-cols-3" : "lg:grid-cols-2" }`}>
           {benefits.map((value, index) => {

@@ -8,6 +8,7 @@ import { FaFacebookF }  from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram }  from "react-icons/fa";
 import { FaXTwitter }   from "react-icons/fa6";
+import { TbPhoneCall }  from "react-icons/tb";
 // import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function Footer() {
@@ -59,7 +60,7 @@ function Footer() {
                 <li><Link href="/contact-us">Contact us</Link></li>
                 <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
                 <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-                <li><a href="tel:+971542796424" className={style.callUs} rel="noreferrer">Call Us</a></li>
+                <li><a href="tel:+971542796424" className={style.callUs} rel="noreferrer"><TbPhoneCall /> Call Us</a></li>
               </ul>
               <div className={style.socialLinks}>
                 <Link href="https://twitter.com/plusxelectric" target="_blank" rel="noopener noreferrer" className="twitter" aria-label="Follow us on Twitter"><FaXTwitter /></Link>

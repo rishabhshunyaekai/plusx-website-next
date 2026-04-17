@@ -9,27 +9,28 @@ function WhyChoose() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
 
-          <div className={`${style.isTablet}`}>
+          {/* <div className={`${style.isTablet}`}>
             <h2 className={style.whyWeChoose}>
               Why Choose PlusX Electric <br className={style.headingBreakLine} /> for EV Charger Installation?
             </h2>
-          </div>
+          </div> */}
 
-          <div className={style.imageWrapper}>
+          <div className={`${style.imageWrapper} order-2 md:order-2 lg:order-1`}>
             <Image src={Plusx} alt="EV Charger Installation" width={555} height={555}/>
           </div>
           
-          <Animated className={style.rightContent} animation="fade" easing="ease-in" duration={1000}>
-            <h2 className={`${style.whyWeChoose} ${style.isDesktop}`}>
+          <Animated className={`${style.rightContent} order-1 md:order-1 lg:order-2`} animation="fade" easing="ease-in" duration={1000}>
+            {/* <h2 className={`${style.whyWeChoose} ${style.isDesktop}`}> */}
+            <h2 className={`${style.whyWeChoose}`}>
               Why Choose PlusX Electric <br className={style.headingBreakLine} /> for EV Charger Installation?
             </h2>
 
             <ul className={style.keyPoint}>
-              <li>Provides Charger and installation together (if you want both)</li>
-              <li>Installation only solution if you already have a charger.</li>
-              <li>An experienced team to help in AC and DC charger installation.</li>
-              <li>Expert consultation so you install the right charger for your EV and daily usage.</li>
-              <li>Easy tracking of your charger and installation records on PlusX App</li>
+              <li>Charger supply and installation bundled together</li>
+              <li>Installation-only service if you already own a charger</li>
+              <li>An experienced team to help in AC and DC charger installation</li>
+              <li>Expert consultation so you install the right charger for your EV and daily usage</li>
+              <li>Track your charger status and installation records on the PlusX App</li>
             </ul>
           </Animated>
 

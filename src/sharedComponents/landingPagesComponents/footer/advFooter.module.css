@@ -93,6 +93,9 @@
 }
 
 .callUs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: var(--color-primary);
   padding: 8px 20px;
   border-radius: 7px;
@@ -102,6 +105,13 @@
   text-decoration: none;
   color: var(--color-secondary) !important;
   border: none;
+  width: fit-content;
+}
+
+.callUs:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary) !important;
+  box-shadow: 0 2px 4px var(--color-shadow);
 }
 
 .footerLine {

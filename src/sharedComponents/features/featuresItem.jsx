@@ -12,7 +12,7 @@ function FeatureItem({ title, description, offeringSecondDesc, imageSrc, reverse
       </Animated>
 
       <Animated animation="fade" easing="ease-in" duration={1000}>
-        <h3 className={style.featureTitle}>{title}</h3>
+        <h2 className={style.featureTitle}>{title}</h2>
         <p className={style.featureDescription}>{description}</p>
 
         {offeringSecondDesc && <p className={style.featureDescription}>{offeringSecondDesc}</p>}
