@@ -109,26 +109,58 @@ export const leasingRenting = [
             driving an EV. As more people and businesses make the switch, the
             future of sustainable transportation in the UAE looks bright.`,
   },
-  // {
-  //   type: "heading",
-  //   level: 2,
-  //   text: "FAQ's"
-  // },
-  // {
-  //   type: "faq",
-  //   schema :{
-  //     "@context"  : "https://schema.org",
-  //     "@type"     : "FAQPage",
-  //     mainEntity: [
-  //       {
-  //         "@type" : "Question",
-  //         "name"  : " ",
-  //         "acceptedAnswer": {
-  //             "@type" : "Answer",
-  //             "text"  : " "
-  //         }
-  //       }
-  //     ]
-  //   }
-  // }
+  {
+    type: "heading",
+    level: 2,
+    text: "FAQ's"
+  },
+  {
+    type: "faq",
+    schema :{
+      "@context"  : "https://schema.org",
+      "@type"     : "FAQPage",
+      mainEntity: [
+        {
+          "@type" : "Question",
+          "name"  : "How much does it cost to lease an electric car in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Monthly EV lease payments in the UAE typically range from AED 2,000 to AED 3,500 depending on the model and plan. Most leases include insurance, maintenance, and roadside assistance. This makes leasing cheaper upfront than buying, though long-term ownership may cost less overall."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Is it better to lease or buy an electric car in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Leasing suits drivers who want lower upfront costs, included maintenance, and the flexibility to upgrade models every 1–2 years. Buying makes more sense if you plan to keep the car long-term and want to build equity. For those unsure about committing to an EV, leasing is a lower-risk way to try it."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Can I rent an electric car for a short period in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Yes. Several providers offer monthly EV subscriptions with no long-term commitment. Plans typically include insurance and maintenance, so you only pay the monthly fee and charging costs. This is popular with expats, tourists, and drivers who want to test an EV before purchasing."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Does EV leasing in the UAE include charging costs?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "No. Most UAE EV leases cover insurance, maintenance, and roadside assistance, but charging is the driver's responsibility. Home charging through DEWA costs around AED 0.29/kWh, while public fast chargers are more expensive. Factor in AED 100–150/month for charging depending on your driving distance."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "What happens to charging if I lease an EV and live in an apartment?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Leased EVs rely on the same charging options as owned EVs. Apartment residents can use DEWA's public network, workplace chargers, or mobile charging services. Some lease providers can advise on charging solutions, but the infrastructure at your building is your responsibility to arrange."
+          }
+        }
+      ]
+    }
+  }
 ];

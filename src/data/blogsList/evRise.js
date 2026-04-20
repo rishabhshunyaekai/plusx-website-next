@@ -100,26 +100,58 @@ export const evRise = [
             businesses increasingly adopt EVs, the future of sustainable
             transportation in the UAE looks promising.`
   },
-// {
-//   type: "heading",
-//   level: 3,
-//   text: "FAQ's"
-// },
-//   {
-//     type: "faq",
-//     schema :{
-//       "@context"  : "https://schema.org",
-//       "@type"     : "FAQPage",
-//       mainEntity: [
-//         {
-//           "@type" : "Question",
-//           "name"  : "1. ",
-//           "acceptedAnswer": {
-//               "@type" : "Answer",
-//               "text"  : ""
-//           }
-//         }
-//       ]
-//     }
-//   }
+{
+  type: "heading",
+  level: 3,
+  text: "FAQ's"
+},
+  {
+    type: "faq",
+    schema :{
+      "@context"  : "https://schema.org",
+      "@type"     : "FAQPage",
+      mainEntity: [
+        {
+          "@type" : "Question",
+          "name"  : "Is it worth buying an electric car in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Yes. Home charging costs around AED 0.29/kWh through DEWA, far cheaper than petrol at over AED 3/litre. UAE incentives include reduced registration fees, free Salik tags, and free parking in Dubai. With lower maintenance costs and a maturing used EV market, total ownership cost is now competitive with petrol vehicles."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "What EV incentives does the UAE government offer?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Dubai offers reduced registration fees, free designated parking, complimentary Salik toll tags, and subsidised charging through DEWA's Green Charger network. Abu Dhabi has similar benefits under its own framework. The national EV policy targets 50% electric vehicles on UAE roads by 2050. Incentives are updated regularly — check RTA or DEWA for current details."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "How does Dubai's heat affect EV battery life?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Summer heat can reduce EV range by 10–20% due to battery cooling and AC usage. Most EVs sold in the UAE now include thermal management systems built for hot climates. Manufacturers offer 8–10 year battery warranties regardless of conditions. Charging during cooler hours and keeping battery levels between 20–80% helps preserve battery health."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "How many EV charging stations are there in Dubai?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Dubai has over 1,860 charging points as of early 2026 through DEWA's Green Charger network. Additional stations are available at ENOC service stations and Tesla Superchargers. Drivers can locate chargers using the DEWA Smart App, PlugShare, or DubaiNow. Guest mode charging is also available without a registered account."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Can I charge an EV at home in a Dubai apartment?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "It depends on your building. Apartments need management approval and sufficient electrical capacity. Newer developments often include pre-installed charging infrastructure. Villa owners have an easier path — a wall box charger costs AED 2,000–4,000 and charges overnight in 4–6 hours. Alternatives include public chargers, shared community setups, or mobile charging services."
+          }
+        }
+      ]
+    }
+  }
 ];

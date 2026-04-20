@@ -247,8 +247,8 @@ export const testimonials = [
     title           : "The Rise of Electric Vehicles in the UAE A Comprehensive Overview",
     image           : MediaElectric,
     alt             : "MediaElectric",
-    metaTitle       : "The Rise of Electric Vehicles in the UAE - A Comprehensive Overview",
-    metaDescription : "",
+    metaTitle       : "Electric Vehicles in the UAE: Growth, Incentives & What's Next in 2026",
+    metaDescription : "How the UAE became a regional EV leader — government incentives, DEWA's charging network, market trends, and what it means for drivers considering the switch.",
     content         : evRise,
   },
   {
@@ -256,8 +256,8 @@ export const testimonials = [
     title           : "Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide",
     image           : MediaEnvironmental,
     alt             : "MediaEnvironmental",
-    metaTitle       : "Exploring the Benefits of Electric Vehicles in the UAE - A Comprehensive Guide",
-    metaDescription : "",
+    metaTitle       : "Benefits of Electric Vehicles in the UAE: Cost, Environment & Incentives",
+    metaDescription : "Why UAE residents are switching to EVs — lower fuel costs, zero emissions, government incentives, and what it actually costs to own one in 2026.",
     content         : evBenefits,
   },
   {
@@ -265,8 +265,8 @@ export const testimonials = [
     title           : "Electric Vehicle Leasing and Renting Options in the UAE",
     image           : MediaElectricVehicle,
     alt             : "MediaElectricVehicle",
-    metaTitle       : "Electric Vehicle Leasing and Renting Options in the UAE",
-    metaDescription : "",
+    metaTitle       : "EV Leasing & Renting in the UAE: Plans, Costs & Options Compared",
+    metaDescription : "Compare EV leasing and rental options in the UAE — monthly costs, what's included, and whether leasing or buying makes more sense for your situation.",
     content         : leasingRenting,
   },
   {
@@ -274,8 +274,8 @@ export const testimonials = [
     title           : "The Future of Electric Mobility Innovations and Trends in the UAE",
     image           : MediaTechnologicalInnovations,
     alt             : "MediaTechnologicalInnovations",
-    metaTitle       : "The Future of Electric Mobility Innovations and Trends in the UAE",
-    metaDescription : "",
+    metaTitle       : "Future of Electric Mobility in the UAE: Trends, Tech & What's Coming",
+    metaDescription : "Solid-state batteries, autonomous driving, V2G tech, and smart city projects — what's shaping the future of EVs in the UAE and what it means for drivers.",
     content         : future,
   },
 ];

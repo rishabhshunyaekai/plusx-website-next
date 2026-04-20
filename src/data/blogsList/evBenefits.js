@@ -109,21 +109,53 @@ export const evBenefits = [
             in the UAE and experience the many benefits that come with driving
             an electric vehicle.`
   },
-//   {
-//     type: "faq",
-//     schema :{
-//       "@context"  : "https://schema.org",
-//       "@type"     : "FAQPage",
-//       mainEntity: [
-//         {
-//           "@type" : "Question",
-//           "name"  : "1. ",
-//           "acceptedAnswer": {
-//               "@type" : "Answer",
-//               "text"  : ""
-//           }
-//         }
-//       ]
-//     }
-//   }
+  {
+    type: "faq",
+    schema :{
+      "@context"  : "https://schema.org",
+      "@type"     : "FAQPage",
+      mainEntity: [
+        {
+          "@type" : "Question",
+          "name"  : "How much does it cost to run an electric car in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Home charging through DEWA costs around AED 0.29/kWh, which works out to roughly AED 1,200–1,500 per year for average driving. That's up to 4x cheaper than petrol. EVs also have lower maintenance costs since there are no oil changes, spark plugs, or exhaust systems to service."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Are electric cars cheaper than petrol cars in the UAE long term?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Yes. Although EVs have higher upfront prices, lower fuel costs, reduced maintenance, and government incentives like free parking and Salik exemptions make total ownership cost competitive with petrol cars within 2–3 years. Annual fuel savings alone can reach AED 5,000–7,000 depending on driving distance."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Do electric cars work well in UAE heat?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Yes. Modern EVs sold in the UAE include thermal management systems designed for extreme heat. Range may drop 10–20% in peak summer due to AC usage and battery cooling, but manufacturers back batteries with 8–10 year warranties regardless of climate conditions."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "What are the environmental benefits of EVs in the UAE?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "EVs produce zero tailpipe emissions, eliminating pollutants like nitrogen oxides and particulate matter. When charged using solar or clean energy sources — which the UAE is heavily investing in — the carbon footprint drops further. Dubai's Clean Energy Strategy 2050 aims to make this the standard."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Do electric cars need less maintenance than petrol cars?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Yes. EVs have significantly fewer moving parts — no engine oil, no transmission fluid, no exhaust system. Brake wear is also lower thanks to regenerative braking. Most EV owners only need tyre rotations, cabin filter changes, and periodic brake fluid checks, reducing annual maintenance costs by 30–50%."
+          }
+        }
+      ]
+    }
+  }
 ];
