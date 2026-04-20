@@ -100,11 +100,11 @@ export const evRise = [
             businesses increasingly adopt EVs, the future of sustainable
             transportation in the UAE looks promising.`
   },
-{
-  type: "heading",
-  level: 3,
-  text: "FAQ's"
-},
+  {
+    type: "heading",
+    level: 2,
+    text: "FAQ's"
+  },
   {
     type: "faq",
     schema :{

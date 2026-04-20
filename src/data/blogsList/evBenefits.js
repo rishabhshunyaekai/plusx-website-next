@@ -110,6 +110,11 @@ export const evBenefits = [
             an electric vehicle.`
   },
   {
+    type: "heading",
+    level: 2,
+    text: "FAQ's"
+  },
+  {
     type: "faq",
     schema :{
       "@context"  : "https://schema.org",
