@@ -163,6 +163,7 @@
   border: none;
   background: #eee;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .popular {
