@@ -1,0 +1,37 @@
+.card {
+  background: var(--color-secondary);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px var(--color-shadow), 0 4px 12px var(--color-shadow);
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.starFilled {
+  color: #facc15;
+  fill: #facc15;
+}
+
+.starEmpty {
+  color: #d1d5db;
+}
+
+.text {
+  color: #374151;
+  margin: 16px 0;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #6b7280;
+}

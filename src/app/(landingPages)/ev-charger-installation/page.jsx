@@ -1,4 +1,5 @@
 import HeroImage      from "@/components/landingPages/chargerInstallation/heroImage/heroImage";
+import Achievements   from "@/components/landingPages/chargerInstallation/achievements/achievements";
 import Intro          from "@/components/landingPages/chargerInstallation/chargerIntro/chargerIntro";
 import Benefits       from "@/components/landingPages/chargerInstallation/benefits/benefits";
 import Brands         from "@/components/landingPages/chargerInstallation/brands/brands";
@@ -24,6 +25,7 @@ function EVChargerInstallationPage() {
   return (
     <>
       <HeroImage />
+      <Achievements />
       <Intro />
       <Benefits />
       <Brands />
