@@ -24,6 +24,7 @@ import TrustPlusX                     from "@/assets/images/homepage/blogs/trust
 import Diesel                         from "@/assets/images/homepage/blogs/diesel.webp";
 import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
 import Emergency                      from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
+import Guide                          from "@/assets/images/homepage/blogs/complete-guide.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -51,8 +52,18 @@ import { evRise }             from "@/data/blogsList/evRise";
 import { locations }          from "@/data/blogsList/locations";
 import { future }             from "@/data/blogsList/future";
 import { emergencyEV }        from "@/data/blogsList/emergency-ev-charging";
+import { completeGuide }      from "@/data/blogsList/completeGuide";
  
 export const testimonials = [
+  {
+    slug            : "complete-guide-to-ev-charging-in-dubai",
+    title           : "Complete Guide to EV Charging in Dubai",
+    image           : Guide,
+    alt             : "electric vehicle charging options in Dubai",
+    metaTitle       : "EV Charging Dubai | Complete Guide by PlusX Electric",
+    metaDescription : "Learn how EV charging in Dubai works. Explore home EV charging, public chargers, and mobile charging solutions with insights from PlusX Electric.",
+    content         : completeGuide,
+  },
   {
     slug            : "emergency-ev-charging-in-dubai",
     title           : "Emergency EV Charging in Dubai: Fast Help When You’re Running Low",
