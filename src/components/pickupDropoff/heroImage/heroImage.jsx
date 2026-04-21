@@ -7,11 +7,11 @@ function PickupDropoffHeroImage() {
     <section className={style.figureWrapper}>
       <div className={`container ${style.container}`}>
         <Animated className={style.figureContent}>
-          <h2>
+          <h1>
             <span className={style.primaryText}><strong>We Pick up,</strong></span><br/>
             <span className={style.secondaryText}>Charge it, & Drop it</span><br/>
             <span className={style.primaryText}>Back Fully Charged</span><br/>
-          </h2>
+          </h1>
           <CTAButton className={style.button} text="Book Now" handler="scrollToAppSection" />
         </Animated>
       </div>

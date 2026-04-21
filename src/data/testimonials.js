@@ -56,7 +56,7 @@ import { completeGuide }      from "@/data/blogsList/completeGuide";
  
 export const testimonials = [
   {
-    slug            : "complete-guide-to-ev-charging-in-dubai",
+    slug            : "ev-charging-in-dubai-guide",
     title           : "Complete Guide to EV Charging in Dubai",
     image           : Guide,
     alt             : "electric vehicle charging options in Dubai",

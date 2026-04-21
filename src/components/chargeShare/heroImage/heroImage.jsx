@@ -6,11 +6,11 @@ function ChargeShareHeroImage() {
     <section className={style.chargeShareBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.shareBannerContent}>
-          <h2>
+          <h1>
             <span className={style.sharePrimaryText}>Share Your</span><br/>
             <span className={style.shareSecondaryText}>Private Charger With</span><br/>
             <span className={style.sharePrimaryText}>EV Owners & Get Paid</span>
-          </h2>
+          </h1>
           <CTAButton className={style.chargerButton} text="List Your Charger Now" handler="scrollToAppSection" />
         </div>
       </div>

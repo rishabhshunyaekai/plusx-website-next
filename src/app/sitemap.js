@@ -272,7 +272,7 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}complete-guide-to-ev-charging-in-dubai`,
+      url             : `${baseUrl}ev-charging-in-dubai-guide`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,

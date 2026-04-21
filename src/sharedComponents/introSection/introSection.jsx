@@ -1,7 +1,7 @@
 import Link             from "next/link";
 import style            from "./introSection.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
-import MainHeading      from "../heading/mainHeading";
+// import MainHeading      from "../heading/mainHeading";
 import SecondaryHeading from "../heading/secondaryHeading";
 import CTAButton        from "../ctaButton/ctaButton";
 import RedirectToWhatsapp from "../whatsapp/RedirectToWhatsapp";
@@ -13,7 +13,7 @@ function IntroSection({ title, content, additionalContent, additionalContent2, a
     <section className={style.introSection}>
       <div className={`container flex flex-col ${secondaryContent && "gap-4"}`}>
         <div>
-          {title && <MainHeading title={title} />}
+          {title && <SecondaryHeading title={title} />}
 
           <div className={`flex flex-col ${additionalContent && "gap-4"} pb-8`}>
 

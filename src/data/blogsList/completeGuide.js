@@ -1,8 +1,8 @@
 import CIDesktop  from "@/assets/images/homepage/blogs/banners/ChargerInstallationDesktop.webp";
 import CIMobile   from "@/assets/images/homepage/blogs/banners/ChargerInstalationMobile.webp";
-// import blogImage  from "@/assets/images/homepage/blogs/complete-guide.webp";
+import blogImage  from "@/assets/images/homepage/blogs/complete-guide.webp";
 
-// const BASE_URL             = process.env.NEXT_PUBLIC_BASE_URL;
+const BASE_URL             = process.env.NEXT_PUBLIC_BASE_URL;
 export const completeGuide = [
   {
     type: "paragraph",
@@ -330,33 +330,55 @@ export const completeGuide = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas  : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Complete Guide to EV Charging in Dubai",
+        "name"        : "EV Charging Dubai | Complete Guide by PlusX Electric",
+        "description" : "Learn how EV charging in Dubai works. Explore home EV charging, public chargers, and mobile charging solutions with insights from PlusX Electric.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`,
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished" : "2026-04-21",
+        "dateModified"  : "2026-04-21",
+        "mainEntityOfPage": {
+          "@type" : "Blog",
+          "@id"   : "https://www.plusxelectric.com/blog/ev-charging-dubai"
+        },
+        "inLanguage": "en",
+        "keywords": [ "EV charging Dubai", "home EV charging Dubai", "public EV charging Dubai", "mobile EV charging Dubai", "Level 2 charging Dubai", "fast charging Dubai", "electric vehicle charging Dubai", "EV charging cost Dubai"
+        ],
+        "articleSection": [
+          "Types of EV Charging Available in Dubai", "Home EV Charging in Dubai", "Public EV Charging in Dubai", "Mobile EV Charging in Dubai",
+          "Challenges EV Owners Face With EV Charging", "Smart Technologies for Managing EV Charging", "Choosing the Right Charging Option"
+        ],
+        "about": {
+          "@type": "Thing",
+          "name": "Electric Vehicle Charging",
+          "description": "Charging infrastructure and services for electric vehicles in Dubai, UAE"
+        },
+        "isPartOf": {
+          "@type": "WebPage",
+          "name": "EV Solutions in Dubai | Complete Guide by PlusX Electric",
+          "url": "https://www.plusxelectric.com/blog/ev-solutions-dubai"
+        }
+      }
+    ]
   }
-  // {
-  //   type    : "schema",
-  //   schemas  : [
-  //     {
-  //       "@context"    : "https://schema.org",
-  //       "@type"       : "Article",
-  //       "headline"    : "Emergency EV Charging in Dubai: Fast Help When You're Running Low",
-  //       "description" : "Running low on EV battery in Dubai? Discover how emergency EV charging offers fast, on-demand help to get you back on the road.",
-  //       "image"       : `${BASE_URL}${blogImage.src}`,
-  //       "author"  : {
-  //         "@type" : "Organization",
-  //         "name"  : "PlusX Electric",
-  //         "url"   : "https://plusxelectric.com"
-  //       },
-  //       "publisher": {
-  //         "@type" : "Organization",
-  //         "name"  : "PlusX Electric",
-  //         "url"   : "https://plusxelectric.com",
-  //         "logo"  : {
-  //           "@type" : "ImageObject",
-  //           "url" : "https://plusxelectric.com/logo-icon.svg"
-  //         }
-  //       },
-  //       "datePublished": "2026-04-21",
-  //       "dateModified": "2026-04-21"
-  //     }
-  //   ]
-  // }
 ];

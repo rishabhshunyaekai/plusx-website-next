@@ -12,7 +12,7 @@ function PlusxBusinessHeroImage() {
                 <p className={style.secondaryText}>Your Business</p>
                 <p className={style.normalText}>EV Charging Partner from</p>
               </span>
-              <h4 className={`${style.highlightedText}`}>Consulting to Maintenance</h4>
+              <h1 className={`${style.highlightedText}`}>Consulting to Maintenance</h1>
             {/* <div className={`${style.buttonContainer}`}>
               <Link href="#">Know more</Link>
             </div> */}

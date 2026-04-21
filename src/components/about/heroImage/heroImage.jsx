@@ -9,7 +9,7 @@ function AboutHeroImage() {
           <Animated className={style.textWrapper} animation="fade" easing="ease-in" duration={1000}>
             <div>
               <span className={style.normalText}>Smarter Charge</span>
-              <h4 className={`${style.highlightedText}`}>Greener Drive</h4>
+              <h1 className={`${style.highlightedText}`}>Greener Drive</h1>
             </div>
             <div className={`${style.buttonContainer}`}>
               <span className={`${style.outlinerText}`}>Charge With Our Portable Power Pod</span>

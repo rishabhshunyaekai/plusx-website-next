@@ -6,10 +6,10 @@ function OnDemandHeroImage() {
     <figure className={style.onDemandBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.onDemandContent}>
-          <article className={style.onDemandContainer}>
-            <h2 className={style.primaryText}>On-Demand</h2>
-            <h3 className={style.secondaryText}>EV-Charging Starts Here</h3> 
-          </article>
+          <h1 className={style.onDemandContainer}>
+            <span className={style.primaryText}>On-Demand</span>
+            <span className={style.secondaryText}>EV-Charging Starts Here</span> 
+          </h1>
 
           <div className="">
             <h2 className={style.priceText}>Only at AED 65*</h2>
