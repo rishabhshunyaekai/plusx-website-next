@@ -7,7 +7,8 @@ function CustomDropdown({ options = [], value, onChange, placeholder = "Select O
     
   return (
     <Select instanceId="custom-dropdown" options={options} value={value} onChange={onChange} placeholder={placeholder} isClearable={false} styles={customStyles} onMenuOpen={onMenuOpen} isLoading={isLoading}
-      formatOptionLabel={(e, { context }) => {
+    menuPortalTarget={typeof window !== "undefined" ? document.body : null} menuPosition="fixed"  
+    formatOptionLabel={(e, { context }) => {
         const isSelected = value?.value === e.value;
 
         if (context === "menu") {

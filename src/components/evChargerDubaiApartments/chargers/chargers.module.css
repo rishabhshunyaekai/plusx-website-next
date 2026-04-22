@@ -1,0 +1,81 @@
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.filterWrapper {
+  background: var(--color-secondary);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 20px var(--color-shadow);
+}
+
+.cardHeading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.selectorCard {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 15px;
+  align-items: end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.button {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 500;
+  padding: 17px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+}
+
+.chargerContainer {
+  margin-top: 40px;
+}
+
+@media (max-width: 1024px) {
+  .breakline {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectorCard {
+    grid-template-columns: 1fr;
+  }
+
+  .cardButton {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  .cardHeading {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 15px;
+  }
+}

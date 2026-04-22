@@ -3,6 +3,7 @@ import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/evChargerDubaiApartments/intro/intro";
 import Values       from "@/components/evChargerDubaiApartments/values/values";
 // import HowWorks     from "@/components/evChargerDubaiApartments/howWorks/howWorks";
+import Chargers     from "@/components/evChargerDubaiApartments/chargers/chargers";
 import Testimonials from "@/components/evChargerDubaiApartments/testimonials/testimonials";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 
@@ -47,6 +48,7 @@ function EVChargerInstallationDubaiPage() {
       <Intro />
       <Values />
       {/* <HowWorks /> */}
+      <Chargers />
       <Testimonials />
       <DownloadApp />
     </>

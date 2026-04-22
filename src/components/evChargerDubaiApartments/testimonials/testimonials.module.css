@@ -1,8 +1,31 @@
+.sliderWrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slide {
+  min-width: 33.333%;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex; 
+}
+
 .card {
   background: var(--color-secondary);
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0 2px 6px var(--color-shadow), 0 4px 12px var(--color-shadow);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
 
 .stars {
@@ -24,6 +47,7 @@
   margin: 16px 0;
   line-height: 1.6;
   font-style: italic;
+  flex-grow: 1;
 }
 
 .name {
@@ -34,4 +58,35 @@
 .meta {
   font-size: 14px;
   color: #6b7280;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls button {
+  background: var(--color-secondary);
+  border: 1px solid var(--color-shadow);
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1280px) {
+  .slide {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .slide {
+    min-width: 100%;
+  }
 }
