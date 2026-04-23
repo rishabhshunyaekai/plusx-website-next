@@ -9,18 +9,45 @@ import CustomDropdown   from "@/sharedComponents/customDropdown/customDropdown";
 import Product          from "@/sharedComponents/product/product";
 
 const vehicleData = {
-  Tesla: ["Model 3", "Model Y"],
-  BYD: ["Atto 3"],
-  BMW: ["iX", "i4"],
-  "Mercedes-Benz": ["EQS", "EQB"],
-  Audi: ["e-tron"],
-  Nissan: ["Leaf"],
-  MG: ["ZS EV"],
-  VinFast: ["VF8"],
-  Porsche: ["Taycan"],
-  Hyundai: ["Ioniq 5"],
-  Kia: ["EV6"],
-  Other: ["Other Model"],
+  Tesla: {
+    "Model 3": { maxAC: 11 },
+    "Model Y": { maxAC: 11 },
+  },
+  BYD: {
+    "Atto 3": { maxAC: 7 },
+  },
+  BMW: {
+    "iX": { maxAC: 11 },
+    "i4": { maxAC: 11 },
+  },
+  "Mercedes-Benz": {
+    "EQS": { maxAC: 11 },
+    "EQB": { maxAC: 11 },
+  },
+  Audi: {
+    "e-tron": { maxAC: 11 },
+  },
+  Nissan: {
+    "Leaf": { maxAC: 6.6 },
+  },
+  MG: {
+    "ZS EV": { maxAC: 7.4 },
+  },
+  VinFast: {
+    "VF8": { maxAC: 11 },
+  },
+  Porsche: {
+    "Taycan": { maxAC: 11 },
+  },
+  Hyundai: {
+    "Ioniq 5": { maxAC: 11 },
+  },
+  Kia: {
+    "EV6": { maxAC: 11 },
+  },
+  // Other: {
+  //   "Other Model": { maxAC: null },
+  // },
 };
 
 function FilterChargers() {
@@ -28,14 +55,8 @@ function FilterChargers() {
   const [model, setModel]               = useState(null);
   const [showResults, setShowResults]   = useState(false);
 
-  const makeOptions = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
-
-  const modelOptions =
-    make?.value &&
-    vehicleData[make.value].map((m) => ({
-      label: m,
-      value: m,
-    }));
+  const makeOptions   = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
+  const modelOptions  = make?.value && Object.keys(vehicleData[make.value]).map((model) => ({ label: model, value: model }));
 
   const handleSubmit = () => {
     if (!make || !model) return;
@@ -52,6 +73,19 @@ function FilterChargers() {
     setModel(val);
     setShowResults(false);
   }
+
+  const getRecommendedChargers = () => {
+    if (!make || !model) return [];
+
+    const carSpec = vehicleData[make.value][model.value];
+
+    return chargers.filter((charger) => {
+      const chargerKW = parseInt(charger.output.match(/\d+/)?.[0]);
+      return chargerKW <= carSpec.maxAC;
+    });
+  };
+
+  const filteredChargers = getRecommendedChargers();
 
   return (
     <section className="wrapper">
@@ -85,7 +119,7 @@ function FilterChargers() {
         </Animated>
 
         <Animated className={style.chargerContainer}  animation="fade" easing="ease-in" duration={1000}>
-            {showResults && <Product products={chargers} url="/ev-chargers/ac-dc-ev-chargers" title="" showFilter={false} /> }
+            {showResults && <Product products={filteredChargers} url="/ev-chargers/ac-dc-ev-chargers" title="" showFilter={false} /> }
         </Animated>
       </div>
     </section>
