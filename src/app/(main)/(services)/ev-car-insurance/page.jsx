@@ -32,13 +32,13 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://plusxelectric.com/"
+      "item": `${BASE_URL}/`
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "EV Car Insurance",
-      "item": "https://plusxelectric.com/ev-car-insurance"
+      "item": `${BASE_URL}/ev-car-insurance`
     }
   ]
 }

@@ -35,13 +35,13 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://plusxelectric.com/"
+      "item": `${BASE_URL}/`
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Share Private EV Charger",
-      "item": "https://plusxelectric.com/share-private-ev-charger"
+      "item": `${BASE_URL}/share-private-ev-charger`
     }
   ]
 }
