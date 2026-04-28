@@ -1,62 +1,24 @@
 "use client";
 
+import Link             from "next/link";
 import { useState }     from "react";
-import { chargers }     from "@/data/listOfProducts";
+import { chargers, 
+        vehicleData }   from "@/data/listOfProducts";
 import style            from "./chargers.module.css";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import CustomDropdown   from "@/sharedComponents/customDropdown/customDropdown";
 import Product          from "@/sharedComponents/product/product";
-
-const vehicleData = {
-  Tesla: {
-    "Model 3": { maxAC: 11 },
-    "Model Y": { maxAC: 11 },
-  },
-  BYD: {
-    "Atto 3": { maxAC: 7 },
-  },
-  BMW: {
-    "iX": { maxAC: 11 },
-    "i4": { maxAC: 11 },
-  },
-  "Mercedes-Benz": {
-    "EQS": { maxAC: 11 },
-    "EQB": { maxAC: 11 },
-  },
-  Audi: {
-    "e-tron": { maxAC: 11 },
-  },
-  Nissan: {
-    "Leaf": { maxAC: 6.6 },
-  },
-  MG: {
-    "ZS EV": { maxAC: 7.4 },
-  },
-  VinFast: {
-    "VF8": { maxAC: 11 },
-  },
-  Porsche: {
-    "Taycan": { maxAC: 11 },
-  },
-  Hyundai: {
-    "Ioniq 5": { maxAC: 11 },
-  },
-  Kia: {
-    "EV6": { maxAC: 11 },
-  },
-  // Other: {
-  //   "Other Model": { maxAC: null },
-  // },
-};
+import { BsWhatsapp }   from "react-icons/bs";
 
 function FilterChargers() {
   const [make, setMake]                 = useState(null);
   const [model, setModel]               = useState(null);
   const [showResults, setShowResults]   = useState(false);
-
-  const makeOptions   = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
-  const modelOptions  = make?.value && Object.keys(vehicleData[make.value]).map((model) => ({ label: model, value: model }));
+  
+  const whatsappMessage = `Hi PlusX Electric, my EV is not listed. Could you please help me choose the right charger?`
+  const makeOptions     = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
+  const modelOptions    = make?.value && Object.keys(vehicleData[make.value]).map((model) => ({ label: model, value: model }));
 
   const handleSubmit = () => {
     if (!make || !model) return;
@@ -102,7 +64,7 @@ function FilterChargers() {
             <h3 className={style.cardHeading}>Select Your EV Vehicle</h3>
             <div className={style.selectorCard}>
                 <div className={style.field}>
-                    <label className={style.label}>EV make</label>
+                    <label className={style.label}>EV Make</label>
                     <CustomDropdown options={makeOptions} value={make} placeholder="Select your EV make" onChange={handleMakeChange}/>
                 </div>
 
@@ -119,25 +81,19 @@ function FilterChargers() {
         </Animated>
 
         <Animated className={style.chargerContainer}  animation="fade" easing="ease-in" duration={1000}>
-            {showResults && <Product products={filteredChargers} url="/ev-chargers/ac-dc-ev-chargers" title="" showFilter={false} /> }
+            {(showResults && filteredChargers.length === 0) && <p className={style.notFound}>No Charger Found</p> }
+            {(showResults && filteredChargers.length > 0) && <Product products={filteredChargers} url="/ev-chargers/ac-dc-ev-chargers" title="" /> }
         </Animated>
+
+        <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
+          <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can’t find your EV in the list? Connect with us on WhatsApp—we’ll assist you.</p>
+          <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${style.innerClass} ${style.getWhatsapp}`} rel="noreferrer" id="whatsappIcon">
+              <BsWhatsapp /> Get Help on WhatsApp
+          </Link>
+        </Animated>   
       </div>
     </section>
   );
 }
 
 export default FilterChargers;
-
-{/* Results */}
-{/* {showResults && (
-    <div className={style.results}>
-    {chargers.map((item) => (
-        <div key={item.id} className={style.card}>
-        <img src={item.image.src} alt={item.name} />
-        <h3>{item.name}</h3>
-        <p>{item.output}</p>
-        <span className={style.price}>{item.price}</span>
-        </div>
-    ))}
-    </div>
-)} */}

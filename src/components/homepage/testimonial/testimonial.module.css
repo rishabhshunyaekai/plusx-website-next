@@ -50,7 +50,7 @@
   width: fit-content;
   padding: 10px 20px;
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-secondary);
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
@@ -58,7 +58,9 @@
 }
 
 .viewAllBtn:hover {
-  opacity: 0.85;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0px 3px 4px var(--color-shadow);
 }
 
 @media (max-width: 768px) {

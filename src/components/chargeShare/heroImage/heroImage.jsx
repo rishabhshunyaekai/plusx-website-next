@@ -1,17 +1,17 @@
 import style      from "./heroImage.module.css";
-import CTAButton  from "@/sharedComponents/ctaButton/ctaButton.jsx";
+import CTAButton  from "@/sharedComponents/ctaButton/ctaButton";
 
 function ChargeShareHeroImage() {
   return (
     <section className={style.chargeShareBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.shareBannerContent}>
-          <h1>
-            <span className={style.sharePrimaryText}>Share Your</span><br/>
-            <span className={style.shareSecondaryText}>Private Charger With</span><br/>
-            <span className={style.sharePrimaryText}>EV Owners & Get Paid</span>
-          </h1>
-          <CTAButton className={style.chargerButton} text="List Your Charger Now" handler="scrollToAppSection" />
+          <h1 className={style.sharePrimaryText}>Share Your EV Charger.<br className={style.breakLine}/> Help a Fellow EV Owner.</h1>
+           <p className={style.outlinerText}>A community feature that lets EV owners in Dubai list <br /> their private chargers and connect with neighbours <br /> who can&apos;t install one of their own.</p>
+           <div className={style.buttonContainer}>
+              <CTAButton className={style.chargerButton} text="List Your Charger Now" handler="scrollToAppSection" />
+              <CTAButton className={style.chargerButton} text="Find a charger near me" handler="scrollToAppSection" />
+           </div>
         </div>
       </div>
     </section>

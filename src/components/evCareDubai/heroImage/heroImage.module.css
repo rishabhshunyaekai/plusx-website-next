@@ -157,6 +157,9 @@
   color: var(--color-primary);
 }
 @media (max-width: 1440px) {
+  .shareBannerContent {
+    gap: 10px;
+  }
   .container {
     padding: 10rem 0;
   }
@@ -173,7 +176,7 @@
     font-size: 25px;
   }
   .secondaryText {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 }
 
@@ -198,9 +201,6 @@
   .outlinerText {
     padding-left: 0px;
     font-size: 14px;
-  }
-  .secondaryText {
-    font-size: 16px !important; 
   }
 }
 

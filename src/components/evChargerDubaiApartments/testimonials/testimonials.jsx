@@ -3,46 +3,25 @@
 const testimonials = [
   {
     text: `"My building had never approved an EV charger before. PlusX handled the entire conversation with the building management and got me approved in under two weeks. The installation itself took a day."`,
-    name: "Amit Sharma",
+    name: "Junaid Alam",
     role: "Resident",
     location: "Dubai Marina",
-    rating: 4,
+    rating: 5,
   },
   {
     text: `"I was quoted three different prices by three different installers. PlusX gave me a fixed number after the site survey and stuck to it. The app is genuinely useful — I schedule all my charging during off-peak hours."`,
-    name: "Neha Kapoor",
+    name: "Rifat Omer",
     role: "Apartment Owner",
     location: "Business Bay",
     rating: 4,
   },
   {
     text: `"We had 12 residents in our tower who wanted chargers. PlusX worked with our residents association to set up a building-wide rollout instead of individual approvals. Much cleaner process for everyone."`,
-    name: "Rohit Verma",
+    name: "Alexander Litvinov",
     role: "OA Chairperson",
     location: "JVC",
     rating: 5,
   },
-  // {
-  //   text: `"Installation was smooth and professional. The team explained everything clearly and left the site clean."`,
-  //   name: "Sarah Khan",
-  //   role: "Homeowner",
-  //   location: "Downtown Dubai",
-  //   rating: 4,
-  // },
-  // {
-  //   text: `"Great customer support and transparent pricing. Highly recommend PlusX for EV charger setup."`,
-  //   name: "Vikram Singh",
-  //   role: "Resident",
-  //   location: "Palm Jumeirah",
-  //   rating: 5,
-  // },
-  // {
-  //   text: `"The scheduling feature in the app is a game changer. Saves me money every month."`,
-  //   name: "Anjali Mehta",
-  //   role: "EV Owner",
-  //   location: "Dubai Hills",
-  //   rating: 4,
-  // },
 ];
 
 import { useState }     from "react";
@@ -64,7 +43,7 @@ function Testimonials() {
   return (
     <section className="wrapper">
       <div className="container">
-        <SecondaryHeading title={"What PlusX Customers Say"} />
+        <SecondaryHeading title={"What PlusX Electric Customers Say"} />
 
         <Animated className={style.sliderWrapper} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.slider} style={{ transform: `translateX(-${index * (100 / visibleCards)}%)`}}>

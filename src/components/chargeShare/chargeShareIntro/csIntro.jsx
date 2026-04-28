@@ -2,9 +2,7 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 
 const introData = [
   {
-    // title               : "Share Your Private EV Charger in Dubai & Earn",
-    content             : `The entire procedure well-organized and transparent. All of this can happen easily through the\n PlusX Electric application.`,
-    additionalContent   : `The model aids in enhancing the utilization of available charging infrastructure in Dubai.`,
+    content : `The whole flow happens through the app, with clear booking confirmations on both sides. PlusX doesn't charge \nanything to list a charger and isn't part of any arrangement between users, we\n just connect EV owners who want to help each other.`,
   },
 ];
 

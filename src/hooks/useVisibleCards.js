@@ -5,7 +5,7 @@ function useVisibleCards(card) {
 
   useEffect(() => {
     const updateCards = () => {
-      if (window.innerWidth >= 1280) {
+      if (window.innerWidth >= 1281) {
         setVisibleCards(3);
       } else if (window.innerWidth >= 992) {
         setVisibleCards(2);

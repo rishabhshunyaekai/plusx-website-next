@@ -12,41 +12,41 @@ import Access           from "@/assets/images/ev-charge-share-page/access.svg";
 
 const chargerBenefits = [
   {
-    title : "Earn Additional Income",
-    desc  : "You can list an EV charger for rent. Create passive revenue on infrastructure.",
+    title : "Help your EV community",
+    desc  : "Make it easier for fellow EV owners in your building or neighbourhood to charge — especially those who can't install their own charger.",
     icon  : Income,
   },
   {
-    title : "Full Control Over Availability",
-    desc  : "You decide when your charger is on. Choose time slots that are convenient to you.",
+    title : "Full control over availability",
+    desc  : "You decide when your charger is on and off. Set time slots that work around your own charging schedule.",
     icon  : Control,
   },
-  // {
-  //   title : "Secure and Managed Platform",
-  //   desc  : "The PlusX Electric app handles bookings, payments, and usage details.",
-  //   icon  : Secure,
-  // },
   {
-    title : "Better Infrastructure Utilisation",
-    desc  : "Maximise the value of your charger without additional investment.",
+    title : "Better use of your charger",
+    desc  : "Get more value from the charger you already paid for and installed, without any additional investment.",
     icon  : Charger,
+  },
+  {
+    title : "Hassle-free listing",
+    desc  : "Listing on PlusX Electric is free. No setup fees, no platform costs, no commission.",
+    icon  : Secure,
   },
 ];
 
 const evBenefits = [
   {
-    title : "Improved Local Access",
-    desc  : "Locate the nearest private EV charger in your community.",
+    title : "Charge close to home",
+    desc  : "Find a private EV charger in your own building or nearby community.",
     icon  : Access,
   },
   {
-    title : "Reduced Range Anxiety",
-    desc  : "Get access to good charging without necessarily relying on public charging points.",
+    title : "Less reliance on public stations",
+    desc  : "Reduce range anxiety without depending on crowded public charging points.",
     icon  : Anxiety,
   },
   {
-    title : "Flexible Access",
-    desc  : "View available chargers on the PlusX Electric app and connect directly with the charger owner to access charging.",
+    title : "Direct, flexible access",
+    desc  : "View available chargers in the PlusX Electric app and connect directly with the owner to arrange access.",
     icon  : Booking,
   },
 ];
@@ -59,7 +59,7 @@ function Benefits() {
         <div className={style.grid}>
           <div className={style.content}>
             <h2>Benefits for Charger Owners</h2>
-            <p className={style.subText}>When you have a personal EV charger, there are several benefits you can get with PlusX Electric.</p>
+            <p className={style.subText}>When you have a private EV charger, here&apos;s what sharing it through PlusX Electric gives you:</p>
 
             <div className={style.list}>
               {chargerBenefits.map((item, i) => (
@@ -85,8 +85,8 @@ function Benefits() {
           </div>
 
           <div className={style.content}>
-            <h2>Benefits for EV Owners</h2>
-            <p className={style.subText}>This feature is a convenient alternative for EV owners who cannot access private charging.</p>
+            <h2>Benefits for EV Owners Looking for a Charger</h2>
+            <p className={style.subText}>If installing your own charger isn&apos;t an option, this feature gives you a practical alternative.</p>
 
             <div className={style.list}>
               {evBenefits.map((item, i) => (
@@ -100,7 +100,7 @@ function Benefits() {
               ))}
             </div>
 
-            <p className={style.footerText}>This will establish a community-based EV charging network in Dubai.</p>
+            <p className={style.footerText}>Together, this builds a community-based EV charging network across Dubai — owners helping owners.</p>
           </div>
         </div>
 

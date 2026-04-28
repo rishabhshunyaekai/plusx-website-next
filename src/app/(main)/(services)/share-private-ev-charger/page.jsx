@@ -16,8 +16,8 @@ import FAQ            from "@/components/chargeShare/chargeShareFAQ/chargeShareF
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
-  title         : "Share Private EV Charger in Dubai | Earn with PlusX Electric",
-  description   : "Share private EV charger in Dubai and earn with PlusX Electric. List your charger, set availability, and connect with EV drivers. Download the PlusX Electric app.",
+  title         : "Share Your EV Charger with Fellow EV Owners in Dubai | PlusX Electric",
+  description   : "A community-driven way to share private EV chargers across Dubai. List your charger or find one nearby through the PlusX Electric app — built for EV owners helping each other.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger Share", "EV Charger Marketplace", "private ev charger near me", "list your ev charger", "list your ev charger and earn"],
   alternates    : {
       canonical : `${BASE_URL}/share-private-ev-charger`,

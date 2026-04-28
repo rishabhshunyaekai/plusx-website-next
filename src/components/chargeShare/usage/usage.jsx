@@ -9,8 +9,8 @@ function Usage() {
 
   const benefits = [
     { icon: EvCarDriver,  text: "Charger owners list their private EV charger" },
-    { icon: Booking,      text: "Set availability preferences" },
-    { icon: Station,      text: "Earn income when other users book charging sessions" },
+    { icon: Booking,      text: "Set availability, choose the days and time slots that work for you" },
+    { icon: Station,      text: "Get notified when a nearby EV owner requests access" },
   ];
   const isOdd = benefits.length % 2 !== 0;
 

@@ -12,30 +12,22 @@ function chargeShareFAQ() {
             "name"  : "Who can share a private EV charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Any EV charger owner can list their charger through PlusX Electric and share it with nearby EV drivers during available time slots."
+                "text"  : "Any EV charger owner can list their charger through the PlusX Electric app and make it available to fellow EV owners during the time slots they choose."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "Is it safe to share my EV charger with others?",
+            "name"  : "Does it cost anything to list my charger?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. PlusX Electric manages bookings and usage through the app, ensuring controlled access to your charger."
+                "text"  : "No. Listing your charger on the PlusX Electric app is completely free. There are no setup fees, listing fees, or commissions."
             }
         },{
             "@type" : "Question",
-            "name"  : "How do I earn by sharing my EV charger?",
+            "name"  : "Is there any payment involved between users?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "PlusX Electric allows charger owners to list availability and earn income when EV drivers book charging sessions."
-            }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "Can I choose when my charger is available?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "Yes. PlusX Electric lets you set time slots so your EV charger is only shared when you want it to be."
+                "text"  : "PlusX Electric is a community connector — we don't charge for the service and we're not part of any arrangement between charger owners and the EV owners who use them. Anything exchanged between two users is entirely between them."
             }
         },
         {
@@ -43,7 +35,15 @@ function chargeShareFAQ() {
             "name"  : "Who can use shared EV chargers in my community?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "EV drivers using the PlusX Electric app can discover and book available private chargers listed in their nearby area."
+                "text"  : "Any EV owner using the PlusX Electric app can discover available private chargers listed nearby and request access from the charger owner."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "Can I stop sharing my charger anytime?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "Yes. You can pause your listing or remove it from the app at any time."
             }
         },
     ]

@@ -2,13 +2,11 @@ import IntroSection from "@/sharedComponents/introSection/introSection";
 
 const introData = [
   {
-    title               : "Share Your Private EV Charger\n in Dubai & Earn",
-    content             : `PlusX Electric’s Charge Sharing feature enables EV owners within residential communities to share private EV chargers with fellow residents \nor the general public. This provides a practical and scalable solution for communities where many residents are unable to install \nprivate chargers due to limited power capacity, compliance constraints, or lengthy approval processes.`,
-    additionalContent2  : `By unlocking existing chargers for shared use, Charge Sharing improves access to reliable EV charging, reduces range anxiety, \nand helps communities accelerate EV adoption without additional infrastructure investment.`,
-    // additionalContent3  : `Instead of adding new infrastructure, existing chargers can be securely shared within the same community.\n This improves access to chargers for EV users while allowing charger owners to \ngenerate revenue when their chargers are not in use.`,
+    title               : "Share Your Private EV Charger in Dubai",
+    content             : `Many EV owners across Dubai live in apartment buildings or communities where installing a private charger isn't possible, power capacity \nis limited, building approvals take months, and not every property is set up for it. At the same time, plenty of villa and townhouse\n owners have a charger sitting unused most of the day. EV Charge Share is a community feature inside the PlusX Electric \napp that connects these two groups. Charger owners can list their charger and choose when it's available. Other \nEV owners nearby can find and request access. It's a peer-to-peer way for EV owners to help\n each other charge, without waiting for new infrastructure.`,
   
-    secondTitle         : `What Is Private EV Charger Sharing?`,
-    secondaryContent    : `Private EV charger sharing means that people who already have a home charger can share it with other \nEV owners at specific time intervals.`,
+    secondTitle         : `What is Private EV Charger Sharing?`,
+    secondaryContent    : `Private <a href="/ev-chargers" target="__blank">EV charger</a> sharing is a community feature inside the PlusX Electric app that lets EV owners with a private charger \nmake it available to fellow EV owners during the times they're not using it themselves.`,
     extraContent        : `Through the PlusX Electric platform:`,
   },
 ];

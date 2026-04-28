@@ -14,7 +14,7 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              How to Access Shared EV Charger?
+              How to Find and Use a Shared Charger
             </h2>
             <h3 className={style.bookingStepsSubHeading}>The PlusX Electric app makes it easy to access <br className={style.breakLine}/>shared EV chargers. Please follow steps</h3>
           </Animated>

@@ -671,3 +671,153 @@ export const accessories = [
   //   },
   // },
 ];
+
+
+export const vehicleData = {
+  Avatr : {
+    "12": { maxAC: 11 },
+    "11": { maxAC: 11 },
+  },
+  BMW: {
+    "iX1" : { maxAC: 11 },
+    "iX"  : { maxAC: 11 },
+    "i4"  : { maxAC: 11 },
+    "i5"  : { maxAC: 11 },
+    "i7"  : { maxAC: 11 },
+    "iX3" : { maxAC: 11 },
+    "iX2" : { maxAC: 11 },
+  },
+  BYD: {
+    "Atto 3"    : { maxAC: 7 },
+    "Qin Plus"  : { maxAC: 7 },
+    "Song Plus" : { maxAC: 7 },
+    "Seal"      : { maxAC: 11 },
+    "Han"       : { maxAC: 11 },
+  },
+  Cadillac: {
+    "OPTIQ": { maxAC: 22 },
+    "LYRIQ": { maxAC: 22 },
+  },
+  Chery: {
+    "iCar"    : { maxAC: 7 },
+    "E5"      : { maxAC: 11 },
+  },
+  Deepal: {
+    "Deepal SL03 / L07": { maxAC: 7 },
+    "Deepal S07": { maxAC: 7 },
+    "Deepal L06": { maxAC: 7 },
+  },
+  Ford: {
+    "Mustang Mach -E": { maxAC: 11 },
+    "F-150 Lightening": { maxAC: 20 },
+  },
+  Foton: {
+    "Foton eView Grand": { maxAC: 7 },
+  },
+  GMC: {
+    "Hummer EV": { maxAC: 22 },
+  },
+  HiPhi: {
+    "X": { maxAC: 11 },
+  },
+  Honda: {
+    "ENS1": { maxAC: 10 },
+  },
+  Hongqi: {
+    "E-HS9": { maxAC: 11 },
+    "E-QM5": { maxAC: 7 },
+  },
+  Hyundai: {
+    "Kona Electric": { maxAC: 11 },
+  },
+  KIA: {
+    "EV9": { maxAC: 11 },
+    "EV6": { maxAC: 11 },
+  },
+  Lotus: {
+    "Eletre": { maxAC: 22 },
+  },
+  "Lynk & Co": {
+    "Lynk & Co 900 PHEV"  : { maxAC: 11 },
+    "Lynk & Co 08 PHEV"   : { maxAC: 11 },
+    "Lynk & Co Z10"       : { maxAC: 11 },
+    "Lynk & Co 02"        : { maxAC: 11 },
+  },
+  Mercedes: {
+    "EQB": { maxAC: 11 },
+    "EQA": { maxAC: 11 },
+    "EQS SUV": { maxAC: 11 },
+    "EQE SUV": { maxAC: 11 },
+    "EQS Sedan": { maxAC: 11 },
+    "EQE Sedan": { maxAC: 11 },
+  },
+  Nissan: {
+    "Leaf": { maxAC: 7 },
+  },
+  Polestar: {
+    "2": { maxAC: 11 },
+  },
+  Porsche: {
+    "Taycan": { maxAC: 11 },
+  },
+  Rabdan: {
+    "One": { maxAC: 11 },
+  },
+  Riddara: {
+    "Riddara RD6": { maxAC: 11 },
+  },
+  Rivian: {
+    "R1T": { maxAC: 11.5 },
+    "R1S": { maxAC: 11.5 },
+  },
+  "Rolls-Royce": {
+    "Spectre": { maxAC: 22 },
+  },
+  Seres: {
+    "Seres SF5/5": { maxAC: 7 },
+    "Seres 3": { maxAC: 7 },
+    "Seres 7": { maxAC: 7 },
+    "Seres E1": { maxAC: 7 },
+  },
+  Smart: {
+    "Smart#2": { maxAC: 22 },
+  },
+  Tesla: {
+    "Model 3"   : { maxAC: 11 },
+    "Model S"   : { maxAC: 11 },
+    "Model X"   : { maxAC: 11 },
+    "Model Y"   : { maxAC: 11 },
+    "Cybertruck": { maxAC: 11.5 },
+  },
+  Toyota: {
+    "BZ4X": { maxAC: 11 },
+  },
+  VinFast: {
+    "VF 7": { maxAC: 11 },
+    "VF 6": { maxAC: 11 },
+  },
+  Volkswagen: {
+    "ID.4": { maxAC: 11 },
+    "ID.6": { maxAC: 11 },
+    "ID.7": { maxAC: 11 },
+    "ID.3": { maxAC: 11 },
+  },
+  Volvo: {
+    "C40": { maxAC: 11 },
+  },
+  XPeng: {
+    "XPeng P5": { maxAC: 11 },
+    "XPeng X9": { maxAC: 11 },
+    "XPeng P7": { maxAC: 11 },
+    "XPeng G9": { maxAC: 11 },
+    "XPeng G6": { maxAC: 11 },
+  },
+  Zeekr: {
+    "Zeekr 001" : { maxAC: 22 },
+    "Zeekr MIX" : { maxAC: 11 },
+    "Zeekr 009" : { maxAC: 11 },
+    "Zeekr X"   : { maxAC: 22 },
+    "Zeekr 7X"  : { maxAC: 11 },
+    "Zeekr 007" : { maxAC: 11 },
+  },
+};

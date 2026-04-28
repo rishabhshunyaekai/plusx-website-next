@@ -12,8 +12,8 @@ function useAdvertisingWpMess(type, isRSA=false) {
     "/ev-car-insurance"                     : `Hi PlusX Electric 👋\n\nI’m looking for EV Insurance. \nVehicle Make & Model: \nEmirates: `,
     "/ev-chargers"                          : `Hi PlusX Electric Team ⚡\nI’m interested in installing a Fixed EV Charger.`,
     "/complete-ev-care-dubai"               : `Hi PlusX Electric 👋 \n I'd like to book your EV Car Detailing service. \n\n🚗 Vehicle: \n📍 Location: \n📅 Preferred Date: \n\nPlease share available packages and pricing. Thank you!`,
-    // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\nI’m looking for an EV charger. Please assist me with options and pricing. \nMy location & vehicle is: `,
-    // "/ev-chargers/ac-dc-ev-chargers"        : `Hi PlusX Electric 👋\n\n I’m looking for a charger installation service. \nMy location is: `,
+    
+    "/ev-charger-installation-dubai-apartments" : `Hi PlusX Electric,\n I’m looking to install an EV charger. Can you help me with the details?`,
   };
 
   const getWhatsappMessage = () => {
