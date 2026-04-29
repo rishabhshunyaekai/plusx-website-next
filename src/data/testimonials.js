@@ -25,6 +25,7 @@ import Diesel                         from "@/assets/images/homepage/blogs/diese
 import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
 import Emergency                      from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
 import Guide                          from "@/assets/images/homepage/blogs/complete-guide.webp";
+import DoorstepEV                     from "@/assets/images/homepage/blogs/doorstep-ev.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -53,8 +54,18 @@ import { locations }          from "@/data/blogsList/locations";
 import { future }             from "@/data/blogsList/future";
 import { emergencyEV }        from "@/data/blogsList/emergency-ev-charging";
 import { completeGuide }      from "@/data/blogsList/completeGuide";
+import { doorstepEV }         from "@/data/blogsList/doorstep-ev-charging";
  
 export const testimonials = [
+  {
+    slug            : "doorstep-ev-charging-in-dubai",
+    title           : "Doorstep EV Charging in Dubai: When Is It Better Than Public Charging?",
+    image           : DoorstepEV,
+    alt             : "Doorstep EV Charging in Dubai",
+    metaTitle       : "Doorstep EV Charging in Dubai vs Public Charging | Which Is Better?",
+    metaDescription : "Explore when doorstep EV charging in Dubai is a better choice than public stations. Learn about convenience, time savings, and how PlusX Electric makes charging easier.",
+    content         : doorstepEV,
+  },
   {
     slug            : "ev-charging-in-dubai-guide",
     title           : "Complete Guide to EV Charging in Dubai",
