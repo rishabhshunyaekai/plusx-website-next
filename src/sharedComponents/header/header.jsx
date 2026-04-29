@@ -43,7 +43,7 @@ function Header() {
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
     { label: "EV Charger Installation", path: "/ev-chargers" },
     { label: "EV Breakdown Assistance", path: "/ev-breakdown-assistance" },
-    { label: "EV Charge Share",         path: "/share-private-ev-charger" },
+    { label: "EV Charge Share",         path: "/ev-charge-share" },
   ]
 
   function handleScroll() {
@@ -139,7 +139,7 @@ function Header() {
                             </div>
                             <p>EV Breakdown <br className={style.navBR} /> Assistance</p>
                           </Link>
-                          <Link href="/share-private-ev-charger" className={style.productIcons}>
+                          <Link href="/ev-charge-share" className={style.productIcons}>
                             <div className={style.icon}>
                               <Image src={Icon6} alt="ev charge share" width={50} height={50} />
                             </div>

@@ -104,7 +104,7 @@ export default function sitemap() {
     //   priority        : 0.9,
     // },
     {
-      url             : `${baseUrl}share-private-ev-charger`,
+      url             : `${baseUrl}ev-charge-share`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,

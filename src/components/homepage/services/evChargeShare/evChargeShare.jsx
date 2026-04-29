@@ -19,7 +19,7 @@ function EVChargeShare() {
               <h2 className={style.cardTitle}>EV Charge Share</h2>
               <p className={style.cardSubTitle}>List your private charger or find <br className={`${style.breakLine}`}/>available chargers near you.</p>
               <div className={`${style.buttonContainer}`}>
-                <Link href="/share-private-ev-charger" className={style.cardButton}>Know More</Link>
+                <Link href="/ev-charge-share" className={style.cardButton}>Know More</Link>
               </div>
             </Animated>
           </div>

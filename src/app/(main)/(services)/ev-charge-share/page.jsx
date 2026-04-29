@@ -20,9 +20,9 @@ export const metadata = {
   description   : "A community-driven way to share private EV chargers across Dubai. List your charger or find one nearby through the PlusX Electric app — built for EV owners helping each other.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger Share", "EV Charger Marketplace", "private ev charger near me", "list your ev charger", "list your ev charger and earn"],
   alternates    : {
-      canonical : `${BASE_URL}/share-private-ev-charger`,
+      canonical : `${BASE_URL}/ev-charge-share`,
       languages: {
-        "en-AE": `${BASE_URL}/share-private-ev-charger`,
+        "en-AE": `${BASE_URL}/ev-charge-share`,
       },
     },
 };
@@ -41,7 +41,7 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 2,
       "name": "Share Private EV Charger",
-      "item": `${BASE_URL}/share-private-ev-charger`
+      "item": `${BASE_URL}/ev-charge-share`
     }
   ]
 }

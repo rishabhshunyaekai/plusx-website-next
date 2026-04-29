@@ -128,6 +128,11 @@ export const doorstepEV = [
   {
     type: "heading",
     level: 2,
+    text: `<a href="https://plusxelectric.com/the-rise-of-evs-in-dubai-and-the-growing-need-for-smart-charging-solutions" target="__blank">The Rise of EVs in Dubai and the Growing Need for Smart Charging Solutions</a>`
+  },
+  {
+    type: "heading",
+    level: 2,
     text: `Can EV Owners Use Both?`
   },
   {
