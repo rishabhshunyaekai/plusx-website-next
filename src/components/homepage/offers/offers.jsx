@@ -1,16 +1,16 @@
-import Offer1         from "@/assets/images/homepage/offer-1.webp";
-import Offer2         from "@/assets/images/homepage/offer-2.webp";
+import Offer1         from "@/assets/images/homepage/Plusx_electric_pickup&dropoff_service_offer_image.webp";
+import Offer2         from "@/assets/images/homepage/Plusx_electric_power_pod_service_offer_image.webp";
 import ServicesOffer  from "@/sharedComponents/servicesOffer/servicesOffer";
 
 const offers = [
   {
     image : Offer1,
-    alt   : "pickup and dropoff charging service",
+    alt   : "Pickup and Dropoff charging offer",
     link  : "/ev-pickup-dropoff-charging-service",
   },
   {
     image : Offer2,
-    alt   : "doorstep ev charging service",
+    alt   : "Mobile ev charging offer",
     link  : "/mobile-ev-charging-dubai",
   },
 ];

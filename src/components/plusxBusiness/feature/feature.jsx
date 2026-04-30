@@ -1,10 +1,10 @@
 import Features           from "@/sharedComponents/features/features";
-import Consultancy        from "@/assets/images/plusx-for-business-page/consultancy.webp";
-import FixedPortable      from "@/assets/images/plusx-for-business-page/fixed-portable.webp";
-import Maintenance        from "@/assets/images/plusx-for-business-page/maintenance.webp";
-import ManagementPayment  from "@/assets/images/plusx-for-business-page/management-payment.webp";
-import Regulatory         from "@/assets/images/plusx-for-business-page/regulatory.webp";
-import RentLease          from "@/assets/images/plusx-for-business-page/rent-lease.webp";
+import Consultancy        from "@/assets/images/plusx-for-business-page/plusx_electric_ev_consultancy.webp";
+import FixedPortable      from "@/assets/images/plusx-for-business-page/plusx_electric_portable_charger.webp";
+import Maintenance        from "@/assets/images/plusx-for-business-page/plusx_electric_ev_maintainance.webp";
+import ManagementPayment  from "@/assets/images/plusx-for-business-page/plusx_electric_ev_management.webp";
+import Regulatory         from "@/assets/images/plusx-for-business-page/plusx_electric_regulatory_approval.webp";
+import RentLease          from "@/assets/images/plusx-for-business-page/plusx_electric_rent_lease_to_own.webp";
 // import MobileCharging from "./../../../assets/plusxbusiness/MobileCharging.webp";
 
 const heading       = "Offerings";

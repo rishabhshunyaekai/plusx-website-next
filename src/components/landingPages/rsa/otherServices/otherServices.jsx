@@ -1,10 +1,10 @@
 import styles           from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard.module.css";
 import OtherServiceCard from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import PortablePod      from "@/assets/images/landing-pages/brands-logo/ServicesImage/portable-charging-pod.webp";
-import Charger          from "@/assets/images/landing-pages/brands-logo/ServicesImage/charger-Installation.webp";
-import Insurance        from "@/assets/images/landing-pages/brands-logo/ServicesImage/ev-insurance.webp";
-import Pickup           from "@/assets/images/landing-pages/brands-logo/ServicesImage/pick.webp";
+import PortablePod      from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_mobile_ev_charging_service.webp";
+import Charger          from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_charger_installation_service.webp";
+import Insurance        from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_ev_insurance_service.webp";
+import Pickup           from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_pickup_dropoff_service.webp";
 
 const services = [
   {

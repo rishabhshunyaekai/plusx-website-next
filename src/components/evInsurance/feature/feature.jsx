@@ -1,7 +1,7 @@
 import Features         from "@/sharedComponents/features/features";
-import Coverage         from "@/assets/images/ev-insurance-page/coverage.webp";
-import ExtraPeace       from "@/assets/images/ev-insurance-page/extra-peace.webp";
-import Process          from "@/assets/images/ev-insurance-page/process.webp";
+import Coverage         from "@/assets/images/ev-insurance-page/Plusx_electric_ev_focused_coverage.webp";
+import ExtraPeace       from "@/assets/images/ev-insurance-page/Plusx_electric_app_process.webp";
+import Process          from "@/assets/images/ev-insurance-page/Plusx_electric_all_ev_services.webp";
 // import InsuranceForm    from "@/assets/images/ev-insurance-page/insurance-form.webp";
 
 const heading       = "Benefits & Reasons to Buy EV Insurance With PlusX Electric";

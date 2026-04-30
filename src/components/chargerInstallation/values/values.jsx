@@ -1,10 +1,10 @@
 import style              from "./values.module.css";
 import ServiceIconCard    from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
-import EVCharge           from "@/assets/images/ev-charger-installation-page/ev-charge.svg";
-import Additional         from "@/assets/images/ev-charger-installation-page/additional-team.svg";
-import ThirdParty         from "@/assets/images/ev-charger-installation-page/third-party.svg";
-import Noclear            from "@/assets/images/ev-charger-installation-page/no-clear.svg";
+import EVCharge           from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_icon.svg";
+import Additional         from "@/assets/images/ev-charger-installation-page/plusx_eletric_team_icon.svg";
+import ThirdParty         from "@/assets/images/ev-charger-installation-page/plusx_eletric_agency_icon.svg";
+import Noclear            from "@/assets/images/ev-charger-installation-page/plusx_eletric_documents_icon.svg";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 const content        = `With PlusX Electric, you don't need to face any of these issues. From consultation and DEWA \napprovals to installation, we take care of everything.`;

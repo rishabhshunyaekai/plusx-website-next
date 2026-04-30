@@ -2,8 +2,8 @@ import Link         from "next/link";
 import Image        from "next/image";
 import style        from "./productCard.module.css";
 import Animated     from "@/sharedComponents/animatedComponent/animated";
-import Charger      from "@/assets/images/ev-charger-installation-page/charger.webp";
-import Accessories  from "@/assets/images/ev-charger-installation-page/accessories.webp";
+import Charger      from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_ac_dc_charger_image.webp";
+import Accessories  from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_accessories_image.webp";
 import SecondaryHeading  from "@/sharedComponents/heading/secondaryHeading";
 
 function ProductsCard() {

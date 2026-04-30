@@ -2,7 +2,7 @@ import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./roadsideAssistance.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import RSA        from "@/assets/images/homepage/ev-road-assistance.png";
+import RSA        from "@/assets/images/homepage/plusx_electric_EV_breakdown_assistance_service_homepage_icon.png";
 
 function EVRoadSideAssistance() {
   return (

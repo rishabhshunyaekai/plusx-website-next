@@ -1,8 +1,8 @@
 import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./downloadApp.module.css";
-import AppStore   from "@/assets/images/homepage/app-store.svg";
-import PlayStore  from "@/assets/images/homepage/play-store.svg";
+import AppStore   from "@/assets/images/homepage/Plusx_electric_ios_app_store_download_image_icon.svg";
+import PlayStore  from "@/assets/images/homepage/Plusx_electric_google_play_app_download_image_icon.svg";
 import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function DownloadApp() {

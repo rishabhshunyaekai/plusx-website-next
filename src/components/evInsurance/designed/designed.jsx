@@ -1,9 +1,9 @@
 import style      from "./designed.module.css";
 import Card       from "@/sharedComponents/benefitsCard/benefitsCard";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import Insurance  from "@/assets/images/ev-insurance-page/insurance.svg";
-import Third      from "@/assets/images/ev-insurance-page/third-party.svg";
-import Coverage   from "@/assets/images/ev-insurance-page/coverage-option.svg";
+import Insurance  from "@/assets/images/ev-insurance-page/Plusx_electric_ev_insurance_icon.svg";
+import Third      from "@/assets/images/ev-insurance-page/Plusx_electric_third_party_ev_insurance_icon.svg";
+import Coverage   from "@/assets/images/ev-insurance-page/Plusx_electric_coverage_option_icon.svg";
 
 function Designed() {
 

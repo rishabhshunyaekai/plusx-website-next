@@ -1,5 +1,5 @@
 .chargeShareBanner {
-  background: url(../../../assets/images/ev-care-dubai/desktop-banner.webp) top no-repeat;
+  background: url(../../../assets/images/ev-care-dubai/plusx_electric_ev_care_dubai_desktop_banner.webp) top no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -182,7 +182,7 @@
 
 @media (max-width: 767px) {
 .chargeShareBanner {
-    background: url(../../../assets/images/ev-care-dubai/mobile-banner.webp) top no-repeat;
+    background: url(../../../assets/images/ev-care-dubai/plusx_electric_ev_care_dubai_mobile_banner.webp) top no-repeat;
     background-size: cover;
   }
   .container {

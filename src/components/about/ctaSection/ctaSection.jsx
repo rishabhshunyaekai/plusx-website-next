@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "./ctaSection.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
-import WhatWeDoImage from "@/assets/images/about-us-page/what-we-do.webp";
+import WhatWeDoImage from "@/assets/images/about-us-page/Plusx_electric_what_we_do_image.webp";
 
 function CTASection() {
   return (

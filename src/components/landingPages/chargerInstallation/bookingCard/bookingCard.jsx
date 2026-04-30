@@ -3,11 +3,11 @@ import Image            from "next/image";
 import styles           from "./bookingCard.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import AppIcon          from "@/assets/images/landing-pages/on-demand/app.svg";
-import ProductService   from "@/assets/images/landing-pages/charger-Installation/product-service.svg";
-import TeamIcon         from "@/assets/images/landing-pages/on-demand/driver.svg";
-import PlayStore        from "@/assets/images/homepage/play-store.svg"
-import AppStore         from "@/assets/images/homepage/app-store.svg"
+import AppIcon          from "@/assets/images/landing-pages/on-demand/Plusx_electric_download_app_icon.svg";
+import ProductService   from "@/assets/images/landing-pages/charger-Installation/Plusx_electric_product_services_icon.svg";
+import TeamIcon         from "@/assets/images/landing-pages/on-demand/Plusx_electric_Ev_driver_icon.svg";
+import PlayStore        from "@/assets/images/homepage/Plusx_electric_google_play_app_download_image_icon.svg"
+import AppStore         from "@/assets/images/homepage/Plusx_electric_ios_app_store_download_image_icon.svg"
 import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 const steps = [

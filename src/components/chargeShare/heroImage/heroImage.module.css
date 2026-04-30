@@ -1,5 +1,5 @@
 .chargeShareBanner {
-  background: url(../../../assets/images/ev-charge-share-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/ev-charge-share-page/Plusx_electric_ev_charge_share_desktop_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -84,7 +84,7 @@
 
 @media (max-width: 767px) {
   .chargeShareBanner {
-    background: url(../../../assets/images/ev-charge-share-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/ev-charge-share-page/Plusx_electric_ev_charge_share_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

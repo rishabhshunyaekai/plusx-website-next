@@ -1,7 +1,7 @@
 import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./scenarios.module.css";
-import image    from "@/assets/images/portable-charger-page/challenges.webp";
+import image    from "@/assets/images/portable-charger-page/Plusx_electric_Ev_charger_owner_challenges_section_image.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function Scenarios() {

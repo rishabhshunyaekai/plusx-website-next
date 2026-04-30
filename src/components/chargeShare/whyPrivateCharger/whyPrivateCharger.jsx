@@ -1,10 +1,10 @@
 import style          from "./whyPrivateCharger.module.css";
 import Card           from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import Animated       from "@/sharedComponents/animatedComponent/animated";
-import Capacity       from "@/assets/images/ev-charge-share-page/capacity.svg";
-import Building       from "@/assets/images/ev-charge-share-page/building.svg";
-import HighCost       from "@/assets/images/ev-charge-share-page/high-cost.svg";
-import Infrastructure from "@/assets/images/ev-charge-share-page/infrastructure.svg";
+import Capacity       from "@/assets/images/ev-charge-share-page/plusx_electric_load_capacity_icon.svg";
+import Building       from "@/assets/images/ev-charge-share-page/plusx_electric_building_management_icon.svg";
+import HighCost       from "@/assets/images/ev-charge-share-page/plusx_electric_installation_cost_icon.svg";
+import Infrastructure from "@/assets/images/ev-charge-share-page/plusx_electric_infrastructure_icon.svg";
 import Link from "next/link";
 
 function PrivateCharger() {

@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: url(../../../assets/images/plusx-for-business-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/plusx-for-business-page/plusx_electric_commercial_ev_charging_desktop_banner.webp) center no-repeat;
   background-size: cover;
   width: 100%;
   height: 22rem;
@@ -158,7 +158,7 @@
 
 @media (max-width: 580px) {
   .container {
-    background: url(../../../assets/images/plusx-for-business-page/mobile-banner.webp) right no-repeat;
+    background: url(../../../assets/images/plusx-for-business-page/plusx_electric_commercial_ev_charging_mobile_banner.webp) right no-repeat;
     background-size: cover;
     height: 70vh;
   }

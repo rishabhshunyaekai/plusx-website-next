@@ -1,9 +1,9 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import EVCharge         from "@/assets/images/ev-charger-installation-page/ev-charge.svg";
-import Additional       from "@/assets/images/ev-charger-installation-page/additional-team.svg";
-import ThirdParty       from "@/assets/images/ev-charger-installation-page/third-party.svg";
-import Noclear          from "@/assets/images/ev-charger-installation-page/no-clear.svg";
+import EVCharge         from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_icon.svg";
+import Additional       from "@/assets/images/ev-charger-installation-page/plusx_eletric_team_icon.svg";
+import ThirdParty       from "@/assets/images/ev-charger-installation-page/plusx_eletric_agency_icon.svg";
+import Noclear          from "@/assets/images/ev-charger-installation-page/plusx_eletric_documents_icon.svg";
 
 const valuesCardData = [
   {

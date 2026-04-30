@@ -1,6 +1,6 @@
 import Image    from "next/image";
 import style    from "./integrated.module.css";
-import image    from "@/assets/images/public-charging-page/integrated.webp";
+import image    from "@/assets/images/public-charging-page/plusx_eletric_integrated_navigation.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function Integrated() {

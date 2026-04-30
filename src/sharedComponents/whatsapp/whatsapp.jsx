@@ -4,7 +4,7 @@ import Image                              from "next/image";
 import { usePathname }                    from "next/navigation";
 import { useEffect, useMemo, useState }   from "react";
 import style                              from "./whatsapp.module.css";
-import WhatsappIcon                       from "@/assets/images/homepage/whatsapp-black.svg";
+import WhatsappIcon                       from "@/assets/images/homepage/plusx_electric_whatsapp_icon.svg";
 
 function Whatsapp() {
   const pathname                          = usePathname();

@@ -2,9 +2,9 @@ import Image        from "next/image";
 import style        from "./contactDetails.module.css";
 import Animated     from "@/sharedComponents/animatedComponent/animated";
 import MainHeading  from "@/sharedComponents/heading/mainHeading";
-import Call         from "@/assets/images/contact-us-page/call.svg";
-import Email        from "@/assets/images/contact-us-page/email.svg";
-import Map          from "@/assets/images/contact-us-page/map.svg";
+import Call         from "@/assets/images/contact-us-page/Plusx_electric_call_icon.svg";
+import Email        from "@/assets/images/contact-us-page/Plusx_electric_email_icon.svg";
+import Map          from "@/assets/images/contact-us-page/Plusx_electric_map_icon.svg";
 
 const heading = "Contact Us";
 

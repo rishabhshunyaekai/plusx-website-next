@@ -2,7 +2,7 @@ import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./evChargeShare.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import Share      from "@/assets/images/homepage/ev-charge-share.png";
+import Share      from "@/assets/images/homepage/Plusx_electric_ev_charge_share_card_icon.png";
 
 function EVChargeShare() {
   return (

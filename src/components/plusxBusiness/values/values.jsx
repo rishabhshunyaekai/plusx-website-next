@@ -1,8 +1,8 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
-import Residential      from "@/assets/images/plusx-for-business-page/residential.svg";
-import Malls            from "@/assets/images/plusx-for-business-page/malls.svg";
-import FleetOperator    from "@/assets/images/plusx-for-business-page/fleet-operator.svg";
-import NounHotels       from "@/assets/images/plusx-for-business-page/hotel.svg";
+import Residential      from "@/assets/images/plusx-for-business-page/plusx_electric_ev_residential_icon.svg";
+import Malls            from "@/assets/images/plusx-for-business-page/plusx_electric_malls_icon.svg";
+import FleetOperator    from "@/assets/images/plusx-for-business-page/plusx_electric_fleet_operator_icon.svg";
+import NounHotels       from "@/assets/images/plusx-for-business-page/plusx_electric_hotels_icon.svg";
 
 const valuesCardData = [
   {

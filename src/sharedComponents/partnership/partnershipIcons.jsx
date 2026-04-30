@@ -1,18 +1,18 @@
 import PartnershipCard  from "./partnershipCard";
 import styles           from "./partnershipCard.module.css";
-import Dubai            from "@/assets/images/homepage/partners/Dubai-Holding.webp";
-import Policybazaar     from "@/assets/images/homepage/partners/Policybazaar.webp";
-import AlGandhi         from "@/assets/images/homepage/partners/al-gandhi.webp";
-import Xoom             from "@/assets/images/homepage/partners/Xoom-volt.webp";
-import Europ            from "@/assets/images/homepage/partners/europ-assistance.webp";
-import Foton            from "@/assets/images/homepage/partners/foton.webp";
-import AlTayer          from "@/assets/images/homepage/partners/al-tayer.webp";
-import Vinfast          from "@/assets/images/homepage/partners/Vinfast.webp";
+import Dubai            from "@/assets/images/homepage/partners/Plusx_electric_Dubai-Holding_logo_image.webp";
+import Policybazaar     from "@/assets/images/homepage/partners/plusx_electric_Policybazaar logo_image.webp";
+import AlGandhi         from "@/assets/images/homepage/partners/Plusx_electric_al-gandhi_logo image.webp";
+import Xoom             from "@/assets/images/homepage/partners/Plusx_Electric_Xoom-volt logo_image.webp";
+import Europ            from "@/assets/images/homepage/partners/Plusx_electric_europ-assistance logo_image.webp";
+import Foton            from "@/assets/images/homepage/partners/Plusx_electric_foton logo_image.webp";
+import AlTayer          from "@/assets/images/homepage/partners/Plusx_electric_al-tayer logo_image.webp";
+import Vinfast          from "@/assets/images/homepage/partners/Plusx_electric_Vinfast logo_image.webp";
 // import AlKhayyat        from "@/assets/images/homepage/partners/al-khayyat-motors.webp";
 
 const partners = [
   { icon: Dubai,        alt:"Dubai Holding", },
-  { icon: Policybazaar, alt:"Policybazaar", },
+  { icon: Policybazaar, alt:"Policy Bazaar", },
   { icon: AlGandhi,     alt:"Al Ghandi Auto", },
   { icon: Xoom,         alt:"Xoom Volt", },
   { icon: Europ,        alt:"Europ Assistance", },

@@ -1,5 +1,5 @@
 .plusxBanner {
-  background: url(../../../assets//images//ev-roadside-assistance-page/desktop-banner.webp) top no-repeat;
+  background: url(../../../assets//images//ev-roadside-assistance-page/plusx_eletric_ev_breakdown_assistance_desktop_banner.webp) top no-repeat;
   background-size: cover;
   height: 100vh;
   background-size: cover;
@@ -72,7 +72,7 @@
 
 @media (max-width: 992px) {
   .plusxBanner {
-    background: url(../../../assets//images//ev-roadside-assistance-page/mobile-banner.webp) top no-repeat;
+    background: url(../../../assets//images//ev-roadside-assistance-page/plusx_eletric_ev_breakdown_assistance_mobile_banner.webp) top no-repeat;
     background-size: cover;
   }
   .container {

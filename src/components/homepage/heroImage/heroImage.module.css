@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: url(../../../assets/images/homepage/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/homepage/Plusx_Electric_homepage_desktop_banner.webp) center no-repeat;
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@
 
 @media (max-width: 670px) {
   .bannerImage {
-    background: url(../../../assets/images/homepage/mobile-banner.webp) center
+    background: url(../../../assets/images/homepage/Plusx_Electric_homepage_mobile_banner.webp) center
       no-repeat;
     background-size: cover;
   }

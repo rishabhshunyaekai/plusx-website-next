@@ -1,10 +1,10 @@
 import styles           from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard.module.css";
 import OtherServiceCard from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import Roadside         from "@/assets/images/landing-pages/brands-logo/ServicesImage/ev-roadside-assistance.webp";
-import Charger          from "@/assets/images/landing-pages/brands-logo/ServicesImage/charger-Installation.webp";
-import Insurance        from "@/assets/images/landing-pages/brands-logo/ServicesImage/ev-insurance.webp";
-import Pickup           from "@/assets/images/landing-pages/brands-logo/ServicesImage/pick.webp";
+import Roadside         from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_ev_breakdown_assistance_service.webp";
+import Charger          from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_charger_installation_service.webp";
+import Insurance        from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_ev_insurance_service.webp";
+import Pickup           from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_pickup_dropoff_service.webp";
 
 const services = [
   {
@@ -15,7 +15,7 @@ const services = [
     link        : "/ev-chargers"
   },
   {
-    title       : "EV Roadside Assistance",
+    title       : "EV Breakdown Assistance",
     description : "Emergency Charging Service Delivered Within 45 Mins",
     imgSrc      : Roadside,
     buttonText  : "Know More",

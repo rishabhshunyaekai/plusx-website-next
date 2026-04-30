@@ -1,5 +1,5 @@
 .insuranceBanner {
-  background: url(../../../assets/images/ev-insurance-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/ev-insurance-page/Plusx_electric_ev_car_insurance_desktop_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -72,7 +72,7 @@
 
 @media (max-width: 767px) {
   .insuranceBanner {
-    background: url(../../../assets/images/ev-insurance-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/ev-insurance-page/Plusx_electric_ev_car_insurance_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

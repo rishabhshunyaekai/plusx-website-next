@@ -1,6 +1,6 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
-import NoTowing         from "@/assets/images/ev-roadside-assistance-page/no-towing.svg";
-import JumpStart        from "@/assets/images/ev-roadside-assistance-page/jump-start.svg";
+import NoTowing         from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_no_towing_icon.svg";
+import JumpStart        from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_jump_start_icon.svg";
 
 const valuesCardData = [
   {

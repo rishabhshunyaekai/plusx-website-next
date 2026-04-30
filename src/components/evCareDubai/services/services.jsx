@@ -1,8 +1,8 @@
 import ServiceCard      from "@/sharedComponents/serviceCard/serviceCard";
 import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
-import ChargeEV         from "@/assets/images/landing-pages/charger-Installation/charge-ev.svg";
-import CarRepair        from "@/assets/images/landing-pages/charger-Installation/car-repair.svg";
-import Maintaince       from "@/assets/images/landing-pages/charger-Installation/maintaince.svg";
+import ChargeEV         from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_ev_charger_icon.svg";
+import CarRepair        from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_car_repair_icon.svg";
+import Maintaince       from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_ev_maintainace_icon.svg";
 
 const services = [
   { icon: ChargeEV,   text: (<><strong>Car Service:</strong> Major, Premium & Luxury service packages with free pickup</>) },

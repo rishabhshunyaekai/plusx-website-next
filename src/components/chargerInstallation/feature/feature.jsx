@@ -1,7 +1,7 @@
 import Link       from "next/link";
 import Features   from "@/sharedComponents/features/features";
-import Property   from "@/assets/images/ev-charger-installation-page/property.webp";
-import Service    from "@/assets/images/ev-charger-installation-page/services.webp";
+import Property   from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation.webp";
+import Service    from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_service.webp";
 
 // const heading       = "Booking Process";
 const featuresData  = [

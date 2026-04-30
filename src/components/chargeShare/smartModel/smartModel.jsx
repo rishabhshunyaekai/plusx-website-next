@@ -1,6 +1,6 @@
 import Image    from "next/image";
 import style    from "./smartModel.module.css";
-import Adoption from "@/assets/images/ev-charge-share-page/adoption.webp";
+import Adoption from "@/assets/images/ev-charge-share-page/plusx_electric_community_charging_modal.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function SmartModel() {

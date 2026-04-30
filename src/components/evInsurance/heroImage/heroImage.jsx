@@ -1,6 +1,6 @@
 import Image                from "next/image";
 import style                from "./heroImage.module.css";
-import policybazaar         from "@/assets/images/ev-insurance-page/policy-bazaar-logo.svg";
+import policybazaar         from "@/assets/images/ev-insurance-page/Plusx_electric_policy_bazaar_logo.svg";
 import RedirectToWhatsapp   from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function InsuranceHeroImage() {

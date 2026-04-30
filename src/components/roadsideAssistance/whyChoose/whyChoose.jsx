@@ -1,7 +1,7 @@
 // import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./whyChoose.module.css";
-import Truck    from "@/assets/images/ev-roadside-assistance-page/why-choose-plusx.webp";
+import Truck    from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_why_choose_breakdown_assistance.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function WhyChoose() {

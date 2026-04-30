@@ -2,8 +2,8 @@ import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./chargeShare.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import Charging   from "@/assets/images/homepage/public-charging.png";
-import Share      from "@/assets/images/homepage/ev-car-service.png";
+import Charging   from "@/assets/images/homepage/Plusx_electric_public_ev_charging_homepage_icon.png";
+import Share      from "@/assets/images/homepage/Plusx_electric_ev_car_service_homepage_icon.png";
 
 function ChargerShare() {
   return (

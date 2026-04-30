@@ -1,14 +1,14 @@
 import Image            from "next/image";
 import style            from "./benefits.module.css";
-import AdditionalIncome from "@/assets/images/ev-charge-share-page/additional-income.webp";
-import Infra            from "@/assets/images/ev-charge-share-page/infra.webp";
-import Income           from "@/assets/images/ev-charge-share-page/income.svg";
-import Control          from "@/assets/images/ev-charge-share-page/control.svg";
-import Secure           from "@/assets/images/ev-charge-share-page/secure.svg";
-import Charger          from "@/assets/images/ev-charge-share-page/ev-charger.svg";
-import Booking          from "@/assets/images/ev-charge-share-page/booking.svg";
-import Anxiety          from "@/assets/images/ev-charge-share-page/anxiety.svg";
-import Access           from "@/assets/images/ev-charge-share-page/access.svg";
+import AdditionalIncome from "@/assets/images/ev-charge-share-page/plusx_electric_benefits_of_charger.webp";
+import Infra            from "@/assets/images/ev-charge-share-page/plusx_electric_benefits_of_charger_looking.webp";
+import Income           from "@/assets/images/ev-charge-share-page/plusx_electric_ev_community_icon.svg";
+import Control          from "@/assets/images/ev-charge-share-page/plusx_electric_full_control_icon.svg";
+import Secure           from "@/assets/images/ev-charge-share-page/plusx_electric_hassle_free_icon.svg";
+import Charger          from "@/assets/images/ev-charge-share-page/plusx_electric_use_of_charger_icon.svg";
+import Booking          from "@/assets/images/ev-charge-share-page/plusx_electric_direct_access_icon.svg";
+import Anxiety          from "@/assets/images/ev-charge-share-page/plusx_electric_public_station_icon.svg";
+import Access           from "@/assets/images/ev-charge-share-page/plusx_electric_close_to_home_icon.svg";
 
 const chargerBenefits = [
   {

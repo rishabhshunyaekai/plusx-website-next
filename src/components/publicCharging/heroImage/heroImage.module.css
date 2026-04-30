@@ -1,5 +1,5 @@
 .figureWrapper {
-  background: url(../../../assets/images/public-charging-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/public-charging-page/plusx_eletric_public_ev_charging_desktop_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -61,7 +61,7 @@
 
 @media (max-width: 767px) {
   .figureWrapper {
-    background: url(../../../assets/images/public-charging-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/public-charging-page/plusx_eletric_public_ev_charging_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

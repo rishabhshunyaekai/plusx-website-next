@@ -2,7 +2,7 @@ import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./pickupDropoff.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
-import Pickup   from "@/assets/images/homepage/pickup-dropoff.png";
+import Pickup   from "@/assets/images/homepage/Plusx_electric_Ev_pickup_dropoff_homepage_icon.png";
 
 function PickupDropoff() {
   return (

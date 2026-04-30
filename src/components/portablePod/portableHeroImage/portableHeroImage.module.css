@@ -1,5 +1,5 @@
 .plusxBanner {
-  background: url(../../../assets/images/portable-charger-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/portable-charger-page/Plusx_electric_mobile_ev_charging_desktop_banner_image.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   background-size: cover;
@@ -66,7 +66,7 @@
 
 @media (max-width: 992px) {
   .plusxBanner {
-    background: url(../../../assets/images/portable-charger-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/portable-charger-page/Plusx_electric_mobile_ev_charging_mobile_banner_image.webp) center no-repeat;
     background-size: cover;
   }
   .container {

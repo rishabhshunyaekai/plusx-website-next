@@ -1,5 +1,5 @@
 .onDemandBanner {
-  background: url(../../../../assets/images/landing-pages/on-demand/desktop-banner.webp) center no-repeat;
+  background: url(../../../../assets/images/landing-pages/on-demand/plusx_electric_on_demand_desktop_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -80,7 +80,7 @@
 
 @media (max-width: 767px) {
   .onDemandBanner {
-    background: url(../../../../assets/images/landing-pages/on-demand/mobile-banner.webp) center no-repeat;
+    background: url(../../../../assets/images/landing-pages/on-demand/plusx_electric_on_demand_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

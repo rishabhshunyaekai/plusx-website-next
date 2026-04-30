@@ -1,6 +1,6 @@
 import Features from "@/sharedComponents/features/features";
-import Vision   from "@/assets/images/about-us-page/vision.webp";
-import Mision   from "@/assets/images/about-us-page/mission.webp";
+import Vision   from "@/assets/images/about-us-page/Plusx_electric_vision_image.webp";
+import Mision   from "@/assets/images/about-us-page/Plusx_electric_mission_image.webp";
 
 const heading       = "Vision & Mission";
 const featuresData  = [

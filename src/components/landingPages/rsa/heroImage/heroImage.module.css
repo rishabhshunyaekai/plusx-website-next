@@ -1,5 +1,5 @@
 .rsaBanner {
-  background: url(../../../../assets/images/landing-pages/rsa/desktop-banner.webp) right center no-repeat;
+  background: url(../../../../assets/images/landing-pages/rsa/Plusx_electric_ev_breakdown_desktop_banner.webp) right center no-repeat;
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -144,7 +144,7 @@
 
 @media (max-width: 670px) {
   .rsaBanner {
-    background: url(../../../../assets/images/landing-pages/rsa/desktop-banner.webp) center no-repeat;
+    background: url(../../../../assets/images/landing-pages/rsa/Plusx_electric_ev_breakdown_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .outlinerText {

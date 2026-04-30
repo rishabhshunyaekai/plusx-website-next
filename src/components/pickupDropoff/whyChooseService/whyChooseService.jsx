@@ -1,6 +1,6 @@
 import Image    from "next/image";
 import style    from "./whyChooseService.module.css";
-import image    from "@/assets/images/pickup-dropoff-page/pickup.webp";
+import image    from "@/assets/images/pickup-dropoff-page/Plusx_electric_why_ev_owner_choose_pickup_service_image.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function WhyChooseService() {

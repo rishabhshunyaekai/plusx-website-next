@@ -1,8 +1,8 @@
 import Image      from "next/image";
 import style      from "./appSection.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import appStore   from "@/assets/images/homepage/app-store.svg";
-import playStore  from "@/assets/images/homepage/play-store.svg";
+import appStore   from "@/assets/images/homepage/Plusx_electric_ios_app_store_download_image_icon.svg";
+import playStore  from "@/assets/images/homepage/Plusx_electric_google_play_app_download_image_icon.svg";
 import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function AppSection({title, description, image }) {

@@ -1,7 +1,7 @@
 import style                  from "./heroImage.module.css";
 import Image                  from "next/image";
-import Plusx                  from "@/assets/images/ev-care-dubai/plusx-logo-white.webp";
-import Service                from "@/assets/images/ev-care-dubai/car-my-service-logo.webp";
+import Plusx                  from "@/assets/images/ev-care-dubai/plusx_electric_logo_white.webp";
+import Service                from "@/assets/images/ev-care-dubai/plusx_electric_service_my_car_logo.webp";
 import CTAButton              from "@/sharedComponents/ctaButton/ctaButton";
 import RedirectToWhatsapp     from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
@@ -11,8 +11,8 @@ function EVCareHeroImage() {
       <div className={`container ${style.container}`}>
         <div className={style.shareBannerContent}>
           <div className={style.brandContainer}>
-            <Image src={Plusx} alt="logo 1" width={170}  />
-            <Image src={Service} alt="Logo 2" width={170} />
+            <Image src={Plusx} alt="plusx electric" width={170}  />
+            <Image src={Service} alt="serive my car" width={170} />
           </div>
 
           <div className={style.headingSection}>

@@ -2,8 +2,8 @@ import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./chargerInstallation.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import Charger    from "@/assets/images/homepage/charger-installation.png";
-import Insurance  from "@/assets/images/homepage/ev-insurance.png";
+import Charger    from "@/assets/images/homepage/Plusx_electric_ev_charger_installation_homepage_icon.png";
+import Insurance  from "@/assets/images/homepage/Plusx_electric_ev_insurance_homepage_icon.png";
 
 function ChargerInstallation() {
   return (

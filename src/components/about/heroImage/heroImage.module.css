@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: url(../../../assets/images/about-us-page/desktop-banner.webp) top no-repeat;
+  background: url(../../../assets/images/about-us-page/Plusx_electric_about_us_desktop_banner.webp) top no-repeat;
   background-size: cover;
   width: 100%;
   height: 22rem;
@@ -108,7 +108,7 @@
 
 @media (max-width: 580px) {
   .container {
-    background: url(../../../assets/images/about-us-page//mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/about-us-page/Plusx_electric_about_us_mobile_banner.webp) center no-repeat;
     background-size: cover;
     height: 70vh;
   }

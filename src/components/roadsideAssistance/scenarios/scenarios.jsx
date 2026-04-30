@@ -1,7 +1,6 @@
-import Link     from "next/link";
 import Image    from "next/image";
 import style    from "./scenarios.module.css";
-import image    from "@/assets/images/ev-roadside-assistance-page/scenerios.webp";
+import image    from "@/assets/images/ev-roadside-assistance-page/plusx_eletric_ev_roadside_rescue.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function Scenarios() {

@@ -1,9 +1,9 @@
 import Image    from "next/image";
 import style    from "./assistance.module.css";
-import image    from "@/assets/images/ev-charger-installation-page/assistance.webp";
-import Modal    from "@/assets/images/ev-charger-installation-page/ev-modals.svg";
-import Xpansion from "@/assets/images/ev-charger-installation-page/expansion.svg";
-import KM       from "@/assets/images/ev-charger-installation-page/daily-km.svg";
+import image    from "@/assets/images/ev-charger-installation-page/plusx_eletric_right_ev_charger.webp";
+import Modal    from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_modal.svg";
+import Xpansion from "@/assets/images/ev-charger-installation-page/plusx_eletric_expansion_icon.svg";
+import KM       from "@/assets/images/ev-charger-installation-page/plusx_eletric_daily_kilometer_icon.svg";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 

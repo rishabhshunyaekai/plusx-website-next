@@ -1,9 +1,9 @@
 import Image      from "next/image";
 import style      from "./protectCar.module.css";
-import image      from "@/assets/images/ev-care-dubai/wrapping.webp";
-import Modal      from "@/assets/images/ev-care-dubai/ev-model.svg";
-import Xpansion   from "@/assets/images/ev-care-dubai/expansion.svg";
-import KM         from "@/assets/images/ev-care-dubai/daily-km.svg";
+import image      from "@/assets/images/ev-care-dubai/plusx_electric_transform_protect.webp";
+import Modal      from "@/assets/images/ev-care-dubai/plusx_electric_matte_wrap.svg";
+import Xpansion   from "@/assets/images/ev-care-dubai/plusx_electric_ceramic_coating.svg";
+import KM         from "@/assets/images/ev-care-dubai/plusx_electric_gloss_wrap.svg";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
@@ -19,19 +19,19 @@ function ProtectCar() {
 
               <ul className={style.listContent}>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={Modal} alt="ev modal" width={80} height={80}/> <p className={style.listPoints}><b>Matte Wrap</b> : Satin-smooth, zero glare finish</p>
+                  <Image className={style.listmage} src={Modal} alt="Matte Wrap" width={80} height={80}/> <p className={style.listPoints}><b>Matte Wrap</b> : Satin-smooth, zero glare finish</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={KM} alt="daily km" width={80} height={80}/> <p className={style.listPoints}><b>Gloss Wrap</b> : Mirror-like deep shine</p>
+                  <Image className={style.listmage} src={KM} alt="Gloss Wrap" width={80} height={80}/> <p className={style.listPoints}><b>Gloss Wrap</b> : Mirror-like deep shine</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={Xpansion} alt="expansion" width={80} height={80}/> <p className={style.listPoints}><b>Chrome / Satin</b> : Metallic semi-gloss finish</p>
+                  <Image className={style.listmage} src={Xpansion} alt="Chrome / Satin" width={80} height={80}/> <p className={style.listPoints}><b>Chrome / Satin</b> : Metallic semi-gloss finish</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={Modal} alt="ev modal" width={80} height={80}/> <p className={style.listPoints}><b>PPF Guard</b> : Invisible paint protection</p>
+                  <Image className={style.listmage} src={Modal} alt="PPF Guard" width={80} height={80}/> <p className={style.listPoints}><b>PPF Guard</b> : Invisible paint protection</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={KM} alt="daily km" width={80} height={80}/> <p className={style.listPoints}><b>Ceramic Coating</b> : Long-lasting nano-ceramic protection for Dubai&apos;s heat</p>
+                  <Image className={style.listmage} src={KM} alt="Ceramic Coating" width={80} height={80}/> <p className={style.listPoints}><b>Ceramic Coating</b> : Long-lasting nano-ceramic protection for Dubai&apos;s heat</p>
                 </li>
               </ul> 
 
@@ -42,7 +42,7 @@ function ProtectCar() {
 
             <Animated className="order-1 lg:order-2" animation="fade" easing="ease-in" duration={1000}>
               <div className={style.imageWrapper}>
-                <Image src={image} alt="EV Roadside Assistance Dubai" width={555} height={455} />
+                <Image src={image} alt="Transform & Protect Your Car" width={555} height={455} />
               </div>
             </Animated>
 

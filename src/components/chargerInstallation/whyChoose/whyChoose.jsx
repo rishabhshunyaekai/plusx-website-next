@@ -1,6 +1,6 @@
 import Image    from "next/image";
 import style    from "./whyChoose.module.css";
-import Plusx    from "@/assets/images/ev-charger-installation-page/why-choose.webp";
+import Plusx    from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_image.webp";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 
 function WhyChoose() {

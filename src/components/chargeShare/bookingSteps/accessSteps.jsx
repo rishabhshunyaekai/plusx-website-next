@@ -1,11 +1,11 @@
 import Image          from "next/image";
 import style          from "./bookingSteps.module.css";
 import Animated       from "@/sharedComponents/animatedComponent/animated";
-import step1          from "@/assets/images/ev-roadside-assistance-page/app.webp";
-import Arrow          from "@/assets/images/ev-roadside-assistance-page/arrow.webp";
-import EVCharger      from "@/assets/images/ev-charge-share-page/ev-charger.webp";
-import Call           from "@/assets/images/ev-charge-share-page/call.webp";
-import ChargerStation from "@/assets/images/ev-charge-share-page/charger-station.webp";
+import step1          from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_download_app_icon.webp";
+import Arrow          from "@/assets/images/ev-roadside-assistance-page/plusx_electric_arrow_icon.webp";
+import EVCharger      from "@/assets/images/ev-charge-share-page/Plusx_electric_ev_charge_share_icon.webp";
+import Call           from "@/assets/images/ev-charge-share-page/Plusx_electric_connect_ev_charger_icon.webp";
+import ChargerStation from "@/assets/images/ev-charge-share-page/Plusx_electric_ev_charger_listing_icon.webp";
 
 function BookingSteps() {
   return (

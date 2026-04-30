@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url(../../../../assets/images/landing-pages/charger-Installation/charger-installation-desktop.webp) right center no-repeat;
+  background: url(../../../../assets/images/landing-pages/charger-Installation/Plusx_electric_ev_charger_installation_desktop_banner.webp) right center no-repeat;
   background-size: cover;
   margin-bottom: 60px;
 }
@@ -115,7 +115,7 @@
 
 @media (max-width: 670px) {
   .chargerBanner {
-    background: url(../../../../assets/images/landing-pages/charger-Installation/charger-installation-mobile.webp) center no-repeat;
+    background: url(../../../../assets/images/landing-pages/charger-Installation/Plusx_electric_ev_charger_installation_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .bookSlotButton {

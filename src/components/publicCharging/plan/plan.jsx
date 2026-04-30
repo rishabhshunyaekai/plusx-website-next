@@ -1,9 +1,9 @@
 import style      from "./plan.module.css";
 import Card       from "@/sharedComponents/benefitsCard/benefitsCard";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import Available  from "@/assets/images/public-charging-page/available.svg";
-import Speed      from "@/assets/images/public-charging-page/speed.svg";
-import Plans      from "@/assets/images/public-charging-page/plan.svg";
+import Available  from "@/assets/images/public-charging-page/Plusx_electric_station_availablity_icon.svg";
+import Speed      from "@/assets/images/public-charging-page/Plusx_electric_estimated_time_icon.svg";
+import Plans      from "@/assets/images/public-charging-page/plusx_eletric_ev_charger_icon.svg";
 
 function Plan() {
 

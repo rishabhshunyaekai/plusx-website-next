@@ -1,5 +1,5 @@
 .figureWrapper {
-  background: url(../../../assets/images/pickup-dropoff-page/desktop-banner.webp) center no-repeat;
+  background: url(../../../assets/images/pickup-dropoff-page/Plusx_electric_Pickup_dropoff_desktop_banner_image.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -60,7 +60,7 @@
 
 @media (max-width: 767px) {
   .figureWrapper {
-    background: url(../../../assets/images/pickup-dropoff-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/pickup-dropoff-page/Plusx_electric_Pickup_dropoff_mobile_banner_image.webp) center no-repeat;
     background-size: cover;
   }
   .container {

@@ -1,11 +1,11 @@
 import Image    from "next/image";
 import style    from "./bookingSteps.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
-import step1    from "@/assets/images/ev-roadside-assistance-page/app.webp";
-import Arrow    from "@/assets/images/ev-roadside-assistance-page/arrow.webp";
-import Map      from "@/assets/images/ev-roadside-assistance-page/map.webp";
-import Driver   from "@/assets/images/ev-roadside-assistance-page/driver.webp";
-import Car      from "@/assets/images/ev-roadside-assistance-page/car.webp";
+import step1    from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_download_app_icon.webp";
+import Arrow    from "@/assets/images/ev-roadside-assistance-page/plusx_electric_arrow_icon.webp";
+import Map      from "@/assets/images/ev-roadside-assistance-page/plusx_electric_location_icon.webp";
+import Driver   from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_Ev_driver_icon.webp";
+import Car      from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_onsite_ev_charging_icon.webp";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 function BookingSteps() {

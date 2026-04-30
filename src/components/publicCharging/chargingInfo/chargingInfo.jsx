@@ -1,12 +1,12 @@
 import style          from "./chargingInfo.module.css";
 import Card           from "@/sharedComponents/serviceIconCard/serviceIconCard";
 import Animated       from "@/sharedComponents/animatedComponent/animated";
-import Savetime       from "@/assets/images/public-charging-page/save-time.svg";
-import Station        from "@/assets/images/public-charging-page/station.svg";
-import Speed          from "@/assets/images/public-charging-page/speed.svg";
-import Available      from "@/assets/images/public-charging-page/available.svg";
-import Pricing        from "@/assets/images/public-charging-page/pricing.svg";
-import Charger        from "@/assets/images/public-charging-page/charger.svg";
+import Savetime       from "@/assets/images/public-charging-page/Plusx_electric_operating_hours_icon.svg";
+import Station        from "@/assets/images/public-charging-page/Plusx_electric_charging_capacity_icon.svg";
+import Speed          from "@/assets/images/public-charging-page/Plusx_electric_estimated_time_icon.svg";
+import Available      from "@/assets/images/public-charging-page/Plusx_electric_station_availablity_icon.svg";
+import Pricing        from "@/assets/images/public-charging-page/Plusx_electric_pricing_icon.svg";
+import Charger        from "@/assets/images/public-charging-page/Plusx_electric_ac_Dc_charger_type_icon.svg";
 
 function ChargerInfo() {
 

@@ -11,20 +11,20 @@ import Drawer                         from "./drawer";
 import { handleDeviceRedirect, REDIRECT_PATHS, 
     APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
-import QR                             from "@/assets/images/homepage/qr-code.svg";
-import AppStore                       from "@/assets/images/homepage/app-store.svg";
-import PlayStore                      from "@/assets/images/homepage/play-store.svg";
+import QR                             from "@/assets/images/homepage/plusx_electric_header_qr_code.svg";
+import AppStore                       from "@/assets/images/homepage/Plusx_electric_ios_app_store_download_image_icon.svg";
+import PlayStore                      from "@/assets/images/homepage/Plusx_electric_google_play_app_download_image_icon.svg";
 
-import Icon1                          from "@/assets/images/homepage/navbar-icons/portable-charger.svg";
-import Icon2                          from "@/assets/images/homepage/navbar-icons/pickup-dropoff.svg";
-import Icon3                          from "@/assets/images/homepage/navbar-icons/installation.svg";
-import Icon4                          from "@/assets/images/homepage/navbar-icons/ev-charger-installation.svg";
-import Icon5                          from "@/assets/images/homepage/navbar-icons/ev-roadside-assistance.svg";
-import Icon6                          from "@/assets/images/homepage/navbar-icons/ev-charge-share.svg";
+import Icon1                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_mobile_ev_charging_icon.svg";
+import Icon2                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_pickup_dropoff_icon.svg";
+import Icon3                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_public_ev_charging_icon.svg";
+import Icon4                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charger_installation_icon.svg";
+import Icon5                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_breakdown_assistance_icon.svg";
+import Icon6                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charge_share_icon.svg";
 
-import about                          from "@/assets/images/homepage/navbar-icons/about.svg";
-import contact                        from "@/assets/images/homepage/navbar-icons/contact.svg";
-import sustainability                 from "@/assets/images/homepage/navbar-icons/sustainability.svg";
+import about                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_about_icon.svg";
+import contact                        from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_contact_icon.svg";
+import sustainability                 from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_sustainability_icon.svg";
 
 
 function Header() {

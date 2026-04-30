@@ -1,6 +1,6 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
-import PublicCharger    from "@/assets/images/portable-charger-page/infrasturure-cost.svg";
-import Infrastururecost from "@/assets/images/portable-charger-page/public-charger.svg";
+import PublicCharger    from "@/assets/images/portable-charger-page/plusx_electric_convenience_icon.svg";
+import Infrastururecost from "@/assets/images/portable-charger-page/plusx_electric_ev_charging_station_icon.svg";
 
 const valuesCardData = [
   {

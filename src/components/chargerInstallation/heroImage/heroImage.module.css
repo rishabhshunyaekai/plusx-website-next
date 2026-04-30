@@ -1,5 +1,5 @@
 .chargeShareBanner {
-  background: url(../../../assets/images/ev-charger-installation-page/banner.webp) center no-repeat;
+  background: url(../../../assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_desktop_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
@@ -78,7 +78,7 @@
 
 @media (max-width: 767px) {
   .chargeShareBanner {
-    background: url(../../../assets/images/ev-charger-installation-page/mobile-banner.webp) center no-repeat;
+    background: url(../../../assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

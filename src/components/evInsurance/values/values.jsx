@@ -1,8 +1,8 @@
 import ServiceIconCard  from "@/sharedComponents/serviceIconCard/serviceIconCard";
-import Information      from "@/assets/images/ev-insurance-page/information.svg";
-import Compare          from "@/assets/images/ev-insurance-page/compare.svg";
-import Coverage         from "@/assets/images/ev-insurance-page/coverage.svg";
-import Quote            from "@/assets/images/ev-insurance-page/quote.svg";
+import Information      from "@/assets/images/ev-insurance-page/Plusx_electric_file_docs_icon.svg";
+import Compare          from "@/assets/images/ev-insurance-page/Plusx_electric_ev_insurance_plans_icon.svg";
+import Coverage         from "@/assets/images/ev-insurance-page/Plusx_electric_review_coverage_icon.svg";
+import Quote            from "@/assets/images/ev-insurance-page/Plusx_electric_request_a_quote_icon.svg";
 
 const valuesCardData = [
   {

@@ -1,16 +1,16 @@
-import BrandCard from "./brandCard";
+import BrandCard  from "./brandCard";
 import styles     from "./brandCard.module.css";
-import Audi       from "@/assets/images/landing-pages/brands-logo/audi.webp";
-import BMW        from "@/assets/images/landing-pages/brands-logo/bmw.webp";
-import BYD        from "@/assets/images/landing-pages/brands-logo/byd.webp";
-import Cadilac    from "@/assets/images/landing-pages/brands-logo/cadillac.webp";
-import LUCID      from "@/assets/images/landing-pages/brands-logo/lucid.webp";
-import Mercedes   from "@/assets/images/landing-pages/brands-logo/mercedes.webp";
-import Poletar    from "@/assets/images/landing-pages/brands-logo/poletar.webp";
-import Porche     from "@/assets/images/landing-pages/brands-logo/porche.webp";
-import RR         from "@/assets/images/landing-pages/brands-logo/rolls-ryoce.webp";
-import Tesla      from "@/assets/images/landing-pages/brands-logo/tesla.webp";
-// import MG         from "@/assets/images/landing-pages/brands-logo/mg.webp";
+import Audi       from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_audi_logo.webp";
+import BMW        from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_bmw_logo.webp";
+import BYD        from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_byd_logo.webp";
+import Cadilac    from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_cadillac_logo.webp";
+import LUCID      from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_lucid_logo.webp";
+import Mercedes   from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_mercedes_logo.webp";
+import Poletar    from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_poletar_logo.webp";
+import Porche     from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_porche_logo.webp";
+import RR         from "@/assets/images/landing-pages/brands-logo/Plusx_electric_ev_brand_rolls_ryoce_logo.webp";
+import Tesla      from "@/assets/images/landing-pages/brands-logo/Plusx_electric_EV_brand_tesla_logo.webp";
+// import MG         from "@/assets/images/landing-pages/brands-logo/Plusx_electric_EV_brand_mg_logo.webp";
 
 const brands = [
   { icon: Tesla,    alt : "Tesla mobile EV charging Dubai" },

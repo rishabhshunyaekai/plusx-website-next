@@ -1,7 +1,7 @@
 import Features       from "@/sharedComponents/features/features";
-import IncentiveEV    from "@/assets/images/sustanability/incentive-ev.webp";
-import LeveragingAI   from "@/assets/images/sustanability/leveraging-ai.webp";
-import CarbonsCredits from "@/assets/images/sustanability/carbons-credits.webp";
+import IncentiveEV    from "@/assets/images/sustanability/Plusx_electric_incentive_for_ev_users.webp";
+import LeveragingAI   from "@/assets/images/sustanability/Plusx_electric_leveraging_ai.webp";
+import CarbonsCredits from "@/assets/images/sustanability/Plusx_electric_ev_carbon_credits.webp";
 
 const heading       = "Offerings";
 const featuresData  = [

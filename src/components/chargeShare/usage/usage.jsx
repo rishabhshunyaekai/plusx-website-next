@@ -1,8 +1,8 @@
 import style        from "./usage.module.css";
 import Animated     from "@/sharedComponents/animatedComponent/animated";
-import Station      from "@/assets/images/homepage/station.svg";
-import EvCarDriver  from "@/assets/images/homepage/ev-car-driver.svg";
-import Booking      from "@/assets/images/homepage/booking.svg";
+import Station      from "@/assets/images/homepage/plusx_electric_375+_EV_Chargers_installed_across_UAE_icon.svg";
+import EvCarDriver  from "@/assets/images/homepage/plusx_electric_575+_EV rescued with RSA_icon.svg";
+import Booking      from "@/assets/images/homepage/plusx_electric_5000+_EVs_Charged_by_Power_POD_icon.svg";
 import Card         from "@/sharedComponents/benefitsCard/benefitsCard";
 
 function Usage() {

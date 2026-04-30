@@ -2,7 +2,7 @@ import Link       from "next/link";
 import Image      from "next/image";
 import style      from "./portablePod.module.css";
 import Animated   from "@/sharedComponents/animatedComponent/animated";
-import PowerPod   from "@/assets/images/homepage/power-pod.png";
+import PowerPod   from "@/assets/images/homepage/Plusx_electric_Mobile_EV_Charging_homepage_image.png";
 
 function PortablePod() {
   return (
