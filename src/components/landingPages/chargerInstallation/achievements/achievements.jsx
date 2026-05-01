@@ -3,7 +3,7 @@ import style            from "./achievements.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 // import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import Station          from "@/assets/images/homepage/plusx_electric_375+_EV_Chargers_installed_across_UAE_icon.svg";
-import EvCarDriver      from "@/assets/images/homepage/plusx_electric_575+_EV rescued with RSA_icon.svg";
+import EvCarDriver      from "@/assets/images/homepage/plusx_electric_575+_EV_rescued_with_RSA_icon.svg";
 import Booking          from "@/assets/images/homepage/plusx_electric_5000+_EVs_Charged_by_Power_POD_icon.svg";
 
 function Achievements() {
