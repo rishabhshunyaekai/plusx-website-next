@@ -70,7 +70,7 @@ export const smartChoice = [
     text: "Home Charging: What It Means and How It Works"
   },
   {
-    headerText: `A personal EV charger lets you power your car at home, kind of like plugging in your phone overnight.  To find out what works best, whether a wall-mounted unit (often called a wallbox) or a portable charger, here’s how getting a home <a href='https://plusxelectric.com/ev-chargers' target='_blank'>EV charger in Dubai</a> works with PlusX:`,
+    headerText: `A personal EV charger lets you power your car at home, kind of like plugging in your phone overnight.  To find out what works best, whether a wall-mounted unit (often called a wallbox) or a portable charger, here’s how getting a home <a href='https://plusxelectric.com/ev-charger-installation-uae' target='_blank'>EV charger in Dubai</a> works with PlusX:`,
     type: "ul",
     items: [
       `<strong>Feasibility Check: </strong>A team of experts assesses your home's electrical setup and recommends the right charger tailored to your specific needs.`,

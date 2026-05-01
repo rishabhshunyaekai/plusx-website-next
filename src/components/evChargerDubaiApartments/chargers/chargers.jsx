@@ -82,7 +82,7 @@ function FilterChargers() {
 
         <Animated className={style.chargerContainer}  animation="fade" easing="ease-in" duration={1000}>
             {(showResults && filteredChargers.length === 0) && <p className={style.notFound}>No Charger Found</p> }
-            {(showResults && filteredChargers.length > 0) && <Product products={filteredChargers} url="/ev-chargers/ac-dc-ev-chargers" title="" /> }
+            {(showResults && filteredChargers.length > 0) && <Product products={filteredChargers} url="/ev-charger-installation-uae/ac-dc-ev-chargers" title="" /> }
         </Animated>
 
         <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>

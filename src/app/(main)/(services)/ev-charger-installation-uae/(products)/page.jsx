@@ -22,9 +22,9 @@ export const metadata = {
   description   : "EV charger installation in Dubai & UAE by PlusX Electric. End-to-end service — DEWA approvals, AC & DC charger supply, installation & 3-year warranty.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
-      canonical : `${BASE_URL}/ev-chargers`,
+      canonical : `${BASE_URL}/ev-charger-installation-uae`,
       languages: {
-        "en-AE": `${BASE_URL}/ev-chargers`,
+        "en-AE": `${BASE_URL}/ev-charger-installation-uae`,
       },
     },
 };
@@ -32,11 +32,11 @@ export const metadata = {
 const ServiceSchema = {
   "@context"    : "https://schema.org",
   "@type"       : "Service",
-  "@id"         : "https://plusxelectric.com/ev-chargers#service",
+  "@id"         : "https://plusxelectric.com/ev-charger-installation-uae#service",
   "name"        : "EV Charger Installation in Dubai & UAE",
   "serviceType" : "EV Charger Installation",
   "description" : "End-to-end EV charger installation services in Dubai and across the UAE. PlusX Electric handles DEWA approvals, site assessment, AC and DC charger supply, installation, and testing for residential, commercial, and fleet properties.",
-  "url"         : `${BASE_URL}/ev-chargers`,
+  "url"         : `${BASE_URL}/ev-charger-installation-uae`,
   "provider": {
     "@type"     : "LocalBusiness",
     "@id"       : "https://plusxelectric.com/#localbusiness",
@@ -95,7 +95,7 @@ const ServiceSchema = {
     "valueAddedTaxIncluded": false
   },
   "availability": "https://schema.org/InStock",
-  "url"         : `${BASE_URL}/ev-chargers`,
+  "url"         : `${BASE_URL}/ev-charger-installation-uae`,
   "areaServed"  : {
     "@type" : "Country",
     "name"  : "United Arab Emirates"
@@ -178,7 +178,7 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 2,
       "name": "EV Chargers",
-      "item": `${BASE_URL}/ev-chargers`,
+      "item": `${BASE_URL}/ev-charger-installation-uae`,
     }
   ]
 }

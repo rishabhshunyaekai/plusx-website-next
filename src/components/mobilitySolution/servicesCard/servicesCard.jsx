@@ -16,7 +16,7 @@ function ServicesCard() {
               <h2 className={style.cardTitle}>Electric Cycle on Rent</h2>
               <h3 className={style.cardSubTitle}>A smart choice for short trips <br className={`${style.breakLine}`}/>and flexible daily commutes</h3>
                {/* <div className={`${style.buttonContainer}`}>
-                <Link href="/ev-chargers/ac-dc-ev-chargers" className={style.cardButton}>View Details</Link>
+                <Link href="/ev-charger-installation-uae/ac-dc-ev-chargers" className={style.cardButton}>View Details</Link>
               </div> */}
               <div className={style.cardImageWrapper}>
                 <Image className={style.cardImage} src={Rent} alt="Rent" width={405} height={370} />
@@ -27,7 +27,7 @@ function ServicesCard() {
               <h2 className={style.cardTitle}>Electric Cycle on Lease</h2>
               <h3 className={style.cardSubTitle}>Long-term convenience with <br className={`${style.breakLine}`}/>significant cost savings</h3>
                {/* <div className={`${style.buttonContainer}`}>
-                <Link href="/ev-chargers/ev-accessories" className={style.cardButton}>View Details</Link>
+                <Link href="/ev-charger-installation-uae/ev-accessories" className={style.cardButton}>View Details</Link>
               </div> */}
               <div className={style.cardImageWrapper}>
                 <Image className={style.cardImage} src={Lease} alt="Lease" width={405} height={370} />

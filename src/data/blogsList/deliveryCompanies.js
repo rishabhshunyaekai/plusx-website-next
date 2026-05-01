@@ -84,7 +84,7 @@ export const deliveryCompanies = [
     type: "ul",
     items: [
       `​Installation of custom chargers at depots, warehouses, and commercial buildings.`,
-      `<a href="https://plusxelectric.com/ev-chargers" target='blank'>​AC and DC charger</a> variants to suit different fleet needs.`,
+      `<a href="https://plusxelectric.com/ev-charger-installation-uae" target='blank'>​AC and DC charger</a> variants to suit different fleet needs.`,
       `​Integrated app-based monitoring to track usage and service history.`,
       `​Energy-efficient solutions for cost-effective fleet operations.`,
     ],

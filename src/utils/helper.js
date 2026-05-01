@@ -4,9 +4,9 @@ export const PLAY_STORE_URL  = "https://play.google.com/store/apps/details?id=co
 export const REDIRECT_PATHS = {
   app                 : "/",
   portable            : "/mobile-ev-charging-dubai",
-  chargerInstallation : "/ev-chargers",
+  chargerInstallation : "/ev-charger-installation-uae",
   roadside            : "/ev-breakdown-assistance",
-  evChargers          : "/ev-chargers/ac-dc-ev-chargers",
+  evChargers          : "/ev-charger-installation-uae/ac-dc-ev-chargers",
 };
 
 export function handleDeviceRedirect(fallbackUrl) {

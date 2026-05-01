@@ -11,9 +11,9 @@ export const metadata = {
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "AC & DC EV Chargers", "portable ac ev charger", "portable ac 7kw ev charger", "wall charger 22kw", "movable dc charger 20kw",
   //                  "wallbox dc charger" ],
   alternates    : {
-      canonical : `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`,
+      canonical : `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers`,
       languages: {
-        "en-AE": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`,
+        "en-AE": `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers`,
       },
     },
 };
@@ -32,13 +32,13 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 2,
       "name": "EV Chargers",
-      "item": `${BASE_URL}/ev-chargers`
+      "item": `${BASE_URL}/ev-charger-installation-uae`
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "AC DC EV Chargers",
-      "item": `${BASE_URL}/ev-chargers/ac-dc-ev-chargers`
+      "item": `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers`
     }
   ]
 }

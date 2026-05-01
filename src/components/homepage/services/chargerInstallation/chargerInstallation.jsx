@@ -15,7 +15,7 @@ function ChargerInstallation() {
               <h2 className={style.cardTitle}>EV Charger <br className={style.breakLine} /> Installation</h2>
               <p className={style.cardSubTitle}>We install chargers at villas, homes <br className={`${style.paraBreak}`}/> offices, hotels, and malls.</p>
               <div className={style.buttonContainer}>
-                <Link href="/ev-chargers" className={style.cardButton}>Know More</Link>
+                <Link href="/ev-charger-installation-uae" className={style.cardButton}>Know More</Link>
               </div>
 
               <div className={style.cardImageWrapper}>

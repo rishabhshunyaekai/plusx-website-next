@@ -19,7 +19,7 @@ function Scenarios() {
                 <li><Link href="/public-ev-charging-stations">Public charging</Link> points can be occupied during peak hours.</li>
                 <li>Some chargers may be farther away.</li>
                 <li>Most buildings have limited access to parking.</li>
-                <li><Link href="/ev-chargers">EV charger installation</Link>  in Dubai isn&apos;t possible for everyone due to building approvals, space limitations, or cost.</li>
+                <li><Link href="/ev-charger-installation-uae">EV charger installation</Link>  in Dubai isn&apos;t possible for everyone due to building approvals, space limitations, or cost.</li>
               </ul>
 
               <p className={style.scenariosFooter}>These small issues can add friction to everyday EV usage.</p>

@@ -74,19 +74,19 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}ev-chargers`,
+      url             : `${baseUrl}ev-charger-installation-uae`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}ev-chargers/ac-dc-ev-chargers`,
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
     {
-      url             : `${baseUrl}ev-chargers/ev-accessories`,
+      url             : `${baseUrl}ev-charger-installation-uae/ev-accessories`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,

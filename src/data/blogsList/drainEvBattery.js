@@ -93,7 +93,7 @@ export const drainEvBatteries = [
   },
   {
     type: "paragraph",
-    text: `It also adds to the current <a href='https://plusxelectric.com/ev-chargers' target='blank'>fixed charging stations,</a> providing a well-balanced ecosystem that will drive EV adoption in this city. In an area that is redefining itself as a destination of innovations and sustainability, on-demand charging is an indication of the future of mobility already being present.`
+    text: `It also adds to the current <a href='https://plusxelectric.com/ev-charger-installation-uae' target='blank'>fixed charging stations,</a> providing a well-balanced ecosystem that will drive EV adoption in this city. In an area that is redefining itself as a destination of innovations and sustainability, on-demand charging is an indication of the future of mobility already being present.`
   },
   {
     type: "heading",

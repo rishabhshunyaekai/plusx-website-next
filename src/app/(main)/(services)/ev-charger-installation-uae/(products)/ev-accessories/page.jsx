@@ -10,9 +10,9 @@ export const metadata = {
   description   : "Explore EV charger accessories, including durable wall mount brackets, universal adapters, and protective carry bags for portable EV chargers.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger Accessories", "wall mount bracket for ev charger", "carry bag for portable charger"],
   alternates    : {
-      canonical : `${BASE_URL}/ev-chargers/ev-accessories`,
+      canonical : `${BASE_URL}/ev-charger-installation-uae/ev-accessories`,
       languages: {
-        "en-AE": `${BASE_URL}/ev-chargers/ev-accessories`,
+        "en-AE": `${BASE_URL}/ev-charger-installation-uae/ev-accessories`,
       },
     },
 };
@@ -31,13 +31,13 @@ const breadCrumbList = {
       "@type": "ListItem",
       "position": 2,
       "name": "EV Chargers",
-      "item": `${BASE_URL}/ev-chargers`
+      "item": `${BASE_URL}/ev-charger-installation-uae`
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "EV Accessories",
-      "item": `${BASE_URL}/ev-chargers/ev-accessories`
+      "item": `${BASE_URL}/ev-charger-installation-uae/ev-accessories`
     }
   ]
 }

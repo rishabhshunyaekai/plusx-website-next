@@ -41,7 +41,7 @@ function Header() {
     { label: "Mobile EV Charging",      path: "/mobile-ev-charging-dubai" },
     { label: "Pickup & Dropoff",        path: "/ev-pickup-dropoff-charging-service" },
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
-    { label: "EV Charger Installation", path: "/ev-chargers" },
+    { label: "EV Charger Installation", path: "/ev-charger-installation-uae" },
     { label: "EV Breakdown Assistance", path: "/ev-breakdown-assistance" },
     { label: "EV Charge Share",         path: "/ev-charge-share" },
   ]
@@ -127,7 +127,7 @@ function Header() {
                             </div>
                             <p>Find Public <br className={style.navBR} /> Charger</p>
                           </Link>
-                          <Link href="/ev-chargers" className={style.productIcons}>
+                          <Link href="/ev-charger-installation-uae" className={style.productIcons}>
                             <div className={style.icon}>
                               <Image src={Icon3} alt="bike-hire" width={50} height={50} />
                             </div>

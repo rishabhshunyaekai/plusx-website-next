@@ -466,13 +466,13 @@ export default Animated;
 const path = pathname.pathname;
 
 //Code for defining each product name on whatapp chat
-if (path.startsWith("/ev-chargers/ac-dc-ev-chargers")) {
+if (path.startsWith("/ev-charger-installation-uae/ac-dc-ev-chargers")) {
   const slug        = path.split("/").pop();
   const productName = formatProductName(slug);
   return `Hello! I am interested in ${productName}. Please share more details.`;
 }
 
-if (path.startsWith("/ev-chargers/ev-accessories")) {
+if (path.startsWith("/ev-charger-installation-uae/ev-accessories")) {
   const slug        = path.split("/").pop();
   const productName = formatProductName(slug);
   return `Hello! I am interested in ${productName}. Please share more details.`;
@@ -571,7 +571,7 @@ export function chargerInstallationPageRedirectionHandler() {
   } else if (isAndroid) {
     window.location.replace(PLAY_STORE_URL);
   } else {
-    window.location.replace("https://plusxelectric.com/ev-chargers");
+    window.location.replace("https://plusxelectric.com/ev-charger-installation-uae");
   }
 }
 
@@ -603,7 +603,7 @@ export function evChargersPageRedirectionHandler() {
   } else if (isAndroid) {
     window.location.replace(PLAY_STORE_URL);
   } else {
-    window.location.replace("https://plusxelectric.com/ev-chargers/ac-dc-ev-chargers");
+    window.location.replace("https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers");
   }
 } -->
 

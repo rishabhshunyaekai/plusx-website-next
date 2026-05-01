@@ -12,7 +12,7 @@ const services = [
     description : "EV Chargers, Adapters, Accessories & Installation",
     imgSrc      : Charger,
     buttonText  : "Know More",
-    link        : "/ev-chargers"
+    link        : "/ev-charger-installation-uae"
   },
   {
     title       : "EV Breakdown Assistance",

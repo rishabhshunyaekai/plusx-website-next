@@ -42,7 +42,7 @@ function Footer() {
                 <li><Link href="/mobile-ev-charging-dubai">Mobile EV Charging</Link></li>
                 <li><Link href="/ev-pickup-dropoff-charging-service">EV Pickup & Dropoff</Link></li>
                 <li><Link href="/ev-breakdown-assistance">EV Breakdown Assistance</Link></li>
-                <li><Link href="/ev-chargers">EV Charger Installation</Link></li>
+                <li><Link href="/ev-charger-installation-uae">EV Charger Installation</Link></li>
               </ul>
             </div>
             <div className={`${style.footerLinks}`}>

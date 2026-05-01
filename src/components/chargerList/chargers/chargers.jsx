@@ -5,7 +5,7 @@ function Chargers() {
   return (
     <article className="wrapper">
       <div className="container">
-        <Product products={chargers} url="/ev-chargers/ac-dc-ev-chargers" title="List of AC & DC Chargers" />
+        <Product products={chargers} url="/ev-charger-installation-uae/ac-dc-ev-chargers" title="List of AC & DC Chargers" />
       </div>
     </article>
   );

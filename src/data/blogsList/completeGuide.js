@@ -108,7 +108,7 @@ export const completeGuide = [
   },
   {
     type: "paragraph",
-    text: `Most EV owners in Dubai prefer to <a href='https://plusxelectric.com/ev-chargers' target='_blank'>install Level 2 chargers at home</a> or at their parking areas to ensure easy, consistent charging every day. `,
+    text: `Most EV owners in Dubai prefer to <a href='https://plusxelectric.com/ev-charger-installation-uae' target='_blank'>install Level 2 chargers at home</a> or at their parking areas to ensure easy, consistent charging every day. `,
   },
   {
     type: "heading",

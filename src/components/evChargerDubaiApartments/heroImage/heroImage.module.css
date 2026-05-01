@@ -1,8 +1,17 @@
 .chargeShareBanner {
-  background: url(../../../assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_desktop_banner.webp) center no-repeat;
+  background: url(../../../assets/images/apartment-ev-charging-page/plusx_electric_apartment_ev_charging_deskotp_banner.webp) center no-repeat;
   background-size: cover;
   height: 100vh;
   margin-bottom: 60px;
+  position: relative;
+}
+
+.chargeShareBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .container {
@@ -16,10 +25,12 @@
   align-items: flex-start;
   gap: 20px;
   margin-left: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .sharePrimaryText {
-  color: var(--color-text);
+  color: var(--color-secondary);
   font-size: 40px;
   font-weight: 600;
   line-height: 1.3;
@@ -39,10 +50,10 @@
 .outlinerText {
   display: inline-block;
   font-size: 16px;
-  color: var(--color-primary);
-  font-weight: 600;
-  border-top: 2px solid var(--color-primary);
-  border-bottom: 2px solid var(--color-primary);
+  color: var(--color-secondary);
+  /* font-weight: 600; */
+  border-top: 2px solid var(--color-secondary);
+  border-bottom: 2px solid var(--color-secondary);
   padding: 10px 0;
   width: fit-content;
 }
@@ -84,7 +95,7 @@
 
 @media (max-width: 767px) {
   .chargeShareBanner {
-    background: url(../../../assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_installation_mobile_banner.webp) center no-repeat;
+    background: url(../../../assets/images/apartment-ev-charging-page/plusx_electric_apartment_ev_charging_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
   .container {

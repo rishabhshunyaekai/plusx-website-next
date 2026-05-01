@@ -1,16 +1,16 @@
-import ProductDetails   from "@/sharedComponents/productDetails/productDetails";
-import { notFound }     from "next/navigation";
-import { accessories }  from "@/data/listOfProducts";
+import ProductDetails from "@/sharedComponents/productDetails/productDetails";
+import { notFound }   from "next/navigation";
+import { chargers }   from "@/data/listOfProducts";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export async function generateStaticParams() {
-  return accessories.map((item) => ({ slugs: item.slug }));
+  return chargers.map((item) => ({ slugs: item.slug }));
 }
 
 export async function generateMetadata({ params }) {
   const resolvedParams  = await params;
   const { slugs }       = resolvedParams;
-  const product         = accessories.find((item) => item.slug === slugs);
+  const product         = chargers.find((item) => item.slug === slugs);
 
   if (!product) {
     return {
@@ -19,26 +19,26 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title       : `${product.metaTitle} – EV Charger Accessory | PlusX Electric`,
+    title       : `${product.metaTitle} – Home & Commercial EV Charger | PlusX Electric`,
     description : product.metaDescription,
     // keywords    : ["EV Charger", "residential and commercial charger"],
     alternates  : {
-      canonical : `${BASE_URL}/ev-chargers/ev-accessories/${product.slug}`,
+      canonical : `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers/${product.slug}`,
       languages: {
-        "en-AE": `${BASE_URL}/ev-chargers/ev-accessories/${product.slug}`,
+        "en-AE": `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers/${product.slug}`,
       },
     },
   };
 }
 
-async function AccessoriesDetailsPage({ params }) {
+async function ChargersDetailsPage({ params }) {
   const resolvedParams  = await params;
   const { slugs }       = resolvedParams;
-  const product         = accessories.find((item) => item.slug === slugs);
+  const product         = chargers.find((item) => item.slug === slugs);
 
   if (!product) return notFound();
 
-  const similarProducts = accessories.filter((item) => item.slug !== slugs);
+  const similarProducts = chargers.filter((item) => item.slug !== slugs);
   const breadCrumbList = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -53,19 +53,19 @@ async function AccessoriesDetailsPage({ params }) {
         "@type": "ListItem",
         "position": 2,
         "name": "EV Chargers",
-        "item": `${BASE_URL}/ev-chargers`
+        "item": `${BASE_URL}/ev-charger-installation-uae`
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "EV Accessories",
-        "item": `${BASE_URL}/ev-chargers/ev-accessories`
+        "name": "AC DC EV Chargers",
+        "item": `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers`
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name":  product.name || product.metaTitle,
-        "item": `${BASE_URL}/ev-chargers/ev-accessories/${product.slug}`
+        "item": `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers/${product.slug}`
       }
     ]
   };
@@ -73,9 +73,9 @@ async function AccessoriesDetailsPage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
-      <ProductDetails product={product} similarProducts={similarProducts} type="accessories" />;
+      <ProductDetails product={product} similarProducts={similarProducts} type="chargers" />;
     </>
   );
 }
 
-export default AccessoriesDetailsPage;
+export default ChargersDetailsPage;

@@ -23,6 +23,7 @@ const nextConfig = {
       { source: '/plusx-for-business',                destination: '/commercial-ev-charging-solutions',     permanent: true },
       { source: '/ev-roadside-assistance-service',    destination: '/ev-breakdown-assistance',              permanent: true },
       { source: '/share-private-ev-charger',          destination: '/ev-charge-share',                      permanent: true },
+      { source: '/ev-chargers',                       destination: '/ev-charger-installation-uae',          permanent: true },
 
       // Privacy
       { source: '/privacypolicy',         destination: '/privacy-policy', permanent: true },
