@@ -26,6 +26,7 @@ import Towing                         from "@/assets/images/homepage/blogs/towin
 import Emergency                      from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
 import Guide                          from "@/assets/images/homepage/blogs/complete-guide.webp";
 import DoorstepEV                     from "@/assets/images/homepage/blogs/doorstep-ev.webp";
+import PortableEVChar                 from "@/assets/images/homepage/blogs/Plusx_electric_portable_ev_charging.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -55,8 +56,18 @@ import { future }             from "@/data/blogsList/future";
 import { emergencyEV }        from "@/data/blogsList/emergency-ev-charging";
 import { completeGuide }      from "@/data/blogsList/completeGuide";
 import { doorstepEV }         from "@/data/blogsList/doorstep-ev-charging";
+import { portableEV }         from "@/data/blogsList/portableEV";
  
 export const testimonials = [
+  {
+    slug            : "what-is-portable-ev-charging-and-how-does-it-work-in-dubai",
+    title           : "What Is Portable EV Charging and How Does It Work in Dubai?",
+    image           : PortableEVChar,
+    alt             : "Portable EV Charging in Dubai",
+    metaTitle       : "Portable EV Charging Dubai | How PlusX Electric Works",
+    metaDescription : "Discover portable EV charging in Dubai and how PlusX Electric delivers mobile EV charging at your location. Learn how on-demand charging works in Dubai.",
+    content         : portableEV,
+  },
   {
     slug            : "doorstep-ev-charging-in-dubai",
     title           : "Doorstep EV Charging in Dubai: When Is It Better Than Public Charging?",

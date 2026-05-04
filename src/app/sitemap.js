@@ -49,12 +49,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
-    {
-      url             : `${baseUrl}mobility-solution`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
+    // {
+    //   url             : `${baseUrl}mobility-solution`,
+    //   lastModified    : new Date(),
+    //   changeFrequency : "weekly",
+    //   priority        : 0.9,
+    // },
     {
       url             : `${baseUrl}mobile-ev-charging-dubai`,
       lastModified    : new Date(),
@@ -285,6 +285,12 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}doorstep-ev-charging-in-dubai`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}what-is-portable-ev-charging-and-how-does-it-work-in-dubai`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
