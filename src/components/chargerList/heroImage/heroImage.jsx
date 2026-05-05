@@ -8,11 +8,11 @@ function ListofChargersHeroImage() {
       <div className={`container ${style.container}`}>
         <div className={`grid grid-col-1 h-100 md:h-87 items-center`}>
           <Animated className={style.textWrapper} animation="fade" easing="ease-in" duration={1000}>
-              <h2 className={`${style.highlightedText}`}>Get EV Wall Charger</h2>
-              <h3 className={`${style.normalText}`}>for Your Home or Office</h3>
+              <h1 className={`${style.highlightedText}`}>EV Chargers in Dubai & UAE — for <br className={style.breakLine} />Homes, Offices & Businesses</h1>
+              <p>CE & ISO certified AC and DC chargers from AED 900, <br className={style.breakLine} /> with 3-year warranty</p>
               <div className={style.buttonContainer}>
-                <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book EV Chargers" page="charger" />
-                <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="Book Installation Service" page="installation" />
+                <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Request consultation" page="charger" />
+                <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="WhatsApp us" page="installation" />
               </div>
             {/* <div className={`${style.buttonContainer}`}>
               <Link href="#">Know more</Link>

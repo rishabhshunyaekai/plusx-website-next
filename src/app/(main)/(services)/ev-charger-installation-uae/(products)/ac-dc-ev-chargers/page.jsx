@@ -1,6 +1,9 @@
 import HeroImage    from "@/components/chargerList/heroImage/heroImage";
 import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
+import Benefits     from "@/components/chargerList/benefits/benefits";
+import Intro        from "@/components/chargerList/intro/intro";
 import ChargersList from "@/components/chargerList/chargers/chargers";
+import Values       from "@/components/chargerList/values/values";
 import Offers       from "@/components/homepage/offers/offers";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 
@@ -49,7 +52,10 @@ function EvACDCChargersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
       <Breadcrumbs />
+      <Benefits />
+      <Intro />
       <ChargersList/>
+      <Values />
       <Offers />
       <DownloadApp />
     </>

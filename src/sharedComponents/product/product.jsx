@@ -3,12 +3,12 @@ import styles             from "./product.module.css";
 import ProductCard        from "./productCard";
 import Filter             from "@/assets/images/ev-charger-installation-page/product-page/filter-icons.webp";
 import CustomDropdown     from "@/sharedComponents/customDropdown/customDropdown";
-import MainHeading        from "@/sharedComponents/heading/mainHeading";
+import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
 
 function Product({ products, url, title, showFilter }) {
   return (
     <>
-      {title && <MainHeading title={title}/>}
+      {title && <SecondaryHeading title={title}/>}
 
       <section className={styles.productContainer}>
 

@@ -217,6 +217,10 @@
   .secondaryText {
     font-size: 14px;
   }
+
+  .breakLine {
+    display: none;
+  }
 }
 
 @media (max-width: 420px) {
