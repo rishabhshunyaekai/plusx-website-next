@@ -265,7 +265,7 @@ export const doorstepEV = [
         "dateModified"    : "2026-04-29",
         "mainEntityOfPage": {
           "@type"         : "Blog",
-          "@id"           : "https://www.plusxelectric.com/blog/doorstep-vs-public-ev-charging-dubai"
+          "@id"           : `${BASE_URL}/doorstep-ev-charging-in-dubai`
         },
         "inLanguage": "en",
         "keywords": [
@@ -284,7 +284,7 @@ export const doorstepEV = [
         "isPartOf": {
           "@type": "WebPage",
           "name"  : "Doorstep EV Charging in Dubai vs Public Charging | Which Is Better?",
-          "url"   : "https://www.plusxelectric.com/blog/doorstep-vs-public-ev-charging-dubai"
+          "url"   : `${BASE_URL}/doorstep-ev-charging-in-dubai`
         }
       }
     ]

@@ -1,0 +1,139 @@
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.filterWrapper {
+  background: var(--color-secondary);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 20px var(--color-shadow);
+}
+
+.cardHeading {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.selectorCard {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 15px;
+  align-items: end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.button {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 500;
+  padding: 17px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+}
+
+.chargerContainer {
+  margin-top: 40px;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.connectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.connect {
+  font-size: 18px;
+}
+
+.getWhatsapp {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 500;
+  padding: 17px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+  width: fit-content;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.getWhatsapp:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 2px 10px rgba(160, 158, 158, 0.733);
+}
+
+.notFound {
+  color: var(--color-shadow-dark);
+}
+
+@media (max-width: 1024px) {
+  .breakline {
+    display: none;
+  }
+
+  .getWhatsapp {
+    padding: 12px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .selectorCard {
+    grid-template-columns: 1fr;
+  }
+
+  .cardButton {
+    font-size: 14px;
+  }
+
+  .connect {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .cardHeading {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 15px;
+  }
+  .connect {
+    font-size: 15px;
+  }
+  .getWhatsapp {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}

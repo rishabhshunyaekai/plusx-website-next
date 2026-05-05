@@ -18,9 +18,11 @@ import PlayStore                      from "@/assets/images/homepage/Plusx_elect
 import Icon1                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_mobile_ev_charging_icon.svg";
 import Icon2                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_pickup_dropoff_icon.svg";
 import Icon3                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_public_ev_charging_icon.svg";
-import Icon4                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charger_installation_icon.svg";
+import Icon4                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charger_icon.svg";
 import Icon5                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_breakdown_assistance_icon.svg";
-import Icon6                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charge_share_icon.svg";
+import Icon6                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_accessories_icon.svg";
+// import Icon4                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charger_installation_icon.svg";
+// import Icon6                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_ev_charge_share_icon.svg";
 
 import about                          from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_about_icon.svg";
 import contact                        from "@/assets/images/homepage/navbar-icons/Plusx_electric_nav_contact_icon.svg";
@@ -42,6 +44,8 @@ function Header() {
     { label: "Pickup & Dropoff",        path: "/ev-pickup-dropoff-charging-service" },
     { label: "Find Public Charger",     path: "/public-ev-charging-stations" },
     { label: "EV Charger Installation", path: "/ev-charger-installation-uae" },
+    { label: "EV Chargers",             path: "/ev-charger-installation-uae/ac-dc-ev-chargers" },
+    { label: "EV Accessories",          path: "/ev-charger-installation-uae/ev-accessories" },
     { label: "EV Breakdown Assistance", path: "/ev-breakdown-assistance" },
     { label: "EV Charge Share",         path: "/ev-charge-share" },
   ]
@@ -84,19 +88,19 @@ function Header() {
                         <div className={style.navOptionsContainer}>
                           <Link href="/about-us" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={about} alt="public-charger" width={50} height={50} />
+                              <Image src={about} alt="about-us" width={50} height={50} />
                             </div>
                             <p>About</p>
                           </Link>
                           <Link href="/sustainability" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={sustainability} alt="pick-drop" width={50} height={50} />
+                              <Image src={sustainability} alt="sustainability" width={50} height={50} />
                             </div>
                             <p>Sustainability</p>
                           </Link>
                           <Link href="/contact-us" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={contact} alt="leasing" width={50} height={50} />
+                              <Image src={contact} alt="contact-us" width={50} height={50} />
                             </div>
                             <p>Contact</p>
                           </Link>
@@ -111,7 +115,7 @@ function Header() {
                         <div className={style.navContainer}>
                           <Link href="/mobile-ev-charging-dubai" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon1} alt="public-charger" width={50} height={50} />
+                              <Image src={Icon1} alt="mobile-ev-charger" width={50} height={50} />
                             </div>
                             <p>Mobile EV <br className={style.navBR} /> Charging</p>
                           </Link>
@@ -121,29 +125,29 @@ function Header() {
                             </div>
                             <p>Pickup & <br className={style.navBR} /> Dropoff</p>
                           </Link>
-                          <Link href="/public-ev-charging-stations" className={style.productIcons}>
-                            <div className={style.icon}>
-                              <Image src={Icon4} alt="leasing" width={50} height={50} />
-                            </div>
-                            <p>Find Public <br className={style.navBR} /> Charger</p>
-                          </Link>
                           <Link href="/ev-charger-installation-uae" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon3} alt="bike-hire" width={50} height={50} />
+                              <Image src={Icon3} alt="charger-installation" width={50} height={50} />
                             </div>
                             <p>EV Charger <br className={style.navBR} /> Installation</p>
                           </Link>
+                          <Link href="/ev-charger-installation-uae/ac-dc-ev-chargers" className={style.productIcons}>
+                            <div className={style.icon}>
+                              <Image src={Icon4} alt="ev-chargers" width={50} height={50} />
+                            </div>
+                            <p>EV <br className={style.navBR} /> Chargers</p>
+                          </Link>
+                          <Link href="/ev-charger-installation-uae/ev-accessories" className={style.productIcons}>
+                            <div className={style.icon}>
+                              <Image src={Icon6} alt="ev-accessories" width={50} height={50} />
+                            </div>
+                            <p>EV <br className={style.navBR} />  Accessories</p>
+                          </Link>
                           <Link href="/ev-breakdown-assistance" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon5} alt="installation" width={50} height={50} />
+                              <Image src={Icon5} alt="ev-breakdown-assistance" width={50} height={50} />
                             </div>
                             <p>EV Breakdown <br className={style.navBR} /> Assistance</p>
-                          </Link>
-                          <Link href="/ev-charge-share" className={style.productIcons}>
-                            <div className={style.icon}>
-                              <Image src={Icon6} alt="ev charge share" width={50} height={50} />
-                            </div>
-                            <p>EV Charge <br className={style.navBR} /> Share</p>
                           </Link>
                         </div>
                       </div>
@@ -160,7 +164,7 @@ function Header() {
                 <div className={style.hoverContainer}>
                   <div className={style.hoverPopup}>
                     <div className={style.qrCode}>
-                      <Image src={QR} alt="QR Code" width={80} height={90} />
+                      <Image src={QR} alt="Plusx Electric App Download QR Code" width={80} height={90} />
                     </div>
                     <div className={style.hoverLinks}>
                       <div className={style.hoverText}>Scan to download Plusx Electric app in your phone. Or get it here:</div>

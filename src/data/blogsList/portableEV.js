@@ -191,7 +191,7 @@ export const portableEV = [
         "@context"    : "https://schema.org",
         "@type"       : "Article",
         "headline"    : "Portable EV Charging Dubai | How PlusX Electric Works",
-        "name"        : "EV Charging Dubai | Complete Guide by PlusX Electric",
+        "name"        : "Portable EV Charging in Dubai | Complete Guide by PlusX Electric",
         "description" : "Discover portable EV charging in Dubai and how PlusX Electric delivers mobile EV charging at your location. Learn how on-demand charging works in Dubai.",
         "image"       : `${BASE_URL}${blogImage.src}`,
         "author"      : {
@@ -208,28 +208,24 @@ export const portableEV = [
             "url"     : "https://plusxelectric.com/logo-icon.svg"
           }
         },
-        "datePublished" : "2026-05-04",
-        "dateModified"  : "2026-05-04",
+        "datePublished" : "2026-05-05",
+        "dateModified"  : "2026-05-05",
         "mainEntityOfPage": {
           "@type" : "Blog",
-          "@id"   : "https://www.plusxelectric.com/blog/ev-charging-dubai"
+          "@id"   : `${BASE_URL}/what-is-portable-ev-charging-and-how-does-it-work-in-dubai`
         },
         "inLanguage": "en",
-        "keywords": [ "EV charging Dubai", "home EV charging Dubai", "public EV charging Dubai", "mobile EV charging Dubai", "Level 2 charging Dubai", "fast charging Dubai", "electric vehicle charging Dubai", "EV charging cost Dubai"
-        ],
-        "articleSection": [
-          "Types of EV Charging Available in Dubai", "Home EV Charging in Dubai", "Public EV Charging in Dubai", "Mobile EV Charging in Dubai",
-          "Challenges EV Owners Face With EV Charging", "Smart Technologies for Managing EV Charging", "Choosing the Right Charging Option"
-        ],
+        "keywords": ["portable EV charging Dubai","mobile EV charging Dubai","on-demand EV charging Dubai","EV charging at home Dubai","electric car charging Dubai","PlusX Electric charging service","EV charging solutions Dubai","battery mobile charging Dubai"],
+         "articleSection": [ "Introduction to Portable EV Charging", "What Is Portable EV Charging", "How Portable EV Charging Works", "Steps for Mobile EV Charging in Dubai", "PlusX Electric Portable Charging Process", "Benefits of On-Demand EV Charging", "Conclusion", "FAQs"],
         "about": {
           "@type": "Thing",
-          "name": "Electric Vehicle Charging",
-          "description": "Charging infrastructure and services for electric vehicles in Dubai, UAE"
+          "name": "Portable EV Charging",
+          "description": "Mobile and on-demand charging solutions for electric vehicles in Dubai without relying on fixed charging stations."
         },
         "isPartOf": {
           "@type": "WebPage",
-          "name": "EV Solutions in Dubai | Complete Guide by PlusX Electric",
-          "url": "https://www.plusxelectric.com/blog/ev-solutions-dubai"
+          "name": "EV Charging Solutions by PlusX Electric",
+          "url": `${BASE_URL}/what-is-portable-ev-charging-and-how-does-it-work-in-dubai`
         }
       }
     ]

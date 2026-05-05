@@ -359,7 +359,7 @@ export const completeGuide = [
         "dateModified"  : "2026-04-21",
         "mainEntityOfPage": {
           "@type" : "Blog",
-          "@id"   : "https://www.plusxelectric.com/blog/ev-charging-dubai"
+          "@id"   : `${BASE_URL}/ev-charging-in-dubai-guide`
         },
         "inLanguage": "en",
         "keywords": [ "EV charging Dubai", "home EV charging Dubai", "public EV charging Dubai", "mobile EV charging Dubai", "Level 2 charging Dubai", "fast charging Dubai", "electric vehicle charging Dubai", "EV charging cost Dubai"
@@ -376,7 +376,7 @@ export const completeGuide = [
         "isPartOf": {
           "@type": "WebPage",
           "name": "EV Solutions in Dubai | Complete Guide by PlusX Electric",
-          "url": "https://www.plusxelectric.com/blog/ev-solutions-dubai"
+          "url": `${BASE_URL}/ev-charging-in-dubai-guide`
         }
       }
     ]

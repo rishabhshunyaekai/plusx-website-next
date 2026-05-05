@@ -4,6 +4,7 @@ import Intro        from "@/components/chargerInstallation/chargerInstallationIn
 import Values       from "@/components/chargerInstallation/values/values";
 import WhyChoose    from "@/components/chargerInstallation/whyChoose/whyChoose";
 import Products     from "@/components/chargerInstallation/productCard/productCard";
+import Chargers     from "@/components/chargerInstallation/chargers/chargers";
 import Assistance   from "@/components/chargerInstallation/assistance/assistance";
 import Benefits     from "@/components/chargerInstallation/benefits/benefits";
 import BookingSteps from "@/components/chargerInstallation/bookingSteps/bookingSteps";
@@ -198,6 +199,7 @@ function EVChargerInstallationPage() {
       <Benefits />
       <BookingSteps />
       <Products />
+      <Chargers />
       <Features />
       <CTA />
       {/* <CTASection /> */}

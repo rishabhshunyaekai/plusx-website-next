@@ -251,7 +251,7 @@ export const emergencyEV = [
         "publisher": {
           "@type" : "Organization",
           "name"  : "PlusX Electric",
-          "url"   : "https://plusxelectric.com",
+          "url"   : `${BASE_URL}/`,
           "logo"  : {
             "@type" : "ImageObject",
             "url" : "https://plusxelectric.com/logo-icon.svg"
