@@ -12,7 +12,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Why EV Adoption is Accelerating in Dubai"
   },
   {
@@ -21,7 +21,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Government Incentives"
   },
   {
@@ -30,7 +30,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Corporate Fleet Transitions"
   },
   {
@@ -39,7 +39,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Environmental Awareness"
   },
   {
@@ -48,7 +48,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. Technological Advancements"
   },
   {
@@ -57,7 +57,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Challenge: Charging Infrastructure"
   },
   {
@@ -72,12 +72,12 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href='https://plusxelectric.com/five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver' target='blank'>5 Scenarios Where EV Roadside Assistance Becomes a Lifesaver</a>`,
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Need for Smart Charging Solutions"
   },
   {
@@ -92,7 +92,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `How PlusX Electric Addresses the EV Charging Challenge in Dubai`
   },
   {
@@ -101,7 +101,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `1. Portable, On-Demand Charging`
   },
   {
@@ -110,7 +110,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `2. Ease of Use`
   },
   {
@@ -119,7 +119,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `3. Safety and Expertise`
   },
   {
@@ -128,7 +128,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `4. Convenience in All Conditions`
   },
   {
@@ -137,7 +137,7 @@ export const growingNeeds = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `Benefits of Smart, On-Demand Charging`
   },
   {

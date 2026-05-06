@@ -12,7 +12,7 @@ export const batteryDie = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "What to Do When Your EV Battery Dies? "
   },
   {

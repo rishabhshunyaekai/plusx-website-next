@@ -15,7 +15,7 @@ export const leasingRenting = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Leasing Options"
   },
   {
@@ -30,7 +30,7 @@ export const leasingRenting = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Carasti"
   },
   {
@@ -45,7 +45,7 @@ export const leasingRenting = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Car Fare"
   },
   {
@@ -69,7 +69,7 @@ export const leasingRenting = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Cost Comparison"
   },
   {
@@ -82,7 +82,7 @@ export const leasingRenting = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "User Experiences"
   },
   {

@@ -8,7 +8,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Real Challenge: Delivery Fleets Cannot Afford Downtime"
   },
   {
@@ -28,7 +28,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Mobile Charging Dubai: Charging That Comes to the Fleet"
   },
   {
@@ -49,7 +49,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Door-to-Door Charging: Power to Come to Your Car directly"
   },
   {
@@ -68,12 +68,12 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day" target='_blank' rel="noopener noreferrer">Stuck with a Drained EV Battery? Here’s How On-Demand Charging Saves the Day</a>`
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Fleet EV Charging: Scalable Solutions for Growing Delivery Companies"
   },
   {
@@ -92,7 +92,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Emergency Response Mobile EV Charging Trucks"
   },
   {
@@ -120,12 +120,12 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "How PlusX Electric Keeps EV Fleets Running 24/7"
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Mobile on-demand charging"
   },
   {
@@ -134,7 +134,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Scheduled Doorstep Charging"
   },
   {
@@ -143,7 +143,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Fleet Charging Installations"
   },
   {
@@ -152,7 +152,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. 24/7 Support across Dubai"
   },
   {
@@ -161,7 +161,7 @@ export const deliveryCompanies = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "5. Competency"
   },
   {

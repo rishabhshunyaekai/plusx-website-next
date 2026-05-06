@@ -12,7 +12,7 @@ export const drainEvBatteries = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Silent Stress of EV Range Anxiety"
   },
   {
@@ -40,7 +40,7 @@ export const drainEvBatteries = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it" target='_blank' rel="noopener noreferrer">EV Range Anxiety is Real: Here’s How PlusX’s Emergency EV Charging Pod Solves It</a>`,
   },
   {

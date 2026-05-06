@@ -147,7 +147,7 @@ export const holiday = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner" target='_blank'>Why EV Roadside Assistance is a Must-Have for Every EV Owner</a>`
   },
   {
@@ -228,7 +228,7 @@ export const holiday = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Conclusion"
   },
   {

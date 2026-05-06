@@ -41,7 +41,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "High Carbon Emissions from Diesel-Based Chargers"
   },
   {
@@ -50,7 +50,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Inefficiency of Diesel-Based EV Charging"
   },
   {
@@ -59,7 +59,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Noise and Health Impacts"
   },
   {
@@ -68,7 +68,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Why Diesel EV Charging Undermines Dubai’s Sustainability Goals"
   },
   {
@@ -90,7 +90,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Renewable-Powered EV Charging Solutions"
   },
   {
@@ -99,7 +99,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Battery-Powered Mobile EV Charging"
   },
   {
@@ -108,7 +108,7 @@ export const diesel = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Smart and Scalable Grid-Connected Charging"
   },
   {

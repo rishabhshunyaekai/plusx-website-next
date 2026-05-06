@@ -52,10 +52,10 @@ function EvACDCChargersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
       <Breadcrumbs />
-      <Benefits />
-      <Intro />
+      {/* <Benefits />
+      <Intro /> */}
       <ChargersList/>
-      <Values />
+      {/* <Values /> */}
       <Offers />
       <DownloadApp />
     </>

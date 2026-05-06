@@ -8,12 +8,12 @@ export const owner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Challenges EV Owners Face on the Road"
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Battery depletion anxiety:"
   },
   {
@@ -22,7 +22,7 @@ export const owner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Flat tyres or lockouts:"
   },
   {
@@ -31,7 +31,7 @@ export const owner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Limited charging infrastructure in some areas:"
   },
   {
@@ -49,7 +49,7 @@ export const owner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver" target='blank'>5 Scenarios Where EV Roadside Assistance Becomes a Lifesaver</a>`
   },
   {

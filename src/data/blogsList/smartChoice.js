@@ -12,7 +12,7 @@ export const smartChoice = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Understanding Public Charging in the UAE"
   },
   {

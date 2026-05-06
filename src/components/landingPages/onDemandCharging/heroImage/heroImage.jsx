@@ -12,7 +12,7 @@ function OnDemandHeroImage() {
           </h1>
 
           <div className="">
-            <h2 className={style.priceText}>Only at AED 65*</h2>
+            <h2 className={style.priceText}>Only at AED 65 + VAT</h2>
             <CTAButton className={style.chargerButton} text="Book Your Slot Now" handler="appRedirect" />
           </div>
         </div>

@@ -10,7 +10,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "EV Charging From Nissan To Tesla At Single Platform"
   },
   {
@@ -23,7 +23,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Why PlusX Electric Stands Out"
   },
   {
@@ -39,7 +39,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Residential and Commercial EV Charging Solutions"
   },
   {
@@ -52,12 +52,12 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/the-benefits-for-ev-owner-having-plusx-electric-app" target='_blank'>The Benefits for EV owner having PlusX Electric app</a>`
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Convenient Mobile EV Charging"
   },
   {
@@ -66,7 +66,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Fleet Support and Roadside Assistance"
   },
   {
@@ -82,7 +82,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Benefits of choosing PlusX Electric include"
   },
   {
@@ -91,7 +91,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Reliability"
   },
   {
@@ -100,7 +100,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Flexibility"
   },
   {
@@ -109,7 +109,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Convenience"
   },
   {
@@ -118,7 +118,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. Sustainability"
   },
   {
@@ -127,7 +127,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "5. Technology Integration"
   },
   {
@@ -136,7 +136,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Supporting Dubai's Sustainable Mobility Goals"
   },
   {
@@ -145,7 +145,7 @@ export const nissanTesla = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Choose Smart EV Charging Solutions"
   },
   {

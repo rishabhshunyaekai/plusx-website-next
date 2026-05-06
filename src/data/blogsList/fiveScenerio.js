@@ -12,12 +12,12 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Here are 5 scenarios of how EV road assistance can come to the rescue."
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Weekend Getaway Gone Wrong"
   },
   {
@@ -34,7 +34,7 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Late for an Important Meeting"
   },
   {
@@ -47,7 +47,7 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Airport Rush"
   },
   {
@@ -60,7 +60,7 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. School Pick-Up Panic"
   },
   {
@@ -73,7 +73,7 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "5. Stranded After a Desert Event"
   },
   {
@@ -109,7 +109,7 @@ export const fiveScenerio = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Final Word"
   },
   {

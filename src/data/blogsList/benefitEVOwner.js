@@ -8,7 +8,7 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "How PlusX Electric Makes EV Ownership Smarter and More Convenient"
   },
   {
@@ -17,7 +17,7 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Charging Facility Updates"
   },
   {
@@ -26,7 +26,7 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "On-Demand Mobile EV Charging for Convenience"
   },
   {
@@ -39,12 +39,12 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text:  `<a href="https://plusxelectric.com/stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day" target='blank' rel="noopener noreferrer">Stuck with a Drained EV Battery? Here’s How On-Demand Charging Saves the Day</a>`
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text:  `Smart Notifications and Seamless Scheduling`
   },
   {
@@ -60,7 +60,7 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text:  `Smoother Charging Experience`
   },
   {
@@ -69,7 +69,7 @@ export const benefitEVOwner = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text:  `Power Your EV Journey with PlusX Electric`
   },
   {

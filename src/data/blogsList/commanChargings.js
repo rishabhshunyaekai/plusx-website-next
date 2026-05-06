@@ -8,12 +8,12 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Common Charging Challenges For EV Owners"
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Limited Availability of Public Chargers:"
   },
   {
@@ -27,7 +27,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Chargers Out of Service or Faulty:"
   },
   {
@@ -41,12 +41,12 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/road-trip-in-the-uae-with-an-ev-here-why-you-need-backup-support" target='_blank' rel="noopener noreferrer">EV Road Trips in the UAE: Challenges Every Driver Should Know</a>`
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Incompatibility with Certain EV Models:"
   },
   {
@@ -60,7 +60,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. Difficulty Accessing Chargers in Residential Areas:"
   },
   {
@@ -81,7 +81,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "5. Slow Charging Speeds:"
   },
   {
@@ -94,7 +94,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "6. Range Anxiety Despite Planning:"
   },
   {
@@ -108,7 +108,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "7. High Costs of Some Charging Stations:"
   },
   {
@@ -121,7 +121,7 @@ export const commonChargings = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "8. Lack of Knowledge About EV Charging Etiquette:"
   },
   {

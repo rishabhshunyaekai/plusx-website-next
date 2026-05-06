@@ -16,7 +16,7 @@ export const evrevolution = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Challenge with Traditional Charging in Dubai"
   },
   {
@@ -25,7 +25,7 @@ export const evrevolution = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Limited availability:"
   },
   {
@@ -34,7 +34,7 @@ export const evrevolution = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Long queues and downtime"
   },
   {
@@ -43,7 +43,7 @@ export const evrevolution = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Not accessible during emergencies"
   },
   {
@@ -52,7 +52,7 @@ export const evrevolution = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging" target='_blank'>Top 10 Locations in Dubai Where EV Drivers Most Need Emergency Charging</a>`
   },
   {

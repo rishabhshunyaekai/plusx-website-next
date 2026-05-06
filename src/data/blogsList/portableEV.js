@@ -34,6 +34,11 @@ export const portableEV = [
     text: "Rather than having to find a charging station, EV owners could order EV charging at their location in Dubai, making the process much more flexible."
   },
   {
+    type: "heading",
+    level: 2,
+    text: `<a href="/doorstep-ev-charging-in-dubai" target="__blank">Doorstep EV Charging in Dubai: When Is It Better Than Public Charging?</a>`
+  },
+  {
     type: "ctaButton",
     action: "portablePage",
     alt: "portable EV Charging in Dubai",
@@ -87,7 +92,7 @@ export const portableEV = [
   },
   {
     type: "paragraph",
-    text: "The process will enable drivers to use on-demand EV charging in Dubai without having to drive to a fixed charging station."
+    text: `The process will enable drivers to use <a href="/mobile-ev-charging-dubai" target="__blank">on-demand EV charging in Dubai</a> without having to drive to a fixed charging station.`
   },
   {
     type: "heading",
@@ -100,7 +105,7 @@ export const portableEV = [
   },
   {
     type: "paragraph",
-    text: `They typically include a built-in battery and a <a href='https://plusxelectric.com/ev-charger-installation-uae' target="__blank">Level 2 charger</a>, allowing vehicles to be charged in a controlled and monitored way.`
+    text: `They typically include a built-in battery and a Level 2 charger, allowing vehicles to be charged in a controlled and monitored way.`
   },
   {
     headerText: `<b>How the Service Works</b>`,

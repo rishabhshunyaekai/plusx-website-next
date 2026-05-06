@@ -11,7 +11,7 @@ export const evRise = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Government Initiatives and Policies"
   },
   {
@@ -30,7 +30,7 @@ export const evRise = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Infrastructure Development"
   },
   {
@@ -50,7 +50,7 @@ export const evRise = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Market Trends"
   },
   {
@@ -70,7 +70,7 @@ export const evRise = [
   },
   {
     type: "heading",
-    level: 4,
+    level: 2,
     text: "Benefits of EVs"
   },
   {

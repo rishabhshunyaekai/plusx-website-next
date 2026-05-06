@@ -16,7 +16,7 @@ export const everyDubai = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Unique Challenges EV Drivers Face on the Road in Dubai"
   },
   {

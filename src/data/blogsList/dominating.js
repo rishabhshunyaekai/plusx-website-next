@@ -22,7 +22,7 @@ export const dominating = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1.	Tesla Model 3"
   },
   {

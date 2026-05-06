@@ -12,7 +12,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "The Reality of EV Road Trips in the UAE"
   },
   {
@@ -40,12 +40,12 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: `<a href="https://plusxelectric.com/top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging" target='blank'>Top 10 Locations in Dubai Where EV Drivers Most Need Emergency Charging</a>`
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "1. Charging stations are scarce in rural regions:"
   },
   {
@@ -54,7 +54,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "2. Charger downtime or too many people:"
   },
   {
@@ -63,7 +63,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "3. Worrying about the range in really hot weather:"
   },
   {
@@ -72,7 +72,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "4. Limitations that are specific to vehicles:"
   },
   {
@@ -81,7 +81,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "5. Delays and detours that weren't planned:"
   },
   {
@@ -106,7 +106,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "Key Benefits :"
   },
   {
@@ -120,7 +120,7 @@ export const roadTrips = [
   },
   {
     type: "heading",
-    level: 3,
+    level: 2,
     text: "How Backup Support Works"
   },
   {

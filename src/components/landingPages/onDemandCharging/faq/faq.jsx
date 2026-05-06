@@ -27,7 +27,7 @@ const FAQ = () => {
                 "name"  : "What is the cost of mobile EV charging service in Dubai?",
                 "acceptedAnswer": {
                     "@type" : "Answer",
-                    "text"  : "Starting at AED 65 for fast, reliable, doorstep EV charging anywhere in Dubai."
+                    "text"  : "Starting at AED 65 + VAT for fast, reliable, doorstep EV charging anywhere in Dubai."
                 }
             },
             {

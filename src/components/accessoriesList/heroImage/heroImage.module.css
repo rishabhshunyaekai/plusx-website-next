@@ -35,6 +35,12 @@
   z-index: 2;
 }
 
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .highlightedText {
   padding: 6px 10px;
   background-color: var(--color-primary);

@@ -22,6 +22,8 @@ const structuredData = {
     "@type" : "PostalAddress",
     "streetAddress"   : "D55-PBU, Dubai Production City",
     "addressLocality" : "Dubai",
+    "addressRegion"   : "Dubai",
+    "postalCode"      : "00000",
     "addressCountry"  : "AE"
   },
   "contactPoint": {
@@ -62,6 +64,7 @@ const localBusinessSchema = {
     "streetAddress"   : "D55-PBU, Dubai Production City",
     "addressLocality" : "Dubai",
     "addressRegion"   : "Dubai",
+    "postalCode"      : "00000",
     "addressCountry"  : "AE"
   },
   "geo": {
