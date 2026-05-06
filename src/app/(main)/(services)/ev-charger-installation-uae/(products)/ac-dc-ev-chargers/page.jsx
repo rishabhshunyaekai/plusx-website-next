@@ -2,10 +2,13 @@ import HeroImage    from "@/components/chargerList/heroImage/heroImage";
 import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Benefits     from "@/components/chargerList/benefits/benefits";
 import Intro        from "@/components/chargerList/intro/intro";
+import Filter       from "@/components/chargerList/dropdownFilter/dropdownFilter";
 import ChargersList from "@/components/chargerList/chargers/chargers";
 import Values       from "@/components/chargerList/values/values";
+import BookingSteps from "@/components/chargerList/bookingSteps/bookingSteps";
 import Offers       from "@/components/homepage/offers/offers";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
+import FAQ          from "@/components/chargerList/faq/faq";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
@@ -52,12 +55,15 @@ function EvACDCChargersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
       <Breadcrumbs />
-      {/* <Benefits />
-      <Intro /> */}
+      <Benefits />
+      <Intro />
+      <Filter />
       <ChargersList/>
-      {/* <Values /> */}
+      <Values />
+      <BookingSteps />
       <Offers />
       <DownloadApp />
+      <FAQ />
     </>
   )
 }
