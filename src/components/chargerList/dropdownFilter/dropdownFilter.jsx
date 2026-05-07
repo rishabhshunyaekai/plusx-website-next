@@ -1,6 +1,6 @@
 "use client";
 
-import Link             from "next/link";
+// import Link             from "next/link";
 import { useState }     from "react";
 import { chargers, 
         vehicleData }   from "@/data/listOfProducts";
@@ -9,14 +9,15 @@ import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import CustomDropdown   from "@/sharedComponents/customDropdown/customDropdown";
 import Product          from "@/sharedComponents/product/product";
-import { BsWhatsapp }   from "react-icons/bs";
+import ChargersList     from "@/components/chargerList/chargers/chargers";
+// import { BsWhatsapp }   from "react-icons/bs";
 
 function FilterChargers() {
   const [make, setMake]                 = useState(null);
   const [model, setModel]               = useState(null);
   const [showResults, setShowResults]   = useState(false);
   
-  const whatsappMessage = `Hi PlusX Electric, my EV is not listed. Could you please help me choose the right charger?`
+  // const whatsappMessage = `Hi PlusX Electric, my EV is not listed. Could you please help me choose the right charger?`
   const makeOptions     = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
   const modelOptions    = make?.value && Object.keys(vehicleData[make.value]).map((model) => ({ label: model, value: model }));
 
@@ -50,6 +51,7 @@ function FilterChargers() {
   const filteredChargers = getRecommendedChargers();
 
   return (
+    <>
     <section className="wrapper">
       <div className="container">
         <SecondaryHeading title="Find the Right EV Charger for Your Car" />
@@ -86,8 +88,8 @@ function FilterChargers() {
         </Animated>
 
         <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
-          <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>We recommend chargers for Tesla Model 3, Model Y, Model S, Model X, BYD Atto 3, BYD Seal, BYD Han, Nissan Leaf, Audi e-tron, BMW iX,
-            Mercedes-EQ EQS, EQE, Polestar 2, Hyundai Ioniq 5, Kia EV6, Lucid Air, and Cadillac LYRIQ. Don&apos;t see your model? Contact us — we work
+          <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>We recommend chargers for Tesla Model 3, Model Y, Model S, Model X, BYD Atto 3, BYD Seal, BYD Han, Nissan Leaf, Audi e-tron, <br className={style.breakline} />BMW iX,
+            Mercedes-EQ EQS, EQE, Polestar 2, Hyundai Ioniq 5, Kia EV6, Lucid Air, and Cadillac LYRIQ.<br className={style.breakline} /> Don&apos;t see your model? Contact us — we work
             with every EV sold in the UAE.
           </p>
           {/* <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can’t find your EV in the list? Connect with us on WhatsApp—we’ll assist you.</p> */}
@@ -97,6 +99,9 @@ function FilterChargers() {
         </Animated>   
       </div>
     </section>
+    
+    {!showResults && <ChargersList/>}
+    </>
   );
 }
 

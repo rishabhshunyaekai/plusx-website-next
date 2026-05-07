@@ -3,7 +3,7 @@ import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Benefits     from "@/components/chargerList/benefits/benefits";
 import Intro        from "@/components/chargerList/intro/intro";
 import Filter       from "@/components/chargerList/dropdownFilter/dropdownFilter";
-import ChargersList from "@/components/chargerList/chargers/chargers";
+// import ChargersList from "@/components/chargerList/chargers/chargers";
 import Values       from "@/components/chargerList/values/values";
 import BookingSteps from "@/components/chargerList/bookingSteps/bookingSteps";
 import Offers       from "@/components/homepage/offers/offers";
@@ -58,7 +58,7 @@ function EvACDCChargersPage() {
       <Benefits />
       <Intro />
       <Filter />
-      <ChargersList/>
+      {/* <ChargersList/> */}
       <Values />
       <BookingSteps />
       <Offers />

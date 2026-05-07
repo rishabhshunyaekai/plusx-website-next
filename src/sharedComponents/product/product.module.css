@@ -4,7 +4,55 @@
   gap: 40px;
 }
 
-.filterButton button {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.content {
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.8;
+  text-align: center;
+  white-space: pre-line;  /* for next line via css (\n) */
+}
+
+.content a{
+  color: var(--color-link);
+  cursor: pointer;
+}
+
+.filterButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.filterButton {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: 10px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.filterButton:hover {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.active {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+/* .filterButton button {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -87,25 +135,37 @@
   height: 12px;
   background-color: var(--color-primary);
   border-radius: 50%;
-}
+} */
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+@media (max-width: 1200px) {
+  .content {
+    white-space: normal;  /* for remove next line via css */
+  }
 }
 
 @media (max-width: 992px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 }
 
 @media (max-width: 767px) {
-  .filterButton button {
+  .filterButtonContainer {
+    gap: 10px;
+  }
+
+  .filterButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  /* .filterButton button {
     padding: 4px 10px;
     border-radius: 10px;
-  }
+  } */
   .grid {
     grid-template-columns: 1fr;
   }
@@ -114,6 +174,9 @@
 @media (max-width: 450px) {
   .radioButtonContainer {
     gap: 10px;
+  }
+  .content {
+    font-size: 15px;
   }
 }
 

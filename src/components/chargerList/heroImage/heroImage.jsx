@@ -8,7 +8,7 @@ function ListofChargersHeroImage() {
       <div className={`container ${style.container}`}>
         <div className={`grid grid-col-1 h-100 md:h-87 items-center`}>
           <Animated className={style.textWrapper} animation="fade" easing="ease-in" duration={1000}>
-              <h1 className={`${style.highlightedText}`}>EV Chargers in Dubai & UAE — for <br className={style.breakLine} />Homes, Offices & Businesses</h1>
+              <h1 className={`${style.highlightedText}`}>EV Chargers in Dubai & UAE — <br className={style.breakLine} />for Homes, Offices & Businesses</h1>
               <p>CE & ISO certified AC and DC chargers from AED 900, <br className={style.breakLine} /> with 3-year warranty</p>
               {/* <h1 className={`${style.highlightedText}`}>Get EV Wall Charger</h1>
               <p className={`${style.normalText}`}>for Your Home or Office</p> */}

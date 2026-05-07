@@ -4,7 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Link  from "next/link";
 import style from "./breadCrumb.module.css";
 
-const specialWords = ["ac", "dc", "ev"];
+const specialWords = ["ac", "dc", "ev", "uae"];
 function formatLabel(segment) {
   return segment.split("-").map((word) => {
       if (specialWords.includes(word.toLowerCase())) {
