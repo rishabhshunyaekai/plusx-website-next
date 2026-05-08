@@ -13,8 +13,8 @@ function ListofChargersHeroImage() {
               {/* <h1 className={`${style.highlightedText}`}>Get EV Wall Charger</h1>
               <p className={`${style.normalText}`}>for Your Home or Office</p> */}
               <div className={style.buttonContainer}>
-                <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Request consultation" page="charger" />
-                <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="WhatsApp us" page="installation" />
+                <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Request Consultation" page="charger" />
+                <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="WhatsApp Us" page="installation" />
                 {/* <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book EV Chargers" page="charger" />
                 <RedirectToWhatsapp className={style.serviceButton} isShowIcon={false} text="Book Installation Service" page="installation" /> */}
               </div>

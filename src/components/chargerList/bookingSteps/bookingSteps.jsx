@@ -17,7 +17,7 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              From Enquiry to First Charge —<br className={style.headingBreakline}/> How It Works
+              From Enquiry to First Charge — How It Works
             </h2>
             <h3 className={style.bookingStepsSubHeading}>A simple 3-step process to get you charging</h3>
           </Animated>
@@ -28,7 +28,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={ChargeEV} alt="EV make and model" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>Tell us about your</b> <br />EV Share your EV make and model, daily driving
+            <p className={style.steps}><b>Share Your EV & Charging Requirements</b> <br />EV Share your EV make and model, daily driving
               distance, and where you plan to install or use the charger — at home, office, or commercial site.
             </p>
           </div>

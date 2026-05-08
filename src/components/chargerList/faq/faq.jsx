@@ -12,17 +12,10 @@ function FAQ() {
             "name"  : "What is the difference between AC and DC EV chargers?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "AC chargers convert alternating current from your home or office supply into direct current inside the vehicle, charging at 7kW to 22kW. They typically take 4–8 hours for a full charge and are best for home, villa, or office use. DC chargers convert AC to DC outside the vehicle and deliver direct current straight to the battery at 20kW to 120kW or higher, charging most EVs in 30–60 minutes. DC chargers are designed for commercial sites, fleets, and public stations. "
+                "text"  : "AC chargers are best for regular home, villa, or office use. They charge at 7kW–22kW and are recommended for daily charging because slower AC charging helps maintain better EV battery health. DC chargers are faster chargers that deliver power directly to the battery, usually from 20kW–120kW or higher, and can charge most EVs in 30–60 minutes. They are ideal for commercial sites, fleets, and public charging stations."
             }
         },
         {
-            "@type" : "Question",
-            "name"  : "How much does an EV charger cost in the UAE? ",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "PlusX Electric AC chargers start at AED 900 for portable models and AED 1,199 for wall-mounted home chargers. DC fast chargers for commercial use start at AED 22,000. Final price depends on charger capacity (kW), connector type, and whether installation is included. "
-            }
-        },{
             "@type" : "Question",
             "name"  : "Which EV charger should I buy for my home in Dubai? ",
             "acceptedAnswer": {
@@ -53,39 +46,7 @@ function FAQ() {
                 "@type" : "Answer",
                 "text"  : "Every PlusX EV charger comes with a 3-year manufacturer warranty, one year of complimentary roadside assistance, and one free preventive maintenance visit within the first year. "
             }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "Does PlusX install EV chargers? ",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "Yes. PlusX offers professional EV charger installation across the UAE as an optional service. Our certified electricians handle electrical wiring, mounting, DEWA or ADDC coordination where required, and final commissioning. Installation is optional — you can also purchase the charger and arrange installation separately."
-            }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "How long does it take to install a home EV charger in Dubai?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "A typical home EV charger installation takes one day on-site, after a free site survey. Including any building or DEWA approvals, the full process from order to first charge is usually completed within 5 working days."
-            }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "What is the best EV charger for an apartment in Dubai?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "Apartments in Dubai often cannot install permanent wall chargers because of building approvals or shared electrical capacity. In that case, the PlusX Portable AC Charger 7kW or 11kW is the best option — it plugs into a standard three-phase or single-phase socket and requires no installation. Apartment residents can also use the PlusX EV Charge Share feature to access shared chargers from neighbours."
-            }
-        },
-        {
-            "@type" : "Question",
-            "name"  : "Can I use a PlusX EV charger outside Dubai?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "Yes. PlusX Electric supplies and supports EV chargers across all seven emirates of the UAE — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain."
-            }
-        },
+        }
     ]
   }
 

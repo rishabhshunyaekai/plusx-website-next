@@ -112,3 +112,52 @@
 .blogFaq P {
   font-size: 15px ;
 }
+
+.buttonConatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 4px 10px var(--color-shadow);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+@media (max-width: 992px) {
+  .button {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonConatiner {
+    gap: 15px;
+  }
+  .button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttonConatiner {
+    gap: 10px;
+  }
+  .button {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

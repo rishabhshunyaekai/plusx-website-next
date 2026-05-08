@@ -1,4 +1,5 @@
 "use client"
+import Link         from "next/link";
 import Image        from "next/image";
 import style        from "./blog.module.css";
 import Faq          from "@/sharedComponents/faqs/faqs";
@@ -93,6 +94,42 @@ function BlogPage({ blogContent }) {
                       <img src={block?.desktop?.src || block?.desktop} alt={block?.alt} />
                     </picture>
                   </button>
+                );
+ 
+              case "buttons":
+                return (
+                  <div key={index} className={style.buttonConatiner}>
+                    {block?.buttons?.map((btn, i) => {
+
+                      // WHATSAPP BUTTON
+                      if (btn?.type === "whatsapp") {
+                        return (
+                          <a key={i} href={`https://api.whatsapp.com/send?phone=${btn?.phone}&text=${encodeURIComponent(btn?.message)}`} target="__blank" rel="noreferrer" className={style.button}>
+                            {btn?.label}
+                          </a>
+                        );
+                      }
+
+                      // REDIRECTION BUTTON
+                      if (btn?.type === "redirect") {
+                        return (
+                          <button key={i} className={style.button} onClick={() => redirection(btn?.action)}>
+                            {btn?.label}
+                          </button>
+                        );
+                      }
+
+                      // LINK BUTTON
+                      if (btn?.type === "link") {
+                        return (
+                          <Link key={i} href={btn?.href} className={style.button} target="_blank">
+                            {btn?.label}
+                          </Link>
+                        );
+                      }
+                      return null;
+                    })}
+                  </div>
                 );
 
               case "faq":

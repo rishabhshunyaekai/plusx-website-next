@@ -1,6 +1,6 @@
 "use client";
 
-// import Link             from "next/link";
+import Link             from "next/link";
 import { useState }     from "react";
 import { chargers, 
         vehicleData }   from "@/data/listOfProducts";
@@ -10,14 +10,14 @@ import Animated         from "@/sharedComponents/animatedComponent/animated";
 import CustomDropdown   from "@/sharedComponents/customDropdown/customDropdown";
 import Product          from "@/sharedComponents/product/product";
 import ChargersList     from "@/components/chargerList/chargers/chargers";
-// import { BsWhatsapp }   from "react-icons/bs";
+import { BsWhatsapp }   from "react-icons/bs";
 
 function FilterChargers() {
   const [make, setMake]                 = useState(null);
   const [model, setModel]               = useState(null);
   const [showResults, setShowResults]   = useState(false);
   
-  // const whatsappMessage = `Hi PlusX Electric, my EV is not listed. Could you please help me choose the right charger?`
+  const whatsappMessage = `Hi PlusX Electric, my EV is not listed. Could you please help me choose the right charger?`
   const makeOptions     = Object.keys(vehicleData).map((item) => ({ label: item, value: item }));
   const modelOptions    = make?.value && Object.keys(vehicleData[make.value]).map((model) => ({ label: model, value: model }));
 
@@ -54,11 +54,11 @@ function FilterChargers() {
     <>
     <section className="wrapper">
       <div className="container">
-        <SecondaryHeading title="Find the Right EV Charger for Your Car" />
+        <SecondaryHeading title="Not Sure Which Charger You Need?" />
 
         <Animated className="text-center" animation="fade" easing="ease-in" duration={1000}>
             <p className={style.content}>
-              Pick your EV and we&apos;ll recommend the right charger — based on your car&apos;s onboard charging capacity, typical daily<br className={style.breakline} /> range needs, and what your home&apos;s power supply can handle.
+              Pick your EV and we&apos;ll recommend the right charger for you— based on your car&apos;s onboard charging capacity, typical daily <br className={style.breakline} /> range needs, and what your apartment building&apos;s power supply can handle.
             </p>
         </Animated>
 
@@ -87,16 +87,14 @@ function FilterChargers() {
             {(showResults && filteredChargers.length > 0) && <Product products={filteredChargers} url="/ev-charger-installation-uae/ac-dc-ev-chargers" title="" /> }
         </Animated>
 
-        <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
-          <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>We recommend chargers for Tesla Model 3, Model Y, Model S, Model X, BYD Atto 3, BYD Seal, BYD Han, Nissan Leaf, Audi e-tron, <br className={style.breakline} />BMW iX,
-            Mercedes-EQ EQS, EQE, Polestar 2, Hyundai Ioniq 5, Kia EV6, Lucid Air, and Cadillac LYRIQ.<br className={style.breakline} /> Don&apos;t see your model? Contact us — we work
-            with every EV sold in the UAE.
-          </p>
-          {/* <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can’t find your EV in the list? Connect with us on WhatsApp—we’ll assist you.</p> */}
-          {/* <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${style.innerClass} ${style.getWhatsapp}`} rel="noreferrer" id="whatsappIcon">
-              <BsWhatsapp /> Get Help on WhatsApp
-          </Link> */}
-        </Animated>   
+        {!showResults && (
+          <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
+            <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can&apos;t find your EV in the list? Connect with us on WhatsApp—we&apos;ll assist you.</p>
+            <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${style.innerClass} ${style.getWhatsapp}`} rel="noreferrer" id="whatsappIcon">
+                <BsWhatsapp /> Get Help on WhatsApp
+            </Link>
+          </Animated>
+        )}
       </div>
     </section>
     

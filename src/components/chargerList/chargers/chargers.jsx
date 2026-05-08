@@ -4,7 +4,7 @@ import { chargers } from "@/data/listOfProducts";
 function Chargers() {
   const data = {
     title   : `Browse All AC and DC EV Chargers`,
-    content : `PlusX Electric stocks 11 EV charger models across home, portable, and commercial categories. All chargers are \nCE and ISO certified and come with a 3-year manufacturer warranty.`,
+    content : `PlusX Electric offers 11 EV charger models across home, portable, and commercial categories. All chargers \nare CE and ISO certified and come with a 3-year manufacturer warranty.`,
   }
   
   return (

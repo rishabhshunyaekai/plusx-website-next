@@ -85,12 +85,14 @@ function FilterChargers() {
             {(showResults && filteredChargers.length > 0) && <Product products={filteredChargers} url="/ev-charger-installation-uae/ac-dc-ev-chargers" title="" /> }
         </Animated>
 
-        <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
-          <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can’t find your EV in the list? Connect with us on WhatsApp—we’ll assist you.</p>
-          <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${style.innerClass} ${style.getWhatsapp}`} rel="noreferrer" id="whatsappIcon">
-              <BsWhatsapp /> Get Help on WhatsApp
-          </Link>
-        </Animated>   
+        {!showResults && (
+          <Animated className={style.connectContainer}  animation="fade" easing="ease-in" duration={1000}>
+            <p className={`${style.connect} ${showResults ? style.marginTop : ""}`}>Can’t find your EV in the list? Connect with us on WhatsApp—we’ll assist you.</p>
+            <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${style.innerClass} ${style.getWhatsapp}`} rel="noreferrer" id="whatsappIcon">
+                <BsWhatsapp /> Get Help on WhatsApp
+            </Link>
+          </Animated>   
+        )}
       </div>
     </section>
   );

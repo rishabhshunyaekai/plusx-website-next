@@ -15,7 +15,7 @@ const valuesCardData = [
   },
   {
     icon: CarRepair,
-    text: <><b>One year of free roadside assistance :</b> Every PlusX charger purchase includes complimentary EV roadside assistance for the first year, anywhere in the UAE.</>,
+    text: <><b>One year of free roadside assistance :</b> Every PlusX charger purchase includes complimentary EV roadside assistance for the first year, anywhere in the dubai.</>,
   },
   {
     icon: Techni,
