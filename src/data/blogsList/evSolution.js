@@ -116,7 +116,7 @@ export const eVSolution = [
       {
         label: "Explore Our EV Charging Services",
         type: "link",
-        href: "/mobile-ev-charging-dubai",
+        href: "/",
       },
       // {
       //   label: "Explore Our EV Charging Services",

@@ -1,0 +1,163 @@
+.plusxBanner {
+  background: url(../../../assets//images//ev-roadside-assistance-page/plusx_eletric_ev_breakdown_assistance_desktop_banner.webp) top no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 150px 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.slug {
+  background-color: var(--color-primary);
+  padding: 10px 14px;
+  color: var(--color-secondary);
+  font-size: 30px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.slug2 {
+  display: inline-block;
+  background-color: var(--color-tertiary);
+  padding: 10px 14px;
+  color: var(--color-secondary);
+  font-size: 27px;
+  border-radius: 8px;
+}
+
+.priceLine {
+  color: var(--color-text);
+  font-size: 25px;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.ctaButton {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 10px 15px;
+  box-shadow: 0 4px 10px var(--color-shadow-dark);
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ctaButton:hover {
+  background-color: #f9f9f9;
+  color: var(--color-primary);
+  box-shadow: 0 -4px 20px var(--color-shadow-dark);
+}
+
+@media (max-width: 992px) {
+  .plusxBanner {
+    background: url(../../../assets//images//ev-roadside-assistance-page/plusx_eletric_ev_breakdown_assistance_mobile_banner.webp) top no-repeat;
+    background-size: cover;
+  }
+  .container {
+    padding: 180px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .slug {
+    padding: 10px 14px;
+    font-size: 25px;
+  }
+
+  .slug2 {
+    padding: 10px 14px;
+    font-size: 23px;
+  }
+  .priceLine {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 580px) {
+  .container {
+    padding: 200px 0;
+  }
+
+  .slug {
+    padding: 10px 8px;
+    font-size: 22px;
+  }
+
+  .slug2 {
+    padding: 10px 8px;
+    font-size: 20px;
+  }
+  .priceLine {
+    font-size: 18px;
+  }
+
+  .ctaButton {
+    padding: 8px 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 485px) {
+  .heading {
+    padding: 0px 10px;
+  }
+  .slug {
+    font-size: 18px;
+  }
+
+  .slug2 {
+    font-size: 16px;
+  }
+
+  .priceLine {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .heading {
+    padding: 0px 10px;
+  }
+  .slug {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 410px) {
+  .slug {
+    font-size: 15px;
+  }
+
+  .slug2 {
+    font-size: 14px;
+  }
+  .priceLine {
+    font-size: 14px;
+  }
+  .ctaButton {
+    padding: 6px 15px;
+    font-size: 15px;
+  }
+}

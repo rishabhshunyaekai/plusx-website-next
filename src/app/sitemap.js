@@ -97,6 +97,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}ev-roadside-assistance-service-dubai`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
     // {
     //   url             : `${baseUrl}ev-roadside-assistance-service`,
     //   lastModified    : new Date(),
