@@ -8,6 +8,7 @@
   justify-content: space-around;
   gap: 15px;
   cursor: pointer;
+  /* height: 100%; */
 }
 
 .card:hover {
@@ -24,7 +25,7 @@
 }
 
 .title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--color-primary);
   margin: 0;
@@ -34,20 +35,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
+  /* margin-top: auto; */
 }
 
 .oldPrice {
   text-decoration: line-through;
   color: #333;
-  font-size: 14px;
+  font-size: 13px;
   margin-right: 5px;
 }
 
 .newPrice {
   color: var(--color-primary);
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .button {
@@ -59,7 +61,7 @@
   cursor: pointer;
   background: var(--color-primary);
   color: var(--color-secondary);
-  border-radius: 8px;
+  border-radius: 7px;
   text-decoration: none;
   background-color: var(--color-primary);
 }

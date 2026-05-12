@@ -28,6 +28,7 @@ import Guide                          from "@/assets/images/homepage/blogs/compl
 import DoorstepEV                     from "@/assets/images/homepage/blogs/doorstep-ev.webp";
 import PortableEVChar                 from "@/assets/images/homepage/blogs/Plusx_electric_portable_ev_charging.webp";
 import EVSolution                     from "@/assets/images/homepage/blogs/plusxelectric_ev_solution_in_dubai.webp";
+import CommonEVCharging               from "@/assets/images/homepage/blogs/plusx_electric_common_ev_charging_in_dubai.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -59,8 +60,18 @@ import { completeGuide }      from "@/data/blogsList/completeGuide";
 import { doorstepEV }         from "@/data/blogsList/doorstep-ev-charging";
 import { portableEV }         from "@/data/blogsList/portableEV";
 import { eVSolution }         from "@/data/blogsList/evSolution";
+import { commonEVCharging }   from "@/data/blogsList/commonEVCharging";
  
 export const testimonials = [
+  {
+    slug            : "ev-charging-problems-dubai",
+    title           : "Common EV Charging Problems in Dubai and How to Avoid Them",
+    image           : CommonEVCharging,
+    alt             : "Common EV Charging in Dubai | PlusX Electric",
+    metaTitle       : "Common EV Charging Problems in Dubai and How to Avoid Them",
+    metaDescription : "Facing EV charging issues in Dubai? Learn the most common problems like queues, compatibility, and slow charging, and how to avoid them with smarter solutions like PlusX Electric",
+    content         : commonEVCharging,
+  },
   {
     slug            : "ev-solutions-in-dubai",
     title           : "EV Solutions in Dubai: The Complete Guide to Charging, Rescue & Insurance",
