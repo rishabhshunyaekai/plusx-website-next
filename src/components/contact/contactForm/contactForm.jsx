@@ -67,6 +67,7 @@ function GetInTouch() {
       setError({});
       setIsDisplayPhoneError(false);
       setTimeout(()=> router.push('/thank-you-contact-us') ,500);
+      window.dataLayer.push({ event: 'contact_form_submission_success' });
     } else {
       setErrorMessage(result.message);
       setTimeout(() => setErrorMessage(""), 5000);

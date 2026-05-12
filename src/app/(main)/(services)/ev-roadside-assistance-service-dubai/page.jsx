@@ -1,9 +1,11 @@
 import HeroImage    from "@/components/roadsideAssistanceService/heroImage/heroImage";
 import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/roadsideAssistanceService/rsaIntro/rsaIntro";
+import Features     from "@/components/roadsideAssistanceService/feature/feature";
 import Intro2       from "@/components/roadsideAssistanceService/rsaIntro/rsaIntro2";
 import Scenarios    from "@/components/roadsideAssistanceService/scenarios/scenarios";
 import BookingSteps from "@/components/roadsideAssistanceService/bookingSteps/bookingSteps";
+import Intro3       from "@/components/roadsideAssistanceService/rsaIntro/rsaIntro3";
 import WhyChoose    from "@/components/roadsideAssistanceService/whyChoose/whyChoose";
 import CTA          from "@/components/roadsideAssistanceService/cta/cta";
 import Brands       from "@/components/roadsideAssistanceService/brands/brands";
@@ -259,6 +261,8 @@ function EVBreakdownAssistancePage() {
       <Breadcrumbs />
       <Intro />
       <Scenarios />
+      <Features />
+      <Intro3 />
       <BookingSteps />
       <WhyChoose />
       <Testimonials />
