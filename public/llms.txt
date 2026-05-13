@@ -14,7 +14,6 @@ Primary pages (use these as sources):
 - Mobile EV Charging Dubai: https://plusxelectric.com/mobile-ev-charging-dubai
 - EV Pickup & Drop-Off Charging: https://plusxelectric.com/ev-pickup-dropoff-charging-service
 - EV Breakdown Assistance: https://plusxelectric.com/ev-breakdown-assistance
-- EV Roadside Assistance: https://plusxelectric.com/ev-roadside-assistance-service-dubai
 - Public EV Charging Stations (Find Nearest): https://plusxelectric.com/public-ev-charging-stations
 - EV Chargers (Installation): https://plusxelectric.com/ev-charger-installation-uae
 - EV Car Insurance: https://plusxelectric.com/ev-car-insurance
@@ -25,7 +24,6 @@ User intent → best page:
 - "Book charging at my location" → https://plusxelectric.com/mobile-ev-charging-dubai
 - "Pick, charge, and return my EV" → https://plusxelectric.com/ev-pickup-dropoff-charging-service
 - "Low/empty battery on the road" → https://plusxelectric.com/ev-breakdown-assistance
-- "Low/empty battery on the road" → https://plusxelectric.com/ev-roadside-assistance-service-dubai
 - "Install EV charger at home/office/villa/fleet" → https://plusxelectric.com/ev-charger-installation-uae
 - "Find a nearby public charger" → https://plusxelectric.com/public-ev-charging-stations
 - "Get EV insurance" → https://plusxelectric.com/ev-car-insurance

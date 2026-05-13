@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: url(../../../assets/images/ev-charger-installation-page/product-page/ev-accessories.webp) top no-repeat;
+  background: url(../../../assets/images/ev-charger-installation-page/product-page/plusx_electric_ev_accessories_desktop_banner.webp) top no-repeat;
   background-size: cover;
   width: 100%;
   height: 22rem;
@@ -159,7 +159,7 @@
   .container {
     height: 50vh;
     height: 100%;
-    background: url(../../../assets/images/ev-charger-installation-page/product-page/ev-accessories-mobile.webp) center no-repeat;
+    background: url(../../../assets/images/ev-charger-installation-page/product-page/plusx_electric_ev_accessories_mobile_banner.webp) center no-repeat;
     background-size: cover;
   }
 
@@ -198,7 +198,7 @@
 
 @media (max-width: 580px) {
   .container {
-    background: url(../../../assets/images/ev-charger-installation-page/product-page/ev-accessories-mobile.webp) top no-repeat;
+    background: url(../../../assets/images/ev-charger-installation-page/product-page/plusx_electric_ev_accessories_mobile_banner.webp) top no-repeat;
     background-size: cover;
     height: 70vh;
   }

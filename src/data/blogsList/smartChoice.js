@@ -1,5 +1,5 @@
-import CIDesktop        from "@/assets/images/homepage/blogs/banners/ChargerInstallationDesktop.webp";
-import CIMobile         from "@/assets/images/homepage/blogs/banners/ChargerInstalationMobile.webp";
+import CIDesktop        from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_desktop_banner.webp";
+import CIMobile         from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_mobile_banner.webp";
  
 export const smartChoice = [
   {

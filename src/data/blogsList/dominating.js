@@ -1,7 +1,7 @@
-import portableDesktop  from "@/assets/images/homepage/blogs/banners/PodDesktopBanner.webp";
-import portableMobile   from "@/assets/images/homepage/blogs/banners/PodMobile.webp";
-import RSADesktop       from "@/assets/images/homepage/blogs/banners/RSADesktop.webp";
-import RSAMobile        from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
+import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
+import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
+import RSADesktop       from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
+import RSAMobile        from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
  
 export const dominating = [
   {

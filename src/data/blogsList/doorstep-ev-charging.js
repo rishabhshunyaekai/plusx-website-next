@@ -1,6 +1,6 @@
-import portableDesktop  from "@/assets/images/homepage/blogs/banners/PodDesktopBanner.webp";
-import portableMobile   from "@/assets/images/homepage/blogs/banners/PodMobile.webp";
-import blogImage        from "@/assets/images/homepage/blogs/doorstep-ev.webp";
+import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
+import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
+import blogImage        from "@/assets/images/homepage/blogs/plusxelectric_ev_doorstep.webp";
 
 const BASE_URL          = process.env.NEXT_PUBLIC_BASE_URL;
 export const doorstepEV = [

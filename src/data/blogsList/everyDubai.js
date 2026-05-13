@@ -1,5 +1,5 @@
-import RSADesktop from "@/assets/images/homepage/blogs/banners/RSADesktop.webp";
-import RSAMobile  from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
+import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
+import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
  
 export const everyDubai = [
   {

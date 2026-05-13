@@ -1,18 +1,18 @@
 //Chargers Images
-import PortableEVChargerAC  from "@/assets/images/ev-charger-installation-page/products/chargers/PortableEVChargerAC.webp";
-import WallChargerAC        from "@/assets/images/ev-charger-installation-page/products/chargers/WallChargerAC.webp";
-import MovableChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/MovableChargerDC.webp";
-import WallboxChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/WallboxChargerDC.webp";
-import HighPowerDCCharger   from "@/assets/images/ev-charger-installation-page/products/chargers/HighPowerDCCharger.webp";
+import PortableEVChargerAC  from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Portable_EV_ChargerAC.webp";
+import WallChargerAC        from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Wall_Charger_AC.webp";
+import MovableChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Movable_Charger_DC.webp";
+import WallboxChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Wall_box_Charger_DC.webp";
+import HighPowerDCCharger   from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_High_Power_DC_Charger.webp";
 
 //Accessories Images
-import FixedBase  from "@/assets/images/ev-charger-installation-page/products/accessories/FixedBase.webp";
-import Bag        from "@/assets/images/ev-charger-installation-page/products/accessories/Bag.webp";
-// import CCS2CCS1   from "@/assets/images/ev-charger-installation-page/products/accessories/CCS2-CCS1.webp";
-// import CCS2TOGBT  from "@/assets/images/ev-charger-installation-page/products/accessories/CCS2-TO-GBT.webp";
-// import NACSTOT2   from "@/assets/images/ev-charger-installation-page/products/accessories/NACS-TO-T2.webp";
-// import TYPE2TYPE1 from "@/assets/images/ev-charger-installation-page/products/accessories/TYPE2-TYPE1.webp";
-// import T2T2       from "@/assets/images/ev-charger-installation-page/products/accessories/T2-T2.webp";
+import FixedBase  from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_fixed_base.webp";
+import Bag        from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_bag.webp";
+// import CCS2CCS1   from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_CCS2_CCS1.webp";
+// import CCS2TOGBT  from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_CCS2_TO_GBT.webp";
+// import NACSTOT2   from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_NACS_TO_T2.webp";
+// import TYPE2TYPE1 from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_TYPE2_TYPE1.webp";
+// import T2T2       from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_T2_T2.webp";
 
 export const chargers = [
   { 

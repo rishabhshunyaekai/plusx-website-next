@@ -1,33 +1,33 @@
 //Images
-import MediaElectric                  from "@/assets/images/homepage/blogs/media-electric.webp";
-import MediaEnvironmental             from "@/assets/images/homepage/blogs/media-environmental.webp";
-import MediaElectricVehicle           from "@/assets/images/homepage/blogs/media-electric-vehicle.webp";
-import MediaTechnologicalInnovations  from "@/assets/images/homepage/blogs/media-technological-Innovations.webp";
-import evBatteryDies                  from '@/assets/images/homepage/blogs/ev-battery-die.webp';
-import everyDubaiDriver               from '@/assets/images/homepage/blogs/every-dubai.webp';
-import evRangeAnxiety                 from '@/assets/images/homepage/blogs/ev-range-anxiety.webp';
-import fiveScenario                   from '@/assets/images/homepage/blogs/five-scenario.webp';
-import riseOfEv                       from '@/assets/images/homepage/blogs/rise-of-ev-in-dubai.webp';
-import topTenLocation                 from '@/assets/images/homepage/blogs/top-ten.webp';
-import revolution                     from '@/assets/images/homepage/blogs/revolution.webp';
-import drainedBattery                 from '@/assets/images/homepage/blogs/drained-battery.webp';
-import evOwner                        from '@/assets/images/homepage/blogs/ev-owner.webp';
-import homePublic                     from "@/assets/images/homepage/blogs/home-public.webp";
-import roadTrip                       from "@/assets/images/homepage/blogs/road-trip.webp";
-import commonCharging                 from "@/assets/images/homepage/blogs/common-charging.webp";
-import TopFiveEV                      from "@/assets/images/homepage/blogs/top-five-ev.webp";
-import Delivery                       from "@/assets/images/homepage/blogs/delivery-companies24-7.webp";
-import BenefitsEVOwner                from "@/assets/images/homepage/blogs/benefits-ev-owner.webp";
-import NissanToTesla                  from "@/assets/images/homepage/blogs/nissan-to-tesla.webp";
-import Holiday                        from "@/assets/images/homepage/blogs/holiday.webp";
-import TrustPlusX                     from "@/assets/images/homepage/blogs/trust-plusx.webp";
-import Diesel                         from "@/assets/images/homepage/blogs/diesel.webp";
-import Towing                         from "@/assets/images/homepage/blogs/towing.webp";
-import Emergency                      from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
-import Guide                          from "@/assets/images/homepage/blogs/complete-guide.webp";
-import DoorstepEV                     from "@/assets/images/homepage/blogs/doorstep-ev.webp";
+import MediaElectric                  from "@/assets/images/homepage/blogs/plusx_electric_ev_medias.webp";
+import MediaEnvironmental             from "@/assets/images/homepage/blogs/plusx_electric_media_environmental.webp";
+import MediaElectricVehicle           from "@/assets/images/homepage/blogs/plusx_electric_ev_media.webp";
+import MediaTechnologicalInnovations  from "@/assets/images/homepage/blogs/plusx_electric_technology_innovations.webp";
+import evBatteryDies                  from '@/assets/images/homepage/blogs/plusx_electric_ev_battery_die.webp';
+import everyDubaiDriver               from '@/assets/images/homepage/blogs/plusx_electric_every_dubai_driver.webp';
+import evRangeAnxiety                 from '@/assets/images/homepage/blogs/plusx_electric_ev_range_anxiety.webp';
+import fiveScenario                   from '@/assets/images/homepage/blogs/plusx_electric_five_scenerios.webp';
+import riseOfEv                       from '@/assets/images/homepage/blogs/plusx_electric_rise_of_evs_in_dubai.webp';
+import topTenLocation                 from '@/assets/images/homepage/blogs/plusx_electric_top_ten_locations.webp';
+import revolution                     from '@/assets/images/homepage/blogs/plusx_electric_ev_revolutions.webp';
+import drainedBattery                 from '@/assets/images/homepage/blogs/plusx_electric_drained_batteries.webp';
+import evOwner                        from '@/assets/images/homepage/blogs/plusx_electric_ev_owners.webp';
+import homePublic                     from "@/assets/images/homepage/blogs/plusx_electric_home_public.webp";
+import roadTrip                       from "@/assets/images/homepage/blogs/plusx_electric_road_trip.webp";
+import commonCharging                 from "@/assets/images/homepage/blogs/plusx_electric_common_charging.webp";
+import TopFiveEV                      from "@/assets/images/homepage/blogs/plusx_electric_top_five_evs.webp";
+import Delivery                       from "@/assets/images/homepage/blogs/plusx_electric_delivery_companies_24_7.webp";
+import BenefitsEVOwner                from "@/assets/images/homepage/blogs/plusx_electric_benefits_of_ev_owners.webp";
+import NissanToTesla                  from "@/assets/images/homepage/blogs/plusx_electric_nissan_to_tesla.webp";
+import Holiday                        from "@/assets/images/homepage/blogs/plusx_electric_holidays.webp";
+import TrustPlusX                     from "@/assets/images/homepage/blogs/plusx_electric_why_trust_plusx.webp";
+import Diesel                         from "@/assets/images/homepage/blogs/plusx_electric_diesel_cars.webp";
+import Towing                         from "@/assets/images/homepage/blogs/plusx_electric_towing.webp";
+import Emergency                      from "@/assets/images/homepage/blogs/plusx_electric_emergency_ev_charging.webp";
+import Guide                          from "@/assets/images/homepage/blogs/plusx_electric_complete_guide.webp";
+import DoorstepEV                     from "@/assets/images/homepage/blogs/plusxelectric_ev_doorstep.webp";
 import PortableEVChar                 from "@/assets/images/homepage/blogs/Plusx_electric_portable_ev_charging.webp";
-import EVSolution                     from "@/assets/images/homepage/blogs/plusxelectric_ev_solution_in_dubai.webp";
+import EVSolution                     from "@/assets/images/homepage/blogs/plusx_electric_ev_solution_in_dubai.webp";
 import CommonEVCharging               from "@/assets/images/homepage/blogs/plusx_electric_common_ev_charging_in_dubai.webp";
  
 //Blog content pages
@@ -274,7 +274,7 @@ export const testimonials = [
     slug            : "ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it",
     title           : "EV Range Anxiety is Real — Here’s How PlusX’s Emergency EV Charging Pod Solves It",
     image           : evRangeAnxiety,
-    alt             : "EV Range Anxiety is real",
+    alt             : "EV Range Anxiety in Dubai",
     metaTitle       : "EV Range Anxiety in Dubai Solved by PlusX’s Emergency EV Charging Pod",
     metaDescription : "Worried about running out of EV batteries in Dubai? PlusX’s Emergency EV Charging Pod delivers fast, portable charging to your location",
     content         : rangeAnxiety,
@@ -301,7 +301,7 @@ export const testimonials = [
     slug            : "the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview",
     title           : "The Rise of Electric Vehicles in the UAE A Comprehensive Overview",
     image           : MediaElectric,
-    alt             : "MediaElectric",
+    alt             : "Electric Vehicles in the UAE:",
     metaTitle       : "Electric Vehicles in the UAE: Growth, Incentives & What's Next in 2026",
     metaDescription : "How the UAE became a regional EV leader — government incentives, DEWA's charging network, market trends, and what it means for drivers considering the switch.",
     content         : evRise,
@@ -310,7 +310,7 @@ export const testimonials = [
     slug            : "exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide",
     title           : "Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide",
     image           : MediaEnvironmental,
-    alt             : "MediaEnvironmental",
+    alt             : "Benefits of Electric Vehicles in the UAE: Cost, Environment & Incentives",
     metaTitle       : "Benefits of Electric Vehicles in the UAE: Cost, Environment & Incentives",
     metaDescription : "Why UAE residents are switching to EVs — lower fuel costs, zero emissions, government incentives, and what it actually costs to own one in 2026.",
     content         : evBenefits,
@@ -319,7 +319,7 @@ export const testimonials = [
     slug            : "electric-vehicle-leasing-and-renting-options-in-the-uae",
     title           : "Electric Vehicle Leasing and Renting Options in the UAE",
     image           : MediaElectricVehicle,
-    alt             : "MediaElectricVehicle",
+    alt             : "EV Leasing & Renting in the UAE:",
     metaTitle       : "EV Leasing & Renting in the UAE: Plans, Costs & Options Compared",
     metaDescription : "Compare EV leasing and rental options in the UAE — monthly costs, what's included, and whether leasing or buying makes more sense for your situation.",
     content         : leasingRenting,
@@ -328,7 +328,7 @@ export const testimonials = [
     slug            : "the-future-of-electric-mobility-innovations-and-trends-in-the-uae",
     title           : "The Future of Electric Mobility Innovations and Trends in the UAE",
     image           : MediaTechnologicalInnovations,
-    alt             : "MediaTechnologicalInnovations",
+    alt             : "Future of Electric Mobility in the UAE",
     metaTitle       : "Future of Electric Mobility in the UAE: Trends, Tech & What's Coming",
     metaDescription : "Solid-state batteries, autonomous driving, V2G tech, and smart city projects — what's shaping the future of EVs in the UAE and what it means for drivers.",
     content         : future,

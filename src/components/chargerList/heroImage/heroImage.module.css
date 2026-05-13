@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: url(../../../assets/images/ev-charger-installation-page/product-page/banner.webp) center no-repeat;
+  background: url(../../../assets/images/ev-charger-installation-page/product-page/plusx_electric_ac_dc_charger_desktop_banner.webp) center no-repeat;
   background-size: cover;
   width: 100%;
   height: 22rem;
@@ -190,7 +190,7 @@
 
 @media (max-width: 580px) {
   .container {
-    background: url(../../../assets/images/ev-charger-installation-page/product-page/banner.webp) center no-repeat;
+    background: url(../../../assets/images/ev-charger-installation-page/product-page/plusx_electric_ac_dc_charger_desktop_banner.webp) center no-repeat;
     background-size: cover;
     height: 70vh;
   }

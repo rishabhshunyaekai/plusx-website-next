@@ -1,5 +1,5 @@
-import portableDesktop  from "@/assets/images/homepage/blogs/banners/PodDesktopBanner.webp";
-import portableMobile   from "@/assets/images/homepage/blogs/banners/PodMobile.webp";
+import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
+import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
  
 export const batteryDie = [
   {

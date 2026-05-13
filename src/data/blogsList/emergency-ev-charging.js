@@ -1,6 +1,6 @@
-import RSADesktop from "@/assets/images/homepage/blogs/banners/RSADesktop.webp";
-import RSAMobile  from "@/assets/images/homepage/blogs/banners/RSAMobile.webp";
-import blogImage  from "@/assets/images/homepage/blogs/emergency-ev-charging.webp";
+import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
+import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_emergency_ev_charging.webp";
 
 const BASE_URL           = process.env.NEXT_PUBLIC_BASE_URL;
 export const emergencyEV = [
