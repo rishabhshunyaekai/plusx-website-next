@@ -61,8 +61,18 @@ import { doorstepEV }         from "@/data/blogsList/doorstep-ev-charging";
 import { portableEV }         from "@/data/blogsList/portableEV";
 import { eVSolution }         from "@/data/blogsList/evSolution";
 import { commonEVCharging }   from "@/data/blogsList/commonEVCharging";
+import { ac_dc_chargers }     from "@/data/blogsList/ac-dc-ev-charger";
  
 export const testimonials = [
+  {
+    slug            : "ac-vs-dc-ev-chargers",
+    title           : "AC vs DC EV Chargers: Which One Should You Choose in Dubai?",
+    image           : CommonEVCharging,
+    alt             : "AC vs DC EV charger in Dubai",
+    metaTitle       : "AC vs DC EV Chargers in Dubai | Which One Should You Choose?",
+    metaDescription : "Confused between AC and DC EV chargers in Dubai? Learn the key differences, charging speeds, and which option suits your home or business with PlusX Electric.",
+    content         : ac_dc_chargers,
+  },
   {
     slug            : "ev-charging-problems-dubai",
     title           : "Common EV Charging Problems in Dubai and How to Avoid Them",

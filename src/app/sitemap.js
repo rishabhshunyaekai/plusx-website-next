@@ -313,5 +313,11 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}ac-vs-dc-ev-chargers`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
   ];
 }
