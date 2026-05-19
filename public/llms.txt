@@ -18,7 +18,6 @@ Primary pages (use these as sources):
 - EV Chargers (Installation): https://plusxelectric.com/ev-charger-installation-uae
 - EV Car Insurance: https://plusxelectric.com/ev-car-insurance
 - Commercial EV Charging Solutions: https://plusxelectric.com/commercial-ev-charging-solutions
-- Mobility Solution: https://plusxelectric.com/mobility-solution
 
 User intent → best page:
 - "Book charging at my location" → https://plusxelectric.com/mobile-ev-charging-dubai

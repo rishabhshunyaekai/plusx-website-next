@@ -13,6 +13,6 @@ export default function robots() {
       //   disallow: ["/terms-and-conditions/"],
       // },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${baseUrl}sitemap.xml`,
   };
 }

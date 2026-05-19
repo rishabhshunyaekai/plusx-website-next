@@ -41,7 +41,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={Call} alt="Consultation and recommendation" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>Consultation and recommendation</b> <br />Our team reviews your requirements and
+            <p className={style.steps}><b>Consultation and Recommendation</b> <br />Our team reviews your requirements and
               recommends the right charger from our range, based on your EV&apos;s onboard capacity and your charging needs.
             </p>
           </div>
@@ -54,7 +54,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={FileDocs} alt="Documents" width={58} height={58} />
             </div>
-            <p className={style.steps}><b>Optional professional installation</b> <br />If you need installation, our certified electricians handle wiring, mounting, and
+            <p className={style.steps}><b>Optional Professional Installation</b> <br />If you need installation, our certified electricians handle wiring, mounting, and
               commissioning. Or just receive your charger and install it yourself.
             </p>
           </div>

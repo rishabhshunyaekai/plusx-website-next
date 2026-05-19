@@ -51,7 +51,7 @@ export const ac_dc_chargers = [
   },
   {
     type: "paragraph",
-    text: `These chargers typically use CCS2 connectors (standard in the UAE) and are commonly seen at <a href="/public-ev-charging-stations" target="__blank">public charging stations</a>.`
+    text: `These chargers typically use CCS2 connectors (standard in the UAE) and are commonly seen at public charging stations.`
   },
   {
     headerText: `<b>Key Characteristics</b>`,
@@ -65,11 +65,29 @@ export const ac_dc_chargers = [
     footerText: `DC chargers usually start from 50 kW and can go much higher depending on the setup.`
   },
   {
-    type: "ctaButton",
-    action: "chargerInstallationPage",
-    alt: "Best AC DC EV Charger Installation Service in UAE",
-    desktop: CIDesktop,
-    mobile: CIMobile
+    type: "paragraph",
+    text: "If you still want to know more about AC or DC chargers."
+  },
+  {
+    type: "buttons",
+    buttons: [
+      // {
+      //   label: "Explore Our EV Charging Services",
+      //   type: "link",
+      //   href: "/",
+      // },
+      {
+        label   : "Book a Free Consultation",
+        type    : "whatsapp",
+        phone   : "+971542796424",
+        message : `Hi PlusX Electric Team \n\n I need more information about AC vs DC chargers.`,
+      },
+      // {
+      //   label: "VIEW EV CHARGERS",
+      //   type: "redirect",
+      //   action: "evChargersPage",
+      // },
+    ],
   },
   {
     type: "heading",
@@ -126,6 +144,13 @@ export const ac_dc_chargers = [
     text: "Charging speed depends not just on the charger, but also on your vehicle and power supply."
   },
   {
+    type: "ctaButton",
+    action: "chargerInstallationPage",
+    alt: "Best AC DC EV Charger Installation Service in UAE",
+    desktop: CIDesktop,
+    mobile: CIMobile
+  },
+  {
     type: "heading",
     level: 2,
     text: `AC Charging`
@@ -150,7 +175,7 @@ export const ac_dc_chargers = [
   {
     type: "heading",
     level: 2,
-    text: `Which EV Charger Is Best for Home in Dubai?`
+    text: `<a href="/ev-charger-installation-uae/ac-dc-ev-chargers" target="__blank">Which EV Charger Is Best for Home in Dubai?</a>`
   },
   {
     type: "paragraph",
@@ -169,7 +194,12 @@ export const ac_dc_chargers = [
       `Suitable for overnight charging.`,
       `Easy integration with residential setups.`,
     ],
-    footerText: `Most apartments and villas in Dubai operate on single-phase supply. So, the charging speed is around 3.7–7.4 kW unless it is upgraded. <a href="/ev-charger-installation-uae" target="__blank">Installing a DC charger at home</a> is not a feasible option due to cost and power requirements.`
+    footerText: `Most apartments and villas in Dubai operate on single-phase supply. So, the charging speed is around 3.7–7.4 kW unless it is upgraded. Installing a DC charger at home is not a feasible option due to cost and power requirements.`
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `<a href="/why-a-personal-ev-charger-is-a-smart-choice-in-the-uae" target="__blank">Home vs. Public Charging: Why a Personal EV Charger is a Smart Choice in the UAE</a>`
   },
   {
     type: "heading",
@@ -190,16 +220,11 @@ export const ac_dc_chargers = [
   {
     type: "heading",
     level: 2,
-    text: `<a href="https://plusxelectric.com/why-a-personal-ev-charger-is-a-smart-choice-in-the-uae" target="__blank">Home vs. Public Charging: Why a Personal EV Charger is a Smart Choice in the UAE</a>`
-  },
-  {
-    type: "heading",
-    level: 2,
     text: `When PlusX Electric Can Install AC or DC Chargers`
   },
   {
     type: "paragraph",
-    text: `EV charger installation in Dubai by PlusX Electric is done only after assessing your needs.`
+    text: `<a href="/ev-charger-installation-uae" target="_blank">EV charger installation in Dubai</a> by PlusX Electric is done only after assessing your needs.`
   },
   {
     headerText: `Whether you require a home setup or a commercial charging solution, the installation process includes:`,
