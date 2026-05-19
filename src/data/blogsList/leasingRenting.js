@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_ev_media.webp";
+
+const BASE_URL              = process.env.NEXT_PUBLIC_BASE_URL;
 export const leasingRenting = [
   {
     type: "paragraph",
@@ -162,5 +164,81 @@ export const leasingRenting = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+
+        "headline"    : "Electric Vehicle Leasing and Renting Options in the UAE",
+        "name"        : "Electric Vehicle Leasing and Renting Options in the UAE | PlusX Electric",
+        "description" : "Compare EV leasing and rental options in the UAE — monthly costs, what's included, and whether leasing or buying makes more sense for your situation.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+
+        "datePublished" : "2026-05-19",
+        "dateModified"  : "2026-05-19",
+
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/electric-vehicle-leasing-and-renting-options-in-the-uae`
+        },
+
+        "inLanguage" : "en",
+
+        "keywords" : [
+          "EV leasing UAE",
+          "electric car rental Dubai",
+          "EV subscription UAE",
+          "Carasti EV UAE",
+          "Car Fare leasing UAE",
+          "monthly EV rental Dubai",
+          "EV ownership alternatives UAE",
+          "electric vehicle plans UAE",
+          "EV cost comparison UAE",
+          "flexible EV leasing Dubai"
+        ],
+
+        "articleSection" : [
+          "EV Leasing Options",
+          "EV Renting Services",
+          "Car Subscription UAE",
+          "EV Cost Comparison",
+          "Electric Mobility UAE",
+          "Flexible Vehicle Ownership",
+          "Corporate EV Leasing",
+          "Sustainable Transport UAE"
+        ],
+
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Electric Vehicle Leasing and Rental Services in the UAE",
+          "description" : "Overview of EV leasing and rental options in the UAE including pricing, providers, and benefits for individuals and businesses."
+        },
+
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Leasing & Renting UAE Guide | PlusX Electric",
+          "url"   : `${BASE_URL}/electric-vehicle-leasing-and-renting-options-in-the-uae`
+        }
+      }
+    ]
   }
 ];

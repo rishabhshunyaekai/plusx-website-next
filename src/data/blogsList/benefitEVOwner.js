@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_benefits_of_ev_owners.webp";
+
+const BASE_URL              = process.env.NEXT_PUBLIC_BASE_URL;
 export const benefitEVOwner = [
   {
     type: "paragraph",
@@ -133,5 +135,72 @@ export const benefitEVOwner = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "The Benefits for EV owner having PlusX Electric app",
+        "name"        : "The Benefits for EV owner having PlusX Electric app | PlusX Electric",
+        "description" : "Simplify EV ownership with PlusX Electric’s advanced EV Charging Solutions and on-demand Mobile EV Charging designed for unmatched convenience across Dubai and the UAE.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/the-benefits-for-ev-owner-having-plusx-electric-app`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "PlusX Electric app",
+          "EV charging app Dubai",
+          "mobile EV charging app UAE",
+          "EV charging solutions Dubai",
+          "EV charging management app",
+          "smart EV charging Dubai",
+          "EV charging station finder",
+          "on-demand EV charging Dubai",
+          "electric vehicle app UAE",
+          "EV charging control app"
+        ],
+        "articleSection": [
+          "How PlusX Electric Makes EV Ownership Smarter",
+          "Charging Facility Updates",
+          "On-Demand Mobile EV Charging",
+          "Smart Notifications and Scheduling",
+          "Smoother Charging Experience",
+          "EV Journey Optimization",
+          "Digital EV Charging Ecosystem",
+          "Benefits of EV Charging App",
+          "Real-Time EV Charging Management"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Charging Mobile Application and Smart Charging Solutions",
+          "description" : "A digital EV charging ecosystem providing mobile EV charging, real-time monitoring, scheduling, and smart energy management for EV owners in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Charging App Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/the-benefits-for-ev-owner-having-plusx-electric-app`
+        }
+      }
+    ]
   }
 ];

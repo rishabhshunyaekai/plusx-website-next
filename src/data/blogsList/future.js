@@ -1,3 +1,6 @@
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_technology_innovations.webp";
+
+const BASE_URL      = process.env.NEXT_PUBLIC_BASE_URL;
 export const future = [
   {
     type: "paragraph",
@@ -97,6 +100,82 @@ export const future = [
             reality. Embrace the future of mobility and be part of the electric
             vehicle revolution in the UAE.`
   },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+
+        "headline"    : "The Future of Electric Mobility Innovations and Trends in the UAE",
+        "name"        : "The Future of Electric Mobility Innovations and Trends in the UAE | PlusX Electric",
+        "description" : "Solid-state batteries, autonomous driving, V2G tech, and smart city projects — what's shaping the future of EVs in the UAE and what it means for drivers.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+
+        "datePublished" : "2026-05-19",
+        "dateModified"  : "2026-05-19",
+
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/the-future-of-electric-mobility-innovations-and-trends-in-the-uae`
+        },
+
+        "inLanguage" : "en",
+
+        "keywords" : [
+          "future of EV UAE",
+          "electric mobility UAE",
+          "EV innovations UAE",
+          "solid state batteries EV",
+          "autonomous electric vehicles UAE",
+          "V2G technology UAE",
+          "smart EV charging UAE",
+          "EV trends Dubai 2026",
+          "electric vehicle market UAE",
+          "sustainable mobility UAE"
+        ],
+
+        "articleSection" : [
+          "Electric Vehicle Innovation",
+          "Future Mobility UAE",
+          "Smart Transportation",
+          "EV Technology Trends",
+          "Sustainable Energy Mobility",
+          "Autonomous Driving",
+          "EV Market Growth UAE",
+          "Clean Energy Transport"
+        ],
+
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Future of Electric Mobility and EV Innovations in the UAE",
+          "description" : "Covers emerging EV technologies, sustainability initiatives, and market trends shaping the future of electric mobility in the UAE."
+        },
+
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "Future of EV UAE | PlusX Electric",
+          "url"   : `${BASE_URL}/the-future-of-electric-mobility-innovations-and-trends-in-the-uae`
+        }
+      }
+    ]
+  }
 // {
 //   type: "heading",
 //   level: 3,

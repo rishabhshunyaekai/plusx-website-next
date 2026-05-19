@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_rise_of_evs_in_dubai.webp';
+
+const BASE_URL            = process.env.NEXT_PUBLIC_BASE_URL;
 export const growingNeeds = [
   {
     type: "paragraph",
@@ -207,5 +209,70 @@ export const growingNeeds = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "The Rise of EVs in Dubai and the Growing Need for Smart Charging Solutions",
+        "name"        : "The Rise of EVs in Dubai and the Growing Need for Smart Charging Solutions | PlusX Electric",
+        "description" : "Discover how on-demand solutions like PlusX’s Emergency EV Charging Pod tackle range anxiety and support sustainable urban mobility.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/the-rise-of-evs-in-dubai-and-the-growing-need-for-smart-charging-solutions`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV adoption Dubai",
+          "electric vehicles UAE",
+          "smart EV charging solutions",
+          "on-demand EV charging Dubai",
+          "EV infrastructure Dubai",
+          "EV range anxiety UAE",
+          "mobile EV charging UAE",
+          "PlusX Electric charging pod",
+          "EV charging solutions Dubai",
+          "sustainable mobility UAE"
+        ],
+        "articleSection": [
+          "EV Adoption in Dubai",
+          "Government EV Incentives",
+          "Charging Infrastructure Challenges",
+          "Smart Charging Solutions",
+          "On-Demand EV Charging",
+          "Sustainable Transport UAE",
+          "EV Range Anxiety Solutions"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "Electric Vehicle Adoption and Smart Charging Infrastructure in Dubai",
+          "description" : "Overview of EV growth in Dubai and how smart charging solutions like PlusX on-demand charging support infrastructure gaps and sustainability goals."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Charging Insights Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/the-rise-of-evs-in-dubai-and-the-growing-need-for-smart-charging-solutions`
+        }
+      }
+    ]
   }
 ];

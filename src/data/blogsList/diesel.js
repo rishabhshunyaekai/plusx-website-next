@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_diesel_cars.webp";
+
+const BASE_URL      = process.env.NEXT_PUBLIC_BASE_URL;
 export const diesel = [
   {
     type: "paragraph",
@@ -177,5 +179,74 @@ export const diesel = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Why Diesel EV Chargers Are Not the Eco-Friendly Solution Dubai Needs?",
+        "name"        : "Why Diesel EV Chargers Are Not the Eco-Friendly Solution Dubai Needs? | PlusX Electric",
+        "description" : "Avoid diesel EV chargers that harm Dubai’s sustainability goals and discover how clean EV Charging Solutions and Mobile EV Charging enable true green mobility across the UAE.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/why-diesel-ev-chargers-are-not-the-eco-friendly-solution-dubai-needs`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "diesel EV chargers Dubai",
+          "EV charging solutions Dubai",
+          "mobile EV charging Dubai",
+          "clean EV charging Dubai",
+          "EV infrastructure UAE",
+          "EV sustainability Dubai",
+          "diesel generator EV charging problems",
+          "EV charging environmental impact",
+          "Net Zero 2050 UAE",
+          "PlusX Electric EV charging"
+        ],
+        "articleSection": [
+          "How EV Charging Solutions Promote Clean Mobility",
+          "Environmental Consequences of Diesel EV Charging",
+          "High Carbon Emissions from Diesel Chargers",
+          "Inefficiency of Diesel-Based EV Charging",
+          "Noise and Health Impacts",
+          "Why Diesel EV Charging Undermines Sustainability Goals",
+          "Clean Energy EV Charging Solutions for Dubai",
+          "Renewable-Powered EV Charging Solutions",
+          "Battery-Powered Mobile EV Charging",
+          "Smart Grid EV Charging Systems",
+          "Supporting UAE Net Zero Goals"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Charging Solutions and Clean Mobility",
+          "description" : "Discussion on diesel-powered EV chargers versus clean EV Charging Solutions and Mobile EV Charging systems aligned with Dubai’s sustainability and Net Zero 2050 goals."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Charging Solutions Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/why-diesel-ev-chargers-are-not-the-eco-friendly-solution-dubai-needs`
+        }
+      }
+    ]
   }
 ];

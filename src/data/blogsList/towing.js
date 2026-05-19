@@ -1,6 +1,8 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_towing.webp";
+
+const BASE_URL             = process.env.NEXT_PUBLIC_BASE_URL;
 export const towingContent = [
   {
     type: "paragraph",
@@ -329,5 +331,51 @@ export const towingContent = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas  : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Why Dubai EV Owners Are Choosing Roadside Assistance Over Towing",
+        "name"        : "Why Dubai EV Owners Are Choosing Roadside Assistance Over Towing | PlusX Electric",
+        "description" : "Compare EV roadside assistance vs towing in Dubai. Discover why mobile EV charging is safer, faster, and more affordable than traditional towing with PlusX Electric.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/why-dubai-ev-owners-are-choosing-roadside-assistance-over-towing`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [ "EV roadside assistance Dubai", "EV towing Dubai", "mobile EV charging Dubai", "electric vehicle roadside assistance", "EV breakdown assistance Dubai", "EV recovery Dubai", "on-site EV charging Dubai", "EV battery drain assistance Dubai", "EV towing risks", "PlusX Electric roadside assistance" ],
+        "articleSection": [ "EV Roadside Assistance vs Towing in Dubai", "What EV Roadside Assistance Has to Offer", "Traditional EV Towing Services", "The Risks of Towing an Electric Vehicle", "On-Site EV Charging Benefits", "What To Do When Your EV Breaks Down", "Why PlusX Electric Leads EV Roadside Assistance", "How To Book EV Roadside Assistance", "Why EV Roadside Assistance Is the Better Choice" ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Roadside Assistance and EV Towing",
+          "description" : "A comparison between EV roadside assistance and traditional towing services in Dubai, including mobile charging, recovery safety, response time, and EV-specific support."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Breakdown Assistance Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/why-dubai-ev-owners-are-choosing-roadside-assistance-over-towing`
+        }
+      }
+    ]
   }
 ];

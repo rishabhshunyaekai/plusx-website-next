@@ -1,3 +1,6 @@
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_media_environmental.webp";
+
+const BASE_URL             = process.env.NEXT_PUBLIC_BASE_URL;
 export const evBenefits = [
   {
     type: "paragraph",
@@ -162,5 +165,81 @@ export const evBenefits = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+
+        "headline"    : "Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide",
+        "name"        : "Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide | PlusX Electric",
+        "description" : "Why UAE residents are switching to EVs — lower fuel costs, zero emissions, government incentives, and what it actually costs to own one in 2026.",
+
+        "image"       : `${BASE_URL}${blogImage.src}`,
+
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+
+        "datePublished"    : "2026-05-19",
+        "dateModified"     : "2026-05-19",
+
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide`
+        },
+
+        "inLanguage" : "en",
+
+        "keywords" : [
+          "EV benefits UAE",
+          "electric car cost UAE",
+          "EV savings UAE",
+          "electric vehicles Dubai benefits",
+          "UAE EV incentives",
+          "EV environmental impact UAE",
+          "EV maintenance cost UAE",
+          "electric cars UAE 2026",
+          "EV charging UAE",
+          "sustainable transport UAE"
+        ],
+
+        "articleSection" : [
+          "EV Environmental Benefits",
+          "EV Cost Savings UAE",
+          "EV Driving Experience",
+          "Energy Efficiency",
+          "EV Infrastructure UAE",
+          "Sustainable Mobility",
+          "Electric Vehicle Adoption UAE"
+        ],
+
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Benefits of Electric Vehicles in the UAE",
+          "description" : "Explains environmental, financial, and performance benefits of EV adoption in the UAE along with infrastructure and policy support."
+        },
+
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Insights UAE | PlusX Electric",
+          "url"   : `${BASE_URL}/exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide`
+        }
+      }
+    ]
   }
 ];

@@ -1,6 +1,8 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_why_trust_plusx.webp";
+
+const BASE_URL          = process.env.NEXT_PUBLIC_BASE_URL;
 export const trustPlusx = [
   {
     type: "paragraph",
@@ -184,5 +186,72 @@ export const trustPlusx = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Why EV Owners Trust PlusX Electric When Their EV Battery Drains on Dubai Roads",
+        "name"        : "Why EV Owners Trust PlusX Electric When Their EV Battery Drains on Dubai Roads | PlusX Electric",
+        "description" : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 575+ EVs with an 87% success rate, offering on-site charging, jump start and 12V support for stranded EV drivers.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/why-ev-owners-trust-plusx-electric-when-their-ev-battery-drains-on-dubai-roads`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV breakdown Dubai",
+          "EV battery drain Dubai",
+          "EV roadside assistance Dubai",
+          "mobile EV charging Dubai",
+          "on-site EV charging Dubai",
+          "EV rescue Dubai",
+          "12V battery support EV",
+          "EV jump start Dubai",
+          "PlusX Electric EV rescue",
+          "electric vehicle emergency Dubai"
+        ],
+        "articleSection": [
+          "EV Battery Drain Emergencies in Dubai",
+          "Proven EV Rescue Track Record",
+          "Dedicated EV Rescue Team",
+          "On-Site Emergency Charging for EVs",
+          "Towing vs On-Site Charging",
+          "12V Battery Diagnosis in EVs",
+          "Jump Start Support for EVs",
+          "App-Based EV Rescue Booking",
+          "Why EV Owners Trust PlusX Electric"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Roadside Assistance and Battery Drain Support",
+          "description" : "Emergency EV breakdown support in Dubai including low battery rescue, on-site charging, jump start assistance, and 12V battery diagnostics."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Breakdown Assistance Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/why-ev-owners-trust-plusx-electric-when-their-ev-battery-drains-on-dubai-roads`
+        }
+      }
+    ]
   }
 ];

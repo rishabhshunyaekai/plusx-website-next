@@ -1,3 +1,6 @@
+import blogImage  from '@/assets/images/homepage/blogs/plusx_electric_top_ten_locations.webp';
+
+const BASE_URL         = process.env.NEXT_PUBLIC_BASE_URL;
 export const locations = [
   {
     type: "paragraph",
@@ -189,5 +192,71 @@ export const locations = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Top 10 Locations in Dubai Where EV Drivers Most Need Emergency Charging",
+        "name"        : "Top 10 Locations in Dubai Where EV Drivers Most Need Emergency Charging | PlusX Electric",
+        "description" : "Discover the top 10 spots in Dubai where EV drivers face urgent charging needs, from Marina to DXB, and how on-demand EV charging provides instant relief.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV charging hotspots Dubai",
+          "emergency EV charging Dubai",
+          "mobile EV charging Dubai",
+          "EV charging problems Dubai",
+          "Dubai EV infrastructure gaps",
+          "EV range anxiety Dubai",
+          "on-demand EV charging UAE",
+          "EV breakdown assistance Dubai",
+          "public charging stations Dubai issues",
+          "PlusX Electric emergency charging"
+        ],
+        "articleSection": [
+          "High-Risk EV Charging Locations",
+          "EV Charging Challenges in Dubai",
+          "Public Charging Overcrowding",
+          "Emergency EV Charging Needs",
+          "EV Infrastructure Gaps",
+          "Tourist & Residential Charging Pressure Zones",
+          "Highway Charging Limitations",
+          "On-Demand EV Charging Solutions"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "Emergency EV Charging Locations and Infrastructure Challenges in Dubai",
+          "description" : "Analysis of high-demand EV charging locations in Dubai and how mobile on-demand charging solutions help overcome infrastructure limitations."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Charging Hotspots Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging`
+        }
+      }
+    ]
   }
 ];

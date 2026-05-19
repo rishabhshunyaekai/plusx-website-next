@@ -1,6 +1,8 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_road_trip.webp";
+
+const BASE_URL         = process.env.NEXT_PUBLIC_BASE_URL;
 export const roadTrips = [
   {
     type: "paragraph",
@@ -224,5 +226,72 @@ export const roadTrips = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Road Trip in the UAE with an EV? Here’s Why You Need Backup Support",
+        "name"        : "Road Trip in the UAE with an EV? Here’s Why You Need Backup Support | PlusX Electric",
+        "description" : "Planning a road trip in the UAE with your EV? Discover common EV charging challenges across Dubai and the UAE, including limited charging stations and range anxiety, and learn how mobile backup support ensures stress-free travel.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/road-trip-in-the-uae-with-an-ev-here-why-you-need-backup-support`
+        },
+        "inLanguage" : "en",
+        "keywords"   : [
+          "EV road trip UAE",
+          "EV charging challenges UAE",
+          "Dubai EV charging stations",
+          "mobile EV charging UAE",
+          "EV range anxiety Dubai",
+          "EV backup charging support",
+          "EV roadside assistance UAE",
+          "fast charging UAE highways",
+          "electric vehicle travel UAE",
+          "PlusX Electric mobile charging"
+        ],
+        "articleSection": [
+          "EV Road Trip Reality in the UAE",
+          "Charging Station Scarcity on Highways",
+          "EV Range Anxiety in Extreme Heat",
+          "Charger Compatibility Issues",
+          "Unexpected Travel Delays and Detours",
+          "Why Backup Charging Support Matters",
+          "How Mobile EV Charging Works",
+          "EV Trip Preparation Tips",
+          "Emergency EV Roadside Assistance"
+        ],
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "EV Road Trip Charging Support and Backup Solutions",
+          "description" : "Mobile EV charging and roadside assistance solutions for long-distance EV travel across the UAE, ensuring uninterrupted mobility and emergency backup support."
+        },
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Road Trip Charging Support UAE | PlusX Electric",
+          "url"   : `${BASE_URL}/road-trip-in-the-uae-with-an-ev-here-why-you-need-backup-support`
+        }
+      }
+    ]
   }
 ];

@@ -1,6 +1,8 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage  from '@/assets/images/homepage/blogs/plusx_electric_five_scenerios.webp';
+
+const BASE_URL            = process.env.NEXT_PUBLIC_BASE_URL;
 export const fiveScenerio = [
   {
     type: "paragraph",
@@ -157,5 +159,70 @@ export const fiveScenerio = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "5 Scenarios Where EV Roadside Assistance Becomes a Lifesaver",
+        "name"        : "5 Scenarios Where EV Roadside Assistance Becomes a Lifesaver | PlusX Electric",
+        "description" : "Discover 5 real-life scenarios in Dubai where PlusX’s specialised EV roadside assistance provides fast, safe, and convenient charging solutions.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV roadside assistance Dubai",
+          "emergency EV charging Dubai",
+          "mobile EV rescue service UAE",
+          "EV breakdown help Dubai",
+          "on-demand EV charging",
+          "PlusX Electric roadside assistance",
+          "EV battery emergency Dubai",
+          "EV support service UAE",
+          "electric vehicle breakdown help",
+          "24/7 EV charging assistance"
+        ],
+        "articleSection": [
+          "EV Roadside Assistance",
+          "Emergency EV Charging",
+          "EV Breakdown Scenarios",
+          "Dubai EV Challenges",
+          "Mobile EV Support",
+          "On-Demand Charging Solutions",
+          "EV Safety and Rescue Services"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Roadside Assistance Scenarios and Emergency Charging Solutions in Dubai",
+          "description" : "Real-life EV breakdown scenarios and how mobile roadside assistance and on-demand charging solve them in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Roadside Assistance Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver`
+        }
+      }
+    ]
   }
 ];

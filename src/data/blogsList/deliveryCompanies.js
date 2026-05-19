@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_delivery_companies_24_7.webp";
+
+const BASE_URL                 = process.env.NEXT_PUBLIC_BASE_URL;
 export const deliveryCompanies = [
   {
     type: "paragraph",
@@ -230,5 +232,72 @@ export const deliveryCompanies = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "How PlusX Electric's EV Charging Keeps Delivery Companies Running 24/7 in Dubai",
+        "name"        : "How PlusX Electric's EV Charging Keeps Delivery Companies Running 24/7 in Dubai | PlusX Electric",
+        "description" : "Stay powered 24/7 with PlusX Electric’s mobile charging in Dubai. Doorstep and fleet EV charging solutions that keep delivery companies running nonstop with maximum uptime.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/how-plusx-electric-ev-charging-keeps-delivery-companies-running-24-7-in-dubai`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV fleet charging Dubai",
+          "delivery EV charging Dubai",
+          "mobile EV charging Dubai",
+          "doorstep EV charging Dubai",
+          "EV logistics charging UAE",
+          "commercial EV charging Dubai",
+          "EV delivery fleet support",
+          "EV charging solutions Dubai",
+          "24/7 EV charging Dubai",
+          "PlusX Electric fleet charging"
+        ],
+        "articleSection": [
+          "Delivery Fleet Charging Challenges",
+          "Mobile Charging for Delivery Fleets",
+          "Door-to-Door EV Charging",
+          "Fleet EV Charging Solutions",
+          "Emergency Mobile EV Charging Trucks",
+          "24/7 EV Fleet Support",
+          "Scheduled Charging for Fleets",
+          "Fleet Infrastructure Installation",
+          "Why Delivery Companies Trust PlusX Electric"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "EV Fleet Charging and Logistics Mobility Support",
+          "description" : "Scalable EV charging solutions for delivery and logistics companies including mobile charging, doorstep charging, and fleet infrastructure support in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Fleet Charging Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/how-plusx-electric-ev-charging-keeps-delivery-companies-running-24-7-in-dubai`
+        }
+      }
+    ]
   }
 ];

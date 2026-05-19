@@ -2,7 +2,9 @@ import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_elect
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
 import RSADesktop       from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile        from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_top_five_evs.webp";
+
+const BASE_URL          = process.env.NEXT_PUBLIC_BASE_URL;
 export const dominating = [
   {
     type: "paragraph",
@@ -219,5 +221,73 @@ export const dominating = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Top 5 Electric Vehicles Dominating the Roads in Dubai",
+        "name"        : "Top 5 Electric Vehicles Dominating the Roads in Dubai | PlusX Electric",
+        "description" : "Discover the top electric vehicles in Dubai, from Tesla to Porsche. Learn about prices, ranges, and how PlusX Electric makes EV charging easy and convenient.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"    : "2026-05-19",
+        "dateModified"     : "2026-05-19",
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/top-five-electric-vehicles-dominating-the-roads-in-dubai`
+        },
+        "inLanguage" : "en",
+        "keywords"   : [
+          "electric vehicles Dubai",
+          "EV Dubai",
+          "Tesla Model 3 Dubai",
+          "Porsche Taycan Dubai",
+          "BMW iX Dubai",
+          "BMW i4 Dubai",
+          "Nissan Leaf Dubai",
+          "MG ZS EV Dubai",
+          "Hyundai Kona Electric Dubai",
+          "EV charging Dubai",
+          "PlusX Electric charging solutions"
+        ],
+        "articleSection" : [
+          "Electric Vehicle Market Dubai",
+          "Tesla Model 3 in Dubai",
+          "Porsche Taycan Overview",
+          "Nissan Leaf in UAE",
+          "BMW iX and i4 Dubai",
+          "Affordable EVs in Dubai",
+          "EV Charging Support in Dubai",
+          "PlusX Electric Services",
+          "Future of EV Mobility UAE"
+        ],
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Electric Vehicles and EV Charging Ecosystem in Dubai",
+          "description" : "Overview of top electric vehicles in Dubai and how EV charging infrastructure supports sustainable mobility through mobile and on-demand charging solutions."
+        },
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "Electric Vehicles Dubai | PlusX Electric",
+          "url"   : `${BASE_URL}/top-five-electric-vehicles-dominating-the-roads-in-dubai`
+        }
+      }
+    ]
   }
 ];

@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_ev_range_anxiety.webp';
+
+const BASE_URL            = process.env.NEXT_PUBLIC_BASE_URL;
 export const rangeAnxiety = [
   {
     type: "paragraph",
@@ -189,5 +191,80 @@ export const rangeAnxiety = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "EV Range Anxiety is Real — Here’s How PlusX’s Emergency EV Charging Pod Solves It",
+        "name"        : "EV Range Anxiety is Real — Here’s How PlusX’s Emergency EV Charging Pod Solves It | PlusX Electric",
+        "description" : "Worried about running out of EV batteries in Dubai? PlusX’s Emergency EV Charging Pod delivers fast, portable charging to your location",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+
+        "datePublished"    : "2026-05-19",
+        "dateModified"     : "2026-05-19",
+
+        "mainEntityOfPage"  : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it`
+        },
+
+        "inLanguage" : "en",
+
+        "keywords" : [
+          "EV range anxiety Dubai",
+          "emergency EV charging Dubai",
+          "portable EV charging pod",
+          "mobile EV charging UAE",
+          "EV breakdown assistance Dubai",
+          "on-demand EV charging",
+          "EV battery emergency Dubai",
+          "PlusX Electric charging pod",
+          "EV roadside charging Dubai",
+          "electric vehicle support Dubai"
+        ],
+
+        "articleSection" : [
+          "EV Range Anxiety",
+          "Emergency EV Charging",
+          "Mobile Charging Solutions",
+          "Dubai EV Infrastructure",
+          "On-Demand EV Support",
+          "EV Battery Issues",
+          "Smart Charging Solutions",
+          "Electric Vehicle Assistance"
+        ],
+
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "EV Range Anxiety and Emergency Charging Solutions in Dubai",
+          "description" : "Explains EV range anxiety challenges and how PlusX Emergency EV Charging Pod provides instant mobile charging support in Dubai."
+        },
+
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Emergency Charging Dubai | PlusX Electric",
+          "url"   : `${BASE_URL}/ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it`
+        }
+      }
+    ]
   }
 ];

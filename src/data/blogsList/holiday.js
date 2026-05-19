@@ -1,7 +1,9 @@
 import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_holidays.webp";
 import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
- 
+
+const BASE_URL       = process.env.NEXT_PUBLIC_BASE_URL;
 export const holiday = [
   {
     type: "paragraph",
@@ -239,6 +241,74 @@ export const holiday = [
     type: "paragraph",
     text: `With the right planning and dependable support, EV ownership stays seamless, even during long holidays. <a href=${APPLE_STORE_URL} target='_blank'>PlusX Electric</a> ensures you never get stranded, providing a reliable solution whenever you need it.`
   },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "How to Take Care of Your EV During the Holidays",
+        "name"        : "How to Take Care of Your EV During the Holidays | PlusX Electric",
+        "description" : "Learn how to protect your EV battery during holidays, avoid common mistakes, and ensure smooth performance with proper EV care and emergency charging support from PlusX Electric in Dubai.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/how-to-take-care-of-your-ev-during-the-holidays`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV care during holidays",
+          "EV battery maintenance Dubai",
+          "electric vehicle storage tips",
+          "EV charging during holidays",
+          "EV battery drain prevention",
+          "EV roadside assistance Dubai",
+          "emergency EV charging Dubai",
+          "PlusX Electric EV support",
+          "EV holiday tips UAE",
+          "electric car maintenance Dubai"
+        ],
+        "articleSection": [
+          "How an Idle EV Is Affected During Holidays",
+          "Essential EV Battery Preparation Before Holidays",
+          "Best Ways to Maintain Battery Health",
+          "EV Charging Planning During Holidays",
+          "EV Parking and Storage Best Practices",
+          "Common EV Holiday Mistakes",
+          "Post-Holiday EV Care",
+          "What to Do If EV Does Not Start After Holidays",
+          "Emergency EV Charging Support",
+          "Why EV Roadside Assistance Matters"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "Electric Vehicle Maintenance and Holiday Battery Care",
+          "description" : "Guidance on maintaining electric vehicles during long holiday periods, including battery care, charging habits, storage practices, and emergency EV support in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Roadside Assistance & Charging Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/how-to-take-care-of-your-ev-during-the-holidays`
+        }
+      }
+    ]
+  }
   // {
   //   type: "heading",
   //   level: 2,

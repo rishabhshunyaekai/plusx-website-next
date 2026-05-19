@@ -1,6 +1,8 @@
 import CIDesktop        from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_desktop_banner.webp";
 import CIMobile         from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_home_public.webp";
+
+const BASE_URL           = process.env.NEXT_PUBLIC_BASE_URL;
 export const smartChoice = [
   {
     type: "paragraph",
@@ -202,5 +204,72 @@ export const smartChoice = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Home vs. Public Charging: Why a Personal EV Charger is a Smart Choice in the UAE",
+        "name"        : "Home vs. Public Charging: Why a Personal EV Charger is a Smart Choice in the UAE | PlusX Electric",
+        "description" : "Discover why home EV charger installation in Dubai is smarter than relying on public charging. Learn about costs, convenience, and safety with PlusX licensed EV charger installation services.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/why-a-personal-ev-charger-is-a-smart-choice-in-the-uae`
+        },
+        "inLanguage" : "en",
+        "keywords"   : [
+          "home EV charger installation Dubai",
+          "EV charger installation UAE",
+          "public vs home EV charging",
+          "EV charging Dubai cost",
+          "DEWA EV charger installation",
+          "smart EV charging UAE",
+          "wallbox EV charger Dubai",
+          "electric vehicle home charging UAE",
+          "PlusX EV charger installation",
+          "EV charging solutions Dubai"
+        ],
+        "articleSection": [
+          "Public EV Charging Challenges in UAE",
+          "Queues and Availability Issues",
+          "Home EV Charger Installation Process",
+          "Cost Comparison: Home vs Public Charging",
+          "Benefits of Personal EV Charger",
+          "Smart Charging Features",
+          "Safety and Certified Installation",
+          "Energy Efficiency and Sustainability",
+          "Why PlusX Electric Home Charging Solutions"
+        ],
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Home EV Charging Installation and Smart Charging Solutions",
+          "description" : "Safe, certified home EV charger installation services in Dubai and UAE, offering convenience, cost savings, and smart energy management."
+        },
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "Home EV Charger Installation Dubai | PlusX Electric",
+          "url"   : `${BASE_URL}/why-a-personal-ev-charger-is-a-smart-choice-in-the-uae`
+        }
+      }
+    ]
   }
 ];

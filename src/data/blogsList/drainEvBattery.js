@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_drained_batteries.webp';
+
+const BASE_URL                = process.env.NEXT_PUBLIC_BASE_URL;
 export const drainEvBatteries = [
   {
     type: "paragraph",
@@ -145,5 +147,71 @@ export const drainEvBatteries = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Stuck with a Drained EV Battery? Here’s How On-Demand Charging Saves the Day",
+        "name"        : "Stuck with a Drained EV Battery? Here’s How On-Demand Charging Saves the Day | PlusX Electric",
+        "description" : "Stuck with a low EV battery? On-demand charging in Dubai delivers power anytime, anywhere, ensuring stress-free and convenient electric driving with emergency EV support.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV on-demand charging Dubai",
+          "mobile EV charging Dubai",
+          "emergency EV charging Dubai",
+          "drained EV battery help Dubai",
+          "EV roadside charging UAE",
+          "portable EV charging service",
+          "EV breakdown assistance Dubai",
+          "range anxiety EV solutions",
+          "24/7 EV charging Dubai",
+          "PlusX Electric on-demand charging"
+        ],
+        "articleSection": [
+          "EV Range Anxiety in Dubai",
+          "Limitations of Planned Charging",
+          "On-Demand EV Charging Solutions",
+          "Mobile EV Charging Services",
+          "Real-Life EV Charging Scenarios",
+          "Emergency EV Battery Support",
+          "EV Infrastructure Challenges",
+          "Future of EV Charging in UAE"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "On-Demand EV Charging and Emergency Mobile Power Support",
+          "description" : "Instant mobile EV charging solutions for drivers facing low or drained batteries in Dubai, including emergency roadside charging and portable EV support."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "On-Demand EV Charging Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day`
+        }
+      }
+    ]
   }
 ];

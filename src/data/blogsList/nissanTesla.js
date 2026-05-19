@@ -2,7 +2,9 @@ import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_elect
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
 import CIDesktop        from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_desktop_banner.webp";
 import CIMobile         from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_nissan_to_tesla.webp";
+
+const BASE_URL           = process.env.NEXT_PUBLIC_BASE_URL;
 export const nissanTesla = [
   {
     type: "paragraph",
@@ -205,5 +207,76 @@ export const nissanTesla = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "From Nissan to Tesla: Why Every EV Owner in Dubai Counts on PlusX Electric",
+        "name"        : "From Nissan to Tesla: Why Every EV Owner in Dubai Counts on PlusX Electric | PlusX Electric",
+        "description" : "Experience seamless EV ownership in Dubai with PlusX Electric’s smart EV charging solutions and on-demand mobile EV charging services for Nissan, Tesla, and all EV brands.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/why-every-ev-owner-in-dubai-counts-on-plusx-electric`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "EV charging Dubai",
+          "mobile EV charging Dubai",
+          "EV charging solutions UAE",
+          "Tesla charging Dubai",
+          "Nissan Leaf charging Dubai",
+          "EV fleet charging Dubai",
+          "home EV charger Dubai",
+          "commercial EV charging Dubai",
+          "EV roadside charging Dubai",
+          "PlusX Electric EV services"
+        ],
+        "articleSection": [
+          "EV Adoption From Nissan to Tesla in Dubai",
+          "Why EV Charging Infrastructure Matters",
+          "Why PlusX Electric Stands Out",
+          "Residential and Commercial EV Charging Solutions",
+          "Mobile EV Charging Convenience",
+          "Fleet Support and EV Roadside Assistance",
+          "Benefits of Choosing PlusX Electric",
+          "Reliability and Compliance",
+          "Flexibility for All EV Owners",
+          "Sustainability and Smart Energy",
+          "Technology Integration in EV Charging",
+          "Supporting Dubai Sustainable Mobility Goals",
+          "Choosing Smart EV Charging Solutions"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "Electric Vehicle Charging Solutions and Mobility Support",
+          "description" : "Comprehensive EV charging ecosystem including residential, commercial, fleet charging, and mobile EV charging services across Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Charging Solutions Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/why-every-ev-owner-in-dubai-counts-on-plusx-electric`
+        }
+      }
+    ]
   }
 ];

@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_ev_revolutions.webp';
+
+const BASE_URL            = process.env.NEXT_PUBLIC_BASE_URL;
 export const evrevolution = [
   {
     type: "paragraph",
@@ -173,5 +175,71 @@ export const evrevolution = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "How PlusX Electric is revolutionizing emergency EV charging in Dubai",
+        "name"        : "How PlusX Electric is revolutionizing emergency EV charging in Dubai | PlusX Electric",
+        "description" : "Discover how PlusX Electric is transforming EV charging in Dubai with on-demand, 24/7 portable solutions that eliminate range anxiety and redefine emergency EV charging.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type"         : "WebPage",
+          "@id"           : `${BASE_URL}/how-plusx-electric-is-revolutionizing-emergency-ev-charging-in-dubai`
+        },
+        "inLanguage"    : "en",
+        "keywords"      : [
+          "emergency EV charging Dubai",
+          "mobile EV charging Dubai",
+          "on-demand EV charging UAE",
+          "portable EV charging service",
+          "EV breakdown assistance Dubai",
+          "EV charging innovation Dubai",
+          "EV range anxiety solution",
+          "24/7 EV charging Dubai",
+          "PlusX Electric charging service",
+          "EV infrastructure Dubai"
+        ],
+        "articleSection": [
+          "EV Charging Challenges in Dubai",
+          "Limitations of Fixed Charging Stations",
+          "On-Demand EV Charging Model",
+          "Portable EV Charging Pods",
+          "Smart EV Charging Technology",
+          "Emergency EV Charging Solutions",
+          "EV Adoption in Dubai",
+          "Sustainable Mobility UAE"
+        ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "Emergency and On-Demand EV Charging Innovation",
+          "description" : "Portable and on-demand EV charging solutions that provide emergency support and mobility flexibility for electric vehicle drivers in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "Emergency EV Charging Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/how-plusx-electric-is-revolutionizing-emergency-ev-charging-in-dubai`
+        }
+      }
+    ]
   }
 ];

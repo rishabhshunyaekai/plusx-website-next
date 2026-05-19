@@ -1,6 +1,8 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
- 
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_common_charging.webp";
+
+const BASE_URL               = process.env.NEXT_PUBLIC_BASE_URL;
 export const commonChargings = [
   {
     type: "paragraph",
@@ -198,5 +200,72 @@ export const commonChargings = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Common Charging Challenges EV Owners Face in Dubai (and Solutions)",
+        "name"        : "Common Charging Challenges EV Owners Face in Dubai (and Solutions) | PlusX Electric",
+        "description" : "From finding public charging stations in Dubai to slow charging speeds and compatibility issues, explore common EV charging challenges and smart solutions with PlusX Electric.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"    : "2026-05-19",
+        "dateModified"     : "2026-05-19",
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/common-charging-challenges-ev-owners-face-in-dubai`
+        },
+        "inLanguage" : "en",
+        "keywords"   : [
+          "EV charging challenges Dubai",
+          "public charging stations Dubai",
+          "EV charging problems UAE",
+          "slow EV charging Dubai",
+          "EV charger availability Dubai",
+          "mobile EV charging Dubai",
+          "PlusX Electric charging solutions",
+          "EV compatibility issues",
+          "EV range anxiety Dubai",
+          "EV infrastructure Dubai"
+        ],
+        "articleSection" : [
+          "EV Charging Challenges Dubai",
+          "Public Charging Station Issues",
+          "EV Charger Compatibility Problems",
+          "Residential Charging Difficulties",
+          "Slow EV Charging Issues",
+          "EV Range Anxiety Solutions",
+          "Charging Cost Challenges",
+          "EV Charging Etiquette",
+          "Smart Charging Solutions Dubai"
+        ],
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Electric Vehicle Charging Challenges and Solutions in Dubai",
+          "description" : "Explains common EV charging problems in Dubai and practical solutions including mobile charging, fast charging, and smart EV charging apps."
+        },
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Charging Solutions Dubai | PlusX Electric",
+          "url"   : `${BASE_URL}/common-charging-challenges-ev-owners-face-in-dubai`
+        }
+      }
+    ]
   }
 ];

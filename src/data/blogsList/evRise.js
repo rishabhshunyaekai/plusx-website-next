@@ -1,3 +1,6 @@
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_ev_medias.webp";
+
+const BASE_URL      = process.env.NEXT_PUBLIC_BASE_URL;
 export const evRise = [
   {
     type: "paragraph",
@@ -153,5 +156,81 @@ export const evRise = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+
+        "headline"    : "The Rise of Electric Vehicles in the UAE A Comprehensive Overview",
+        "name"        : "The Rise of Electric Vehicles in the UAE A Comprehensive Overview | PlusX Electric",
+        "description" : "How the UAE is becoming a leader in electric mobility — from government incentives and DEWA charging expansion to growing EV adoption trends in 2026.",
+
+        "image"       : `${BASE_URL}${blogImage.src}`,
+
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+
+        "datePublished"    : "2026-05-19",
+        "dateModified"     : "2026-05-19",
+
+        "mainEntityOfPage" : {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview`
+        },
+
+        "inLanguage" : "en",
+
+        "keywords" : [
+          "EV UAE",
+          "electric vehicles UAE 2026",
+          "Dubai EV growth",
+          "DEWA Green Charger",
+          "UAE EV incentives",
+          "EV charging stations Dubai",
+          "EV adoption UAE",
+          "sustainable transport UAE",
+          "electric cars Dubai market",
+          "PlusX Electric EV solutions"
+        ],
+
+        "articleSection" : [
+          "EV Market Growth UAE",
+          "Government EV Policies",
+          "Charging Infrastructure UAE",
+          "Dubai EV Adoption Trends",
+          "Sustainable Transportation",
+          "EV Benefits UAE",
+          "Future of Mobility UAE"
+        ],
+
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "Electric Vehicle Growth and Infrastructure in the UAE",
+          "description" : "Overview of EV adoption in the UAE, government incentives, charging infrastructure, and market trends shaping sustainable mobility."
+        },
+
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Insights UAE | PlusX Electric",
+          "url"   : `${BASE_URL}/the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview`
+        }
+      }
+    ]
   }
 ];

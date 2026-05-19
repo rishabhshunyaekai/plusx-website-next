@@ -1,6 +1,8 @@
 import RSADesktop       from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
 import RSAMobile        from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
- 
+import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_ev_owners.webp';
+
+const BASE_URL     = process.env.NEXT_PUBLIC_BASE_URL;
 export const owner = [
   {
     type: "paragraph",
@@ -177,5 +179,72 @@ export const owner = [
         }
       ]
     }
+  },
+  {
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "Why EV Roadside Assistance is a Must-Have for Every EV Owner",
+        "name"        : "Why EV Roadside Assistance is a Must-Have for Every EV Owner | PlusX Electric",
+        "description" : "EV roadside assistance ensures safety, portable charging, and 24/7 expert help, making electric vehicle ownership stress-free and reliable in Dubai.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type" : "Person",
+          "name"  : "Admin",
+          "url"   : `${BASE_URL}/`
+        },
+        "publisher"   : {
+          "@type" : "Organization",
+          "name"  : "PlusX Electric",
+          "url"   : `${BASE_URL}/`,
+          "logo"  : {
+            "@type" : "ImageObject",
+            "url"   : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished"   : "2026-05-19",
+        "dateModified"    : "2026-05-19",
+        "mainEntityOfPage": {
+          "@type" : "WebPage",
+          "@id"   : `${BASE_URL}/why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner`
+        },
+        "inLanguage" : "en",
+        "keywords"   : [
+          "EV roadside assistance Dubai",
+          "emergency EV charging UAE",
+          "EV breakdown support Dubai",
+          "mobile EV charging assistance",
+          "EV towing Dubai",
+          "24/7 EV rescue service",
+          "battery drain EV help Dubai",
+          "electric vehicle emergency support UAE",
+          "PlusX EV roadside assistance",
+          "EV charging rescue Dubai"
+        ],
+        "articleSection": [
+          "EV Roadside Challenges",
+          "Battery Depletion Anxiety",
+          "EV Charging Infrastructure Issues",
+          "Difference Between EV and Traditional Roadside Help",
+          "Emergency EV Towing Challenges",
+          "Portable EV Charging Support",
+          "Benefits of EV Roadside Assistance",
+          "How PlusX EV Rescue Works",
+          "Future of EV Assistance in Dubai"
+        ],
+        "about" : {
+          "@type" : "Thing",
+          "name"  : "EV Roadside Assistance and Emergency Charging Support",
+          "description" : "Specialized roadside assistance services for electric vehicles including portable charging, emergency rescue, and EV-safe towing solutions in Dubai."
+        },
+        "isPartOf" : {
+          "@type" : "WebPage",
+          "name"  : "EV Roadside Assistance Dubai | PlusX Electric",
+          "url"   : `${BASE_URL}/why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner`
+        }
+      }
+    ]
   }
 ];
