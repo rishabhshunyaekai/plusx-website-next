@@ -1,4 +1,6 @@
-import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_media_environmental.webp";
+import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
+import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_media_environmental.webp";
 
 const BASE_URL             = process.env.NEXT_PUBLIC_BASE_URL;
 export const evBenefits = [
@@ -37,6 +39,13 @@ export const evBenefits = [
     ],
   },
   {
+      type: "ctaButton",
+      action: "portablePage",
+      alt: "Portable EV Charger in Dubai",
+      desktop: portableDesktop,
+      mobile: portableMobile
+    },
+  {
     type: "heading",
     level: 2,
     text: "Cost Savings"
@@ -67,6 +76,11 @@ export const evBenefits = [
   {
     type: "heading",
     level: 2,
+    text: `<a href="/the-future-of-electric-mobility-innovations-and-trends-in-the-uae" target='_blank'>The Future of Electric Mobility Innovations and Trends in the UAE</a>`
+  },
+  {
+    type: "heading",
+    level: 2,
     text: "Energy Efficiency"
   },
   {
@@ -86,7 +100,7 @@ export const evBenefits = [
     headerText : `The UAE is rapidly developing its EV infrastructure to support the growing number of electric vehicles on the road. Key initiatives include:`,
     type: "ul",
     items: [
-      `<strong>Charging Stations: </strong>A comprehensive network of charging stations is being established across the UAE, making it convenient for EV owners to charge their vehicles.`,
+      `<strong>Charging Stations: </strong>A comprehensive network of <a href="/public-ev-charging-stations" target='_blank'>charging stations</a> is being established across the UAE, making it convenient for EV owners to charge their vehicles.`,
       `<strong>Public and Private Sector Collaboration: </strong>Both the government and private companies are investing in EV infrastructure, ensuring that the necessary support systems are in place.`,
     ],
   },

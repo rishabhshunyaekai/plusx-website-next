@@ -10,7 +10,7 @@ export const ac_dc_chargers = [
   },
   {
     type: "paragraph",
-    text: `<a href="/ev-charger-installation-uae/ac-dc-ev-chargers" target="__blank">AC vs DC EV charger Dubai</a> is a common dilemma, but you can make the choice easily once you understand what they mean. You can decide the type of charger based on your usage, location, and vehicle requirements.`,
+    text: `AC vs DC EV charger Dubai is a common dilemma, but you can make the choice easily once you understand what they mean. You can decide the type of charger based on your usage, location, and vehicle requirements.`,
   },
   {
     type: "paragraph",
@@ -65,8 +65,9 @@ export const ac_dc_chargers = [
     footerText: `DC chargers usually start from 50 kW and can go much higher depending on the setup.`
   },
   {
-    type: "paragraph",
-    text: "If you still want to know more about AC or DC chargers."
+    type: "heading",
+    level: 2,
+    text: `If you still want to know more about AC or DC chargers.`,
   },
   {
     type: "buttons",

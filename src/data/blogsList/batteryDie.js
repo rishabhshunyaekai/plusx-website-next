@@ -44,7 +44,7 @@ export const batteryDie = [
     headerText: `Before seeking help, remember to check for nearby charging stations.`,
     type: "ul",
     items: [
-      `Need to charge on the go? You can check on apps like PlusX Electric, PlugShare, DEWA or Google Maps to find the nearest EV charging station.`,
+      `Need to charge on the go? You can check on apps like PlusX Electric, PlugShare, DEWA or Google Maps to find the <a href="/public-ev-charging-stations" target='_blank'>nearest EV charging station</a>.`,
       `Think about simple questions and ask yourself:`,
     ],
     nestedList: [
@@ -74,7 +74,7 @@ export const batteryDie = [
     type: "ul",
     items: [
       `<strong>Step 1:</strong> Open the PlusX App <br/>Start by downloading the PlusX Electric app on your phone, then open it to get going. The app offers a simple interface that is designed to work faster.`,
-      `<strong>Step 2:</strong> Book an EV Roadside Assistance <br/> Select the option of “EV Roadside Assistance”. Input all the details in the relevant fields, so that the support team knows where to reach you.`,
+      `<strong>Step 2:</strong> Book an <a href="/ev-breakdown-assistance" target='_blank'>EV Roadside Assistance</a> <br/> Select the option of “EV Roadside Assistance”. Input all the details in the relevant fields, so that the support team knows where to reach you.`,
       `<strong>Step 3:</strong> A Technician Is Dispatched Immediately <br/> After getting confirmation, a trained technician is dispatched to your current location. Most customers get assistance within 45 minutes or less, depending on your area and traffic conditions.`,
       `<strong>Step 4:</strong> Get a Safe, On-the-Spot Battery Boost <br/> The technician will reach your destination with a portable Level 2 charging unit. PlusX provides your EV enough power to safely reach the nearest charging station or get home, without needing further assistance.`,
       `<strong>Step 5:</strong> Drive Away without any Stress <br/> Once the charging is done, there will be no need to call multiple services or search for a charger. Just wait for your charge, and drive off safely after the vehicle is powered up.`,
@@ -98,6 +98,11 @@ export const batteryDie = [
       `Dubai Police (901) for non-urgent towing help.`,
     ],
     footerText: `<strong>Note: </strong> EVs should always be transported using a flatbed tow truck to avoid drivetrain damage. Wheel lifts are a no-go.`,
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `<a href="/the-future-of-electric-mobility-innovations-and-trends-in-the-uae" target='_blank'>The Future of Electric Mobility Innovations and Trends in the UAE</a>`
   },
   {
     type: "heading",

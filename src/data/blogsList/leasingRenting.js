@@ -41,7 +41,7 @@ export const leasingRenting = [
     items: [
       `<strong>Flexible Subscription Plans: </strong>Carasti offers a range of subscription plans, allowing customers to choose from monthly, quarterly, or yearly plans. This flexibility makes it easy to switch cars or upgrade to a newer model.`,
       `<strong>Wide Selection of EVs: </strong>Carasti provides a variety of EV models, from compact cars to luxury vehicles. Popular options include the Tesla Model 3, Nissan Leaf, and BMW i3.`,
-      `<strong>Inclusive Services: </strong>Subscriptions with Carasti include insurance, maintenance, and roadside assistance, providing a hassle-free experience.`,
+      `<strong>Inclusive Services: </strong>Subscriptions with Carasti include insurance, maintenance, and <a href="/ev-breakdown-assistance" target='_blank'>roadside assistance</a>, providing a hassle-free experience.`,
       `<strong>User-Friendly App: </strong>Carasti's app makes it easy to manage subscriptions, schedule maintenance, and make payments.`,
     ],
   },
@@ -96,6 +96,11 @@ export const leasingRenting = [
       `<strong>Individual User (Car Fare): </strong>"Car Fare's leasing service made it easy to transition to an EV. The flexible lease terms and included services provided great value."`,
       `<strong>Corporate Client (Car Fare): </strong>"Leasing our electric fleet from Car Fare has streamlined our operations and reduced costs. Their comprehensive service package is top-notch."`,
     ],
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `<a href="/the-future-of-electric-mobility-innovations-and-trends-in-the-uae" target='_blank'>The Future of Electric Mobility Innovations and Trends in the UAE</a>`
   },
   {
     type: "heading",

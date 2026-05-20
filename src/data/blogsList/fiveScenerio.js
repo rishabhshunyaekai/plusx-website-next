@@ -6,7 +6,7 @@ const BASE_URL            = process.env.NEXT_PUBLIC_BASE_URL;
 export const fiveScenerio = [
   {
     type: "paragraph",
-    text: `Electric cars are no longer simply a technical term: It has become a common sight on the roads. Lower operational costs, along with ecological benefits, are among the reasons in favor of switching to electric. But just like any other vehicle, EVs can face unpredictable problems while you are on the road. This makes EV roadside assistance a very important service.`,
+    text: `Electric cars are no longer simply a technical term: It has become a common sight on the roads. Lower operational costs, along with ecological benefits, are among the reasons in favor of switching to electric. But just like any other vehicle, EVs can face unpredictable problems while you are on the road. This makes <a href="/ev-breakdown-assistance" target='_blank'>EV roadside assistance</a> a very important service.`,
   },
   {
     type: "paragraph",
@@ -50,6 +50,11 @@ export const fiveScenerio = [
   {
     type: "heading",
     level: 2,
+    text: `<a href="/why-every-dubai-ev-driver-should-know-about-plusx-electrics-roadside-rescue" target='_blank'>Why Every Dubai EV Driver Should Know About PlusX Electric’s Roadside Rescue</a>`
+  },
+  {
+    type: "heading",
+    level: 2,
     text: "3. Airport Rush"
   },
   {
@@ -71,7 +76,7 @@ export const fiveScenerio = [
   },
   {
     type: "paragraph",
-    text: `PlusX's roadside assistance gives you that peace of mind. You don't have to phone the school to say you'll be late; instead, you get a brief emergency boost that gets you started again. When the bell rings, you're at the school gates with a smile instead of an apology.`
+    text: `<a href="/ev-breakdown-assistance" target='_blank'>PlusX's roadside assistance</a> gives you that peace of mind. You don't have to phone the school to say you'll be late; instead, you get a brief emergency boost that gets you started again. When the bell rings, you're at the school gates with a smile instead of an apology.`
   },
   {
     type: "heading",

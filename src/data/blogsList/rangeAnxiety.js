@@ -10,7 +10,7 @@ export const rangeAnxiety = [
   },
   {
     type: "paragraph",
-    text: `This particular concern is real, especially in Dubai, where variable traffic conditions, soaring temperatures, and limited fast charging infrastructure make it difficult to manage EV battery life. Innovative solutions like the PlusX Emergency EV Charging Pod have been emerging, putting these worries to rest. Keep reading as we explore why range anxiety in EV vehicles is a crucial issue, and the ways PlusX’s Charging Pod can address it.`,
+    text: `This particular concern is real, especially in Dubai, where variable traffic conditions, soaring temperatures, and limited fast charging infrastructure make it difficult to manage EV battery life. Innovative solutions like the <a href="/mobile-ev-charging-dubai" target='_blank'>PlusX Emergency EV Charging Pod</a> have been emerging, putting these worries to rest. Keep reading as we explore why range anxiety in EV vehicles is a crucial issue, and the ways PlusX’s Charging Pod can address it.`,
   },
   {
     type: "heading",
@@ -64,11 +64,16 @@ export const rangeAnxiety = [
   {
     type: "heading",
     level: 3,
+    text: `<a href="/what-to-do-when-your-ev-battery-dies-in-dubai" target='_blank'>What to Do When Your EV Battery Dies in Dubai: A Step-by-Step Guide</a>`
+  },
+  {
+    type: "heading",
+    level: 3,
     text: "Introducing PlusX’s Emergency EV Charging Pod"
   },
   {
     type: "paragraph",
-    text: "PlusX offers an on-demand solution: the Emergency EV Charging Pod. It is a small, portable charging pod taken directly to your car by a PlusX technician wherever you require it."
+    text: `PlusX offers an <a href="/mobile-ev-charging-dubai" target='_blank'>on-demand solution</a>: the Emergency EV Charging Pod. It is a small, portable charging pod taken directly to your car by a PlusX technician wherever you require it.`
   },
   {
     type: "heading",
@@ -121,7 +126,7 @@ export const rangeAnxiety = [
   },
   {
     type: "paragraph",
-    text: "The Charging Pod design enables technicians to work in small parking spaces, narrow city streets, and residential neighbourhoods, addressing one of the primary challenges of EV mobile charging."
+    text: `The Charging Pod design enables technicians to work in small parking spaces, narrow city streets, and residential neighbourhoods, addressing one of the primary challenges of <a href="/mobile-ev-charging-dubai" target='_blank'>EV mobile charging</a>.`
   },
   {
     type: "heading",

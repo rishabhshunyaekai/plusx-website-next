@@ -23,7 +23,7 @@ export const evrevolution = [
   },
   {
     type: "paragraph",
-    text: "While Dubai certainly has made significant progress on the EV setup, the system does have its flaws and shortcomings. While fixed charging stations have also been increasing in number, they generally suffer from three major problems:"
+    text: `While Dubai certainly has made significant progress on the EV setup, the system does have its flaws and shortcomings. While <a href="/ev-charger-installation-uae" target='_blank'>fixed charging stations</a> have also been increasing in number, they generally suffer from three major problems:`
   },
   {
     type: "heading",

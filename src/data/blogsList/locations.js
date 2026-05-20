@@ -1,3 +1,5 @@
+import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
+import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
 import blogImage  from '@/assets/images/homepage/blogs/plusx_electric_top_ten_locations.webp';
 
 const BASE_URL         = process.env.NEXT_PUBLIC_BASE_URL;
@@ -72,7 +74,7 @@ export const locations = [
   {
     type: "heading",
     level: 3,
-    text: `<a href="https://plusxelectric.com/what-to-do-when-your-ev-battery-dies-in-dubai" target='blank'>What to Do When Your EV Battery Dies in Dubai: A Step-by-Step Guide</a>`
+    text: `<a href="https://plusxelectric.com/what-to-do-when-your-ev-battery-dies-in-dubai" target='_blank'>What to Do When Your EV Battery Dies in Dubai: A Step-by-Step Guide</a>`
   },
   {
     type: "heading",
@@ -111,6 +113,13 @@ export const locations = [
     text: `Dubai’s suburbs and industrial zones are growing EV hubs, but infrastructure hasn’t scaled equally. In Silicon Oasis, for example, many EV owners don’t have home chargers, meaning they depend on public ones. These become crowded quickly, and broken chargers are a frequent complaint.`
   },
   {
+    type: "ctaButton",
+    action: "roadsidePage",
+    alt: "EV Roadside Assistance Service in Dubai",
+    desktop: RSADesktop,
+    mobile: RSAMobile
+  },
+  {
     type: "heading",
     level: 3,
     text: "Why These Areas Stand Out"
@@ -132,7 +141,7 @@ export const locations = [
     text: "How PlusX Makes EV Charging Easy in These Locations"
   },
   {
-    headerText: `This is where PlusX Portable EV Charging Pods make all the difference. Instead of queuing for hours, circling for an empty bay, or risking being stranded, PlusX brings the charge directly to the driver.`,
+    headerText: `This is where <a href="/mobile-ev-charging-dubai" target='_blank'>PlusX Portable EV Charging Pods</a> make all the difference. Instead of queuing for hours, circling for an empty bay, or risking being stranded, PlusX brings the charge directly to the driver.`,
     type: "ul",
     items: [
       `<strong>On-Demand Relief: </strong> If you’re in Marina or Business Bay with only 3% battery, a PlusX team can reach you with portable pods that deliver power safely.`,

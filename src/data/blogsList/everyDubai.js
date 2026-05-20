@@ -14,7 +14,7 @@ export const everyDubai = [
   },
   {
     type: "paragraph",
-    text: `PlusX Electric's Roadside Rescue offers on-spot charging, EV-safe towing, and 24/7 service across Dubai. It delivers fast, reliable support for every kind of EV emergency. Here's why every EV driver in Dubai should have PlusX on speed dial.`,
+    text: `<a href="/ev-breakdown-assistance" target='_blank'>PlusX Electric's Roadside Rescue</a> offers on-spot charging, EV-safe towing, and 24/7 service across Dubai. It delivers fast, reliable support for every kind of EV emergency. Here's why every EV driver in Dubai should have PlusX on speed dial.`,
   },
   {
     type: "heading",
@@ -28,7 +28,7 @@ export const everyDubai = [
       `<strong>No quick fix like fuel delivery:</strong> If your battery dies, you can't just pour electricity into a tank. You need an EV charging service that is quick and provides well-known services.`,
       `<strong>Towing threats:</strong> Most EVs have designs that do not allow for towing with the wheels on the ground. The reason is the high costs of vehicle drivetrain repair.`,
       `<strong>Charging stations have limited availability:</strong> Dubai's growing network could find its staging points distant or filled during the peak hours of malls and offices.`,
-      `<strong>Confusion in AC vs. DC chargers:</strong> EV chargers can be confusing, and not all of them work for all types of EVs. Knowing which one to use can be tricky in stressful times.`,
+      `<strong>Confusion in AC vs. DC chargers:</strong> <a href="/ev-charger-installation-uae/ac-dc-ev-chargers" target='_blank'>EV chargers</a> can be confusing, and not all of them work for all types of EVs. Knowing which one to use can be tricky in stressful times.`,
       `<strong>Lack of help on the roadside:</strong> Many traditional roadside service providers are not trained in EV systems, which means delayed or ineffective support.`,
     ],
     footerText: `In Dubai's unique driving conditions and solid infrastructure, these challenges depict the need for smarter, EV-focused roadside solutions.`,
@@ -71,9 +71,14 @@ export const everyDubai = [
     items: [
       `<strong>Step 1: Open the PlusX App:</strong> <br/> Start by downloading the PlusX Electric app on your phone. Select the "EV Roadside Assistance" option from the main menu. The help is sent right away without any further explanation.`,
       `<strong>Step 2: Share Your Location: </strong> <br/> Enter your location in the app or allow for auto-detection using GPS. Wherever the location, the service promises to be there within minutes to get your vehicle back on the road`,
-      `<strong>Step 3: Powered Up Vehicle: </strong> <br/> The PlusX technician will be dispatched to your location with a portable charging kit without delay. You'll receive a top-up charge that's enough to get you safely to your destination or nearest public charger without any towing service.`,
+      `<strong>Step 3: Powered Up Vehicle: </strong> <br/> The PlusX technician will be dispatched to your location with a <a href="/mobile-ev-charging-dubai" target='_blank'>portable charging</a> kit without delay. You'll receive a top-up charge that's enough to get you safely to your destination or nearest public charger without any towing service.`,
       `<strong>Step 4: Quick Recharge or Jump-Start: </strong> <br/> The trained technician can get your EV on the road again, even if it's fully out of charge or the 12V battery is flat. It's all handled by professionals who know EV's system inside and out.`,
     ],
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `<a href="/exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide" target='_blank'>Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide</a>`
   },
   {
     type: "heading",

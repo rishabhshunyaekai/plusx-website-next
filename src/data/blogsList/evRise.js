@@ -1,3 +1,5 @@
+import CIDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_desktop_banner.webp";
+import CIMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_mobile_banner.webp";
 import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_ev_medias.webp";
 
 const BASE_URL      = process.env.NEXT_PUBLIC_BASE_URL;
@@ -28,8 +30,15 @@ export const evRise = [
     type: "ul",
     items: [
       `<strong>Subsidies and Incentives: </strong>The UAE offers financial incentives for EV buyers, including reduced registration fees, free parking, and toll exemptions.`,
-      `<strong>Regulations: </strong>The government has implemented regulations to encourage the use of EVs, such as mandating EV charging stations in new buildings and offering incentives to companies investing in EV infrastructure.`,
+      `<strong>Regulations: </strong>The government has implemented regulations to encourage the use of EVs, such as mandating <a href="/ev-charger-installation-uae" target='_blank'>EV charging stations</a> in new buildings and offering incentives to companies investing in EV infrastructure.`,
     ],
+  },
+  {
+    type: "ctaButton",
+    action: "chargerInstallationPage",
+    alt: "Best AC DC EV Charger Installation Service in UAE",
+    desktop: CIDesktop,
+    mobile: CIMobile
   },
   {
     type: "heading",
@@ -46,7 +55,7 @@ export const evRise = [
   {
     type: "ul",
     items: [
-      `<strong>DEWA's Green Charger Initiative: </strong>Dubai Electricity and Water Authority (DEWA) has established numerous public charging stations, making it convenient for EV owners to charge their vehicles across the city.`,
+      `<strong>DEWA's Green Charger Initiative: </strong>Dubai Electricity and Water Authority (DEWA) has established numerous <a href="/public-ev-charging-stations" target='_blank'>public charging stations</a>, making it convenient for EV owners to charge their vehicles across the city.`,
       `<strong>ENOC's Charging Stations: </strong>Emirates National Oil Company (ENOC) has integrated EV charging stations into its service stations, providing easy access for drivers.`,
       `<strong>Private Sector Participation: </strong>Companies like Tesla and local startups are also contributing to the infrastructure by installing proprietary charging networks.`,
     ],
@@ -70,6 +79,11 @@ export const evRise = [
       `<strong>Corporate Adoption: </strong>Companies are increasingly incorporating EVs into their fleets to reduce their carbon footprint and comply with corporate sustainability goals.`,
       `<strong>Technological Advancements: </strong>Innovations in battery technology and autonomous driving are making EVs more attractive to consumers.`,
     ],
+  },
+  {
+    type: "heading",
+    level: 2,
+    text: `<a href="/exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide" target='_blank'>Exploring the Benefits of Electric Vehicles in the UAE A Comprehensive Guide</a>`
   },
   {
     type: "heading",

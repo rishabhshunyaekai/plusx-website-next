@@ -1,4 +1,6 @@
-import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_technology_innovations.webp";
+import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
+import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
+import blogImage        from "@/assets/images/homepage/blogs/plusx_electric_technology_innovations.webp";
 
 const BASE_URL      = process.env.NEXT_PUBLIC_BASE_URL;
 export const future = [
@@ -8,7 +10,7 @@ export const future = [
             industry, and the UAE is at the forefront of this change . With
             rapid advancements in technology and strong government support, the
             future of electric mobility in the UAE is bright. In this blog,
-            we'll explore the latest innovations, sustainability initiatives,
+            we'll explore the latest innovations, <a href="/sustainability" target='_blank'>sustainability initiatives</a>,
             market predictions, and consumer trends shaping the future of EVs in
             the UAE.`,
   },
@@ -28,7 +30,7 @@ export const future = [
     items: [
       `<strong>Battery Technology: </strong>Significant improvements in battery technology are extending the range and reducing charging times. Solid-state batteries and advanced lithium-ion batteries promise higher energy densities and faster charging.`,
       `<strong>Autonomous Driving: </strong>Autonomous driving technology is evolving rapidly, with many EVs now equipped with advanced driver-assistance systems (ADAS). Companies like Tesla and Waymo are leading the way in developing self-driving EVs.`,
-      `<strong>Smart Charging Solutions: </strong>Innovations in smart charging technology enable better energy management. Features like vehicle-to-grid (V2G) technology allow EVs to return excess power to the grid, enhancing grid stability and reducing energy costs.`,
+      `<strong>Smart Charging Solutions: </strong>Innovations in <a href="/mobile-ev-charging-dubai" target='_blank'>smart charging technology</a> enable better energy management. Features like vehicle-to-grid (V2G) technology allow EVs to return excess power to the grid, enhancing grid stability and reducing energy costs.`,
     ],
   },
   {
@@ -48,6 +50,13 @@ export const future = [
       `<strong>Clean Energy Integration: </strong>Projects like the Mohammed bin Rashid Al Maktoum Solar Park are contributing to cleaner energy production, supporting the use of EVs powered by renewable energy.`,
       `<strong>Smart Cities: </strong>The development of smart cities like Masdar City in Abu Dhabi includes extensive EV infrastructure, promoting the use of electric and autonomous vehicles.`,
     ],
+  },
+  {
+    type: "ctaButton",
+    action: "portablePage",
+    alt: "Mobile EV Charger in Dubai",
+    desktop: portableDesktop,
+    mobile: portableMobile
   },
   {
     type: "heading",
@@ -82,7 +91,7 @@ export const future = [
     items: [
       `<strong>Increased EV Adoption: </strong>More consumers are opting for EVs due to environmental concerns, cost savings, and government incentives.`,
       `<strong>Preference for Luxury EVs: </strong>The UAE market shows a strong preference for luxury EV models, with brands like Tesla, Porsche, and Audi gaining popularity.`,
-      `<strong>Rising Demand for EV Services: </strong>Services related to EV leasing, renting, and charging are in high demand, reflecting the growing acceptance of electric mobility.`,
+      `<strong>Rising Demand for EV Services: </strong>Services related to EV leasing, renting, and <a href="/mobile-ev-charging-dubai" target='_blank'>charging are in high demand</a>, reflecting the growing acceptance of electric mobility.`,
     ],
   },
   {
