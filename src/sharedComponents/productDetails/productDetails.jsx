@@ -12,6 +12,7 @@ import DownloadApp                from "@/sharedComponents/downloadApp/downloadA
 function ProductDetails({product, similarProducts, type}) {
     const pathname      = usePathname();
     const redirectPath  = pathname.split("/").slice(0, 3).join("/");
+    const disclaimer    = product?.disclaimer;
 
   return (
     <>
@@ -19,6 +20,7 @@ function ProductDetails({product, similarProducts, type}) {
       <Breadcrumbs isHideForMobile={true}/>
       <Intro product={product.introData} />
       <Features product={product.features} />
+      {disclaimer && <Intro product={disclaimer} />}
       <SimiliarProduct product={similarProducts} url={redirectPath} />
       <Offers />
       <DownloadApp />
