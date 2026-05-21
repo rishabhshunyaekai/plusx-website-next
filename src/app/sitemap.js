@@ -319,5 +319,11 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}how-to-find-the-nearest-public-ev-charging-station-in-dubai`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
   ];
 }

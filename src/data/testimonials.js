@@ -30,6 +30,7 @@ import PortableEVChar                 from "@/assets/images/homepage/blogs/Plusx
 import EVSolution                     from "@/assets/images/homepage/blogs/plusx_electric_ev_solution_in_dubai.webp";
 import CommonEVCharging               from "@/assets/images/homepage/blogs/plusx_electric_common_ev_charging_in_dubai.webp";
 import ACDCChargers                   from "@/assets/images/homepage/blogs/plusx_electric_ac_dc_chargers_in_dubai.webp";
+import NearestEVCharger               from "@/assets/images/homepage/blogs/plusx_electric_ev_public_charging_station.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -63,8 +64,18 @@ import { portableEV }         from "@/data/blogsList/portableEV";
 import { eVSolution }         from "@/data/blogsList/evSolution";
 import { commonEVCharging }   from "@/data/blogsList/commonEVCharging";
 import { ac_dc_chargers }     from "@/data/blogsList/ac-dc-ev-charger";
+import { nearestStation }     from "@/data/blogsList/nearest-station";
  
 export const testimonials = [
+  {
+    slug            : "how-to-find-the-nearest-public-ev-charging-station-in-dubai",
+    title           : "How to Find the Nearest Public EV Charging Station in Dubai",
+    image           : NearestEVCharger,
+    alt             : "Public EV Charging Station in Dubai",
+    metaTitle       : "How to Find the Nearest EV Charging Station in Dubai",
+    metaDescription : "Looking for the nearest EV charging station in Dubai? Learn how to find available chargers, check compatibility, and avoid delays using smart tools like PlusX Electric.",
+    content         : nearestStation,
+  },
   {
     slug            : "ac-vs-dc-ev-chargers",
     title           : "AC vs DC EV Chargers: Which One Should You Choose in Dubai?",
