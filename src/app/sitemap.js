@@ -325,5 +325,11 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}dead-ev-in-a-dubai-basement-parking-garage`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
   ];
 }

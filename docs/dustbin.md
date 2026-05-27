@@ -1001,7 +1001,7 @@ const structuredData = {
     "logo"        : "https://plusxelectric.com/logo-icon.svg",
     "image"       : "https://plusxelectric.com/images/plusx-electric-ev-rescue.jpg",
     "telephone"   : "+971543061473",
-    "email"       : "media@plusxelectric.com",
+    "email"       : "admin@plusxelectric.com",
     "address": {
       "@type"           : "PostalAddress",
       "streetAddress"   : "D55-PBU, Dubai Production City",

@@ -35,7 +35,7 @@ function ContactIntro() {
               </div>
               <div className={style.contactText}>
                 <h4>Email</h4>
-                <p>media@plusxelectric.com</p>
+                <p>admin@plusxelectric.com</p>
               </div>
             </div>
           </Animated>

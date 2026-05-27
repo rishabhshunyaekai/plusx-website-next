@@ -31,6 +31,7 @@ import EVSolution                     from "@/assets/images/homepage/blogs/plusx
 import CommonEVCharging               from "@/assets/images/homepage/blogs/plusx_electric_common_ev_charging_in_dubai.webp";
 import ACDCChargers                   from "@/assets/images/homepage/blogs/plusx_electric_ac_dc_chargers_in_dubai.webp";
 import NearestEVCharger               from "@/assets/images/homepage/blogs/plusx_electric_ev_public_charging_station.webp";
+import DeadEV                         from "@/assets/images/homepage/blogs/plusx_electric_dead_ev_in_dubai.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -65,8 +66,18 @@ import { eVSolution }         from "@/data/blogsList/evSolution";
 import { commonEVCharging }   from "@/data/blogsList/commonEVCharging";
 import { ac_dc_chargers }     from "@/data/blogsList/ac-dc-ev-charger";
 import { nearestStation }     from "@/data/blogsList/nearest-station";
+import { basementParking }    from "@/data/blogsList/basementParking";
  
 export const testimonials = [
+  {
+    slug            : "dead-ev-in-a-dubai-basement-parking-garage",
+    title           : "Dead EV in a Dubai Basement Parking Garage: Who to Call and What to Do",
+    image           : DeadEV,
+    alt             : "EV Breakdown Assistance in Dubai",
+    metaTitle       : "Dead EV in a Dubai Basement Parking Garage: Who to Call and What to Do",
+    metaDescription : "Your EV won't start in a Dubai basement and tow trucks can't reach you. Here's exactly who to call, what to do, and how mobile EV rescue solves it on the spot.",
+    content         : basementParking,
+  },
   {
     slug            : "how-to-find-the-nearest-public-ev-charging-station-in-dubai",
     title           : "How to Find the Nearest Public EV Charging Station in Dubai",

@@ -323,44 +323,49 @@ export const ac_dc_chargers = [
     }
   },
   {
-    "@context"    : "https://schema.org",
-    "@type"       : "Article",
-    "headline"    : "AC vs DC EV Chargers in Dubai | Which One Should You Choose?",
-    "name"        : "AC vs DC EV Chargers in Dubai | PlusX Electric",
-    "description" : "Confused between AC and DC EV chargers in Dubai? Learn the key differences, charging speeds, installation costs, and which EV charger is best for your home or business with PlusX Electric.",
-    "image"       : `${BASE_URL}${blogImage.src}`,
-    "author"      : {
-      "@type"     : "Person",
-      "name"      : "Admin",
-      "url"       : `${BASE_URL}/`,
-    },
-    "publisher"   : {
-      "@type"     : "Organization",
-      "name"      : "PlusX Electric",
-      "url"       : `${BASE_URL}/`,
-      "logo"      : {
-        "@type"   : "ImageObject",
-        "url"     : "https://plusxelectric.com/logo-icon.svg"
+    type    : "schema",
+    schemas : [
+      {
+        "@context"    : "https://schema.org",
+        "@type"       : "Article",
+        "headline"    : "AC vs DC EV Chargers in Dubai | Which One Should You Choose?",
+        "name"        : "AC vs DC EV Chargers in Dubai | PlusX Electric",
+        "description" : "Confused between AC and DC EV chargers in Dubai? Learn the key differences, charging speeds, installation costs, and which EV charger is best for your home or business with PlusX Electric.",
+        "image"       : `${BASE_URL}${blogImage.src}`,
+        "author"      : {
+          "@type"     : "Person",
+          "name"      : "Admin",
+          "url"       : `${BASE_URL}/`,
+        },
+        "publisher"   : {
+          "@type"     : "Organization",
+          "name"      : "PlusX Electric",
+          "url"       : `${BASE_URL}/`,
+          "logo"      : {
+            "@type"   : "ImageObject",
+            "url"     : "https://plusxelectric.com/logo-icon.svg"
+          }
+        },
+        "datePublished" : "2026-05-18",
+        "dateModified"  : "2026-05-18",
+        "mainEntityOfPage": {
+          "@type"       : "WebPage",
+          "@id"         : `${BASE_URL}/ac-vs-dc-ev-chargers`,
+        },
+        "inLanguage": "en",
+        "keywords"  : [ "AC vs DC EV charger Dubai", "AC EV charger Dubai", "DC EV charger Dubai", "best EV charger for home Dubai", "home EV charger Dubai", "fast EV charger Dubai", "EV charger installation Dubai", "Type 2 EV charger Dubai", "CCS2 charger Dubai", "EV charging Dubai"],
+        "articleSection": [ "What Is an AC EV Charger?", "What Is a DC EV Charger?", "Key Differences Between AC and DC Chargers", "Charging Speed and Real Expectations", "Which EV Charger Is Best for Home in Dubai?", "When DC Chargers Make Sense", "EV Charger Installation in Dubai", "Making the Right Choice" ],
+        "about"         : {
+          "@type"       : "Thing",
+          "name"        : "AC and DC EV Charging",
+          "description" : "Comparison between AC and DC electric vehicle chargers including charging speed, installation requirements, and suitable use cases in Dubai."
+        },
+        "isPartOf"      : {
+          "@type"       : "WebPage",
+          "name"        : "EV Chargers in Dubai | PlusX Electric",
+          "url"         : `${BASE_URL}/ac-vs-dc-ev-chargers`,
+        }
       }
-    },
-    "datePublished" : "2026-05-18",
-    "dateModified"  : "2026-05-18",
-    "mainEntityOfPage": {
-      "@type"       : "WebPage",
-      "@id"         : `${BASE_URL}/ac-vs-dc-ev-chargers`,
-    },
-    "inLanguage": "en",
-    "keywords"  : [ "AC vs DC EV charger Dubai", "AC EV charger Dubai", "DC EV charger Dubai", "best EV charger for home Dubai", "home EV charger Dubai", "fast EV charger Dubai", "EV charger installation Dubai", "Type 2 EV charger Dubai", "CCS2 charger Dubai", "EV charging Dubai"],
-    "articleSection": [ "What Is an AC EV Charger?", "What Is a DC EV Charger?", "Key Differences Between AC and DC Chargers", "Charging Speed and Real Expectations", "Which EV Charger Is Best for Home in Dubai?", "When DC Chargers Make Sense", "EV Charger Installation in Dubai", "Making the Right Choice" ],
-    "about"         : {
-      "@type"       : "Thing",
-      "name"        : "AC and DC EV Charging",
-      "description" : "Comparison between AC and DC electric vehicle chargers including charging speed, installation requirements, and suitable use cases in Dubai."
-    },
-    "isPartOf"      : {
-      "@type"       : "WebPage",
-      "name"        : "EV Chargers in Dubai | PlusX Electric",
-      "url"         : `${BASE_URL}/ac-vs-dc-ev-chargers`,
-    }
+    ]
   }
 ];

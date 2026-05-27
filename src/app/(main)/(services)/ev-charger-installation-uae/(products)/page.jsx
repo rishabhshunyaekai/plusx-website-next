@@ -46,7 +46,7 @@ const ServiceSchema = {
     "url"       : `${BASE_URL}/`,
     "logo"      : `${BASE_URL}/logo-icon.svg`,
     "telephone" : "+971542796424",
-    "email"     : "media@plusxelectric.com",
+    "email"     : "admin@plusxelectric.com",
     "address"   : {
       "@type"   : "PostalAddress",
       "streetAddress"   : "D55-PBU, Dubai Production City",

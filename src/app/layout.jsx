@@ -29,7 +29,7 @@ const structuredData = {
   "contactPoint": {
     "@type"       : "ContactPoint",
     "telephone"   : "+971542796424",
-    "email"       : "media@plusxelectric.com",
+    "email"       : "admin@plusxelectric.com",
     "contactType" : "customer service",
     "availableLanguage": ["English", "Arabic"],
     "areaServed"  : "AE"
@@ -57,7 +57,7 @@ const localBusinessSchema = {
   "image"       : "https://plusxelectric.com/logo-icon.svg",
   "description" : "PlusX Electric provides mobile EV charging in Dubai. Get a Portable Power Pod delivered to your home, office, or parking location — on-demand or scheduled through the PlusX Electric app.",
   "telephone"   : "+971542796424",
-  "email"       : "media@plusxelectric.com",
+  "email"       : "admin@plusxelectric.com",
   "priceRange"  : "AED 65+",
   "address"     : {
     "@type"           : "PostalAddress",

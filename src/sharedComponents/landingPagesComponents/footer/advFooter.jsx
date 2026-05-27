@@ -34,7 +34,7 @@ function Footer() {
               <h3 className={style.footerTitle}>PlusX Electric</h3>
               <p className={style.footerDetails_p}>D55-PBU, Dubai Production City, Dubai, United Arab Emirates</p>
               <p className={style.footerDetails_p}><strong>Phone:</strong> <a href="tel:+971542796424">+971 54 279 6424</a></p>
-              <p className={style.footerDetails_p}><strong>Email:</strong> <a href="mailto:media@plusxelectric.com">media@plusxelectric.com</a></p>
+              <p className={style.footerDetails_p}><strong>Email:</strong> <a href="mailto:admin@plusxelectric.com">admin@plusxelectric.com</a></p>
               <p className={style.footerDetails_p}><strong>Hours:</strong> Available 24/7</p>
               <p className={style.footerDetails_p}><strong>Service Areas:</strong> Across the UAE</p>
             </div>
