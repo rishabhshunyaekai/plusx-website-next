@@ -32,6 +32,7 @@ import CommonEVCharging               from "@/assets/images/homepage/blogs/plusx
 import ACDCChargers                   from "@/assets/images/homepage/blogs/plusx_electric_ac_vs_dc_chargers_in_dubai.webp";
 import NearestEVCharger               from "@/assets/images/homepage/blogs/plusx_electric_ev_public_charging_station.webp";
 import DeadEV                         from "@/assets/images/homepage/blogs/plusx_electric_dead_ev_in_dubai.webp";
+import MobileRescue                   from "@/assets/images/homepage/blogs/plusx_electric_ev_mobile_rescue.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -67,8 +68,18 @@ import { commonEVCharging }   from "@/data/blogsList/commonEVCharging";
 import { ac_dc_chargers }     from "@/data/blogsList/ac-dc-ev-charger";
 import { nearestStation }     from "@/data/blogsList/nearest-station";
 import { basementParking }    from "@/data/blogsList/basementParking";
+import { mobileRescue }       from "@/data/blogsList/mobileRescue";
  
 export const testimonials = [
+  {
+    slug            : "can-someone-bring-a-charge-to-my-ev-in-dubai",
+    title           : "Can Someone Bring a Charge to My EV in Dubai? How Mobile Rescue Works",
+    image           : MobileRescue,
+    alt             : "Mobile Rescue in Dubai",
+    metaTitle       : "Can Someone Bring a Charge to My EV in Dubai? How Mobile Rescue Works",
+    metaDescription : "Dead EV battery in Dubai? Rental car at a hotel, parking garage, or stuck on Sheikh Zayed Road? Here's who brings a charge to you, how fast it arrives, and whether emergency charging is safe for your battery.",
+    content         : mobileRescue,
+  },
   {
     slug            : "dead-ev-in-a-dubai-basement-parking-garage",
     title           : "Dead EV in a Dubai Basement Parking Garage: Who to Call and What to Do",

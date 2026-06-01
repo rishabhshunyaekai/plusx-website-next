@@ -331,5 +331,11 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}can-someone-bring-a-charge-to-my-ev-in-dubai`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
   ];
 }
