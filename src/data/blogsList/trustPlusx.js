@@ -21,7 +21,7 @@ export const trustPlusx = [
     headerText: `Trust comes from results. PlusX Electric’s <a href="https://plusxelectric.com/ev-breakdown-assistance" target='blank'>EV roadside assistance Dubai</a> operations are built around the most common EV emergency in Dubai like low or zero charge. <br/> Till date:`,
     type: "ul",
     items: [
-      "575+ EVs rescued from breakdowns caused by low or zero charge",
+      "750+ EVs rescued from breakdowns caused by low or zero charge",
       "87% service success rate in EV rescue operations",
     ],
     footerText: `That means most drivers get back on the road without unnecessary delays or complicated recovery.`,
@@ -132,7 +132,7 @@ export const trustPlusx = [
     headerText: `A drained battery on Dubai roads is frustrating, but it doesn’t need to become a long ordeal. The safest choice is a provider that understands EV systems and has proven rescue performance.<br/>PlusX Electric is trusted by EV owners across Dubai because we deliver:`,
     type: "ul",
     items: [
-      "575+ low/zero-charge rescues",
+      "750+ low/zero-charge rescues",
       "87% success rate in EV rescue operations",
       "dedicated EV rescue team",
       "up to 10 kWh or ~50 km emergency range support",
@@ -195,7 +195,7 @@ export const trustPlusx = [
         "@type"       : "Article",
         "headline"    : "Why EV Owners Trust PlusX Electric When Their EV Battery Drains on Dubai Roads",
         "name"        : "Why EV Owners Trust PlusX Electric When Their EV Battery Drains on Dubai Roads | PlusX Electric",
-        "description" : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 575+ EVs with an 87% success rate, offering on-site charging, jump start and 12V support for stranded EV drivers.",
+        "description" : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 750+ EVs with an 87% success rate, offering on-site charging, jump start and 12V support for stranded EV drivers.",
         "image"       : `${BASE_URL}${blogImage.src}`,
         "author"      : {
           "@type"     : "Person",

@@ -185,7 +185,7 @@ export const testimonials = [
     image           : TrustPlusX,
     alt             : "why ev owners trust PlusX Electric",
     metaTitle       : "EV Breakdown Dubai: Why Drivers Trust PlusX Electric",
-    metaDescription : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 575+ EVs with an 87% success rate on-site charging, jump start & 12V support.",
+    metaDescription : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 750+ EVs with an 87% success rate on-site charging, jump start & 12V support.",
     content         : trustPlusx,
   },
   {

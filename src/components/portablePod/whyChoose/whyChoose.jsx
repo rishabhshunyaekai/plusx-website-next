@@ -26,7 +26,7 @@ function WhyChoose() {
             <h3 className={style.whyChooseSubTitle}>With a strong emphasis on reliability and convenience, PlusX Electric offers mobile EV charging service Dubai:</h3>
 
             <ul className={style.keyPoint}>
-              <li>With a strong track record, PlusX Electric has delivered a high service completion rate and charged 5,000+ EVs.</li>
+              <li>With a strong track record, PlusX Electric has delivered a high service completion rate and charged 6800+ EVs.</li>
               <li>You can charge your EV up to 80% without having to move your vehicle to a fixed charging station.</li>
               <li>The booking is simple and the service is provided by a qualified team of professionals</li>
               <li>The coverage is throughout Dubai, including Downtown Dubai, Business Bay, Dubai Marina, Jumeirah Lake Towers and others.</li>

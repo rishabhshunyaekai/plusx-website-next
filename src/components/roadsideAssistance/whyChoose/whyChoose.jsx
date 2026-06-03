@@ -27,7 +27,7 @@ function WhyChoose() {
 
             <ul className={style.keyPoint}>
               <li>EV Specialists, Not Generic Mechanics</li>
-              <li>500+ EVs Rescued Across Dubai</li>
+              <li>750+ EVs Rescued Across Dubai</li>
               <li>60-Minute Response Time (depending on your location)</li>
               <li>No Unnecessary Towing</li>
               <li>Instant Booking Through the App</li>

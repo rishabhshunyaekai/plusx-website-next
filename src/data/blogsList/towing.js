@@ -211,7 +211,7 @@ export const towingContent = [
   {
     type: "ul",
     items: [
-      "575+ EVs rescued from low or zero charge breakdowns",
+      "750+ EVs rescued from low or zero charge breakdowns",
       "87% service success rate across charging and rescue operations",
       "These results are based on real-world performance, not theoretical claims.",
     ],
@@ -276,7 +276,7 @@ export const towingContent = [
   },
   {
     type: "paragraph",
-    text: "With over 575+ completed EV rescues and an 87% service success rate, PlusX Electric shows that modern vehicle recovery is about resolving issues on-site, not simply moving the car elsewhere. It is all about getting it back where you are. Ready for Faster EV Help in Dubai. Go to the PlusX Electric EV Roadside Assistance page to get you back on the road safely."
+    text: "With over 750+ completed EV rescues and an 87% service success rate, PlusX Electric shows that modern vehicle recovery is about resolving issues on-site, not simply moving the car elsewhere. It is all about getting it back where you are. Ready for Faster EV Help in Dubai. Go to the PlusX Electric EV Roadside Assistance page to get you back on the road safely."
   },
   {
     type: "heading",

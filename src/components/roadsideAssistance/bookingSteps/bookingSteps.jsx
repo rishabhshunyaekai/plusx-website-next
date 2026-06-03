@@ -66,7 +66,8 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <p className={style.bookingStepsFooter}>
-              As per our service records, we typically reach customers <strong>within 60 minutes</strong>,<br className={style.footerBreakline}/> depending on location and unforeseen conditions.
+              {/* As per our service records, we typically reach customers <strong>within 60 minutes</strong>,<br className={style.footerBreakline}/> depending on location and unforeseen conditions. */}
+              We have rescued 750+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
             </p>
             <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Get Emergency EV Help" isRSA={true} />
           </Animated>

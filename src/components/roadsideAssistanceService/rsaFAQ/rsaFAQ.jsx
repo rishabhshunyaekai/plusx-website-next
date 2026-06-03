@@ -27,7 +27,7 @@ function RSAFaqs() {
             "name"  : "How fast can PlusX Electric reach me in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Our average response time across 575+ rescues is under 60 minutes, depending on your location, traffic conditions, and other unforeseen factors. In most central Dubai areas such as Downtown, Marina, JLT, and Business Bay, response times are typically faster."
+                "text"  : "Our average response time across 750+ rescues is under 60 minutes, depending on your location, traffic conditions, and other unforeseen factors. In most central Dubai areas such as Downtown, Marina, JLT, and Business Bay, response times are typically faster."
             }
         },
         {

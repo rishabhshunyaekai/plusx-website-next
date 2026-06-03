@@ -9,7 +9,7 @@ import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Charger Installation for Dubai Apartments | PlusX Electric",
-  description   : "DEWA-approved EV charger installation for Dubai apartments. We handle building NOC, approval & installation. 375+ chargers installed Across UAE.",
+  description   : "DEWA-approved EV charger installation for Dubai apartments. We handle building NOC, approval & installation. 450+ chargers installed Across UAE.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
       canonical : `${BASE_URL}/ev-charger-installation-dubai-apartments`,
