@@ -122,7 +122,7 @@ function BlogPage({ blogContent }) {
                       // LINK BUTTON
                       if (btn?.type === "link") {
                         return (
-                          <Link key={i} href={btn?.href} className={style.button} target="_blank">
+                          <Link key={i} href={btn?.href} className={style.button} target={btn?.target} rel={btn?.target === "_blank" ? "noopener noreferrer" : undefined}>
                             {btn?.label}
                           </Link>
                         );

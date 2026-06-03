@@ -23,6 +23,7 @@ export const mobileRescue = [
         label: "Call us on Emergency Line",
         type: "link",
         href: "tel:+971543061473",
+        target: "_self",
       },
       // {
       //   label   : "Call us on Emergency Line",
