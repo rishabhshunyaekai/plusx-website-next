@@ -59,7 +59,7 @@ const FAQ = () => {
                 "name"  : "What is the cost of emergency EV charging in Dubai?",
                 "acceptedAnswer": {
                     "@type" : "Answer",
-                    "text"  : "There are no hidden call-out fees for PlusX roadside charging, which costs AED 145 plus VAT (Jump Start Included)."
+                    "text"  : "There are no hidden call-out fees for PlusX roadside charging, which costs AED 185 plus VAT (Jump Start Included)."
                 }
             },
             {

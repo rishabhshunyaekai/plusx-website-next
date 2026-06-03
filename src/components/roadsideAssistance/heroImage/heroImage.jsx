@@ -11,7 +11,7 @@ function HeroImage() {
             <span className={style.slug}>EV Breakdown Assistance in Dubai</span><br/>
             <span className={style.slug2}>On-Site Charging & Jump-Start — 24/7 Rescue</span>
           </h1>
-          <p className={style.priceLine}>Starting from <strong>AED 145*</strong> + VAT</p>
+          <p className={style.priceLine}>Starting from <strong>AED 185*</strong> + VAT</p>
           <RedirectToWhatsapp className={style.ctaButton} isShowIcon={true} text="Get Emergency Help" isRSA={true} />
         </Animated>
       </div>

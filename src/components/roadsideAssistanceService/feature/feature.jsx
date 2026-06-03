@@ -45,7 +45,7 @@ const heading       = "EV Towing vs PlusX Mobile Rescue — Why We Don't Tow";
 const featuresData  = [
   {
     title       : "The cost difference",
-    description : "A standard flatbed tow within Dubai costs AED 500 to AED 800 for the tow alone. Add workshop diagnostic fees (AED 200 to AED 400), potential charging costs at the destination station, and your own transport to retrieve the car later, and the total easily crosses AED 1,000 to AED 1,500. PlusX mobile rescue starts from AED 145 + VAT. One visit, one invoice, no secondary charges. That's a 60 to 75 percent saving on a typical breakdown.",
+    description : "A standard flatbed tow within Dubai costs AED 500 to AED 800 for the tow alone. Add workshop diagnostic fees (AED 200 to AED 400), potential charging costs at the destination station, and your own transport to retrieve the car later, and the total easily crosses AED 1,000 to AED 1,500. PlusX mobile rescue starts from AED 185 + VAT. One visit, one invoice, no secondary charges. That's a 60 to 75 percent saving on a typical breakdown.",
     imageSrc    : Consultancy,
   },
   {

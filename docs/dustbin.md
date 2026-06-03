@@ -942,7 +942,7 @@ import Testimonials from "@/components/roadsideAssistanceService/testimonials/te
 const BASE_URL        = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Breakdown Assistance in Dubai | 24/7 Rescue | PlusX Electric",
-  description   : "EV broke down in Dubai? PlusX delivers 10 kWh on-site charging & 12V jump-start in 60 min. No towing needed. From AED 145. 750+ EVs rescued. 24/7.",
+  description   : "EV broke down in Dubai? PlusX delivers 10 kWh on-site charging & 12V jump-start in 60 min. No towing needed. From AED 185. 750+ EVs rescued. 24/7.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Roadside Assistance service", "On-demand EV roadside assistance service", "emergency ev charging service in dubai", "emergency ev roadside assistance"],
   alternates    : {
       canonical : `${BASE_URL}/ev-breakdown-assistance`,
@@ -952,7 +952,7 @@ export const metadata = {
    },
   openGraph     : {
     title       : "EV Breakdown Assistance in Dubai | On-Site Charging & 12V Jump-Start | PlusX Electric",
-    description : "Stranded EV in Dubai? PlusX Electric delivers 10 kWh on-site charging and 12V jump-start within 60 minutes. No towing. From AED 145. Available 24/7.",
+    description : "Stranded EV in Dubai? PlusX Electric delivers 10 kWh on-site charging and 12V jump-start within 60 minutes. No towing. From AED 185. Available 24/7.",
     url         : `${BASE_URL}/ev-breakdown-assistance`,
     type        : "website",
     siteName    : "PlusX Electric",
@@ -972,7 +972,7 @@ export const metadata = {
     card        : "summary_large_image",
     site        : "@plusxelectric",
     title       : "EV Breakdown Assistance in Dubai | On-Site Charging & 12V Jump-Start | PlusX Electric",
-    description : "Stranded EV in Dubai? PlusX Electric delivers 10 kWh on-site charging and 12V jump-start within 60 minutes. No towing. From AED 145. Available 24/7.",
+    description : "Stranded EV in Dubai? PlusX Electric delivers 10 kWh on-site charging and 12V jump-start within 60 minutes. No towing. From AED 185. Available 24/7.",
     images      : [
       {
         url : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
@@ -1112,9 +1112,9 @@ const structuredData = {
     "priceSpecification": {
       "@type": "PriceSpecification",
       "priceCurrency": "AED",
-      "minPrice": "145",
+      "minPrice": "185",
       "valueAddedTaxIncluded": false,
-      "description": "Starting from AED 145 + VAT. Final price confirmed in the PlusX Electric app before dispatch."
+      "description": "Starting from AED 185 + VAT. Final price confirmed in the PlusX Electric app before dispatch."
     },
     "availability": "https://schema.org/InStock",
     "areaServed": {

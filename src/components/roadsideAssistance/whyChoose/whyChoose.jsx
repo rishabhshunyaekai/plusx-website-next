@@ -31,7 +31,7 @@ function WhyChoose() {
               <li>60-Minute Response Time (depending on your location)</li>
               <li>No Unnecessary Towing</li>
               <li>Instant Booking Through the App</li>
-              <li>Transparent Pricing — From AED 145* + VAT</li>
+              <li>Transparent Pricing — From AED 185* + VAT</li>
               <li>Available 24/7, Every Day of the Year</li>
               {/* <li><Link href="/mobile-ev-charging-dubai" target="__blank" className={style.linkColor}>Mobile on-site EV charging</Link> units</li> */}
             </ul>
