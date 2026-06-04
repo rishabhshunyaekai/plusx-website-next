@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   const blog            = testimonials.find((item) => item.slug === blogSlug);
  
   if (!blog) {
-    return { title: "Blog Not Found | PlusX Electric" };
+    return { title: "Not Found | PlusX Electric" };
   }
  
   return {

@@ -142,7 +142,7 @@ export const mobileRescue = [
       `The rental's roadside contractor will most likely tow the car back to their depot. That can take 3 to 5 hours, after which you're still without transport.`,
       `Mobile charging gets you back on the road in under 90 minutes, often without ever needing to involve the rental company during the emergency itself.`,
       `You don't get penalized for "letting" the battery die in most rental contracts — drained batteries are treated the same as low fuel.`,
-      `The cost is transparent and known up front (service starts from AED 185 + VAT), unlike a tow charge that may show up on your final bill as an opaque "recovery fee."`,
+      `The cost is transparent and known up front (service starts from AED 185* + VAT), unlike a tow charge that may show up on your final bill as an opaque "recovery fee."`,
     ],
     footerText: `If you're renting an EV in Dubai, save +971 54 306 1473 in your phone and download the PlusX Electric app the moment you pick up the car. Treat it like you'd treat saving Careem or Uber on your phone before you actually need a ride — not after.`
   },

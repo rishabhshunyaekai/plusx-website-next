@@ -10,7 +10,7 @@ function RSAHeroImage() {
           <span className={style.tagline}>We bring the charge to you </span><br className={style.breakLine}/>
           <span className={style.tagline}>anywhere in Dubai.</span>
         </h1>
-        <p className={style.outlinerText}>AED 185 + VAT (Jump-start included)</p>
+        <p className={style.outlinerText}>AED 185* + VAT (Jump-start included)</p>
         <div className={style.buttonContainer}>
           <a href="tel:+971543061473" className={style.greenBox}>Call Now</a>
           <RedirectToWhatsapp className={style.WhiteBox} text="Get Help on WhatsApp" isRSA={true}/>

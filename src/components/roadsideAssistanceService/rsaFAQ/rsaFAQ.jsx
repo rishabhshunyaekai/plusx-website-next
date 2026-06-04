@@ -83,7 +83,7 @@ function RSAFaqs() {
             "name"  : "How much does EV breakdown assistance cost compared to towing?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "PlusX EV breakdown assistance starts from AED 185 + VAT. A standard flatbed tow within Dubai typically costs AED 500 to AED 800 for the tow alone, plus additional diagnostic fees (AED 200 to AED 400) and workshop charges. In most cases, our on-site service costs 60 to 75 percent less than a tow-based resolution, and the problem is solved in 45 to 90 minutes instead of 3 to 6 hours."
+                "text"  : "PlusX EV breakdown assistance starts from AED 185* + VAT. A standard flatbed tow within Dubai typically costs AED 500 to AED 800 for the tow alone, plus additional diagnostic fees (AED 200 to AED 400) and workshop charges. In most cases, our on-site service costs 60 to 75 percent less than a tow-based resolution, and the problem is solved in 45 to 90 minutes instead of 3 to 6 hours."
             }
         },
         {

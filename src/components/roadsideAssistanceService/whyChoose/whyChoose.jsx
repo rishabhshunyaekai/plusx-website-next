@@ -40,7 +40,7 @@ function WhyChoose() {
               <li><b>60-Minute Response Time —</b> Depending on your location, our average dispatch-to-arrival time across 750+ rescues is under 60 minutes.</li>
               <li><b>No Unnecessary Towing —</b> We resolve the vast majority of breakdowns on-site with mobile charging or 12V jump-start. Towing is used only when on-site recovery is genuinely not feasible.</li>
               <li><b>Building Parking Access —</b>  Our vans fit in building parking garages where flatbed tow trucks cannot enter. We reach underground levels, podium parking, and multi-storey structures across Dubai.</li>
-              <li><b>Instant Booking Through the App —</b>  The PlusX Electric app is trusted by 6800+ EV drivers in the UAE. Book a rescue in under 60 seconds. <i>Transparent Pricing — From AED 185 + VAT*</i> — No hidden fees. Your confirmed quote is shown in the app before dispatch.</li>
+              <li><b>Instant Booking Through the App —</b>  The PlusX Electric app is trusted by 6800+ EV drivers in the UAE. Book a rescue in under 60 seconds. <i>Transparent Pricing — From AED 185* + VAT</i> — No hidden fees. Your confirmed quote is shown in the app before dispatch.</li>
               <li><b>Available 24/7, Every Day of the Year —</b>  Breakdowns don&apos;t follow business hours. Neither do we.</li>
             </ul>
 
