@@ -33,6 +33,7 @@ import ACDCChargers                   from "@/assets/images/homepage/blogs/plusx
 import NearestEVCharger               from "@/assets/images/homepage/blogs/plusx_electric_ev_public_charging_station.webp";
 import DeadEV                         from "@/assets/images/homepage/blogs/plusx_electric_dead_ev_in_dubai.webp";
 import MobileRescue                   from "@/assets/images/homepage/blogs/plusx_electric_ev_mobile_rescue.webp";
+import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx_electric_ev_battery_mistakes_in_dubai.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -69,8 +70,18 @@ import { ac_dc_chargers }     from "@/data/blogsList/ac-dc-ev-charger";
 import { nearestStation }     from "@/data/blogsList/nearest-station";
 import { basementParking }    from "@/data/blogsList/basementParking";
 import { mobileRescue }       from "@/data/blogsList/mobileRescue";
+import { batteryMistakes }    from "@/data/blogsList/evBatteryMistakes";
  
 export const testimonials = [
+  {
+    slug            : "ev-battery-mistakes-dubai",
+    title           : "9 EV Battery Mistakes We See Every Week in Dubai After Servicing 6,800+ EVs",
+    image           : evBattaryMistake,
+    alt             : "EV Battery Mistakes in Dubai",
+    metaTitle       : "9 EV Battery Mistakes Dubai Drivers Make Guide by PlusX Electric",
+    metaDescription : "After servicing 6,800+ electric vehicles across Dubai, these are the 9 EV battery-killing habits our team see most and how to fix each one before it costs you range.",
+    content         : batteryMistakes,
+  },
   {
     slug            : "can-someone-bring-a-charge-to-my-ev-in-dubai",
     title           : "Can Someone Bring a Charge to My EV in Dubai? How Mobile Rescue Works",

@@ -9,6 +9,7 @@ import { FaFacebookF }  from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram }  from "react-icons/fa";
 import { FaXTwitter }   from "react-icons/fa6";
+import { AiOutlineYoutube } from "react-icons/ai";
 // import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 
 function Footer() {
@@ -66,6 +67,7 @@ function Footer() {
                 <Link href="https://www.facebook.com/people/PlusX-Electric/61558739985983/" target="_blank" rel="noopener noreferrer" className="facebook" aria-label="Follow us on Facebook"><FaFacebookF /></Link>
                 <Link href="https://www.instagram.com/plusx_electric/" target="_blank" rel="noopener noreferrer" className="instagram" aria-label="Follow us on Instagram"><FaInstagram /></Link>
                 <Link href="https://www.linkedin.com/company/plusxelectric/" target="_blank" rel="noopener noreferrer" className="linkedin" aria-label="Connect with us on LinkedIn"><FaLinkedinIn /></Link>
+                <Link href="https://www.youtube.com/@PlusXElectric" target="_blank" rel="noopener noreferrer" className="youtube" aria-label="Subscribe us on youtube"><AiOutlineYoutube  /></Link>
               </div>
             </div>
           </div>
