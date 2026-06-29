@@ -77,7 +77,7 @@ const ServiceSchema = {
     "name"              : "Dubai",
     "containedInPlace"  : {
       "@type"           : "Country",
-      "name"            : "United Arab Emirates"
+      "name"            : "United Arab Emirates",
     }
   },
   "offers": {
@@ -90,10 +90,10 @@ const ServiceSchema = {
       "@type"                 : "PriceSpecification",
       "price"                 : "65",
       "priceCurrency"         : "AED",
-      "valueAddedTaxIncluded" : false
+      "valueAddedTaxIncluded" : false,
     },
     "availability"  : "https://schema.org/InStock",
-    "url"           : "https://plusxelectric.com/mobile-ev-charging-dubai"
+    "url"           : "https://plusxelectric.com/mobile-ev-charging-dubai",
   },
   "hasOfferCatalog": {
     "@type" : "OfferCatalog",
@@ -104,7 +104,7 @@ const ServiceSchema = {
         "itemOffered": {
           "@type"       : "Service",
           "name"        : "On-Demand EV Charging",
-          "description" : "Instant mobile EV charging delivered to your location in Dubai."
+          "description" : "Instant mobile EV charging delivered to your location in Dubai.",
         }
       },
       {
@@ -112,14 +112,14 @@ const ServiceSchema = {
         "itemOffered"   : {
           "@type"       : "Service",
           "name"        : "Scheduled EV Charging",
-          "description" : "Pre-booked mobile EV charging at a time that suits you."
+          "description" : "Pre-booked mobile EV charging at a time that suits you.",
         }
       }
     ]
   },
   "audience": {
     "@type"       : "Audience",
-    "audienceType": "EV Owners in Dubai"
+    "audienceType": "EV Owners in Dubai",
   }
 }
 
