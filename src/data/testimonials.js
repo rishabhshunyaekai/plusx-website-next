@@ -34,6 +34,7 @@ import NearestEVCharger               from "@/assets/images/homepage/blogs/plusx
 import DeadEV                         from "@/assets/images/homepage/blogs/plusx_electric_dead_ev_in_dubai.webp";
 import MobileRescue                   from "@/assets/images/homepage/blogs/plusx_electric_ev_mobile_rescue.webp";
 import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx_electric_ev_battery_mistakes_in_dubai.webp";
+import commonMistakes                 from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -77,7 +78,7 @@ export const testimonials = [
   {
     slug            : "ev-charger-installation-mistakes-uae",
     title           : "5 Common Mistakes People Make When Installing an EV Charger What We've Seen After 450 Installations",
-    image           : evBattaryMistake,
+    image           : commonMistakes,
     alt             : "PlusX Electric technician installing a home EV charger on a villa wall in the UAE",
     metaTitle       : "5 EV Charger Installation Mistakes to Avoid | PlusX Electric",
     metaDescription : "After 450+ EV charger installs across the UAE, see the 5 mistakes owners make — wrong charger size, weak supply, cheap cable, no isolator, poor placement.",

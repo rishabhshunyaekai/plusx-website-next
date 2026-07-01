@@ -1,6 +1,6 @@
 import CIDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_desktop_banner.webp";
 import CIMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_charger_installation_mobile_banner.webp";
-import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_ac_vs_dc_chargers_in_dubai.webp";
+import blogImage  from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
 
 const BASE_URL                  = process.env.NEXT_PUBLIC_BASE_URL;
 export const fiveCommonMistakes = [
