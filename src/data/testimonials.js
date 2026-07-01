@@ -77,7 +77,7 @@ import { fiveCommonMistakes } from "@/data/blogsList/fiveCommonMistakes";
 export const testimonials = [
   {
     slug            : "ev-charger-installation-mistakes-uae",
-    title           : "5 Common Mistakes People Make When Installing an EV Charger What We've Seen After 450 Installations",
+    title           : "5 Common Mistakes People Make When Installing an EV Charger What We've Seen After 450+ Installations",
     image           : commonMistakes,
     alt             : "PlusX Electric technician installing a home EV charger on a villa wall in the UAE",
     metaTitle       : "5 EV Charger Installation Mistakes to Avoid | PlusX Electric",

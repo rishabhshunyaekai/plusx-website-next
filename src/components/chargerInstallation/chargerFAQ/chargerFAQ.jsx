@@ -20,14 +20,14 @@ function chargerFAQ() {
             "name"  : "Do I need DEWA approval to install an EV charger at home?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. Any EV charger connected to your home's main electrical supply in Dubai requires DEWA approval. PlusX Electric handles the entire DEWA process for you — documentation, electrical load assessment, and final inspection. Residential approvals typically take 5–10 working days."
+                "text"  : "For a standard home installation, there's no separate DEWA permit or approval wait to plan around. What matters is that the work is done by a DEWA-approved installer using a DEWA-compliant charger, wired to local electrical and safety standards , which is exactly what PlusX Electric provides as a licensed operator. We handle the charger, the wiring, the electrical load check, and the documentation. If your setup needs an electrical load upgrade or building/community sign-off, we arrange that as part of the job."
             }
         },{
             "@type" : "Question",
             "name"  : "Can I install an EV charger in my apartment or rented villa?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes, with written permission from your landlord or building management, and approval from the owners' association. PlusX Electric coordinates approvals directly with building management and handles the DEWA process."
+                "text"  : "Yes. You'll need written permission from your landlord or building management, plus sign-off from the owners' association. PlusX Electric coordinates those approvals with your building directly, then supplies the compliant charger and completes the wiring, installation, and testing."
             }
         },
         {
@@ -35,7 +35,7 @@ function chargerFAQ() {
             "name"  : "How long does EV charger installation take?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Residential EV charger installation typically takes 1–3 days once building or community approval is in place. Commercial installations take 10–15 working days after DEWA approval. Our team provides a clear timeline during your free consultation."
+                "text"  : "A standard residential installation is usually completed in 1–3 days. For apartments, timing depends on how quickly building or community permission comes through. Commercial installations typically take 10–15 working days, as these can require DEWA approval. We give you a clear timeline during your free consultation."
             }
         },
         {

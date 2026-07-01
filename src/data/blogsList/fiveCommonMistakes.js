@@ -35,7 +35,7 @@ export const fiveCommonMistakes = [
   },
   {
     type: "paragraph",
-    text: `Here is what is really happening in that "is it broken?" moment. When you charge at home, you are using AC power, and your car has a small charger built inside it. This built-in charger takes the AC power from your home and changes it into DC power to feed the battery. (If you want the full picture, here is <a href="/ac-vs-dc-ev-chargers" target='_blank'>the difference between AC and DC EV chargers</a>.) This built-in charger has a top speed. If that top speed is 7kW, then 7kW is all the car will take at home — even if the wall charger says 22kW.`
+    text: `Here is what is really happening in that "is it broken?" moment. When you charge at home, you are using AC power, and your car has a small charger built inside it. This built-in charger takes the AC power from your home and changes it into DC power to feed the battery. (If you want the full picture), here is <a href="/ac-vs-dc-ev-chargers" target='_blank'>the difference between AC and DC EV chargers</a>. This built-in charger has a top speed. If that top speed is 7kW, then 7kW is all the car will take at home — even if the wall charger says 22kW.`
   },
   {
     type: "paragraph",
@@ -64,7 +64,7 @@ export const fiveCommonMistakes = [
   },
   {
     type: "paragraph",
-    text: `And when there is not much spare power, the answer is usually not "upgrade your whole supply." More often it is load sharing — where the charger slows down on its own when the house is busy, and speeds back up when things go quiet. The car still charges fully overnight, and the main switch never gets pushed too hard. (This is exactly the kind of thing we check on a site visit as part of our <a href="/ev-charger-installation-uae" target='_blank'>EV charger installation across the UAE</a>.)`
+    text: `And when there is not much spare power, the answer is usually not "upgrade your whole supply." More often it is load sharing — where the charger slows down on its own when the house is busy, and speeds back up when things go quiet. The car still charges fully overnight, and the main switch never gets pushed too hard. This is exactly the kind of thing we check on a site visit as part of our <a href="/ev-charger-installation-uae" target='_blank'>EV charger installation across the UAE</a>.`
   },
   {
     type: "ctaButton",

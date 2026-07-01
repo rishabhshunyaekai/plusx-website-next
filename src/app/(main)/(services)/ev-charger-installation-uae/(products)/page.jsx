@@ -20,7 +20,7 @@ import Faq          from "@/components/chargerInstallation/chargerFAQ/chargerFAQ
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Charger Installation Dubai & UAE | PlusX Electric",
-  description   : "EV charger installation in Dubai & UAE by PlusX Electric. End-to-end service — DEWA approvals, AC & DC charger supply, installation & 3-year warranty.",
+  description   : "EV charger installation across Dubai & the UAE by PlusX Electric — DEWA-approved installers, AC & DC charger supply, fitting, testing, and warranty.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
       canonical : `${BASE_URL}/ev-charger-installation-uae`,
