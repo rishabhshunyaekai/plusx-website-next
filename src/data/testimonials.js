@@ -35,6 +35,7 @@ import DeadEV                         from "@/assets/images/homepage/blogs/plusx
 import MobileRescue                   from "@/assets/images/homepage/blogs/plusx_electric_ev_mobile_rescue.webp";
 import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx_electric_ev_battery_mistakes_in_dubai.webp";
 import commonMistakes                 from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
+import optionsCharging                from "@/assets/images/homepage/blogs/plusx_electric_charging_options.webp";
  
 //Blog content pages
 import { towingContent }      from "@/data/blogsList/towing";
@@ -73,8 +74,18 @@ import { basementParking }    from "@/data/blogsList/basementParking";
 import { mobileRescue }       from "@/data/blogsList/mobileRescue";
 import { batteryMistakes }    from "@/data/blogsList/evBatteryMistakes";
 import { fiveCommonMistakes } from "@/data/blogsList/fiveCommonMistakes";
+import { chargerOptions }     from "@/data/blogsList/charger_options_uae";
 
 export const testimonials = [
+  {
+    slug            : "ev-charging-options-uae",
+    title           : "What Charging Options Are Available for EV Owners in the UAE?",
+    image           : optionsCharging,
+    alt             : "PlusX Electric EV Charging Options in the UAE",
+    metaTitle       : "EV Charging Options in the UAE: Every Way to Charge | PlusX Electric",
+    metaDescription : "New to EVs in the UAE? Compare mobile charging, public stations, home charger installation, and roadside help with real 2026 pricing from PlusX.",
+    content         : chargerOptions,
+  },
   {
     slug            : "ev-charger-installation-mistakes-uae",
     title           : "5 Common Mistakes People Make When Installing an EV Charger What We've Seen After 450+ Installations",
