@@ -30,7 +30,7 @@ export const future = [
     items: [
       `<strong>Battery Technology: </strong>Significant improvements in battery technology are extending the range and reducing charging times. Solid-state batteries and advanced lithium-ion batteries promise higher energy densities and faster charging.`,
       `<strong>Autonomous Driving: </strong>Autonomous driving technology is evolving rapidly, with many EVs now equipped with advanced driver-assistance systems (ADAS). Companies like Tesla and Waymo are leading the way in developing self-driving EVs.`,
-      `<strong>Smart Charging Solutions: </strong>Innovations in <a href="/mobile-ev-charging-dubai" target='_blank'>smart charging technology</a> enable better energy management. Features like vehicle-to-grid (V2G) technology allow EVs to return excess power to the grid, enhancing grid stability and reducing energy costs.`,
+      `<strong>Smart Charging Solutions: </strong>Innovations in smart charging technology enable better energy management. Features like vehicle-to-grid (V2G) technology allow EVs to return excess power to the grid, enhancing grid stability and reducing energy costs.`,
     ],
   },
   {

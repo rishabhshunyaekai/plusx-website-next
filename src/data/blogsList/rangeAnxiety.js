@@ -73,7 +73,7 @@ export const rangeAnxiety = [
   },
   {
     type: "paragraph",
-    text: `PlusX offers an <a href="/mobile-ev-charging-dubai" target='_blank'>on-demand solution</a>: the Emergency EV Charging Pod. It is a small, portable charging pod taken directly to your car by a PlusX technician wherever you require it.`
+    text: `PlusX offers an on-demand solution: the Emergency EV Charging Pod. It is a small, portable charging pod taken directly to your car by a PlusX technician wherever you require it.`
   },
   {
     type: "heading",
@@ -126,7 +126,7 @@ export const rangeAnxiety = [
   },
   {
     type: "paragraph",
-    text: `The Charging Pod design enables technicians to work in small parking spaces, narrow city streets, and residential neighbourhoods, addressing one of the primary challenges of <a href="/mobile-ev-charging-dubai" target='_blank'>EV mobile charging</a>.`
+    text: `The Charging Pod design enables technicians to work in small parking spaces, narrow city streets, and residential neighbourhoods, addressing one of the primary challenges of EV mobile charging.`
   },
   {
     type: "heading",

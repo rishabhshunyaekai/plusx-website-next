@@ -23,7 +23,7 @@ export const portableEV = [
   },
   {
     type: "paragraph",
-    text: `<a href='https://plusxelectric.com/mobile-ev-charging-dubai' target="__blank">Portable EV charging</a> is charging brought to a vehicle rather than installed at a fixed point. Portable chargers are also unlike conventional charging stations, as EVs can be charged anywhere they are parked.`
+    text: `Portable EV charging is charging brought to a vehicle rather than installed at a fixed point. Portable chargers are also unlike conventional charging stations, as EVs can be charged anywhere they are parked.`
   },
   {
     type: "paragraph",

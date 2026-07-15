@@ -35,7 +35,7 @@ export const basementParking = [
     items: [
       `WhatsApp PlusX Electric — fastest response`,
       `Call our 24/7 EV breakdown line - <a href="tel:+971543061473">+971 54 306 1473</a>`,
-      `PlusX Electric <a href="/ev-breakdown-assistance" target="__blank">EV Breakdown Assistance</a>`,
+      `PlusX Electric EV Breakdown Assistance`,
     ],
   },
   {

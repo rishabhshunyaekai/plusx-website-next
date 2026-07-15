@@ -10,7 +10,7 @@ export const trustPlusx = [
   },
   {
     type: "paragraph",
-    text: `At that moment, EV owners don’t just need help. They need the right kind of help- quick, EV-trained, and safe for the vehicle’s systems. That’s why more and more drivers choose PlusX Electric when their EV battery drains on Dubai roads. If you’re searching for <a href="https://plusxelectric.com/ev-breakdown-assistance" target='blank'>EV breakdown help Dubai</a>, you need EV-specific support, not guesswork.`,
+    text: `At that moment, EV owners don’t just need help. They need the right kind of help- quick, EV-trained, and safe for the vehicle’s systems. That’s why more and more drivers choose PlusX Electric when their EV battery drains on Dubai roads. If you’re searching for EV breakdown help Dubai, you need EV-specific support, not guesswork.`,
   },
   {
     type: "heading",
@@ -139,7 +139,7 @@ export const trustPlusx = [
       "jump start service when required",
       "12V battery replacement when needed with additional cost",
     ],
-    footerText: `If your EV drains unexpectedly, avoid risky decisions and generic support. <a href="https://plusxelectric.com/ev-breakdown-assistance" target='blank'>Get help designed for EVs.</a>`,
+    footerText: `If your EV drains unexpectedly, avoid risky decisions and generic support. Get help designed for EVs.`,
   },
   {
     type: "heading",

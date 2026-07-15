@@ -27,7 +27,7 @@ export const doorstepEV = [
   },
   {
     type: "paragraph",
-    text: `You book a session through an app, and a <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target="__blank">mobile charging</a> unit is delivered to your location. This removes the need to search for stations or wait in queues.`
+    text: `You book a session through an app, and a mobile charging unit is delivered to your location. This removes the need to search for stations or wait in queues.`
   },
   {
     type: "paragraph",

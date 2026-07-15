@@ -76,7 +76,7 @@ export const fiveScenerio = [
   },
   {
     type: "paragraph",
-    text: `<a href="/ev-breakdown-assistance" target='_blank'>PlusX's roadside assistance</a> gives you that peace of mind. You don't have to phone the school to say you'll be late; instead, you get a brief emergency boost that gets you started again. When the bell rings, you're at the school gates with a smile instead of an apology.`
+    text: `PlusX's roadside assistance gives you that peace of mind. You don't have to phone the school to say you'll be late; instead, you get a brief emergency boost that gets you started again. When the bell rings, you're at the school gates with a smile instead of an apology.`
   },
   {
     type: "heading",

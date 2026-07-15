@@ -122,7 +122,7 @@ export const nearestStation = [
   },
   {
     type: "paragraph",
-    text: `The PlusX Electric app is made to make it easier to find the <a href="/public-ev-charging-stations" target="_blank">nearest EV charging station in Dubai</a> with accurate information.`
+    text: `The PlusX Electric app is made to make it easier to find the nearest EV charging station in Dubai with accurate information.`
   },
   {
     headerText: `It can provide you with the following details.`,

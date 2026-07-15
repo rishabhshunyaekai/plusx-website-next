@@ -54,7 +54,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `Instead of driving somewhere to charge, a <a href="/mobile-ev-charging-dubai" target="__blank">mobile EV charging service</a> brings the charger to you, wherever your car is parked: your apartment building, your villa driveway, an office car park, or any spot without a fixed charger nearby. With PlusX Electric, you can book a Portable Power Pod from AED 65, on demand or scheduled, and our team arrives and charges your car on the spot.`
+    text: `Instead of driving somewhere to charge, a mobile EV charging service brings the charger to you, wherever your car is parked: your apartment building, your villa driveway, an office car park, or any spot without a fixed charger nearby. With PlusX Electric, you can book a Portable Power Pod from AED 65, on demand or scheduled, and our team arrives and charges your car on the spot.`
   },
   {
     type: "paragraph",
@@ -259,7 +259,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `So if you are still weighing up the switch, charging does not have to be the thing that holds you back. <a href="/" target="__blank">Talk to the PlusX team</a> for a free consultation, and we will take care of the rest.`
+    text: `So if you are still weighing up the switch, charging does not have to be the thing that holds you back. <a href="tel:+971543061473">Talk to the PlusX team</a> for a free consultation, and we will take care of the rest.`
   },
   {
     type: "heading",

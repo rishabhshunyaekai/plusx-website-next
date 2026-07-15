@@ -1,43 +1,40 @@
-.introSection {
-  padding: 0px 0px 60px;
+.buttonContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
 }
-
 .introDescription {
   font-size: 16px;
   color: var(--color-text);
   line-height: 1.8;
   text-align: center;
-  white-space: pre-line;  /* for next line via css (\n) */
+  white-space: pre-line; /* for next line via css (\n) */
 }
 
-.introDescription a{
+.introDescription a {
   /* color: var(--color-link); */
   color: var(--color-text);
   cursor: pointer;
 }
 
-.buttonConatiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-top: 15px;
-}
-
-.links {
+.button {
+  /* margin-top: 20px; */
   background-color: var(--color-primary);
   color: var(--color-secondary);
-  padding: 10px 14px;
-  border-radius: 8px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: fit-content;
   font-weight: 600;
-  font-size: 15px;
-  cursor: pointer;
 }
 
-.links:hover {
-  box-shadow: 0 4px 10px var(--color-shadow);
+.button:hover {
   background-color: var(--color-secondary);
   color: var(--color-primary);
+  cursor: pointer;
+  box-shadow: 0 3px 4px var(--color-shadow);
 }
 
 @media (max-width: 1200px) {
@@ -45,7 +42,7 @@
     display: none;
   }
   .introDescription {
-    white-space: normal;  /* for remove next line via css */
+    white-space: normal; /* for remove next line via css */
   }
 }
 
