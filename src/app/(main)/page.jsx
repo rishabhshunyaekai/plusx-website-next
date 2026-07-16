@@ -1,5 +1,4 @@
 import HeroImage      from "@/components/homepage/heroImage/heroImage";
-import Values         from "@/components/homepage/values/values";
 import Achievements   from "@/components/homepage/achievements/achievements";
 import Intro          from "@/components/homepage/homeIntro/homeIntro";
 import PortablePod    from "@/components/homepage/services/portablePod/portablePod";
@@ -64,7 +63,6 @@ function HomePage() {
   return (
     <>
       <HeroImage />
-      <Values />
       <Intro />
       <Achievements />
       <PortablePod />

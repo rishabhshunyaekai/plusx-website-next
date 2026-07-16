@@ -1,29 +1,32 @@
 // import style              from "./values.module.css";
 import ServiceIconCard    from "@/sharedComponents/serviceIconCard/serviceIconCard";
-// import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
 import EVCharge           from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_icon.svg";
-import Additional         from "@/assets/images/ev-charger-installation-page/plusx_eletric_team_icon.svg";
-import ThirdParty         from "@/assets/images/ev-charger-installation-page/plusx_eletric_agency_icon.svg";
-import Noclear            from "@/assets/images/ev-charger-installation-page/plusx_eletric_documents_icon.svg";
+import Residential        from "@/assets/images/plusx-for-business-page/plusx_electric_ev_residential_icon.svg";
+import CarRepair          from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_car_repair_icon.svg";
+import Swapped            from "@/assets/images/ev-charge-share-page/plusx_electric_ev_community_icon.svg";
+// import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
+// import Additional         from "@/assets/images/ev-charger-installation-page/plusx_eletric_team_icon.svg";
+// import ThirdParty         from "@/assets/images/ev-charger-installation-page/plusx_eletric_agency_icon.svg";
+// import Noclear            from "@/assets/images/ev-charger-installation-page/plusx_eletric_documents_icon.svg";
 // import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
 const content        = ``;
 const valuesCardData = [
   {
     icon: EVCharge,
-    text: <>10000+ EVs Charged <br /> Via Mobile/portable chargers</>,
+    text: <><b>10000+ EVs Charged</b> <br /> Via Mobile/portable chargers</>,
   },
   {
-    icon: Additional,
-    text: <>10000+ EVs Rescued <br /> Drained Battery & Jump-Start Support </>,
+    icon: CarRepair,
+    text: <><b>1000+ EVs Rescued</b> <br /> Drained Battery & Jump-Start Support </>,
   },
   {
-    icon: ThirdParty,
-    text: <>450+ Chargers Installed <br /> Across Villas, apartments, commercial buildings, warehouses</>,
+    icon: Residential,
+    text: <><b>450+ Chargers Installed</b> <br /> Across Villas, apartments, commercial buildings, warehouses</>,
   },
   {
-    icon: Noclear,
-    text: <>1,20,000+ EV 2- wheelers batteries swapped  <br /> Using mobile battery swapping stations</>,
+    icon: Swapped,
+    text: <><b>1,20,000+ EV 2- wheelers batteries swapped</b>  <br /> Using mobile battery swapping stations</>,
   },
 ];
 
