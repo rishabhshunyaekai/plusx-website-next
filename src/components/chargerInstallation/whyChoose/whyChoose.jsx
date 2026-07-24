@@ -16,7 +16,7 @@ function WhyChoose() {
           </div> */}
 
           <div className={`${style.imageWrapper} order-2 md:order-2 lg:order-1`}>
-            <Image src={Plusx} alt="EV Charger Installation" width={555} height={555}/>
+            <Image src={Plusx} alt="Professional AC and DC EV charger installation service in Dubai" width={555} height={555}/>
           </div>
           
           <Animated className={`${style.rightContent} order-1 md:order-1 lg:order-2`} animation="fade" easing="ease-in" duration={1000}>

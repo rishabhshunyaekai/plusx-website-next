@@ -6,16 +6,11 @@ import CarRepair        from "@/assets/images/landing-pages/charger-Installation
 import Maintaince       from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_ev_maintainace_icon.svg";
 
 const benefits = [
-  { icon: ChargeEV,   text: "3 Years Warranty" },
+  { icon: ChargeEV,   text: "3 Years Warranty", alt: "3 Years Warranty" },
   { icon: CarRepair,  text: (
-      <> 1 Free{" "}
-        <Link href="/ev-breakdown-assistance">
-          Roadside Assistance
-        </Link>{" "}
-        Service for the First Year
-      </>
-    )},
-  { icon: Maintaince, text: "1 Free Preventive Maintenance in  The First Year" },
+      <> 1 Free <Link href="/ev-breakdown-assistance">Roadside Assistance</Link> Service for the First Year </>
+    ), alt: "1 Free Roadside Assistance Service for the First Year"},
+  { icon: Maintaince, text: "1 Free Preventive Maintenance in  The First Year", alt: "1 Free Preventive Maintenance in  The First Year" },
 ];
 const isOdd = benefits.length % 2 !== 0;
 
@@ -32,7 +27,7 @@ function Benefits() {
             const isLast = index === benefits.length - 1;
             return (
               <div key={index} className={ isOdd && isLast ? "md:col-span-2 lg:col-span-1" : "" }>
-                <BenefitsCard iconSrc={value.icon} text={value.text} />
+                <BenefitsCard iconSrc={value.icon} text={value.text} alt={value.alt} />
               </div>
             );
           })}

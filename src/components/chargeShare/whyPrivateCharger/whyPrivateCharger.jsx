@@ -12,18 +12,22 @@ function PrivateCharger() {
   const cardData = [
     {
       icon: Capacity,
+      alt : "Limited electrical load capacity in older buildings",
       text: "Limited electrical load capacity in older buildings",
     },
     {
       icon: Building,
+      alt : "Building management approval requirements that can take months",
       text: "Building management approval requirements that can take months",
     },
     {
       icon: HighCost,
+      alt : "High installation costs in older properties",
       text: "High installation costs in older properties",
     },
     {
       icon: Infrastructure,
+      alt : "Long waiting periods for infrastructure upgrades",
       text: "Long waiting periods for infrastructure upgrades",
     },
   ];
@@ -37,7 +41,7 @@ function PrivateCharger() {
 
           <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2 m-4`}>
             {cardData.map((value, index) => (
-                <Card key={index} iconSrc={value.icon} text={value.text} />
+                <Card key={index} iconSrc={value.icon} text={value.text} alt={value.alt} />
               ))}
           </div>
 

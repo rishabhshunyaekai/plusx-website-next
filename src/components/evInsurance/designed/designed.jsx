@@ -8,9 +8,9 @@ import Coverage   from "@/assets/images/ev-insurance-page/Plusx_electric_coverag
 function Designed() {
 
 const benefits = [
-  { icon: Insurance,  text: "Comprehensive EV car insurance" },
-  { icon: Third,      text: "Third-party EV insurance liability cover" },
-  { icon: Coverage,   text: "Coverage options for individual EV owners and fleet operators" },
+  { icon: Insurance,  text: "Comprehensive EV car insurance", alt : "Comprehensive EV car insurance" },
+  { icon: Third,      text: "Third-party EV insurance liability cover", alt : "Third-party EV insurance liability cover" },
+  { icon: Coverage,   text: "Coverage options for individual EV owners and fleet operators", alt : "Coverage options for individual EV owners and fleet operators" },
 ];
 const isOdd = benefits.length % 2 !== 0;
 
@@ -27,7 +27,7 @@ const isOdd = benefits.length % 2 !== 0;
               const isLast = index === benefits.length - 1;
               return (
                 <div key={index} className={ isOdd && isLast ? "md:col-span-2 lg:col-span-1" : "" }>
-                  <Card iconSrc={value.icon} text={value.text} />
+                  <Card iconSrc={value.icon} text={value.text} alt={value.alt} />
                 </div>
               );
             })}

@@ -16,7 +16,7 @@ function CTASection() {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2">
             <Animated className={`${style.imageContainer}`} animation="fade" easing="ease-in" duration={1000}>
-              <Image className={style.image} src={WhatWeDoImage} alt="WhatWeDoImage" width={410} height={575}/>
+              <Image className={style.image} src={WhatWeDoImage} alt="PlusX Electric providing comprehensive EV charging services in Dubai" width={410} height={575}/>
             </Animated>
           </div>
         </div>

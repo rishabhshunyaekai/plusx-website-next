@@ -17,7 +17,7 @@ function WhyChoose() {
           </div> */}
 
           <div className={style.imageWrapper}>
-            <Image src={Plusx} alt="EV Charger Installation" width={350} height={350}/>
+            <Image src={Plusx} alt="PlusX Electric team providing EV pickup and drop-off charging service in Dubai" width={350} height={350}/>
           </div>
           
           <Animated className={style.rightContent} animation="fade" easing="ease-in" duration={1000}>

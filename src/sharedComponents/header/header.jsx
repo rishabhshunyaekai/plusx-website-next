@@ -115,37 +115,37 @@ function Header() {
                         <div className={style.navContainer}>
                           <Link href="/mobile-ev-charging-dubai" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon1} alt="mobile-ev-charger" width={50} height={50} />
+                              <Image src={Icon1} alt="PlusX Electric mobile EV Charging" width={50} height={50} />
                             </div>
                             <p>Mobile EV <br className={style.navBR} /> Charging</p>
                           </Link>
                           <Link href="/ev-pickup-dropoff-charging-service" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon2} alt="pick-drop" width={50} height={50} />
+                              <Image src={Icon2} alt="PlusX Electric pickup dropoff" width={50} height={50} />
                             </div>
                             <p>Pickup & <br className={style.navBR} /> Dropoff</p>
                           </Link>
                           <Link href="/ev-charger-installation-uae" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon3} alt="charger-installation" width={50} height={50} />
+                              <Image src={Icon3} alt="PlusX Electric EV charger installation" width={50} height={50} />
                             </div>
                             <p>EV Charger <br className={style.navBR} /> Installation</p>
                           </Link>
                           <Link href="/ev-charger-installation-uae/ac-dc-ev-chargers" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon4} alt="ev-chargers" width={50} height={50} />
+                              <Image src={Icon4} alt="PlusX Electric EV chargers" width={50} height={50} />
                             </div>
                             <p>EV <br className={style.navBR} /> Chargers</p>
                           </Link>
                           <Link href="/ev-charger-installation-uae/ev-accessories" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon6} alt="ev-accessories" width={50} height={50} />
+                              <Image src={Icon6} alt="PlusX Electric EV accessories" width={50} height={50} />
                             </div>
                             <p>EV <br className={style.navBR} />  Accessories</p>
                           </Link>
                           <Link href="/ev-breakdown-assistance" className={style.productIcons}>
                             <div className={style.icon}>
-                              <Image src={Icon5} alt="ev-breakdown-assistance" width={50} height={50} />
+                              <Image src={Icon5} alt="PlusX Electric EV breakdown assistance" width={50} height={50} />
                             </div>
                             <p>EV Breakdown <br className={style.navBR} /> Assistance</p>
                           </Link>

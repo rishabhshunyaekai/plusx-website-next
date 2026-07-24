@@ -39,7 +39,7 @@ function BookingCard() {
         <Animated className={styles.stepsGrid} animation="fade" easing="ease-in" duration={1000}>
           {steps.map((step, index) => (
             <div key={index} className={styles.stepCard}>
-                <Image src={step.icon} alt="icon" className={styles.icon} width={80} height={80} />
+                <Image src={step.icon} alt={step.text} className={styles.icon} width={80} height={80} />
                 <div className="">
                   <p className={styles.text}>{step.text}</p>
                   {/* {step.showStores && (

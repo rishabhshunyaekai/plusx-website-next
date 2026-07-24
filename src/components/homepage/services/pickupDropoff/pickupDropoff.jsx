@@ -11,7 +11,9 @@ function PickupDropoff() {
         <div className={`grid grid-cols-1 lg:grid-cols-3 items-center`}>
           <div className={`lg:col-span-2`}>
             <Animated className={style.contentWrapper} animation="slide-right" easing="ease-in" duration={1000}>
-              <h2 className={style.cardTitle}>EV Pick Up & Drop Off</h2>
+              <h2 className={style.cardTitle}>
+                <Link href="/ev-pickup-dropoff-charging-service">EV Pick Up & Drop Off</Link>
+              </h2>
               <p className={style.cardSubTitle}>We pick up your EV, charge it, and drop <br className={`${style.breakLine}`}/>it back within 2 hours.</p>
               <div className={`${style.buttonContainer}`}>
                 <Link href="/ev-pickup-dropoff-charging-service" className={style.cardButton}>Know More</Link>
@@ -20,7 +22,7 @@ function PickupDropoff() {
           </div>
           <div className={`lg:col-span-1`}>
             <div className={style.cardImageWrapper}>
-              <Image className={style.cardImage} src={Pickup} alt="EV pickup and dropoff service" width={405} height={370} />
+              <Image className={style.cardImage} src={Pickup} alt="PlusX Electric EV pickup and dropoff service in Dubai" width={405} height={370} />
             </div>
           </div>
         </div>

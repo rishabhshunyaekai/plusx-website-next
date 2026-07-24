@@ -10,22 +10,27 @@ import Noclear            from "@/assets/images/ev-charger-installation-page/plu
 const valuesCardData = [
   {
     icon: EVCharge,
+    alt : "Free Site Survey",
     text: (<><b>Free Site Survey :</b> Our engineer visits your building, inspects your parking spot, measures the cable run to the nearest electrical source, and checks whether the existing infrastructure supports installation. This also helps identify the right EV charger capacity that can be installed considering both your vehicle capacity and power availability. This is free. There is  no obligation, no charge.</>),
   },
   {
     icon: Additional,
+    alt : "Building NOC Coordination",
     text: (<><b>Building NOC Coordination : </b> This is where most people get stuck. We don&apos;t leave you to manage approval process with your building management or residents association alone. PlusX drafts the NOC request, provides the technical documents your building needs, and supports you in smooth coordination with building management to secure approval.</>),
   },
   {
     icon: Noclear,
+    alt : "Professional Installation",
     text: (<><b>Professional Installation : </b> Our electricians complete the physical installation in usually  1 to 3 days depending on scope of work including  wall-mounting the charger, running the cable safely through building pathways, ensuring  all building protocols and complying to HSE requirements . Once installation is completed, a thorough testing is done and the customer is explained the charger usage process. </>),
   },
   {
     icon: Noclear,
+    alt : "Post Installation Support",
     text: (<><b>Post Installation Support : </b> Once the charger is installed, all invoices, completion documents, warranty details are available on your PlusX Electric app account. Beyond access to the support team available on call, you also get access to complementary services as offered to you at time of installation like free RSA service for the first year directly from the PlusX Electric app. </>),
   },
   {
     icon: ThirdParty,
+    alt : "Dedicated Sub-Meter Setup",
     text: (<><b>Dedicated Sub-Meter Setup :</b> In case building management allows sourcing power from a building load, a sub meter is provisioned so your EV charger consumption is billed separately and accurately. </>),
   },
 ];
@@ -42,7 +47,7 @@ function Values() {
 
             return (
               <div className={isLastOdd ? "lg:col-span-2" : ""} key={index}>
-                <ServiceIconCard iconSrc={value.icon} text={value.text} />
+                <ServiceIconCard iconSrc={value.icon} text={value.text} alt={value.alt} />
               </div>
             );
             

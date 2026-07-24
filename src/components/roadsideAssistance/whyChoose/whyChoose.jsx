@@ -10,18 +10,18 @@ function WhyChoose() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
 
-          <div className={`${style.isTablet}`}>
+          {/* <div className={`${style.isTablet}`}>
             <h2 className={style.whyWeChoose}>
               Why Dubai EV Owners <br className={style.headingBreakLine} /> Choose PlusX Electric
             </h2>
-          </div>
+          </div>  ${style.isDesktop}*/}
 
           <div className={style.imageWrapper}>
             <Image src={Truck} alt="EV breakdown Assistance Dubai" width={555} height={555}/>
           </div>
           
           <Animated className={style.rightContent} animation="fade" easing="ease-in" duration={1000}>
-            <h2 className={`${style.whyWeChoose} ${style.isDesktop}`}>
+            <h2 className={`${style.whyWeChoose}`}>
               Why Dubai EV Owners <br className={style.headingBreakLine} /> Choose PlusX Electric
             </h2>
 

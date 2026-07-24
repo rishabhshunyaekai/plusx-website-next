@@ -24,7 +24,7 @@ function BookingSteps() {
         <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={step1} alt="step1" width={58} height={58} />
+              <Image src={step1} alt="PlusX Electric App" width={58} height={58} />
             </div>
             <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
           </div>
@@ -35,7 +35,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Map} alt="Map" width={58} height={58} />
+              <Image src={Map} alt="PlusX Electric Location details" width={58} height={58} />
             </div>
             <p className={style.steps}>Add your location details on the RSA booking screen</p>
           </div>
@@ -46,7 +46,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Driver} alt="Driver" width={58} height={58} />
+              <Image src={Driver} alt="PlusX Electric rescue team" width={58} height={58} />
             </div>
             <p className={style.steps}>Our rescue team is dispatched immediately</p>
           </div>
@@ -57,7 +57,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Car} alt="Car" width={58} height={58} />
+              <Image src={Car} alt="PlusX Electric On-site charging" width={58} height={58} />
             </div>
             <p className={style.steps}>On-site charging is done, and you’re ready to move again</p>
           </div>

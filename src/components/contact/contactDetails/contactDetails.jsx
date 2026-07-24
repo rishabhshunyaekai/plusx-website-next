@@ -18,7 +18,7 @@ function ContactIntro() {
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <div className={`flex align-items-center gap-4`}>
               <div className={style.contactIcon}>
-                <Image src={Call} alt="Phone" width={30} height={30}/>
+                <Image src={Call} alt="PlusX Electric contact" width={30} height={30}/>
               </div>
               <div className={style.contactText}>
                 <h4>Phone No</h4>
@@ -31,7 +31,7 @@ function ContactIntro() {
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <div className={`flex align-items-center gap-4`}>
               <div className={style.contactIcon}>
-                <Image src={Email} alt="Email" width={30} height={30} />
+                <Image src={Email} alt="PlusX Electric email" width={30} height={30} />
               </div>
               <div className={style.contactText}>
                 <h4>Email</h4>
@@ -43,7 +43,7 @@ function ContactIntro() {
           <Animated className={`col-md-6 col-lg-4 ${style.mgb30}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`flex align-items-center gap-4`}>
               <div className={style.contactIcon}>
-                <Image src={Map} alt="Map" className={style.mapIcon} width={30} height={30} />
+                <Image src={Map} alt="PlusX Electric office address" className={style.mapIcon} width={30} height={30} />
               </div>
               <div className={style.contactText}>
                 <h4>Our Office Address:</h4>

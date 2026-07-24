@@ -26,7 +26,7 @@ function BookingSteps() {
         <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={ChargeEV} alt="EV make and model" width={58} height={58} />
+              <Image src={ChargeEV} alt="Share Your EV & Charging Requirements" width={58} height={58} />
             </div>
             <p className={style.steps}><b>Share Your EV & Charging Requirements</b> <br />EV Share your EV make and model, daily driving
               distance, and where you plan to install or use the charger — at home, office, or commercial site.
@@ -52,7 +52,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={FileDocs} alt="Documents" width={58} height={58} />
+              <Image src={FileDocs} alt="Optional Professional Installation" width={58} height={58} />
             </div>
             <p className={style.steps}><b>Optional Professional Installation</b> <br />If you need installation, our certified electricians handle wiring, mounting, and
               commissioning. Or just receive your charger and install it yourself.

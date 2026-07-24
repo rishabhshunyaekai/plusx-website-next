@@ -12,18 +12,22 @@ const valuesCardData = [
   {
     icon: EVCharge,
     text: "Dealing with one vendor for charger supply",
+    alt : "Dealing with one vendor for charger supply",
   },
   {
     icon: Additional,
     text: "Hiring a separate team for installation",
+    alt : "Hiring a separate team for installation",
   },
   {
     icon: ThirdParty,
     text: "Another agency for DEWA approvals",
+    alt : "Another agency for DEWA approvals",
   },
   {
     icon: Noclear,
     text: "No single record of documents or accountability",
+    alt : "No single record of documents or accountability",
   },
 ];
 
@@ -34,7 +38,7 @@ function Values() {
         <SecondaryHeading title={"Common EV Charger Installation Challenges in Dubai"} />
         <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2`}>
           {valuesCardData.map((value, index) => (
-            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} />
+            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} alt={value.alt} />
           ))}
         </div>
         <div className={style.buttonContainer}>

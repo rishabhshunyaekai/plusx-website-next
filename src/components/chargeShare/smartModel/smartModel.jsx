@@ -9,18 +9,18 @@ function SmartModel() {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
 
-          <div className={`${style.isTablet}`}>
+          {/* <div className={`${style.isTablet}`}>
             <h2 className={style.whyWeChoose}>
               A Smarter Community <br className={style.headingBreakLine} />Charging Model
             </h2>
-          </div>
+          </div> ${style.isDesktop}*/}
 
           <div className={style.imageWrapper}>
-            <Image src={Adoption} alt="EV Charger Installation" width={555} height={555}/>
+            <Image src={Adoption} alt="A Smarter Community Charging Model" width={555} height={555}/>
           </div>
           
           <Animated className={style.rightContent} animation="fade" easing="ease-in" duration={1000}>
-            <h2 className={`${style.whyWeChoose} ${style.isDesktop}`}>
+            <h2 className={`${style.whyWeChoose}`}>
               A Smarter Community <br className={style.headingBreakLine} />Charging Model
             </h2>
 

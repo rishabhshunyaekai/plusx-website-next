@@ -8,18 +8,22 @@ const valuesCardData = [
   {
     icon: Residential,
     text: "Residential and Commercial Buildings",
+    alt : "Residential and Commercial Buildings",
   },
   {
     icon: Malls,
     text: "Malls and Retail Spaces",
+    alt : "Malls and Retail Spaces",
   },
   {
     icon: FleetOperator,
     text: "Fleet Operators",
+    alt : "Fleet Operators",
   },
   {
     icon: NounHotels,
     text: "Hotels & Events",
+    alt : "Hotels & Events",
   },
 ];
 
@@ -29,7 +33,7 @@ function Values() {
       <div className={`container`}>
         <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2`}>
           {valuesCardData.map((value, index) => (
-            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} />
+            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} alt={value.alt} />
           ))}
         </div>
       </div>

@@ -19,17 +19,17 @@ function AppSection({title, description, image }) {
 
                 <article className={style.infoLinks}>
                   <a href={APPLE_STORE_URL} target="__blank">
-                    <Image src={appStore} alt="appStore" width={135} height={40}/>
+                    <Image src={appStore} alt="App Store" width={135} height={40}/>
                   </a>
                   <a href={PLAY_STORE_URL} target="__blank">
-                    <Image src={playStore} alt="playStore" width={135} height={40}/>
+                    <Image src={playStore} alt="Play Store" width={135} height={40}/>
                   </a>
                 </article>
               </Animated>
             </div>
             <div className="w-full md:w-1/2 order-1 md:order-2">
               <Animated className={`${style.appImageWrapper}`} animation="fade" easing="ease-in" duration={1000}>
-                <Image className={style.appImage} src={image} alt="PlusX Electric App" width={410} height={544} /> 
+                <Image className={style.appImage} src={image} alt="PlusX Electric Mobile App" width={410} height={544} /> 
               </Animated>
             </div>
           </div>

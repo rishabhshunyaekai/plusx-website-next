@@ -13,26 +13,32 @@ function ChargerInfo() {
   const cardData = [
     {
       icon: Charger,
+      alt : "Charger type (AC or DC)",
       text: "Charger type (AC or DC)",
     },
     {
       icon: Station,
+      alt : "Charging capacity",
       text: "Charging capacity",
     },
     {
       icon: Available,
+      alt : "Station availability",
       text: "Station availability",
     },
     {
       icon: Speed,
+      alt : "Estimated charging time",
       text: "Estimated charging time",
     },
     {
       icon: Pricing,
+      alt : "Pricing information",
       text: "Pricing information",
     },
     {
       icon: Savetime,
+      alt : "Operating hours",
       text: "Operating hours",
     },
   ];
@@ -46,7 +52,7 @@ function ChargerInfo() {
 
           <div className={`grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 xl:grid-cols-3 m-4`}>
             {cardData.map((value, index) => (
-                <Card key={index} iconSrc={value.icon} text={value.text} />
+                <Card key={index} iconSrc={value.icon} text={value.text} alt={value.alt} />
               ))}
           </div>
 

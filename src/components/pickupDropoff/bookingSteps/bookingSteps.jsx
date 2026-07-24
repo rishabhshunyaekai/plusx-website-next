@@ -25,7 +25,7 @@ function BookingSteps() {
           <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={step1} alt="step1" width={58} height={58} />
+                <Image src={step1} alt="PlusX Electric App" width={58} height={58} />
               </div>
               <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
             </div>
@@ -36,7 +36,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={Driver} alt="Map" width={58} height={58} />
+                <Image src={Driver} alt="EV Pickup and Drop-Off Charging Service" width={58} height={58} />
               </div>
               <p className={style.steps}>Choose the EV Pickup and Drop-Off Charging Service</p>
             </div>
@@ -47,7 +47,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={FileDocs} alt="Driver" width={58} height={58} />
+                <Image src={FileDocs} alt="Booking EV pickup service by entering vehicle details and location" width={58} height={58} />
               </div>
               <p className={style.steps}>Fill in personal vehicle information and pick-up address</p>
             </div>
@@ -58,7 +58,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={Calender} alt="Car" width={58} height={58} />
+                <Image src={Calender} alt="Choosing a time slot for EV pickup and return charging service" width={58} height={58} />
               </div>
               <p className={style.steps}>Select the time slot you would like</p>
             </div>

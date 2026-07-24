@@ -64,7 +64,7 @@ function Benefits() {
             <div className={style.list}>
               {chargerBenefits.map((item, i) => (
                 <div key={i} className={style.listItem}>
-                  <Image src={item.icon} alt="" width={40} height={40} />
+                  <Image src={item.icon} alt={item.title} width={40} height={40} />
                   <div>
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>
@@ -75,13 +75,13 @@ function Benefits() {
           </div>
 
           <div className={style.imageWrapper}>
-            <Image src={AdditionalIncome} alt="charger owner" width={500} height={800} />
+            <Image src={AdditionalIncome} alt="Benefits for Charger Owners" width={500} height={800} />
           </div>
         </div>
 
         <div className={`${style.grid} ${style.reverse}`}>
           <div className={style.imageWrapper}>
-            <Image src={Infra} alt="ev owner" width={500} height={500} />
+            <Image src={Infra} alt="Benefits for EV Owners Looking for a Charger" width={500} height={500} />
           </div>
 
           <div className={style.content}>
@@ -91,7 +91,7 @@ function Benefits() {
             <div className={style.list}>
               {evBenefits.map((item, i) => (
                 <div key={i} className={style.listItem}>
-                  <Image src={item.icon} alt="" width={40} height={40} />
+                  <Image src={item.icon} alt={item.title} width={40} height={40} />
                   <div>
                     <h4>{item.title}</h4>
                     <p>{item.desc}</p>

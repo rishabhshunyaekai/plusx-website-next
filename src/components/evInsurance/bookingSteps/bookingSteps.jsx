@@ -23,7 +23,7 @@ function BookingSteps() {
         <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={step1} alt="step1" width={58} height={58} />
+              <Image src={step1} alt="Download PlusX Electric App " width={58} height={58} />
             </div>
             <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
           </div>
@@ -34,7 +34,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Insurance} alt="Insurance" width={58} height={58} />
+              <Image src={Insurance} alt="EV Insurance Option" width={58} height={58} />
             </div>
             <p className={style.steps}>Select EV Insurance Option</p>
           </div>
@@ -45,7 +45,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={FileDocs} alt="FileDocs" width={58} height={58} />
+              <Image src={FileDocs} alt="Required Information" width={58} height={58} />
             </div>
             <p className={style.steps}>Fill in The Required Information</p>
           </div>
@@ -56,7 +56,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Compare} alt="Compare" width={58} height={58} />
+              <Image src={Compare} alt="Compare coverage & plan suitability based on your vehicle & usage" width={58} height={58} />
             </div>
             <p className={style.steps}>Compare coverage & plan suitability based on your vehicle & usage</p>
           </div>

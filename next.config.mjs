@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'standalone',   // for standalone build
   trailingSlash: false,   // for url trailing
-  allowedDevOrigins: ['192.168.1.185'], // allow dev ip
+  allowedDevOrigins: ['192.168.1.33'], // allow dev ip
   async redirects() {     // All old url redirection's
     return [
       // Redirect to Home

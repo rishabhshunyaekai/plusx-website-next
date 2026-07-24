@@ -23,7 +23,7 @@ function BookingSteps() {
         <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={step1} alt="step1" width={58} height={58} />
+              <Image src={step1} alt="Select package" width={58} height={58} />
             </div>
             <div className={style.textWrapper}>
               <p className={style.steps}><b>You Book</b></p>
@@ -37,7 +37,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Charger} alt="Charger" width={58} height={58} />
+              <Image src={Charger} alt="Driver arrives at your door" width={58} height={58} />
             </div>
             <div className={style.textWrapper}>
               <p className={style.steps}><b>We Collect</b></p>
@@ -51,7 +51,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Map} alt="Map" width={58} height={58} />
+              <Image src={Map} alt="health check" width={58} height={58} />
             </div>
             <div className={style.textWrapper}>
               <p className={style.steps}><b>We Service</b></p>
@@ -65,7 +65,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Techni} alt="Techni" width={58} height={58} />
+              <Image src={Techni} alt="washed & serviced" width={58} height={58} />
             </div>
             <div className={style.textWrapper}>
               <p className={style.steps}><b>We Deliver</b></p>

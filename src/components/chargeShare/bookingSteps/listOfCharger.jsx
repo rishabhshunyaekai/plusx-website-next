@@ -26,7 +26,7 @@ function BookingSteps() {
           <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={step1} alt="step1" width={58} height={58} />
+                <Image src={step1} alt="Download PlusX Electric App" width={58} height={58} />
               </div>
               <p className={style.listingSteps}>Download the PlusX Electric App from the App Store or Play Store</p>
             </div>
@@ -37,7 +37,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={EVCharger} alt="EVCharger" width={58} height={58} />
+                <Image src={EVCharger} alt="EV Charge Share Option" width={58} height={58} />
               </div>
               <p className={style.listingSteps}>Select EV Charge Share Option</p>
             </div>
@@ -48,7 +48,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={FileDocs} alt="FileDocs" width={58} height={58} />
+                <Image src={FileDocs} alt="Required Information" width={58} height={58} />
               </div>
               <p className={style.listingSteps}>Fill in The Required Information</p>
             </div>
@@ -59,7 +59,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={ChargerStation} alt="ChargerStation" width={58} height={58} />
+                <Image src={ChargerStation} alt="EV Charger Listing" width={58} height={58} />
               </div>
               <p className={style.listingSteps}>Your EV Charger Listing is Done</p>
             </div>

@@ -23,7 +23,7 @@ function BookingSteps() {
         <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={step1} alt="step1" width={58} height={58} />
+              <Image src={step1} alt="PlusX Electric app" width={58} height={58} />
             </div>
             <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
           </div>
@@ -34,7 +34,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Charger} alt="Charger" width={58} height={58} />
+              <Image src={Charger} alt="Charger Installation" width={58} height={58} />
             </div>
             <p className={style.steps}>Tap Charger Installation Service</p>
           </div>
@@ -45,7 +45,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Map} alt="Map" width={58} height={58} />
+              <Image src={Map} alt="PlusX Electric app collecting property location for EV charger installation" width={58} height={58} />
             </div>
             <p className={style.steps}>Share your location & basic site details through the app</p>
           </div>
@@ -56,7 +56,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Techni} alt="Techni" width={58} height={58} />
+              <Image src={Techni} alt="On-site EV charger installation and commissioning by PlusX Electric experts" width={58} height={58} />
             </div>
             <p className={style.steps}>Our certified technicians complete the installation & testing at your location</p>
           </div>

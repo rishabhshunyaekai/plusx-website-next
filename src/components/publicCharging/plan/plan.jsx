@@ -8,9 +8,9 @@ import Plans      from "@/assets/images/public-charging-page/plusx_eletric_ev_ch
 function Plan() {
 
 const benefits = [
-  { icon: Plans,      text: "Plan charging stops in advance" },
-  { icon: Available,  text: "Compare multiple nearby stations" },
-  { icon: Speed,      text: "Choose based on speed & availability" },
+  { icon: Plans,      text: "Plan charging stops in advance",       alt : "Plan charging stops in advance" },
+  { icon: Available,  text: "Compare multiple nearby stations",     alt : "Compare multiple nearby stations" },
+  { icon: Speed,      text: "Choose based on speed & availability", alt : "Choose based on speed & availability" },
 ];
 const isOdd = benefits.length % 2 !== 0;
 
@@ -28,7 +28,7 @@ const isOdd = benefits.length % 2 !== 0;
               const isLast = index === benefits.length - 1;
               return (
                 <div key={index} className={ isOdd && isLast ? "md:col-span-2 lg:col-span-1" : "" }>
-                  <Card iconSrc={value.icon} text={value.text} />
+                  <Card iconSrc={value.icon} text={value.text} alt={value.alt} />
                 </div>
               );
             })}

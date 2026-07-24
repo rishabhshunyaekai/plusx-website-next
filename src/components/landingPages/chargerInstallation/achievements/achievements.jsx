@@ -14,7 +14,7 @@ function Achievements() {
         <div className={`${style.cardContainer}`}>
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={EvCarDriver} alt="EVs rescued with roadside assistance" width={65} height={65} />
+              <Image src={EvCarDriver} alt="Chargers Installed Across UAE" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>450+</span>
                 <p className={`${style.title}`}>Chargers Installed  <br className={`${style.breakLine}`} />Across UAE</p>
@@ -24,7 +24,7 @@ function Achievements() {
           
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Booking} alt="EVs charged by PlusX power pod" width={65} height={65} />
+              <Image src={Booking} alt="EV Owners Served" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 <span className={`${style.counter}`}>7200+</span>
                 <p className={`${style.title}`}>EV Owners <br className={`${style.breakLine}`} />Served</p>
@@ -34,7 +34,7 @@ function Achievements() {
 
           <Animated className={`${style.card}`} animation="fade" easing="ease-in" duration={1000}>
             <div className={`${style.content}`}>
-              <Image src={Station} alt="EV chargers installed across UAE" width={65} height={65} />
+              <Image src={Station} alt="CPO Approved" width={65} height={65} />
               <div className={`${style.innerContent}`}>
                 {/* <span className={`${style.counter}`}>450+</span> */}
                 <p className={`${style.title}`}>CPO Approved</p> 

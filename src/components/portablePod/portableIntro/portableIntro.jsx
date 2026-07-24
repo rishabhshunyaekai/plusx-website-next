@@ -7,7 +7,7 @@ const introData = [
     primaryButtonText : `Download the App & Book`,
     primaryButtonlink : "portablePage",
     secondTitle       : `What Is Mobile EV Charging in Dubai?`,
-    secondaryContent  : `Mobile EV charging is a service that brings a fully equipped charging station directly to your electric vehicle , wherever \nit's parked. Instead of driving to a public station and waiting in line, you request a charge through the PlusX Electric \napp, and our team arrives at your location with a Portable Power Pod to charge your EV on the spot.`,
+    secondaryContent  : `Mobile EV charging is a service that brings a fully equipped charging station directly to your electric vehicle, wherever \nit's parked. Instead of driving to a public station and waiting in line, you request a charge through the PlusX Electric \napp, and our team arrives at your location with a Portable Power Pod to charge your EV on the spot.`,
   },
 ];
 

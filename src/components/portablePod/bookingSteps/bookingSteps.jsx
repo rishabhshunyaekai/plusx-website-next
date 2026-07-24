@@ -18,14 +18,14 @@ function BookingSteps() {
                 How to Book EV Charging in Dubai
               </h2>
               {/* <br className={style.headingBreakline}/> */}
-              <h3 className={style.bookingStepsSubHeading}><strong>It is easy to book the EV charging at home Dubai with PlusX Electric.</strong></h3>
+              <h3 className={style.bookingStepsSubHeading}><strong>It is easy to book the EV charging at home Dubai <br className={style.headingBreakline}/>with PlusX Electric.</strong></h3>
             </Animated>
           </div>
 
           <Animated className={style.mainSteps} animation="fade" easing="ease-in" duration={1000}>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={step1} alt="step1" width={58} height={58} />
+                <Image src={step1} alt="PlusX Electric App" width={58} height={58} />
               </div>
               <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
             </div>
@@ -36,7 +36,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={Pod} alt="Map" width={58} height={58} />
+                <Image src={Pod} alt="PlusX Electric Mobile EV Charging" width={58} height={58} />
               </div>
               <p className={style.steps}>Select Portable Charger</p>
             </div>
@@ -47,7 +47,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={Calender} alt="Driver" width={58} height={58} />
+                <Image src={Calender} alt="Available Date & Time Slot" width={58} height={58} />
               </div>
               <p className={style.steps}>Fill Given Information & Select Available Date & Time Slot</p>
             </div>
@@ -58,7 +58,7 @@ function BookingSteps() {
             </div>
             <div className={style.stepsCard}>
               <div className={style.stepsImage}>
-                <Image src={Driver} alt="Car" width={58} height={58} />
+                <Image src={Driver} alt="scheduled date & time for EV Charging" width={58} height={58} />
               </div>
               <p className={style.steps}>Our team will reach you at your scheduled date & time to charge your EV</p>
             </div>

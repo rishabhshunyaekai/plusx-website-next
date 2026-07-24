@@ -35,7 +35,7 @@ export const metadata = {
         type     : "image/jpeg",
         width    : 1200,
         height   : 630,
-        alt      : "PlusX Electric EV Breakdown  service in Dubai",
+        alt      : "PlusX Electric EV Breakdown service in Dubai",
       },
     ],
   },
@@ -47,7 +47,7 @@ export const metadata = {
     images      : [
       {
         url : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
-        alt : "PlusX Electric EV Breakdown  service in Dubai",
+        alt : "PlusX Electric EV Breakdown service in Dubai",
       },
     ],
   },

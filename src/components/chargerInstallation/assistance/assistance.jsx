@@ -27,13 +27,13 @@ function Scenarios() {
 
               <ul className={style.listContent}>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={Modal} alt="ev modal" width={80} height={80}/> <p className={style.listPoints}>Your EV model(s)</p>
+                  <Image className={style.listmage} src={Modal} alt="PlusX Electric ev modal" width={80} height={80}/> <p className={style.listPoints}>Your EV model(s)</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={KM} alt="daily km" width={80} height={80}/> <p className={style.listPoints}>Daily kilometres driven</p>
+                  <Image className={style.listmage} src={KM} alt="PlusX Electric daily km" width={80} height={80}/> <p className={style.listPoints}>Daily kilometres driven</p>
                 </li>
                 <li className={style.list}>
-                  <Image className={style.listmage} src={Xpansion} alt="expansion" width={80} height={80}/> <p className={style.listPoints}>Future expansion needs</p>
+                  <Image className={style.listmage} src={Xpansion} alt="PlusX Electric expansion" width={80} height={80}/> <p className={style.listPoints}>Future expansion needs</p>
                 </li>
               </ul>
 
@@ -58,7 +58,7 @@ function Scenarios() {
 
             <Animated className="order-1 lg:order-2" animation="fade" easing="ease-in" duration={1000}>
               <div className={style.imageWrapper}>
-                <Image src={image} alt="EV Roadside Assistance Dubai" width={555} height={555} />
+                <Image src={image} alt="PlusX Electric helping an EV owner choose the best home charging solution in Dubai" width={555} height={555} />
               </div>
             </Animated>
 

@@ -7,9 +7,9 @@ import Maintaince       from "@/assets/images/landing-pages/charger-Installation
 // import CarRepair        from "@/assets/images/landing-pages/charger-Installation/plusx_eletric_car_repair_icon.svg";
 
 const benefits = [
-  { icon: Information,  text: "CE certified" },
-  { icon: Quote,        text: "ISO certified" },
-  { icon: Maintaince,   text: "All EVs supported" },
+  { icon: Information,  text: "CE certified", alt: "CE certified" },
+  { icon: Quote,        text: "ISO certified", alt: "ISO certified" },
+  { icon: Maintaince,   text: "All EVs supported", alt: "All EVs supported" },
 ];
 const isOdd = benefits.length % 2 !== 0;
 
@@ -24,7 +24,7 @@ function Benefits() {
             const isLast = index === benefits.length - 1;
             return (
               <div key={index} className={ isOdd && isLast ? "md:col-span-2 lg:col-span-1" : "" }>
-                <BenefitsCard iconSrc={value.icon} text={value.text} />
+                <BenefitsCard iconSrc={value.icon} text={value.text} alt={value.alt} />
               </div>
             );
           })}

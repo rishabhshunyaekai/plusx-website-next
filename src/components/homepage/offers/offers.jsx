@@ -5,12 +5,12 @@ import ServicesOffer  from "@/sharedComponents/servicesOffer/servicesOffer";
 const offers = [
   {
     image : Offer1,
-    alt   : "Pickup and Dropoff charging offer",
+    alt   : "PlusX Electric Pickup and Dropoff charging service offer",
     link  : "/ev-pickup-dropoff-charging-service",
   },
   {
     image : Offer2,
-    alt   : "Mobile ev charging offer",
+    alt   : "PlusX Electric Mobile ev charging service offer",
     link  : "/mobile-ev-charging-dubai",
   },
 ];

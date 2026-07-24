@@ -11,18 +11,22 @@ import Insurance          from "@/assets/images/ev-insurance-page/Plusx_electric
 const valuesCardData = [
   {
     icon: Quote,
+    alt : "Global certification",
     text: <><b>Global certification :</b> Every PlusX EV charger is CE certified and ISO certified, meeting international electrical safety and quality standards.</>,
   },
   {
     icon: CarRepair,
+    alt : "One year of free roadside assistance",
     text: <><b>One year of free roadside assistance :</b> Every PlusX charger purchase includes complimentary EV roadside assistance for the first year, anywhere in the dubai.</>,
   },
   {
     icon: Techni,
+    alt : "One free preventive maintenance visit",
     text: <><b>One free preventive maintenance visit :</b> Within the first year of purchase, we include one free preventive maintenance visit to inspect and verify your charger</>,
   },
   {
     icon: Insurance,
+    alt : "Compatible with every EV in the UAE",
     text: <><b>Compatible with every EV in the UAE :</b> Type 2 (AC) and CCS2 (DC) connectors cover Tesla, BYD, Nissan, Audi, BMW, Mercedes, Polestar, Hyundai, Kia, Lucid, and Cadillac.</>,
   },
 ];
@@ -34,7 +38,7 @@ function Values() {
         <SecondaryHeading title={"Why Choose PlusX EV Chargers"} />
         <div className={`grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2`}>
           {valuesCardData.map((value, index) => (
-            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} />
+            <ServiceIconCard key={index} iconSrc={value.icon} text={value.text} alt={value.alt} />
           ))}
         </div>
         {/* <div className={style.buttonContainer}>

@@ -19,7 +19,7 @@ function ProductsCard() {
                 <Link href="/ev-charger-installation-uae/ac-dc-ev-chargers" className={style.cardButton}>View Details</Link>
               </div>
               <div className={style.cardImageWrapper}>
-                <Image className={style.cardImage} src={Charger} alt="Charger" width={405} height={370} />
+                <Image className={style.cardImage} src={Charger} alt="PlusX Electric EV chargers" width={405} height={370} />
               </div>
             </Animated>
             
@@ -30,7 +30,7 @@ function ProductsCard() {
                 <Link href="/ev-charger-installation-uae/ev-accessories" className={style.cardButton}>View Details</Link>
               </div>
               <div className={style.cardImageWrapper}>
-                <Image className={style.cardImage} src={Accessories} alt="Accessories" width={405} height={370} />
+                <Image className={style.cardImage} src={Accessories} alt="PlusX Electric EV accessories" width={405} height={370} />
               </div>
             </Animated>
         </div>
