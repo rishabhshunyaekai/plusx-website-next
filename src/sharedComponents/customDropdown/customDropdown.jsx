@@ -34,7 +34,7 @@ const customStyles = {
     border: "2px solid #00b26b",
     borderBottom: state.menuIsOpen ? "0" : "2px solid #00b26b",
     borderRadius: state.menuIsOpen ? "10px 10px 0 0" : "10px",
-    backgroundColor: "#f6f5f5",
+    backgroundColor: "#f5f6f6",
     padding: "9px 0px",
     // boxShadow: state.menuIsOpen ? "none" : "2px 4px 10px rgba(0, 0, 0, 0.322)",
     // boxShadow: "2px 4px 10px rgba(0, 0, 0, 0.322)",
@@ -52,7 +52,7 @@ const customStyles = {
   menu: (base) => ({
     ...base,
     border: "2px solid #00b26b",
-    backgroundColor: "#f6f5f5",
+    backgroundColor: "#f5f6f6",
     borderTop: "none",
     borderRadius: "0 0 10px 10px",
     boxShadow: "2px 4px 10px rgba(0, 0, 0, 0.322)",
@@ -70,7 +70,7 @@ const customStyles = {
   option: (base, /*{ isSelected, isFocused }*/) => ({
     ...base,
     // backgroundColor: isSelected ? '#F9F9F9' : isFocused ? '#F9F9F9' : 'transparent',
-    backgroundColor: "#f6f5f5",
+    backgroundColor: "#f5f6f6",
     color: "#000",
     outline: "none",
     padding: "5px 12px",
@@ -81,10 +81,10 @@ const customStyles = {
     fontSize: "14px",
     cursor: "pointer",
     '&:hover': {
-      backgroundColor: "#f6f5f5",
+      backgroundColor: "#f5f6f6",
     },
     '&:active': {
-      backgroundColor: "#f6f5f5",
+      backgroundColor: "#f5f6f6",
     },
   }),
   indicatorSeparator: () => ({ display: "none" }),

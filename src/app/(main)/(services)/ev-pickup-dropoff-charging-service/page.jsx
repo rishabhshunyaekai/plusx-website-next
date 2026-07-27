@@ -16,7 +16,7 @@ import Faqs               from "@/components/pickupDropoff/pickupDropoffFAQ/pick
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Pickup and Drop Off Charging Dubai | PlusX Electric",
-  description   : "EV pickup and drop off charging Dubai by PlusX Electric. We collect your vehicle, charge it, and return it in about 3 hours. Download the PlusX Electric app.",
+  description   : "EV pickup and drop off charging Dubai by PlusX Electric. We collect your vehicle, charge it, and return it in about 2 hours. Download the PlusX Electric app.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Pickup", "EV valet charging service", "Tesla valet charging Dubai", "valet charging service Dubai", "EV Drop Charging", 
   //                   "ev pickup & dropoff service", "ev pickup & dropoff service in dubai", "EV valet charging Dubai", "EV charge and return service Dubai"],
   alternates    : {

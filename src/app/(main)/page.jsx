@@ -17,7 +17,7 @@ import Faqs           from "@/components/homepage/faqs/faqs";
 
 export const metadata = {
   title         : "PlusX Electric — EV Charging Services Dubai | All-in-One EV App",
-  description   : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance. Trusted by 6800+ EV owners across the UAE.",
+  description   : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance. Trusted by 11000+ EV owners across the UAE.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "portable ev charger", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me", 
   //                  "ev roadside assistance service", "emergency roadside charging", "buy or renew ev insurance in minutes", "find public ev charging station", "ev charger share service"],
   alternates    : {
@@ -28,7 +28,7 @@ export const metadata = {
   },
   openGraph     : {
     title       : "PlusX Electric — EV Charging Services Dubai | All-in-One EV App",
-    description : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance. Trusted by 6800+ EV owners across the UAE.",
+    description : "PlusX Electric is Dubai's leading EV charging services company. One app for every EV need — charging, support, and maintenance. Trusted by 11000+ EV owners across the UAE.",
     url         : "https://plusxelectric.com/",
     type        : "website",
     siteName    : "PlusX Electric",

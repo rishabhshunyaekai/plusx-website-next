@@ -18,7 +18,7 @@ function BookingSteps() {
                 How to Book The Service?
               </h2>
               {/* <br className={style.headingBreakline}/> */}
-              <h3 className={style.bookingStepsSubHeading}>Booking is completed through the PlusX Electric app.</h3>
+              <p className={style.bookingStepsSubHeading}>Booking is completed through the PlusX Electric app.</p>
             </Animated>
           </div>
 

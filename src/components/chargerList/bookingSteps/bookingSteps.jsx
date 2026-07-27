@@ -19,7 +19,7 @@ function BookingSteps() {
             <h2 className={style.bookingStepsHeading}>
               From Enquiry to First Charge — How It Works
             </h2>
-            <h3 className={style.bookingStepsSubHeading}>A simple 3-step process to get you charging</h3>
+            <p className={style.bookingStepsSubHeading}>A simple 3-step process to get you charging</p>
           </Animated>
         </div>
 

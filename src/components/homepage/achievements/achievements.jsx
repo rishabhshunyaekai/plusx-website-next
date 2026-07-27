@@ -26,7 +26,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Booking} alt="EVs charged by PlusX power pod" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>10,000+</span>
+                <span className={`${style.counter}`}>11,000+</span>
                 <p className={`${style.title}`}>EVs Charged by  <br className={`${style.breakLine}`} />Power Pod</p>
               </div>
             </div>

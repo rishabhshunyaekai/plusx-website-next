@@ -9,7 +9,7 @@ function ChargerInstallation() {
   return (
     <section className={style.wrapper}>
       <div className={`container`}>
-        <div className={`grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-6`}>
+        <div className={`grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-15`}>
           <div className={`lg:col-span-1`}>
             <Animated className={style.cardContainer} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>

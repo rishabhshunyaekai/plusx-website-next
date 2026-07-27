@@ -19,7 +19,7 @@ function BookingSteps() {
               <h2 className={style.listingStepHeading}>
                 List Your Charger
               </h2>
-              <h3 className={style.listingSubHeading}>The PlusX Electric app makes it easy to list your <br className={style.breakLine}/>private charger. Please follow steps</h3>
+              <p className={style.listingSubHeading}>The PlusX Electric app makes it easy to list your <br className={style.breakLine}/>private charger. Please follow steps</p>
             </Animated>
           </div>
 

@@ -27,7 +27,7 @@ function SmartModel() {
             <p className={style.content}>PlusX Electric is building a community where EV owners can support each other by sharing private chargers within their neighbourhoods.</p>
             <p className={style.content}>Instead of waiting for large infrastructure upgrades, existing chargers can be shared to improve access to charging in residential communities.</p>
 
-            <h3 className={style.subTitle}>This approach supports:</h3>
+            <p className={style.subTitle}>This approach supports:</p>
 
             <ul className={style.keyPoint}>
               <li>Stronger EV communities where owners help each other</li>

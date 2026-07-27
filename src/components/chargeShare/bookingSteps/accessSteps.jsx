@@ -16,7 +16,7 @@ function BookingSteps() {
             <h2 className={style.bookingStepsHeading}>
               How to Find and Use a Shared Charger
             </h2>
-            <h3 className={style.bookingStepsSubHeading}>The PlusX Electric app makes it easy to access <br className={style.breakLine}/>shared EV chargers. Please follow steps</h3>
+            <p className={style.bookingStepsSubHeading}>The PlusX Electric app makes it easy to access <br className={style.breakLine}/>shared EV chargers. Please follow steps</p>
           </Animated>
         </div>
 

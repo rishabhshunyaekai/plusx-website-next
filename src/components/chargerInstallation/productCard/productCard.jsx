@@ -11,7 +11,7 @@ function ProductsCard() {
     <section className={`${style.wrapper}`}>
       <div className={`container ${style.container}`}>
         <SecondaryHeading title="Explore Our EV Chargers & Accessories" />
-        <div className={`grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-6`}>
+        <div className={`grid grid-cols-1 lg:grid-cols-2 gap-15 lg:gap-15`}>
           <Animated className={`${style.cardContainer}`} animation="fade" easing="ease-in" duration={1000}>
               <h2 className={style.cardTitle}>Buy EV <br className={`${style.breakLine}`}/>Chargers</h2>
               <h3 className={style.cardSubTitle}>All Type of AC & DC <br className={`${style.breakLine}`}/>Chargers Available</h3>

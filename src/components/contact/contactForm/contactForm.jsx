@@ -128,7 +128,7 @@ function GetInTouch() {
                     </div>
                 </div>
 
-                <div className={`grid grid-cols-1 lg:grid-cols-2 gap-6`}>
+                <div className={`grid grid-cols-1 lg:grid-cols-2 lg:gap-6`}>
                     <div className={style.formGroup}>
                         <input type="email" className={style.formControl} placeholder="Email*" name="email" autoComplete="off" value={formData.email} onChange={handleInputChange} />
                         {error.email && ( <span className={style.errorMessage}>{error.email}</span> )}

@@ -240,7 +240,7 @@ export const mobileRescue = [
   },
   {
     type: "paragraph",
-    text: "It's not the answer when there's an actual mechanical or accident-related issue. Collision damage, suspension failure, a flat tyre, a blown coolant line — those need a tow to a workshop and a proper diagnostic. The PlusX Electric team will tell you honestly if your situation needs a tow rather than a charge; they've handled 750+ rescues and know the difference."
+    text: "It's not the answer when there's an actual mechanical or accident-related issue. Collision damage, suspension failure, a flat tyre, a blown coolant line — those need a tow to a workshop and a proper diagnostic. The PlusX Electric team will tell you honestly if your situation needs a tow rather than a charge; they've handled 1000+ rescues and know the difference."
   },
   {
     type: "paragraph",

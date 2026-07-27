@@ -8,7 +8,7 @@
   line-height: 1.8;
   text-align: center;
 }
-.contactIcon {
+/* .contactIcon {
   background-color: var(--color-background);
   padding: 25px;
   border-radius: 14px;
@@ -19,7 +19,22 @@
 .contactIcon img {
   width: 30px;
   min-width: 25px;
+} */
+ .contactIcon {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  background-color: var(--color-background);
+  border: 2px solid var(--color-primary);
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
 }
+
 .contactText h4 {
   color: var(--color-primary);
   font-size: 22px;
@@ -34,7 +49,7 @@
   margin: 0;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .contactText h4 {
     font-size: 20px;
   }
@@ -54,5 +69,38 @@
 @media (max-width: 480px) {
   .mapIcon {
     width: 40px;
+  }
+} */
+@media (max-width: 767px) {
+  .contactIcon {
+    width: 65px;
+    min-width: 65px;
+    height: 65px;
+  }
+
+  .contactIcon img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .contactText h4 {
+    font-size: 18px;
+  }
+
+  .contactText p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactIcon {
+    width: 58px;
+    min-width: 58px;
+    height: 58px;
+  }
+
+  .contactIcon img {
+    width: 24px;
+    height: 24px;
   }
 }

@@ -16,7 +16,7 @@ function BookingSteps() {
             <h2 className={style.bookingStepsHeading}>
               Smooth EV Insurance <br className={style.headingBreakline}/>Digital Process
             </h2>
-            <h3 className={style.bookingStepsSubHeading}>EV car insurance in the UAE does not necessarily have<br className={style.headingBreakline}/> to be time-consuming.</h3>
+            <p className={style.bookingStepsSubHeading}>EV car insurance in the UAE does not necessarily have<br className={style.headingBreakline}/> to be time-consuming.</p>
           </Animated>
         </div>
 

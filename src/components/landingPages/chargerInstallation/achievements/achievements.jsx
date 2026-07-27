@@ -26,7 +26,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Booking} alt="EV Owners Served" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>7200+</span>
+                <span className={`${style.counter}`}>11000+</span>
                 <p className={`${style.title}`}>EV Owners <br className={`${style.breakLine}`} />Served</p>
               </div>
             </div>
