@@ -54,6 +54,10 @@
   cursor: pointer;
   border-radius: 6px;
   transition: 0.2s;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pageBtn:hover {

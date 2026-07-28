@@ -8,54 +8,6 @@ export default function sitemap() {
       priority        : 1,
     },
     {
-      url             : `${baseUrl}about-us`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    {
-      url             : `${baseUrl}contact-us`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    {
-      url             : `${baseUrl}commercial-ev-charging-solutions`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    {
-      url             : `${baseUrl}sustainability`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.7,
-    },
-    {
-      url             : `${baseUrl}terms-and-conditions`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.3,
-    },
-    {
-      url             : `${baseUrl}privacy-policy`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.3,
-    },
-    {
-      url             : `${baseUrl}ev-car-insurance`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    // {
-    //   url             : `${baseUrl}mobility-solution`,
-    //   lastModified    : new Date(),
-    //   changeFrequency : "weekly",
-    //   priority        : 0.9,
-    // },
-    {
       url             : `${baseUrl}mobile-ev-charging-dubai`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
@@ -97,6 +49,133 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}commercial-ev-charging-solutions`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charge-share`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-car-insurance`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}sustainability`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}complete-ev-care-dubai`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-dubai-apartments`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+
+
+
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/portable-ev-charger-ac-7kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/portable-ev-charger-ac-11kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-7kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-11kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-22kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-20kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-30kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-20kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-30kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-60kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-120kw`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+
+
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ev-accessories/wall-mount-bracket-for-portable-ev-charger`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}ev-charger-installation-uae/ev-accessories/carry-bag-for-portable-ev-charger`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    
+    
+    // {
+    //   url             : `${baseUrl}mobility-solution`,
+    //   lastModified    : new Date(),
+    //   changeFrequency : "weekly",
+    //   priority        : 0.9,
+    // },
     // {
     //   url             : `${baseUrl}ev-roadside-assistance-service-dubai`,
     //   lastModified    : new Date(),
@@ -109,26 +188,9 @@ export default function sitemap() {
     //   changeFrequency : "weekly",
     //   priority        : 0.9,
     // },
-    {
-      url             : `${baseUrl}ev-charge-share`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    {
-      url             : `${baseUrl}complete-ev-care-dubai`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
+    
     {
       url             : `${baseUrl}blog`,
-      lastModified    : new Date(),
-      changeFrequency : "weekly",
-      priority        : 0.9,
-    },
-    {
-      url             : `${baseUrl}ev-charger-installation-dubai-apartments`,
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
@@ -354,6 +416,31 @@ export default function sitemap() {
       lastModified    : new Date(),
       changeFrequency : "weekly",
       priority        : 0.9,
+    },
+
+    {
+      url             : `${baseUrl}about-us`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}contact-us`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}terms-and-conditions`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.3,
+    },
+    {
+      url             : `${baseUrl}privacy-policy`,
+      lastModified    : new Date(),
+      changeFrequency : "weekly",
+      priority        : 0.3,
     },
   ];
 }

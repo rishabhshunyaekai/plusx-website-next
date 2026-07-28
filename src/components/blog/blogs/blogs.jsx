@@ -1,11 +1,12 @@
 import BlogItems        from "./blogItems";
-import { testimonials } from "@/data/testimonials";
+// import { testimonials } from "@/data/testimonials";
 
-function BlogsPage() {
+function BlogsPage({ blogs, currentPage, totalPages }) {
   return (
     <section className="wrapper">
       <div className="container">
-        <BlogItems blogs={testimonials} />
+        {/* <BlogItems blogs={testimonials} /> */}
+        <BlogItems blogs={blogs} currentPage={currentPage} totalPages={totalPages} />
       </div>
     </section>
   );
