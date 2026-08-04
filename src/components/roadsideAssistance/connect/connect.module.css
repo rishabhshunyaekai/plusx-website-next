@@ -1,0 +1,151 @@
+.featuredService {
+  background: var(--color-background);
+  padding: 0px 0 60px;
+}
+
+.title {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.para {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.connectButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.connectButtonContainer a {
+  background: var(--color-primary);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+}
+
+.connectButtonContainer a:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 4px 10px var(--color-shadow-dark);
+}
+
+.connectButtonContainer button {
+  background: var(--color-primary);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.connectButtonContainer button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 3px 4px 10px var(--color-shadow-dark);
+}
+
+.connectButtonContainer img {
+  width: 50px;
+  height: 50px;
+}
+
+.innerClass {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .para {
+    font-size: 15px;
+  }
+
+  .connectButtonContainer a {
+    font-size: 20px;
+  }
+
+  .connectButtonContainer button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .connectButtonContainer {
+    gap: 15px;
+  }
+  /* .connectButtonContainer a {
+    font-size: 15px;
+  }
+  .connectButtonContainer button {
+    font-size: 15px;
+  } */
+
+  .connectButtonContainer img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 578px) {
+  .title {
+    font-size: 25px;
+  }
+  .connectButtonContainer a {
+    font-size: 16px;
+  }
+  .connectButtonContainer button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .connectButtonContainer {
+    gap: 15px;
+  }
+  .connectButtonContainer a {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+  .connectButtonContainer button {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+
+  .connectButtonContainer img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .connectButtonContainer a {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  .connectButtonContainer button {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .connectButtonContainer img {
+    width: 14px;
+    height: 14px;
+  }
+}

@@ -61,7 +61,7 @@
   text-align: center;
 }
 
-.chargerButton {
+/* .chargerButton {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   padding: 15px 20px;
@@ -76,7 +76,57 @@
   background-color: var(--color-background);
   color: var(--color-primary);
   cursor: pointer;
+} */
+ .buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
+
+.buttonContainer a {
+  background: var(--color-primary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+}
+
+.buttonContainer a:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0 4px 10px var(--color-shadow);
+}
+
+.buttonContainer button {
+  background: var(--color-primary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--color-secondary);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttonContainer button:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0 4px 10px var(--color-shadow);
+}
+
+.buttonContainer img {
+  width: 50px;
+  height: 50px;
+}
+
+/* .innerClass {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
 
 /* TABLET */
 @media (max-width: 992px) {
@@ -119,9 +169,20 @@
   .stepsArrowImage {
     display: none;
   }
-  .chargerButton {
+  /* .chargerButton {
     font-size: 14px;
     padding: 12px 15px;
+  } */
+
+  .buttonContainer {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .buttonContainer img {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -169,5 +230,48 @@
 
   .bookingStepsFooter {
     font-size: 15px;
+  }
+
+  .buttonContainer a {
+    font-size: 16px;
+  }
+  .buttonContainer button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .buttonContainer a {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+  .buttonContainer button {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+
+  .buttonContainer img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .buttonContainer {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .buttonContainer a {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+  .buttonContainer button {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .buttonContainer img {
+    width: 14px;
+    height: 14px;
   }
 }

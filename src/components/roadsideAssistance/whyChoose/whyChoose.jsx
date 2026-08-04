@@ -17,7 +17,7 @@ function WhyChoose() {
           </div>  ${style.isDesktop}*/}
 
           <div className={style.imageWrapper}>
-            <Image src={Truck} alt="EV breakdown Assistance Dubai" width={555} height={555}/>
+            <Image src={Truck} alt="Roadside assistance for electric cars in Dubai by PlusX Electric" width={555} height={555}/>
           </div>
           
           <Animated className={style.rightContent} animation="fade" easing="ease-in" duration={1000}>
@@ -26,13 +26,12 @@ function WhyChoose() {
             </h2>
 
             <ul className={style.keyPoint}>
-              <li>EV Specialists, Not Generic Mechanics</li>
-              <li>1000+ EVs Rescued Across Dubai</li>
+              <li>1,000+ EVs rescued across Dubai</li>
+              <li>Charged on the spot — up to 10 kWh delivered where your car stands, no tow</li>
+              <li>12V jump-start on site — the cause of roughly half the breakdowns we attend</li>
+              <li>EV specialists, not general mechanics</li>
               <li>60-Minute Response Time (depending on your location)</li>
-              <li>No Unnecessary Towing</li>
-              <li>Instant Booking Through the App</li>
-              <li>Transparent Pricing — From AED 185* + VAT</li>
-              <li>Available 24/7, Every Day of the Year</li>
+              <li>24/7, every day of the year</li>
               {/* <li><Link href="/mobile-ev-charging-dubai" target="__blank" className={style.linkColor}>Mobile on-site EV charging</Link> units</li> */}
             </ul>
 

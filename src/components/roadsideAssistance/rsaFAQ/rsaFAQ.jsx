@@ -9,49 +9,57 @@ function RSAFaqs() {
     "mainEntity": [
         {
             "@type" : "Question",
-            "name"  : "What happens if my EV battery dies completely?",
+            "name"  : "How much does EV roadside assistance cost in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "If your EV battery is fully drained, our team provides on-site charging up to 10 kWh or approximately 50 km of range, whichever comes first, so you can safely continue your journey."
+                "text"  : "From AED 185 + VAT for an on-site charging, jump start included if required."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "Do you tow electric vehicles?",
+            "name"  : "What happens if my EV battery is completely dead?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "We avoid towing wherever possible. In most cases, on-site charging is enough to get your EV moving again. Towing is used only if charging or on-site recovery is not feasible."
+                "text"  : "We deliver on-site charging up to 10 kWh or approximately 50 km of range, whichever comes first — enough to reach home or the nearest public charger under your own power."
             }
         },{
             "@type" : "Question",
-            "name"  : "How fast can PlusX Electric reach me in Dubai?",
+            "name"  : "How fast can you reach me?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Our average response time is within 60 minutes, depending on your location, traffic conditions, and other unforeseen factors."
+                "text"  : "60 minutes on average across Dubai, varying with your location, traffic and weather."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "Is jump-start service included in EV roadside assistance?",
+            "name"  : "Is a 12V jump-start included?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. If your 12V battery is dead, we provide jump-start service as part of the EV roadside assistance offering."
+                "text"  : "Yes. If your 12V battery is dead, jump-starting is part of the roadside assistance service."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "Is EV roadside assistance available 24/7 in Dubai?",
+            "name"  : "My car won't turn on at all — is that the main battery?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. Our EV roadside assistance service is available 24 hours a day, 7 days a week, anywhere in Dubai."
+                "text"  : "Usually not. A completely unresponsive EV is more often a failed 12V battery, which accounts for roughly half the breakdowns we attend in Dubai."
             }
         },
         {
             "@type" : "Question",
-            "name"  : "How can I book EV roadside assistance?",
+            "name"  : "Can you reach me in underground or basement parking?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "You can book the service instantly by downloading the PlusX App, adding your location details on the RSA booking screen, and confirming your request."
+                "text"  : "Yes. Our EV roadside assistance rescue van carries its own energy and doesn't need a socket at your location, so basement levels, community parking and warehouse yards are all serviceable."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "Is emergency EV charging available 24/7?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "Yes — 24 hours a day, every day of the year, anywhere in Dubai."
             }
         }
     ]

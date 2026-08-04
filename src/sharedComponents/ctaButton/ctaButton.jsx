@@ -15,6 +15,7 @@ function CTAButton({ className, text, handler }) {
       case "scrollToFooter"                 : scrollToSpecificSectionViaID("footer");                   break;
       case "scrollToCarService"             : scrollToSpecificSectionViaID("carServices");              break;
       case "scrollToCarServiceForm"         : scrollToSpecificSectionViaID("getAQuoteForm", true);      break;
+      case "callNowRSA"                     : window.location.href = "tel:+971542796424";               break;
       default:                                                                                          break;
     }
   };

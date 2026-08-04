@@ -7,6 +7,8 @@ import Map      from "@/assets/images/ev-roadside-assistance-page/plusx_electric
 import Driver   from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_Ev_driver_icon.webp";
 import Car      from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_onsite_ev_charging_icon.webp";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
+import CTAButton          from "@/sharedComponents/ctaButton/ctaButton";
+// import { TbPhoneCall }      from "react-icons/tb";
 
 function BookingSteps() {
   return (
@@ -15,7 +17,7 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <h2 className={style.bookingStepsHeading}>
-              How PlusX Electric EV Rescue <br className={style.headingBreakline}/> Works
+              How to Book Emergency EV Charging <br className={style.headingBreakline}/> on the PlusX Electric App
             </h2>
             <p className={style.bookingStepsSubHeading}><strong>Here are the steps to book the service:</strong></p>
           </Animated>
@@ -26,7 +28,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={step1} alt="PlusX Electric App" width={58} height={58} />
             </div>
-            <p className={style.steps}>Download the PlusX Electric App from the App Store or Play Store</p>
+            <p className={style.steps}>Book through the PlusX Electric app or share your location and details with us on WhatsApp</p>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -35,18 +37,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Map} alt="PlusX Electric Location details" width={58} height={58} />
-            </div>
-            <p className={style.steps}>Add your location details on the RSA booking screen</p>
-          </div>
-          <div className={style.stepsCard}>
-            <div className={style.stepsArrowImage}>
-              <Image src={Arrow} alt="Arrow" width={58} height={58} />
-            </div>
-          </div>
-          <div className={style.stepsCard}>
-            <div className={style.stepsImage}>
-              <Image src={Driver} alt="PlusX Electric rescue team" width={58} height={58} />
+              <Image src={Driver} alt="PlusX Electric rescue team dispatch" width={58} height={58} />
             </div>
             <p className={style.steps}>Our rescue team is dispatched immediately</p>
           </div>
@@ -57,19 +48,33 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Car} alt="PlusX Electric On-site charging" width={58} height={58} />
+              <Image src={Map} alt="PlusX Electric On-site charging" width={58} height={58} />
             </div>
-            <p className={style.steps}>On-site charging is done, and you’re ready to move again</p>
+            <p className={style.steps}>On-site charging is done</p>
+          </div>
+          <div className={style.stepsCard}>
+            <div className={style.stepsArrowImage}>
+              <Image src={Arrow} alt="Arrow" width={58} height={58} />
+            </div>
+          </div>
+          <div className={style.stepsCard}>
+            <div className={style.stepsImage}>
+              <Image src={Car} alt="PlusX Electric Jump-start" width={58} height={58} />
+            </div>
+            <p className={style.steps}>Jump-start if required, and you&apos;re ready to move again.</p>
           </div>
         </Animated>
 
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <p className={style.bookingStepsFooter}>
-              {/* As per our service records, we typically reach customers <strong>within 60 minutes</strong>,<br className={style.footerBreakline}/> depending on location and unforeseen conditions. */}
-              We have rescued 1000+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
+              We have rescued 1,000+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
             </p>
-            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Get Emergency EV Help" isRSA={true} />
+            <div className={style.buttonContainer}>
+              <a href="tel:+971542796424">Call Now</a>
+              <RedirectToWhatsapp isShowIcon={false} text="Whatsapp" />
+              <CTAButton text="Open PlusX App" handler="appRedirect" />
+            </div>
           </Animated>
         </div>
       </div>

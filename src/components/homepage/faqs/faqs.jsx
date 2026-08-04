@@ -12,7 +12,7 @@ function HomepageFaq() {
             "name"  : "What is PlusX Electric?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "PlusX Electric is an electric vehicle charging services company in Dubai. One app for all your EV needs from charging, breakdown assistance, charger installation, and insurance."
+                "text"  : `PlusX Electric is an electric vehicle charging services company in Dubai. One app for all your EV needs from charging, <a href="/ev-breakdown-assistance" target="_blank">roadside assistance</a>, charger installation, and insurance.`
             }
         },
         {
