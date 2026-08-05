@@ -3,6 +3,7 @@ import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/chargerInstallation/chargerInstallationIntro/chargerInstallationIntro";
 import Values       from "@/components/chargerInstallation/values/values";
 import WhyChoose    from "@/components/chargerInstallation/whyChoose/whyChoose";
+import Intro1       from "@/components/chargerInstallation/chargerInstallationIntro/rsaCTA";
 import Products     from "@/components/chargerInstallation/productCard/productCard";
 import Chargers     from "@/components/chargerInstallation/chargers/chargers";
 import Assistance   from "@/components/chargerInstallation/assistance/assistance";
@@ -195,6 +196,7 @@ function EVChargerInstallationPage() {
       <Intro />
       <Values />
       <WhyChoose />
+      <Intro1 />
       <Assistance />
       <Benefits />
       <BookingSteps />

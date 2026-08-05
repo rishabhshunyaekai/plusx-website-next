@@ -10,6 +10,14 @@ const introData = [
     secondTitle         : `Find Public EV Charging\n Stations in Real Time`,
     secondaryContent    : `The PlusX Electric app shows EV charger locations across Dubai and prioritises the nearest charging stations based on your current location. Charging stations appear instantly, allowing you to choose the most suitable option based on distance, charger type, and availability.`,
     extraContent        : `Instead of driving around searching for a charger, you can quickly find available stations through your phone. Real-time visibility of charging stations helps reduce range anxiety and supports better route planning.`,
+    extraContent1       : `If you cannot reach a station at all, on-site emergency charging comes to you.`,
+    secondaryButtons    : [
+      {
+        type: "link",
+        text: "On-site Emergency Charging",
+        href: "/ev-breakdown-assistance",
+      },
+    ]
   },
 ];
 
@@ -18,7 +26,7 @@ function PublicChargingIntro() {
     <>
       {introData.map((section, index) => (
         <IntroSection key={index} title={section.title} content={section.content} additionalContent={section.additionalContent} additionalContent2={section.additionalContent2}
-          secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} extraContent={section.extraContent} />
+          secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} extraContent={section.extraContent} extraContent1={section.extraContent1} secondaryButtons={section.secondaryButtons} />
       ))}
     </>
   );

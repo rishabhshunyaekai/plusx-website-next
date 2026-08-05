@@ -1,0 +1,130 @@
+.mobileStickyBar {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 9999;
+  /* bottom: 0;
+  left: 0;
+  width: 100%; */
+
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e7eaf5;
+
+  animation: slideUp 0.3s ease;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.topRow h4 {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.topRow p {
+  margin: 6px 0 0;
+  color: var(--color-text);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.badge {
+  background: #f2fbf7;
+  border: 1px solid rgba(0, 178, 107, 0.2);
+  color: var(--color-primary);
+  border-radius: 8px;
+  padding: 8px 6px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.badge span {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.badge small {
+  font-size: 11px;
+  color: var(--color-text);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons a {
+  flex: 1;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  /* font-weight:600; */
+  transition: 0.25s;
+}
+
+.callBtn {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.callBtn:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0 4px 6px var(--color-shadow);
+}
+
+.whatsappBtn {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.whatsappBtn:hover {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+/* .footer{
+    margin-top:12px;
+    padding-top:12px;
+    border-top:1px solid #ECECEC;
+    text-align:center;
+    font-size:12px;
+    color:#666;
+} */
+
+@media (min-width: 768px) {
+  .mobileStickyBar {
+    display: none;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

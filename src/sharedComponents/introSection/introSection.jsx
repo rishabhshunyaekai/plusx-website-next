@@ -6,8 +6,8 @@ import SecondaryHeading from "../heading/secondaryHeading";
 import CTAButton        from "../ctaButton/ctaButton";
 import RedirectToWhatsapp from "../whatsapp/RedirectToWhatsapp";
 
-function IntroSection({ maintitle, title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1, primaryButtons = [],
-   secondaryButton = false, secondaryButtonText, secondaryButtonlink, whatsapp = false, whatsappText, isRSA=false }) {
+function IntroSection({ maintitle, title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1,
+  primaryButtons = [], secondaryButtons = [], }) {
 
   return (
     <section className={style.introSection}>
@@ -41,14 +41,26 @@ function IntroSection({ maintitle, title, content, additionalContent, additional
             )}
 
             {primaryButtons.length > 0 && (
-              <div className={`${style.buttonConatiner}`}>
-                {primaryButtons.map((button, index) =>
-                  button.handler === "whatsapp" ? (
-                    <RedirectToWhatsapp key={index} className={style.links} text={button.text} isRSA={button.isRSA} />
-                  ) : (
-                    <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
-                  )
-                )}
+              <div className={style.buttonConatiner}>
+                {primaryButtons.map((button, index) => {
+                  switch (button.type) {
+                    case "link":
+                      return (
+                        <Link key={index} href={button.href} className={style.links}>{button.text}</Link>
+                      );
+
+                    case "whatsapp":
+                      return (
+                        <RedirectToWhatsapp key={index} className={style.links} text={button.text} isRSA={button.isRSA} />
+                      );
+
+                    case "cta":
+                    default:
+                      return (
+                        <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
+                      );
+                    }
+                })}
               </div>
             )}
 
@@ -81,15 +93,27 @@ function IntroSection({ maintitle, title, content, additionalContent, additional
           </div>
         </div>
 
-        {secondaryButton && (
-          <div className={`${style.buttonConatiner}`}>
-            <Link href={`${secondaryButtonlink}`} className={style.links}>{secondaryButtonText}</Link>
-          </div>
-        )}
+        {secondaryButtons.length > 0 && (
+          <div className={style.buttonConatiner}>
+            {secondaryButtons.map((button, index) => {
+              switch (button.type) {
+                case "link":
+                  return (
+                    <Link key={index} href={button.href} className={style.links}>{button.text}</Link>
+                  );
 
-        {whatsapp && (
-          <div className={`${style.buttonConatiner}`}>
-            <RedirectToWhatsapp className={style.links} text={whatsappText} isRSA={isRSA}/>
+                case "whatsapp":
+                  return (
+                    <RedirectToWhatsapp key={index} className={style.links} text={button.text} isRSA={button.isRSA} />
+                  );
+
+                case "cta":
+                default:
+                  return (
+                    <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
+                  );
+                }
+            })}
           </div>
         )}
       </div>
@@ -169,4 +193,6 @@ function RenderText({ text, className }) {
         : extraContent}
     </p>
   </Animated>
+  
+  secondaryButton = false, secondaryButtonText, secondaryButtonlink, whatsapp = false, whatsappText, isRSA=false }) { //comp para
 )} */}

@@ -7,12 +7,13 @@ const introData = [
     additionalContent : `<i>Final price may vary based on time of service, location, and additional requirements. Confirmed quote shown in the app before dispatch.</i>`,
     primaryButtons    : [
       {
+        type    : "cta",
         text    : "Call Now",
         handler : "callNowRSA",
       },
       {
         text    : "WhatsApp",
-        handler : "whatsapp",
+        type    : "whatsapp",
         isRSA   : true,
       },
     ],

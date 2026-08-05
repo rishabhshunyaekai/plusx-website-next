@@ -9,6 +9,14 @@ const introData = [
     secondTitle       : `Why Choose EV Pickup And\n Drop-Off Charging?`,
     secondaryContent  : `EV pickup and drop-off charging works like a valet charging service. Instead of driving to a charging station and waiting, \nyou can book the service through the PlusX Electric app and let our team manage the entire process.`,
     extraContent      : `This option is ideal when you have a busy schedule, are at work, spending time with family, or visiting a shopping complex \nand do not want to spend time waiting at a charging station.`,
+    extraContent1     : `If the car cannot move at all, you need emergency EV help instead of a scheduled pickup.`,
+    secondaryButtons  : [
+      {
+        type: "link",
+        text: "Emergency EV Help",
+        href: "/ev-breakdown-assistance",
+      },
+    ]
   },
 ];
 
@@ -17,7 +25,8 @@ function PickupDropoffIntro() {
     <>
       {introData.map((section, index) => (
         <IntroSection key={index} title={section.title} content={section.content} additionalContent={section.additionalContent} 
-          secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} extraContent={section.extraContent} />
+          secondTitle={section.secondTitle} secondaryContent={section.secondaryContent} extraContent={section.extraContent} extraContent1={section.extraContent1}
+          secondaryButtons={section.secondaryButtons} />
       ))}
     </>
   );

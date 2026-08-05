@@ -3,7 +3,8 @@ import style    from "./bookingSteps.module.css";
 import Animated from "@/sharedComponents/animatedComponent/animated";
 import step1    from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_download_app_icon.webp";
 import Arrow    from "@/assets/images/ev-roadside-assistance-page/plusx_electric_arrow_icon.webp";
-import Map      from "@/assets/images/ev-roadside-assistance-page/plusx_electric_location_icon.webp";
+// import Map      from "@/assets/images/ev-roadside-assistance-page/plusx_electric_location_icon.webp";
+import location from "@/assets/images/landing-pages/rsa/Plusx_electric_charge_on_spot_icon.svg";
 import Driver   from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_Ev_driver_icon.webp";
 import Car      from "@/assets/images/ev-roadside-assistance-page/Plusx_electric_onsite_ev_charging_icon.webp";
 import RedirectToWhatsapp from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
@@ -48,7 +49,7 @@ function BookingSteps() {
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsImage}>
-              <Image src={Map} alt="PlusX Electric On-site charging" width={58} height={58} />
+              <Image src={location} alt="PlusX Electric On-site charging" width={58} height={58} />
             </div>
             <p className={style.steps}>On-site charging is done</p>
           </div>
@@ -71,9 +72,9 @@ function BookingSteps() {
               We have rescued 1,000+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
             </p>
             <div className={style.buttonContainer}>
-              <a href="tel:+971542796424">Call Now</a>
-              <RedirectToWhatsapp isShowIcon={false} text="Whatsapp" />
-              <CTAButton text="Open PlusX App" handler="appRedirect" />
+              <a href="tel:+971543061473">Call Now</a>
+              <RedirectToWhatsapp isShowIcon={false} text="Whatsapp" isRSA={true} />
+              <CTAButton text="Open PlusX App" handler="roadsidePage" />
             </div>
           </Animated>
         </div>

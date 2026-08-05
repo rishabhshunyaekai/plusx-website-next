@@ -12,6 +12,7 @@ import Brands       from "@/components/roadsideAssistance/brands/brands";
 import Offers       from "@/components/homepage/offers/offers";
 import DownloadApp  from "@/sharedComponents/downloadApp/downloadApp";
 import FAQ          from "@/components/roadsideAssistance/rsaFAQ/rsaFAQ";
+import StickyBar    from "@/sharedComponents/stickyBar/stickyBar";
 // import Connect      from "@/components/roadsideAssistance/connect/connect";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
@@ -271,6 +272,7 @@ function EVBreakdownAssistancePage() {
       <Offers />
       <DownloadApp />
       <FAQ />
+      <StickyBar />
       {/* <Connect /> */}
     </>
   )

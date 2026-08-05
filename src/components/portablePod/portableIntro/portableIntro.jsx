@@ -6,6 +6,7 @@ const introData = [
     content           : `Mobile EV charging in Dubai brings the charger to you, no queues, no detours, no wasted time. PlusX Electric delivers \na portable EV charger straight to your home, office, or parking spot, so your electric vehicle charges while you \nwork, sleep, or shop. Book an on-demand charge when you need it instantly, or schedule a \nsession at a time that fits your routine all through the PlusX Electric app.`,
     primaryButtons    : [
       {
+        type    : "cta",
         text    : "Download the App & Book",
         handler : "portablePage",
       },
