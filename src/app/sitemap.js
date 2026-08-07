@@ -15,13 +15,13 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-pickup-dropoff-charging-service`,
-      lastModified    : new Date("2026-08-04T05:44:30+01:00"),
+      lastModified    : new Date("2026-08-06T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
     {
       url             : `${baseUrl}public-ev-charging-stations`,
-      lastModified    : new Date("2026-08-04T05:44:30+01:00"),
+      lastModified    : new Date("2026-08-06T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -45,7 +45,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-breakdown-assistance`,
-      lastModified    : new Date("2026-08-04T05:44:30+01:00"),
+      lastModified    : new Date("2026-08-06T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },

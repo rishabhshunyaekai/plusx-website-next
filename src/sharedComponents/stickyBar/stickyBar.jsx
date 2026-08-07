@@ -1,50 +1,36 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link   from "next/link";
-import React  from "react";
-import styles from "./stickyBar.module.css";
-// import { BsWhatsapp }   from "react-icons/bs";
+import Link                 from "next/link";
+import styles               from "./stickyBar.module.css";
+import { TbPhoneCall }      from "react-icons/tb";
+import { BsWhatsapp }       from "react-icons/bs";
+import useScrollVisibility  from "@/hooks/useScrollVisibility";
 
-function MobileStickyBar() {
-  const [showBar, setShowBar] = useState(false);
-  const whatsappMessage       = `Hi PlusX Electric, I need emergency EV help in Dubai. Please assist.`;
+function StickyBarBottom({ title, content, counter, counterTitle, callBtnText, callNumber, whatsappBtnText, whatsappNumber, whatsappMessage}) {
+  const barRef = useScrollVisibility(styles.show);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const triggerPoint = window.innerHeight * 0.2;
-      setShowBar(window.scrollY >= triggerPoint);
-    };
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  if (!showBar) return null;
-  
   return (
-    <div className={styles.mobileStickyBar}>
+    <section ref={barRef} className={styles.mobileStickyBar}>
       <div className={styles.topRow}>
         <div>
-          <h4>Stranded right now?</h4>
-          <p>We charge your EV on the spot — no tow.</p>
+          <h4 className={styles.title}>{title}</h4>
+          <p className={styles.subTitle}>{content}</p>
         </div>
 
         <div className={styles.badge}>
-          <span>1000+</span>
-          <small>EVs Rescued</small>
+          <span className={styles.counter}>{counter}</span>
+          <small className={styles.badgeTitle}>{counterTitle}</small>
         </div>
       </div>
 
-      <div className={styles.buttons}>
-        <Link href="tel:+971543061473" className={styles.callBtn}>Call Now</Link>
-        <Link href={`https://api.whatsapp.com/send?phone=+971543061473&text=${whatsappMessage}`} target="__blank" className={`${styles.whatsappBtn}`} rel="noreferrer" id="whatsappIcon">
-          WhatsApp{/* <BsWhatsapp /> WhatsApp */}
+      <div className={styles.buttonContainer}>
+        <Link href={`tel:${callNumber}`} className={styles.callBtn}><TbPhoneCall /> {callBtnText}</Link>
+        <Link href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(whatsappMessage)}`} className={styles.whatsappBtn} target="_blank" rel="noreferrer">
+          <BsWhatsapp /> {whatsappBtnText}
         </Link>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default MobileStickyBar;
+export default StickyBarBottom;

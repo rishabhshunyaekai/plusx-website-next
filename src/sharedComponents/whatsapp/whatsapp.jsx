@@ -10,6 +10,23 @@ function Whatsapp() {
   const pathname                          = usePathname();
   const [isIconVisible, setIsIconVisible] = useState(false);
 
+  // Hide Component at specific routes
+  const HIDDEN_ROUTES = new Set([
+    "/ev-breakdown-assistance",
+    "/can-someone-bring-a-charge-to-my-ev-in-dubai",
+    "/dead-ev-in-a-dubai-basement-parking-garage",
+    "/ev-solutions-in-dubai",
+    "/emergency-ev-charging-in-dubai",
+    "/why-dubai-ev-owners-are-choosing-roadside-assistance-over-towing",
+    "/why-ev-owners-trust-plusx-electric-when-their-ev-battery-drains-on-dubai-roads",
+    "/how-to-take-care-of-your-ev-during-the-holidays",
+    "/why-ev-roadside-assistance-is-a-must-have-for-every-ev-owner",
+    "/top-ten-locations-in-dubai-where-ev-drivers-most-need-emergency-charging",
+    "/five-scenarios-where-ev-roadside-assistance-becomes-a-lifesaver",
+    "/why-every-dubai-ev-driver-should-know-about-plusx-electrics-roadside-rescue",
+  ]);
+  const shouldHide = HIDDEN_ROUTES.has(pathname);
+
   useEffect(() => {
     function handleScroll() {
       setIsIconVisible(window.scrollY > 100);
@@ -32,6 +49,10 @@ function Whatsapp() {
 
     return `https://api.whatsapp.com/send?phone=+971542796424&text=${encodeURIComponent(message)}`;
   }, [pathname]);
+
+  if (shouldHide) {
+    return null;
+  }
 
   return (
     <a target="_blank" className={`${style.whatsappIcon} ${isIconVisible ? style.show : ""}`} rel="noreferrer" id="whatsappIcon" href={whatsappUrl}>

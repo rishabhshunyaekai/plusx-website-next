@@ -112,6 +112,7 @@ export const testimonials = [
     metaTitle       : "Can Someone Bring a Charge to My EV in Dubai? How Mobile Rescue Works",
     metaDescription : "Dead EV battery in Dubai? Rental car at a hotel, parking garage, or stuck on Sheikh Zayed Road? Here's who brings a charge to you, how fast it arrives, and whether emergency charging is safe for your battery.",
     content         : mobileRescue,
+    stickyBar       : "roadside",
   },
   {
     slug            : "dead-ev-in-a-dubai-basement-parking-garage",
@@ -121,6 +122,7 @@ export const testimonials = [
     metaTitle       : "Dead EV in a Dubai Basement Parking Garage: Who to Call and What to Do",
     metaDescription : "Your EV won't start in a Dubai basement and tow trucks can't reach you. Here's exactly who to call, what to do, and how mobile EV rescue solves it on the spot.",
     content         : basementParking,
+    stickyBar       : "roadside",
   },
   {
     slug            : "how-to-find-the-nearest-public-ev-charging-station-in-dubai",
@@ -157,6 +159,7 @@ export const testimonials = [
     metaTitle       : "EV Solutions in Dubai | Complete Guide by PlusX Electric",
     metaDescription : "Explore EV solutions Dubai with this complete guide. Learn about EV charging, roadside assistance, home chargers, public charging, and EV insurance with PlusX Electric.",
     content         : eVSolution,
+    stickyBar       : "roadside",
   },
   {
     slug            : "what-is-portable-ev-charging-and-how-does-it-work-in-dubai",
@@ -193,6 +196,7 @@ export const testimonials = [
     metaTitle       : "Emergency EV Charging in Dubai | Fast Help When Battery Runs Low",
     metaDescription : "Running low on EV battery in Dubai? Discover how emergency EV charging offers fast, on-demand help to get you back on the road with services like PlusX Electric.",
     content         : emergencyEV,
+    stickyBar       : "roadside",
   },
   {
     slug            : "why-dubai-ev-owners-are-choosing-roadside-assistance-over-towing",
@@ -202,6 +206,7 @@ export const testimonials = [
     metaTitle       : "​Why Every EV Owner Should Choose EV Roadside Assistance",
     metaDescription : "Compare EV roadside assistance vs towing in Dubai. Discover why mobile charging is safer, faster, and more affordable with PlusX Electric support.",
     content         : towingContent,
+    stickyBar       : "roadside",
   },
   {
     slug            : "why-diesel-ev-chargers-are-not-the-eco-friendly-solution-dubai-needs",
@@ -220,6 +225,7 @@ export const testimonials = [
     metaTitle       : "EV Breakdown Dubai: Why Drivers Trust PlusX Electric",
     metaDescription : "EV breakdown Dubai due to low charge? PlusX Electric has rescued 1000+ EVs with an 87% success rate on-site charging, jump start & 12V support.",
     content         : trustPlusx,
+    stickyBar       : "roadside",
   },
   {
     slug            : "how-to-take-care-of-your-ev-during-the-holidays",
@@ -229,6 +235,7 @@ export const testimonials = [
     metaTitle       : "How to Take Care of Your EV During Holidays",
     metaDescription : "Learn how to protect your EV battery during holidays, avoid common mistakes, and get instant emergency EV charging support with PlusX Electric in Dubai.",
     content         : holiday,
+    stickyBar       : "roadside",
   },
   {
     slug            : "why-every-ev-owner-in-dubai-counts-on-plusx-electric",
@@ -301,6 +308,7 @@ export const testimonials = [
     metaTitle       : "Why EV roadside assistance is vital for every EV owner",
     metaDescription : "EV roadside assistance ensures safety, portable charging, and 24/7 expert help, making electric vehicle ownership stress-free and reliable in Dubai.",
     content         : owner,
+    stickyBar       : "roadside",
   },
   {
     slug            : "stuck-with-a-drained-ev-battery-heres-how-on-demand-charging-saves-the-day",
@@ -328,6 +336,7 @@ export const testimonials = [
     metaTitle       : "Top 10 Dubai Locations Needing EV Emergency Charging",
     metaDescription : "Discover the top 10 spots in Dubai where EV drivers face urgent charging needs, from Marina to DXB, and how on-demand solutions provide relief.",
     content         : locations,
+    stickyBar       : "roadside",
   },
   {
     slug            : "the-rise-of-evs-in-dubai-and-the-growing-need-for-smart-charging-solutions",
@@ -346,6 +355,7 @@ export const testimonials = [
     metaTitle       : "5 Scenarios Where EV Roadside Assistance in Dubai Helps",
     metaDescription : "Discover 5 real-life scenarios in Dubai where PlusX’s specialised EV roadside assistance provides fast, safe, and convenient charging solutions.",
     content         : fiveScenerio,
+    stickyBar       : "roadside",
   },
   {
     slug            : "ev-range-anxiety-is-real-here-how-plusx-emergency-ev-charging-pod-solves-it",
@@ -373,6 +383,7 @@ export const testimonials = [
     metaTitle       : "Dubai EV Emergency Service | 24/7 Roadside Charging by PlusX",
     metaDescription : "Stuck with a dead EV battery? Get Dubai’s fastest EV emergency service from PlusX Electric. Portable charging and expert roadside help anytime.",
     content         : everyDubai,
+    stickyBar       : "roadside",
   },
   {
     slug            : "the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview",
