@@ -112,6 +112,7 @@ function RootLayout({ children }) {
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+        <meta name="facebook-domain-verification" content="q1d0ku3b88336to250nv4d925v0cbv" />
         <GoogleTagManager gtmId={GTM_ID} />
       </head>
       <body>{children}</body>
