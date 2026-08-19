@@ -417,6 +417,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.7,
     },
+    {
+      url             : `${baseUrl}why-every-dubai-ev-driver-should-know-about-plusx-roadside-rescue`,
+      lastModified    : new Date("2026-08-19T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.7,
+    },
 
     {
       url             : `${baseUrl}about-us`,
