@@ -40,6 +40,7 @@ const nextConfig = {
       { source: '/the-rise-of-electric-vehicles-in-the-UAE-a-comprehensive-overview.html',            destination: '/the-rise-of-electric-vehicles-in-the-uae-a-comprehensive-overview',            permanent: true },
       { source: '/exploring-the-benefits-of-electric-vehicles-in-the-UAE-a-comprehensive-guide.html', destination: '/exploring-the-benefits-of-electric-vehicles-in-the-uae-a-comprehensive-guide', permanent: true },
       { source: '/electric-vehicle-leasing-and-renting-options-in-the-uae.html',                      destination: '/electric-vehicle-leasing-and-renting-options-in-the-uae',                      permanent: true },
+      { source: '/why-every-dubai-ev-driver-should-know-about-plusx-roadside-rescue',                 destination: '/why-every-dubai-ev-driver-should-know-about-plusx-electrics-roadside-rescue',  permanent: true },
     ];
   },
 };
