@@ -221,7 +221,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}what-to-do-when-your-ev-battery-dies-in-dubai`,
-      lastModified    : new Date("2026-03-25T05:44:30+01:00"),
+      lastModified    : new Date("2026-08-27T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },

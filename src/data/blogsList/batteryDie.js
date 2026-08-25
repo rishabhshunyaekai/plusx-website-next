@@ -6,52 +6,49 @@ const BASE_URL          = process.env.NEXT_PUBLIC_BASE_URL;
 export const batteryDie = [
   {
     type: "paragraph",
-    text: `Imagine running out of battery in your electric vehicle (EV) when you need it most. This can happen to anyone, even an experienced driver has to deal with issues like this. Whether you're parked at a shopping centre or on your daily commute, that dreaded low-battery warning can quickly turn into a full stop.`,
+    text: `Running out of charge happens to experienced EV drivers too. You misjudge the traffic on Sheikh Zayed Road, the air conditioning works harder than you expected, and the range estimate that looked comfortable at the start of the trip suddenly doesn't. Whether you're parked at a mall or halfway through your commute, that low-battery warning can turn into a full stop.`,
   },
   {
     type: "paragraph",
-    text: `If this is something that sounds relatable, a step-by-step guide will show you how to handle this situation when your EV battery dies. From staying safe in your surroundings to using on-demand <a href="https://plusxelectric.com/mobile-ev-charging-dubai" target="_blank" rel="noopener noreferrer"> doorstep EV charging</a> Dubai services like PlusX Electric, this guide covers everything to get moving again, without getting stuck on tow truck hassles.`,
+    text: `This guide walks through exactly what to do — how to work out whether it's really the battery, how far you can still drive once the display reads zero, what your recovery options are, and why towing an EV the wrong way can cost you far more than the charge you're missing. If you're stranded right now and need <a href="/ev-breakdown-assistance" target="_blank" rel="noopener noreferrer">EV breakdown assistance in Dubai</a>, skip to Step 4.`,
   },
   {
     type: "heading",
     level: 2,
-    text: "What to Do When Your EV Battery Dies? "
+    text: "Step 1: Pull Over Safely and Assess Your Surroundings"
   },
   {
     type: "paragraph",
-    text: "Let’s look at the steps that you must take when your EV battery dies"
+    text: "Don't panic, and don't wait for the car to decide where it stops"
+  },
+  {
+    type: "paragraph",
+    text: "If the vehicle is still moving, pull over to the hard shoulder or the nearest safe area while you still have power. An EV that stops in a live lane is far harder to recover than one that's already parked."
+  },
+  {
+    type: "paragraph",
+    text: "Switch on your hazard lights immediately."
+  },
+  {
+    type: "paragraph",
+    text: "Stay in the vehicle if you're on a highway. Getting out on the shoulder of a Dubai motorway is more dangerous than sitting inside with your hazards on."
+  },
+  {
+    type: "paragraph",
+    text: "Note your exact location — nearest exit number, landmark, or building — or drop a map pin. Recovery time depends almost entirely on how precisely you can describe where you are."
+  },
+  {
+    type: "paragraph",
+    text: "Check the dashboard before assuming it's the battery. A drained pack is only one of several reasons an EV stops."
   },
   {
     type: "heading",
     level: 2,
-    text: "Step 1: Breathe and Look Around Your Surroundings"
+    text: "Step 2: Work Out Whether It's the 12V Battery or the Main Pack"
   },
   {
-    headerText: `In the first step, remember not to panic and be cool.`,
-    type: "ul",
-    items: [
-      `If you are driving, you should pull over safely.`,
-      `Check the dashboard to confirm the issue is with the battery and not something else`,
-      `Understand your current location and any nearby landmarks, or consider marking a map pin to help you recall where to seek assistance.`,
-    ],
-  },
-  {
-    type: "heading",
-    level: 2,
-    text: "Step 2: Look for a Nearby Charging Station"
-  },
-  {
-    headerText: `Before seeking help, remember to check for nearby charging stations.`,
-    type: "ul",
-    items: [
-      `Need to charge on the go? You can check on apps like PlusX Electric, PlugShare, DEWA or Google Maps to find the <a href="/public-ev-charging-stations" target='_blank'>nearest EV charging station</a>.`,
-      `Think about simple questions and ask yourself:`,
-    ],
-    nestedList: [
-      `Can I make it there without getting stuck midway?`,
-      `Is the station available and functional?`
-    ],
-    footerText: `If the answer is no, it’s time to bring the charge to you.`,
+    type: "paragraph",
+    text: "This is the step most drivers skip, and it changes what help you actually need. Every electric car has two batteries: the high-voltage pack that drives the wheels, and a small 12V battery that powers the electronics and, crucially, wakes the car up. A dead 12V battery leaves you stranded even with a nearly full main pack."
   },
   {
     type: "ctaButton",
@@ -62,66 +59,140 @@ export const batteryDie = [
   },
   {
     type: "heading",
+    level: 3,
+    text: "Signs the main battery is empty:"
+  },
+  {
+    type: "ul",
+    items: [
+      `The car powers on normally and the dash lights up`,
+      `You saw a range countdown to zero, then warnings about reduced power`,
+      `The vehicle enters a limited-power or "turtle" mode before stopping`,
+      `Climate control and infotainment still work`,
+    ],
+  },
+  {
+    type: "heading",
+    level: 3,
+    text: "Signs the 12V battery is the problem:"
+  },
+  {
+    type: "ul",
+    items: [
+      `Nothing happens at all — no dash, no lights, no chime`,
+      `The key fob won't unlock the doors`,
+      `The charge port flap won't release`,
+      `The car was working fine yesterday with plenty of charge showing`,
+      `The car was working fine yesterday with plenty of charge showing`,
+    ],
+    footerText: `If it's the 12V, no amount of charging the main pack will help until the 12V is jump-started. A recovery service that only brings a charger will arrive and be unable to do anything — worth mentioning when you call.`,
+  },
+  {
+    type: "heading",
     level: 2,
-    text: "Step 3: Book an On-Demand Doorstep EV Charging Dubai Service with PlusX Electric"
+    text: "Step 3: How Far Can You Actually Drive at 0%?"
   },
   {
     type: "paragraph",
-    text: "What PlusX is offering is a total game-changer for EV drivers in Dubai. <br/> PlusX Electric offers citywide EV charging solutions. Instead of towing your car, their trained professionals make their way to your location to set up portable Level 2 chargers. Whether you're on a highway or simply forgot to charge the EV in a rush, we bring help to you wherever you are"
+    text: "Most EVs don't stop dead the moment the display reads zero. Manufacturers build in a small hidden reserve, and the car will usually enter a reduced-power mode that limits acceleration and top speed to stretch what's left. In practice that reserve is short — think a few kilometres at low speed, not a comfortable run across town — and it varies by model, temperature, and how you drive it."
   },
   {
-    headerText: `This is how it works:`,
+    headerText: `If you're in that window:`,
     type: "ul",
     items: [
-      `<strong>Step 1:</strong> Open the PlusX App <br/>Start by downloading the PlusX Electric app on your phone, then open it to get going. The app offers a simple interface that is designed to work faster.`,
-      `<strong>Step 2:</strong> Book an <a href="/ev-breakdown-assistance" target='_blank'>EV Roadside Assistance</a> <br/> Select the option of “EV Roadside Assistance”. Input all the details in the relevant fields, so that the support team knows where to reach you.`,
-      `<strong>Step 3:</strong> A Technician Is Dispatched Immediately <br/> After getting confirmation, a trained technician is dispatched to your current location. Most customers get assistance within 45 minutes or less, depending on your area and traffic conditions.`,
-      `<strong>Step 4:</strong> Get a Safe, On-the-Spot Battery Boost <br/> The technician will reach your destination with a portable Level 2 charging unit. PlusX provides your EV enough power to safely reach the nearest charging station or get home, without needing further assistance.`,
-      `<strong>Step 5:</strong> Drive Away without any Stress <br/> Once the charging is done, there will be no need to call multiple services or search for a charger. Just wait for your charge, and drive off safely after the vehicle is powered up.`,
+      `Reduce speed. Steady, slow driving uses far less energy than accelerating and braking.`,
+      `Switch off the air conditioning if it's safe to do so. In Dubai heat this is genuinely uncomfortable, but climate control is one of the largest non-drivetrain loads on the battery.`,
+      `Head for the nearest safe stopping point, not the nearest charger, unless the charger is clearly within reach.`,
+      `Don't try to squeeze the last kilometre out of it on a busy road. Stopping voluntarily in a safe spot is always better than stopping involuntarily in traffic.`,
     ],
   },
   {
     type: "heading",
     level: 2,
-    text: "Step 4: Consider Towing Support if All Else Fails"
+    text: "Step 4: Find a Charger — or Bring the Charge to You"
   },
   {
     type: "paragraph",
-    text: "PlusX covers most of Dubai. But if there's any temporary service delay or you're in a very remote area that's difficult to reach, towing may be your backup plan."
+    text: "Before arranging recovery, check what's nearby."
   },
   {
-    headerText: `In that case, use these options:`,
-    type: "ul",
-    items: [
-      `Your EV brand’s official roadside assistance.`,
-      `Your insurance provider’s emergency service.`,
-      `Dubai Police (901) for non-urgent towing help.`,
-    ],
-    footerText: `<strong>Note: </strong> EVs should always be transported using a flatbed tow truck to avoid drivetrain damage. Wheel lifts are a no-go.`,
+    type: "paragraph",
+    text: `Apps like PlusX Electric, DEWA and Google Maps will show the <a href="/public-ev-charging-stations" target="_blank" rel="noopener noreferrer">nearest EV charging station</a>.`
+  },
+  {
+    type: "paragraph",
+    text: `Then ask two honest questions: can I actually reach it without stopping midway, and is it available and working? Occupied bays, offline units and queues at peak times are among the <a href="/ev-charging-problems-dubai" target="_blank" rel="noopener noreferrer">most common EV charging problems in Dubai</a>, so don't assume a listed charger is a working one.`
+  },
+  {
+    type: "paragraph",
+    text: `If the answer to either is no, the alternative is on-site charging. A mobile unit comes to wherever you are and puts enough energy into the vehicle for you to drive to a charger or get home — no tow truck, no drivetrain risk, and you don't leave your car behind. This is what <a href="/ev-breakdown-assistance" target="_blank" rel="noopener noreferrer">EV roadside assistance</a> for electric vehicles should look like, and it's usually faster than arranging recovery.`
+  },
+  {
+    type: "paragraph",
+    text: "If the 12V battery is the culprit, you need a jump-start rather than a charge — make sure whoever you call can do both."
   },
   {
     type: "heading",
     level: 2,
-    text: `<a href="/the-future-of-electric-mobility-innovations-and-trends-in-the-uae" target='_blank'>The Future of Electric Mobility Innovations and Trends in the UAE</a>`
+    text: "Step 5: Consider Towing Only if Recovery Isn't Possible"
   },
   {
-    type: "heading",
-    level: 2,
-    text: "How to Avoid Getting Stuck in the Future with an EV"
+    headerText: `Towing is a fallback, not a first choice. If you're in a very remote area or on-site charging isn't available, your options are:`,
+    type: "ul",
+    items: [
+      `Your EV brand's official roadside assistance`,
+      `Your insurance provider's emergency service`,
+      `Dubai Police on 901 for non-urgent recovery`,
+    ],
+    footerText: `<strong>Critical:</strong> an electric vehicle must be transported on a flatbed. Wheel-lift towing — where two wheels stay on the road — turns the motor into a generator and can damage the drivetrain and power electronics. The repair bill dwarfs anything you'd have spent on a charge. Many general recovery operators still default to wheel lifts, so say it explicitly when you book: flatbed only.`,
   },
   {
     type: "paragraph",
-    text: "Being an EV owner, a little planning can go a long way.. Here are some simple steps you can take to maintain a healthy battery and avoid the sudden pressure of running out of charge:"
+    text: "Also check whether your car has a specific tow mode or transport procedure in the owner's manual. Several EVs require the vehicle to be woken and put into a neutral transport state before it can be loaded safely."
+  },
+  {
+    type: "heading",
+    level: 3,
+    text: "What Not to Do"
   },
   {
     type: "ul",
     items: [
-      `<strong>Keep your battery above 20%, especially during summer: </strong> <br/> Try to park the vehicle in a shady spot to avoid draining the battery quickly. Keep your charge above 20% which is perfect for your EV battery health and guarantees you'll never be cutting it close just when it matters.`,
-      `<strong>Set reminders for charging your EV: </strong> <br/> Most EVs can give alerts for battery lows. By using PlusX, you get reminders for a recharge or for booking valet charging a little before your usual time.`,
-      `<strong>Give PlusX subscription a try for the stress-free ride: </strong> <br/> For daily use, a PlusX plan can make everything better. With recurring charges, priority booking, and bundled valet or on-demand services, you’ll have peace of mind that a charge is always within reach.`,
-      `<strong>Live in a villa? Ask PlusX about installing a home charger: </strong> <br/> Installing a fixed EV charger at home is one of the most convenient long-term EV charging solutions. PlusX provides charger installation support, so you wake up to a fully charged car every morning.`,
-      `<strong>Going on a long trip? Schedule a valet charging service in advance: </strong> <br/> If you’ll be parked for hours at a mall, office, or airport, PlusX’s valet charging service can keep your vehicle powered while you’re away.`,
+      `<strong>Don't push the car :</strong> Most EVs won't release the parking brake or shift out of park without power, and pushing a heavy vehicle in traffic is dangerous.`,
+      `<strong>Don't accept a wheel-lift tow:</strong> See above.`,
+      `<strong>Don't try to "reset" the battery:</strong> There's no reset that restores charge — the pack needs energy put back into it.`,
+      `<strong>Don't stand behind the vehicle on a motorway shoulder</strong> while waiting.`,
+      `<strong>Don't repeatedly run the pack to zero:</strong> Deep discharges are hard on lithium-ion cells over time, and if the pack sits fully drained for a long period the damage can be permanent.`,
     ],
+  },
+  {
+    type: "heading",
+    level: 3,
+    text: "Why Dubai Makes This More Likely"
+  },
+  {
+    type: "paragraph",
+    text: "Range estimates are generally calculated under mild conditions, and Dubai isn't mild for much of the year. Sustained high ambient temperatures mean the air conditioning runs almost constantly, and the battery's own thermal management system draws power to keep the pack cool. Both come out of the same battery."
+  },
+  {
+    type: "paragraph",
+    text: "Highway speeds compound it — energy use rises sharply with speed, so a run out to Abu Dhabi or Hatta consumes range faster per kilometre than city driving. The practical effect is that a summer estimate of 60 km left may not behave like 60 km. Treat the last 20% as a buffer, not as usable range."
+  },
+  {
+    type: "heading",
+    level: 3,
+    text: "How to Avoid Getting Stuck Again"
+  },
+  {
+    type: "ul",
+    items: [
+      `<strong>Don't go below 20%, especially in summer:</strong> It protects long-term battery health and leaves you a real margin when traffic or heat eats into your estimate.`,
+      `<strong>Park in shade where you can:</strong> A cooler cabin means less energy spent pulling the temperature back down when you set off.`,
+      `<strong>Set a charging reminder:</strong> Most EVs will alert you at a low state of charge, but a habit-based reminder — same time each evening — is more reliable than reacting to a warning.`,
+      `<strong>Plan long trips around confirmed chargers:</strong> Check availability before you leave, and have a second option in mind. Chargers do go offline.`,
+      `<strong>If you live in a villa, a home charger removes the problem entirely:</strong> You leave every morning full, and low-battery situations stop happening. In the UAE, a home installation needs a DEWA-approved contractor to carry out the work.`,
+    ],
+    footerText: `Running the pack flat is only one of the habits that shortens battery life and leaves drivers stranded. Our service team has written up the <a href="/ev-battery-mistakes-dubai" target="_blank" rel="noopener noreferrer">9 EV battery mistakes we see every week in Dubai</a> — worth a read if you want to avoid a repeat.`
   },
   {
     type: "heading",
@@ -130,7 +201,7 @@ export const batteryDie = [
   },
   {
     type: "paragraph",
-    text: "A drained EV battery doesn’t have to derail your day in Dubai. Get help right where you are with PlusX Electric’s roadside and EV charging solutions. Whether you’re commuting or out and busy on errands, you’re never stuck. Stay charged. Stay confident. Drive electric, the Dubai way."
+    text: `A drained EV battery is an inconvenience, not a crisis — as long as you stop safely, work out which battery has failed, and avoid the one mistake that turns a flat pack into a repair bill: the wrong kind of tow. Most EV breakdowns in Dubai can be resolved where the car is standing, without recovery at all. If you're stranded and need help now, PlusX Electric provides <a href="/ev-breakdown-assistance" target="_blank" rel="noopener noreferrer">emergency EV charging and jump-start support across Dubai</a>, 24/7.`
   },
   {
     type: "heading",
@@ -145,26 +216,50 @@ export const batteryDie = [
       mainEntity: [
         {
           "@type" : "Question",
-          "name"  : "What happens when an EV battery runs out?",
+          "name"  : "Does running an EV battery to 0% damage it?",
           "acceptedAnswer": {
               "@type" : "Answer",
-              "text"  : "When your EV is out of battery, the vehicle will slow down and eventually stop. You’ll need roadside charging to get moving again."
+              "text"  : "A single full discharge is unlikely to cause lasting harm, but repeated deep discharges accelerate battery degradation. The bigger risk is leaving the pack fully drained for an extended period, which can damage cells permanently. Recharge as soon as you reasonably can."
           }
         },
         {
           "@type" : "Question",
-          "name"  : "How do I reset my EV battery?",
+          "name"  : "How far can an EV go after it hits 0%?",
           "acceptedAnswer": {
               "@type" : "Answer",
-              "text"  : "You can't manually reset a fully drained EV battery. It needs to be charged first. Once powered, the system will reboot and resume normal function."
+              "text"  : "Most Ev's include a small hidden reserve, and the car will drop into a reduced-power mode to extend it. It's typically short — a few kilometres at low speed — and it varies by model, temperature and driving style. Treat it as enough to reach a safe stopping point, not enough to reach a charger across town."
           }
         },
         {
           "@type" : "Question",
-          "name"  : "What vehicles can be charged with Doorstep EV Charging Dubai?",
+          "name"  : "Is it my 12V battery or the main battery?",
           "acceptedAnswer": {
               "@type" : "Answer",
-              "text"  : "From electric sedans to SUVs and even two-wheelers, Doorstep EV Charging supports most EV models hassle-free."
+              "text"  : "If the car is completely unresponsive — no dashboard, no lights, fob won't unlock the doors — it's almost certainly the 12V. If the car powers on normally but won't move or warned you about range before stopping, it's the main pack. The two need different fixes: a jump-start versus a charge."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Can you charge an electric car with a portable generator?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Technically possible with a suitable generator and the right cable, but it's slow, inefficient and not recommended. Generator power quality varies, and some onboard chargers will reject an unstable supply outright. A purpose-built mobile charging unit is a far better option."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Can I push my electric car to the side of the road?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "Usually not. Without power, most EVs keep the parking brake engaged and won't shift into neutral, and many need a specific procedure to release. Combined with the weight of the vehicle, pushing is both impractical and unsafe. Move the car while you still have charge instead."
+          }
+        },
+        {
+          "@type" : "Question",
+          "name"  : "Can an EV be towed like a normal car?",
+          "acceptedAnswer": {
+              "@type" : "Answer",
+              "text"  : "No. Electric vehicles should be transported on a flatbed. Wheel-lift towing spins the drive wheels while the motor is connected, which can damage the drivetrain and power electronics. Specify flatbed when you book recovery."
           }
         }
       ]
