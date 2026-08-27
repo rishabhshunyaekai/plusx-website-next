@@ -27,7 +27,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-charger-installation-uae`,
-      lastModified    : new Date("2026-07-08T05:44:30+01:00"),
+      lastModified    : new Date("2026-08-27T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },

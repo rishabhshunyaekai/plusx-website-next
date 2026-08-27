@@ -3,7 +3,7 @@ import Brand from "@/sharedComponents/brands/brands";
 function Brands() {
   const brandsData = {
     title       : "Supported Electric Vehicles",
-    description : `PlusX Electric supports EV charger installation across the UAE for more than 50 electric vehicle\n models, including Tesla, BYD, BMW, Mercedes-Benz EQ series, Nissan Leaf, \nAudi e-tron, and other leading EV brands.`,
+    description : `PlusX Electric installs chargers for more than 50 EV models on UAE roads, including Tesla, BYD, BMW, Mercedes-\nBenz EQ, Nissan, Audi e-tron, Porsche, Polestar, Lucid, Cadillac and Rolls-Royce.`,
   }
 
   return (

@@ -1,6 +1,7 @@
 import HeroImage    from "@/components/chargerInstallation/heroImage/heroImage";
 import Breadcrumbs  from "@/sharedComponents/breadCumb/breadCrumb";
 import Intro        from "@/components/chargerInstallation/chargerInstallationIntro/chargerInstallationIntro";
+import Achievement  from "@/components/chargerInstallation/acheivement/achievement";
 import Values       from "@/components/chargerInstallation/values/values";
 import WhyChoose    from "@/components/chargerInstallation/whyChoose/whyChoose";
 import Intro1       from "@/components/chargerInstallation/chargerInstallationIntro/rsaCTA";
@@ -20,8 +21,8 @@ import Faq          from "@/components/chargerInstallation/chargerFAQ/chargerFAQ
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
-  title         : "EV Charger Installation Dubai & UAE | PlusX Electric",
-  description   : "EV charger installation across Dubai & the UAE by PlusX Electric — DEWA-approved installers, AC & DC charger supply, fitting, testing, and warranty.",
+  title         : "DEWA Approved EV Charger Installation Dubai | PlusX",
+  description   : "DEWA-approved EV charger installation in Dubai & UAE. 450+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
       canonical : `${BASE_URL}/ev-charger-installation-uae`,
@@ -35,9 +36,9 @@ const ServiceSchema = {
   "@context"    : "https://schema.org",
   "@type"       : "Service",
   "@id"         : "https://plusxelectric.com/ev-charger-installation-uae#service",
-  "name"        : "EV Charger Installation in Dubai & UAE",
+  "name"        : "DEWA Approved EV Charger Installation Dubai",
   "serviceType" : "EV Charger Installation",
-  "description" : "End-to-end EV charger installation services in Dubai and across the UAE. PlusX Electric handles DEWA approvals, site assessment, AC and DC charger supply, installation, and testing for residential, commercial, and fleet properties.",
+  "description" : "DEWA-approved EV charger installation in Dubai & UAE. 450+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
   "url"         : `${BASE_URL}/ev-charger-installation-uae`,
   "provider": {
     "@type"     : "LocalBusiness",
@@ -194,6 +195,7 @@ function EVChargerInstallationPage() {
       <HeroImage />
       <Breadcrumbs />
       <Intro />
+      <Achievement />
       <Values />
       <WhyChoose />
       <Intro1 />

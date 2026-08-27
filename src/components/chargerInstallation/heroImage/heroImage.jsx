@@ -6,7 +6,7 @@ function ChargerInstallationHeroImage() {
     <section className={style.chargeShareBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.shareBannerContent}>
-          <h1 className={style.sharePrimaryText}>EV Charger Installation<br className={style.breakLine}/> in Dubai, UAE</h1>
+          <p className={style.sharePrimaryText}>EV Charger Installation<br className={style.breakLine}/> in Dubai, UAE</p>
            <p className={style.outlinerText}>AC & DC chargers for home, office & fleet</p>
            <RedirectToWhatsapp className={style.chargerButton} isShowIcon={false} text="Book Free Consultation" />
            {/* <p className={style.outlinerText}>All Types of <span className={style.highlight}>AC & DC</span> Chargers & Adapters Available</p>
