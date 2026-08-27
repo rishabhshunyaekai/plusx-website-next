@@ -25,12 +25,14 @@ function WhyChoose() {
               Why Choose PlusX Electric <br className={style.headingBreakLine} /> for EV Charger Installation?
             </h2>
 
+            <p className={style.para}>We are a DEWA-approved EV charging operator and handle the entire process, from site visit and installation to testing.</p>
+
             <ul className={style.keyPoint}>
               <li>Charger supply and installation bundled together</li>
               <li>Installation-only service if you already own a charger</li>
-              <li>An experienced team to help in AC and DC charger installation</li>
+              <li>An experienced team to help with AC and DC charger installation</li>
               <li>Expert consultation so you install the right charger for your EV and daily usage</li>
-              <li>Track your charger status and installation records on the PlusX App</li>
+              <li>Track your charger status and installation records on the PlusX app</li>
             </ul>
           </Animated>
 

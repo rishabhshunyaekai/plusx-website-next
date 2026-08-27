@@ -373,8 +373,8 @@ export const testimonials = [
     title           : "What to Do When Your EV Battery Dies in Dubai: A Step-by-Step Guide",
     image           : evBatteryDies,
     alt             : "EV Battery Dies in Dubai",
-    metaTitle       : "Fast EV Emergency Service in Dubai | Roadside Charging by PlusX",
-    metaDescription : "Out of charge? Get quick EV emergency service in Dubai with PlusX Electric. We deliver on-demand roadside charging to your location—no towing, no stress.",
+    metaTitle       : "EV Battery Died in Dubai? What to Do Step-by-Step | PlusX Electric",
+    metaDescription : "Your EV ran out of charge in Dubai? Here's what to do — how far you can still drive at 0%, whether it's the 12V or the main battery, when towing is needed, and how to get moving again.",
     content         : batteryDie,
   },
   {

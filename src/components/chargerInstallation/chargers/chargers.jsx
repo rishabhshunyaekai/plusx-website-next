@@ -52,11 +52,11 @@ function FilterChargers() {
   return (
     <section className="wrapper">
       <div className="container">
-        <SecondaryHeading title="Not Sure Which Charger You Need?" />
+        <SecondaryHeading title="Not Sure Which EV Charger You Need for Your EV?" />
 
         <Animated className="text-center" animation="fade" easing="ease-in" duration={1000}>
             <p className={style.content}>
-              Pick your EV and we&apos;ll recommend the right charger for you— based on your car&apos;s onboard charging capacity, typical daily<br className={style.breakline} /> range needs, and what your apartment building&apos;s power supply can handle.
+              Pick your EV and we&apos;ll recommend the right charger for you— based on your EV&apos;s onboard charging capacity, typical daily<br className={style.breakline} /> range needs, and what your apartment building&apos;s power supply can handle.
             </p>
         </Animated>
 
