@@ -93,8 +93,15 @@ textarea::placeholder {
   color: var(--color-secondary);
   padding: 10px 30px;
   border-radius: 10px;
+  letter-spacing: 2px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.formSubmit:hover {
+  background: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
+  box-shadow: 0 4px 10px var(--color-shadow);
 }
 
 .phoneInput {

@@ -5,9 +5,9 @@ const introData = [
     content : `Until your charger is installed, <a href="/ev-breakdown-assistance" target="_blank">24/7 EV breakdown assistance</a> covers you anywhere in Dubai.`,
     primaryButtons  : [
       {
-        type: "link",
+        type: "whatsapp",
         text: "24/7 EV Breakdown Assistance",
-        href: "/ev-breakdown-assistance",
+        // isRSA: true,
       },
     ]
   },

@@ -41,15 +41,16 @@
   padding: 15px;
   border-radius: 10px;
   font-size: 16px;
+  border: 2px solid var(--color-primary);
   width: fit-content;
   font-weight: 600;
 }
 
 .button:hover {
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   cursor: pointer;
-  box-shadow: 0 3px 4px var(--color-shadow);
+  border: 2px solid var(--color-secondary);
 }
 
 @media (max-width: 1200px) {

@@ -302,6 +302,12 @@ textarea::placeholder {
   cursor: pointer;
 }
 
+.formSubmit:hover {
+  background: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
+  box-shadow: 0 4px 10px var(--color-shadow);
+}
+
 .phoneInput {
   width: 100%;
   height: auto;
