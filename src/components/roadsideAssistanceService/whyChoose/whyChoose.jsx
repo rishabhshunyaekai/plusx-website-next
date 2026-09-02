@@ -27,7 +27,7 @@ function WhyChoose() {
 
             <ul className={style.keyPoint}>
               {/* <li>EV Specialists, Not Generic Mechanics</li>
-              <li>1000+ EVs Rescued Across Dubai</li>
+              <li>1,150+ EVs Rescued Across Dubai</li>
               <li>60-Minute Response Time (depending on your location)</li>
               <li>No Unnecessary Towing</li>
               <li>Instant Booking Through the App</li>
@@ -36,11 +36,11 @@ function WhyChoose() {
               {/* <li><Link href="/mobile-ev-charging-dubai" target="__blank" className={style.linkColor}>Mobile on-site EV charging</Link> units</li> */}
 
               <li><b>EV Specialists, Not Generic Mechanics —</b> Our technicians are trained specifically on electric vehicle systems, including high-voltage battery packs, 12V auxiliary diagnostics, and charge port troubleshooting across all major brands.</li>
-              <li><b>1000+ EVs Rescued Across Dubai —</b> Real experience with real breakdowns, not theoretical training. We&apos;ve handled dead batteries on Sheikh Zayed Road, 12V failures in JLT building parking, and stuck charge connectors in Palm Jumeirah villas.</li>
-              <li><b>60-Minute Response Time —</b> Depending on your location, our average dispatch-to-arrival time across 1000+ rescues is under 60 minutes.</li>
+              <li><b>1,150+ EVs Rescued Across Dubai —</b> Real experience with real breakdowns, not theoretical training. We&apos;ve handled dead batteries on Sheikh Zayed Road, 12V failures in JLT building parking, and stuck charge connectors in Palm Jumeirah villas.</li>
+              <li><b>60-Minute Response Time —</b> Depending on your location, our average dispatch-to-arrival time across 1,150+ rescues is under 60 minutes.</li>
               <li><b>No Unnecessary Towing —</b> We resolve the vast majority of breakdowns on-site with mobile charging or 12V jump-start. Towing is used only when on-site recovery is genuinely not feasible.</li>
               <li><b>Building Parking Access —</b>  Our vans fit in building parking garages where flatbed tow trucks cannot enter. We reach underground levels, podium parking, and multi-storey structures across Dubai.</li>
-              <li><b>Instant Booking Through the App —</b>  The PlusX Electric app is trusted by 11000+ EV drivers in the UAE. Book a rescue in under 60 seconds. <i>Transparent Pricing — From AED 185* + VAT</i> — No hidden fees. Your confirmed quote is shown in the app before dispatch.</li>
+              <li><b>Instant Booking Through the App —</b>  The PlusX Electric app is trusted by 12,300+ EV drivers in the UAE. Book a rescue in under 60 seconds. <i>Transparent Pricing — From AED 185* + VAT</i> — No hidden fees. Your confirmed quote is shown in the app before dispatch.</li>
               <li><b>Available 24/7, Every Day of the Year —</b>  Breakdowns don&apos;t follow business hours. Neither do we.</li>
             </ul>
 

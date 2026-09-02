@@ -18,7 +18,7 @@ import StickyBar    from "@/components/roadsideAssistance/mobileStickyBar/mobile
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "EV Roadside Assistance Dubai | Emergency EV Charging 24/7",
-  description   : "1000+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
+  description   : "1,150+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Roadside Assistance service", "On-demand EV roadside assistance service", "emergency ev charging service in dubai", "emergency ev roadside assistance"],
   alternates    : {
       canonical : `${BASE_URL}/ev-breakdown-assistance`,
@@ -28,7 +28,7 @@ export const metadata = {
    },
   openGraph     : {
     title       : "EV Roadside Assistance Dubai | Emergency EV Charging 24/7 | PlusX Electric",
-    description : "1000+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
+    description : "1,150+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
     url         : `${BASE_URL}/ev-breakdown-assistance`,
     type        : "website",
     siteName    : "PlusX Electric",
@@ -48,7 +48,7 @@ export const metadata = {
     card        : "summary_large_image",
     site        : "@plusxelectric",
     title       : "EV Roadside Assistance Dubai | Emergency EV Charging 24/7 | PlusX Electric",
-    description : "1000+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
+    description : "1,150+ EVs rescued across Dubai. We charge your EV on the spot — no tow. 12V jump-start included. EV breakdown assistance in 60 min*, from AED 185 + VAT.",
     images      : [
       {
         url : "https://plusxelectric.com/PlusX-Electric-EV-roadside-assistance-in-dubai.jpeg",
@@ -64,7 +64,7 @@ const structuredData = {
   "@id"           : "https://plusxelectric.com/ev-breakdown-assistance#service",
   "name"          : "EV Breakdown Assistance in Dubai",
   "alternateName" : [ "EV Roadside Assistance Dubai", "Electric Vehicle Rescue Dubai", "EV Emergency Service Dubai" ],
-  "description"   : "24/7 EV breakdown assistance in Dubai with on-site mobile charging and 12V jump-start service. PlusX Electric has rescued 1000+ electric vehicles across Dubai with a typical response time of 60 minutes. No unnecessary towing — we bring the charge to you.",
+  "description"   : "24/7 EV breakdown assistance in Dubai with on-site mobile charging and 12V jump-start service. PlusX Electric has rescued 1,150+ electric vehicles across Dubai with a typical response time of 60 minutes. No unnecessary towing — we bring the charge to you.",
   "url"           : `${BASE_URL}/ev-breakdown-assistance`,
   "serviceType"   : "Electric Vehicle Breakdown Assistance",
   "category"      : "Automotive Emergency Service",

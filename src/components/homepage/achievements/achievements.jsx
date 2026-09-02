@@ -16,7 +16,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={EvCarDriver} alt="EVs rescued with roadside assistance" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>1,000+</span>
+                <span className={`${style.counter}`}>1,150+</span>
                 <p className={`${style.title}`}>EVs Rescued  <br className={`${style.breakLine}`} />with RSA Service</p>
               </div>
             </div>
@@ -26,7 +26,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Booking} alt="EVs charged by PlusX power pod" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>11,000+</span>
+                <span className={`${style.counter}`}>12,300+</span>
                 <p className={`${style.title}`}>EVs Charged by  <br className={`${style.breakLine}`} />Power Pod</p>
               </div>
             </div>
@@ -36,7 +36,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Station} alt="EV chargers installed across UAE" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>450+</span>
+                <span className={`${style.counter}`}>520+</span>
                 <p className={`${style.title}`}>EV Chargers Installed Across UAE</p> 
                 {/* <br className={`${style.breakLine}`}UAE--> */}
               </div>

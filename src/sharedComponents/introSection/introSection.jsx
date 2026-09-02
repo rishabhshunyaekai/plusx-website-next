@@ -59,6 +59,12 @@ function IntroSection({ maintitle, title, content, additionalContent, additional
                       return (
                         <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
                       );
+
+                    case "custom-whatsapp":
+                      return (
+                        <Link key={index} href={button.href} className={style.links} target="_blank" rel="noopener noreferrer">{button.text}</Link>
+                      );
+                    
                     }
                 })}
               </div>

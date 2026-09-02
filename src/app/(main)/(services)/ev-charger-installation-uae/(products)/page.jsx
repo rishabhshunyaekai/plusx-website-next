@@ -22,7 +22,7 @@ import Faq          from "@/components/chargerInstallation/chargerFAQ/chargerFAQ
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "DEWA Approved EV Charger Installation Dubai | PlusX",
-  description   : "DEWA-approved EV charger installation in Dubai & UAE. 450+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
+  description   : "DEWA-approved EV charger installation in Dubai & UAE. 520+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "EV Charger installation services", "residential and commercial charger", "buy ev charger", "ev charger for home & offices", "ev charger supplier near me"],
   alternates    : {
       canonical : `${BASE_URL}/ev-charger-installation-uae`,
@@ -38,7 +38,7 @@ const ServiceSchema = {
   "@id"         : "https://plusxelectric.com/ev-charger-installation-uae#service",
   "name"        : "DEWA Approved EV Charger Installation Dubai",
   "serviceType" : "EV Charger Installation",
-  "description" : "DEWA-approved EV charger installation in Dubai & UAE. 450+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
+  "description" : "DEWA-approved EV charger installation in Dubai & UAE. 520+ chargers installed, free site survey, installation starts from AED 999, 1-year workmanship warranty.",
   "url"         : `${BASE_URL}/ev-charger-installation-uae`,
   "provider": {
     "@type"     : "LocalBusiness",

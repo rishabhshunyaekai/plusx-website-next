@@ -17,7 +17,7 @@ import Booking          from "@/assets/images/homepage/plusx_electric_EVs_Charge
 function Achievement() {
 
   const benefits = [
-    { icon: Station,      count: "450+ ",           text: "EV Chargers Installed Across UAE",     alt: "EV Chargers Installed Across UAE" },
+    { icon: Station,      count: "520+ ",           text: "EV Chargers Installed Across UAE",     alt: "EV Chargers Installed Across UAE" },
     { icon: Booking,      count: "AED 999",         text: "Charger Installation Service Starts",  alt: "Charger Installation Service Starts" },
     { icon: EvCarDriver,  count: "1-Year Warranty", text: "On All Installation Workmanship",      alt: "On All Installation Workmanship" },
   ];

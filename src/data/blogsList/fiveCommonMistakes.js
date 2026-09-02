@@ -18,7 +18,7 @@ export const fiveCommonMistakes = [
   },
   {
     type: "paragraph",
-    text: `After 450+ installs across Dubai, Abu Dhabi and the rest of the UAE — in villas, flats, townhouses, and a few homes where the power point was a long way from the car — we don't see these as one-off problems anymore. They are patterns. The same few mistakes come up in every emirate. And almost all of them happen before we arrive, usually in a car showroom, decided by someone whose job was to sell a car, not to think about how your home is wired.`,
+    text: `After 520+ installs across Dubai, Abu Dhabi and the rest of the UAE — in villas, flats, townhouses, and a few homes where the power point was a long way from the car — we don't see these as one-off problems anymore. They are patterns. The same few mistakes come up in every emirate. And almost all of them happen before we arrive, usually in a car showroom, decided by someone whose job was to sell a car, not to think about how your home is wired.`,
   },
   {
     type: "paragraph",
@@ -212,7 +212,7 @@ export const fiveCommonMistakes = [
   },
   {
     type: "paragraph",
-    text: "That is the difference 450 installs makes. We are not here to sell you the most powerful box on the shelf. We would rather spend ten minutes finding out what your car can actually take, how much power your home can spare in August, how far the cable has to go, and where the unit can sit out of the sun — and then build the install around those answers."
+    text: "That is the difference 520 installs makes. We are not here to sell you the most powerful box on the shelf. We would rather spend ten minutes finding out what your car can actually take, how much power your home can spare in August, how far the cable has to go, and where the unit can sit out of the sun — and then build the install around those answers."
   },
   {
     type: "paragraph",
@@ -291,9 +291,9 @@ export const fiveCommonMistakes = [
         "@context": "https://schema.org",
         "@type": "Article",
 
-        "headline": "5 Common Mistakes People Make When Installing an EV Charger: What We've Seen After 450 Installations",
+        "headline": "5 Common Mistakes People Make When Installing an EV Charger: What We've Seen After 520 Installations",
         "name": "5 EV Charger Installation Mistakes to Avoid | PlusX Electric",
-        "description": "After 450+ EV charger installations across the UAE, discover the five most common installation mistakes—including choosing the wrong charger size, inadequate electrical capacity, incorrect cabling, missing safety isolation, and poor charger placement—and learn how to avoid them.",
+        "description": "After 520+ EV charger installations across the UAE, discover the five most common installation mistakes—including choosing the wrong charger size, inadequate electrical capacity, incorrect cabling, missing safety isolation, and poor charger placement—and learn how to avoid them.",
         "image": `${BASE_URL}${blogImage.src}`,
 
         "author": {
@@ -351,7 +351,7 @@ export const fiveCommonMistakes = [
         "about": {
           "@type": "Thing",
           "name": "Common EV Charger Installation Mistakes in the UAE",
-          "description": "A practical guide based on more than 450 EV charger installations explaining how to choose the correct charger, assess home electrical capacity, select proper cabling, ensure electrical safety, and install chargers in suitable outdoor locations."
+          "description": "A practical guide based on more than 520 EV charger installations explaining how to choose the correct charger, assess home electrical capacity, select proper cabling, ensure electrical safety, and install chargers in suitable outdoor locations."
         },
 
         "isPartOf": {

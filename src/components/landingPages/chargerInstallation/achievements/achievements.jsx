@@ -16,7 +16,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={EvCarDriver} alt="Chargers Installed Across UAE" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>450+</span>
+                <span className={`${style.counter}`}>520+</span>
                 <p className={`${style.title}`}>Chargers Installed  <br className={`${style.breakLine}`} />Across UAE</p>
               </div>
             </div>
@@ -26,7 +26,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Booking} alt="EV Owners Served" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>11000+</span>
+                <span className={`${style.counter}`}>12,300+</span>
                 <p className={`${style.title}`}>EV Owners <br className={`${style.breakLine}`} />Served</p>
               </div>
             </div>
@@ -36,7 +36,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={Station} alt="CPO Approved" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                {/* <span className={`${style.counter}`}>450+</span> */}
+                {/* <span className={`${style.counter}`}>520+</span> */}
                 <p className={`${style.title}`}>CPO Approved</p> 
                 {/* <br className={`${style.breakLine}`}UAE--> */}
               </div>

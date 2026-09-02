@@ -40,6 +40,8 @@ const customStyles = {
     // boxShadow: "2px 4px 10px rgba(0, 0, 0, 0.322)",
     cursor: "pointer",
     outline: "none",
+    boxShadow: "none",
+    borderColor: "#00b26b",
     '&:hover': {
       borderColor: "#00b26b",
     },

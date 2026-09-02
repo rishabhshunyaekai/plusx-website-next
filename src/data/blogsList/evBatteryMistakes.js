@@ -12,7 +12,7 @@ export const batteryMistakes = [
   },
   {
     type: "paragraph",
-    text: `At PlusX Electric, our team has serviced more than 6,800 electric vehicles across Dubai. Teslas, BYDs, Polestars, Mercedes EQs, and almost every other EV on UAE roads. That gives us something most battery guides don't have: a pattern. The same preventable problems arrive at our workshop week after week, and most of them have nothing to do with the battery technology itself. They come from habits.`,
+    text: `At PlusX Electric, our team has serviced more than 12,300 electric vehicles across Dubai. Teslas, BYDs, Polestars, Mercedes EQs, and almost every other EV on UAE roads. That gives us something most battery guides don't have: a pattern. The same preventable problems arrive at our workshop week after week, and most of them have nothing to do with the battery technology itself. They come from habits.`,
   },
   {
     type: "paragraph",
@@ -233,7 +233,7 @@ export const batteryMistakes = [
         "@type"       : "Article",
         "headline"    : "9 EV Battery Mistakes Dubai Drivers Make: Guide by PlusX Electric",
         "name"        : "9 EV Battery Mistakes Dubai Drivers Make | PlusX Electric",
-        "description" : "After servicing 6,800+ electric vehicles across Dubai, these are the 9 EV battery-killing habits our team see most and how to fix each one before it costs you range.",
+        "description" : "After servicing 12,300+ electric vehicles across Dubai, these are the 9 EV battery-killing habits our team see most and how to fix each one before it costs you range.",
         "image"       : `${BASE_URL}${blogImage.src}`,
 
         "author"      : {
