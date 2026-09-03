@@ -116,7 +116,7 @@ export const driverKnowRSRescue = [
   },
   {
     type: "paragraph",
-    text: `PlusX Electric has rescued over 1,000 electric vehicles across Dubai, and the approach is deliberately narrow: bring enough charge to the vehicle to get it moving again, jump-start the 12V where that is the fault, and avoid towing wherever it can be avoided. Coverage, response times and pricing are set out on the <a href="/ev-breakdown-assistance" target="_blank">EV breakdown assistance page</a>.`
+    text: `PlusX Electric has rescued over 1,150+ electric vehicles across Dubai, and the approach is deliberately narrow: bring enough charge to the vehicle to get it moving again, jump-start the 12V where that is the fault, and avoid towing wherever it can be avoided. Coverage, response times and pricing are set out on the <a href="/ev-breakdown-assistance" target="_blank">EV breakdown assistance page</a>.`
   },
   {
     type: "heading",

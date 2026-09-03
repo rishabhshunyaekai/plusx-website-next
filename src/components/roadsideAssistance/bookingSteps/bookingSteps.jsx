@@ -69,7 +69,7 @@ function BookingSteps() {
         <div className="text-center">
           <Animated animation="fade" easing="ease-in" duration={1000}>
             <p className={style.bookingStepsFooter}>
-              We have rescued 1,000+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
+              We have rescued 1,150+ EVs across Dubai and, based on our service records, typically reach customers within 60 minutes. Arrival <br className={style.footerBreakline}/>time may vary depending on location, traffic, weather, service availability, and other unforeseen conditions.
             </p>
             <div className={style.buttonContainer}>
               <a href="tel:+971543061473">Call Now</a>

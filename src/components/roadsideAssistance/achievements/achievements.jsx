@@ -18,7 +18,7 @@ function Achievements() {
             <div className={`${style.content}`}>
               <Image src={EvCarDriver} alt="PlusX Electric EVs rescued with roadside assistance" width={65} height={65} />
               <div className={`${style.innerContent}`}>
-                <span className={`${style.counter}`}>1,000+</span>
+                <span className={`${style.counter}`}>1,150+</span>
                 <p className={`${style.title}`}>EVs Rescued  <br className={`${style.breakLine}`} />across Dubai</p>
               </div>
             </div>

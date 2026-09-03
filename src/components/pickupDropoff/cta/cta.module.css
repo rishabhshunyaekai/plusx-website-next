@@ -43,9 +43,10 @@
 }
 
 .chargerButton:hover {
-  background-color: var(--color-background);
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   cursor: pointer;
+  border: 2px solid var(--color-secondary);
 }
 
 @media (max-width: 1200px) {

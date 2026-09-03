@@ -4,7 +4,7 @@ function MobileStickyBar() {
   const data = {
     title           : `Stranded right now?`,
     content         : `We charge your EV on the spot — no tow.`,
-    counter         : `1000+`,
+    counter         : `1,150+`,
     counterTitle    : `EVs Rescued`,
     callBtnText     : `Call Now`,
     callNumber      : `+971543061473`,

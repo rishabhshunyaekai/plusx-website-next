@@ -14,15 +14,15 @@ const content        = ``;
 const valuesCardData = [
   {
     icon: EVCharge,
-    text: <><b>10000+ EVs Charged</b> <br /> Via Mobile/portable chargers</>,
+    text: <><b>12,300+ EVs Charged</b> <br /> Via Mobile/portable chargers</>,
   },
   {
     icon: CarRepair,
-    text: <><b>1000+ EVs Rescued</b> <br /> Drained Battery & Jump-Start Support </>,
+    text: <><b>1,150+ EVs Rescued</b> <br /> Drained Battery & Jump-Start Support </>,
   },
   {
     icon: Residential,
-    text: <><b>450+ Chargers Installed</b> <br /> Across Villas, apartments, commercial buildings, warehouses</>,
+    text: <><b>520+ Chargers Installed</b> <br /> Across Villas, apartments, commercial buildings, warehouses</>,
   },
   {
     icon: Swapped,

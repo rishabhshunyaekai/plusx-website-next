@@ -45,6 +45,12 @@
   border: none;
 }
 
+.backToHome:hover {
+  background: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
+  box-shadow: 0 4px 10px var(--color-shadow);
+}
+
 @media (max-width: 992px) {
   .thankyouImage {
     width: 120px;

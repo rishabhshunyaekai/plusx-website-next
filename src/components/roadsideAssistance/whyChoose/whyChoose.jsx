@@ -26,7 +26,7 @@ function WhyChoose() {
             </h2>
 
             <ul className={style.keyPoint}>
-              <li>1,000+ EVs rescued across Dubai</li>
+              <li>1,150+ EVs rescued across Dubai</li>
               <li>Charged on the spot — up to 10 kWh delivered where your car stands, no tow</li>
               <li>12V jump-start on site — the cause of roughly half the breakdowns we attend</li>
               <li>EV specialists, not general mechanics</li>
