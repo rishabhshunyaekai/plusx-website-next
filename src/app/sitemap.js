@@ -3,13 +3,13 @@ export default function sitemap() {
   return [
     {
       url             : baseUrl,
-      lastModified    : new Date("2026-06-17T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 1,
     },
     {
       url             : `${baseUrl}mobile-ev-charging-dubai`,
-      lastModified    : new Date("2026-07-17T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -27,7 +27,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-charger-installation-uae`,
-      lastModified    : new Date("2026-08-27T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -45,7 +45,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-breakdown-assistance`,
-      lastModified    : new Date("2026-08-06T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -57,7 +57,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-charge-share`,
-      lastModified    : new Date("2026-07-08T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -221,7 +221,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}what-to-do-when-your-ev-battery-dies-in-dubai`,
-      lastModified    : new Date("2026-08-27T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },
@@ -401,13 +401,13 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-battery-mistakes-dubai`,
-      lastModified    : new Date("2026-07-21T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },
     {
       url             : `${baseUrl}ev-charger-installation-mistakes-uae`,
-      lastModified    : new Date("2026-07-26T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },
