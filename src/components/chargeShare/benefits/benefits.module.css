@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .reverse {
@@ -63,7 +63,7 @@
 }
 
 .listItem p {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--color-text);
   line-height: 1.5;
 }
@@ -75,14 +75,14 @@
 
 .imageWrapper img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 20px;
   object-fit: cover;
 }
 
 .footerText {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--color-text);
 }
 
@@ -115,7 +115,7 @@
   }
 
   .subText {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .listItem h4 {
@@ -123,6 +123,10 @@
   }
 
   .listItem p {
-    font-size: 13px;
+    font-size: 15px;
+  }
+
+  .footerText {
+    font-size: 15px;
   }
 }

@@ -1,6 +1,6 @@
-import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
-import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
-import blogImage        from '@/assets/images/homepage/blogs/plusx_electric_ev_battery_die.webp';
+import RSADesktop from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_desktop_banner.webp";
+import RSAMobile  from "@/assets/images/homepage/blogs/banners/plusx_electric_ev_rsa_mobile_banner.webp";
+import blogImage  from '@/assets/images/homepage/blogs/plusx_electric_ev_battery_die.webp';
 
 const BASE_URL          = process.env.NEXT_PUBLIC_BASE_URL;
 export const batteryDie = [
@@ -54,8 +54,8 @@ export const batteryDie = [
     type: "ctaButton",
     action: "portablePage",
     alt: "On Demand Doorstep EV Chargering in Dubai",
-    desktop: portableDesktop,
-    mobile: portableMobile
+    desktop: RSADesktop,
+    mobile: RSAMobile
   },
   {
     type: "heading",
