@@ -1,6 +1,7 @@
 import ProductDetails from "@/sharedComponents/productDetails/productDetails";
 import { notFound }   from "next/navigation";
 import { chargers }   from "@/data/listOfProducts";
+import { generateProductSchema } from "@/utils/generateProductSchema";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export async function generateStaticParams() {
@@ -37,6 +38,9 @@ async function ChargersDetailsPage({ params }) {
   const product         = chargers.find((item) => item.slug === slugs);
 
   if (!product) return notFound();
+  const productUrl    = `${BASE_URL}/ev-charger-installation-uae/ac-dc-ev-chargers/${product.slug}`;
+  const imageUrl      = typeof product.image === "string" ? product.image : `${BASE_URL}${product.image.src}`;
+  const productSchema = generateProductSchema(product, productUrl, imageUrl);
 
   const similarProducts = chargers.filter((item) => item.slug !== slugs);
   const breadCrumbList = {
@@ -72,6 +76,7 @@ async function ChargersDetailsPage({ params }) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <ProductDetails product={product} similarProducts={similarProducts} type="chargers" />;
     </>

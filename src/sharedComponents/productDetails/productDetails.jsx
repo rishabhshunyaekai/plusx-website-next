@@ -4,6 +4,7 @@ import { usePathname }            from "next/navigation";
 import MultipleImage              from "./multipleImage/multipleImage";
 import Breadcrumbs                from "../breadCumb/breadCrumb";
 import Intro                      from "./intro/intro";
+import IntroDisclaimer            from "./intro/introDisclaimer";
 import SimiliarProduct            from "./similiarProduct/similiarProduct";
 import Features                   from "./features/features";
 import Offers                     from "@/components/homepage/offers/offers";
@@ -20,7 +21,7 @@ function ProductDetails({product, similarProducts, type}) {
       <Breadcrumbs isHideForMobile={true}/>
       <Intro product={product.introData} />
       <Features product={product.features} />
-      {disclaimer && <Intro product={disclaimer} />}
+      {disclaimer && <IntroDisclaimer product={disclaimer} />}
       <SimiliarProduct product={similarProducts} url={redirectPath} />
       <Offers />
       <DownloadApp />

@@ -1,43 +1,125 @@
-import { Fragment }     from "react";
 import Link             from "next/link";
 import style            from "./introSectionProduct.module.css";
 import Animated         from "@/sharedComponents/animatedComponent/animated";
 import MainHeading      from "../heading/mainHeading";
 import SecondaryHeading from "../heading/secondaryHeading";
+import CTAButton        from "../ctaButton/ctaButton";
+import RedirectToWhatsapp from "../whatsapp/RedirectToWhatsapp";
 
-function IntroSection({ title, content, additionalContent, secondTitle, showButton=false, buttonText, link }) {
+function IntroSection({ maintitle, title, content, additionalContent, additionalContent2, additionalContent3, secondTitle, secondaryContent, extraContent, extraContent1,
+  primaryButtons = [], secondaryButtons = [], }) {
+
   return (
-    <section className={style.introProduct}>
-      <div className={`container flex flex-col ${additionalContent && "gap-4"}`}>
+    <section className={style.introSection}>
+      <div className={`container flex flex-col ${secondaryContent && "gap-4"}`}>
         <div>
-          { title &&  <MainHeading title={title} /> }
+          {maintitle && <MainHeading title={maintitle} />}
+          {title && <SecondaryHeading title={title} />}
 
-          <div className="flex flex-col gap-4 pb-8">
+          <div className={`flex flex-col ${additionalContent && "gap-4"} pb-8`}>
+
             <Animated animation="fade" easing="ease-in" duration={1000}>
-              <p className={style.introDescription}>
-                {content.split('\n').map((line, index) => <Fragment key={index}>{line}<br className={style.breakLine}/></Fragment>)}
-              </p>
+              <RenderText text={content} className={style.introDescription} />
             </Animated>
-          </div>
-        </div>
 
-        <div>
-          { secondTitle && <SecondaryHeading title={secondTitle} /> }
-
-          <div className="flex flex-col gap-4">
-            { additionalContent && (
+            {additionalContent && (
               <Animated animation="fade" easing="ease-in" duration={1000}>
-                <p className={style.introDescription}>
-                  {additionalContent.split('\n').map((line, index) => <Fragment key={index}>{line}<br className={style.breakLine}/></Fragment>)}
-                </p>
+                <RenderText text={additionalContent} className={style.introDescription} />
               </Animated>
             )}
+
+            {additionalContent2 && (
+              <Animated animation="fade" easing="ease-in" duration={1000}>
+                <RenderText text={additionalContent2} className={style.introDescription} />
+              </Animated>
+            )}
+
+            {additionalContent3 && (
+              <Animated animation="fade" easing="ease-in" duration={1000}>
+                <RenderText text={additionalContent3} className={style.introDescription} />
+              </Animated>
+            )}
+
+            {primaryButtons.length > 0 && (
+              <div className={style.buttonConatiner}>
+                {primaryButtons.map((button, index) => {
+                  switch (button.type) {
+                    case "link":
+                      return (
+                        <Link key={index} href={button.href} className={style.links}>{button.text}</Link>
+                      );
+
+                    case "whatsapp":
+                      return (
+                        <RedirectToWhatsapp key={index} className={style.links} text={button.text} isRSA={button.isRSA} />
+                      );
+
+                    case "cta":
+                    default:
+                      return (
+                        <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
+                      );
+
+                    case "custom-whatsapp":
+                      return (
+                        <Link key={index} href={button.href} className={style.links} target="_blank" rel="noopener noreferrer">{button.text}</Link>
+                      );
+                    
+                    }
+                })}
+              </div>
+            )}
+
           </div>
         </div>
-        
-        {showButton && (
-          <div className={`${style.buttonConatiner}`}>
-            <Link to={`${link}`} className={style.links}>{buttonText}</Link>
+
+        <div>
+          {secondTitle && <SecondaryHeading title={secondTitle}  className="mt-10" />}
+
+          <div className="flex flex-col gap-4">
+
+            {secondaryContent && (
+              <Animated animation="fade" easing="ease-in" duration={1000}>
+                <RenderText text={secondaryContent} className={style.introDescription} />
+              </Animated>
+            )}
+
+            {extraContent && (
+              <Animated animation="fade" easing="ease-in" duration={1000}>
+                <RenderText text={extraContent} className={style.introDescription} />
+              </Animated>
+            )}
+
+            {extraContent1 && (
+              <Animated animation="fade" easing="ease-in" duration={1000}>
+                <RenderText text={extraContent1} className={style.introDescription} />
+              </Animated>
+            )}
+
+          </div>
+        </div>
+
+        {secondaryButtons.length > 0 && (
+          <div className={style.buttonConatiner}>
+            {secondaryButtons.map((button, index) => {
+              switch (button.type) {
+                case "link":
+                  return (
+                    <Link key={index} href={button.href} className={style.links}>{button.text}</Link>
+                  );
+
+                case "whatsapp":
+                  return (
+                    <RedirectToWhatsapp key={index} className={style.links} text={button.text} isRSA={button.isRSA} />
+                  );
+
+                case "cta":
+                default:
+                  return (
+                    <CTAButton key={index} className={style.links} text={button.text} handler={button.handler} />
+                  );
+                }
+            })}
           </div>
         )}
       </div>
@@ -46,3 +128,11 @@ function IntroSection({ title, content, additionalContent, secondTitle, showButt
 }
 
 export default IntroSection;
+
+function RenderText({ text, className }) {
+    if (!text) return null;
+
+    return (
+      <p className={className} dangerouslySetInnerHTML={{ __html: text }} /> // style={{ whiteSpace: "pre-line" }}
+    );
+  };
