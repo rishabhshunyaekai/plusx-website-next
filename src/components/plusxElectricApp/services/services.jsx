@@ -1,0 +1,55 @@
+import styles           from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard.module.css";
+import OtherServiceCard from "@/sharedComponents/landingPagesComponents/otherServices/otherServiceCard";
+import SecondaryHeading from "@/sharedComponents/heading/secondaryHeading";
+import PortablePod      from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_mobile_ev_charging_service.webp";
+import Roadside         from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_ev_breakdown_assistance_service.webp";
+import Insurance        from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_ev_insurance_service.webp";
+import Pickup           from "@/assets/images/landing-pages/brands-logo/ServicesImage/Plusx_electric_pickup_dropoff_service.webp";
+
+const services = [
+  {
+    title       : "Portable Charging Pod",
+    description : "Delivered to Your Doorstep. Anytime, Anyplace.",
+    imgSrc      : PortablePod,
+    buttonText  : "Know More",
+    link        : "/mobile-ev-charging-dubai"
+  },
+  {
+    title       : "EV Roadside Assistance",
+    description : "Emergency Charging Service Delivered Within 45 Mins",
+    imgSrc      : Roadside,
+    buttonText  : "Know More",
+    link        : "/ev-breakdown-assistance"
+  },
+  {
+    title       : "EV Insurance",
+    description : "Buy or Renew EV Insurance in Minutes",
+    imgSrc      : Insurance,
+    buttonText  : "Know More",
+    link        : "/ev-car-insurance"
+  },
+  {
+    title       : "Pick Up & Drop Off",
+    description : "We'll pick up your car, charge it & drop it back within 3 hrs!",
+    imgSrc      : Pickup,
+    buttonText  : "Know More",
+    link        : "/ev-pickup-dropoff-charging-service"
+  },
+];
+
+function OtherServices() {
+  return (
+    <section className={styles.section}>
+      <div className="container">
+        <SecondaryHeading title="Other Services" />
+        <div className={styles.gridContainer}>
+          {services.map((service, index) => (
+            <OtherServiceCard key={index} {...service} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default OtherServices;

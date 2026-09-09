@@ -85,6 +85,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.9,
     },
+    {
+      url             : `${baseUrl}plusx-electric-app`,
+      lastModified    : new Date("2026-09-10T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
 
 
 
