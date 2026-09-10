@@ -1,5 +1,8 @@
-// import Image                from "next/image";
-import style                from "./heroImage.module.css";
+import Image      from "next/image";
+import style      from "./heroImage.module.css";
+import appStore   from "@/assets/images/homepage/Plusx_electric_ios_app_store_download_image_icon.svg";
+import playStore  from "@/assets/images/homepage/Plusx_electric_google_play_app_download_image_icon.svg";
+import { APPLE_STORE_URL, PLAY_STORE_URL } from "@/utils/helper";
 // import policybazaar         from "@/assets/images/ev-insurance-page/Plusx_electric_policy_bazaar_logo.svg";
 // import RedirectToWhatsapp   from "@/sharedComponents/whatsapp/RedirectToWhatsapp";
 
@@ -9,10 +12,18 @@ function PlusXElectricAppHero() {
       <div className={`container ${style.container}`}>
         <div className={style.appContent}>
           <h1>
-            <span className={style.appPrimaryText}>One APP for Every <br /> EV Owner in Dubai</span><br/>
-            <p>Charging, insurance, roadside support, installation and more. <br />All your EV needs, in one app. Built for a cleaner, smarter,<br /> more connected Dubai.</p>
+            <span className={style.appPrimaryText}>One App For Every <br /> EV Owner In Dubai</span><br/>
+            <p className={style.appText}>Charging, insurance, roadside support, installation and more. <br />All your EV needs, in one app. Built for a cleaner, smarter,<br /> more connected Dubai.</p>
             {/* <span className={style.appSecondaryText}>Seamless EV Insurance Powered by</span> */}
           </h1>
+          <article className={style.infoLinks}>
+            <a href={APPLE_STORE_URL} target="__blank">
+              <Image src={appStore} alt="App Store" width={135} height={40}/>
+            </a>
+            <a href={PLAY_STORE_URL} target="__blank">
+              <Image src={playStore} alt="Play Store" width={135} height={40}/>
+            </a>
+          </article>
           {/* <Image className={style.image} src={policybazaar} alt="policybazaar" width={350} height={50}/>
           <RedirectToWhatsapp className={style.appButton} isShowIcon={true} text="Chat with us"/> */}
         </div>

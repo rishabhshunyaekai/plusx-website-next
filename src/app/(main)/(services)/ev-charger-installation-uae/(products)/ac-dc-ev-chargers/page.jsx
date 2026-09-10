@@ -12,8 +12,8 @@ import FAQ          from "@/components/chargerList/faq/faq";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
-  title         : "AC & DC EV Chargers for Homes, Villas, Apartments & Workspaces",
-  description   : "Explore AC & DC EV chargers from PlusX Electric for homes, villas, apartments, workspaces, businesses and commercial charging setups.",
+  title         : "AC & DC EV Chargers in UAE | Home, Villa & Commercial Charging – PlusX Electric",
+  description   : "Shop AC and DC EV chargers in the UAE from AED 900. Home, villa, apartment and commercial options — CE & ISO certified, 3-year warranty.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "AC & DC EV Chargers", "portable ac ev charger", "portable ac 7kw ev charger", "wall charger 22kw", "movable dc charger 20kw",
   //                  "wallbox dc charger" ],
   alternates    : {

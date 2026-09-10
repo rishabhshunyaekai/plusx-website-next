@@ -1,7 +1,7 @@
 import HeroImage      from "@/components/plusxElectricApp/heroImage/heroImage";
 import Breadcrumbs    from "@/sharedComponents/breadCumb/breadCrumb";
+import Values         from "@/components/plusxElectricApp/values/values";
 import CTASection     from "@/components/plusxElectricApp/ctaSection/ctaSection";
-import WhyChoose      from "@/components/plusxElectricApp/whyChoose/whyChoose";
 import Services       from "@/components/plusxElectricApp/services/services";
 import Offers         from "@/components/homepage/offers/offers";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
@@ -44,9 +44,9 @@ function PlusxElectricAPP() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
       <Breadcrumbs />
-      <CTASection />
-      <WhyChoose />
+      <Values />
       <Services />
+      <CTASection />
       <Offers />
       <DownloadApp />
     </>

@@ -1,5 +1,5 @@
 import mobileApp  from "@/assets/images/homepage/Plusx_electric_mobile_app_homepage_image.webp";
-import AppSection from "@/sharedComponents/appSection/appSection";
+import AppSection from "./appSection/appSection";
 
 function ctaSection() {
   const cta = {
