@@ -1,14 +1,14 @@
 import Image     from "next/image";
-import style     from "./serviceIconCard.module.css";
+import style     from "./valueCard.module.css";
 import Animated  from "@/sharedComponents/animatedComponent/animated";
 
-function ServiceIconCard({ iconSrc, heading, text, alt }) {
+function ValueIconCard({ iconSrc, heading, text, alt }) {
   return (
     <Animated className={`${style.cardContainer}`} animation="fade" easing="ease-in" duration={1000}>
-      <div className={style.serviceIcon}>
+      <div className={style.valueIcon}>
         <Image src={iconSrc} alt={alt} width={60} height={60} />
       </div>
-      <div className={style.serviceText}>
+      <div className={style.valueText}>
         {heading && (<h3 className={style.cardTitle}>{heading}</h3>)}
         {text && (<p className={style.cardContent}>{text}</p>)}
       </div>
@@ -16,4 +16,4 @@ function ServiceIconCard({ iconSrc, heading, text, alt }) {
   );
 }
 
-export default ServiceIconCard;
+export default ValueIconCard;

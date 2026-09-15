@@ -46,6 +46,22 @@ function FAQ() {
                 "@type" : "Answer",
                 "text"  : "Every PlusX EV charger comes with a 3-year manufacturer warranty, one year of complimentary roadside assistance, and one free preventive maintenance visit within the first year. "
             }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "Can I install a DC fast charger at my business or commercial site in the UAE?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "Yes. PlusX DC fast chargers (20kW–120kW) are designed for malls, hotels, fleet depots, and public charging sites across the UAE, with OCPP compatibility and RFID-based access control for site operators. Our team can recommend the right power output based on your site's expected traffic and power supply."
+            }
+        },
+        {
+            "@type" : "Question",
+            "name"  : "How much does an EV charger cost in the UAE?",
+            "acceptedAnswer": {
+                "@type" : "Answer",
+                "text"  : "AC home chargers in the PlusX range start at AED 900, with wall-mounted 7kW–22kW options up to roughly AED 2,400. DC fast chargers for commercial and fleet use start at AED 22,000 and go up to around AED 86,500 for 120kW high-power units. Final pricing depends on charger model and whether professional installation is included."
+            }
         }
     ]
   }

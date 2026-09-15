@@ -17,6 +17,38 @@ export const metadata = {
     },
 };
 
+const categorySchema = {
+  "@context"    : "https://schema.org/",
+  "@type"       : "CollectionPage",
+  "name"        : "EV Charger Accessories | Wall Mount Brackets, Adapters & Carry Bags",
+  "description" : "Explore EV charger accessories, including durable wall mount brackets, universal adapters, and protective carry bags for portable EV chargers.",
+  "url"         : `${BASE_URL}/ev-charger-installation-uae/ev-accessories`,
+  "isPartOf"    : {
+    "@type"     : "WebSite",
+    "name"      : "PlusX Electric",
+    "url"       : `${BASE_URL}/`
+  },
+  "mainEntity"        : {
+    "@type"           : "ItemList",
+    "name"            : "EV Charger Accessories & Adapters",
+    "numberOfItems"   : 2,
+    "itemListElement" : [
+      {
+        "@type"   : "ListItem",
+        "position": 1,
+        "url"     : `${BASE_URL}/ev-charger-installation-uae/ev-accessories/wall-mount-bracket-for-portable-ev-charger`,
+        "name"    : "Wall Mount Bracket for Portable EV Charger"
+      },
+      {
+        "@type"   : "ListItem",
+        "position": 2,
+        "url"     : `${BASE_URL}/ev-charger-installation-uae/ev-accessories/carry-bag-for-portable-ev-charger`,
+        "name"    : "Carry Bag for Portable EV Charger"
+      }
+    ]
+  }
+}
+
 const breadCrumbList = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -45,6 +77,7 @@ const breadCrumbList = {
 function EVAccessoriesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(categorySchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumbList) }} />
       <HeroImage />
       <Breadcrumbs />

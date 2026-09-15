@@ -99,7 +99,7 @@ export const chargers = [
     id: "evc-003",
     name: "Wall Charger AC 7KW",
     slug: "Wall Charger AC 7KW".toLowerCase().replace(/\s+/g, "-"),
-    price: "1199 AED",
+    price: "1299 AED",
     previousPrice: "1499 AED",
     image: WallChargerAC,
     description: "The PlusX Wall Charger AC 7kW – Type 2 offers safe, reliable, and easy EV charging at home or the workplace. It is weather-resistant and fully compatible with all GCC electric vehicles.",

@@ -58,7 +58,7 @@ function FilterChargers() {
 
         <Animated className="text-center" animation="fade" easing="ease-in" duration={1000}>
             <p className={style.content}>
-              Pick your EV and we&apos;ll recommend the right charger for you— based on your car&apos;s onboard charging capacity, typical daily <br className={style.breakline} /> range needs, and what your apartment building&apos;s power supply can handle.
+              Pick your EV and we&apos;ll recommend the right AC or DC charger for you, based on your EV&apos;s onboard charging capacity, <br className={style.breakline} />daily range needs, and your building&apos;s power supply in the UAE.
             </p>
         </Animated>
 
