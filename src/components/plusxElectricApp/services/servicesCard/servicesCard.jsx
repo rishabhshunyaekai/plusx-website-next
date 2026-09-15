@@ -6,7 +6,7 @@ function ServiceCard({ title, description, imgSrc, buttonText, link }) {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <h3 className={styles.cardTitle}>{title}</h3>
+        <Link href={link} className={styles.cardTitle}>{title}</Link>
         {description && (<p className={styles.cardDescription}>{description}</p>)}
         {buttonText && (<Link href={link} className={styles.button}>{buttonText}</Link>)}
       </div>

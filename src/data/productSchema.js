@@ -130,7 +130,7 @@ export const productSchema = [
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-7kw",
       priceCurrency: "AED",
-      price: "1199",
+      price: "1299",
       priceValidUntil: "REPLACE_WITH_DATE",
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",

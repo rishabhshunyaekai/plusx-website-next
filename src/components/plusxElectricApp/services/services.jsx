@@ -15,50 +15,50 @@ const services = [
     description : "On-demand charging where you are.",
     imgSrc      : PortablePod,
     // buttonText  : "Know More",
-    // link        : "/mobile-ev-charging-dubai"
+    link        : "/mobile-ev-charging-dubai"
   },
   {
     title       : "EV Roadside Assistance",
     description : "Quick help, whenever you need it.",
     imgSrc      : Roadside,
     // buttonText  : "Know More",
-    // link        : "/ev-breakdown-assistance"
+    link        : "/ev-breakdown-assistance"
   },
   {
     title       : "Charger Installation",
     description : "Professional home and business installation.",
     imgSrc      : Charger,
     // buttonText  : "Know More",
-    // link        : "/ev-charger-installation-uae"
+    link        : "/ev-charger-installation-uae"
   },
   {
     title       : "Buy AC & DC Chargers",
     description : "Shop trusted chargers for home and business.",
     imgSrc      : BuyCharger,
     // buttonText  : "Know More",
-    // link        : "/ev-charger-installation-uae/ac-dc-ev-chargers"
+    link        : "/ev-charger-installation-uae/ac-dc-ev-chargers"
   },
   {
     title       : "EV Insurance",
     description : "Get tailored insurance for your EV.",
     imgSrc      : Insurance,
     // buttonText  : "Know More",
-    // link        : "/ev-car-insurance"
+    link        : "/ev-car-insurance"
   },
   {
     title       : "Public Charging Stations",
-    description : "Find and navigate charging stations across Dubai.",
+    description : "Find and navigate charging stations across UAE.",
     imgSrc      : Charging,
     // buttonText  : "Know More",
-    // link        : "/public-ev-charging-stations"
+    link        : "/public-ev-charging-stations"
   },
   {
     title       : "List Your Private Chargers",
-    description : "Earn by sharing your chargers with the EV community.",
+    description : "List or Find Private Chargers Near You",
     imgSrc      : Share,
     // buttonText  : "Know More",
-    // link        : "/ev-charge-share"
-  },
+    link        : "/ev-charge-share"
+  }
 ];
 
 function OtherServices() {
