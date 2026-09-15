@@ -1,4 +1,4 @@
-import SecondaryHeading   from "@/sharedComponents/heading/secondaryHeading";
+import MainHeading        from "@/sharedComponents/heading/mainHeading";
 import ValueIconCard      from "./valueCard/valueCard";
 import EVCharge           from "@/assets/images/ev-charger-installation-page/plusx_eletric_ev_charger_icon.svg";
 import Booking            from "@/assets/images/homepage/plusx_electric_EVs_Charged_by_Power_POD_icon.svg";
@@ -52,7 +52,7 @@ function Values() {
   return (
     <section className={`wrapper`}>
       <div className={`container`}>
-        <SecondaryHeading title={"Why Every EV Owner in Dubai Should Have \nthe PlusX Electric App"} />
+        <MainHeading title={"Why Every EV Owner in Dubai Should Have \nthe PlusX Electric App"} />
         <p className={`text-center mb-6!`}>More convenience. More support. A smarter EV experience</p>
         <div className={`grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-3`}>
           {valuesCardData.map((value, index) => {

@@ -11,13 +11,13 @@ function PlusXElectricAppHero() {
     <section className={style.appBanner}>
       <div className={`container ${style.container}`}>
         <div className={style.appContent}>
-          <h1>
+          <div>
             <div className={style.appPrimaryText}>One App For Every <br className={style.breakLine} /> 
               <div className={style.highlightedText}>EV Owner In Dubai</div>
             </div>
             <p className={style.appText}>Charging, insurance, roadside support, installation and more. <br className={style.breakLine} />All your EV needs, in one app. Built for a cleaner, smarter,<br className={style.breakLine} /> more connected Dubai.</p>
             {/* <span className={style.appSecondaryText}>Seamless EV Insurance Powered by</span> */}
-          </h1>
+          </div>
           <article className={style.infoLinks}>
             <a href={APPLE_STORE_URL} target="__blank">
               <Image src={appStore} alt="App Store" width={135} height={40}/>
