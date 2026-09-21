@@ -5,6 +5,7 @@ import CTASection     from "@/components/plusxElectricApp/ctaSection/ctaSection"
 import Services       from "@/components/plusxElectricApp/services/services";
 import Offers         from "@/components/homepage/offers/offers";
 import DownloadApp    from "@/sharedComponents/downloadApp/downloadApp";
+import Faqs           from "@/components/plusxElectricApp/faq/faq";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
@@ -116,6 +117,7 @@ function PlusxElectricAPP() {
       <CTASection />
       <Offers />
       <DownloadApp />
+      <Faqs />
     </>
   )
 }
