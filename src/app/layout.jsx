@@ -58,7 +58,7 @@ const localBusinessSchema = {
   "description" : "PlusX Electric provides mobile EV charging in Dubai. Get a Portable Power Pod delivered to your home, office, or parking location — on-demand or scheduled through the PlusX Electric app.",
   "telephone"   : "+971542796424",
   "email"       : "admin@plusxelectric.com",
-  "priceRange"  : "AED 65+",
+  "priceRange"  : "starting from AED 109 + vat",
   "address"     : {
     "@type"           : "PostalAddress",
     "streetAddress"   : "D55-PBU, Dubai Production City",

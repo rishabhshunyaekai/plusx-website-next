@@ -28,7 +28,7 @@ function PortablePodFaqs() {
             "name"  : "Is there a call-out fee for mobile EV charging in Dubai?",
             "acceptedAnswer": {
                 "@type" : "Answer",
-                "text"  : "Yes. PlusX Electric charges AED 65 + VAT for delivering the Portable Power Pod to your location."
+                "text"  : "Yes. PlusX Electric charges starting from AED 109 + VAT for delivering the Portable Power Pod to your location."
             }
         },
         {

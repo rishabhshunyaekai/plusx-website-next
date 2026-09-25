@@ -54,7 +54,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `Instead of driving somewhere to charge, a mobile EV charging service brings the charger to you, wherever your car is parked: your apartment building, your villa driveway, an office car park, or any spot without a fixed charger nearby. With PlusX Electric, you can book a Portable Power Pod from AED 65, on demand or scheduled, and our team arrives and charges your car on the spot.`
+    text: `Instead of driving somewhere to charge, a mobile EV charging service brings the charger to you, wherever your car is parked: your apartment building, your villa driveway, an office car park, or any spot without a fixed charger nearby. With PlusX Electric, you can book a Portable Power Pod starting from AED 109 + VAT, on demand or scheduled, and our team arrives and charges your car on the spot.`
   },
   {
     type: "paragraph",
@@ -66,7 +66,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `Not sure where you would charge? <a href="/mobile-ev-charging-dubai" target="__blank">Book a Portable Power Pod</a> from AED 65 and let the charger come to you.`
+    text: `Not sure where you would charge? <a href="/mobile-ev-charging-dubai" target="__blank">Book a Portable Power Pod</a> starting from AED 109 + VAT and let the charger come to you.`
   },
   {
     type: "ctaButton",
@@ -285,7 +285,7 @@ export const chargerOptions = [
           "name"  : "Do I need to install a home charger to own an EV?",
           "acceptedAnswer": {
               "@type" : "Answer",
-              "text"  : "No, a home charger is convenient but not essential. If you live in an apartment or cannot install one, mobile EV charging brings a Portable Power Pod to your car from AED 65, so you can own an EV comfortably without a fixed charger."
+              "text"  : "No, a home charger is convenient but not essential. If you live in an apartment or cannot install one, mobile EV charging brings a Portable Power Pod to your car starting from AED 109 + VAT, so you can own an EV comfortably without a fixed charger."
           }
         },
         {
@@ -293,7 +293,7 @@ export const chargerOptions = [
           "name"  : "How much does it cost to charge or install an EV charger in Dubai?",
           "acceptedAnswer": {
               "@type" : "Answer",
-              "text"  : "Mobile charging starts at AED 65 per call-out, and home charger installation starts from AED 999 depending on the charger and cable run. PlusX supplies a DEWA-compliant charger, fits it to code with a DEWA-approved team, and backs the work with a one-year workmanship warranty, plus a three-year warranty on the charger when you buy it through PlusX."
+              "text"  : "Mobile charging starting from AED 109 + VAT per call-out, and home charger installation starts from AED 999 depending on the charger and cable run. PlusX supplies a DEWA-compliant charger, fits it to code with a DEWA-approved team, and backs the work with a one-year workmanship warranty, plus a three-year warranty on the charger when you buy it through PlusX."
           }
         },
         {

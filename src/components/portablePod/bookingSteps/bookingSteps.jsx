@@ -18,7 +18,7 @@ function BookingSteps() {
                 How to Book EV Charging in Dubai
               </h2>
               {/* <br className={style.headingBreakline}/> */}
-              <p className={style.bookingStepsSubHeading}><strong>It is easy to book the EV charging at home Dubai <br className={style.headingBreakline}/>with PlusX Electric.</strong></p>
+              <p className={style.bookingStepsSubHeading}><strong>It is easy to book the EV charging at home in Dubai <br className={style.headingBreakline}/>with PlusX Electric.</strong></p>
             </Animated>
           </div>
 

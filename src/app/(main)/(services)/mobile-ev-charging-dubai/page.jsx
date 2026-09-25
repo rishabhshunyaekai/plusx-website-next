@@ -1,6 +1,7 @@
 import PortableHeroImage  from "@/components/portablePod/portableHeroImage/portableHeroImage";
 import Breadcrumbs        from "@/sharedComponents/breadCumb/breadCrumb";
 import PortableIntro      from "@/components/portablePod/portableIntro/portableIntro";
+import ChargingPackages   from "@/components/portablePod/packages/packages";
 import Scenarios          from "@/components/portablePod/scenarios/scenarios";
 import CTAIntro           from "@/components/portablePod/portableIntro/ctaIntro";
 import WhyChoose          from "@/components/portablePod/whyChoose/whyChoose";
@@ -17,7 +18,7 @@ import Faqs               from "@/components/portablePod/portablePodFAQ/portable
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const metadata = {
   title         : "Mobile EV Charging Dubai | Charge at Your Location",
-  description   : "Book mobile EV charging in Dubai at AED 65 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking , on-demand or scheduled via app.",
+  description   : "Book mobile EV charging in Dubai starting from AED 109 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking , on-demand or scheduled via app.",
   // keywords      : ["plusx", "plusxelectric", "plusx electric", "doorstep EV charging Dubai", "portable EV charging", "home EV charging", "on demand ev charging service in dubai", "doorstep ev charging service", "fast electric chargers near me"],
   alternates    : {
     canonical   : `${BASE_URL}/mobile-ev-charging-dubai`,
@@ -27,7 +28,7 @@ export const metadata = {
   },
   openGraph     : {
     title       : "Mobile EV Charging Dubai | Charge at Your Location | PlusX",
-    description : "Book mobile EV charging in Dubai from AED 65 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
+    description : "Book mobile EV charging in Dubai starting from AED 109 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
     url         : `${BASE_URL}/mobile-ev-charging-dubai`,
     type        : "website",
     siteName    : "PlusX Electric",
@@ -47,7 +48,7 @@ export const metadata = {
     card        : "summary_large_image",
     site        : "@plusxelectric",
     title       : "Mobile EV Charging Dubai | Charge at Your Location | PlusX",
-    description : "Book mobile EV charging in Dubai from AED 65 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
+    description : "Book mobile EV charging in Dubai starting from AED 109 + VAT. PlusX Electric delivers a portable charger to your home, office, or parking — on-demand or scheduled via app.",
     images      : [
       {
         url : "https://plusxelectric.com/PlusX-Electric-EV-charging-services-Dubai.jpeg",
@@ -84,11 +85,11 @@ const ServiceSchema = {
     "@type"         : "Offer",
     "name"          : "Mobile EV Charging Call-Out",
     "description"   : "Call-out fee for delivering the Portable Power Pod to your location in Dubai. Additional charging costs are shown in the app at booking.",
-    "price"         : "65",
+    "price"         : "109",
     "priceCurrency" : "AED",
     "priceSpecification": {
       "@type"                 : "PriceSpecification",
-      "price"                 : "65",
+      "price"                 : "109",
       "priceCurrency"         : "AED",
       "valueAddedTaxIncluded" : false,
     },
@@ -150,8 +151,9 @@ function PortableChargerPage() {
       <PortableHeroImage />
       <Breadcrumbs />
       <PortableIntro />
-      <Scenarios />
+      <ChargingPackages />
       <CTAIntro />
+      <Scenarios />
       <WhyChoose />
       <OtherCTA />
       <BookingSteps />

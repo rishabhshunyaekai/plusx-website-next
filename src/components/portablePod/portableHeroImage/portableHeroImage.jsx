@@ -8,10 +8,10 @@ function PortableHeroImage() {
       <div className={`${style.container} container`}>
         <Animated className={`${style.heading}`} animation="fade" easing="ease-in" duration={1000}>
           <h1>
-            <span className={style.slug}>Mobile EV Charging in Dubai</span><br/>
-            <span className={style.slug2}>Charge at Your Location</span>
+            <span className={style.slug}>Mobile & Portable Charging</span><br/>
+            <span className={style.slug2}>Delivered right to your doorstep</span>
           </h1>
-          <p className={style.priceLine}>At just AED 65 + VAT</p>
+          {/* <p className={style.priceLine}>At just AED 65 + VAT</p> */}
           <CTAButton className={style.ctaButton} text="BOOK NOW" handler="portablePage" />
         </Animated>
       </div>
