@@ -423,6 +423,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.7,
     },
+    {
+      url             : `${baseUrl}home-ev-charger-installation-checklist`,
+      lastModified    : new Date("2026-09-30T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.7,
+    },
 
     {
       url             : `${baseUrl}about-us`,

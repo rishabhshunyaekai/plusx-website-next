@@ -75,7 +75,7 @@ function Packages() {
         </Animated>
       </section>
 
-      <div className="container">
+      <div className="wrapper">
         <div className={styles.buttonContainer}>
           <CTAButton className={styles.ctaButton} text="Book via App" handler="portablePage" />
           <RedirectToWhatsapp className={styles.ctaButton} isShowIcon={false} text="Enquire via WhatsApp"/>
@@ -129,36 +129,3 @@ function Packages() {
 }
 
 export default Packages;
-
-
-
-// export default function ChargingPackages() {
-//   return (
-//     <section className={`wrapper`}>
-//         <Animated className="container" animation="fade" easing="ease-in" duration={1000}>
-//              <div className="text-center">
-//                  <SecondaryHeading title={`Choose Your Mobile EV Charging Package`} />
-//                  <p>Select the charging package that fits your requirement and book directly through the PlusX Electric app.</p>
-//              </div>
-//             <div className={styles.cardWrapper}>
-//                 {packages.map((item) => (
-//                     <div className={styles.card} key={item.id}>
-//                         <h3 className={styles.chargingType}>{item.title}</h3>
-//                         <p className={styles.chargingDesc}>{item.description}</p>
-
-//                         <div className={styles.priceRow}>
-//                             <span>Charging Fee</span>
-//                             <strong>{item.chargingFee}</strong>
-//                         </div>
-
-//                         <div className={styles.priceRow}>
-//                             <span>Service Fee</span>
-//                             <strong>{item.serviceFee}</strong>
-//                         </div>
-//                     </div>
-//                 ))}
-//                 </div>
-//         </Animated>
-//     </section>
-//   );
-// }

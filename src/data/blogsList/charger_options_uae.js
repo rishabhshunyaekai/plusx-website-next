@@ -16,7 +16,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `At PlusX Electric, we have charged more than 6,800 EVs across Dubai, so the picture below is not theory. It is what we see drivers actually use every day. Here is a clear, no-jargon look at every charging solution available, so you can buy your first EV knowing exactly how you will keep it running.`,
+    text: `At PlusX Electric, we have charged more than 12,300+ EVs across Dubai, so the picture below is not theory. It is what we see drivers actually use every day. Here is a clear, no-jargon look at every charging solution available, so you can buy your first EV knowing exactly how you will keep it running.`,
   },
   {
     type: "paragraph",
@@ -255,7 +255,7 @@ export const chargerOptions = [
   },
   {
     type: "paragraph",
-    text: `That is the gap PlusX was built to close. We offer all four of these solutions — mobile home charging, public charging support, home charger installation, and roadside EV charging assistance — in one place. As a DEWA-approved provider that has already serviced more than 6,800 EVs across the UAE, our aim is straightforward: make charging your car something you barely have to think about.`
+    text: `That is the gap PlusX was built to close. We offer all four of these solutions — mobile home charging, public charging support, home charger installation, and roadside EV charging assistance — in one place. As a DEWA-approved provider that has already serviced more than 12,300+ EVs across the UAE, our aim is straightforward: make charging your car something you barely have to think about.`
   },
   {
     type: "paragraph",
