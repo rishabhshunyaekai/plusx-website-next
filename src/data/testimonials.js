@@ -36,6 +36,7 @@ import MobileRescue                   from "@/assets/images/homepage/blogs/plusx
 import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx_electric_ev_battery_mistakes_in_dubai.webp";
 import commonMistakes                 from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
 import optionsCharging                from "@/assets/images/homepage/blogs/plusx_electric_charging_options.webp";
+import afterBeforeInstallating        from "@/assets/images/homepage/blogs/plusx_electric_ev_charger_installation_checked.webp";
 // import rsRescue                       from "@/assets/images/homepage/blogs/plusx_electric_driver_know_roadside_rescue.webp";
  
 //Blog content pages
@@ -77,8 +78,18 @@ import { batteryMistakes }    from "@/data/blogsList/evBatteryMistakes";
 import { fiveCommonMistakes } from "@/data/blogsList/fiveCommonMistakes";
 import { chargerOptions }     from "@/data/blogsList/charger_options_uae";
 import { driverKnowRSRescue } from "@/data/blogsList/driver_know_rs_rescue";
+import { homeEVChargers }     from "@/data/blogsList/afterBefore";
 
 export const testimonials = [
+  {
+    slug            : "home-ev-charger-installation-checklist",
+    title           : "What to Check Before, During and After Installing a Home EV Charger",
+    image           : afterBeforeInstallating,
+    alt             : "EV charger installation UAE",
+    metaTitle       : "Home EV Charger Installation Checklist: Before, During, After",
+    metaDescription : "A home EV charger checklist for UAE villas and apartments: what to check before the site survey, on installation day and in the weeks after handover.",
+    content         : homeEVChargers,
+  },
   {
     slug            : "ev-charging-options-uae",
     title           : "What Charging Options Are Available for EV Owners in the UAE?",

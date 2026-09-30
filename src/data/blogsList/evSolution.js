@@ -169,7 +169,7 @@ export const eVSolution = [
   },
   {
     type: "paragraph",
-    text: "Power Pods are available on demand, starting at AED 65 as a service fee. Charging costs are billed separately based on usage."
+    text: "Power Pods are available on demand, starting from AED 109 + VAT as a service fee. Charging costs are billed separately based on usage."
   },
   {
     type: "paragraph",

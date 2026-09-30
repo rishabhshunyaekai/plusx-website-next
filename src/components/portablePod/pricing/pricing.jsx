@@ -7,7 +7,7 @@ const pricingData = [
   {
     icon  : OnDemand,
     title : "On Demand",
-    price : "Book Power Pod for just AED 65",
+    price : "Book Power Pod starting from AED 109 + VAT",
   },
   {
     icon  : Monthly,

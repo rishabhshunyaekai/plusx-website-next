@@ -3,13 +3,13 @@ export default function sitemap() {
   return [
     {
       url             : baseUrl,
-      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-30T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 1,
     },
     {
       url             : `${baseUrl}mobile-ev-charging-dubai`,
-      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-30T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -197,7 +197,7 @@ export default function sitemap() {
     
     {
       url             : `${baseUrl}blog`,
-      lastModified    : new Date("2026-03-25T05:44:30+01:00"),
+      lastModified    : new Date("2026-09-30T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },
@@ -420,6 +420,12 @@ export default function sitemap() {
     {
       url             : `${baseUrl}ev-charging-options-uae`,
       lastModified    : new Date("2026-07-28T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.7,
+    },
+    {
+      url             : `${baseUrl}home-ev-charger-installation-checklist`,
+      lastModified    : new Date("2026-09-30T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.7,
     },
