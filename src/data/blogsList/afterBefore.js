@@ -19,7 +19,7 @@ export const homeEVChargers = [
     items: [
       `<strong>Your car's onboard charging limit:</strong> A charger can only deliver what the car accepts, so look up your model's AC charging rate first.`,
       `<strong>Your electricity supply:</strong> Find out whether your home is single-phase or three-phase. Check how much spare capacity your main distribution board has when the air conditioning is running at full summer load.`,
-      `<strong>Parking spot and cable route:</strong> Measure the distance from the distribution board to where you park. If you want app control, check for Wi-Fi or mobile signal there.`,
+      `<strong>Parking spot and cable route:</strong> Measure the distance from the distribution board to where you park.`,
       `<strong>A DEWA-approved installer:</strong> Villas don't need a separate DEWA permit, but the work must be done by a DEWA-approved contractor.`,
       `<strong>Permissions:</strong> Tenants and apartment residents need sign-off from the landlord or building management. Apartment owners can see <a href="/ev-charger-installation-dubai-apartments" target="_blank">how building NOC approval works for an apartment EV charger</a>, as the paperwork differs.`,
     ],
