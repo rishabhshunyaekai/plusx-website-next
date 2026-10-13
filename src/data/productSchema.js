@@ -166,18 +166,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "Type 2, EN62196",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Wall Charger AC 11kW – Type 2",
-    description: "The PlusX Wall Charger AC 11kW – Type 2 is a reliable and easy to use wall-mounted EV charger designed for home and commercial charging. Engineered with advanced safety protections including leakage detection, overcurrent control, surge protection, and temperature safeguards, it supports card swipe, plug and play.",
+    description: "The PlusX Wall Charger AC 11kW – Type 2 is a reliable and easy to use wall-mounted EV charger designed for home and commercial charging. Engineered with advanced safety protections including leakage detection, overcurrent control, surge protection, and temperature safeguards.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -224,18 +224,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "Type 2, EN62196",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Wall Charger AC 22kW – Type 2",
-    description: "The PlusX Wall Charger AC 22kW – Type 2 is a dependable and easy to use wall-mounted EV charger, ideal for home, villa, office, and workplace installations. Built with essential safety protections including leakage detection, overcurrent control, surge protection, and temperature safeguards, it supports card swipe, plug and play.",
+    description: "The PlusX Wall Charger AC 22kW – Type 2 is a dependable and easy to use wall-mounted EV charger, ideal for home, villa, office, and workplace installations. Built with essential safety protections including leakage detection, overcurrent control, surge protection, and temperature safeguards.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -282,18 +282,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "Type 2, EN62196",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Movable Charger DC 20kW – CCS2",
-    description: "The PlusX Movable Charger DC 20kW – CCS2 is a portable and powerful DC charging solution built for flexible, on-site electric vehicle charging across multiple environments. It features a durable CCS2 charging cable, clear indicator lights, and a full suite of safety protections, supporting card swipe, plug-and-play.",
+    description: "The PlusX Movable Charger DC 20kW – CCS2 is a portable and powerful DC charging solution built for flexible, on-site electric vehicle charging across multiple environments. It features a durable CCS2 charging cable, clear indicator lights, and a full suite of safety protections.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -340,18 +340,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Movable Charger DC 30kW – CCS2",
-    description: "The PlusX Movable Charger DC 30kW – CCS2 is a portable and powerful DC charging solution designed for flexible, on-site EV charging across a wide range of environments. It comes with a durable CCS2 charging cable, clear indicator lights, and comprehensive safety protections, supporting card swipe, plug-and-play.",
+    description: "The PlusX Movable Charger DC 30kW – CCS2 is a portable and powerful DC charging solution designed for flexible, on-site EV charging across a wide range of environments. It comes with a durable CCS2 charging cable, clear indicator lights, and comprehensive safety protections.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -398,18 +398,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Wallbox Charger DC 20kW – CCS2",
-    description: "The PlusX Wallbox Charger DC 20kW – CCS2 is a compact and efficient DC wall-mounted charger designed for fast, reliable EV charging in any setting. It features a durable CCS2 cable, clear indicator lights, and essential safety protections, supporting card swipe, plug & play.",
+    description: "The PlusX Wallbox Charger DC 20kW – CCS2 is a compact and efficient DC wall-mounted charger designed for fast, reliable EV charging in any setting. It features a durable CCS2 cable, clear indicator lights, and essential safety protections.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -456,18 +456,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX Wallbox Charger DC 30kW – CCS2",
-    description: "The PlusX Wallbox Charger DC 30kW – CCS2 is a robust wall-mounted DC charging unit designed to bring high-efficiency EV charging into residential and commercial environments. Built with a strong CCS2 connector and clear status indicators, it includes advanced safety layers and supports card swipe, plug-and-charge.",
+    description: "The PlusX Wallbox Charger DC 30kW – CCS2 is a robust wall-mounted DC charging unit designed to bring high-efficiency EV charging into residential and commercial environments. Built with a strong CCS2 connector and clear status indicators, it includes advanced safety layers.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -514,18 +514,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX High Power DC 60kW Fast Charger",
-    description: "The PlusX High Power DC 60kW Fast EV Charger is a durable, high-performance charging station built for public and commercial use. It features strong CCS2 cables, easy-to-read indicator lights, and advanced safety protections, supporting card swipe, plug & play.",
+    description: "The PlusX High Power DC 60kW Fast EV Charger is a durable, high-performance charging station built for public and commercial use. It features strong CCS2 cables, easy-to-read indicator lights, and advanced safety protections.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -572,18 +572,18 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "PlusX High Power DC 120kW Fast Charger",
-    description: "The PlusX High Power DC 120kW Fast EV Charger is engineered for locations that require rapid, high-capacity charging to support heavy EV traffic. Equipped with durable CCS2 connectors, bright indicator lights, and a complete protection system covering leakage, overcurrent, surge, and temperature control, it supports card authentication, plug-and-charge.",
+    description: "The PlusX High Power DC 120kW Fast EV Charger is engineered for locations that require rapid, high-capacity charging to support heavy EV traffic. Equipped with durable CCS2 connectors, bright indicator lights, and a complete protection system covering leakage, overcurrent, surge, and temperature control.",
     brand: {
       "@type": "Brand",
       name: "PlusX Electric",
@@ -630,11 +630,11 @@ export const productSchema = [
         name: "Connector Type",
         value: "CCS2",
       },
-      {
-        "@type": "PropertyValue",
-        name: "Start Modes",
-        value: "Card swipe, plug & play",
-      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
     ],
   },
 

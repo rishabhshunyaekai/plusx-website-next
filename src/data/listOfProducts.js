@@ -38,7 +38,7 @@ export const chargers = [
       content: `The PlusX Portable EV Charger is a compact, powerful, and easy to use 7 kW AC charger designed for homes, apartments, villas, offices, commercial spaces, and fleet operations. Fully compatible with all GCC electric vehicles, it offers safe and reliable charging with built-in protection against voltage, current, and temperature fluctuations. Its plug and charge design makes daily EV charging simple and convenient without complex installation. Ideal for EV owners and businesses looking for a dependable, portable solution, the PlusX Portable EV Charger delivers unmatched flexibility, universal compatibility, and performance for every charging need in the GCC.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -78,7 +78,7 @@ export const chargers = [
       content: `The PlusX Portable EV Charger is a compact and powerful EV charger 11kW 3 phase, designed for homes, apartments, villas, offices, commercial buildings, and fleet operations. Fully compatible with all GCC electric vehicles, it delivers safe and reliable charging with built-in protection against voltage, current, and temperature fluctuations. Its plug-and-charge design requires no complex installation, offering instant convenience for daily use. Ideal for EV owners and businesses seeking a portable, dependable charging option, the PlusX Portable EV Charger provides exceptional flexibility, universal compatibility, and consistent performance across every charging environment in the GCC.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -119,7 +119,7 @@ export const chargers = [
       content2: `Its weather-resistant design makes it ideal for both indoor and outdoor installations. Fully compatible with all GCC electric vehicles, the PlusX Wall Charger is the perfect choice for EV owners looking for a dependable and efficient home or commercial charging solution.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -130,7 +130,6 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -157,10 +156,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Wall Charger AC 11kW – Type 2 is a reliable and easy to use wall-mounted EV charger designed for  home and commercial charging. Built with a durable Type 2 charging cable and clear indicator lights, it allows you to monitor charging status instantly.`,
-      content2: `Engineered with advanced safety protections, including leakage detection, overcurrent control, surge protection, and temperature safeguards—it ensures secure and stable charging every time. The charger supports card swipe, plug and play, and giving users complete flexibility. With its weather resistance design and easy installation, the PlusX 11kW Wall Charger is an ideal choice for EV owners seeking a safe, efficient, and long-lasting charging solution.`,
+      content2: `Engineered with advanced safety protections, including leakage detection, overcurrent control, surge protection, and temperature safeguards—it ensures secure and stable charging every time. With its weather resistance design and easy installation, the PlusX 11kW Wall Charger is an ideal choice for EV owners seeking a safe, efficient, and long-lasting charging solution.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -171,7 +170,6 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -198,10 +196,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Wall Charger AC 22kW – Type 2 is a dependable and easy to use wall-mounted EV charger, ideal for home, villa, office, and workplace installations. It features a durable Type 2 charging cable with clear indicator lights for quick charging status visibility.`,
-      content2: `Built with essential safety protections—including leakage detection, overcurrent control, surge protection, and temperature safeguards—it ensures safe and stable charging for all GCC electric vehicles. Supporting card swipe, plug and play, and it offers flexible usage for both residential and commercial needs. Its weather-resistant design makes it suitable for indoor or outdoor installation, and it comes with a 3-year warranty for long-term reliability.`,
+      content2: `Built with essential safety protections—including leakage detection, overcurrent control, surge protection, and temperature safeguards—it ensures safe and stable charging for all GCC electric vehicles. It offers flexible usage for both residential and commercial needs. Its weather-resistant design makes it suitable for indoor or outdoor installation, and it comes with a 3-year warranty for long-term reliability.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -212,7 +210,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -239,10 +237,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Movable Charger DC 20kW – CCS2 is a portable and powerful DC charging solution built for flexible, on-site electric vehicle charging across multiple environments. Designed for mobility and fast deployment, it features a durable CCS2 charging cable, clear indicator lights, and a full suite of safety protections, including leakage detection, overcurrent control, surge protection, and temperature safeguards.`,
-      content2: `This smart charger supports card swipe, plug-and-play, and giving users complete control and convenience. With an open power cord or plug-in setup option, installation becomes quick and effortless, making it ideal for temporary or permanent charging points. Perfect for open spaces, apartments, villas, warehouses, commercial buildings, hotels, malls, and fleet areas, the PlusX Movable Charger DC 20kW provides fast DC charging exactly where it's needed. Fully compatible with all GCC electric vehicles, it offers unmatched flexibility for property owners, businesses, and EV operators.`,
+      content2: `This smart charger gives users complete control and convenience. With an open power cord or plug-in setup option, installation becomes quick and effortless, making it ideal for temporary or permanent charging points. Perfect for open spaces, apartments, villas, warehouses, commercial buildings, hotels, malls, and fleet areas, the PlusX Movable Charger DC 20kW provides fast DC charging exactly where it's needed. Fully compatible with all GCC electric vehicles, it offers unmatched flexibility for property owners, businesses, and EV operators.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -253,7 +251,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -280,10 +278,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Movable Charger DC 30kW – CCS2 is a portable and powerful DC charging solution designed for flexible, on-site EV charging across a wide range of environments. Built for mobility and quick deployment, it comes with a durable CCS2 charging cable, clear indicator lights, and comprehensive safety protections including leakage detection, overcurrent control, surge protection, and temperature safeguards.`,
-      content2: `It supports card swipe, plug-and-play, and giving users complete control and convenience. With an open power cord or plug-in setup option, installation is fast and effortless, making it suitable for both temporary and permanent charging points. Perfect for open spaces, apartments, villas, warehouses, commercial buildings, hotels, malls, and fleet areas, the PlusX Movable Charger DC 30kW delivers dependable DC charging wherever it's needed. Fully compatible with all GCC electric vehicles and backed by a 3-year warranty, it offers unmatched flexibility, reliability, and long-term value for businesses and property owners.`,
+      content2: `It gives users complete control and convenience. With an open power cord or plug-in setup option, installation is fast and effortless, making it suitable for both temporary and permanent charging points. Perfect for open spaces, apartments, villas, warehouses, commercial buildings, hotels, malls, and fleet areas, the PlusX Movable Charger DC 30kW delivers dependable DC charging wherever it's needed. Fully compatible with all GCC electric vehicles and backed by a 3-year warranty, it offers unmatched flexibility, reliability, and long-term value for businesses and property owners.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -294,7 +292,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -321,10 +319,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Wallbox Charger DC 20kW – CCS2 is a compact and efficient DC wall-mounted charger designed for fast, reliable EV charging in any setting. It features a durable CCS2 cable, clear indicator lights, and essential safety protections, including leakage, overcurrent, surge, and temperature safeguards.`,
-      content2: `Supporting card swipe, plug & play, and it offers flexible operation for all user needs. Easy to install and compatible with all GCC vehicles, it is ideal for DC chargers for home, DC charger for villa, DC charger for apartment, as well as warehouses, commercial buildings, hotels, malls, and open spaces.`,
+      content2: `The charger offers flexible operation for all user needs. Easy to install and compatible with all GCC vehicles, it is ideal for DC chargers for home, DC charger for villa, DC charger for apartment, as well as warehouses, commercial buildings, hotels, malls, and open spaces.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -335,7 +333,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -348,7 +346,7 @@ export const chargers = [
     price: "28500 AED",
     previousPrice: "30000 AED",
     image: WallboxChargerDC,
-    description: "The PlusX Wallbox Charger DC 30kW – CCS2 delivers dependable DC charging for homes, villas, apartments, and commercial spaces. With flexible card, plug & play, it provides a safe, easy, and efficient solution compatible with all GCC EVs.",
+    description: "The PlusX Wallbox Charger DC 30kW – CCS2 delivers dependable DC charging for homes, villas, apartments, and commercial spaces. It provides a safe, easy, and efficient charging solution compatible with all GCC EVs.",
     compatible: "Works with all EVs",
     output: "DC 30 KW",
     warrenty: "3 years warranty from the date of installation",
@@ -362,10 +360,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX Wallbox Charger DC 30kW – CCS2 is a robust wall-mounted DC charging unit designed to bring high-efficiency EV charging into residential and commercial environments. Built with a strong CCS2 connector and clear status indicators, it ensures smooth operation and easy monitoring.`,
-      content2: `This charger includes advanced safety layers—leakage protection, overcurrent management, surge control, and thermal safeguards—offering a secure charging experience for all GCC electric vehicles. Users can choose between card swipe, simple plug-and-charge, or making it suitable for a variety of installation needs. Engineered for convenience and quick setup, the PlusX DC 30kW Wallbox is an excellent choice for DC chargers for home, DC charger for villa, DC charger for apartment, as well as warehouses, hotels, malls, and other commercial locations. It’s a reliable, space-efficient solution for properties that need consistent and powerful DC charging without a large infrastructure footprint.`,
+      content2: `This charger includes advanced safety layers—leakage protection, overcurrent management, surge control, and thermal safeguards—offering a secure charging experience for all GCC electric vehicles. Engineered for convenience and quick setup, the PlusX DC 30kW Wallbox is an excellent choice for DC chargers for home, DC charger for villa, DC charger for apartment, as well as warehouses, hotels, malls, and other commercial locations. It’s a reliable, space-efficient solution for properties that need consistent and powerful DC charging without a large infrastructure footprint.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -376,7 +374,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -403,10 +401,10 @@ export const chargers = [
       // isDisplayButton: true,
       // link: '#',
       content: `The PlusX High Power DC 60kW Fast EV Charger is a durable, high-performance charging station built for public and commercial use. Designed to deliver consistent fast charging, it features strong CCS2 cables, easy-to-read indicator lights, and advanced safety protections such as leakage, overcurrent, surge, and temperature control.`,
-      content2: `Supporting card swipe, plug & play, and it offers flexible operation for all users. Its weatherproof, heavy-duty build makes it suitable for outdoor and indoor installations. Fully compatible with all GCC electric vehicles, it provides reliable, efficient DC charging for busy commercial locations, fleets, malls, hotels, and more.`,
+      content2: `It offers flexible operation to meet the needs of all users. Its weatherproof, heavy-duty build makes it suitable for outdoor and indoor installations. Fully compatible with all GCC electric vehicles, it provides reliable, efficient DC charging for busy commercial locations, fleets, malls, hotels, and more.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -417,7 +415,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
@@ -447,7 +445,7 @@ export const chargers = [
       content2: `Equipped with durable CCS2 connectors and bright indicator lights, it ensures smooth user interaction and clear charging visibility. The charger includes a complete protection system—covering leakage, overcurrent, surge, and temperature control—to maintain safe operation at high loads. With support for card authentication, plug-and-charge, and operators gain full flexibility in how charging is delivered. Built with a strong, weather-resistant enclosure, the PlusX DC 120kW charger is designed for long-term outdoor and indoor performance. Fully compatible with all GCC EVs, it is the ideal solution for providers seeking fast, stable, and scalable DC charging infrastructure.`,
     },
     disclaimer : {
-      title: "Product Design Disclaimer",
+      title: "Disclaimer",
       content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
     },
     features: {
@@ -458,7 +456,7 @@ export const chargers = [
         "Leakage protection: Type B (RCD 30mA AC+6mA DC)",
         "IP54, Weather proof; Leakage current protection; Impact resistance, Over current protection, Ground protection, Surge protection, O/U voltage protection, O/U frequency protection, Over temp protection",
         "Power cord open, ready to assemble into electricity / or with power plug",
-        "Start mode: card swipe / plug & play",
+        // "Start mode: card swipe / plug & play",
       ],
       buttonText: "Specification",
       buttonLink: "#",
