@@ -37,6 +37,7 @@ import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx
 import commonMistakes                 from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
 import optionsCharging                from "@/assets/images/homepage/blogs/plusx_electric_charging_options.webp";
 import afterBeforeInstallating        from "@/assets/images/homepage/blogs/plusx_electric_ev_charger_installation_checked.webp";
+import boomingEVCharige               from "@/assets/images/homepage/blogs/plusxelectric_ev_charging_booming.webp";
 // import rsRescue                       from "@/assets/images/homepage/blogs/plusx_electric_driver_know_roadside_rescue.webp";
  
 //Blog content pages
@@ -79,8 +80,18 @@ import { fiveCommonMistakes } from "@/data/blogsList/fiveCommonMistakes";
 import { chargerOptions }     from "@/data/blogsList/charger_options_uae";
 import { driverKnowRSRescue } from "@/data/blogsList/driver_know_rs_rescue";
 import { homeEVChargers }     from "@/data/blogsList/afterBefore";
+import { eVChargeBooming }    from "@/data/blogsList/evChargeBooming";
 
 export const testimonials = [
+  {
+    slug            : "why-ev-charging-is-booming-in-dubai",
+    title           : "From Range Anxiety to Real Confidence: Why EV Charging Is Booming in Dubai",
+    image           : boomingEVCharige,
+    alt             : "EV Charging Is Booming in Dubai",
+    metaTitle       : "From Range Anxiety to Real Confidence: Why EV Charging Is Booming in Dubai | PlusX Electric",
+    metaDescription : "Discover why EV charging is booming in Dubai, with 2,223 charge points by March 2026. Explore network growth, private operators, and flexible charging options.",
+    content         : eVChargeBooming,
+  },
   {
     slug            : "home-ev-charger-installation-checklist",
     title           : "What to Check Before, During and After Installing a Home EV Charger",
