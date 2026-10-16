@@ -429,6 +429,12 @@ export default function sitemap() {
       changeFrequency : "weekly",
       priority        : 0.7,
     },
+    {
+      url             : `${baseUrl}why-ev-charging-is-booming-in-dubai`,
+      lastModified    : new Date("2026-10-16T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.7,
+    },
 
     {
       url             : `${baseUrl}about-us`,
