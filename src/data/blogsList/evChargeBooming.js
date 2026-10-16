@@ -1,6 +1,6 @@
 import portableDesktop  from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_desktop_banner.webp";
 import portableMobile   from "@/assets/images/homepage/blogs/banners/plusx_electric_portable_pod_mobile_banner.webp";
-import blogImage        from "@/assets/images/homepage/blogs/plusxelectric_ev_charging_booming.webp";
+import blogImage        from "@/assets/images/homepage/blogs/plusxelectric_ev_charging_booming_in_dubai.webp";
 
 const BASE_URL               = process.env.NEXT_PUBLIC_BASE_URL;
 export const eVChargeBooming = [

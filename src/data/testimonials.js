@@ -37,7 +37,7 @@ import evBattaryMistake               from "@/assets/images/homepage/blogs/plusx
 import commonMistakes                 from "@/assets/images/homepage/blogs/plusx_electric_five_common_mistakes.webp";
 import optionsCharging                from "@/assets/images/homepage/blogs/plusx_electric_charging_options.webp";
 import afterBeforeInstallating        from "@/assets/images/homepage/blogs/plusx_electric_ev_charger_installation_checked.webp";
-import boomingEVCharige               from "@/assets/images/homepage/blogs/plusxelectric_ev_charging_booming.webp";
+import boomingEVCharige               from "@/assets/images/homepage/blogs/plusxelectric_ev_charging_booming_in_dubai.webp";
 // import rsRescue                       from "@/assets/images/homepage/blogs/plusx_electric_driver_know_roadside_rescue.webp";
  
 //Blog content pages
