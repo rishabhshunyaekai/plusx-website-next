@@ -45,7 +45,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-breakdown-assistance`,
-      lastModified    : new Date("2026-11-06T05:44:30+01:00"),
+      lastModified    : new Date("2026-11-05T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -107,8 +107,14 @@ export default function sitemap() {
       priority        : 0.9,
     },
     {
+      url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/7kw-ac-wall-charger-ultra-series`,
+      lastModified    : new Date("2026-11-05T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
       url             : `${baseUrl}ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-7kw`,
-      lastModified    : new Date("2026-10-13T05:44:30+01:00"),
+      lastModified    : new Date("2026-11-05T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
