@@ -115,6 +115,64 @@ export const productSchema = [
       },
     ],
   },
+   {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    name: "Wall Charger AC 7kW – Ultra Series",
+    description: "Experience smart, efficient, and convenient EV charging with the PlusX Electric 7kW Ultra Series AC Wall Charger. Designed for residential and commercial use, this single- phase charger delivers up to 7kW of charging power. It features a 4.3-inch LCD display, PIN/RFID authentication, and Wi-Fi, 4G, and LAN connectivity for seamless charging management. With an IP54-rated enclosure and built-in overvoltage protection, it offers a reliable and user-friendly charging experience.",
+    brand: {
+      "@type": "Brand",
+      name: "PlusX Electric",
+    },
+    url: "https://plusxelectric.com/ev-charger-installation-uae/7kw-ac-wall-charger-ultra-series",
+    sku: "evc-003",
+    offers: {
+      "@type": "Offer",
+      url: "https://plusxelectric.com/ev-charger-installation-uae/7kw-ac-wall-charger-ultra-series",
+      priceCurrency: "AED",
+      price: "1699",
+      priceValidUntil: "REPLACE_WITH_DATE",
+      availability: "https://schema.org/InStock",
+      itemCondition: "https://schema.org/NewCondition",
+    },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Output Power",
+        value: "AC 7 kW",
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Compatibility",
+        value: "Works with all EVs (GCC compatible)",
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Warranty",
+        value: "3 years from date of installation",
+      },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Ingress Protection",
+      //   value: "IP54*",
+      // },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Leakage Protection",
+      //   value: "Type B (RCD 30mA AC + 6mA DC)",
+      // },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Connector Type",
+      //   value: "Type 2, EN62196",
+      // },
+      // {
+      //   "@type": "PropertyValue",
+      //   name: "Start Modes",
+      //   value: "Card swipe, plug & play",
+      // },
+    ],
+  },
   {
     "@context": "https://schema.org/",
     "@type": "Product",
@@ -125,7 +183,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-7kw",
-    sku: "evc-003",
+    sku: "evc-004",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-7kw",
@@ -183,7 +241,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-11kw",
-    sku: "evc-004",
+    sku: "evc-005",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-11kw",
@@ -241,7 +299,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-22kw",
-    sku: "evc-005",
+    sku: "evc-006",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wall-charger-ac-22kw",
@@ -299,7 +357,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-20kw",
-    sku: "evc-006",
+    sku: "evc-007",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-20kw",
@@ -357,7 +415,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-30kw",
-    sku: "evc-007",
+    sku: "evc-008",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/movable-charger-dc-30kw",
@@ -415,7 +473,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-20kw",
-    sku: "evc-008",
+    sku: "evc-009",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-20kw",
@@ -473,7 +531,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-30kw",
-    sku: "evc-009",
+    sku: "evc-010",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/wallbox-charger-dc-30kw",
@@ -531,7 +589,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-60kw",
-    sku: "evc-010",
+    sku: "evc-011",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-60kw",
@@ -589,7 +647,7 @@ export const productSchema = [
       name: "PlusX Electric",
     },
     url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-120kw",
-    sku: "evc-011",
+    sku: "evc-012",
     offers: {
       "@type": "Offer",
       url: "https://plusxelectric.com/ev-charger-installation-uae/ac-dc-ev-chargers/high-power-dc-120kw",

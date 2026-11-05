@@ -38,6 +38,8 @@ function MultipleImage({product, type }) {
   //     product_name: product?.name ?? ""
   //   }));
   // }, [product]);
+  const isDisabledProduct = product?.id === "evc-004";
+  const buttonText = isDisabledProduct ? "Out of Stock" : "Get a Quote";
 
   function handleInputChange(event) {
     const { name, value, type, checked } = event.target;
@@ -156,7 +158,8 @@ return (
               </div>
             )}
 
-            <button className={styles.buyBtn} onClick={handleModal} type="button">Get a Quote</button>
+            {/* <button className={styles.buyBtn} onClick={handleModal} type="button">Get a Quote</button> */}
+            <button className={styles.buyBtn} onClick={handleModal} type="button" disabled={isDisabledProduct}>{buttonText}</button>
           </Animated>
         </div>
       </div>

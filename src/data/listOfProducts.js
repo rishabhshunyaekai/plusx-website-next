@@ -4,6 +4,7 @@ import WallChargerAC        from "@/assets/images/ev-charger-installation-page/p
 import MovableChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Movable_Charger_DC.webp";
 import WallboxChargerDC     from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_Wall_box_Charger_DC.webp";
 import HighPowerDCCharger   from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_High_Power_DC_Charger.webp";
+import UltraSeriesCharger   from "@/assets/images/ev-charger-installation-page/products/chargers/plusx_electric_ulta_series_charger_7kw.webp";
 
 //Accessories Images
 import FixedBase  from "@/assets/images/ev-charger-installation-page/products/accessories/plusx_electric_fixed_base.webp";
@@ -97,6 +98,51 @@ export const chargers = [
   },
   {
     id: "evc-003",
+    name: "Wall Charger AC 7kW – Ultra Series",
+    slug: "7kw ac wall charger ultra series".toLowerCase().replace(/\s+/g, "-"),
+    price: "1699 AED",
+    previousPrice: "2000 AED",
+    image: UltraSeriesCharger,
+    description: "Experience smart and reliable EV charging with 7kW power, an LCD display, RFID access, and Wi-Fi/4G connectivity.",
+    compatible: "Works with all EVs",
+    output: "AC 7 KW",
+    warrenty: "3 years warranty from the date of installation",
+    metaTitle: "PlusX Electric 7kW AC Wall Charger – Ultra Series",
+    metaDescription: "Discover the PlusX Electric 7kW Ultra Series AC Wall Charger with smart LCD display, RFID authentication, Wi-Fi/4G connectivity and IP54 protection for reliable EV charging.",
+
+    introData: {
+      title: "PlusX Electric 7kW AC Wall Charger – Ultra Series",
+      // buttonText: "Request Assistance",
+      // buttonText: "Download the app to required services",
+      // isDisplayButton: true,
+      // link: '#',
+      content: `Experience smart, efficient, and convenient EV charging with the PlusX Electric 7kW Ultra Series AC Wall Charger. Designed for residential and commercial use, this single- phase charger delivers up to 7kW of charging power. It features a 4.3-inch LCD display, PIN/RFID authentication, and Wi-Fi, 4G, and LAN connectivity for seamless charging management. With an IP54-rated enclosure and built-in overvoltage protection, it offers a reliable and user-friendly charging experience.`,
+      // content2: `Equipped with durable CCS2 connectors and bright indicator lights, it ensures smooth user interaction and clear charging visibility. The charger includes a complete protection system—covering leakage, overcurrent, surge, and temperature control—to maintain safe operation at high loads. With support for card authentication, plug-and-charge, and operators gain full flexibility in how charging is delivered. Built with a strong, weather-resistant enclosure, the PlusX DC 120kW charger is designed for long-term outdoor and indoor performance. Fully compatible with all GCC EVs, it is the ideal solution for providers seeking fast, stable, and scalable DC charging infrastructure.`,
+    },
+    disclaimer : {
+      title: "Disclaimer",
+      content: `EV charger features, specifications, and pricing may vary depending on the selected model and availability. Please refer to the quotation or \nproposal shared with you for the exact features, specifications, and applicable charges. Product images are for reference purposes \nonly. The actual charger's design, color, shape, or outer casing may vary depending on stock availability and model updates.`,
+    },
+    features: {
+      items: [
+        "7kW Charging Power: Delivers up to 7kW AC charging for electric vehicles",
+        "4.3-inch LCD Display: Easy-to-read screen for monitoring charging information.",
+        "Smart Connectivity: Supports Wi-Fi, 4G, and LAN connectivity.",
+        "Multiple Authentication Options: Secure charging access through PIN, RFID, or open mode.",
+        "IP54-Rated Protection: Designed to resist dust and water splashes.",
+        "Overvoltage Protection: Built-in protection against excessive voltage.",
+        "Single-Phase Charging: Operates on a 110–240V AC power supply.",
+        "32A Rated Current: Supports charging at up to 32 amps.",
+        "Mode 3 AC Charging: Supports Mode 3 charging technology.",
+        "Compact Design: Designed for convenient installation and everyday use.",
+        // "Start mode: card swipe / plug & play",
+      ],
+      buttonText: "Specification",
+      buttonLink: "#",
+    },
+  },
+  {
+    id: "evc-004",
     name: "Wall Charger AC 7KW",
     slug: "Wall Charger AC 7KW".toLowerCase().replace(/\s+/g, "-"),
     price: "1499 AED",
@@ -136,7 +182,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-004",
+    id: "evc-005",
     name: "Wall Charger AC 11kW",
     slug: "Wall Charger AC 11kW".toLowerCase().replace(/\s+/g, "-"),
     price: "1799 AED + VAT",
@@ -176,7 +222,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-005",
+    id: "evc-006",
     name: "Wall Charger AC 22kW",
     slug: "Wall Charger AC 22kW".toLowerCase().replace(/\s+/g, "-"),
     price: "2499 AED + VAT",
@@ -217,7 +263,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-006",
+    id: "evc-007",
     name: "Movable Charger DC 20kW",
     slug: "Movable Charger DC 20kW".toLowerCase().replace(/\s+/g, "-"),
     price: "23000 AED",
@@ -258,7 +304,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-007",
+    id: "evc-008",
     name: "Movable Charger DC 30kW",
     slug: "Movable Charger DC 30kW".toLowerCase().replace(/\s+/g, "-"),
     price: "28500 AED",
@@ -299,7 +345,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-008",
+    id: "evc-009",
     name: "Wallbox Charger DC 20kW",
     slug: "Wallbox Charger DC 20kW".toLowerCase().replace(/\s+/g, "-"),
     price: "22000 AED",
@@ -340,7 +386,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-009",
+    id: "evc-010",
     name: "Wallbox Charger DC 30kW",
     slug: "Wallbox Charger DC 30kW".toLowerCase().replace(/\s+/g, "-"),
     price: "28500 AED",
@@ -381,7 +427,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-010",
+    id: "evc-011",
     name: "High Power DC 60KW",
     slug: "High Power DC 60KW".toLowerCase().replace(/\s+/g, "-"),
     price: "75750 AED",
@@ -422,7 +468,7 @@ export const chargers = [
     },
   },
   {
-    id: "evc-011",
+    id: "evc-012",
     name: "High Power DC 120KW",
     slug: "High Power DC 120KW".toLowerCase().replace(/\s+/g, "-"),
     price: "86500 AED",
