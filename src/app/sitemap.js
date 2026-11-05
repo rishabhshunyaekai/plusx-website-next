@@ -45,7 +45,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-breakdown-assistance`,
-      lastModified    : new Date("2026-09-03T05:44:30+01:00"),
+      lastModified    : new Date("2026-11-06T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
