@@ -7,14 +7,14 @@ function RSAFaqs() {
     "@context"  : "https://schema.org",
     "@type"     : "FAQPage",
     "mainEntity": [
-        {
-            "@type" : "Question",
-            "name"  : "How much does EV roadside assistance cost in Dubai?",
-            "acceptedAnswer": {
-                "@type" : "Answer",
-                "text"  : "From AED 185 + VAT for an on-site charging, jump start included if required."
-            }
-        },
+        // {
+        //     "@type" : "Question",
+        //     "name"  : "How much does EV roadside assistance cost in Dubai?",
+        //     "acceptedAnswer": {
+        //         "@type" : "Answer",
+        //         "text"  : "From AED 185 + VAT for an on-site charging, jump start included if required."
+        //     }
+        // },
         {
             "@type" : "Question",
             "name"  : "What happens if my EV battery is completely dead?",

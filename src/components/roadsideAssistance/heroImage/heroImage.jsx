@@ -12,7 +12,8 @@ function HeroImage() {
             <span className={style.slug}>EV Breakdown Assistance in Dubai</span><br/>
             <span className={style.slug2}>On-Site Charging & Jump-Start — 24/7 Rescue</span>
           </div>
-          <p className={style.priceLine}>Starting from <strong>AED 185*</strong> + VAT<br/>Get 10% Off When You Book Through Our App<br/>Use Coupon Code: <strong>RSA10%OFF</strong></p>
+          {/* <p className={style.priceLine}>Starting from <strong>AED 185*</strong> + VAT<br/>Get 10% Off When You Book Through Our App<br/>Use Coupon Code: <strong>RSA10%OFF</strong></p> */}
+          <p className={style.priceLine}>Get 10% Off When You Book Through Our App<br/>Use Coupon Code: <strong>RSA10%OFF</strong></p>
           <div className={style.buttonContainer}>
             <RedirectToWhatsapp className={style.ctaButton} isShowIcon={false} text="Get Emergency Help" isRSA={true} />
             <CTAButton className={style.ctaButton} text="Download App" handler="roadsidePage" />

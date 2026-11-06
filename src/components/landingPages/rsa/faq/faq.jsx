@@ -54,14 +54,14 @@ const FAQ = () => {
                     "text"  : "Call PlusX first. Our mobile equipment can fix most problems with EV batteries on the spot. You should think about towing if charging on-site doesn't work for you."
                 }
             },
-            {
-                "@type" : "Question",
-                "name"  : "What is the cost of emergency EV charging in Dubai?",
-                "acceptedAnswer": {
-                    "@type" : "Answer",
-                    "text"  : "There are no hidden call-out fees for PlusX roadside charging, which costs AED 185 plus VAT (Jump Start Included)."
-                }
-            },
+            // {
+            //     "@type" : "Question",
+            //     "name"  : "What is the cost of emergency EV charging in Dubai?",
+            //     "acceptedAnswer": {
+            //         "@type" : "Answer",
+            //         "text"  : "There are no hidden call-out fees for PlusX roadside charging, which costs AED 185 plus VAT (Jump Start Included)."
+            //     }
+            // },
             {
                 "@type" : "Question",
                 "name"  : "How much driving range does an emergency EV charging service provide in Dubai?",
