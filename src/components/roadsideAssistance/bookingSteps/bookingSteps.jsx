@@ -29,7 +29,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={step1} alt="PlusX Electric App" width={58} height={58} />
             </div>
-            <p className={style.steps}>Book through the PlusX Electric app or share your location and details with us on WhatsApp</p>
+            <p className={style.steps}>Book through the PlusX Electric app or share your location and details with us via WhatsApp</p>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -51,7 +51,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={location} alt="PlusX Electric On-site charging" width={58} height={58} />
             </div>
-            <p className={style.steps}>On-site charging is done</p>
+            <p className={style.steps}>Jump-start assistance, if required, and on-site charging will be provided</p>
           </div>
           <div className={style.stepsCard}>
             <div className={style.stepsArrowImage}>
@@ -62,7 +62,7 @@ function BookingSteps() {
             <div className={style.stepsImage}>
               <Image src={Car} alt="PlusX Electric Jump-start" width={58} height={58} />
             </div>
-            <p className={style.steps}>Jump-start if required, and you&apos;re ready to move again.</p>
+            <p className={style.steps}>You&apos;re ready to get back on the road</p>
           </div>
         </Animated>
 

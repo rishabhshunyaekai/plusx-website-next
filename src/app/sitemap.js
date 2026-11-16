@@ -45,7 +45,7 @@ export default function sitemap() {
     },
     {
       url             : `${baseUrl}ev-breakdown-assistance`,
-      lastModified    : new Date("2026-11-05T05:44:30+01:00"),
+      lastModified    : new Date("2026-11-14T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },
@@ -88,6 +88,12 @@ export default function sitemap() {
     {
       url             : `${baseUrl}plusx-electric-app`,
       lastModified    : new Date("2026-09-15T05:44:30+01:00"),
+      changeFrequency : "weekly",
+      priority        : 0.9,
+    },
+    {
+      url             : `${baseUrl}tesla-ev-charging-dubai`,
+      lastModified    : new Date("2026-11-14T05:44:30+01:00"),
       changeFrequency : "weekly",
       priority        : 0.9,
     },

@@ -13,6 +13,7 @@ function useAdvertisingWpMess(type, isRSA=false) {
     "/ev-charger-installation-uae"          : `Hi PlusX Electric Team ⚡\nI’m interested in installing a Fixed EV Charger.`,
     "/complete-ev-care-dubai"               : `Hi PlusX Electric 👋 \n I'd like to book your EV Car Detailing service. \n\n🚗 Vehicle: \n📍 Location: \n📅 Preferred Date: \n\nPlease share available packages and pricing. Thank you!`,
     "/mobile-ev-charging-dubai"             : `Hi PlusX Electric Team👋\nI’m looking for Mobile EV Charging at my location.`,
+    "/tesla-ev-charging-dubai"              : `Hi PlusX Electric Team👋\nI’m looking for Mobile EV Charging at my location.`,
     "/ev-charger-installation-dubai-apartments" : `Hi PlusX Electric,\n I’m looking to install an EV charger. Can you help me with the details?`,
   };
 
